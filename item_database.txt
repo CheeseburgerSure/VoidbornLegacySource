@@ -1,0 +1,1354 @@
+Id 1: Potion
+Desc: A potion that restores 500 HP.
+Type: Normal
+Price: 150
+Consume: true
+Scope: 7
+Occasion: 0
+Id 2: Enhanced Potion
+Desc: A magical potion that restores 2,500 HP.
+Type: Normal
+Price: 800
+Consume: true
+Scope: 7
+Occasion: 0
+Id 3: Ultimate Potion
+Desc: An enchanted potion that restores all HP.
+Type: Normal
+Price: 2000
+Consume: true
+Scope: 7
+Occasion: 0
+Id 4: Magic Water
+Desc: A vial of magical water that restores 50 MP.
+Type: Normal
+Price: 250
+Consume: true
+Scope: 7
+Occasion: 0
+Id 5: Sage's Water
+Desc: A vial of enchanted water that restores 250 MP.
+Type: Normal
+Price: 1000
+Consume: true
+Scope: 7
+Occasion: 0
+Id 6: Antidote
+Desc: Treats poison and plague.
+Type: Normal
+Price: 30
+Consume: true
+Scope: 7
+Occasion: 0
+Id 7: Dispel Herb
+Desc: Treats many status ailments.
+Type: Normal
+Price: 300
+Consume: true
+Scope: 7
+Occasion: 0
+Id 8: Elixir
+Desc: An ethereal potion that restores all HP and MP.
+Type: Normal
+Price: 7500
+Consume: true
+Scope: 7
+Occasion: 0
+Id 9: Life Up
+Desc: Increases MHP by 50.
+Type: Normal
+Price: 10000
+Consume: true
+Scope: 7
+Occasion: 2
+Id 10: Soul Up
+Desc: Increases MMP by 10.
+Type: Normal
+Price: 10000
+Consume: true
+Scope: 7
+Occasion: 2
+Id 11: Strength Up
+Desc: Increases ATK by 3.
+Type: Normal
+Price: 10000
+Consume: true
+Scope: 7
+Occasion: 2
+Id 12: Guard Up
+Desc: Increases DEF by 3.
+Type: Normal
+Price: 10000
+Consume: true
+Scope: 7
+Occasion: 2
+Id 13: Magic Up
+Desc: Increases MAT by 3.
+Type: Normal
+Price: 10000
+Consume: true
+Scope: 7
+Occasion: 2
+Id 14: Resist Up
+Desc: Increases MDF by 3.
+Type: Normal
+Price: 10000
+Consume: true
+Scope: 7
+Occasion: 2
+Id 15: Speed Up
+Desc: Increases AGI by 3.
+Type: Normal
+Price: 10000
+Consume: true
+Scope: 7
+Occasion: 2
+Id 16: Luck Up
+Desc: Increases LUK by 3.
+Type: Normal
+Price: 10000
+Consume: true
+Scope: 7
+Occasion: 2
+Id 17: Stalwort
+Desc: A natural painkiller. Recovers some HP and soothes Headaches.
+Type: Normal
+Price: 10
+Consume: true
+Scope: 7
+Occasion: 0
+Id 18: Emwood Apple Juice
+Desc: Some freshly squeezed apple juice from the famous orchards of Emwood. Recovers some HP.
+Type: Normal
+Price: 12
+Consume: true
+Scope: 7
+Occasion: 0
+Id 19: Milk
+Desc: Good fo' yo' bones! Recovers a little HP and raises DEF for the battle.
+Type: Normal
+Price: 20
+Consume: true
+Scope: 7
+Occasion: 1
+Id 20: Apple
+Desc: An apple. Recovers 25 HP.
+Type: Normal
+Price: 2
+Consume: true
+Scope: 7
+Occasion: 0
+Id 21: Bread
+Desc: A loaf of baked bread. Recovers some HP.
+Type: Normal
+Price: 20
+Consume: true
+Scope: 7
+Occasion: 0
+Id 22: Prime Juice
+Desc: Fuels energy directly into your Soul, causing significant damage but increasing your PR.
+Type: Normal
+Price: 1500
+Consume: true
+Scope: 7
+Occasion: 1
+Id 23: Slice of Bread
+Desc: A slice of baked bread. Recovers some HP.
+Type: Normal
+Price: 4
+Consume: true
+Scope: 7
+Occasion: 0
+Id 24: Bucket of Cram
+Desc: Mushy substance to put between your gums. Not dip though. Fully heals and gain 10 PR.
+Type: Normal
+Price: 3400
+Consume: true
+Scope: 7
+Occasion: 0
+Id 25: Spirit Essence
+Desc: Silvery powder left behind by a defeated spirit. Useful in Alchemy.
+Type: Normal
+Price: 50
+Consume: false
+Scope: 0
+Occasion: 3
+Id 26: Slimedrop
+Desc: Collected residue from a Slime. Useful in Alchemy.
+Type: Normal
+Price: 16
+Consume: false
+Scope: 0
+Occasion: 3
+Id 27: Bat Wings
+Desc: Wings taken from a bat. Useful in Alchemy.
+Type: Normal
+Price: 18
+Consume: false
+Scope: 0
+Occasion: 3
+Id 28: Spider Silk
+Desc: Silk extracted from a Spider. Useful in Alchemy.
+Type: Normal
+Price: 16
+Consume: false
+Scope: 0
+Occasion: 3
+Id 29: SWITCH
+Desc: An item that is added to your inventory to activate
+certain things on a whim. You should not see it.
+Type: Key
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 3
+Id 30: Hornet Venom
+Desc: The venom of a giant Hornet. Useful in Alchemy.
+Type: Normal
+Price: 26
+Consume: true
+Scope: 7
+Occasion: 0
+Id 31: Ancient Insignia
+Desc: The insignia of a kingdom from a by-gone age. There may be a collector willing to trade for them.
+Type: Key
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 3
+Id 32: Raxorium Ore
+Desc: An indescribably rare metal with wonderous traits. It's allegedly linked to some by-gone species.
+Type: Key
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 3
+Id 33: Infermius Raxorium
+Desc: A refined form of Raxorium in the elements of Infermius. Useful in alchemy.
+Type: Normal
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 3
+Id 34: Elazireth Raxorium
+Desc: A refined form of Raxorium in the elements of Elazireth. Useful in alchemy.
+Type: Normal
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 3
+Id 35: Zysargia Raxorium
+Desc: A refined form of Raxorium in the element of Zysargia. Useful in alchemy.
+Type: Normal
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 3
+Id 36: Tempora Raxorium
+Desc: A refined form of Raxorium in the elements of Tempora. Useful in alchemy.
+Type: Normal
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 3
+Id 37: Justicium Raxorium
+Desc: A refined form of Raxorium in the elements of Justicium. Useful in alchemy.
+Type: Normal
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 3
+Id 38: Maelsium Raxorium
+Desc: A refined form of Raxorium in the elements of Maelsium. Useful in alchemy. 
+Type: Normal
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 3
+Id 39: Avaking Raxorium
+Desc: A refined form of Raxorium in the elements of Avaking. Useful in alchemy.
+Type: Normal
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 3
+Id 40: Talbrian Ale
+Desc: A unique ale dubbed from it's origins in Talbury. Has a sweet, fruity taste. Restores some HP.
+Type: Normal
+Price: 38
+Consume: true
+Scope: 7
+Occasion: 0
+Id 41: Slime Remedy
+Desc: A concoction of slime and some basic herbs creates a cream that can be used to soothe Burns.
+Type: Normal
+Price: 49
+Consume: true
+Scope: 7
+Occasion: 0
+Id 42: Mead
+Desc: A simple and common alcoholic drink. Restores a little HP and PR.
+Type: Normal
+Price: 30
+Consume: true
+Scope: 7
+Occasion: 0
+Id 43: Bird Tranquiliser
+Desc: A unique drink only found in a single pub in Talbury, its recipe unknown. Recovers MP and HP.
+Type: Normal
+Price: 47
+Consume: true
+Scope: 7
+Occasion: 0
+Id 44: Skull
+Desc: A skull recovered from a skeleton. Useful in Alchemy.
+Type: Normal
+Price: 3
+Consume: false
+Scope: 0
+Occasion: 3
+Id 45: Bei Root
+Desc: The root of a Bei flower. Strong scent but is known to help in some herbal remedies. Useful in Alchemy.
+Type: Normal
+Price: 13
+Consume: false
+Scope: 0
+Occasion: 3
+Id 46: Four-Leaf Clover
+Desc: Consuming can invigorate you to be luckier and to also gain EXP faster.
+Type: Normal
+Price: 76
+Consume: true
+Scope: 7
+Occasion: 0
+Id 47: Revel Weed
+Desc: A weed that seems to grow in peace despite the presence of evil, reveling in it. Useful in Alchemy.
+Type: Normal
+Price: 37
+Consume: false
+Scope: 0
+Occasion: 3
+Id 48: Red Pearl Orchid
+Desc: A type of orchid with flowers that grow in perfect red spheres, hence the name. Useful in Alchemy.
+Type: Normal
+Price: 45
+Consume: false
+Scope: 0
+Occasion: 3
+Id 49: Celery
+Desc: Literally just celery, that horrific green malice. Useful in Alchemy, somehow. Eat to lose 1 HP.
+Type: Normal
+Price: 8
+Consume: true
+Scope: 11
+Occasion: 0
+Id 50: Juggernaut Leaf
+Desc: A famous and relatively rare leaf that is incredibly difficult to damage. Useful in Alchemy.
+Type: Normal
+Price: 55
+Consume: false
+Scope: 0
+Occasion: 3
+Id 51: Yellow Fang
+Desc: A plant who's thin flowers grows curving downwards, bearing similarity to fangs. Useful in Alchemy.
+Type: Normal
+Price: 26
+Consume: false
+Scope: 0
+Occasion: 3
+Id 52: Blue-Blood Cherries
+Desc: Bizzare cherries that appear normal but actually have bright blue juice. Useful in Alchemy.
+Type: Normal
+Price: 68
+Consume: false
+Scope: 0
+Occasion: 3
+Id 53: Hunter's Mushrooms
+Desc: A mushroom that has an incredibly strong scent when opened and so is used as a bait. Useful in Alchemy.
+Type: Normal
+Price: 51
+Consume: true
+Scope: 11
+Occasion: 1
+Id 54: Herbal Recipes
+Desc: Various collections of herbal remedies and concoctions, mostly using common ingredients.
+Type: Key
+Price: 120
+Consume: false
+Scope: 0
+Occasion: 2
+Id 55: Salmon
+Desc: A huge fish caught in the bay of the Dunnock River, a delicacy in much of the world.
+Type: Normal
+Price: 128
+Consume: true
+Scope: 7
+Occasion: 0
+Id 56: Trout
+Desc: A fish found deep in the Dunnock River. A common but popular food.
+Type: Normal
+Price: 14
+Consume: true
+Scope: 7
+Occasion: 0
+Id 57: Mountain Perch
+Desc: A long fish mostly found at the sping lakes at the foot of the western cliffs.
+Type: Normal
+Price: 25
+Consume: true
+Scope: 7
+Occasion: 0
+Id 58: Carp
+Desc: A usually quite large fish that is found all along the Dunnock River, though they are rarely caught.
+Type: Normal
+Price: 47
+Consume: true
+Scope: 7
+Occasion: 0
+Id 59: Sailors' Friend
+Desc: A type of pollack that often follows sailing ships. This unfortunately makes them easy to catch...
+Type: Normal
+Price: 7
+Consume: true
+Scope: 7
+Occasion: 0
+Id 60: The Ancient Sages
+Desc: A large book detailing the history of the Ancient Sages, including their rise and fall. (EMPTY, DO NOT BUY)
+Type: Key
+Price: 87
+Consume: false
+Scope: 0
+Occasion: 2
+Id 61: Religion and Templars
+Desc: A book explaining more about the Templars, their religion, and their histories. (EMPTY, DO NOT BUY)
+Type: Key
+Price: 36
+Consume: false
+Scope: 0
+Occasion: 2
+Id 62: Wind and How to Cast it
+Desc: A book expanding on the fundamentals of the Wind element.
+Type: Key
+Price: 250
+Consume: false
+Scope: 0
+Occasion: 2
+Id 63: Ice'N'Fire:OppositesAttract
+Desc: A book explaining the uses of combining the magic of the Ice and Fire elements in combat.
+Type: Key
+Price: 178
+Consume: false
+Scope: 0
+Occasion: 2
+Id 64: Those That Want to Kill You
+Desc: A hefty book going into detail about various large monsters and strange beings.
+Type: Key
+Price: 166
+Consume: false
+Scope: 0
+Occasion: 2
+Id 65: Light: How I was Blinded
+Desc: A book retelling the story of wizard who blinded himself when creating Light elemental magic.
+Type: Key
+Price: 15
+Consume: false
+Scope: 0
+Occasion: 2
+Id 66: The Dark Ones in the Shadows
+Desc: A book recalling the events of the Lord of Chaos' reign and the damage he caused.
+Type: Key
+Price: 78
+Consume: false
+Scope: 0
+Occasion: 2
+Id 67: Cheese
+Desc: Not even Wensleydale?
+Type: Normal
+Price: 5
+Consume: true
+Scope: 7
+Occasion: 0
+Id 68: Wing Medallion
+Desc: A winged pin used to identify a Bird Race enthusiast. Increases chances of winning bets.
+Type: Key
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 3
+Id 69: Recipe Book
+Desc: A thick book holding pages upon pages of space to write in recipes for alchemy.
+Type: Key
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 3
+Id 70: Fabric
+Desc: A roll of fabric used to make various items, usually in clothing. Useful in Alchemy.
+Type: Normal
+Price: 12
+Consume: false
+Scope: 0
+Occasion: 3
+Id 71: Cotton
+Desc: Cotton wool, often used in insulation and padding. Useful in Alchemy.
+Type: Normal
+Price: 6
+Consume: false
+Scope: 0
+Occasion: 3
+Id 72: Rope
+Desc: A short length of rope that can be used in a variety of ways. Useful in Alchemy.
+Type: Normal
+Price: 17
+Consume: false
+Scope: 0
+Occasion: 3
+Id 73: Iron Ore
+Desc: Iron ore that can be extracted and refined into armour or weapons. Useful in Alchemy.
+Type: Normal
+Price: 88
+Consume: false
+Scope: 0
+Occasion: 3
+Id 74: Silver Ore
+Desc: A rare ore of the shimmering silver. Useful in Alchemy.
+Type: Normal
+Price: 270
+Consume: false
+Scope: 0
+Occasion: 3
+Id 75: Ghostfruit
+Desc: A rare fruit that resembles black apples, ghostfruit seem to lack a true physical form. Useful in Alchemy.
+Type: Normal
+Price: 488
+Consume: true
+Scope: 7
+Occasion: 0
+Id 76: Ancient Sage's Water
+Desc: A vial of mystical water that restores all MP.
+Type: Normal
+Price: 5400
+Consume: true
+Scope: 7
+Occasion: 0
+Id 77: Leather
+Desc: A square of leather ready to be crafted into something new. Useful in Alchemy.
+Type: Normal
+Price: 44
+Consume: false
+Scope: 0
+Occasion: 3
+Id 78: Wood
+Desc: Some generic oak wood. Useful in Alchemy.
+Type: Normal
+Price: 7
+Consume: false
+Scope: 0
+Occasion: 3
+Id 79: Fur
+Desc: A handful of thick fur. Useful in Alchemy.
+Type: Normal
+Price: 12
+Consume: false
+Scope: 0
+Occasion: 3
+Id 80: Copper Ore
+Desc: An ore of the common copper. Useful in Alchemy.
+Type: Normal
+Price: 47
+Consume: false
+Scope: 0
+Occasion: 3
+Id 81: Tin Ore
+Desc: A relatively common metal mostly used to combine with copper to make bronze. Useful in Alchemy.
+Type: Normal
+Price: 51
+Consume: false
+Scope: 0
+Occasion: 3
+Id 82: Artefact Shards
+Desc: \}Shards of ancient artefacts. Sort after by someone somewhere.
+Type: Key
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 3
+Id 83: Avaking Essence
+Desc: Soul essence of the Dragon Lord of Souls, Avaking. Used to refine the Dragon Lord weapons.
+Type: Key
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 3
+Id 84: Zysargia Essence
+Desc: Soul essence of the Dragon Lord of the Earth, Zysargia. Used to refine the Dragon Lord weapons.
+Type: Key
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 3
+Id 85: Justicium Essence
+Desc: Soul essence of the Dragon Lord of Light, Justicium. Used to refine the Dragon Lord weapons.
+Type: Key
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 3
+Id 86: Maelsium Essence
+Desc: Soul essence of the Dragon Lord of Dark, Maelsium. Used to refine the Dragon Lord weapons.
+Type: Key
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 3
+Id 87: Infermius Essence
+Desc: Soul essence of the Dragon Lord of Flames, Infermius. Used to refine the Dragon Lord weapons.
+Type: Key
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 3
+Id 88: Tempora Essence
+Desc: Soul essence of the Dragon Lord of the Skies, Tempora. Used to refine the Dragon Lord weapons.
+Type: Key
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 3
+Id 89: Elazireth Essence
+Desc: Soul essence of the Dragon Lord of the Seas, Elazireth. Used to refine the Dragon Lord weapons.
+Type: Key
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 3
+Id 90: To be a Master Hunter
+Desc: A book containing details and recipes for becoming a great hunter.
+Type: Key
+Price: 255
+Consume: false
+Scope: 0
+Occasion: 2
+Id 91: Fish Oil Cream
+Desc: A viscous cream with various health benefits. Helps to clear blindness.
+Type: Normal
+Price: 43
+Consume: true
+Scope: 7
+Occasion: 0
+Id 92: Srevena
+Desc: \}A very large bioluminescent fruit grown in the caves of Nyet Yem. Recovers a large portion of health and gives 10 PR.
+Type: Normal
+Price: 1000
+Consume: true
+Scope: 7
+Occasion: 0
+Id 93: Snake Fang
+Desc: The large fang of a snake. Useful in Alchemy.
+Type: Normal
+Price: 29
+Consume: false
+Scope: 0
+Occasion: 3
+Id 94: Xavier Portrait
+Desc: A portrait of Xavier done by Hero Forge.
+Type: Key
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 2
+Id 95: Alric Portrait
+Desc: A portrait of Alric done by Hero Forge.
+Type: Key
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 2
+Id 96: Thaedrin Portrait
+Desc: A portrait of Thaedrin done by Hero Forge.
+Type: Key
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 2
+Id 97: Droconos Portrait
+Desc: A portrait of Droconos done by Hero Forge.
+Type: Key
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 2
+Id 98: Monster Repellant
+Desc: A jar of a viscous black fluid that seems to have the effect of repelling wild monsters for a time. Smells faintly of liquorice.
+Type: Normal
+Price: 200
+Consume: true
+Scope: 11
+Occasion: 2
+Id 99: Flare Feather
+Desc: A feather from the majestic Blue-Bellied Raven. Burning it restores some of your MP and PR.
+Type: Normal
+Price: 600
+Consume: true
+Scope: 7
+Occasion: 0
+Id 100: Premium Birdfeed
+Desc: \}Exceptionally high quality birdfeed that magically seems to be liked by every bird that has it. Give it to your bird to make it fly better.
+Type: Key
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 3
+Id 101: Firewood
+Desc: \}Scorchlog burns very easily, even when wet, and so is the preferable material to make firewood out of. You can use it to make campfires and rest.
+Type: Normal
+Price: 150
+Consume: true
+Scope: 0
+Occasion: 2
+Id 102: Conch Shell
+Desc: Some say that if you set the shell to your ear, you can hear the distant sound of the shipmaster yelling \}"Ahoy!"\{...
+Type: Normal
+Price: 16
+Consume: false
+Scope: 0
+Occasion: 2
+Id 103: Seaweed
+Desc: Slimy, icky seaweed. Useful in alchemy.
+Type: Normal
+Price: 5
+Consume: false
+Scope: 0
+Occasion: 3
+Id 104: Shark Tooth
+Desc: A tooth of a once mighty shark. Useful in alchemy.
+Type: Normal
+Price: 60
+Consume: false
+Scope: 0
+Occasion: 3
+Id 105: War Horn
+Desc: Blowing the horn can strike fear into the hearts of your foes.
+Type: Normal
+Price: 175
+Consume: false
+Scope: 2
+Occasion: 1
+Id 106: Sausage Roll
+Desc: Greg's specialty. Recovers some HP.
+Type: Normal
+Price: 31
+Consume: true
+Scope: 7
+Occasion: 0
+Id 107: Apple Pie
+Desc: A slice of apple pie made from fresh Talbrian apples. Recovers some HP.
+Type: Normal
+Price: 38
+Consume: true
+Scope: 7
+Occasion: 0
+Id 108: Custard Tart
+Desc: A slice of a tart filled with a thick custard.
+Type: Normal
+Price: 46
+Consume: true
+Scope: 7
+Occasion: 0
+Id 109: Apaslea
+Desc: A mixture of various herbs and spices used to arouse someone from unconciousness.
+Type: Normal
+Price: 43
+Consume: true
+Scope: 7
+Occasion: 1
+Id 110: Bottled Song
+Desc: Music has been encased inside this airtight bottle. Opening it will irreversibly release its song. Useful in alchemy.
+Type: Normal
+Price: 600
+Consume: false
+Scope: 0
+Occasion: 3
+Id 111: Soul Vigor Vial
+Desc: A mystical concoction of extremely rare and mystical ingredients that rapidly accelerates the Soul's growth. Instantly levels up a character.
+Type: Normal
+Price: 0
+Consume: true
+Scope: 0
+Occasion: 2
+Id 112: Bone Apple Tea
+Desc: A biz are drink that makes peeple miss pell there words. It duhz taste gud tho, so bone apple tea!
+Type: Normal
+Price: 60
+Consume: true
+Scope: 7
+Occasion: 0
+Id 113: Tea Leaves
+Desc: Tea leaves from somewhere exotic. Best consumed in hot water while standing in a tea-pose.
+Type: Normal
+Price: 17
+Consume: true
+Scope: 7
+Occasion: 0
+Id 114: Tea
+Desc: A blend of hot water and tea leaves, this popular drink can
+stave away sleep.
+Type: Normal
+Price: 24
+Consume: true
+Scope: 7
+Occasion: 0
+Id 115: Fresh Water
+Desc: It's literally just fresh water, what do you expect. Restores 5 HP.
+Type: Normal
+Price: 2
+Consume: true
+Scope: 7
+Occasion: 0
+Id 116: Blazing Beverage
+Desc: A fiery drink that can thaw anything out from being frozen.
+Warms someone up and stops them from freezing.
+Type: Normal
+Price: 54
+Consume: true
+Scope: 7
+Occasion: 1
+Id 117: Scorchlog
+Desc: \}The rare scorchlog burns very easily, even when wet, and so is the preferable material to make firewood out of. Useful in Alchemy.
+Type: Normal
+Price: 55
+Consume: false
+Scope: 0
+Occasion: 3
+Id 119: Insect Stinger
+Desc: The stinger of an oversized insect. Still potent. Useful in Alchemy.
+Type: Normal
+Price: 28
+Consume: false
+Scope: 0
+Occasion: 3
+Id 120: Sailor's Scripture
+Desc: A very old scroll that details various parts of sailing and the equipment you need.
+Type: Key
+Price: 600
+Consume: false
+Scope: 0
+Occasion: 2
+Id 121: Tamrindi
+Desc: A refreshing beverage from Cavadrak made from boiling a rare fruit. Restores a good amount of HP.
+Type: Normal
+Price: 85
+Consume: true
+Scope: 7
+Occasion: 0
+Id 122: Midnight Whisky
+Desc: \}One of many alcohols to come from Slumberwood, this whisky is renowned for being seriously strong. It's named as such for its pitch-black colouration.
+Type: Normal
+Price: 62
+Consume: true
+Scope: 7
+Occasion: 0
+Id 123: Amber Liqueur
+Desc: \}An alcohol from Slumberwood made from combining brandy with wild berries and tree sap. The pride and joy of Slumberwoodan breweries. Restores a good amount of HP.
+Type: Normal
+Price: 76
+Consume: true
+Scope: 7
+Occasion: 0
+Id 124: Marriage Maker
+Desc: A cider from Slumberwood that the creator made to win back his partner's love. Traditionally served at weddings.
+Type: Normal
+Price: 34
+Consume: true
+Scope: 7
+Occasion: 0
+Id 125: Beer Bread
+Desc: If you thought Slumberwood couldn't become any more alcoholic, they made bread using beer. I wish I was joking.
+Type: Normal
+Price: 31
+Consume: true
+Scope: 7
+Occasion: 0
+Id 126: Lobster
+Desc: If the EU were an animal...
+Type: Normal
+Price: 63
+Consume: true
+Scope: 7
+Occasion: 0
+Id 127: Vezran's Arm
+Desc: A prosthetic arm worn by Vezran. A relic of his evil deeds.
+Type: Key
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 3
+Id 128: Crystalised Flame
+Desc: Fire left behind from an unwavering Soul that collected into a fine gemstone of immense heat. Useful in alchemy.
+Type: Normal
+Price: 500
+Consume: false
+Scope: 0
+Occasion: 3
+Id 129: Dylorien
+Desc: A flower said to be so inconceivably rare that there is only 1 plant in Adremesis that blooms with it. Useful in alchemy.
+Type: Normal
+Price: 500
+Consume: false
+Scope: 0
+Occasion: 3
+Id 130: Winter's Heart
+Desc: A gemstone that mixed with ice crystals to form this gorgeous reminder of winter's beauty. Useful in alchemy.
+Type: Normal
+Price: 500
+Consume: false
+Scope: 0
+Occasion: 3
+Id 131: Tome of Permafrost
+Desc: A book dusted in snow that tells of many armaments fit for a winter wonderland.
+Type: Key
+Price: 2000
+Consume: false
+Scope: 0
+Occasion: 2
+Id 132: Powder Snow
+Desc: \}What's that? This is a generic and not interesting item? Well you try and come up with something more interesting! It's hard, y'know!
+Type: Normal
+Price: 48
+Consume: false
+Scope: 0
+Occasion: 3
+Id 133: Powdered Explosive
+Desc: A concoction of different materials creates this potent explosive. Useable in battle.
+Type: Normal
+Price: 53
+Consume: true
+Scope: 3
+Occasion: 1
+Id 134: Book for Botanists
+Desc: A weirdly sweet-smelling book containing details on the creation of nature-esque equipment.
+Type: Key
+Price: 2000
+Consume: false
+Scope: 0
+Occasion: 2
+Id 135: Magma Manuscript
+Desc: A book containing secrets to the craftmenship of some particularly hot gear.
+Type: Key
+Price: 2000
+Consume: false
+Scope: 0
+Occasion: 2
+Id 136: Obsidian Shard
+Desc: A sharp chunk of obsidian born from the activity of Mt. Líflátlæ. Useful in alchemy.
+Type: Normal
+Price: 140
+Consume: false
+Scope: 0
+Occasion: 3
+Id 137: Flow Conduit
+Desc: A rare item that focuses the elements of the Flow into whatever the user desires. Useful in alchemy.
+Type: Normal
+Price: 15000
+Consume: false
+Scope: 0
+Occasion: 3
+Id 138: Ironbark
+Desc: \}A rare species of wood that only grows on mountainsides due to the surpluss of iron in the stone. The leaves of the tree are a remarkable reddish colour. Useful in alchemy.
+Type: Normal
+Price: 50
+Consume: false
+Scope: 0
+Occasion: 3
+Id 139: Tears of Cedarus
+Desc: A vial of water from a stream hidden deep in Slumberwood, once blessed by the Ancient Sage Cedarus. Useful in alchemy.
+Type: Normal
+Price: 500
+Consume: false
+Scope: 0
+Occasion: 3
+Id 140: Templar's Ashes
+Desc: Ashes of some member of the ancient High Templar's clergy. Useful in alchemy.
+Type: Normal
+Price: 500
+Consume: false
+Scope: 0
+Occasion: 3
+Id 141: Thundrite
+Desc: A mineral formed when lightning strikes solid stone in just the right way. Useful in alchemy.
+Type: Normal
+Price: 500
+Consume: false
+Scope: 0
+Occasion: 3
+Id 142: Oil of Ill-Intent
+Desc: This mysterious fluid naturally found only on Devil's Eye Land that silently corrupts everything around it. Useful in alchemy.
+Type: Normal
+Price: 500
+Consume: false
+Scope: 0
+Occasion: 3
+Id 143: Wind's Wing
+Desc: A very strange feather that doesn't come from any known species of bird, yet is still found randomly. Useful in alchemy.
+Type: Normal
+Price: 500
+Consume: false
+Scope: 0
+Occasion: 3
+Id 144: Fallen Star
+Desc: A chunk of rock that fell from the sky at breakneck speed, its true origins are confusing scholars. Useful in alchemy.
+Type: Normal
+Price: 500
+Consume: false
+Scope: 0
+Occasion: 3
+Id 145: Void Residue
+Desc: \}A small sample of Void energy left behind by a defeated Void creature. Useful in Alchemy, but use it quickly; Void energy decays!
+Type: Normal
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 3
+Id 146: Omnium
+Desc: \}A mineral that requires so much pressure to form that it can only be found in minuscule amounts in the darkest depths of the world. Useful in alchemy.
+Type: Normal
+Price: 3000
+Consume: false
+Scope: 0
+Occasion: 3
+Id 148: Elemental Escapades
+Desc: A book written by the Ancient Sage Gabriel about alchemising with the elements.
+Type: Key
+Price: 15000
+Consume: false
+Scope: 0
+Occasion: 2
+Id 149: Contaminated Conduit
+Desc: \}A Flow Conduit that was corrupted by pure Void energy. At every moment, you feel its malicious pull on your Soul. Useful in Alchemy.
+Type: Normal
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 3
+Id 150: Light Literature
+Desc: Notes detailing some alchemic recipes of the Light element.
+Type: Key
+Price: 2000
+Consume: false
+Scope: 0
+Occasion: 2
+Id 151: Shocking Shenanigans
+Desc: Contains a list of recipes for the most striking of electrical equipment. How SHOCKING!
+Type: Key
+Price: 2000
+Consume: false
+Scope: 0
+Occasion: 2
+Id 152: Tectonic Treatise
+Desc: A surprisingly heavy book that details many different earth-shattering alchemic recipes.
+Type: Key
+Price: 2000
+Consume: false
+Scope: 0
+Occasion: 2
+Id 153: Aerodynamic Album
+Desc: A book that tells of recipes for even the quickest of adventurers.
+Type: Key
+Price: 2000
+Consume: false
+Scope: 0
+Occasion: 2
+Id 154: Ma Rage Maker
+Desc: \}A small vial containing concentrated liquid that will make its drinker enraged for a short time. They will quickly suffer withdrawal afterwards, however.
+Type: Normal
+Price: 80
+Consume: true
+Scope: 7
+Occasion: 1
+Id 155: Blessed Abjugation
+Desc: A jar of holy water mixed with blessed fabric. Frees someone of their horrific afflictions and cures them of all curses.
+Type: Normal
+Price: 380
+Consume: true
+Scope: 7
+Occasion: 0
+Id 156: Abbysal Fluid
+Desc: A thick pus that is excreted by even the least grotesque of other-worldly abominations. Useful in Alchemy.
+Type: Normal
+Price: 320
+Consume: false
+Scope: 0
+Occasion: 3
+Id 157: Egregious Equipment
+Desc: A book with a malevolent air about it. What's in here may not be safe for mortal eyes but...perhaps it's worth it...
+Type: Key
+Price: 2000
+Consume: false
+Scope: 0
+Occasion: 2
+Id 158: Lost Door Key
+Desc: A clumsy woman's door keys she dropped at the beach. Finders keepers.
+Type: Key
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 3
+Id 159: Wrapped Gift
+Desc: A gift purchased from the market in Overlook to be delivered to \V[57], allegedly containing \V[58].
+Type: Key
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 3
+Id 160: Wildlife Weaponry
+Desc: Contains alchemic recipes that will turn your foes' tools against themselves.
+Type: Key
+Price: 2000
+Consume: false
+Scope: 0
+Occasion: 2
+Id 161: Dave Alricke: A Biography
+Desc: Davonious Alricke, perhaps the greatest scholar to grace Adremesis. Who was he, and what happened to him?
+Type: Key
+Price: 100
+Consume: false
+Scope: 0
+Occasion: 2
+Id 162: TheFourKingdoms:Where'dTheyGo?
+Desc: A book explaining the histories of the four kingdoms of Adremesis: Barrodor, Asceroth, Excellion, and Nobolia.
+Type: Key
+Price: 92
+Consume: false
+Scope: 0
+Occasion: 2
+Id 163: How to Utilise the Desert
+Desc: Earth element in combat is quite rare compared to many others, which allows its strengths to be widely unknown.
+Type: Key
+Price: 130
+Consume: false
+Scope: 0
+Occasion: 2
+Id 164: Ironbark Impedimenta
+Desc: \}Ironbark is a a type of tree found solely in the Sagely Grounds' western mountains, and this book details how to properly use it.
+Type: Key
+Price: 2000
+Consume: false
+Scope: 0
+Occasion: 2
+Id 165: Hypersteel
+Desc: \}An alloy made by magically combining steel with solid ice. The result is a nigh indestructable metal that is the pride and joy of Marrarockan blacksmiths.
+Type: Normal
+Price: 2500
+Consume: false
+Scope: 0
+Occasion: 3
+Id 166: Cold Steel Lager
+Desc: \}A very old Marrarockan recipe using cheap and readily available ingredients. Was once the only affordable drink for miners, but is now considered tradition.
+Type: Normal
+Price: 67
+Consume: true
+Scope: 7
+Occasion: 0
+Id 167: ATK Grit
+Desc: A diamond grit used to cut and polish rialite. Cuts the gem into the ATK shape.
+Type: Key
+Price: 1500
+Consume: false
+Scope: 0
+Occasion: 3
+Id 168: CNT Grit
+Desc: A diamond grit used to cut and polish rialite. Cuts the gem into the CNT shape.
+Type: Key
+Price: 1500
+Consume: false
+Scope: 0
+Occasion: 3
+Id 169: HIT Grit
+Desc: A diamond grit used to cut and polish rialite. Cuts the gem into the HIT shape.
+Type: Key
+Price: 1500
+Consume: false
+Scope: 0
+Occasion: 3
+Id 170: CRI Grit
+Desc: A diamond grit used to cut and polish rialite. Cuts the gem into the CRI shape.
+Type: Key
+Price: 1500
+Consume: false
+Scope: 0
+Occasion: 3
+Id 171: MAT Grit
+Desc: A diamond grit used to cut and polish rialite. Cuts the gem into the MAT shape.
+Type: Key
+Price: 1500
+Consume: false
+Scope: 0
+Occasion: 3
+Id 172: MCR Grit
+Desc: A diamond grit used to cut and polish rialite. Cuts the gem into the MCR shape.
+Type: Key
+Price: 1500
+Consume: false
+Scope: 0
+Occasion: 3
+Id 173: DEF Grit
+Desc: A diamond grit used to cut and polish rialite. Cuts the gem into the DEF shape.
+Type: Key
+Price: 1500
+Consume: false
+Scope: 0
+Occasion: 3
+Id 174: MHP Grit
+Desc: A diamond grit used to cut and polish rialite. Cuts the gem into the MHP shape.
+Type: Key
+Price: 1500
+Consume: false
+Scope: 0
+Occasion: 3
+Id 175: MMP Grit
+Desc: A diamond grit used to cut and polish rialite. Cuts the gem into the MMP shape.
+Type: Key
+Price: 1500
+Consume: false
+Scope: 0
+Occasion: 3
+Id 176: EVA Grit
+Desc: A diamond grit used to cut and polish rialite. Cuts the gem into the EVA shape.
+Type: Key
+Price: 1500
+Consume: false
+Scope: 0
+Occasion: 3
+Id 177: MDF Grit
+Desc: A diamond grit used to cut and polish rialite. Cuts the gem into the MDF shape.
+Type: Key
+Price: 1500
+Consume: false
+Scope: 0
+Occasion: 3
+Id 178: MEV Grit
+Desc: A diamond grit used to cut and polish rialite. Cuts the gem into the MEV shape.
+Type: Key
+Price: 1500
+Consume: false
+Scope: 0
+Occasion: 3
+Id 179: Rialite
+Desc: A rare gemstone that is the foundation of crafting Paragons. It sparkles dimly in the light.
+Type: Normal
+Price: 2000
+Consume: false
+Scope: 0
+Occasion: 3
+Id 180: Paradigms of Paragons
+Desc: A book containing details on how to make each of the baseline Paragons.
+Type: Key
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 3
+Id 181: Iron Pickaxe
+Desc: A typical iron pickaxe used for digging through stone. Can be used 10 times.
+Type: Key
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 3
+Id 182: Steel Pickaxe
+Desc: A steel pickaxe that can dig through tougher stone than a plain iron pick can. Can be used 20 times.
+Type: Key
+Price: 6000
+Consume: false
+Scope: 0
+Occasion: 3
+Id 183: Hypersteel Pickaxe
+Desc: A pickaxe made of hypersteel that no rock can resist. Can be used 40 times.
+Type: Key
+Price: 15000
+Consume: false
+Scope: 0
+Occasion: 3
+Id 184: Guide To Restoration
+Desc: \}A book, apparently written by Mister Bones, that is covered in dirt and dust that explains the delicate process of restoring relics of the past to the modern age.
+Type: Key
+Price: 10000
+Consume: false
+Scope: 0
+Occasion: 2
+Id 185: Ammunition Disc
+Desc: A disc for the Symbol Breaker that is yet to be twisted into an element, and so is useless.
+Type: Normal
+Price: 500
+Consume: false
+Scope: 0
+Occasion: 3
+Id 186: Mister Bones' Gratitude
+Desc: A token of thanks from the one and only Mister Bones. A symbol of his appreciation for your friendship.
+Type: Normal
+Price: 0
+Consume: true
+Scope: 7
+Occasion: 0
+Id 187: Book of Souls
+Desc: In some unknown culture, even laying eyes on such an object would be viewed as heresy...
+Type: Key
+Price: 0
+Consume: false
+Scope: 0
+Occasion: 2
+Id 188: SymbolBreakerUserManual
+Desc: A small book written by Davonious Alricke describing in detail on how to wield his marvelous Symbol Breaker.
+Type: Key
+Price: 2500
+Consume: false
+Scope: 0
+Occasion: 2
+Id 189: Hydrocraft Handbook
+Desc: Dive into this meticulously curated volume and learn to harness the power of the seas.
+Type: Key
+Price: 2000
+Consume: false
+Scope: 0
+Occasion: 2
+Id 190: Support Brace
+Desc: \}A piece of Marrarockan ingenuity, this brace can instantly lock into place to support the stone above miners. Automatically spent to reduce the impact of cave-ins.
+Type: Key
+Price: 2500
+Consume: false
+Scope: 0
+Occasion: 3
+Id 191: Blasting Powder
+Desc: \}A highly explosive material that can instantly clear a portion of rock, including tough bedrock. Can be spent to bypass bedrock without spending PS.
+Type: Key
+Price: 1800
+Consume: false
+Scope: 0
+Occasion: 3
+Id 192: Geological Survey Data
+Desc: \}Marrarockan geologists are constantly hard at work to determine the best spots to mine. Increases the chance of finding ores, consumed when leaving.
+Type: Key
+Price: 3000
+Consume: false
+Scope: 0
+Occasion: 3
+Id 193: Harvest Basket
+Desc: \}A basket that increases the amount of items you can carry when scavenging. They're somewhat poor quality though, so may break after travelling.
+Type: Key
+Price: 1000
+Consume: false
+Scope: 0
+Occasion: 3
+Id 194: Emwoodian Apples
+Desc: \}A whole crate of delicious, juicy, and rich Emwoodian apples. They're favourite food of any equine. Having some on you slows down the exhaustion rate of your horses.
+Type: Key
+Price: 2000
+Consume: false
+Scope: 0
+Occasion: 3
+Id 195: Hired Escort Ticket
+Desc: \}A ticket that denotes you have purchased muscle to help escort your party when fast travelling. Heavily reduces the chance for monsters.
+Type: Key
+Price: 3600
+Consume: false
+Scope: 0
+Occasion: 3
