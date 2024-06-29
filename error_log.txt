@@ -1,7 +1,9 @@
-Game_Interpreter:1411:in `eval': undefined method `name' for #<Bestiary_Entry:0x12750960>, NoMethodError
-	from BestiaryMain:743:in `each'
-	from BestiaryMain:743:in `each_with_index'
-	from BestiaryMain:743:in `highest_kill_count'
+Game_Interpreter:1411:in `eval': undefined method `param_base' for #<RPG::Enemy:0xf5a11f8>, NoMethodError
+	from DataManager:273:in `each'
+	from DataManager:273:in `each_with_index'
+	from DataManager:273:in `block in extract_enemies'
+	from DataManager:272:in `open'
+	from DataManager:272:in `extract_enemies'
 	from (eval):1:in `command_355'
 	from Game_Interpreter:1411:in `eval'
 	from Game_Interpreter:1411:in `command_355'
