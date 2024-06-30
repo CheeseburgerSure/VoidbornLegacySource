@@ -1,14 +1,4 @@
-Game_Interpreter:1411:in `eval': undefined method `name' for 1:Fixnum, NoMethodError
-	from DataManager:314:in `each'
-	from DataManager:314:in `block (3 levels) in extract_items'
-	from DataManager:313:in `each'
-	from DataManager:313:in `block (2 levels) in extract_items'
-	from DataManager:301:in `each'
-	from DataManager:301:in `each_with_index'
-	from DataManager:301:in `block in extract_items'
-	from DataManager:300:in `open'
-	from DataManager:300:in `extract_items'
-	from (eval):2:in `command_355'
+Game_Interpreter:1411:in `eval': undefined method `[]' for #<RPG::Item:0xf232530>, NoMethodError
 	from Game_Interpreter:1411:in `eval'
 	from Game_Interpreter:1411:in `command_355'
 	from Game_Interpreter:197:in `execute_command'
