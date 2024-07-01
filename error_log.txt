@@ -1,4 +1,6 @@
-Game_Interpreter:1411:in `eval': undefined method `[]' for #<RPG::Item:0xf232530>, NoMethodError
+Game_Interpreter:1411:in `eval': undefined method `features' for nil:NilClass, NoMethodError
+	from (eval):15:in `each'
+	from (eval):15:in `command_355'
 	from Game_Interpreter:1411:in `eval'
 	from Game_Interpreter:1411:in `command_355'
 	from Game_Interpreter:197:in `execute_command'

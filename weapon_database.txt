@@ -1,0 +1,1910 @@
+Id 1: Hand Axe
+Desc: Small axe used for harvesting wood. High power, but heavy and inaccurate.
+Type: Axe
+HP: 0
+MP: 0
+Attack: 14
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["ExParam: ", "HIT", "-2%"]]
+Ingredients: [["Wood", 1], ["Iron Ore", 1]]
+---
+Id 2: Battle Axe
+Desc: Double-sided axe made for combat.
+Type: Axe
+HP: 0
+MP: 0
+Attack: 30
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["ExParam: ", "HIT", "-4%"]]
+---
+Id 3: Bardiche
+Desc: Three crescent blades on this axe.
+Type: Axe
+HP: 0
+MP: 0
+Attack: 50
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["ExParam: ", "HIT", "-6%"]]
+---
+Id 4: Hypersteel Axe
+Desc: Axe made of the incredible mineral.
+Type: Axe
+HP: 0
+MP: 0
+Attack: 70
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["ExParam: ", "HIT", "-8%"]]
+---
+Id 5: Crimson Axe
+Desc: Crimson soaked battle axe.
+Type: Axe
+HP: 0
+MP: 0
+Attack: 98
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["ExParam: ", "HIT", "-10%"]]
+---
+Id 6: Gigantes Axe
+Desc: Heavy axe used by giants.
+Type: Axe
+HP: 0
+MP: 0
+Attack: 114
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["ExParam: ", "HIT", "-12%"]]
+---
+Id 7: Foreteller's Sword
+Desc: A mysterious blade that seems to know the near future, helping you to predict your opponents' moves.
+Type: Sword
+HP: 0
+MP: 0
+Attack: 38
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["ExParam: ", "HIT", "7%"], ["ExParam: ", "EVA", "7%"], ["ExParam: ", "CNT", "3%"]]
+---
+Id 8: Dagger of Deceit
+Desc: A dagger concealed seamlessly in a candlestick. Gets past guard checks and remains hidden.
+Type: Dagger
+HP: 0
+MP: 0
+Attack: 19
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 5
+Features: [["ExParam: ", "CRI", "3%"], ["ExParam: ", "EVA", "4%"]]
+---
+Id 9: Boomerang Axe
+Desc: An axe that has the magical ability to return to it's owner when thrown.
+Type: Axe
+HP: 0
+MP: 0
+Attack: 82
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 5
+Luck: 5
+Features: [["ExParam: ", "CRI", "2%"]]
+---
+Id 10: Heatseeking Bow
+Desc: \}A bow that fires arrows that relentlessly seek out it's target. Cannot miss with a very high CRI, at the cost of less ATK.
+Type: Bow
+HP: 0
+MP: 0
+Attack: -10
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 5
+Luck: 30
+Features: [["ExParam: ", "HIT", "100%"], ["ExParam: ", "HIT", "100%"], ["ExParam: ", "HIT", "100%"], ["ExParam: ", "HIT", "100%"], ["ExParam: ", "HIT", "100%"], ["Seal Equip: ", "Shield"], ["Atk Speed: ", 0, 3.0], ["ExParam: ", "CRI", "10%"]]
+---
+Id 11: Friendly Staff
+Desc: A staff that gives it's user the power of friendship, allowing them to level up faster.
+Type: Staff
+HP: 0
+MP: 0
+Attack: 10
+Defence: 0
+Magical Attack: 24
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["SpParam: ", "EXR", "x1.25"], ["ExParam: ", "MRG", "1%"]]
+---
+Id 12: Hunter's Bow
+Desc: A type of shortbow specifically designed for hunting.
+Type: Bow
+HP: 0
+MP: 0
+Attack: 18
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Seal Equip: ", "Shield"], ["ExParam: ", "CRI", "3%"], ["Atk Speed: ", 0, 3.0]]
+Ingredients: [["Shortbow", 1], ["Wood", 1], ["Rope", 2]]
+---
+Id 13: Spear
+Desc: A short general-use spear.
+Type: Spear
+HP: 0
+MP: 0
+Attack: 10
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Ingredients: [["Wood", 1], ["Iron Ore", 1]]
+---
+Id 14: Partisan
+Desc: A spear with a long blade.
+Type: Spear
+HP: 0
+MP: 0
+Attack: 22
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 15: Halberd
+Desc: A type of spear with additional axe blading.
+Type: Spear
+HP: 0
+MP: 0
+Attack: 35
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 16: Hypersteel Halberd
+Desc: Spear made of the incredible mineral.
+Type: Spear
+HP: 0
+MP: 0
+Attack: 47
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 17: Holy Lance
+Desc: A spear blessed by the Supreme Templar.
+Type: Spear
+HP: 0
+MP: 0
+Attack: 65
+Defence: 0
+Magical Attack: 0
+Magical Defence: 5
+Agility: 0
+Luck: 0
+---
+Id 18: Gaebulg Spear
+Desc: Contains deeply engraved shadow magic.
+Type: Spear
+HP: 0
+MP: 0
+Attack: 85
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 19: Short Sword
+Desc: Light and easy-to-use short sword.
+Type: Sword
+HP: 0
+MP: 0
+Attack: 10
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Ingredients: [["Leather", 1], ["Iron Ore", 1]]
+---
+Id 20: Long Sword
+Desc: The standard sword used by travellers and military around the world.
+Type: Sword
+HP: 0
+MP: 0
+Attack: 22
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 21: Falcion
+Desc: A broad sword with a curved blade.
+Type: Sword
+HP: 0
+MP: 0
+Attack: 34
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 22: Hypersteel Sword
+Desc: Longsword made of the incredible mineral.
+Type: Sword
+HP: 0
+MP: 0
+Attack: 47
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 23: Rune Blade
+Desc: Engraved with magical runes.
+Type: Sword
+HP: 0
+MP: 0
+Attack: 65
+Defence: 0
+Magical Attack: 10
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 24: Tyrfing Sword
+Desc: A magic sword that brings triumph over evil.
+Type: Sword
+HP: 0
+MP: 0
+Attack: 85
+Defence: 0
+Magical Attack: 20
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 25: Drake Blade
+Desc: A sword imbued with the strength of Dragons.
+Type: Sword
+HP: 0
+MP: 0
+Attack: 112
+Defence: 0
+Magical Attack: 30
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 26: Sickle
+Desc: A small sickle used for clearing tall grass.
+Type: Scythe
+HP: 0
+MP: 0
+Attack: 8
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 27: Field Scythe
+Desc: A general purpose scythe used for clearing all kinds of grass and crops. Scythes can hit multiple enemies at once.
+Type: Scythe
+HP: 0
+MP: 0
+Attack: 19
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 28: Serrated Scythe
+Desc: A type of scythe designed to clear more rigid crops.
+Type: Scythe
+HP: 0
+MP: 0
+Attack: 27
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 29: Hypersteel Scythe
+Desc: Scythe made of the incredible mineral.
+Type: Scythe
+HP: 0
+MP: 0
+Attack: 40
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 30: Dread Scythe
+Desc: A horrifying scythe utilised to intimidate the enemy before engaging them. Can inflict Fear.
+Type: Scythe
+HP: 0
+MP: 0
+Attack: 61
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Dark"], ["Atk State: ", "Fear", "10%"]]
+Ingredients: [["Hypersteel Scythe", 1], ["Stygian Scythe", 1], ["Lightless Lantern", 2]]
+---
+Id 31: Shortbow
+Desc: A shortbow made for light use, mostly for
+recreation.
+Type: Bow
+HP: 0
+MP: 0
+Attack: 13
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Seal Equip: ", "Shield"], ["Atk Speed: ", 0, 3.0]]
+Ingredients: [["Wood", 1], ["Rope", 1]]
+---
+Id 32: Longbow
+Desc: A large bow widely used by military forces worldwide for its high power.
+Type: Bow
+HP: 0
+MP: 0
+Attack: 24
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Seal Equip: ", "Shield"], ["ExParam: ", "CRI", "1%"], ["Atk Speed: ", 0, 3.0]]
+---
+Id 33: Recurve Bow
+Desc: A type of longbow with curved limbs that provide additional power.
+Type: Bow
+HP: 0
+MP: 0
+Attack: 34
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Seal Equip: ", "Shield"], ["ExParam: ", "CRI", "1%"], ["Atk Speed: ", 0, 3.0]]
+---
+Id 34: Hypersteel Bow
+Desc: A powerful bow partly made with the incredible mineral.
+Type: Bow
+HP: 0
+MP: 0
+Attack: 46
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 5
+Luck: 0
+Features: [["Seal Equip: ", "Shield"], ["ExParam: ", "CRI", "2%"], ["Atk Speed: ", 0, 3.0]]
+---
+Id 35: Ebony Bow
+Desc: Made from a rare type of wood that makes for a great material for bows.
+Type: Bow
+HP: 0
+MP: 0
+Attack: 62
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 10
+Luck: 0
+Features: [["Seal Equip: ", "Shield"], ["ExParam: ", "CRI", "2%"], ["Atk Speed: ", 0, 3.0]]
+---
+Id 36: Artemis Bow
+Desc: A bow that bears the name of the Moon Goddess.
+Type: Bow
+HP: 0
+MP: 0
+Attack: 100
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 15
+Luck: 0
+Features: [["Seal Equip: ", "Shield"], ["ExParam: ", "CRI", "3%"], ["Atk Speed: ", 0, 3.0]]
+---
+Id 37: Knife
+Desc: Your run-of-the-mill knife.
+Type: Dagger
+HP: 0
+MP: 0
+Attack: 5
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["ExParam: ", "EVA", "3%"], ["Can Dual Wield"]]
+Ingredients: [["Iron Ore", 1]]
+---
+Id 38: Dagger
+Desc: A dagger with a large blade made for combat.
+Type: Dagger
+HP: 0
+MP: 0
+Attack: 10
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["ExParam: ", "EVA", "4%"], ["Can Dual Wield"]]
+---
+Id 39: Main Gauche
+Desc: Knife used for fending off attacks.
+Type: Dagger
+HP: 0
+MP: 0
+Attack: 18
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["ExParam: ", "EVA", "5%"], ["Can Dual Wield"]]
+---
+Id 40: Hypersteel Knife
+Desc: Knife made of the incredible mineral.
+Type: Dagger
+HP: 0
+MP: 0
+Attack: 28
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["ExParam: ", "EVA", "6%"], ["Can Dual Wield"]]
+---
+Id 41: Assassin's Dagger
+Desc: Used for assassinations.
+Type: Dagger
+HP: 0
+MP: 0
+Attack: 40
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 5
+Luck: 0
+Features: [["ExParam: ", "EVA", "7%"], ["Can Dual Wield"]]
+---
+Id 42: Vortex Blade
+Desc: Bears the name of an intense maelstrom.
+Type: Dagger
+HP: 0
+MP: 0
+Attack: 56
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 10
+Luck: 10
+Features: [["ExParam: ", "EVA", "10%"], ["Can Dual Wield"]]
+---
+Id 43: Mace
+Desc: A circular club with metal spikes.
+Type: Hammer
+HP: 0
+MP: 0
+Attack: 11
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Unique"], ["Atk Speed: ", 0, -5.0], ["Atk State: ", "Stun", "3%"]]
+Ingredients: [["Iron Ore", 2]]
+---
+Id 44: Flail
+Desc: An iron ball dangling from a chain.
+Type: Flail
+HP: 0
+MP: 0
+Attack: 16
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["ExParam: ", "HIT", "-5%"], ["ExParam: ", "CNT", "4%"]]
+---
+Id 45: War Hammer
+Desc: A steel hammer made for battle.
+Type: Hammer
+HP: 0
+MP: 0
+Attack: 28
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Unique"], ["Atk Speed: ", 0, -5.0], ["Atk State: ", "Stun", "4%"]]
+---
+Id 46: Hypersteel Mace
+Desc: Mace made of the incredible mineral.
+Type: Hammer
+HP: 0
+MP: 0
+Attack: 49
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk State: ", "Stun", "6%"], ["Atk Element: ", "Unique"], ["Atk Speed: ", 0, -5.0]]
+---
+Id 47: Terrahammer
+Desc: The world itself could crack under the weight of this mighty hammer.
+Type: Hammer
+HP: 0
+MP: 0
+Attack: 67
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Unique"], ["Atk Speed: ", 0, -5.0], ["Atk State: ", "Stun", "8%"]]
+Ingredients: [["War Hammer", 1], ["Iron Ore", 2], ["Tin Ore", 2], ["Fallen Star", 2]]
+---
+Id 48: Un-Maker
+Desc: Whatever gets struck by this ginormous hammer of wrought iron will see the light of day again.
+Type: Hammer
+HP: 0
+MP: 0
+Attack: 90
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Unique"], ["Atk Speed: ", 0, -5.0], ["Atk State: ", "Stun", "10%"]]
+---
+Id 49: Wood Staff
+Desc: Sturdy staff made of oak.
+Type: Staff
+HP: 0
+MP: 0
+Attack: 1
+Defence: 0
+Magical Attack: 3
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Ingredients: [["Wood", 2]]
+---
+Id 50: Magic Staff
+Desc: This staff contains a gemstone that concentrates magic.
+Type: Staff
+HP: 0
+MP: 0
+Attack: 4
+Defence: 0
+Magical Attack: 9
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["ExParam: ", "MRG", "1%"]]
+---
+Id 51: Force Wand
+Desc: Silver amplifies the magic cast from this wand.
+Type: Staff
+HP: 0
+MP: 0
+Attack: 8
+Defence: 0
+Magical Attack: 20
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["ExParam: ", "MRG", "1%"]]
+---
+Id 52: Hypersteel Rod
+Desc: A staff made of the incredible mineral.
+Type: Staff
+HP: 0
+MP: 0
+Attack: 12
+Defence: 0
+Magical Attack: 36
+Magical Defence: 5
+Agility: 0
+Luck: 0
+Features: [["ExParam: ", "MRG", "2%"]]
+---
+Id 53: Spirit Staff
+Desc: A cane made from an old tree of mistletoe.
+Type: Staff
+HP: 0
+MP: 0
+Attack: 14
+Defence: 0
+Magical Attack: 67
+Magical Defence: 8
+Agility: 0
+Luck: 0
+Features: [["ExParam: ", "MRG", "2%"]]
+---
+Id 54: -------------------------
+Desc: 
+Type: Staff
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 55: Energy of Avaking
+Desc: The Energy of Avaking War Axe is the most powerful axe in existence.
+Type: Axe
+HP: 0
+MP: 0
+Attack: 150
+Defence: 0
+Magical Attack: 0
+Magical Defence: 50
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Soul"], ["ExParam: ", "HIT", "100%"], ["ExParam: ", "CRI", "20%"], ["Seal Equip: ", "Shield"]]
+---
+Id 56: Scourge of Maelsium
+Desc: The Scourge of Maelsium Death Scythe is the most powerful scythe in existence.
+Type: Scythe
+HP: 0
+MP: 0
+Attack: 150
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 50
+Features: [["Atk Element: ", "Dark"], ["ExParam: ", "HIT", "100%"], ["ExParam: ", "CRI", "20%"], ["Seal Equip: ", "Shield"]]
+---
+Id 57: Fury of Tempora
+Desc: The Fury of Tempora Storm Sceptre is the most powerful staff in existence
+Type: Staff
+HP: 0
+MP: 0
+Attack: 150
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 50
+Luck: 0
+Features: [["ExParam: ", "HIT", "100%"], ["ExParam: ", "CRI", "20%"], ["Atk Element: ", "Air"], ["Atk Element: ", "Storm"], ["ExParam: ", "MRG", "25%"]]
+---
+Id 58: Wake of Elazireth
+Desc: The Wake of Elazireth Aqua Spear is the most powerful spear in existence.
+Type: Spear
+HP: 0
+MP: 50
+Attack: 150
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Water"], ["ExParam: ", "HIT", "100%"], ["ExParam: ", "CRI", "20%"], ["Atk Element: ", "Ice"]]
+---
+Id 59: Blaze of Infermius
+Desc: The Blaze of Infermius Nova Flail is the most powerful flail in existence.
+Type: Flail
+HP: 0
+MP: 0
+Attack: 150
+Defence: 0
+Magical Attack: 50
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Fire"], ["ExParam: ", "HIT", "100%"], ["ExParam: ", "CRI", "20%"], ["ExParam: ", "CNT", "50%"], ["Seal Equip: ", "Shield"]]
+---
+Id 60: Might of Zysargia
+Desc: The Might of Zysargia Terra Hammer, the most powerful hammer in existence.
+Type: Hammer
+HP: 0
+MP: 0
+Attack: 150
+Defence: 50
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Earth"], ["Atk Element: ", "Nature"], ["Atk Element: ", "Unique"], ["ExParam: ", "HIT", "100%"], ["ExParam: ", "CRI", "20%"], ["Seal Equip: ", "Shield"], ["Atk State: ", "Stun", "30%"]]
+---
+Id 61: Sword of Retribution
+Desc: A sword gifted to Xavier to assist in the vengeance of his father's killer.
+Type: Unique
+HP: 0
+MP: 0
+Attack: 140
+Defence: 0
+Magical Attack: 50
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Dark"], ["Atk State: ", "Fear", "10%"], ["Gain Skill: ", "Armageddon Hyperslash"], ["SpParam: ", "TCR", "x1.25"]]
+---
+Id 62: Glacial Blade
+Desc: This sword imbued with Ice is a remnant of Alric's late father, a final gift.
+Type: Unique
+HP: 0
+MP: 0
+Attack: 140
+Defence: 50
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Ice"], ["Atk State: ", "Freezing", "10%"], ["Gain Skill: ", "Glacial Hyperslash"], ["ExParam: ", "CNT", "10%"]]
+---
+Id 63: Eagle Bow
+Desc: This mythical bow is the heirloom of the Sage of the Bow descendancy.
+Type: Unique
+HP: 0
+MP: 0
+Attack: 140
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 50
+Features: [["Atk Element: ", "Air"], ["ExParam: ", "HIT", "15%"], ["Atk State: ", "Knocked Over", "10%"], ["Gain Skill: ", "Windswept Hypershot"], ["ExParam: ", "CRI", "5%"]]
+---
+Id 64: Cavadraken Sacred Staff
+Desc: A sanctified staff used only by Cavadraken's chosen. Droconos had earned that title.
+Type: Unique
+HP: 0
+MP: 50
+Attack: 0
+Defence: 0
+Magical Attack: 140
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Light"], ["SpParam: ", "MCR", "x0.8"], ["Atk State: ", "Blind", "10%"], ["Gain Skill: ", "Sacred Hyperspell"], ["ExParam: ", "MRG", "10%"]]
+---
+Id 65: Lord of Chaos' Sceptre
+Desc: \}The sceptre for the orb bound to the Lord of Chaos himself. With the Lord defeated, there is no risk to utilising his revered sceptre.
+Type: Staff
+HP: 0
+MP: 0
+Attack: 40
+Defence: 0
+Magical Attack: 125
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Dark"], ["ExParam: ", "HIT", "5%"], ["ExParam: ", "MRG", "8%"]]
+---
+Id 66: Radiance of Justicium
+Desc: The Radiance of Justicium God Bow is the most powerful bow in existence.
+Type: Bow
+HP: 150
+MP: 0
+Attack: 150
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Light"], ["ExParam: ", "HIT", "100%"], ["ExParam: ", "CRI", "20%"], ["Seal Equip: ", "Shield"]]
+---
+Id 67: Cram Sword
+Desc: Left out in the sun for a fortnight, now it is harder than steeeeel.
+Type: Sword
+HP: 0
+MP: 0
+Attack: 116
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 25
+---
+Id 68: Sword Breaker
+Desc: \}A special type of knife designed to catch incoming weapons and can disarm their opponent or allow them to counterattack.
+Type: Dagger
+HP: 0
+MP: 0
+Attack: 21
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 5
+Luck: 0
+Features: [["ExParam: ", "HIT", "3%"], ["ExParam: ", "CRI", "1%"], ["ExParam: ", "EVA", "8%"], ["ExParam: ", "CNT", "12%"]]
+---
+Id 69: Marshammer
+Desc: \}A perculiar hammer that is topped with a soft, pillowy material. Doubles your PHA while equipped.
+Type: Hammer
+HP: 0
+MP: 0
+Attack: 102
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["SpParam: ", "PHA", "x2.0"], ["Atk Element: ", "Unique"], ["Atk Speed: ", 0, -5.0], ["Atk State: ", "Stun", "3%"]]
+---
+Id 70: The Candy Bane
+Desc: \}An unwieldy cylindrical sword with a sharpened edge. Smells of mint. Doubles your PHA while equipped.
+Type: Sword
+HP: 0
+MP: 0
+Attack: 94
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["SpParam: ", "PHA", "x2.0"]]
+---
+Id 71: Glass Greataxe
+Desc: \}Two mighty blades of jagged glass panes stuck to a stick of swirling colours. Doubles your PHA while equipped.
+Type: Axe
+HP: 0
+MP: 0
+Attack: 116
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["ExParam: ", "HIT", "-10%"], ["Atk Speed: ", 0, -5.0], ["SpParam: ", "PHA", "x2.0"]]
+---
+Id 72: Honey Bow
+Desc: \}A bow that seems to be held together by rock-hard discs and honey. Doubles your PHA while equipped.
+Type: Bow
+HP: 0
+MP: 0
+Attack: 90
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Seal Equip: ", "Shield"], ["ExParam: ", "CRI", "6%"], ["Atk Speed: ", 0, 3.0], ["SpParam: ", "PHA", "x2.0"]]
+---
+Id 73: Butter Knife
+Desc: A long, flat, and dull piece of metal attached to a handle. It's worse than having no weapon at all.
+Type: Unique
+HP: 0
+MP: 0
+Attack: -10
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Can Dual Wield"]]
+---
+Id 74: Symbol Breaker
+Desc: An ingenius contraption that breaks pre-made magic symbols to attack. Useless without ammunition.
+Type: Unique
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["ExParam: ", "HIT", "10%"], ["ExParam: ", "CRI", "3%"], ["Equip Armour: ", "Unique"]]
+---
+Id 75: Swordfish
+Desc: A swordfish. Who hasn't wanted to wield a swordfish?
+Type: Sword
+HP: 0
+MP: 0
+Attack: 27
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 76: Energy Sword
+Desc: This mysterious blade of searing hot energy may come from a different world.
+Type: Sword
+HP: 0
+MP: 0
+Attack: 117
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk State: ", "Burn", "80%"], ["ExParam: ", "CRI", "5%"], ["Atk Element: ", "Unique"], ["Atk State: ", "Void Scar", "10%"]]
+---
+Id 77: Sealord's Bane
+Desc: A mighty blade that's the scourge of all aquatic foes.
+Type: Sword
+HP: 0
+MP: 0
+Attack: 47
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Unique"]]
+Ingredients: [["Falcion", 1], ["Swordfish", 1], ["Conch Shell", 2], ["Shark Tooth", 2]]
+---
+Id 78: Trident
+Desc: Tridents are the sea's true weapon. Can wash away foes with a swipe of it's prongs.
+Type: Spear
+HP: 0
+MP: 0
+Attack: 29
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Water"], ["Gain Skill: ", "Wave"]]
+Ingredients: [["Spear", 3], ["Conch Shell", 1], ["Seaweed", 3]]
+---
+Id 79: Cataxtrophe
+Desc: Axidents happen.
+Type: Axe
+HP: 0
+MP: 0
+Attack: 85
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["ExParam: ", "HIT", "-10%"]]
+---
+Id 80: Spiked Flail
+Desc: A \{spiked\} iron ball dangling from a chain.
+Type: Flail
+HP: 0
+MP: 0
+Attack: 24
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["ExParam: ", "HIT", "-5%"], ["ExParam: ", "CNT", "5%"]]
+---
+Id 81: Hypersteel Flail
+Desc: A flail made from the incredible mineral.
+Type: Flail
+HP: 0
+MP: 0
+Attack: 37
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["ExParam: ", "HIT", "-6%"], ["ExParam: ", "CNT", "7%"]]
+---
+Id 82: Brimstone Flail
+Desc: A hardened chunk of solid brimstone dangling from a chain. Still hot, too.
+Type: Flail
+HP: 0
+MP: 0
+Attack: 59
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Fire"], ["ExParam: ", "HIT", "-6%"], ["ExParam: ", "CNT", "9%"], ["Atk State: ", "Burn", "10%"]]
+---
+Id 83: Osmium Flail
+Desc: A gorgeous flail made using the densest material on Adremesis.
+Type: Flail
+HP: 0
+MP: 0
+Attack: 93
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["ExParam: ", "HIT", "-7%"], ["ExParam: ", "CNT", "13%"]]
+---
+Id 84: Dave's Favourite Book
+Desc: \}The book that Dave constantly reads from start to finish. It's extremely old, with a worn cover and discoloured pages. Dave won't say what's in it.
+Type: Staff
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Equip Armour: ", "Unique"]]
+---
+Id 86: Pig-Iron Pike
+Desc: A cheap Marrarockan weapon that can go ham on your enemies.
+Type: Spear
+HP: 0
+MP: 0
+Attack: 28
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 87: Thunder Rod
+Desc: "Lightning Rod" was taken. This staff attracts and captures lightning for you to cast towards your foes.
+Type: Staff
+HP: 0
+MP: 0
+Attack: 12
+Defence: 0
+Magical Attack: 25
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Storm"], ["ExParam: ", "MRG", "2%"], ["Atk State: ", "Paralysis", "5%"], ["Gain Skill: ", "Spark"]]
+Ingredients: [["Wood Staff", 1], ["Thundrite", 1]]
+---
+Id 88: Fishing Spear
+Desc: A barbed spear, used for fishing in shallow waters. Increased damage to aquatic targets.
+Type: Spear
+HP: 0
+MP: 0
+Attack: 15
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Unique"]]
+Ingredients: [["Spear", 1], ["Shark Tooth", 2]]
+---
+Id 89: Cryo Cutter
+Desc: Despite being virtually nothing more than a glorified icicle, this knife can still inflict some real damage.
+Type: Dagger
+HP: 0
+MP: 0
+Attack: 21
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Ice"], ["ExParam: ", "EVA", "5%"], ["Can Dual Wield"], ["Atk State: ", "Freezing", "3%"]]
+---
+Id 90: Searing Scimitar
+Desc: A longsword masterfully crafted using active charcoal and brimstone.
+Type: Sword
+HP: 0
+MP: 0
+Attack: 42
+Defence: 0
+Magical Attack: 10
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Fire"], ["Atk State: ", "Burn", "5%"]]
+---
+Id 91: Brisk Bow
+Desc: A bow that seems to fill its firer with fleet-footing.
+Type: Bow
+HP: 0
+MP: 0
+Attack: 44
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 15
+Luck: 0
+Features: [["Atk Element: ", "Air"], ["Seal Equip: ", "Shield"], ["ExParam: ", "CRI", "5%"], ["Atk Speed: ", 0, 3.0], ["Atk State: ", "Knocked Over", "8%"]]
+---
+Id 92: Sylvan Splitter
+Desc: An axe made faithfully to the resources of a forest, using stone and wood. Small chance to bleed.
+Type: Axe
+HP: 0
+MP: 0
+Attack: 56
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Nature"], ["ExParam: ", "HIT", "-5%"], ["Atk State: ", "Bleeding", "5%"]]
+---
+Id 93: Stygian Scythe
+Desc: A malevolent scythe that seems to have a mind of its own to kill everything around it.
+Type: Scythe
+HP: 0
+MP: 0
+Attack: 31
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Dark"], ["Atk State: ", "Fear", "5%"]]
+---
+Id 94: Global Gavel
+Desc: A huge stone hammer that can shake the very ground beneath your feet.
+Type: Hammer
+HP: 0
+MP: 0
+Attack: 32
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Earth"], ["Atk State: ", "Stun", "8%"], ["Atk Speed: ", 0, -3.0]]
+---
+Id 95: Candescent Cudgel
+Desc: A staff mounted with a large gemstone that is warm to the touch. 
+Type: Staff
+HP: 0
+MP: 0
+Attack: 10
+Defence: 0
+Magical Attack: 22
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Light"], ["ExParam: ", "MRG", "3%"], ["Atk State: ", "Blind", "5%"]]
+Ingredients: [["Magic Staff", 1], ["Sun Candle", 1], ["Silver Ore", 1]]
+---
+Id 96: Lightning Lance
+Desc: A shocking lance that wields the force of a heavy storm.
+Type: Spear
+HP: 0
+MP: 0
+Attack: 44
+Defence: 0
+Magical Attack: 6
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Storm"], ["Atk State: ", "Paralysis", "5%"]]
+---
+Id 97: Flood Flail
+Desc: Wash away your targets with this extremely wet flail. 
+Type: Flail
+HP: 0
+MP: 0
+Attack: 30
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Water"], ["ExParam: ", "HIT", "-5%"], ["ExParam: ", "CNT", "3%"], ["Atk State: ", "Wet", "5%"]]
+---
+Id 98: Quartz Flail
+Desc: A jagged clump of quartz dangling from a chain.
+Type: Flail
+HP: 0
+MP: 0
+Attack: 77
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["ExParam: ", "HIT", "-6%"], ["ExParam: ", "CNT", "9%"]]
+---
+Id 99: Anchor
+Desc: Yep, an anchor. Can you realistically wield this? No. But is it funny? Absolutely. 
+Type: Hammer
+HP: 0
+MP: 0
+Attack: 52
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Unique"], ["Atk State: ", "Stun", "12%"], ["Atk Speed: ", 0, -5.0]]
+Ingredients: [["Iron Ore", 6], ["Rope", 2]]
+---
+Id 101: Hammerburger
+Desc: Can I have a, uhhhh...cheeseburger?
+Cheeseburger? Sure! \}(Also increases PHA, by the way)
+Type: Hammer
+HP: 0
+MP: 0
+Attack: 23
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Unique"], ["Atk Speed: ", 0, -5.0], ["Atk State: ", "Stun", "7%"], ["SpParam: ", "PHA", "x1.5"]]
+---
+Id 102: Vezran's Sword
+Desc: A seldom used blade forged in a diabolous smithy.
+Type: Sword
+HP: 0
+MP: 0
+Attack: 54
+Defence: 0
+Magical Attack: 25
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 103: Blade of the Diabolous
+Desc: The bane of an entire species, this sword ended an untold number of lives.
+Type: Sword
+HP: 0
+MP: 0
+Attack: 92
+Defence: 0
+Magical Attack: 20
+Magical Defence: 0
+Agility: 45
+Luck: 0
+Features: [["ExParam: ", "HIT", "10%"], ["Can Dual Wield"]]
+---
+Id 104: Cold Shoulder
+Desc: A bludgeon so cold that your enemies can feel it just by looking at you. Be sure to show them how it feels, too.
+Type: Hammer
+HP: 0
+MP: 0
+Attack: 52
+Defence: 0
+Magical Attack: 12
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Ice"], ["Atk Element: ", "Unique"], ["Atk Speed: ", 0, -5.0], ["Atk State: ", "Stun", "10%"], ["Atk State: ", "Freezing", "8%"]]
+Ingredients: [["War Hammer", 1], ["Unmelting Ice", 1], ["Winter's Heart", 2]]
+---
+Id 105: Ice Bane
+Desc: A dagger with an unbridled hatred for all things cold.
+Type: Dagger
+HP: 0
+MP: 0
+Attack: 27
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Fire"], ["Atk State: ", "Burn", "5%"], ["Can Dual Wield"], ["ExParam: ", "EVA", "4%"]]
+Ingredients: [["Main Gauche", 1], ["Sun Candle", 1], ["Crystalised Flame", 1]]
+---
+Id 106: Nature's Behest
+Desc: This staff has the power of Nature behind every strike.
+Type: Staff
+HP: 0
+MP: 0
+Attack: 16
+Defence: 0
+Magical Attack: 39
+Magical Defence: 9
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Nature"], ["ExParam: ", "MRG", "3%"]]
+Ingredients: [["Magic Staff", 1], ["Wind Warder", 1], ["Juggernaut Leaf", 2], ["Dylorien", 1]]
+---
+Id 107: Obsidian Inferno Sword
+Desc: A sabre crafted out of obsidian creates this extremely dangerous weapon.
+Type: Sword
+HP: 0
+MP: 0
+Attack: 65
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Fire"], ["Atk State: ", "Burn", "8%"]]
+Ingredients: [["Searing Scimitar", 1], ["Obsidian Shard", 3], ["Crystalised Flame", 2]]
+---
+Id 108: Stone Launcher
+Desc: A modified crossbow that launches rocks at high speed.
+Type: Bow
+HP: 0
+MP: 0
+Attack: 40
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 7
+Luck: 0
+Features: [["Atk Element: ", "Earth"], ["Seal Equip: ", "Shield"], ["ExParam: ", "CRI", "5%"], ["Atk Speed: ", 0, 3.0]]
+Ingredients: [["Shortbow", 1], ["Fallen Star", 1], ["Earthquake Arrows", 2]]
+---
+Id 109: Freezing Scythe
+Desc: It's really hard to come up with interesting names.
+Type: Scythe
+HP: 0
+MP: 0
+Attack: 48
+Defence: 0
+Magical Attack: 12
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Ice"], ["Atk State: ", "Freezing", "5%"]]
+Ingredients: [["Serrated Scythe", 1], ["Fangfrost Arrows", 1], ["Unmelting Ice", 1], ["Winter's Heart", 1]]
+---
+Id 110: Lightning Fork
+Desc: A poky stick that can zap your foes into submission.
+Type: Spear
+HP: 0
+MP: 0
+Attack: 52
+Defence: 0
+Magical Attack: 15
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Storm"], ["Atk State: ", "Paralysis", "8%"], ["Gain Skill: ", "Spark"]]
+Ingredients: [["Lightning Lance", 1], ["Thunder Rod", 1], ["Lightning Rod", 1]]
+---
+Id 111: Ironbark Cudgel
+Desc: A quarterstaff made from a rare tree found on mountainsides.
+Type: Staff
+HP: 0
+MP: 0
+Attack: 53
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Ingredients: [["Wood Staff", 1], ["Iron Ore", 2], ["Ironbark", 2]]
+---
+Id 112: Beacon of Valour
+Desc: \}A spear that can inspire your allies to fight with all their vigour. Every use of Attack has a chance to grant Inspiration to a random ally.
+Type: Spear
+HP: 0
+MP: 0
+Attack: 85
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Ingredients: [["Shadow of Cowardice", 1], ["Candescent Cudgel", 1], ["Soul Orb", 1], ["Omnium", 3], ["Artefact Shards", 6]]
+---
+Id 113: Shadow of Cowardice
+Desc: Remants of some ancient spear. Simply holding it makes you feel uneasy and distrustful.
+Type: Spear
+HP: 0
+MP: 0
+Attack: 8
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 114: Betrayal Flail
+Desc: Makes the user Savage, greatly increasing their power at the risk of harming their allies.
+Type: Flail
+HP: 0
+MP: 0
+Attack: 40
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["ExParam: ", "CNT", "5%"]]
+---
+Id 117: Boulder Bludgeoner
+Desc: A hammer of impossible proportions that blow your foes into the next era.
+Type: Hammer
+HP: 0
+MP: 0
+Attack: 80
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Earth"], ["Atk Element: ", "Unique"], ["Atk State: ", "Stun", "13%"], ["Atk Speed: ", 0, -5.0]]
+Ingredients: [["Terrahammer", 1], ["Earthwarden's Mantle", 1], ["Fallen Star", 2], ["Iron Ore", 3]]
+---
+Id 118: Magestic Lance
+Desc: A lightweight spear that even the most inexperienced wielder can use with grace.
+Type: Spear
+HP: 0
+MP: 0
+Attack: 74
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 25
+Luck: 25
+---
+Id 119: Necrotic Sceptre
+Desc: \}A curious sceptre that seems to wreak death wherever it goes.
+Type: Staff
+HP: 0
+MP: 0
+Attack: 15
+Defence: 0
+Magical Attack: 38
+Magical Defence: 8
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Dark"], ["Atk State: ", "Death", "10%"], ["ExParam: ", "MRG", "3%"]]
+---
+Id 120: Magma Maul
+Desc: A mace made from encasing pure \fiactual\fr magma in a magic seal.
+Type: Hammer
+HP: 0
+MP: 0
+Attack: 64
+Defence: 0
+Magical Attack: 14
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk State: ", "Stun", "10%"], ["Atk Element: ", "Unique"], ["Atk Element: ", "Fire"], ["Atk Speed: ", 0, -5.0]]
+Ingredients: [["Hypersteel Mace", 1], ["Crystalised Flame", 3], ["Sun Candle", 2]]
+---
+Id 121: Jolly Scythe
+Desc: A super sharp farmer's scythe who's slice and dice abilities give the wielder great joy. 'Tis a jolly scythe.
+Type: Scythe
+HP: 0
+MP: 0
+Attack: 51
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 25
+---
+Id 122: Sea-Splitting Axe
+Desc: A savage axe that can split not only your enemies, but also the very sea.
+Type: Axe
+HP: 0
+MP: 0
+Attack: 67
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Unique"], ["ExParam: ", "HIT", "-4%"]]
+---
+Id 123: Wise Man's Wallop
+Desc: A wallop so wise, it can take advantage of the best of situations for a cunning counterattack.
+Type: Hammer
+HP: 0
+MP: 1
+Attack: 36
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk State: ", "Stun", "10%"], ["Atk Speed: ", 0, -5.0], ["ExParam: ", "CNT", "7%"]]
+---
+Id 124: Ifradian Sword
+Desc: This longsword is the standard weapon of most Ifradian soldiers.
+Type: Sword
+HP: 0
+MP: 0
+Attack: 39
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 125: Ifradian Spear
+Desc: A spear given to the frontline of all Ifradian battlegroups.
+Type: Spear
+HP: 0
+MP: 0
+Attack: 39
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 126: Ifradian Bow
+Desc: A bow used by the ranged defenders of Ifrad.
+Type: Bow
+HP: 0
+MP: 0
+Attack: 44
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Seal Equip: ", "Shield"], ["ExParam: ", "CRI", "1%"], ["Atk Speed: ", 0, 3.0]]
+---
+Id 127: Edge of the Damned
+Desc: This seemingly insignificant blade has the power to curse its target with every strike. 
+Type: Dagger
+HP: 0
+MP: 0
+Attack: 53
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 11
+Luck: 0
+Features: [["ExParam: ", "EVA", "9%"], ["Can Dual Wield"], ["Atk State: ", "Curse of the Doomed", "5%"], ["Atk State: ", "Curse of the Debilitated", "5%"], ["Atk State: ", "Curse of the Feeble", "5%"], ["Atk State: ", "Curse of the Laggard", "5%"], ["Atk State: ", "Curse of the Soulless", "5%"]]
+---
+Id 128: Soul Eviscerator
+Desc: \}This bow shreds the connection between body and soul, tearing at their mind as it does so. Can cause hopelessness or instantly kill.
+Type: Bow
+HP: 0
+MP: 0
+Attack: 91
+Defence: 0
+Magical Attack: 29
+Magical Defence: 0
+Agility: 15
+Luck: 0
+Features: [["Atk Element: ", "Soul"], ["Seal Equip: ", "Shield"], ["ExParam: ", "CRI", "3%"], ["Atk Speed: ", 0, 3.0], ["Atk State: ", "Death", "10%"], ["Atk State: ", "Hopeless", "10%"]]
+Ingredients: [["Hypersteel Bow", 1], ["Darkstrike Arrows", 2], ["Darkstrike Paragon O", 1], ["Soul Orb", 2], ["Flow Conduit", 1]]
+---
+Id 129: Hammer of Justice
+Desc: Strike your foes with exact predujice! This hammer gradually heals its user.
+Type: Hammer
+HP: 0
+MP: 0
+Attack: 93
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Light"], ["Atk State: ", "Stun", "14%"], ["Atk Element: ", "Unique"], ["Atk Speed: ", 0, -5.0], ["ExParam: ", "HRG", "5%"]]
+Ingredients: [["Terrahammer", 1], ["Omnium", 2], ["Templar's Ashes", 2], ["Blessed Abjugation", 1]]
+---
+Id 130: Siphon Bow
+Desc: A bow that enhances the arrows it fires to heal the user (only applies to basic attacks).
+Type: Bow
+HP: 0
+MP: 0
+Attack: 74
+Defence: 0
+Magical Attack: 8
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Seal Equip: ", "Shield"], ["ExParam: ", "CRI", "4%"], ["Atk Speed: ", 0, 3.0]]
+---
+Id 131: Talbrian Long Sword
+Desc: The standard-issue weapon supplied to much of the Talbrian Watch and military.
+Type: Sword
+HP: 0
+MP: 0
+Attack: 25
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["ExParam: ", "HIT", "1%"]]
+---
+Id 132: Snake's Vengeance
+Desc: A small, curved blade embodying a snake's terrifying bite. Chance to poison.
+Type: Dagger
+HP: 0
+MP: 0
+Attack: 24
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["ExParam: ", "EVA", "6%"], ["Can Dual Wield"], ["Atk State: ", "Poison", "10%"]]
+Ingredients: [["Main Gauche", 1], ["Snake Fang", 2], ["Anti-Anti-Venom", 1]]
+---
+Id 133: Hornet's Wrath
+Desc: A tiny knife scultped in the likeness of all those angry Hornets. It's stature helps keep the wielder swift and evasive.
+Type: Dagger
+HP: 0
+MP: 0
+Attack: 19
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 15
+Luck: 0
+Features: [["ExParam: ", "EVA", "10%"], ["Can Dual Wield"]]
+Ingredients: [["Dagger", 1], ["Insect Stinger", 1], ["Hornet Venom", 1]]
+---
+Id 134: Bat's Sight
+Desc: A sword that should work best under the cover of darkness and it gives you the Echolocate skill.
+Type: Sword
+HP: 0
+MP: 0
+Attack: 39
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Gain Skill: ", "Echolocate"]]
+Ingredients: [["Long Sword", 1], ["Bat Wings", 2], ["Revel Weed", 1]]
+---
+Id 135: Spider's Web
+Desc: A net made of recovered spider silk. Incredibly strong and difficult to break free from. Can be dual wielded.
+Type: Bow
+HP: 0
+MP: 0
+Attack: 3
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Can Dual Wield"], ["Atk State: ", "Net", "30%"], ["Atk State: ", "Webbed", "50%"]]
+Ingredients: [["Spider Silk", 4], ["Net-Launcher Arrows", 1]]
+---
+Id 136: Skeleton's Noggin
+Desc: A bludgeon made with combining ground-up skulls into one MEGA skull.
+Type: Hammer
+HP: 0
+MP: 0
+Attack: 26
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Unique"], ["Atk Speed: ", 0, -5.0], ["Atk State: ", "Stun", "8%"]]
+Ingredients: [["Mace", 1], ["Skull", 5]]
+---
+Id 137: Spectre's Regret
+Desc: A bardiche that is not entirely of this world. Can cause Fear.
+Type: Axe
+HP: 0
+MP: 0
+Attack: 49
+Defence: 0
+Magical Attack: 18
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["ExParam: ", "HIT", "-3%"], ["Atk State: ", "Fear", "10%"]]
+Ingredients: [["Bardiche", 1], ["Spirit Essence", 3], ["Ghostfruit", 1]]
+---
+Id 138: Ironbark Blade
+Desc: A sword crafted of Ironwood that'll stab 'em well and good.
+Type: Staff
+HP: 0
+MP: 0
+Attack: 55
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Ingredients: [["Ironbark", 4]]
+---
+Id 139: Forest Thomper
+Desc: A big ol' club made from Ironbark. Hefty, but will knock some sense into anything.
+Type: Hammer
+HP: 0
+MP: 0
+Attack: 57
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Unique"], ["Atk Speed: ", 0, -5.0], ["Atk State: ", "Stun", "9%"]]
+Ingredients: [["Ironbark", 5]]
+---
+Id 140: Pickaxe
+Desc: A typical pickaxe used by many a miner throughout Marrarock. Inflicts double damage to rocky enemies.
+Type: Axe
+HP: 0
+MP: 0
+Attack: 43
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Unique"], ["ExParam: ", "HIT", "-3%"]]
+Ingredients: [["Tears of Cedarus", 1], ["Hypersteel", 1]]
+---
+Id 141: Ancient Ascerothan Sabre
+Desc: \}An extremely old sword recovered from the Marrarockan mines. With some time and effort, it could be restored to its former glory.
+Type: Sword
+HP: 0
+MP: 0
+Attack: 8
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 142: Ascerothan Sabre
+Desc: A mighty reminder of Asceroth's legacy and a sign of their once-lost strength. Higher CRI.
+Type: Sword
+HP: 0
+MP: 0
+Attack: 81
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["ExParam: ", "CRI", "4%"]]
+Ingredients: [["Ancient Ascerothan Sabre", 1], ["Iron Ore", 3], ["Silver Ore", 3], ["Artefact Shards", 4], ["TheFourKingdoms:Where'dTheyGo?", 1]]
+---
+Id 143: Ancient Ascerothan Halberd
+Desc: Asceroth's weapon of the front line, yet, now a shadow of its former self.
+Type: Spear
+HP: 0
+MP: 0
+Attack: 8
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 144: Ascerothan Halberd
+Desc: \}A halberd of an erstwhile kingdom, used by its frontline infantry, restored to its once well-respected status. Good chance to Bleed.
+Type: Spear
+HP: 0
+MP: 0
+Attack: 81
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk State: ", "Bleeding", "15%"]]
+Ingredients: [["Ancient Ascerothan Halberd", 1], ["Omnium", 2], ["Silver Ore", 3], ["Artefact Shards", 4], ["TheFourKingdoms:Where'dTheyGo?", 1]]
+---
+Id 145: Voidgloom Reaper
+Desc: A scythe of the Void, ready to harvest Souls and fuel Krel'Outama's war machine. Your basic attacks heal you.
+Type: Scythe
+HP: 0
+MP: 0
+Attack: 85
+Defence: 0
+Magical Attack: 85
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Soul"], ["Atk State: ", "Void Scar", "5%"]]
+Ingredients: [["Dread Scythe", 1], ["Magic Repressor", 1], ["Raxorium Ore", 2], ["Void Residue", 3], ["Contaminated Conduit", 1]]
+---
+Id 146: Voidfang Piercer
+Desc: A trident, sparking with Void energy, that can easily pierce any material. Extremely likely to inflict a Void Scar.
+Type: Spear
+HP: 0
+MP: 0
+Attack: 105
+Defence: 0
+Magical Attack: 105
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Soul"], ["Atk State: ", "Void Scar", "75%"]]
+Ingredients: [["Beacon of Valour", 1], ["Magic Repressor", 1], ["Raxorium Ore", 2], ["Void Residue", 3], ["Contaminated Conduit", 1]]
+---
+Id 147: Crimson Talon
+Desc: What this bow lacks in direct offence, it makes up for with it's exceptional ability to land powerful critical hits.
+Type: Bow
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 300
+Features: [["Seal Equip: ", "Shield"], ["ExParam: ", "CRI", "25%"], ["Atk Speed: ", 0, 2.0]]
+---
+Id 148: Ardent Raptor
+Desc: A blazing bow, allegedly forged in the volcano, that engulfs your targets with searing flames.
+Type: Bow
+HP: 0
+MP: 0
+Attack: 79
+Defence: 0
+Magical Attack: 15
+Magical Defence: 0
+Agility: 15
+Luck: 0
+Features: [["Atk Element: ", "Fire"], ["Atk State: ", "Burn", "15%"], ["Seal Equip: ", "Shield"], ["ExParam: ", "CRI", "3%"], ["Atk Speed: ", 0, 3.0]]
+---
+Id 149: Gnarled Smasher
+Desc: \}This hammer is crowned with a dense network of knotted roots that form a tough surface to smash your friends with (it heals them, don't worry).
+Type: Hammer
+HP: 0
+MP: 0
+Attack: 63
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features: [["Atk Element: ", "Unique"], ["Atk Speed: ", 0, -2.0]]
+---
+Id 150: Void's Eclipse
+Desc: \}A bow of the Void, capable of launching arrows of concentrated Void at ranges and speeds any human bow could only wish for. Doesn't restrict use of shields, and every attack will Hex the target.
+Type: Bow
+HP: 0
+MP: 0
+Attack: 90
+Defence: 0
+Magical Attack: 90
+Magical Defence: 0
+Agility: 10
+Luck: 25
+Features: [["Atk Element: ", "Soul"], ["ExParam: ", "CRI", "4%"], ["Atk Speed: ", 0, 3.0], ["Atk State: ", "Hexed", "1000%"], ["Atk State: ", "Hexed", "1000%"]]
+Ingredients: [["Crimson Talon", 1], ["Magic Repressor", 1], ["Raxorium Ore", 2], ["Void Residue", 3], ["Contaminated Conduit", 1]]
+---
