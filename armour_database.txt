@@ -902,7 +902,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 8
 Luck: 0
-Features and Traits: [["ExParam: ", "EVA", "0%"], ["Element Rate: ", nil, "80%"], ["State Resist: ", "Poison"]]
+Features and Traits: [["ExParam: ", "EVA", "0%"], ["Element Rate: ", "Nature", "80%"]]
 ---
 Id 67: Steel-Toed Boots
 Desc: These boots cap the toes with a thin layer of steel for extra strength and kicking power.
@@ -2638,7 +2638,7 @@ Magical Attack: 0
 Magical Defence: 21
 Agility: 0
 Luck: 0
-Features and Traits: [["Element Rate: ", "Fire", "75%"], ["Element Rate: ", "Ice", "75%"], ["Element Rate: ", "Storm", "75%"], ["Element Rate: ", "Water", "75%"], ["Element Rate: ", "Earth", "75%"], ["Element Rate: ", "Air", "75%"], ["Element Rate: ", "Light", "75%"], ["Element Rate: ", "Dark", "75%"], ["Element Rate: ", "Nature", "75%"], ["Element Rate: ", nil, "75%"], ["Element Rate: ", nil, "75%"], ["ExParam: ", "EVA", "-4%"], ["Atk Speed: ", -3]]
+Features and Traits: [["Element Rate: ", "Fire", "75%"], ["Element Rate: ", "Ice", "75%"], ["Element Rate: ", "Storm", "75%"], ["Element Rate: ", "Water", "75%"], ["Element Rate: ", "Earth", "75%"], ["Element Rate: ", "Air", "75%"], ["Element Rate: ", "Light", "75%"], ["Element Rate: ", "Dark", "75%"], ["Element Rate: ", "Nature", "75%"], ["ExParam: ", "EVA", "-4%"], ["Atk Speed: ", -3]]
 Ingredients: [["Hypersteel Armour", 1], ["Blazing Beverage", 1], ["Crystalised Flame", 1], ["Obsidian Shard", 2]]
 ---
 Id 190: Regalia of the Phoenix's Soul
@@ -3182,7 +3182,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["Element Rate: ", "Ice", "50%"], ["Element Rate: ", nil, "75%"], ["State Resist: ", "Freezing"]]
+Features and Traits: [["Element Rate: ", "Ice", "50%"], ["State Resist: ", "Freezing"]]
 ---
 Id 228: Blacksmith's Gloves
 Desc: Heavy leather gloves that can resist the fires of industry.
@@ -3196,7 +3196,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["Element Rate: ", "Fire", "50%"], ["Element Rate: ", nil, "75%"], ["State Resist: ", "Burn"]]
+Features and Traits: [["Element Rate: ", "Fire", "50%"], ["State Resist: ", "Burn"]]
 ---
 Id 229: Thieves' Light Touch
 Desc: Fingerless gloves that make picking pockets particularly painless. Enemies will drop their items twice as often.
