@@ -1,0 +1,4880 @@
+Id 1: Casual Clothes
+Desc: Very lightweight clothes.
+Type: General Armour
+Price: 15
+HP: 0
+MP: 0
+Attack: 0
+Defence: 1
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 2: Leather Top
+Desc: Made with the best leather.
+Type: General Armour
+Price: 55
+HP: 0
+MP: 0
+Attack: 0
+Defence: 5
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 3: Adventurer's Garb
+Desc: Worn clothing that can withstand a harsh journey.
+Type: General Armour
+Price: 190
+HP: 0
+MP: 0
+Attack: 0
+Defence: 9
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Ingredients: [["Cotton", 2], ["Leather", 3]]
+---
+Id 4: Hard Leather
+Desc: Hardened leather vest.
+Type: General Armour
+Price: 860
+HP: 0
+MP: 0
+Attack: 0
+Defence: 16
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Ingredients: [["Fabric", 2], ["Leather", 4]]
+---
+Id 5: Brigandine
+Desc: Clothing made with reinforced steel.
+Type: General Armour
+Price: 1400
+HP: 0
+MP: 0
+Attack: 0
+Defence: 22
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 6: Bandana
+Desc: Headband cloth that protects the head.
+Type: General Armour
+Price: 25
+HP: 0
+MP: 0
+Attack: 0
+Defence: 1
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Ingredients: [["Fabric", 1]]
+---
+Id 7: Leather Bandana
+Desc: Wrap made of leather to better protect the head.
+Type: General Armour
+Price: 50
+HP: 0
+MP: 0
+Attack: 0
+Defence: 3
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Ingredients: [["Leather", 1]]
+---
+Id 8: Fur Hat
+Desc: Hat made of fur.
+Type: General Armour
+Price: 85
+HP: 0
+MP: 0
+Attack: 0
+Defence: 4
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Ice", "90%"]]
+---
+Id 9: Turban
+Desc: Thick cloth wrapped repeatedly around one's head.
+Type: General Armour
+Price: 110
+HP: 0
+MP: 0
+Attack: 0
+Defence: 6
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 10: Feather Cap
+Desc: Stylish hat with feathers from many beautiful birds.
+Type: General Armour
+Price: 240
+HP: 0
+MP: 0
+Attack: 0
+Defence: 8
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 11: Cotton Robe
+Desc: A robe made of thick cotton.
+Type: Magic Armour
+Price: 100
+HP: 0
+MP: 0
+Attack: 0
+Defence: 4
+Magical Attack: 2
+Magical Defence: 2
+Agility: 0
+Luck: 0
+Ingredients: [["Cotton", 3]]
+---
+Id 12: Silk Cloak
+Desc: A cloak made of fine silk.
+Type: Magic Armour
+Price: 500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 9
+Magical Attack: 3
+Magical Defence: 4
+Agility: 0
+Luck: 0
+Ingredients: [["Fabric", 1], ["Cotton", 4]]
+---
+Id 13: Runed Robe
+Desc: A lined robe engraved with runes.
+Type: Magic Armour
+Price: 1800
+HP: 0
+MP: 0
+Attack: 0
+Defence: 13
+Magical Attack: 6
+Magical Defence: 7
+Agility: 0
+Luck: 0
+---
+Id 14: Hermit Robe
+Desc: Robe worn by a wise old man.
+Type: Magic Armour
+Price: 4000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 20
+Magical Attack: 13
+Magical Defence: 14
+Agility: 0
+Luck: 0
+---
+Id 15: Elemental Cloak
+Desc: The Natural Flow was influenced into the very fibres of this cloak.
+Type: Magic Armour
+Price: 12000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 28
+Magical Attack: 20
+Magical Defence: 21
+Agility: 0
+Luck: 0
+Ingredients: [["Runed Robe", 1], ["Magic Staff", 1], ["Flow Conduit", 1]]
+---
+Id 16: Copper Brace
+Desc: Hair ornaments made of copper.
+Type: Magic Armour
+Price: 100
+HP: 0
+MP: 0
+Attack: 0
+Defence: 2
+Magical Attack: 2
+Magical Defence: 1
+Agility: 0
+Luck: 0
+Ingredients: [["Copper Ore", 1]]
+---
+Id 17: Circlet
+Desc: A ring-shaped ornament made of iron.
+Type: Magic Armour
+Price: 500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 1
+Magical Attack: 4
+Magical Defence: 3
+Agility: 0
+Luck: 0
+Ingredients: [["Iron Ore", 1]]
+---
+Id 18: Silver Hairpin
+Desc: Hair accessory that enhances magic.
+Type: Magic Armour
+Price: 800
+HP: 0
+MP: 0
+Attack: 0
+Defence: 2
+Magical Attack: 5
+Magical Defence: 4
+Agility: 0
+Luck: 0
+---
+Id 19: Hypersteel Circlet
+Desc: Tough circlet made of the incredible alloy.
+Type: Magic Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 4
+Magical Attack: 7
+Magical Defence: 6
+Agility: 0
+Luck: 0
+---
+Id 20: Magi's Crown
+Desc: Empowered by an ancient mage's power.
+Type: Magic Armour
+Price: 15000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 7
+Magical Attack: 12
+Magical Defence: 11
+Agility: 0
+Luck: 0
+---
+Id 21: Leather Mail
+Desc: Armour made with overlapping leather.
+Type: Light Armour
+Price: 100
+HP: 0
+MP: 0
+Attack: 0
+Defence: 11
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "1%"]]
+---
+Id 22: Bronze Plate
+Desc: A breastplate made of bronze.
+Type: Light Armour
+Price: 500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 15
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "2%"]]
+Ingredients: [["Copper Ore", 2], ["Tin Ore", 1]]
+---
+Id 23: Iron Plate
+Desc: A breastplate made of iron.
+Type: Light Armour
+Price: 1500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 19
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "3%"]]
+Ingredients: [["Iron Ore", 3]]
+---
+Id 24: Hypersteel Plate
+Desc: Tough breastplate made of the incredible alloy.
+Type: Light Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 28
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "4%"]]
+---
+Id 25: Dragon Plate
+Desc: A breastplate made from dragon scales.
+Type: Light Armour
+Price: 15000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 30
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "5%"], ["Element Rate: ", "Fire", "80%"]]
+---
+Id 26: Leather Hap
+Desc: A hat made out of leather.
+Type: Light Armour
+Price: 100
+HP: 0
+MP: 0
+Attack: 0
+Defence: 4
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 27: Bronze Cap
+Desc: A reinforced hat made with bronze.
+Type: Light Armour
+Price: 500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 7
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 28: Sarett
+Desc: A hat made with steel.
+Type: Light Armour
+Price: 1200
+HP: 0
+MP: 0
+Attack: 0
+Defence: 11
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 29: Hypersteel Cap
+Desc: Tough cap made of the incredible alloy.
+Type: Light Armour
+Price: 5000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 17
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 30: Dragon Cap
+Desc: A hat made of dragon scales.
+Type: Light Armour
+Price: 15000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 25
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Fire", "80%"]]
+---
+Id 31: Chain Mail
+Desc: Armour made with iron chains.
+Type: Heavy Armour
+Price: 150
+HP: 0
+MP: 0
+Attack: 0
+Defence: 14
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Speed: ", -1]]
+---
+Id 32: Iron Armour
+Desc: General suit of armour.
+Type: Heavy Armour
+Price: 750
+HP: 0
+MP: 0
+Attack: 0
+Defence: 19
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "-1%"], ["Atk Speed: ", -2]]
+---
+Id 33: Plate Mail
+Desc: Iron armour strengthened by overlapping plates.
+Type: Heavy Armour
+Price: 1800
+HP: 0
+MP: 0
+Attack: 0
+Defence: 24
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "-2%"], ["Atk Speed: ", -3]]
+---
+Id 34: Hypersteel Armour
+Desc: Tough armour made of the incredible alloy. Lacks the EVA reduction of other heavy armours.
+Type: Heavy Armour
+Price: 7500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 32
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 35: Dragon Armour
+Desc: Armour made from dragon scales.
+Type: Heavy Armour
+Price: 22000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 40
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "-1%"], ["Element Rate: ", "Fire", "80%"], ["Atk Speed: ", -2]]
+---
+Id 36: Chain Helm
+Desc: Helmet made of iron chains.
+Type: Heavy Armour
+Price: 150
+HP: 0
+MP: 0
+Attack: 0
+Defence: 8
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 37: Iron Helm
+Desc: Helmet made of iron.
+Type: Heavy Armour
+Price: 700
+HP: 0
+MP: 0
+Attack: 0
+Defence: 13
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "0%"]]
+---
+Id 38: Knight Helm
+Desc: Knights wear this helm.
+Type: Heavy Armour
+Price: 1400
+HP: 0
+MP: 0
+Attack: 0
+Defence: 19
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "0%"]]
+---
+Id 39: Hypersteel Helm
+Desc: Tough helm made of the incredible mineral.
+Type: Heavy Armour
+Price: 5500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 26
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 40: Dragon Helm
+Desc: Helmet made of dragon scales.
+Type: Heavy Armour
+Price: 22000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 38
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "-1%"], ["Element Rate: ", "Fire", "80%"], ["Atk Speed: ", -2]]
+---
+Id 41: Buckler
+Desc: A small shield used to fend off attacks.
+Type: Small Shield
+Price: 100
+HP: 0
+MP: 0
+Attack: 0
+Defence: 3
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "2%"]]
+Ingredients: [["Wood", 1], ["Iron Ore", 1]]
+---
+Id 42: Round Shield
+Desc: A circular shield with a reinforced steel frame.
+Type: Small Shield
+Price: 500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 7
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "4%"]]
+---
+Id 43: Spike Shield
+Desc: A shield with spikes on its surface for offense. Enables you to rarely counterattack.
+Type: Small Shield
+Price: 1600
+HP: 0
+MP: 0
+Attack: 3
+Defence: 13
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "6%"], ["ExParam: ", "CNT", "3%"]]
+---
+Id 44: Hypersteel Buckler
+Desc: Tough buckler made of the incredible alloy.
+Type: Small Shield
+Price: 5500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 20
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "8%"]]
+---
+Id 45: Dragon Buckler
+Desc: Buckler made of dragon scales.
+Type: Small Shield
+Price: 15000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 31
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "12%"], ["Element Rate: ", "Fire", "80%"]]
+---
+Id 46: Wood Shield
+Desc: A shield made with hard wood.
+Type: Large Shield
+Price: 100
+HP: 0
+MP: 0
+Attack: 0
+Defence: 5
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "2%"], ["ExParam: ", "CEV", "1%"], ["Atk Speed: ", -1], ["Gain Skill: ", "Shield Charge"]]
+---
+Id 47: Steel Shield
+Desc: Shield made of steel.
+Type: Large Shield
+Price: 500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 9
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "4%"], ["ExParam: ", "CEV", "2%"], ["Atk Speed: ", -1], ["Gain Skill: ", "Shield Charge"]]
+---
+Id 48: Knight's Shield
+Desc: The classical shield that many warriors wield.
+Type: Large Shield
+Price: 1700
+HP: 0
+MP: 0
+Attack: 0
+Defence: 15
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "6%"], ["ExParam: ", "CEV", "3%"], ["Atk Speed: ", -1], ["Gain Skill: ", "Shield Charge"]]
+---
+Id 49: Hypersteel Shield
+Desc: Tough shield made of the incredible alloy.
+Type: Large Shield
+Price: 7000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 23
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "8%"], ["ExParam: ", "CEV", "4%"], ["Atk Speed: ", -1], ["Gain Skill: ", "Shield Charge"]]
+---
+Id 50: Dragon Shield
+Desc: Shield made of dragon scales.
+Type: Large Shield
+Price: 15000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 34
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "10%"], ["ExParam: ", "CEV", "5%"], ["Atk Speed: ", -1], ["Element Rate: ", "Fire", "80%"], ["Gain Skill: ", "Shield Charge"]]
+---
+Id 51: War's Belt
+Desc: Metallic belt that magically engraves itself with the names of the wearer's kills.
+Type: General Armour
+Price: 4000
+HP: 0
+MP: 0
+Attack: 20
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 52: Defense Amulet
+Desc: Produces an invisible barrier that helps reduce impact from attacks.
+Type: General Armour
+Price: 4000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 20
+Magical Attack: 0
+Magical Defence: 10
+Agility: 0
+Luck: 0
+---
+Id 53: Winged Boots
+Desc: A spirit of the wind dwell in these boots. Increases EVA.
+Type: General Armour
+Price: 4000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 4
+Magical Attack: 0
+Magical Defence: 0
+Agility: 20
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "5%"]]
+---
+Id 54: Earth's Embrace
+Desc: The power of the earth protects the wearer, increasing DEF and resists most States.
+Type: General Armour
+Price: 4000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 20
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["State Resist: ", "Poison"], ["State Resist: ", "Blind"], ["State Resist: ", "Silence"], ["State Resist: ", "Confusion"], ["State Resist: ", "Sleep"], ["State Resist: ", "Paralysis"], ["State Resist: ", "Freezing"], ["State Resist: ", "Knocked Over"], ["State Resist: ", "Headache"], ["State Resist: ", "Burn"]]
+---
+Id 55: Lucky Charm
+Desc: A charm engraved with the name of a creature of luck.
+Type: General Armour
+Price: 5000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 30
+---
+Id 56: Holy Symbol
+Desc: A symbol worn by those who serve the Almighty. It wards off elemental damage from all sources.
+Type: General Armour
+Price: 5000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 5
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Fire", "80%"], ["Element Rate: ", "Ice", "80%"], ["Element Rate: ", "Storm", "80%"], ["Element Rate: ", "Water", "80%"], ["Element Rate: ", "Earth", "80%"], ["Element Rate: ", "Air", "80%"], ["Element Rate: ", "Nature", "80%"], ["Element Rate: ", "Light", "80%"], ["Element Rate: ", "Dark", "80%"]]
+---
+Id 57: Solomon's Ring
+Desc: A ring with the hidden power of a mighty wizard, reducing the MP cost of Spells and Abilities.
+Type: General Armour
+Price: 5000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 10
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["SpParam: ", "MCR", "x0.5"]]
+---
+Id 58: Empowering Necklace
+Desc: A magic necklace that empowers those who fight. Increases your EVA, HIT, and TRG.
+Type: General Armour
+Price: 5000
+HP: 0
+MP: 0
+Attack: 10
+Defence: 0
+Magical Attack: 10
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "HIT", "10%"], ["ExParam: ", "EVA", "10%"], ["ExParam: ", "TRG", "4%"]]
+---
+Id 59: Eyepatch of Fury
+Desc: An eyepatch worn by powerful berserkers.
+Type: General Armour
+Price: 5000
+HP: 0
+MP: 0
+Attack: 15
+Defence: -5
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "-5%"]]
+---
+Id 60: Talisman of Light
+Desc: The holy power of the Almighty has been imbued into this talisman, increasing all stats.
+Type: General Armour
+Price: 6500
+HP: 12
+MP: 12
+Attack: 12
+Defence: 12
+Magical Attack: 12
+Magical Defence: 12
+Agility: 12
+Luck: 12
+---
+Id 61: Helmet of Silence
+Desc: Immunity to Headaches while worn.
+Type: General Armour
+Price: 350
+HP: 0
+MP: 0
+Attack: 0
+Defence: 3
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["State Resist: ", "Headache"]]
+---
+Id 62: Shield of Brawn
+Desc: A shield that puts brawn over brains. Increases your max HP, but reduces your max MP.
+Type: Small Shield
+Price: 2400
+HP: 0
+MP: 0
+Attack: 0
+Defence: 10
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "3%"], ["Parameter: ", "MHP", "125%"], ["Parameter: ", "MMP", "75%"]]
+---
+Id 63: Mirror Shield
+Desc: A wonderous shield with the powerful ability to deflect magic attacks away from it's holder.
+Type: Small Shield
+Price: 6400
+HP: 0
+MP: 0
+Attack: 0
+Defence: 13
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "4%"], ["SpParam: ", "MDR", "x0.75"], ["ExParam: ", "MRF", "10%"]]
+---
+Id 64: Bulwark Shield
+Desc: Gives you the ability to bunker down by extending the sides of the shield around you.
+Type: Large Shield
+Price: 9000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 30
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "5%"], ["Gain Skill: ", "Bunker Down"], ["ExParam: ", "CEV", "15%"], ["Atk Speed: ", -2], ["Gain Skill: ", "Shield Charge"]]
+---
+Id 65: Hat of the Grey Wizard
+Desc: Totally, 100% original idea. Gives significant bonus to MAT and MMP, while decreasing MP costs. 
+Type: General Armour
+Price: 12500
+HP: 0
+MP: 150
+Attack: 0
+Defence: 3
+Magical Attack: 25
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["SpParam: ", "MCR", "x0.5"]]
+---
+Id 66: Hiking Boots
+Desc: Big leather boots that fend of nature. They're made for lots and lots of walking. 
+Type: General Armour
+Price: 300
+HP: 0
+MP: 0
+Attack: 0
+Defence: 3
+Magical Attack: 0
+Magical Defence: 0
+Agility: 8
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "0%"], ["Element Rate: ", nil, "80%"], ["State Resist: ", "Poison"]]
+---
+Id 67: Steel-Toed Boots
+Desc: These boots cap the toes with a thin layer of steel for extra strength and kicking power.
+Type: General Armour
+Price: 75
+HP: 0
+MP: 0
+Attack: 0
+Defence: 2
+Magical Attack: 0
+Magical Defence: 0
+Agility: 3
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "0%"]]
+---
+Id 68: Sandals
+Desc: Light feet wraps that...uh, cover your feet.
+Type: General Armour
+Price: 9
+HP: 0
+MP: 0
+Attack: 0
+Defence: -1
+Magical Attack: 0
+Magical Defence: 0
+Agility: 2
+Luck: 0
+Ingredients: [["Skull", 10], ["Celery", 69]]
+---
+Id 69: Wizard's Clogs
+Desc: A shoe with a funny name often worn by those who delve into magic.
+Type: General Armour
+Price: 65
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 3
+Magical Defence: 3
+Agility: 2
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "0%"]]
+---
+Id 70: Fur Boots
+Desc: Large boots with a fur trim that help protect against the cold.
+Type: General Armour
+Price: 300
+HP: 0
+MP: 0
+Attack: 0
+Defence: 2
+Magical Attack: 0
+Magical Defence: 0
+Agility: 6
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "0%"], ["Element Rate: ", "Ice", "80%"], ["State Resist: ", "Freezing"]]
+---
+Id 71: Wellies
+Desc: Big rubber boots that insulate against Storm attacks.
+Type: General Armour
+Price: 300
+HP: 0
+MP: 0
+Attack: 0
+Defence: 2
+Magical Attack: 0
+Magical Defence: 0
+Agility: 6
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "0%"], ["Element Rate: ", "Storm", "80%"], ["State Resist: ", "Paralysis"]]
+---
+Id 72: Iron Sabatons
+Desc: Large, heavy steel boots that protect your feet from those who wish to harm them.
+Type: Heavy Armour
+Price: 1500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 8
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "-1%"]]
+---
+Id 73: Hypersteel Sabatons
+Desc: Larger, heavier hypersteel boots that really protect your feet from those who wish to harm them.
+Type: Heavy Armour
+Price: 3000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 13
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "-2%"]]
+---
+Id 74: Religious Symbol
+Desc: Reduces damage from Dark element and changes your attack element to Light.
+Type: General Armour
+Price: 2100
+HP: 0
+MP: 0
+Attack: 0
+Defence: 1
+Magical Attack: 0
+Magical Defence: 4
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Dark", "75%"], ["Atk Element: ", "Light"]]
+---
+Id 75: HourglassOfInfinitePatience
+Desc: A mystical hourglass that somehow never stops flowing. Reduces EXP gains by a lot, but increases AGI. 
+Type: General Armour
+Price: 2760
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 75
+Luck: 0
+Features and Traits: [["SpParam: ", "EXR", "x0.7"]]
+---
+Id 76: The Silent Ringer
+Desc: A bell that makes no sound. 25% MP cost, but significantly increases damage from all sources.
+Type: General Armour
+Price: 3560
+HP: 0
+MP: 0
+Attack: 0
+Defence: -15
+Magical Attack: 0
+Magical Defence: -15
+Agility: 0
+Luck: 0
+Features and Traits: [["SpParam: ", "MCR", "x0.25"], ["SpParam: ", "MDR", "x1.5"], ["SpParam: ", "PDR", "x1.5"]]
+---
+Id 77: Bag to the Void
+Desc: A bag where things inside it seem to disappear forever. Increases CRI rate, but increases TGR.
+Type: General Armour
+Price: 4120
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 2
+Features and Traits: [["ExParam: ", "CRI", "8%"], ["SpParam: ", "TGR", "x1.3"]]
+---
+Id 78: Map to Nowhere
+Desc: A map of an unknown place with a trail that has no end. Increases EVA a lot but decreases HIT as well.
+Type: General Armour
+Price: 2210
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 3
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "10%"], ["ExParam: ", "HIT", "-15%"]]
+---
+Id 79: Genie Lamp with no Genie
+Desc: Literally just a lamp. Increases MAT significantly, but decreases ATK by loads.
+Type: General Armour
+Price: 1970
+HP: 0
+MP: 0
+Attack: -60
+Defence: 0
+Magical Attack: 45
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 80: Too Sharp Quill Pen
+Desc: A quill that is so sharp it ruins any material it tries to write on. Increases ATK but decreases LUK.
+Type: General Armour
+Price: 5120
+HP: 0
+MP: 0
+Attack: 35
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: -50
+---
+Id 81: Heavy Feather
+Desc: A feather that weighs an incredulous amount. Increases DEF a lot, but decreases AGI too.
+Type: General Armour
+Price: 4130
+HP: 0
+MP: 0
+Attack: 0
+Defence: 50
+Magical Attack: 0
+Magical Defence: 0
+Agility: -100
+Luck: 0
+Features and Traits: [["Atk Speed: ", -10]]
+---
+Id 82: Burning Oitment
+Desc: A cream to soothe burns that burns to the touch. Increases Fire Resistance a lot, but reduces MHP.
+Type: General Armour
+Price: 1800
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 2
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Fire", "15%"], ["Parameter: ", "MHP", "85%"], ["State Resist: ", "Burn"]]
+---
+Id 83: Liquid Gold
+Desc: A pouch of Gold coins that melt when touched. Doubles Gold drops, but completely eliminates ATK and MAT.
+Type: General Armour
+Price: 8000
+HP: 0
+MP: 0
+Attack: -500
+Defence: 0
+Magical Attack: -500
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Party Ability: ", "Double Gold Drops"]]
+---
+Id 84: Fast-Track Ticket
+Desc: Tickets to a non-existant theatre for the fast line in. Increases AGI by a lot, but decreases CRI too.
+Type: General Armour
+Price: 2540
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 50
+Luck: 0
+Features and Traits: [["ExParam: ", "CRI", "-10%"]]
+---
+Id 85: Useless Mirror
+Desc: A mirror that only shows the reflection when you  can't see it. Can deflect magic, but decreases TGR.
+Type: General Armour
+Price: 4670
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 3
+Agility: 0
+Luck: 0
+Features and Traits: [["SpParam: ", "MDR", "x0.75"], ["SpParam: ", "TGR", "x0.25"]]
+---
+Id 86: Puzzle Piece
+Desc: One part of a jigsaw that consists of two pieces. Massively decreases MP costs, but you lose MP passively.
+Type: General Armour
+Price: 3940
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "MRG", "-5%"], ["SpParam: ", "MCR", "x0.5"]]
+---
+Id 87: Cold Cloak
+Desc: A large fur cloak that is eternally surrounded by sub-zero air. Decreases MDF, but increases EVA.
+Type: General Armour
+Price: 5260
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: -50
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "15%"]]
+---
+Id 88: Untuned Harp
+Desc: A harp out of tune that cannot be adjusted. Increases MAT but also increases TGR a lot.
+Type: General Armour
+Price: 4760
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 35
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["SpParam: ", "TGR", "x1.4"]]
+---
+Id 89: Unmelting Ice
+Desc: An ice cube that doesn't melt, no matter what. Gives Ice resistance, but decreases EVA.
+Type: General Armour
+Price: 1800
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 2
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "-10%"], ["Element Rate: ", "Ice", "15%"], ["State Resist: ", "Freezing"]]
+---
+Id 90: Permanent Gloves
+Desc: Gloves filled with a strange adhesive. Increases DEF, but decreases HIT significantly.
+Type: General Armour
+Price: 3270
+HP: 0
+MP: 0
+Attack: 0
+Defence: 50
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "HIT", "-30%"]]
+---
+Id 91: Lockless Key
+Desc: A copper key that doesn't open anything. Increases LUK by loads but increases your TGR.
+Type: General Armour
+Price: 4390
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 100
+Features and Traits: [["SpParam: ", "TGR", "x1.2"]]
+---
+Id 92: Soul in a Jar
+Desc: A soul was trapped in this jar and seems annoyed. Increases PR but decreases DEF and MDF by loads.
+Type: General Armour
+Price: 40000
+HP: 0
+MP: 0
+Attack: 0
+Defence: -100
+Magical Attack: 0
+Magical Defence: -100
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "TRG", "15%"]]
+---
+Id 93: Lightless Lantern
+Desc: A lantern with tinted glass that blocks light from being cast. Decreases TGR, but increases MP Costs.
+Type: General Armour
+Price: 3210
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 2
+Features and Traits: [["SpParam: ", "MCR", "x1.3"], ["SpParam: ", "TGR", "x0.45"]]
+---
+Id 94: A Really Cool Hat
+Desc: A really cool hat. Increases LUK by a tonne, but your resistance to ailments is greatly reduced.
+Type: General Armour
+Price: 7500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 200
+Features and Traits: [["State Rate: ", #<RPG::State:0xf68d0e4 @message2=" is poisoned!", @name="Poison", @priority=65, @icon_index=18, @message1=" is poisoned!", @message4=" is cured of poison!", @restriction=0, @release_by_damage=false, @message3="", @note="\\DESC{Victim is poisoned, losing 10% HP every turn until death.\\LB\\LB}", @id=2, @features=[#<RPG::BaseItem::Feature:0xf68d044 @code=22, @data_id=7, @value=-0.05>], @auto_removal_timing=0, @min_turns=1, @max_turns=1, @chance_by_damage=100, @steps_to_remove=100, @remove_by_walking=false, @remove_at_battle_end=false, @remove_by_damage=false, @remove_by_restriction=false, @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "150%"], ["State Rate: ", #<RPG::State:0xf68d008 @message2=" is blinded!", @name="Blind", @priority=70, @icon_index=19, @message1=" is blinded!", @message4=" is no longer blinded!", @restriction=0, @release_by_damage=false, @message3=" is still blinded!", @note="\\DESC{Victim's vision is obscured or restricted. HIT reduced by 60% for 3-5 actions.\\LB\\LB}", @id=3, @features=[#<RPG::BaseItem::Feature:0xf68cf68 @code=22, @data_id=0, @value=-0.6>], @auto_removal_timing=1, @min_turns=3, @max_turns=5, @chance_by_damage=100, @steps_to_remove=100, @remove_by_walking=false, @remove_at_battle_end=true, @remove_by_damage=false, @remove_by_restriction=false, @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "150%"], ["State Rate: ", #<RPG::State:0xf68cf2c @message2=" cannot cast Magic!", @name="Silence", @priority=75, @icon_index=20, @message1=" cannot cast Magic!", @message4="'s Magic is no longer sealed!", @restriction=0, @release_by_damage=false, @message3="", @note="\\DESC{Victim's magical abilities are hindered. Cannot cast magic for 3-5 actions.\\LB\\LB}", @id=4, @features=[#<RPG::BaseItem::Feature:0xf68ce8c @code=42, @data_id=2, @value=0.0>], @auto_removal_timing=1, @min_turns=3, @max_turns=5, @chance_by_damage=100, @steps_to_remove=100, @remove_by_walking=false, @remove_at_battle_end=true, @remove_by_damage=false, @remove_by_restriction=false, @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "150%"], ["State Rate: ", #<RPG::State:0xf68ce50 @message2=" is confused!", @name="Confusion", @priority=80, @icon_index=21, @message1=" is confused!", @message4=" is no longer confused!", @restriction=2, @release_by_damage=false, @message3="", @note="\\DESC{Victim is muddled and unpredicatable. May attack allies for 2-4 actions.\\LB\\LB}", @id=5, @features=[], @auto_removal_timing=1, @min_turns=2, @max_turns=4, @chance_by_damage=50, @steps_to_remove=100, @remove_by_walking=false, @remove_at_battle_end=true, @remove_by_damage=true, @remove_by_restriction=false, @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "150%"], ["State Rate: ", #<RPG::State:0xf68cdb0 @message2=" falls asleep!", @name="Sleep", @priority=85, @icon_index=22, @message1=" falls asleep!", @message4=" wakes up!", @restriction=4, @release_by_damage=true, @message3=" is sleeping......", @note="\\DESC{Victim has been put to sleep. No actions for 3-5 turns, 50% to wake up when hit.\\LB\\LB}", @id=6, @features=[#<RPG::BaseItem::Feature:0xf68cd10 @code=22, @data_id=1, @value=-1.0>], @auto_removal_timing=1, @min_turns=3, @max_turns=5, @chance_by_damage=50, @steps_to_remove=100, @remove_by_walking=false, @remove_at_battle_end=true, @remove_by_damage=true, @remove_by_restriction=false, @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "150%"], ["State Rate: ", #<RPG::State:0xf68ccd4 @message2=" is paralyzed!", @name="Paralysis", @priority=90, @icon_index=98, @message1=" is paralyzed!", @message4=" is no longer paralyzed!", @restriction=4, @release_by_damage=false, @message3=" is still unable to move!", @note="\\DESC{Victim has seized up and cannot move. Lasts 3-5 actions.\\LB\\LB}", @id=7, @features=[#<RPG::BaseItem::Feature:0xf68cc34 @code=22, @data_id=1, @value=-1.0>], @auto_removal_timing=1, @min_turns=3, @max_turns=5, @chance_by_damage=100, @steps_to_remove=100, @remove_by_walking=false, @remove_at_battle_end=true, @remove_by_damage=false, @remove_by_restriction=false, @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "150%"], ["State Rate: ", #<RPG::State:0xf68cbf8 @message2=" was stunned!", @name="Stun", @priority=60, @icon_index=24, @message1=" was stunned!", @message4=" got their act together.", @restriction=4, @release_by_damage=false, @message3=" is still stunned!", @note="\\DESC{Victim is disorientated for a moment. Cannot move for 1-2 actions.\\LB\\LB}", @id=8, @features=[], @auto_removal_timing=1, @min_turns=1, @max_turns=2, @chance_by_damage=100, @steps_to_remove=100, @remove_by_walking=false, @remove_at_battle_end=true, @remove_by_damage=false, @remove_by_restriction=false, @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "150%"], ["State Rate: ", #<RPG::State:0xf68b71c @message2=" is freezing!", @name="Freezing", @priority=50, @icon_index=688, @message1=" is freezing!", @message4=" has warmed up.", @restriction=0, @message3="", @note="\\DESC{Victim is shivering heavily. Their AGI is halved, they take 25% more physical damage, and 15% more magical. They also heal from Fire attacks. Lasts 2-7 actions.\\LB\\LB\\LB\\LB}", @id=26, @features=[#<RPG::BaseItem::Feature:0xf68b67c @code=21, @data_id=6, @value=0.5>, #<RPG::BaseItem::Feature:0xf68b640 @code=23, @data_id=6, @value=1.25>, #<RPG::BaseItem::Feature:0xf68b604 @code=23, @data_id=7, @value=1.15>, #<RPG::BaseItem::Feature:0xf68b5c8 @code=22, @data_id=1, @value=-0.08>, #<RPG::BaseItem::Feature:0xf68b58c @code=22, @data_id=3, @value=-0.05>], @auto_removal_timing=1, @min_turns=2, @max_turns=7, @chance_by_damage=100, @steps_to_remove=100, @remove_by_walking=false, @remove_at_battle_end=true, @remove_by_damage=false, @remove_by_restriction=false, @description="", @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "150%"], ["State Rate: ", #<RPG::State:0xf68b53c @message2=" is knocked over!", @name="Knocked Over", @priority=50, @icon_index=640, @message1=" is knocked over!", @message4=" stood up!", @restriction=4, @message3="", @note="\\DESC{Victim has fallen and must spend a single turn to get back up.\\LB\\LB}", @id=27, @features=[], @auto_removal_timing=1, @min_turns=1, @max_turns=1, @chance_by_damage=100, @steps_to_remove=100, @remove_by_walking=false, @remove_at_battle_end=true, @remove_by_damage=false, @remove_by_restriction=false, @description="", @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "150%"], ["State Rate: ", #<RPG::State:0xf692f94 @message2=" got a headache!", @name="Headache", @priority=48, @icon_index=5, @message1=" got a headache!", @message4="'s headache calmed.", @restriction=0, @message3="", @note="\\DESC{Victim has a throbbing headache and their strengths are hindered. HIT is reduced by 15%, AGI and Guard rate are halved, but PR charge rate is increased by 20%. Lasts 1-3 actions.\\LB\\LB\\LB\\LB}", @id=29, @features=[#<RPG::BaseItem::Feature:0xf692ef4 @code=22, @data_id=0, @value=-0.15>, #<RPG::BaseItem::Feature:0xf692eb8 @code=21, @data_id=6, @value=0.5>, #<RPG::BaseItem::Feature:0xf692e7c @code=23, @data_id=1, @value=0.5>, #<RPG::BaseItem::Feature:0xf692e40 @code=23, @data_id=5, @value=1.2>], @auto_removal_timing=1, @min_turns=1, @max_turns=3, @chance_by_damage=100, @steps_to_remove=100, @remove_by_walking=false, @remove_at_battle_end=true, @remove_by_damage=false, @remove_by_restriction=false, @description="", @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "150%"], ["State Rate: ", #<RPG::State:0xf692df0 @message2=" is burned!", @name="Burn", @priority=50, @icon_index=96, @message1=" is burned!", @message4="'s burn soothed!", @restriction=0, @message3=" is still burned!", @note="\\DESC{Victim's skin has been burned badly, losing 15% HP every turn. Lasts 3-5 actions.\\LB\\LB}", @id=30, @features=[#<RPG::BaseItem::Feature:0xf692d50 @code=22, @data_id=7, @value=-0.1>, #<RPG::BaseItem::Feature:0xf692d14 @code=23, @data_id=5, @value=1.1>], @auto_removal_timing=1, @min_turns=3, @max_turns=5, @chance_by_damage=100, @steps_to_remove=100, @remove_by_walking=false, @remove_at_battle_end=true, @remove_by_damage=false, @remove_by_restriction=false, @description="", @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "150%"], ["State Rate: ", #<RPG::State:0xf692cc4 @message2=" is terrified!", @name="Fear", @priority=50, @icon_index=787, @message1=" is terrified!", @message4=" is no longer afraid.", @restriction=0, @message3=" is still afraid!", @note="\\DESC{Victim has become afraid of their attacker. 30% ATK and HIT is reduced by 80%. Lasts 2-3 actions.\\LB\\LB\\LB}", @id=31, @features=[#<RPG::BaseItem::Feature:0xf692c24 @code=21, @data_id=2, @value=0.3>, #<RPG::BaseItem::Feature:0xf692be8 @code=22, @data_id=0, @value=-0.8>, #<RPG::BaseItem::Feature:0xf692bac @code=23, @data_id=5, @value=1.1>], @auto_removal_timing=1, @min_turns=2, @max_turns=3, @chance_by_damage=100, @steps_to_remove=100, @remove_by_walking=false, @remove_at_battle_end=true, @remove_by_damage=false, @remove_by_restriction=false, @description="", @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "150%"], ["State Rate: ", #<RPG::State:0xf692b5c @message2=" started to bleed heavily!", @name="Bleeding", @priority=75, @icon_index=786, @message1=" started to bleed heavily!", @message4="'s wounds were staunched.", @restriction=0, @message3=" is still bleeding heavily!", @note="\\DESC{Victim has started to bleed heavily. Lose 20% HP every turn. Lasts 1-3 actions or 50 steps.\\LB\\LB}", @id=32, @features=[#<RPG::BaseItem::Feature:0xf692abc @code=22, @data_id=7, @value=-0.15>, #<RPG::BaseItem::Feature:0xf692a80 @code=23, @data_id=5, @value=1.15>], @auto_removal_timing=1, @min_turns=1, @max_turns=3, @chance_by_damage=100, @steps_to_remove=50, @remove_by_walking=true, @remove_at_battle_end=false, @remove_by_damage=false, @remove_by_restriction=false, @description="", @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "150%"], ["State Rate: ", #<RPG::State:0xf691824 @message2=" was pinned down!", @name="Pinned Down", @priority=80, @icon_index=624, @message1=" was pinned down!", @message4=" regained their mobility.", @restriction=0, @message3="", @note="\\DESC{Victim has been pinned to the floor in some way. 50% more likely to be Knocked Over or have DEF reduced, -50% EVA, halved AGI. Lasts 2-3 turns.\\LB\\LB\\LB\\LB}", @id=38, @features=[#<RPG::BaseItem::Feature:0xf691784 @code=12, @data_id=3, @value=1.5>, #<RPG::BaseItem::Feature:0xf691748 @code=13, @data_id=27, @value=1.5>, #<RPG::BaseItem::Feature:0xf69170c @code=22, @data_id=1, @value=-0.5>, #<RPG::BaseItem::Feature:0xf6916d0 @code=21, @data_id=6, @value=0.5>], @auto_removal_timing=2, @min_turns=2, @max_turns=3, @chance_by_damage=100, @steps_to_remove=100, @remove_by_walking=false, @remove_at_battle_end=true, @remove_by_damage=false, @remove_by_restriction=false, @description="", @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "150%"], ["State Rate: ", #<RPG::State:0xf6900f0 @message2=" is hallucinating!", @name="Hallucinating", @priority=80, @icon_index=103, @message1=" is hallucinating!", @message4="'s senses have cleared.", @restriction=2, @message3="", @note="\\DESC{Victim is hallucinating and cannot tell who is friend or foe, or even what is real. -25% HIT, Guard and Recovery rates are halved, but gains 25% additional PR. Lasts 300 steps or 6 turns.\\LB\\LB\\LB\\LB}", @id=46, @features=[#<RPG::BaseItem::Feature:0xf690050 @code=22, @data_id=0, @value=-0.25>, #<RPG::BaseItem::Feature:0xf690014 @code=23, @data_id=1, @value=0.5>, #<RPG::BaseItem::Feature:0xf68ffd8 @code=23, @data_id=2, @value=0.5>, #<RPG::BaseItem::Feature:0xf68ff9c @code=23, @data_id=5, @value=1.25>], @auto_removal_timing=2, @min_turns=6, @max_turns=6, @chance_by_damage=100, @steps_to_remove=300, @remove_by_walking=true, @remove_at_battle_end=false, @remove_by_damage=false, @remove_by_restriction=false, @description="", @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "150%"], ["State Rate: ", #<RPG::State:0xf68ff4c @message2=" was trapped in a net!", @name="Net", @priority=50, @icon_index=142, @message1=" was trapped in a net!", @message4=" was freed from the net.", @restriction=0, @message3=" is still stuck in the net!", @note="\\DESC{Victim has been caught in a net. AGI is halved, -10% HIT and -1 Atk Speed. Lasts 1-5 turns.\\LB\\LB\\LB}", @id=47, @features=[#<RPG::BaseItem::Feature:0xf68feac @code=21, @data_id=6, @value=0.5>, #<RPG::BaseItem::Feature:0xf68fe70 @code=33, @data_id=0, @value=-1.0>, #<RPG::BaseItem::Feature:0xf68fe34 @code=22, @data_id=0, @value=-0.1>], @auto_removal_timing=1, @min_turns=1, @max_turns=5, @chance_by_damage=100, @steps_to_remove=100, @remove_by_walking=false, @remove_at_battle_end=true, @remove_by_damage=false, @remove_by_restriction=false, @description="", @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "150%"], ["State Rate: ", #<RPG::State:0xf692a30 @message2=" has gone savage!", @name="Savage", @priority=50, @icon_index=751, @message1=" has gone savage!", @message4=" is no longer savage!", @restriction=2, @message3=" is still savage!", @note="\\DESC{Victim has gained bloodlust and cannot think straight. 140% ATK, 20% DEF, +10% HIT, +3% CRI, and 50% more actions. Lasts 3 actions.\\LB\\LB\\LB}", @id=33, @features=[#<RPG::BaseItem::Feature:0xf692990 @code=21, @data_id=2, @value=1.4>, #<RPG::BaseItem::Feature:0xf692954 @code=21, @data_id=3, @value=0.2>, #<RPG::BaseItem::Feature:0xf692918 @code=22, @data_id=0, @value=0.1>, #<RPG::BaseItem::Feature:0xf6928dc @code=22, @data_id=2, @value=0.03>, #<RPG::BaseItem::Feature:0xf6928a0 @code=61, @data_id=0, @value=0.5>, #<RPG::BaseItem::Feature:0xf692864 @code=44, @data_id=2, @value=0.0>], @auto_removal_timing=1, @min_turns=3, @max_turns=3, @chance_by_damage=100, @steps_to_remove=100, @remove_by_walking=false, @remove_at_battle_end=true, @remove_by_damage=false, @remove_by_restriction=false, @description="", @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "150%"], ["State Rate: ", #<RPG::State:0xf68f664 @message2=" is losing hope...", @name="Hopeless", @priority=60, @icon_index=785, @message1=" is losing hope...", @message4=" is no longer hopeless.", @restriction=4, @message3=" feels its all just hopeless...", @note="\\DESC{Person has lost faith in themselves and their allies. 75% DEF and MDF, and -5% EVA. Lasts 150 steps or 2-4 actions.\\LB\\LB\\LB}", @id=53, @features=[#<RPG::BaseItem::Feature:0xf68f5c4 @code=21, @data_id=3, @value=0.75>, #<RPG::BaseItem::Feature:0xf68f588 @code=21, @data_id=5, @value=0.75>, #<RPG::BaseItem::Feature:0xf68f54c @code=22, @data_id=1, @value=-0.05>, #<RPG::BaseItem::Feature:0xf68f510 @code=23, @data_id=5, @value=1.2>], @auto_removal_timing=1, @min_turns=2, @max_turns=4, @chance_by_damage=100, @steps_to_remove=150, @remove_by_walking=true, @remove_at_battle_end=false, @remove_by_damage=false, @remove_by_restriction=false, @description="", @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "150%"], ["State Rate: ", #<RPG::State:0xf68f3d0 @message2=" was buttered!", @name="Buttered", @priority=50, @icon_index=703, @message1=" was buttered!", @message4=" is now butter-free.", @restriction=0, @message3="", @note="\\DESC{The victim has been buttered. -50% HIT and Guard rate, -5% CEV, HRG, and MRG, and -10% EVA and MEV. Lasts 1-3 actions.\\LB\\LB\\LB}", @id=55, @features=[#<RPG::BaseItem::Feature:0xf68f330 @code=22, @data_id=0, @value=-0.5>, #<RPG::BaseItem::Feature:0xf68f2f4 @code=22, @data_id=3, @value=-0.05>, #<RPG::BaseItem::Feature:0xf68f2b8 @code=22, @data_id=1, @value=-0.1>, #<RPG::BaseItem::Feature:0xf677244 @code=22, @data_id=4, @value=-0.1>, #<RPG::BaseItem::Feature:0xf677208 @code=22, @data_id=7, @value=-0.05>, #<RPG::BaseItem::Feature:0xf6771cc @code=22, @data_id=8, @value=-0.05>, #<RPG::BaseItem::Feature:0xf677190 @code=23, @data_id=1, @value=0.5>], @auto_removal_timing=1, @min_turns=1, @max_turns=3, @chance_by_damage=100, @steps_to_remove=100, @remove_by_walking=false, @remove_at_battle_end=true, @remove_by_damage=false, @remove_by_restriction=false, @description="", @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "150%"], ["State Rate: ", #<RPG::State:0xf677140 @message2=" was marked!", @name="Marked", @priority=85, @icon_index=430, @message1=" was marked!", @message4="", @restriction=0, @message3="", @note="\\DESC{Victim has been marked for death and will take 25% more damage for 4 turns.\\LB\\LB}", @id=56, @features=[#<RPG::BaseItem::Feature:0xf6770a0 @code=31, @data_id=14, @value=1.0>, #<RPG::BaseItem::Feature:0xf677064 @code=23, @data_id=6, @value=1.25>, #<RPG::BaseItem::Feature:0xf677028 @code=23, @data_id=7, @value=1.25>, #<RPG::BaseItem::Feature:0xf676fec @code=23, @data_id=0, @value=1.5>], @auto_removal_timing=2, @min_turns=4, @max_turns=4, @chance_by_damage=100, @steps_to_remove=100, @remove_by_walking=false, @remove_at_battle_end=true, @remove_by_damage=false, @remove_by_restriction=false, @description="", @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "150%"], ["State Rate: ", #<RPG::State:0xf676f9c @message2="", @name="Thunderstorm", @priority=70, @icon_index=98, @message1="", @message4="", @restriction=0, @message3="", @note="\\DESC{Victim is being struck by a lurking storm cloud. Loses 10% HP every turn, but PR charges 20% faster. Lasts 3 turns.\\LB\\LB\\LB}", @id=57, @features=[#<RPG::BaseItem::Feature:0xf676efc @code=22, @data_id=7, @value=-0.1>, #<RPG::BaseItem::Feature:0xf676ec0 @code=23, @data_id=5, @value=1.2>], @auto_removal_timing=2, @min_turns=3, @max_turns=3, @chance_by_damage=100, @steps_to_remove=100, @remove_by_walking=false, @remove_at_battle_end=true, @remove_by_damage=false, @remove_by_restriction=false, @description="", @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "150%"], ["State Rate: ", #<RPG::State:0xf676d44 @message2=" was scarred by the Void!", @name="Void Scar", @priority=95, @icon_index=801, @message1=" was scarred by the Void!", @message4="'s scar faded.", @restriction=0, @message3="", @note="\\DESC{Victim has been partially corrupted by the Void and their Soul is suffering. Lose 10% of HP, MP, and PR every turn. Lasts 1-3 actions or 150 steps.\\LB\\LB\\LB\\LB}", @id=59, @features=[#<RPG::BaseItem::Feature:0xf676ca4 @code=22, @data_id=9, @value=-0.1>, #<RPG::BaseItem::Feature:0xf676c68 @code=22, @data_id=8, @value=-0.1>, #<RPG::BaseItem::Feature:0xf676c2c @code=22, @data_id=7, @value=-0.1>], @auto_removal_timing=1, @min_turns=1, @max_turns=3, @chance_by_damage=100, @steps_to_remove=150, @remove_by_walking=true, @remove_at_battle_end=false, @remove_by_damage=false, @remove_by_restriction=false, @description="", @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "150%"], ["State Rate: ", #<RPG::State:0xf676bdc @message2="'s armour was dissolved by acid!", @name="Acid Damage", @priority=80, @icon_index=802, @message1="'s armour was dissolved by acid!", @message4="", @restriction=0, @message3="", @note="\\DESC{Victim's armour has been damaged by acid. 50% DEF and 80% MDF. Lasts entire battle.\\LB\\LB}", @id=60, @features=[#<RPG::BaseItem::Feature:0xf676b3c @code=21, @data_id=3, @value=0.5>, #<RPG::BaseItem::Feature:0xf676b00 @code=21, @data_id=5, @value=0.8>], @auto_removal_timing=0, @min_turns=1, @max_turns=1, @chance_by_damage=100, @steps_to_remove=100, @remove_by_walking=false, @remove_at_battle_end=true, @remove_by_damage=false, @remove_by_restriction=false, @description="", @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "150%"], ["State Rate: ", #<RPG::State:0xf67654c @message2=" was drenched!", @name="Wet", @priority=55, @icon_index=99, @message1=" was drenched!", @message4=" dried off.", @restriction=0, @message3="", @note="\\DESC{Person's gear has become soaked through. 60% MDF and take 50% more damage from Storm attacks. Lasts 4-5 actions.\\LB\\LB\\LB}", @id=65, @features=[#<RPG::BaseItem::Feature:0xf6764ac @code=21, @data_id=5, @value=0.6>, #<RPG::BaseItem::Feature:0xf676470 @code=11, @data_id=5, @value=1.5>], @auto_removal_timing=1, @min_turns=4, @max_turns=5, @chance_by_damage=100, @steps_to_remove=100, @remove_by_walking=false, @remove_at_battle_end=true, @remove_by_damage=false, @remove_by_restriction=false, @description="", @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "150%"], ["State Rate: ", #<RPG::State:0xf674e90 @message2="", @name="Drowning", @priority=60, @icon_index=99, @message1="", @message4="", @restriction=4, @message3="", @note="\\DESC{Victim is drowning, losing 5% HP every turn and 50% MDF. Lasts 7 actions but has 50% chance to be removed when attacked.\\LB\\LB\\LB}", @id=82, @features=[#<RPG::BaseItem::Feature:0xf674df0 @code=22, @data_id=7, @value=-0.05>, #<RPG::BaseItem::Feature:0xf674db4 @code=21, @data_id=5, @value=0.5>], @auto_removal_timing=1, @min_turns=7, @max_turns=7, @chance_by_damage=50, @steps_to_remove=100, @remove_by_walking=false, @remove_at_battle_end=true, @remove_by_damage=true, @remove_by_restriction=false, @description="", @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "150%"], ["State Rate: ", #<RPG::State:0xf674008 @message2="", @name="Oozed", @priority=35, @icon_index=99, @message1=" got slime all over them!", @message4="", @restriction=0, @message3="", @note="\\DESC{Victim is covered in slime. 80% AGI, and the next slime that attacks the victim will heal a small amount.\\LB\\LB\\LB}", @id=92, @features=[#<RPG::BaseItem::Feature:0xf673f68 @code=21, @data_id=6, @value=0.8>, #<RPG::BaseItem::Feature:0xf673f2c @code=23, @data_id=0, @value=1.5>], @auto_removal_timing=1, @min_turns=3, @max_turns=6, @chance_by_damage=80, @steps_to_remove=100, @remove_by_walking=false, @remove_at_battle_end=true, @remove_by_damage=true, @remove_by_restriction=false, @description="", @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "150%"], ["State Rate: ", #<RPG::State:0xf673edc @message2="", @name="Constricted", @priority=50, @icon_index=835, @message1="", @message4="", @restriction=4, @message3="", @note="\\DESC{The victim is being grappled by a large snake. -100% EVA and MEV, and lose 4% HP every turn. Lasts 3 turns.\\LB\\LB\\LB}", @id=93, @features=[#<RPG::BaseItem::Feature:0xf673e3c @code=22, @data_id=1, @value=-1.0>, #<RPG::BaseItem::Feature:0xf673e00 @code=22, @data_id=4, @value=-1.0>, #<RPG::BaseItem::Feature:0xf673dc4 @code=22, @data_id=7, @value=-0.04>], @auto_removal_timing=2, @min_turns=3, @max_turns=3, @chance_by_damage=100, @steps_to_remove=100, @remove_by_walking=false, @remove_at_battle_end=true, @remove_by_damage=false, @remove_by_restriction=false, @description="", @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "150%"], ["State Rate: ", #<RPG::State:0xf673c0c @message2="", @name="Plagued", @priority=50, @icon_index=901, @message1="", @message4="", @restriction=0, @message3="", @note="\\DESC{Victim has become very sick. 75% MHP, 25% PHA and Recovery rate, but gains 25% more PR. Can only be cured.\\LB\\LB\\LB}", @id=95, @features=[#<RPG::BaseItem::Feature:0xf673b6c @code=21, @data_id=0, @value=0.75>, #<RPG::BaseItem::Feature:0xf673b30 @code=23, @data_id=3, @value=0.25>, #<RPG::BaseItem::Feature:0xf673af4 @code=23, @data_id=2, @value=0.25>, #<RPG::BaseItem::Feature:0xf673ab8 @code=23, @data_id=5, @value=1.25>], @auto_removal_timing=0, @min_turns=1, @max_turns=1, @chance_by_damage=100, @steps_to_remove=100, @remove_by_walking=false, @remove_at_battle_end=false, @remove_by_damage=false, @remove_by_restriction=false, @description="", @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "150%"], ["State Rate: ", #<RPG::State:0xf673a68 @message2="", @name="Stats Eroded", @priority=90, @icon_index=640, @message1="", @message4="", @restriction=0, @message3="", @note="\\DESC{Victim has had all their main stats reduced by 25%. Lasts until the battle ends.\\LB\\LB}", @id=96, @features=[#<RPG::BaseItem::Feature:0xf6739c8 @code=21, @data_id=1, @value=0.75>, #<RPG::BaseItem::Feature:0xf67398c @code=21, @data_id=0, @value=0.75>, #<RPG::BaseItem::Feature:0xf673950 @code=21, @data_id=2, @value=0.75>, #<RPG::BaseItem::Feature:0xf673914 @code=21, @data_id=3, @value=0.75>, #<RPG::BaseItem::Feature:0xf6738d8 @code=21, @data_id=4, @value=0.75>, #<RPG::BaseItem::Feature:0xf67389c @code=21, @data_id=5, @value=0.75>, #<RPG::BaseItem::Feature:0xf673860 @code=21, @data_id=6, @value=0.75>, #<RPG::BaseItem::Feature:0xf673824 @code=21, @data_id=7, @value=0.75>], @auto_removal_timing=0, @min_turns=1, @max_turns=1, @chance_by_damage=100, @steps_to_remove=100, @remove_by_walking=false, @remove_at_battle_end=true, @remove_by_damage=false, @remove_by_restriction=false, @description="", @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "150%"]]
+---
+Id 95: Anti-Anti-Venom
+Desc: Negates the effects of an ingested anti-venom. Gives Poison immunity, but your lose HP passively.
+Type: General Armour
+Price: 1230
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 2
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "HRG", "-5%"], ["State Resist: ", "Poison"]]
+---
+Id 96: McDonalds
+Desc: A paper bag full of greasy fast food. Gives passive HP regeneration, but decreases MHP.
+Type: General Armour
+Price: 2430
+HP: -450
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "HRG", "10%"]]
+---
+Id 97: No-Leaf Clover
+Desc: A clover with no leaves. Decreases your LUK, but increases your MMP.
+Type: General Armour
+Price: 2640
+HP: 0
+MP: 50
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: -50
+---
+Id 98: Gift Box
+Desc: A present labled for a "Dave". Doubles item drops from monsters, but you take more Critical Hits.
+Type: General Armour
+Price: 5980
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 2
+Features and Traits: [["Party Ability: ", "Double Drop Item Chance"], ["ExParam: ", "CEV", "-15%"]]
+---
+Id 99: Loose Belt
+Desc: A belt that is always *just* too loose no matter how much you tighten it. Decreases DEF, but gives ATK.
+Type: General Armour
+Price: 4760
+HP: 0
+MP: 0
+Attack: 30
+Defence: -40
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 100: Mini Chest
+Desc: A tiny chest you can't open. There are sounds from inside. Increases MDF, but also increases TGR.
+Type: General Armour
+Price: 4410
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 40
+Agility: 0
+Luck: 0
+Features and Traits: [["SpParam: ", "TGR", "x1.25"]]
+---
+Id 101: Pocket Sand
+Desc: It's coarse, rough, irritating, and it gets everywhere. Increases EVA, but you get Blinded easier.
+Type: General Armour
+Price: 1950
+HP: 0
+MP: 0
+Attack: 2
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["State Rate: ", #<RPG::State:0xf68d008 @message2=" is blinded!", @name="Blind", @priority=70, @icon_index=19, @message1=" is blinded!", @message4=" is no longer blinded!", @restriction=0, @release_by_damage=false, @message3=" is still blinded!", @note="\\DESC{Victim's vision is obscured or restricted. HIT reduced by 60% for 3-5 actions.\\LB\\LB}", @id=3, @features=[#<RPG::BaseItem::Feature:0xf68cf68 @code=22, @data_id=0, @value=-0.6>], @auto_removal_timing=1, @min_turns=3, @max_turns=5, @chance_by_damage=100, @steps_to_remove=100, @remove_by_walking=false, @remove_at_battle_end=true, @remove_by_damage=false, @remove_by_restriction=false, @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "125%"], ["ExParam: ", "EVA", "25%"]]
+---
+Id 102: Curved Stick
+Desc: It looks just like a boomerang, but it won't come back. Increases ATK but decreases HIT rate.
+Type: General Armour
+Price: 5380
+HP: 0
+MP: 0
+Attack: 45
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "HIT", "-25%"]]
+---
+Id 103: Salt Shaker
+Desc: Salt with an unknown origin that makes food so much better. Improves HP increases from items but lowers MHP.
+Type: General Armour
+Price: 2130
+HP: -450
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["SpParam: ", "PHA", "x1.5"]]
+---
+Id 104: Bubble Blower
+Desc: A small bottle containing a soapy liquid for blowing bubbles. Can Blind targets, but lowers your EVA.
+Type: General Armour
+Price: 3680
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 2
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "-25%"], ["Atk State: ", "Blind", "10%"]]
+---
+Id 105: Ancient Recipes
+Desc: Recipes from long ago that are the bane of fruit and veg. Gives Nature resistance, but lowers AGI.
+Type: General Armour
+Price: 1800
+HP: 50
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: -35
+Luck: 0
+Features and Traits: [["Element Rate: ", "Nature", "15%"], ["State Resist: ", "Poison"]]
+---
+Id 106: Lightning Rod
+Desc: A metal rod that absorbs and redirects electricity. Gives Storm resistance, but lowers MDF.
+Type: General Armour
+Price: 1800
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: -25
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Storm", "15%"], ["State Resist: ", "Paralysis"]]
+---
+Id 107: Silver Mirror
+Desc: A mirror that is horrendously reflective. Gives Light resistance, but lowers your HIT.
+Type: General Armour
+Price: 1800
+HP: 0
+MP: 0
+Attack: 2
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Light", "15%"], ["ExParam: ", "HIT", "-15%"], ["State Resist: ", "Blind"]]
+---
+Id 108: Wet Wrap
+Desc: A soggy cloak that dampens the impact of dry material. Gives Earth resistance, but lowers MDF.
+Type: General Armour
+Price: 1800
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: -25
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Earth", "15%"], ["State Resist: ", "Stun"]]
+---
+Id 109: Soul Orb
+Desc: An orb that creates a mystical barrier to protect your Soul. Increases Soul resistance and gives immunity to instant Death attacks, but lowers PR.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 8
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Soul", "15%"], ["ExParam: ", "TRG", "-5%"], ["State Rate: ", #<RPG::State:0xf68d3dc @message2=" is slain!", @name="Death", @priority=100, @icon_index=17, @message1=" has fallen!", @message4=" revives!", @restriction=4, @release_by_damage=false, @message3="", @note="State #1 will be automatically added when\r\nHP reaches 0.\r\n\\DESC{Person has been defeated in battle and cannot fight.\\LB\\LB}", @id=1, @features=[#<RPG::BaseItem::Feature:0xf68d210 @code=23, @data_id=9, @value=0.0>], @auto_removal_timing=0, @min_turns=1, @max_turns=1, @chance_by_damage=100, @steps_to_remove=100, @remove_by_walking=false, @remove_at_battle_end=false, @remove_by_damage=false, @remove_by_restriction=false, @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "0%"]]
+---
+Id 110: Wind Warder
+Desc: A charm that seems to weaken even the strongest winds. Gives resistance to Wind, but decreases CRT.
+Type: General Armour
+Price: 1800
+HP: 0
+MP: 0
+Attack: 0
+Defence: 2
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Air", "15%"], ["State Resist: ", "Knocked Over"], ["ExParam: ", "CRI", "-10%"]]
+---
+Id 111: Sun Candle
+Desc: A candle that sheds enough light to be mistaken for day time. Gives Dark resistance but decreases LUK.
+Type: General Armour
+Price: 1800
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: -50
+Features and Traits: [["Element Rate: ", "Dark", "15%"], ["State Resist: ", "Fear"]]
+---
+Id 112: Definitely a Sponge
+Desc: A sponge that looks, smells, and tastes like cheese. Gives Water resistance, but decreases PHA a lot.
+Type: General Armour
+Price: 1800
+HP: 0
+MP: 0
+Attack: 0
+Defence: 2
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Water", "15%"], ["SpParam: ", "PHA", "x0.5"], ["State Resist: ", "Wet"]]
+---
+Id 113: Blunthead Arrows
+Desc: A blunt arrowhead, can stun targets.
+Type: Bow Attachments
+Price: 245
+HP: 0
+MP: 0
+Attack: 2
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk State: ", "Stun", "10%"]]
+Ingredients: [["Wood", 1]]
+---
+Id 114: Fishhead Arrows
+Desc: A barbed arrowhead used for fishing. Can bleed targets.
+Type: Bow Attachments
+Price: 400
+HP: 0
+MP: 0
+Attack: 4
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk State: ", "Bleeding", "5%"]]
+Ingredients: [["Wood", 1], ["Blunthead Arrows", 1]]
+---
+Id 115: Crescent Arrows
+Desc: Crescent-shaped arrows used to instantly decapitate birds. Higher chance to bleed than fishheads.
+Type: Bow Attachments
+Price: 730
+HP: 0
+MP: 0
+Attack: 6
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk State: ", "Bleeding", "10%"]]
+Ingredients: [["Wood", 1], ["Iron Ore", 1], ["Fishhead Arrows", 1]]
+---
+Id 116: Broadhead Arrows
+Desc: A very wide and sharp arrowhead used for big game hunting. Higher chance to bleed than crescent ones.
+Type: Bow Attachments
+Price: 1100
+HP: 0
+MP: 0
+Attack: 8
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk State: ", "Bleeding", "15%"]]
+Ingredients: [["Wood", 2], ["Iron Ore", 2], ["Crescent Arrows", 1]]
+---
+Id 117: Serrated Broadhead Arrows
+Desc: Broadhead arrows with serrated edges. Higher chance to bleed than general broadheads.
+Type: Bow Attachments
+Price: 1500
+HP: 0
+MP: 0
+Attack: 10
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk State: ", "Bleeding", "20%"]]
+Ingredients: [["Wood", 2], ["Silver Ore", 2], ["Broadhead Arrows", 2]]
+---
+Id 118: Hooked Arrows
+Desc: Broadheads with bladed hooks that are incredibly deadly. Very high chance to bleed targets.
+Type: Bow Attachments
+Price: 2000
+HP: 0
+MP: 0
+Attack: 13
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk State: ", "Bleeding", "25%"]]
+Ingredients: [["Wood", 3], ["Silver Ore", 5], ["Serrated Broadhead Arrows", 2]]
+---
+Id 119: Poison-tipped Arrows
+Desc: Fieldhead arrows dipped in hornet venom. Can poison targets.
+Type: Bow Attachments
+Price: 475
+HP: 0
+MP: 0
+Attack: 3
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk State: ", "Poison", "10%"]]
+Ingredients: [["Blunthead Arrows", 1], ["Hornet Venom", 2]]
+---
+Id 120: Flaming Arrows
+Desc: Magic arrows that set themselves alight when released. Can burn targets.
+Type: Bow Attachments
+Price: 480
+HP: 0
+MP: 0
+Attack: 3
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk State: ", "Burn", "10%"]]
+---
+Id 121: Bookmark
+Desc: \}A handy little bookmark for Dave that helps him to keep his page without having to crimp the page at all. Gives some MP regeneration.
+Type: Unique
+Price: 0
+HP: 0
+MP: 30
+Attack: 0
+Defence: 0
+Magical Attack: 20
+Magical Defence: 20
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "MRG", "10%"]]
+---
+Id 122: Tranquilizer Arrows
+Desc: Arrows tipped with a strange liquid that can put targets to sleep.
+Type: Bow Attachments
+Price: 560
+HP: 0
+MP: 0
+Attack: 3
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk State: ", "Sleep", "25%"]]
+---
+Id 123: Net-Launcher Arrows
+Desc: A perculiar arrow that releases a large net after firing. Can slow down targets.
+Type: Bow Attachments
+Price: 340
+HP: 0
+MP: 0
+Attack: 3
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk State: ", "Net", "50%"]]
+---
+Id 124: Exploding Arrows
+Desc: An arrow that explodes on impact. Chance to burn and gives the Explosive Arrow skill.
+Type: Bow Attachments
+Price: 930
+HP: 0
+MP: 0
+Attack: 12
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Gain Skill: ", "Explosive Arrow"], ["Atk State: ", "Burn", "15%"], ["ExParam: ", "HIT", "10%"]]
+---
+Id 125: Talbrian Arrows
+Desc: \}A hallmark of Talbrian history and expertise, this arrow is among the most precise and powerful to date. Slightly increases crit chance.
+Type: Bow Attachments
+Price: 1780
+HP: 0
+MP: 0
+Attack: 7
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "CRI", "3%"]]
+---
+Id 126: Raxorium Arrows
+Desc: \}Arrows with Raxorium serrated broadheads that annihilate anything in its path. High chance to bleed and can instantly kill.
+Type: Bow Attachments
+Price: 0
+HP: 0
+MP: 0
+Attack: 20
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk State: ", "Bleeding", "30%"], ["Atk State: ", "Death", "5%"]]
+---
+Id 127: Flare Arrows
+Desc: \}Flaming arrow variant tipped with magnesium that burns blindingly bright. High chance to blind targets and can still burn.
+Type: Bow Attachments
+Price: 1950
+HP: 0
+MP: 0
+Attack: 6
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk State: ", "Burn", "10%"], ["Atk State: ", "Blind", "30%"]]
+---
+Id 128: Swift Arrows
+Desc: \}Arrows that are unbelievably lightweight that allow for extremely fast shooting. Lands additional hits at the cost of slightly less damage.
+Type: Bow Attachments
+Price: 2620
+HP: 0
+MP: 0
+Attack: -20
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Times: ", 1], ["Atk Speed: ", 2]]
+---
+Id 129: Thunderfury Arrows
+Desc: Arrows imbued with the power of Storm, changing your attack element to it.
+Type: Bow Attachments
+Price: 2000
+HP: 0
+MP: 0
+Attack: 2
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Storm"]]
+---
+Id 130: Tsunami Arrows
+Desc: Arrows imbued with the power of Water, changing your attack element to it.
+Type: Bow Attachments
+Price: 2000
+HP: 0
+MP: 0
+Attack: 2
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Water"]]
+---
+Id 131: Smitecaster Arrows
+Desc: Arrows imbued with the power of Light, changing your attack element to it.
+Type: Bow Attachments
+Price: 2000
+HP: 0
+MP: 0
+Attack: 2
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Light"]]
+---
+Id 132: Hellfire Arrows
+Desc: Arrows imbued with the power of Fire, changing your attack element to it.
+Type: Bow Attachments
+Price: 2000
+HP: 0
+MP: 0
+Attack: 2
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Fire"]]
+---
+Id 133: Fangfrost Arrows
+Desc: Arrows imbued with the power of Ice, changing your attack element to it.
+Type: Bow Attachments
+Price: 2000
+HP: 0
+MP: 0
+Attack: 2
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Ice"]]
+---
+Id 134: Airblade Arrows
+Desc: Arrows imbued with the power of Wind, changing your attack element to it.
+Type: Bow Attachments
+Price: 2000
+HP: 0
+MP: 0
+Attack: 2
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Air"]]
+---
+Id 135: Darkstrike Arrows
+Desc: Arrows imbued with the power of Dark, changing your attack element to it.
+Type: Bow Attachments
+Price: 2000
+HP: 0
+MP: 0
+Attack: 2
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Dark"]]
+---
+Id 136: Earthquake Arrows
+Desc: Arrows imbued with the power of Earth, changing your attack element to it.
+Type: Bow Attachments
+Price: 2000
+HP: 0
+MP: 0
+Attack: 2
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Earth"]]
+---
+Id 137: Woodhammer Arrows
+Desc: Arrows imbued with the power of Nature, changing your attack element to it.
+Type: Bow Attachments
+Price: 2000
+HP: 0
+MP: 0
+Attack: 2
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Nature"]]
+---
+Id 138: Vampiric Arrows
+Desc: Magical arrows that can return some of the damage dealt as healing for the user.
+Type: Bow Attachments
+Price: 2700
+HP: 0
+MP: 0
+Attack: 5
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Attack Skill:", "Vampiric Shot"]]
+---
+Id 139: Siphon Arrows
+Desc: Magical arrows that can return some of the damage dealt as MP recovery for the user.
+Type: General Armour
+Price: 5000
+HP: 0
+MP: 0
+Attack: 5
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Attack Skill:", "Siphoning Shot"]]
+---
+Id 140: Archer's Armguard
+Desc: \}A specialised wrist strap that protects the archer from being slapped by the bow string, allowing for more accurate shots.
+Type: Bow Attachments
+Price: 150
+HP: 0
+MP: 0
+Attack: 1
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "HIT", "3%"]]
+---
+Id 141: Bow Stabilisers
+Desc: Weights that you attach to a bow to make it heavier, thus making it sway less and increasing accuracy.
+Type: Bow Attachments
+Price: 1250
+HP: 0
+MP: 0
+Attack: 3
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "HIT", "6%"]]
+---
+Id 142: Attachable Handguard
+Desc: A sort of cage that you can lock onto the grip of a sword that helps you to counterattack incoming foes.
+Type: Sword Attachments
+Price: 4400
+HP: 0
+MP: 0
+Attack: 0
+Defence: 6
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "CNT", "10%"]]
+---
+Id 143: Jagged Pummel
+Desc: A different type of pummel you can attach to a sword that allows you to sometimes get an additional hit in.
+Type: Sword Attachments
+Price: 4800
+HP: 0
+MP: 0
+Attack: 6
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["+Action Chance: ", "25%"]]
+---
+Id 144: Swordstopper
+Desc: A large hemi-sphere of a multicoloured material that seems unbreakable. Doubles your Recovery Rate while equipped.
+Type: Large Shield
+Price: 25000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 65
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "7%"], ["SpParam: ", "REC", "x2.0"], ["ExParam: ", "CEV", "5%"], ["Atk Speed: ", -2], ["Gain Skill: ", "Shield Charge"]]
+---
+Id 145: Invisibility Cloak
+Desc: \}It doesn't make you invisible or anything, \{it\} is invisible. It slightly reduces your EVA for MDF and MMP.
+Type: Magic Armour
+Price: 6100
+HP: 0
+MP: 50
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 35
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "-5%"]]
+---
+Id 146: Butter Knife Enhancer
+Desc: \}Paired with Butter. Makes you and your Butter Knife unstoppable, increasing your HIT, CRI, and allowing you to counter.
+Type: Unique
+Price: 50000
+HP: 0
+MP: 0
+Attack: 50
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "HIT", "50%"], ["ExParam: ", "CRI", "10%"], ["ExParam: ", "CNT", "15%"]]
+---
+Id 147: Butter
+Desc: \}Paried with the Butter Knife Enhancer. Gives you the Butter skill, passive regeneration for all resources, and makes you slippery.
+Type: Unique
+Price: 50000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 50
+Luck: 100
+Features and Traits: [["Gain Skill: ", "Butter"], ["ExParam: ", "EVA", "10%"], ["Atk State: ", "Buttered", "50%"], ["ExParam: ", "HRG", "5%"], ["ExParam: ", "MRG", "2%"], ["ExParam: ", "TRG", "2%"]]
+---
+Id 148: Second Blade
+Desc: Another blade you can attach to the hilt of your sword. More likely to allow you to have multiple attacks.
+Type: Sword Attachments
+Price: 9400
+HP: 0
+MP: 0
+Attack: 10
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["+Action Chance: ", "50%"]]
+---
+Id 149: Royal Admiral's Armour
+Desc: \}The masterfully crafted outfit of the Royal Admiral of Talbury. The perfect match of strength, agility, and aesthetic, this is the perfect armour for Thaedrin.
+Type: Unique
+Price: 0
+HP: 0
+MP: 0
+Attack: 0
+Defence: 80
+Magical Attack: 0
+Magical Defence: 0
+Agility: 50
+Luck: 50
+Features and Traits: [["Atk Element: ", "Air"], ["Atk State: ", "Knocked Over", "10%"], ["Atk Speed: ", 3], ["State Resist: ", "Knocked Over"]]
+---
+Id 150: Photrin's Armour
+Desc: The Ancient Sage Photrin's personal armour. After a long line of Sages, the new owner is Xavier.
+Type: Unique
+Price: 0
+HP: 0
+MP: 50
+Attack: 0
+Defence: 80
+Magical Attack: 50
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Fire"], ["Atk Element: ", "Dark"], ["Atk State: ", "Fear", "10%"], ["+Action Chance: ", "50%"], ["State Resist: ", "Fear"]]
+---
+Id 151: Dave's Cloak
+Desc: The well-loved cloak of the well-loved Davonius Alricke.
+Type: Unique
+Price: 0
+HP: 200
+MP: 0
+Attack: 0
+Defence: 90
+Magical Attack: 0
+Magical Defence: 50
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Ice"], ["Atk State: ", "Freezing", "10%"], ["ExParam: ", "TRG", "15%"], ["State Resist: ", "Freezing"]]
+---
+Id 152: Dominica Meam's Robes
+Desc: The traditional robes of the Dominica Meam. Though Droconos may not have the title, his people respect him.
+Type: Unique
+Price: 0
+HP: 0
+MP: 100
+Attack: 0
+Defence: 40
+Magical Attack: 60
+Magical Defence: 60
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Light"], ["Atk State: ", "Blind", "10%"], ["SpParam: ", "MCR", "x0.8"], ["State Resist: ", "Blind"]]
+---
+Id 153: Shellmet
+Desc: An undoubtedly uncomfortable helmet made of seashells. Evolves when traded with a Karrablast.
+Type: Light Armour
+Price: 1100
+HP: 0
+MP: 0
+Attack: 0
+Defence: 7
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Ingredients: [["Copper Brace", 1], ["Conch Shell", 2]]
+---
+Id 154: Floodgate Shield
+Desc: A shield that repels even the greatest torrents. Doubles as an umbrella.
+Type: Large Shield
+Price: 3550
+HP: 0
+MP: 0
+Attack: 0
+Defence: 12
+Magical Attack: 0
+Magical Defence: 4
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "6%"], ["ExParam: ", "CEV", "3%"], ["Atk Speed: ", -1], ["Element Rate: ", "Water", "50%"], ["Gain Skill: ", "Shield Charge"]]
+Ingredients: [["Knight's Shield", 1], ["Seaweed", 2], ["Conch Shell", 2]]
+---
+Id 155: Cookie Bag
+Desc: A small pouch filled with bite-sized cookies. Gives passive HP regeneration.
+Type: General Armour
+Price: 42
+HP: 25
+MP: 0
+Attack: 0
+Defence: 1
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "HRG", "3%"]]
+---
+Id 156: Twin-Leaf Amulet
+Desc: An amulet made of twisted twigs that ends with a pair of leaves. Protects you from Nature-elemental attacks.
+Type: General Armour
+Price: 25
+HP: 0
+MP: 5
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 10
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Nature", "40%"]]
+---
+Id 157: Talbrian Armour
+Desc: The standard-issue armour distributed to the soldiers of Talbury.
+Type: Light Armour
+Price: 670
+HP: 0
+MP: 0
+Attack: 0
+Defence: 20
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 158: Ship Shield
+Desc: \}A shield crafted from the remains of destroyed ships. The wood is strong, just not, y'know, strong enough to have saved the ships.
+Type: Large Shield
+Price: 5000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 17
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "6%"], ["ExParam: ", "CEV", "4%"], ["Atk Speed: ", -1], ["Gain Skill: ", "Shield Charge"]]
+Ingredients: [["Wood", 5], ["Conch Shell", 2], ["Wood Shield", 1]]
+---
+Id 159: Second Splitter
+Desc: \}An additional axehead you can lock onto your axe. Slightly increased chance to have additional action but mostly increases your HIT rate.
+Type: Axe Attachments
+Price: 7600
+HP: 0
+MP: 0
+Attack: 12
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["+Action Chance: ", "25%"], ["ExParam: ", "HIT", "5%"]]
+---
+Id 160: Springy Splitter
+Desc: \}\}Basically, right, the splitter is attached to the grip by a spring. So it wobbles around all over the place uncontrollably. It is completely useless now. BUT, it does give you more HIT chance.
+Type: Axe Attachments
+Price: 10000
+HP: 0
+MP: 0
+Attack: 20
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "HIT", "10%"], ["+Action Chance: ", "25%"]]
+---
+Id 161: Rotary Spearhead
+Desc: \}The spearhead spins super fast, like a drill! It's completely impractical, but hilarious! Adds high Bleed chance.
+Type: Spear Attachments
+Price: 7500
+HP: 0
+MP: 0
+Attack: 9
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk State: ", "Bleeding", "20%"]]
+---
+Id 162: Retractable Chain
+Desc: A button on the grip allows you to launch the ball and chain at a target and retract it back. Increases attack speed.
+Type: Flail Attachments
+Price: 6000
+HP: 0
+MP: 0
+Attack: 11
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Speed: ", 5]]
+---
+Id 163: Thorn Plating
+Desc: Large plates of thick spikes are attached to your shield. Increases counter chance.
+Type: Shield Attachments
+Price: 8000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 8
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "CNT", "5%"]]
+---
+Id 164: Templar Armour
+Desc: The standard-issue amour distributed to the soldiers of the Templar Order.
+Type: Heavy Armour
+Price: 800
+HP: 0
+MP: 0
+Attack: 0
+Defence: 25
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "-2%"]]
+---
+Id 165: Vezran's Cloak
+Desc: The cloak worn by none other than the Slayer of the Sages. Slightly reduces MP costs.
+Type: Magic Armour
+Price: 25000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 15
+Magical Attack: 0
+Magical Defence: 45
+Agility: 0
+Luck: 0
+Features and Traits: [["SpParam: ", "MCR", "x0.8"]]
+---
+Id 166: Supreme Templar's Armour
+Desc: The armour worn falsely by the Diabolous. The greatest armour the Templars can offer. 
+Type: Light Armour
+Price: 38000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 58
+Magical Attack: 0
+Magical Defence: 30
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "HRG", "10%"], ["ExParam: ", "EVA", "5%"]]
+---
+Id 167: Frosted Scale Mail
+Desc: Glistening mail covered in a thin frost. Gives Ice resistance.
+Type: General Armour
+Price: 7500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 28
+Magical Attack: 0
+Magical Defence: 12
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Ice", "50%"]]
+Ingredients: [["Plate Mail", 1], ["Unmelting Ice", 1], ["Powder Snow", 1], ["Winter's Heart", 1]]
+---
+Id 168: Aurora Cloak
+Desc: \}At this time of year, at this time of day, in this part of the country, localised entirely in this cloak? Yes! Increases EVA.
+Type: Magic Armour
+Price: 8500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 11
+Magical Attack: 13
+Magical Defence: 17
+Agility: 30
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "6%"]]
+Ingredients: [["Wet Wrap", 1], ["Unmelting Ice", 1], ["Winter's Heart", 1]]
+---
+Id 169: Icicle Armour
+Desc: Sharp armour that enemies may hurt themselves on upon contact.
+Type: Heavy Armour
+Price: 7500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 31
+Magical Attack: 0
+Magical Defence: 4
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "-3%"], ["ExParam: ", "CNT", "10%"]]
+Ingredients: [["Iron Armour", 1], ["Cryo Cutter", 1]]
+---
+Id 170: Blizzard Buckler
+Desc: This shield subtly produces a cload of snow around its wearer, protecting them from even the harshest of snowstorms.
+Type: Small Shield
+Price: 5000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 17
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "5%"], ["Element Rate: ", "Ice", "50%"], ["Gain Skill: ", "Shield Charge"]]
+---
+Id 171: Root Boots
+Desc: These boots have small, sturdy roots under the sole that returns some of the earth's nutrients to their wearer.
+Type: General Armour
+Price: 7000
+HP: 150
+MP: 0
+Attack: 0
+Defence: 11
+Magical Attack: 0
+Magical Defence: 0
+Agility: 4
+Luck: 0
+Features and Traits: [["ExParam: ", "HRG", "5%"]]
+Ingredients: [["Hiking Boots", 1], ["Bei Root", 3], ["Juggernaut Leaf", 2]]
+---
+Id 172: Oaken Vanguard
+Desc: A suit of carefully carved wood that, while uncomfortable, is remarkably effective.
+Type: General Armour
+Price: 9000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 24
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Ingredients: [["Leather Mail", 1], ["Wood", 2], ["Dylorien", 1]]
+---
+Id 173: Deciduous Mantle
+Desc: 
+Type: Magic Armour
+Price: 0
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 174: Verdant Leafshroud
+Desc: A cloak made of many large leaves, made in recognition of the Shadow of the Forest. Increases PHA.
+Type: Light Armour
+Price: 11000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 19
+Magical Attack: 0
+Magical Defence: 19
+Agility: 0
+Luck: 0
+Features and Traits: [["SpParam: ", "PHA", "x1.5"]]
+Ingredients: [["Silk Cloak", 1], ["Four-Leaf Clover", 1], ["Juggernaut Leaf", 2], ["Dylorien", 1]]
+---
+Id 175: Phantom Shadowmail
+Desc: Despite appearing like heavy armour, this suit is actually extremely light. Increases CEV.
+Type: Light Armour
+Price: 12500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 27
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 15
+Features and Traits: [["ExParam: ", "CEV", "10%"]]
+Ingredients: [["Hypersteel Plate", 1], ["Heavy Feather", 1], ["Oil of Ill-Intent", 2], ["Abbysal Fluid", 2]]
+---
+Id 176: Midnight Shroud
+Desc: A cowl that can hide even the brightest of lights. Greatly increased EVA.
+Type: General Armour
+Price: 14000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 10
+Magical Attack: 0
+Magical Defence: 26
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "15%"]]
+Ingredients: [["Elemental Cloak", 1], ["Invisibility Cloak", 1], ["Oil of Ill-Intent", 2], ["Abbysal Fluid", 1]]
+---
+Id 177: Chaos Doomplate
+Desc: Armour so malevolent it fuels a deep rage within its wearer.
+Type: Heavy Armour
+Price: 18800
+HP: 0
+MP: 0
+Attack: 15
+Defence: 54
+Magical Attack: 15
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "-4%"], ["Atk Speed: ", -3]]
+Ingredients: [["Hypersteel Armour", 2], ["Force Wand", 1], ["Stygian Scythe", 1], ["Oil of Ill-Intent", 2], ["Abbysal Fluid", 1]]
+---
+Id 178: Hallowed Battlegear
+Desc: Divine armour that protects you from Dark magic and ailments.
+Type: Heavy Armour
+Price: 17500
+HP: 0
+MP: 50
+Attack: 0
+Defence: 37
+Magical Attack: 0
+Magical Defence: 46
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Dark", "15%"], ["State Resist: ", "Silence"], ["State Resist: ", "Confusion"], ["State Resist: ", "Blind"], ["State Resist: ", "Fear"], ["State Resist: ", "Savage"], ["State Resist: ", "Hallucinating"], ["State Rate: ", #<RPG::State:0xf68d3dc @message2=" is slain!", @name="Death", @priority=100, @icon_index=17, @message1=" has fallen!", @message4=" revives!", @restriction=4, @release_by_damage=false, @message3="", @note="State #1 will be automatically added when\r\nHP reaches 0.\r\n\\DESC{Person has been defeated in battle and cannot fight.\\LB\\LB}", @id=1, @features=[#<RPG::BaseItem::Feature:0xf68d210 @code=23, @data_id=9, @value=0.0>], @auto_removal_timing=0, @min_turns=1, @max_turns=1, @chance_by_damage=100, @steps_to_remove=100, @remove_by_walking=false, @remove_at_battle_end=false, @remove_by_damage=false, @remove_by_restriction=false, @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "0%"], ["ExParam: ", "EVA", "-4%"], ["Atk Speed: ", -3]]
+Ingredients: [["Hypersteel Armour", 1], ["Templar's Ashes", 1], ["Silver Mirror", 1], ["Smitecaster Arrows", 1]]
+---
+Id 179: Radiant Sentinel
+Desc: \}A beacon of light in the darkness, this helmet is worn by those destined for a path of good will and selflessness. Gain the Sentinel's Radiance skill.
+Type: Light Armour
+Price: 10000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 23
+Magical Attack: 14
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Gain Skill: ", "Sentinel's Radiance"]]
+---
+Id 180: Solar Majesty's Regalia
+Desc: A robe so regal that even the kings of old would revere you. Grants resistances to Light and Fire.
+Type: Magic Armour
+Price: 16000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 28
+Magical Attack: 0
+Magical Defence: 64
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Fire", "50%"], ["Element Rate: ", "Light", "50%"], ["State Resist: ", "Blind"], ["State Resist: ", "Burn"]]
+Ingredients: [["Elemental Cloak", 1], ["Templar's Ashes", 1], ["Sun Candle", 2], ["Burning Oitment", 1]]
+---
+Id 181: Thundershock Stormguard
+Desc: Mighty armour that absorbs incoming Storm attacks.
+Type: Heavy Armour
+Price: 12000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 43
+Magical Attack: 0
+Magical Defence: 26
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "-3%"], ["Atk Speed: ", -3], ["Element Absorb:", "Storm"]]
+Ingredients: [["Hypersteel Armour", 1], ["Thunder Rod", 1], ["Thundrite", 1], ["Lightning Rod", 2]]
+---
+Id 182: Storm Summoner's Garb
+Desc: These robes have an innate static tingle to them. Adds a chance to paralyse targets.
+Type: Magic Armour
+Price: 9400
+HP: 0
+MP: 0
+Attack: 0
+Defence: 14
+Magical Attack: 27
+Magical Defence: 18
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk State: ", "Paralysis", "15%"]]
+Ingredients: [["Elemental Cloak", 1], ["Thunder Rod", 1], ["Thundrite", 3]]
+---
+Id 183: Tempest Surgemail
+Desc: Armour enriched with lightning that quickens your step. Also increases EVA and MHP.
+Type: Light Armour
+Price: 16000
+HP: 100
+MP: 0
+Attack: 0
+Defence: 15
+Magical Attack: 19
+Magical Defence: 0
+Agility: 20
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "2%"]]
+Ingredients: [["Hypersteel Plate", 1], ["Lightning Lance", 1], ["Thundrite", 2], ["Lightning Rod", 1]]
+---
+Id 184: Emblem of Vigour
+Desc: Adds an exceptional amount of additional health to the wearer.
+Type: General Armour
+Price: 25000
+HP: 800
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 185: Solid Oak Headgear
+Desc: \}Sturdy helmet that can protect your noggin. "Crikey, that's expensive!", I hear you say. Don't worry, it's premium oak.
+Type: General Armour
+Price: 8700
+HP: 0
+MP: 0
+Attack: 0
+Defence: 20
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 186: Ravishing Pauldrons
+Desc: 
+Type: General Armour
+Price: 0
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 187: Sabre-tooth Necklace
+Desc: This necklace bears the large tooth of a by-gone creature. Slightly increases the PR gain when taking damage.
+Type: General Armour
+Price: 6500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 4
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["SpParam: ", "TCR", "x1.1"]]
+---
+Id 188: Eye of the Storm
+Desc: A ring that heavily accentuates the magical power of its wearer. Slightly reduces MP costs.
+Type: Magic Armour
+Price: 7000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 35
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["SpParam: ", "MCR", "x0.9"]]
+Ingredients: [["Lightning Rod", 3]]
+---
+Id 189: Smouldering Lavamail
+Desc: Armour fresh from the forge that will repel any sort of elemental attack.
+Type: Heavy Armour
+Price: 14000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 45
+Magical Attack: 0
+Magical Defence: 21
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Fire", "75%"], ["Element Rate: ", "Ice", "75%"], ["Element Rate: ", "Storm", "75%"], ["Element Rate: ", "Water", "75%"], ["Element Rate: ", "Earth", "75%"], ["Element Rate: ", "Air", "75%"], ["Element Rate: ", "Light", "75%"], ["Element Rate: ", "Dark", "75%"], ["Element Rate: ", "Nature", "75%"], ["Element Rate: ", nil, "75%"], ["Element Rate: ", nil, "75%"], ["ExParam: ", "EVA", "-4%"], ["Atk Speed: ", -3]]
+Ingredients: [["Hypersteel Armour", 1], ["Blazing Beverage", 1], ["Crystalised Flame", 1], ["Obsidian Shard", 2]]
+---
+Id 190: Regalia of the Phoenix's Soul
+Desc: A mystical cloak made with phoenix feathers, a one-of-a-kind item. Gives the Undead Immitator skill.
+Type: Magic Armour
+Price: 16000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 31
+Magical Attack: 0
+Magical Defence: 68
+Agility: 0
+Luck: 0
+Features and Traits: [["Gain Skill: ", "Undead Immitator"]]
+---
+Id 191: Eruption Robes
+Desc: Robes coated in a thin layer of soot and basalt dust. Gives Fire resistance.
+Type: Magic Armour
+Price: 9100
+HP: 0
+MP: 0
+Attack: 0
+Defence: 21
+Magical Attack: 0
+Magical Defence: 45
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Fire", "50%"]]
+Ingredients: [["Elemental Cloak", 1], ["Searing Scimitar", 1]]
+---
+Id 192: Igneous Bulwark
+Desc: A helmet that'll keep your head warm. It also helps to repel Ice, but who cares about that when you have a warm head?
+Type: Light Armour
+Price: 7600
+HP: 0
+MP: 0
+Attack: 0
+Defence: 19
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Ice", "50%"], ["State Resist: ", "Freezing"]]
+Ingredients: [["Knight Helm", 1], ["Scorchlog", 1], ["Crystalised Flame", 1]]
+---
+Id 193: Magnetic Shield
+Desc: A shield that has a strong attraction to many pieces of weapons and armour, increasing multiple stats.
+Type: Large Shield
+Price: 7000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 28
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "8%"], ["ExParam: ", "CEV", "4%"], ["Debuff Rate: ", "ATK", "15%"], ["Debuff Rate: ", "DEF", "5%"], ["Gain Skill: ", "Shield Charge"]]
+---
+Id 194: Liquood
+Desc: A wooden log that, weirdly, seems to be melting. Increases your PR charge rate but heavily reduces your target rate.
+Type: General Armour
+Price: 12000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 3
+Agility: 0
+Luck: 0
+Features and Traits: [["SpParam: ", "TCR", "x1.5"], ["SpParam: ", "TGR", "x0.25"]]
+---
+Id 195: Ifradian Armour
+Desc: Heavy armour made in partnership with Marrarock to protect the soldiers of Ifrad.
+Type: Heavy Armour
+Price: 3500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 28
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "-2%"], ["Atk Speed: ", -2]]
+---
+Id 196: Ifradian Shield
+Desc: A shield carried by Ifradians worthy of its status.
+Type: Large Shield
+Price: 3200
+HP: 0
+MP: 0
+Attack: 0
+Defence: 17
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "6%"], ["ExParam: ", "CEV", "3%"], ["Atk Speed: ", -1], ["Gain Skill: ", "Shield Charge"]]
+---
+Id 197: Ifradian Emblem
+Desc: \}The emblem of the soldiers to Ifrad, the vigilant fortress. Fills the wearer with raw courage and faith in their allies. IFRAD EST VICTORIA!
+Type: General Armour
+Price: 1600
+HP: 0
+MP: 0
+Attack: 0
+Defence: 8
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["State Resist: ", "Fear"], ["State Resist: ", "Hopeless"]]
+---
+Id 198: Ifriadian Mail
+Desc: Light armour specially made for Ifradian archers.
+Type: Light Armour
+Price: 3000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 24
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "3%"]]
+---
+Id 199: Tectonic Platemail
+Desc: \}Dense armour that can't be scratched by even the toughest of weapons. It is very heavy, however, so your AGI is reduced.
+Type: Heavy Armour
+Price: 14000
+HP: 150
+MP: 0
+Attack: 0
+Defence: 37
+Magical Attack: 0
+Magical Defence: 0
+Agility: -20
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "-3%"], ["Atk Speed: ", -3]]
+Ingredients: [["Hypersteel Armour", 1], ["Iron Ore", 3], ["Fallen Star", 2]]
+---
+Id 200: Earthwarden's Mantle
+Desc: A rigid cloak that gives a sturdy resistance to Earth-based attacks.
+Type: Magic Armour
+Price: 7500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 24
+Magical Attack: 14
+Magical Defence: 17
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Earth", "25%"]]
+Ingredients: [["Hard Leather", 1], ["Iron Ore", 1], ["Wood", 1], ["Fallen Star", 1]]
+---
+Id 201: Gaiashell Carapace
+Desc: A thick shell-like armour set that boosts your MHP and adds the Bunker Down skill.
+Type: Heavy Armour
+Price: 10000
+HP: 250
+MP: 0
+Attack: 0
+Defence: 30
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "-3%"], ["Atk Speed: ", -3], ["Gain Skill: ", "Bunker Down"]]
+Ingredients: [["Hypersteel Armour", 1], ["Bulwark Shield", 1], ["Iron Ore", 3]]
+---
+Id 202: Gale Force Battlegear
+Desc: Light armour that fills their wearer with the agility of a tornado. Increases EVA.
+Type: Light Armour
+Price: 12000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 26
+Magical Attack: 0
+Magical Defence: 0
+Agility: 50
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "10%"]]
+Ingredients: [["Hypersteel Plate", 1], ["Heavy Feather", 2], ["Winged Boots", 1]]
+---
+Id 203: Tempest Evoker's Robes
+Desc: Robes worn by those capable to change the weather at their behest. Grants the Thunderstorm skill.
+Type: Magic Armour
+Price: 12000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 16
+Magical Attack: 39
+Magical Defence: 27
+Agility: 0
+Luck: 0
+Features and Traits: [["Gain Skill: ", "Thunderstorm"]]
+Ingredients: [["Runed Robe", 1], ["Eye of the Storm", 1], ["Thundrite", 1], ["Wind's Wing", 1]]
+---
+Id 204: Empyrean Winguard
+Desc: Armour that can reliably absorb the impacts of many spells.
+Type: Light Armour
+Price: 9000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 17
+Magical Attack: 12
+Magical Defence: 41
+Agility: 0
+Luck: 0
+Ingredients: [["Iron Plate", 1], ["Wind Warder", 2], ["Wind's Wing", 1]]
+---
+Id 205: Tsunami Ward
+Desc: \}A robe with a thin veil of rabidly swirling water that helps to deter magic attacks. Unfortunately, also gives a small weakness to Storm and Ice.
+Type: Magic Armour
+Price: 14000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 24
+Magical Attack: 18
+Magical Defence: 59
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Ice", "125%"], ["Element Rate: ", "Storm", "125%"], ["Element Rate: ", "Water", "50%"], ["Element Rate: ", "Earth", "50%"]]
+Ingredients: [["Wet Wrap", 1], ["Tears of Cedarus", 1], ["Fresh Water", 5], ["Tsunami Paragon D", 1]]
+---
+Id 206: Oceanic Master's Aegis
+Desc: A suit of armour that no wielder of water can do without. Grants the Erosion and Drowning Prison skills.
+Type: Heavy Armour
+Price: 18000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 56
+Magical Attack: 21
+Magical Defence: 21
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "-3%"], ["Atk Speed: ", -3]]
+Ingredients: [["Hypersteel Plate", 1], ["Tears of Cedarus", 2], ["Conch Shell", 4], ["Shark Tooth", 2]]
+---
+Id 207: Torrential Vanguard
+Desc: A helmet that grants it's wearer mild control over surrounding water. Grants the Shifting Tides skill.
+Type: General Armour
+Price: 12500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 10
+Magical Attack: 5
+Magical Defence: 8
+Agility: 0
+Luck: 0
+Ingredients: [["Hypersteel Cap", 1], ["Tears of Cedarus", 1], ["Shark Tooth", 2], ["Bubble Blower", 1]]
+---
+Id 208: Ingredient-less Cookbook
+Desc: Good luck figuring these out, it'll make you hangry. Raises PR gained when struck but you lose HP passively.
+Type: General Armour
+Price: 4000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 6
+Agility: 0
+Luck: 0
+Features and Traits: [["SpParam: ", "TCR", "x1.5"], ["ExParam: ", "HRG", "-10%"]]
+---
+Id 209: Magic Repressor
+Desc: \}A crown that represses the wearer's ability to use magic. Prevents the use of spells, removes all MAT, significantly reduces MP, but ATK is massively increased.
+Type: Magic Armour
+Price: 20000
+HP: 0
+MP: -200
+Attack: 200
+Defence: 0
+Magical Attack: -500
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Seal Skill Type: ", "Unique"]]
+Ingredients: [["Magi's Crown", 1], ["Omnium", 2], ["Exemplary ATK Paragon", 1]]
+---
+Id 210: Strength Repressor
+Desc: \}A crown that represses the wearer's physical strength. Prevents the use of abilities, removes all ATK, significantly reduces MHP, but MAT is massively increased.
+Type: Magic Armour
+Price: 20000
+HP: -1000
+MP: 0
+Attack: -500
+Defence: 0
+Magical Attack: 200
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Seal Skill Type: ", "Magic"]]
+Ingredients: [["Magi's Crown", 1], ["Omnium", 2], ["Exemplary MAT Paragon", 1]]
+---
+Id 211: Gauntlet of the Accursed
+Desc: \}This gauntlet binds itself to its wearer, greatly increasing their offensive power - at the small cost of half their life force...
+Type: General Armour
+Price: 20000
+HP: 0
+MP: 0
+Attack: 150
+Defence: 15
+Magical Attack: 150
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Parameter: ", "MHP", "50%"]]
+---
+Id 212: Floral Crown
+Desc: A circlet made from Everbloom which wards off magical attacks.
+Type: Light Armour
+Price: 1000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 7
+Magical Attack: 0
+Magical Defence: 17
+Agility: 0
+Luck: 0
+---
+Id 213: Tungsten Tongs
+Desc: \}A pair of tongs made of tungsten not uncommon in the forge. It's uncanny ability to resist heat grants Fire resistance and MEV.
+Type: General Armour
+Price: 2200
+HP: 0
+MP: 0
+Attack: 0
+Defence: 2
+Magical Attack: 0
+Magical Defence: 4
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "MEV", "10%"], ["Element Rate: ", "Fire", "50%"], ["State Resist: ", "Burn"]]
+---
+Id 214: Amethyst Necklace
+Desc: A necklace recommended to Xavier specifically. His new confidence on his appearance increases his EXP gain rate.
+Type: Unique
+Price: 2000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 4
+Magical Attack: 0
+Magical Defence: 4
+Agility: 0
+Luck: 4
+Features and Traits: [["SpParam: ", "EXR", "x1.1"]]
+---
+Id 215: Fisherman's Waders
+Desc: An experienced pair of waders that has parried water for many a year.
+Type: General Armour
+Price: 400
+HP: 0
+MP: 0
+Attack: 0
+Defence: 4
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "0%"], ["Element Rate: ", "Water", "80%"], ["State Resist: ", "Wet"]]
+---
+Id 216: Sorcerer's Sandals
+Desc: Odd footwear which make you feel closer to the Natural Flow.
+Type: General Armour
+Price: 550
+HP: 0
+MP: 5
+Attack: 0
+Defence: 1
+Magical Attack: 9
+Magical Defence: 4
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "0%"]]
+---
+Id 217: Running Shoes
+Desc: Shoes from a far away region. They came with a note that reads 'Press B to run faster.'.
+Type: General Armour
+Price: 600
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 20
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "1%"]]
+---
+Id 218: Blacksmith's Boots
+Desc: Thick leathers that protect you from the hottest of fires, popular among Marrarockan smiths. 
+Type: General Armour
+Price: 300
+HP: 0
+MP: 0
+Attack: 0
+Defence: 6
+Magical Attack: 0
+Magical Defence: 2
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "0%"], ["Element Rate: ", "Fire", "80%"], ["State Resist: ", "Burn"]]
+Ingredients: [["Leather", 2], ["Wellies", 1]]
+---
+Id 219: Ironbark Shield
+Desc: A shield made with Ironbark and Hypersteel, this barrier will last a lifetime. 
+Type: Large Shield
+Price: 4500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 28
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "9%"], ["ExParam: ", "CEV", "5%"], ["Atk Speed: ", -1], ["Gain Skill: ", "Shield Charge"]]
+Ingredients: [["Hypersteel Shield", 1], ["Ironbark", 3]]
+---
+Id 220: Ironbark Shell
+Desc: A cuirass made from ironwood. It's heavy, it's uncomfortable, but it'll keep your body safe.
+Type: Heavy Armour
+Price: 5000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 29
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "-3%"], ["Atk Speed: ", -3]]
+Ingredients: [["Ironbark", 5]]
+---
+Id 221: Ferrous Hardhat
+Desc: An ironwood helmet made for Marrarockan miners that covers your head from debris.
+Type: General Armour
+Price: 3500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 26
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Ingredients: [["Ironbark", 2]]
+---
+Id 222: Flow Amplifier
+Desc: \}Casting magic through this gauntlet charges the Flow that passes through it, causing stronger magic but also an intense strain on the wearer. Higher MP cost and PR charge rates.
+Type: General Armour
+Price: 18000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 5
+Magical Attack: 50
+Magical Defence: 5
+Agility: 0
+Luck: 0
+Features and Traits: [["SpParam: ", "MCR", "x1.5"], ["SpParam: ", "TCR", "x1.25"]]
+Ingredients: [["Flow Conduit", 2], ["Hypersteel Gauntlets", 1]]
+---
+Id 223: Workman's Gloves
+Desc: Thick gloves given to labourers to prevent damage and strain to the wearer's hands.
+Type: General Armour
+Price: 100
+HP: 0
+MP: 0
+Attack: 0
+Defence: 3
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Ingredients: [["Leather", 1], ["Fabric", 1]]
+---
+Id 224: Bronze Gauntlets
+Desc: Gauntlets made of bronze to protect your hands in combat.
+Type: General Armour
+Price: 500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 5
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 225: Iron Gauntlets
+Desc: Gauntlets made of iron to protect your hands in combat.
+Type: General Armour
+Price: 1100
+HP: 0
+MP: 0
+Attack: 0
+Defence: 7
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 226: Hypersteel Gauntlets
+Desc: Gauntlets made of the incredible alloy.
+Type: General Armour
+Price: 2800
+HP: 0
+MP: 0
+Attack: 0
+Defence: 11
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 227: Fluffy Mittens
+Desc: Insulated gloves that will keep your hands safe from the cold.
+Type: General Armour
+Price: 200
+HP: 0
+MP: 0
+Attack: 0
+Defence: 3
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Ice", "50%"], ["Element Rate: ", nil, "75%"], ["State Resist: ", "Freezing"]]
+---
+Id 228: Blacksmith's Gloves
+Desc: Heavy leather gloves that can resist the fires of industry.
+Type: General Armour
+Price: 300
+HP: 0
+MP: 0
+Attack: 0
+Defence: 4
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Fire", "50%"], ["Element Rate: ", nil, "75%"], ["State Resist: ", "Burn"]]
+---
+Id 229: Thieves' Light Touch
+Desc: Fingerless gloves that make picking pockets particularly painless. Enemies will drop their items twice as often.
+Type: General Armour
+Price: 16000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 2
+Magical Attack: 0
+Magical Defence: 0
+Agility: 10
+Luck: 5
+Features and Traits: [["Party Ability: ", "Double Drop Item Chance"]]
+---
+Id 230: Ifradian Gauntlets
+Desc: Armoured gauntlets worn by the soldiers of Ifrad.
+Type: General Armour
+Price: 1900
+HP: 0
+MP: 0
+Attack: 0
+Defence: 8
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 231: Ifradian Sabatons
+Desc: Heavy boots fit for a soldier of Ifrad.
+Type: Heavy Armour
+Price: 2000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 9
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "-1%"]]
+---
+Id 232: Bronze Sabatons
+Desc: Boots of bronze that'll protect you from even the toughest of table legs.
+Type: Heavy Armour
+Price: 500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 6
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "0%"]]
+---
+Id 233: Ifradian Helmet
+Desc: A thick iron helmet to protect your head from blows.
+Type: Heavy Armour
+Price: 2200
+HP: 0
+MP: 0
+Attack: 0
+Defence: 24
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "0%"]]
+---
+Id 235: ATK Paragon
+Desc: A Paragon made by refining Rialite with ATK Grit. +10 ATK.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 10
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Ingredients: [["Rialite", 1], ["ATK Grit", 1]]
+---
+Id 236: Exemplary ATK Paragon
+Desc: An improved gemstone made by more precisely refining Rialite with ATK Grit. +20 ATK.
+Type: General Armour
+Price: 9000
+HP: 0
+MP: 0
+Attack: 20
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Ingredients: [["Rialite", 1], ["ATK Grit", 2], ["ATK Paragon", 1]]
+---
+Id 237: Masterpiece ATK Paragon
+Desc: An perfect gemstone made by flawlessly cutting and polishing Rialite using ATK Grit. +50 ATK.
+Type: General Armour
+Price: 15000
+HP: 0
+MP: 0
+Attack: 50
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Ingredients: [["Rialite", 2], ["ATK Grit", 2], ["ATK Paragon", 1], ["Exemplary ATK Paragon", 1]]
+---
+Id 238: CNT Paragon
+Desc: A Paragon made by refining Rialite with CNT Grit. +5% counter chance.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "CNT", "5%"]]
+Ingredients: [["Rialite", 1], ["CNT Grit", 1]]
+---
+Id 239: Exemplary CNT Paragon
+Desc: An improved gemstone made by more precisely refining Rialite with CNT Grit. +10% counter chance.
+Type: General Armour
+Price: 9000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "CNT", "10%"]]
+Ingredients: [["Rialite", 1], ["CNT Grit", 2], ["CNT Paragon", 1]]
+---
+Id 240: Masterpiece CNT Paragon
+Desc: An perfect gemstone made by flawlessly cutting and polishing Rialite using CNT Grit. +25% counter chance.
+Type: General Armour
+Price: 15000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "CNT", "25%"]]
+Ingredients: [["Rialite", 2], ["CNT Grit", 2], ["CNT Paragon", 1], ["Exemplary CNT Paragon", 1]]
+---
+Id 241: HIT Paragon
+Desc: A Paragon made by refining Rialite with HIT Grit. +5% HIT.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "HIT", "5%"]]
+Ingredients: [["Rialite", 1], ["HIT Grit", 1]]
+---
+Id 242: Exemplary HIT Paragon
+Desc: An improved gemstone made by more precisely refining Rialite with HIT Grit. +10% HIT.
+Type: General Armour
+Price: 9000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "HIT", "10%"]]
+Ingredients: [["Rialite", 1], ["HIT Grit", 2], ["HIT Paragon", 1]]
+---
+Id 243: Masterpiece HIT Paragon
+Desc: An perfect gemstone made by flawlessly cutting and polishing Rialite using HIT Grit. +25% HIT.
+Type: General Armour
+Price: 15000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "HIT", "25%"]]
+Ingredients: [["Rialite", 2], ["HIT Grit", 2], ["HIT Paragon", 1], ["Exemplary HIT Paragon", 1]]
+---
+Id 244: CRI Paragon
+Desc: A Paragon made by refining Rialite with CRI Grit. +3% CRI.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "CRI", "2%"]]
+Ingredients: [["Rialite", 1], ["CRI Grit", 1]]
+---
+Id 245: Exemplary CRI Paragon
+Desc: An improved gemstone made by more precisely refining Rialite with CRI Grit. +4% CRI.
+Type: General Armour
+Price: 9000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "CRI", "4%"]]
+Ingredients: [["Rialite", 1], ["CRI Grit", 2], ["CRI Paragon", 1]]
+---
+Id 246: Masterpiece CRI Paragon
+Desc: An perfect gemstone made by flawlessly cutting and polishing Rialite using CRI Grit. +7% CRI.
+Type: General Armour
+Price: 15000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "CRI", "7%"]]
+Ingredients: [["Rialite", 2], ["CRI Grit", 2], ["CRI Paragon", 1], ["Exemplary CRI Paragon", 1]]
+---
+Id 247: MAT Paragon
+Desc: A Paragon made by refining Rialite with MAT Grit. +10 MAT.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 10
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Ingredients: [["Rialite", 1], ["MAT Grit", 1]]
+---
+Id 248: Exemplary MAT Paragon
+Desc: An improved gemstone made by more precisely refining Rialite with MAT Grit. +20 MAT.
+Type: General Armour
+Price: 9000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 20
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Ingredients: [["Rialite", 1], ["MAT Grit", 2], ["MAT Paragon", 1]]
+---
+Id 249: Masterpiece MAT Paragon
+Desc: An perfect gemstone made by flawlessly cutting and polishing Rialite using MAT Grit. +50 MAT.
+Type: General Armour
+Price: 15000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 50
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Ingredients: [["Rialite", 2], ["MAT Grit", 2], ["MAT Paragon", 1], ["Exemplary MAT Paragon", 1]]
+---
+Id 250: MCR Paragon
+Desc: A Paragon made by refining Rialite with MCR Grit. -10% MP Cost.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["SpParam: ", "MCR", "x0.9"]]
+Ingredients: [["Rialite", 1], ["MCR Grit", 1]]
+---
+Id 251: Exemplary MCR Paragon
+Desc: An improved gemstone made by more precisely refining Rialite with MCR Grit. -20% MP Cost.
+Type: General Armour
+Price: 9000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["SpParam: ", "MCR", "x0.8"]]
+Ingredients: [["Rialite", 1], ["MCR Grit", 2], ["MCR Paragon", 1]]
+---
+Id 252: Masterpiece MCR Paragon
+Desc: An perfect gemstone made by flawlessly cutting and polishing Rialite using MCR Grit. -35% MP Cost.
+Type: General Armour
+Price: 15000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["SpParam: ", "MCR", "x0.65"]]
+Ingredients: [["Rialite", 2], ["MCR Grit", 2], ["MCR Paragon", 1], ["Exemplary MCR Paragon", 1]]
+---
+Id 253: DEF Paragon
+Desc: A Paragon made by refining Rialite with DEF Grit. +10 DEF.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 10
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Ingredients: [["Rialite", 1], ["DEF Grit", 1]]
+---
+Id 254: Exemplary DEF Paragon
+Desc: An improved gemstone made by more precisely refining Rialite with DEF Grit. +20 DEF.
+Type: General Armour
+Price: 9000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 20
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Ingredients: [["Rialite", 1], ["DEF Grit", 2], ["DEF Paragon", 1]]
+---
+Id 255: Masterpiece DEF Paragon
+Desc: An perfect gemstone made by flawlessly cutting and polishing Rialite using DEF Grit. +50 DEF.
+Type: General Armour
+Price: 15000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 50
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Ingredients: [["Rialite", 2], ["DEF Grit", 2], ["DEF Paragon", 1], ["Exemplary DEF Paragon", 1]]
+---
+Id 256: MHP Paragon
+Desc: A Paragon made by refining Rialite with MHP Grit. +200 MHP.
+Type: General Armour
+Price: 6000
+HP: 200
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Ingredients: [["Rialite", 1], ["MHP Grit", 1]]
+---
+Id 257: Exemplary MHP Paragon
+Desc: An improved gemstone made by more precisely refining Rialite with MHP Grit. +500 MHP.
+Type: General Armour
+Price: 9000
+HP: 500
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Ingredients: [["Rialite", 1], ["MHP Grit", 2], ["MHP Paragon", 1]]
+---
+Id 258: Masterpiece MHP Paragon
+Desc: An perfect gemstone made by flawlessly cutting and polishing Rialite using MHP Grit. +1200 MHP.
+Type: General Armour
+Price: 15000
+HP: 1200
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Ingredients: [["Rialite", 2], ["MHP Grit", 2], ["MHP Paragon", 1], ["Exemplary MHP Paragon", 1]]
+---
+Id 259: MMP Paragon
+Desc: A Paragon made by refining Rialite with MMP Grit. +50 MMP.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 50
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Ingredients: [["Rialite", 1], ["MMP Grit", 1]]
+---
+Id 260: Exemplary MMP Paragon
+Desc: An improved gemstone made by more precisely refining Rialite with MMP Grit. +100 MMP.
+Type: General Armour
+Price: 9000
+HP: 0
+MP: 100
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Ingredients: [["Rialite", 1], ["MMP Grit", 2], ["MMP Paragon", 1]]
+---
+Id 261: Masterpiece MMP Paragon
+Desc: An perfect gemstone made by flawlessly cutting and polishing Rialite using MMP Grit. +250 MMP.
+Type: General Armour
+Price: 15000
+HP: 0
+MP: 250
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Ingredients: [["Rialite", 2], ["MMP Grit", 2], ["MMP Paragon", 1], ["Exemplary MMP Paragon", 1]]
+---
+Id 262: EVA Paragon
+Desc: A Paragon made by refining Rialite with EVA Grit. +3% EVA.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "3%"]]
+Ingredients: [["Rialite", 1], ["EVA Grit", 1]]
+---
+Id 263: Exemplary EVA Paragon
+Desc: An improved gemstone made by more precisely refining Rialite with EVA Grit. +5% EVA.
+Type: General Armour
+Price: 9000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "5%"]]
+Ingredients: [["Rialite", 1], ["EVA Grit", 2], ["EVA Paragon", 1]]
+---
+Id 264: Masterpiece EVA Paragon
+Desc: An perfect gemstone made by flawlessly cutting and polishing Rialite using EVA Grit. +12% EVA.
+Type: General Armour
+Price: 15000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "12%"]]
+Ingredients: [["Rialite", 2], ["EVA Grit", 2], ["Exemplary EVA Paragon", 1], ["EVA Paragon", 1]]
+---
+Id 265: MDF Paragon
+Desc: A Paragon made by refining Rialite with MDF Grit. +10 MDF.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 10
+Agility: 0
+Luck: 0
+Ingredients: [["Rialite", 1], ["MDF Grit", 1]]
+---
+Id 266: Exemplary MDF Paragon
+Desc: An improved gemstone made by more precisely refining Rialite with MDF Grit. +20 MDF.
+Type: General Armour
+Price: 9000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 20
+Agility: 0
+Luck: 0
+Ingredients: [["Rialite", 1], ["MDF Grit", 2], ["MDF Paragon", 1]]
+---
+Id 267: Masterpiece MDF Paragon
+Desc: An perfect gemstone made by flawlessly cutting and polishing Rialite using MDF Grit. +50 MDF.
+Type: General Armour
+Price: 15000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 50
+Agility: 0
+Luck: 0
+Ingredients: [["Rialite", 2], ["MDF Grit", 2], ["MDF Paragon", 1], ["Exemplary MDF Paragon", 1]]
+---
+Id 268: MEV Paragon
+Desc: A Paragon made by refining Rialite with MEV Grit. +4% MEV.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "MEV", "4%"]]
+Ingredients: [["Rialite", 1], ["MEV Grit", 1]]
+---
+Id 269: Exemplary MEV Paragon
+Desc: An improved gemstone made by more precisely refining Rialite with MEV Grit. +8% MEV.
+Type: General Armour
+Price: 9000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "MEV", "8%"]]
+Ingredients: [["Rialite", 1], ["MEV Grit", 2], ["MEV Paragon", 1]]
+---
+Id 270: Masterpiece MEV Paragon
+Desc: An perfect gemstone made by flawlessly cutting and polishing Rialite using MEV Grit. +20% MEV.
+Type: General Armour
+Price: 15000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "MEV", "20%"]]
+Ingredients: [["Rialite", 2], ["MEV Grit", 2], ["MEV Paragon", 1], ["Exemplary MEV Paragon", 1]]
+---
+Id 271: Hellfire Paragon O
+Desc: A Paragon made by refining Rialite into a particular element. +10 ATK and MAT, also adds Fire as an attack element.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 10
+Defence: 0
+Magical Attack: 10
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Fire"]]
+Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Crystalised Flame", 1]]
+---
+Id 272: Exemplary Hellfire Paragon O
+Desc: A gemstone made by improving upon the previous Paragon. +20 ATK and MAT, also adds Fire as an attack element.
+Type: General Armour
+Price: 9000
+HP: 0
+MP: 0
+Attack: 20
+Defence: 0
+Magical Attack: 20
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Fire"], ["Atk State: ", "Burn", "10%"]]
+Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Crystalised Flame", 2], ["Hellfire Paragon O", 1]]
+---
+Id 273: Hellfire Paragon D
+Desc: A Paragon made by refining Rialite into a particular element. +10 DEF and MDF, also adds Fire resistance.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 10
+Magical Attack: 0
+Magical Defence: 10
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Fire", "75%"]]
+Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Crystalised Flame", 1]]
+---
+Id 274: Exemplary Hellfire Paragon D
+Desc: A gemstone made by improving upon the previous Paragon. +20 DEF and MDF, also adds Fire resistance.
+Type: General Armour
+Price: 9000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 20
+Magical Attack: 0
+Magical Defence: 20
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Fire", "50%"], ["State Resist: ", "Burn"]]
+Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Crystalised Flame", 2], ["Hellfire Paragon D", 1]]
+---
+Id 275: Fangfrost Paragon O
+Desc: A Paragon made by refining Rialite into a particular element. +10 ATK and MAT, also adds Ice as an attack element.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 10
+Defence: 0
+Magical Attack: 10
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Ice"]]
+Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Winter's Heart", 1]]
+---
+Id 276: Exemplary Fangfrost Paragon O
+Desc: A gemstone made by improving upon the previous Paragon. +20 ATK and MAT, also adds Ice as an attack element.
+Type: General Armour
+Price: 9000
+HP: 0
+MP: 0
+Attack: 20
+Defence: 0
+Magical Attack: 20
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Ice"], ["Atk State: ", "Freezing", "10%"]]
+Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Winter's Heart", 2], ["Fangfrost Paragon O", 1]]
+---
+Id 277: Fangfrost Paragon D
+Desc: A Paragon made by refining Rialite into a particular element. +10 DEF and MDF, also adds Ice resistance.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 10
+Magical Attack: 0
+Magical Defence: 10
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Ice", "75%"]]
+Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Winter's Heart", 1]]
+---
+Id 278: Exemplary Fangfrost Paragon D
+Desc: A gemstone made by improving upon the previous Paragon. +20 DEF and MDF, also adds Ice resistance.
+Type: General Armour
+Price: 9000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 20
+Magical Attack: 0
+Magical Defence: 20
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Ice", "50%"], ["State Resist: ", "Freezing"]]
+Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Winter's Heart", 2], ["Fangfrost Paragon D", 1]]
+---
+Id 279: Thunderfury Paragon O
+Desc: A Paragon made by refining Rialite into a particular element. +10 ATK and MAT, also adds Storm as an attack element.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 10
+Defence: 0
+Magical Attack: 10
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Storm"]]
+Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Thundrite", 1]]
+---
+Id 280: Exemplary Thunderfury Paragon O
+Desc: A gemstone made by improving upon the previous Paragon. +20 ATK and MAT, also adds Storm as an attack element.
+Type: General Armour
+Price: 9000
+HP: 0
+MP: 0
+Attack: 20
+Defence: 0
+Magical Attack: 20
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Storm"], ["Atk State: ", "Paralysis", "10%"]]
+Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Thundrite", 2], ["Thunderfury Paragon O", 1]]
+---
+Id 281: Thunderfury Paragon D
+Desc: A Paragon made by refining Rialite into a particular element. +10 DEF and MDF, also adds Storm resistance.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 10
+Magical Attack: 0
+Magical Defence: 10
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Storm", "75%"]]
+Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Thundrite", 1]]
+---
+Id 282: Exemplary Thunderfury Paragon D
+Desc: A gemstone made by improving upon the previous Paragon. +20 DEF and MDF, also adds Storm resistance.
+Type: General Armour
+Price: 9000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 20
+Magical Attack: 0
+Magical Defence: 20
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Storm", "50%"], ["State Resist: ", "Paralysis"]]
+Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Thundrite", 2], ["Thunderfury Paragon D", 1]]
+---
+Id 283: Tsunami Paragon O
+Desc: A Paragon made by refining Rialite into a particular element. +10 ATK and MAT, also adds Water as an attack element.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 10
+Defence: 0
+Magical Attack: 10
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Water"]]
+Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Tears of Cedarus", 1]]
+---
+Id 284: Exemplary Tsunami Paragon O
+Desc: A gemstone made by improving upon the previous Paragon. +20 ATK and MAT, also adds Water as an attack element.
+Type: General Armour
+Price: 9000
+HP: 0
+MP: 0
+Attack: 20
+Defence: 0
+Magical Attack: 20
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Water"], ["Atk State: ", "Wet", "10%"]]
+Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Tears of Cedarus", 2], ["Tsunami Paragon O", 1]]
+---
+Id 285: Tsunami Paragon D
+Desc: A Paragon made by refining Rialite into a particular element. +10 DEF and MDF, also adds Water resistance.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 10
+Magical Attack: 0
+Magical Defence: 10
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Water", "75%"]]
+Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Tears of Cedarus", 1]]
+---
+Id 286: Exemplary Tsunami Paragon D
+Desc: A gemstone made by improving upon the previous Paragon. +20 DEF and MDF, also adds Water resistance.
+Type: General Armour
+Price: 9000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 20
+Magical Attack: 0
+Magical Defence: 20
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Water", "50%"], ["State Resist: ", "Wet"]]
+Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Tears of Cedarus", 2], ["Tsunami Paragon D", 1]]
+---
+Id 287: Earthquake Paragon O
+Desc: A Paragon made by refining Rialite into a particular element. +10 ATK and MAT, also adds Earth as an attack element.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 10
+Defence: 0
+Magical Attack: 10
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Earth"]]
+Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Fallen Star", 1]]
+---
+Id 288: Exemplary Earthquake Paragon O
+Desc: A gemstone made by improving upon the previous Paragon. +20 ATK and MAT, also adds Earth as an attack element.
+Type: General Armour
+Price: 9000
+HP: 0
+MP: 0
+Attack: 20
+Defence: 0
+Magical Attack: 20
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Earth"], ["Atk State: ", "Stun", "10%"]]
+Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Fallen Star", 2], ["Earthquake Paragon O", 1]]
+---
+Id 289: Earthquake Paragon D
+Desc: A Paragon made by refining Rialite into a particular element. +10 DEF and MDF, also adds Earth resistance.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 10
+Magical Attack: 0
+Magical Defence: 10
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Earth", "75%"]]
+Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Fallen Star", 1]]
+---
+Id 290: Exemplary Earthquake Paragon D
+Desc: A gemstone made by improving upon the previous Paragon. +20 DEF and MDF, also adds Earth resistance.
+Type: General Armour
+Price: 9000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 20
+Magical Attack: 0
+Magical Defence: 20
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Earth", "50%"], ["State Resist: ", "Stun"]]
+Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Fallen Star", 2], ["Earthquake Paragon D", 1]]
+---
+Id 291: Airblade Paragon O
+Desc: A Paragon made by refining Rialite into a particular element. +10 ATK and MAT, also adds Air as an attack element.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 10
+Defence: 0
+Magical Attack: 10
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Air"]]
+Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Wind's Wing", 1]]
+---
+Id 292: Exemplary Airblade Paragon O
+Desc: A gemstone made by improving upon the previous Paragon. +20 ATK and MAT, also adds Air as an attack element.
+Type: General Armour
+Price: 9000
+HP: 0
+MP: 0
+Attack: 20
+Defence: 0
+Magical Attack: 20
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Air"], ["Atk State: ", "Knocked Over", "10%"]]
+Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Wind's Wing", 2], ["Airblade Paragon O", 1]]
+---
+Id 293: Airblade Paragon D
+Desc: A Paragon made by refining Rialite into a particular element. +10 DEF and MDF, also adds Air resistance.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 10
+Magical Attack: 0
+Magical Defence: 10
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Air", "75%"]]
+Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Wind's Wing", 1]]
+---
+Id 294: Exemplary Airblade Paragon D
+Desc: A gemstone made by improving upon the previous Paragon. +20 DEF and MDF, also adds Air resistance.
+Type: General Armour
+Price: 9000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 20
+Magical Attack: 0
+Magical Defence: 20
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Air", "50%"], ["State Resist: ", "Knocked Over"]]
+Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Wind's Wing", 2], ["Airblade Paragon D", 1]]
+---
+Id 295: Smitecaster Paragon O
+Desc: A Paragon made by refining Rialite into a particular element. +10 ATK and MAT, also adds Light as an attack element.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 10
+Defence: 0
+Magical Attack: 10
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Light"]]
+Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Templar's Ashes", 1]]
+---
+Id 296: Exemplary Smitecaster Paragon O
+Desc: A gemstone made by improving upon the previous Paragon. +20 ATK and MAT, also adds Light as an attack element.
+Type: General Armour
+Price: 9000
+HP: 0
+MP: 0
+Attack: 20
+Defence: 0
+Magical Attack: 20
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Light"], ["Atk State: ", "Blind", "10%"]]
+Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Templar's Ashes", 2], ["Smitecaster Paragon O", 1]]
+---
+Id 297: Smitecaster Paragon D
+Desc: A Paragon made by refining Rialite into a particular element. +10 DEF and MDF, also adds Light resistance.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 10
+Magical Attack: 0
+Magical Defence: 10
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Light", "75%"]]
+Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Templar's Ashes", 1]]
+---
+Id 298: Exemplary Smitecaster Paragon D
+Desc: A gemstone made by improving upon the previous Paragon. +20 DEF and MDF, also adds Light resistance.
+Type: General Armour
+Price: 9000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 20
+Magical Attack: 0
+Magical Defence: 20
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Light", "50%"], ["State Resist: ", "Blind"]]
+Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Templar's Ashes", 2], ["Smitecaster Paragon D", 1]]
+---
+Id 299: Darkstrike Paragon O
+Desc: A Paragon made by refining Rialite into a particular element. +10 ATK and MAT, also adds Dark as an attack element.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 10
+Defence: 0
+Magical Attack: 10
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Dark"]]
+Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Oil of Ill-Intent", 1]]
+---
+Id 300: Exemplary Darkstrike Paragon O
+Desc: A gemstone made by improving upon the previous Paragon. +20 ATK and MAT, also adds Dark as an attack element.
+Type: General Armour
+Price: 9000
+HP: 0
+MP: 0
+Attack: 20
+Defence: 0
+Magical Attack: 20
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Dark"], ["Atk State: ", "Fear", "10%"]]
+Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Oil of Ill-Intent", 2], ["Darkstrike Paragon O", 1]]
+---
+Id 301: Darkstrike Paragon D
+Desc: A Paragon made by refining Rialite into a particular element. +10 DEF and MDF, also adds Dark resistance.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 10
+Magical Attack: 0
+Magical Defence: 10
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Dark", "75%"]]
+Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Oil of Ill-Intent", 1]]
+---
+Id 302: Exemplary Darkstrike Paragon D
+Desc: A gemstone made by improving upon the previous Paragon. +20 DEF and MDF, also adds Dark resistance.
+Type: General Armour
+Price: 9000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 20
+Magical Attack: 0
+Magical Defence: 20
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Dark", "50%"], ["State Resist: ", "Fear"]]
+Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Oil of Ill-Intent", 2], ["Darkstrike Paragon D", 1]]
+---
+Id 303: Woodhammer Paragon O
+Desc: A Paragon made by refining Rialite into a particular element. +10 ATK and MAT, also adds Nature as an attack element.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 10
+Defence: 0
+Magical Attack: 10
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Nature"]]
+Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Dylorien", 1]]
+---
+Id 304: Exemplary Woodhammer Paragon O
+Desc: A gemstone made by improving upon the previous Paragon. +20 ATK and MAT, also adds Nature as an attack element.
+Type: General Armour
+Price: 9000
+HP: 0
+MP: 0
+Attack: 20
+Defence: 0
+Magical Attack: 20
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Nature"], ["Atk State: ", "Poison", "10%"]]
+Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Dylorien", 2], ["Woodhammer Paragon O", 1]]
+---
+Id 305: Woodhammer Paragon D
+Desc: A Paragon made by refining Rialite into a particular element. +10 DEF and MDF, also adds Nature resistance.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 10
+Magical Attack: 0
+Magical Defence: 10
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Nature", "75%"]]
+Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Dylorien", 1]]
+---
+Id 306: Exemplary Woodhammer Paragon D
+Desc: A gemstone made by improving upon the previous Paragon. +20 DEF and MDF, also adds Nature resistance.
+Type: General Armour
+Price: 9000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 20
+Magical Attack: 0
+Magical Defence: 20
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Nature", "50%"], ["State Resist: ", "Poison"]]
+Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Tears of Cedarus", 2], ["Woodhammer Paragon D", 1]]
+---
+Id 308: Ancient Ascerothan Uniform
+Desc: \}A soldier's uniform dating back to Asceroth that is barely in any condition. With some time and effort, it could be restored to its former glory.
+Type: General Armour
+Price: 8000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 4
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 309: Ascerothan Uniform
+Desc: \}A once great mark of Ascerothan grandeur, now restored into a new age. Gives some MEV. 
+Type: General Armour
+Price: 16000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 36
+Magical Attack: 0
+Magical Defence: 36
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "MEV", "10%"]]
+Ingredients: [["Ancient Ascerothan Uniform", 1], ["Fabric", 4], ["Cotton", 4], ["Artefact Shards", 3], ["TheFourKingdoms:Where'dTheyGo?", 1]]
+---
+Id 310: Symbol Breaker Disc: Fire
+Desc: An ammunition disc for the Symbol Breaker that fires an elemental orb. Crafted in the Fire element.
+Type: Unique
+Price: 1000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Fire"], ["Atk State: ", "Burn", "10%"]]
+Ingredients: [["Ammunition Disc", 1], ["Crystalised Flame", 1]]
+---
+Id 311: Symbol Breaker Disc: Ice
+Desc: An ammunition disc for the Symbol Breaker that fires an elemental orb. Crafted in the Ice element.
+Type: Unique
+Price: 1000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Ice"], ["Atk State: ", "Freezing", "10%"]]
+Ingredients: [["Ammunition Disc", 1], ["Winter's Heart", 1]]
+---
+Id 312: Symbol Breaker Disc: Storm
+Desc: An ammunition disc for the Symbol Breaker that fires an elemental orb. Crafted in the Storm element.
+Type: Unique
+Price: 1000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Storm"], ["Atk State: ", "Paralysis", "10%"]]
+Ingredients: [["Ammunition Disc", 1], ["Thundrite", 1]]
+---
+Id 313: Symbol Breaker Disc: Water
+Desc: An ammunition disc for the Symbol Breaker that fires an elemental orb. Crafted in the Water element.
+Type: Unique
+Price: 1000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Water"], ["Atk State: ", "Wet", "10%"]]
+Ingredients: [["Ammunition Disc", 1], ["Tears of Cedarus", 1]]
+---
+Id 314: Symbol Breaker Disc: Earth
+Desc: An ammunition disc for the Symbol Breaker that fires an elemental orb. Crafted in the Earth element.
+Type: Unique
+Price: 1000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Earth"], ["Atk State: ", "Stun", "10%"]]
+Ingredients: [["Ammunition Disc", 1], ["Fallen Star", 1]]
+---
+Id 315: Symbol Breaker Disc: Air
+Desc: An ammunition disc for the Symbol Breaker that fires an elemental orb. Crafted in the Air element.
+Type: Unique
+Price: 1000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Air"], ["Atk State: ", "Knocked Over", "10%"]]
+Ingredients: [["Ammunition Disc", 1], ["Wind's Wing", 1]]
+---
+Id 316: Symbol Breaker Disc: Light
+Desc: An ammunition disc for the Symbol Breaker that fires an elemental orb. Crafted in the Light element.
+Type: Unique
+Price: 1000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Light"], ["Atk State: ", "Blind", "10%"]]
+Ingredients: [["Ammunition Disc", 1], ["Templar's Ashes", 1]]
+---
+Id 317: Symbol Breaker Disc: Dark
+Desc: An ammunition disc for the Symbol Breaker that fires an elemental orb. Crafted in the Dark element.
+Type: Unique
+Price: 1000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Dark"], ["Atk State: ", "Fear", "10%"]]
+Ingredients: [["Ammunition Disc", 1], ["Oil of Ill-Intent", 1]]
+---
+Id 318: Symbol Breaker Disc: Nature
+Desc: An ammunition disc for the Symbol Breaker that fires an elemental orb. Crafted in the Nature element.
+Type: Unique
+Price: 1000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Nature"], ["Atk State: ", "Poison", "10%"]]
+Ingredients: [["Ammunition Disc", 1], ["Dylorien", 1]]
+---
+Id 319: Ancient Ascerothan Gauntlets
+Desc: \}Armoured gauntlets from the long-lost kingdom. With some time and effort, it could be restored to its former glory.
+Type: General Armour
+Price: 5000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 2
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 320: Ascerothan Gauntlets
+Desc: Ascerothan gauntlets that will once again see the glory of battle. Recovery rate is increased.
+Type: General Armour
+Price: 10000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 11
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["SpParam: ", "REC", "x1.5"]]
+Ingredients: [["Ancient Ascerothan Gauntlets", 1], ["Iron Ore", 2], ["Silver Ore", 2], ["Artefact Shards", 2], ["TheFourKingdoms:Where'dTheyGo?", 1]]
+---
+Id 321: King's Disgrace
+Desc: A relic of by-gone monarchs destined to rule over ruin.
+Type: General Armour
+Price: 7500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 1
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 322: King's Grace
+Desc: \}A lone golden gauntlet encrusted in gems that was once worn by ancient monarchs. Grants immunity to all debuffs (not states).
+Type: General Armour
+Price: 13000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 10
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Debuff Rate: ", "MHP", "0%"], ["Debuff Rate: ", "MMP", "0%"], ["Debuff Rate: ", "ATK", "0%"], ["Debuff Rate: ", "DEF", "0%"], ["Debuff Rate: ", "MAT", "0%"], ["Debuff Rate: ", "MDF", "0%"], ["Debuff Rate: ", "AGI", "0%"], ["Debuff Rate: ", "LUK", "0%"]]
+Ingredients: [["King's Disgrace", 1], ["Rialite", 1], ["Omnium", 1], ["Silver Ore", 2], ["Artefact Shards", 3]]
+---
+Id 323: Forgotten Legend
+Desc: A mangled, seemingly unremarkable shield from some ancient time, potentially wielded by some forgettable nobody.
+Type: Large Shield
+Price: 8750
+HP: 0
+MP: 0
+Attack: 0
+Defence: 4
+Magical Attack: 0
+Magical Defence: 2
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Speed: ", -1], ["Gain Skill: ", "Shield Charge"]]
+---
+Id 324: Legend's Safeguard
+Desc: A gilded shield renowned for being in an unnamed, yet remarkable warrior's possession. Increases MHP by 25%.
+Type: Large Shield
+Price: 17500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 42
+Magical Attack: 0
+Magical Defence: 28
+Agility: 0
+Luck: 0
+Features and Traits: [["Parameter: ", "MHP", "125%"], ["ExParam: ", "EVA", "12%"], ["ExParam: ", "CEV", "7%"], ["Atk Speed: ", -2], ["Gain Skill: ", "Shield Charge"]]
+Ingredients: [["Forgotten Legend", 1], ["Exemplary MHP Paragon", 1], ["Omnium", 4], ["Artefact Shards", 6]]
+---
+Id 325: Void-Wreathed Carapace
+Desc: \}A suit of armour made of remnant Void energy. It's defensive capabilities rival armour of full raxorium. PR increases twice as fast.
+Type: Heavy Armour
+Price: 0
+HP: 0
+MP: 0
+Attack: 0
+Defence: 100
+Magical Attack: 0
+Magical Defence: 100
+Agility: 0
+Luck: 0
+Features and Traits: [["SpParam: ", "TCR", "x2.0"]]
+Ingredients: [["Chaos Doomplate", 1], ["Magic Repressor", 1], ["Raxorium Ore", 3], ["Void Residue", 3], ["Contaminated Conduit", 1]]
+---
+Id 326: Void-Wreathed Cloak
+Desc: A cloak made of remnant Void energy. PR increases twice as fast.
+Type: Magic Armour
+Price: 0
+HP: 0
+MP: 0
+Attack: 0
+Defence: 40
+Magical Attack: 75
+Magical Defence: 85
+Agility: 0
+Luck: 0
+Features and Traits: [["SpParam: ", "TCR", "x2.0"]]
+Ingredients: [["Solar Majesty's Regalia", 1], ["Magic Repressor", 1], ["Raxorium Ore", 3], ["Void Residue", 3], ["Contaminated Conduit", 1]]
+---
+Id 327: Abyssal Voidguard
+Desc: A shield made of remnant Void energy. It barely weighs anything. 25% magic resistance.
+Type: Small Shield
+Price: 0
+HP: 0
+MP: 0
+Attack: 0
+Defence: 75
+Magical Attack: 0
+Magical Defence: 50
+Agility: 0
+Luck: 0
+Features and Traits: [["SpParam: ", "MDR", "x0.75"], ["ExParam: ", "EVA", "11%"]]
+Ingredients: [["Legend's Safeguard", 1], ["Magic Repressor", 1], ["Raxorium Ore", 2], ["Void Residue", 3], ["Contaminated Conduit", 1]]
+---
+Id 328: Grasp of the Void
+Desc: A gauntlet made of remnant Void energy. The fingers twitch and fidget on their own. Magic costs 20% as much to cast.
+Type: General Armour
+Price: 0
+HP: 0
+MP: 0
+Attack: 0
+Defence: 20
+Magical Attack: 35
+Magical Defence: 20
+Agility: 0
+Luck: 0
+Features and Traits: [["SpParam: ", "MCR", "x0.2"]]
+Ingredients: [["Flow Amplifier", 1], ["Magic Repressor", 1], ["Raxorium Ore", 2], ["Void Residue", 5], ["Contaminated Conduit", 1]]
+---
+Id 329: Void Mistward
+Desc: \}A small token that generates an aura of Void energy around you, a fog that can capture and return incoming magical attacks.
+Type: General Armour
+Price: 0
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 30
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "MRF", "25%"]]
+Ingredients: [["Mini Chest", 1], ["Raxorium Ore", 1], ["Void Residue", 2], ["Contaminated Conduit", 1]]
+---
+Id 330: Void-Breather's Cage
+Desc: \}A helmet made of remnant Void energy. When putting it on, you feel empowered, as if the Void itself is coursing through your veins. You can counter attacks very often.
+Type: General Armour
+Price: 0
+HP: 0
+MP: 0
+Attack: 0
+Defence: 30
+Magical Attack: 0
+Magical Defence: 30
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "CNT", "25%"]]
+Ingredients: [["Igneous Bulwark", 1], ["Magic Repressor", 1], ["Raxorium Ore", 2], ["Void Residue", 3], ["Contaminated Conduit", 1]]
+---
+Id 331: Void Steppers
+Desc: Boots of remnant Void energy. They stand upon a wispy sheet of Void. Grants the Void Vanish skill.
+Type: General Armour
+Price: 0
+HP: 0
+MP: 0
+Attack: 0
+Defence: 20
+Magical Attack: 0
+Magical Defence: 20
+Agility: 50
+Luck: 0
+Features and Traits: [["Gain Skill: ", "Void Vanish"]]
+Ingredients: [["Winged Boots", 1], ["Magic Repressor", 1], ["Raxorium Ore", 2], ["Void Residue", 3], ["Contaminated Conduit", 1]]
+---
+Id 332: Raxorium Bangle
+Desc: The bangle Ironheart forged to repell Vezran, now left to you after his tragic demise. +15% MRF.
+Type: General Armour
+Price: 0
+HP: 0
+MP: 0
+Attack: 0
+Defence: 5
+Magical Attack: 0
+Magical Defence: 10
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "MRF", "15%"]]
+---
+Id 333: Mind-Control Brace
+Desc: \}A crown-like headwear that clouds the wearer's free will. It grants great boons to all stats at the cost of not being able to command them in combat.
+Type: General Armour
+Price: 15000
+HP: 0
+MP: 0
+Attack: 40
+Defence: 40
+Magical Attack: 40
+Magical Defence: 40
+Agility: 40
+Luck: 40
+---
+Id 335: Ribcage
+Desc: Identifying Characteristics:
+He's a skeleton.
+Type: General Armour
+Price: 0
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 336: Skull
+Desc: Facial Features:
+Skull.
+Type: General Armour
+Price: 0
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 337: Just Bones
+Desc: Physical Quirks:
+He's still a skeleton.
+Type: General Armour
+Price: 0
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 338: Just Bones
+Desc: Apparel & Accessories:
+All of his clothes were lost to the volcano.
+Type: General Armour
+Price: 0
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 339: Voidsoul Paragon
+Desc: A Paragon crafted outside of known recipes, violent with Void energy. Increases all core stats by 20%.
+Type: General Armour
+Price: 0
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Parameter: ", "MHP", "120%"], ["Parameter: ", "MMP", "120%"], ["Parameter: ", "ATK", "120%"], ["Parameter: ", "DEF", "120%"], ["Parameter: ", "MAT", "120%"], ["Parameter: ", "MDF", "120%"], ["Parameter: ", "AGI", "120%"], ["Parameter: ", "LUK", "120%"]]
+Ingredients: [["Rialite", 3], ["Darkstrike Paragon O", 1], ["Smitecaster Paragon D", 1], ["Raxorium Ore", 1], ["Void Residue", 2], ["Contaminated Conduit", 1]]
+---
+Id 340: Zysargia's Ward
+Desc: \}A gift from the Dragon Lord Zysargia. Grants his \C[20]Aura of Earth\fr skill, allows you to absorb Earth and Nature attacks, and immunity to Stun.
+Type: General Armour
+Price: 0
+HP: 0
+MP: 0
+Attack: 0
+Defence: 50
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Gain Skill: ", "Aura of Earth"], ["State Resist: ", "Stun"], ["Element Absorb:", "Earth"], ["Element Absorb:", "Nature"]]
+---
+Id 341: Tempora's Echo
+Desc: \}A gift from the Dragon Lord Tempora. Grants his \C[24]Aura of Storms\fr skill, allows you to absorb Air and Storm attacks, and immunity to Paralysis.
+Type: General Armour
+Price: 0
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 50
+Luck: 0
+Features and Traits: [["Gain Skill: ", "Aura of Storms"], ["State Resist: ", "Paralysis"], ["Element Absorb:", "Storm"], ["Element Absorb:", "Air"]]
+---
+Id 342: Maelsium's Reckoning
+Desc: \}A gift from the Dragon Lord Maelsium. Grants his \C[15]Aura of Darkness\fr skill, allows you to absorb Dark attacks, and immunity to Fear and Hopeless.
+Type: General Armour
+Price: 0
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 50
+Features and Traits: [["Gain Skill: ", "Aura of Darkness"], ["State Resist: ", "Fear"], ["State Resist: ", "Hopeless"], ["Element Absorb:", "Dark"]]
+---
+Id 343: Justicium's Blessing
+Desc: \}A gift from the Dragon Lord Justicium. Grants his \C[6]Aura of Light\fr skill, allows you to absorb Light attacks, and immunity to instant death.
+Type: General Armour
+Price: 0
+HP: 0
+MP: 500
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Gain Skill: ", "Aura of Light"], ["State Rate: ", #<RPG::State:0xf68d3dc @message2=" is slain!", @name="Death", @priority=100, @icon_index=17, @message1=" has fallen!", @message4=" revives!", @restriction=4, @release_by_damage=false, @message3="", @note="State #1 will be automatically added when\r\nHP reaches 0.\r\n\\DESC{Person has been defeated in battle and cannot fight.\\LB\\LB}", @id=1, @features=[#<RPG::BaseItem::Feature:0xf68d210 @code=23, @data_id=9, @value=0.0>], @auto_removal_timing=0, @min_turns=1, @max_turns=1, @chance_by_damage=100, @steps_to_remove=100, @remove_by_walking=false, @remove_at_battle_end=false, @remove_by_damage=false, @remove_by_restriction=false, @popup_rules={:add_state=>"ADDSTATE", :rem_state=>"REMSTATE", :dur_state=>nil}, @apply_effects=["COMMON APPLY"], @erase_effects=["COMMON ERASE"], @leave_effects=["COMMON LEAVE"], @react_effects=["COMMON REACT"], @shock_effects=["COMMON SHOCK"], @begin_effects=["COMMON BEGIN"], @while_effects=["COMMON WHILE"], @close_effects=["COMMON CLOSE"], @apply_effects_on=false, @erase_effects_on=false, @leave_effects_on=false, @react_effects_on=false, @shock_effects_on=false, @begin_effects_on=false, @while_effects_on=false, @close_effects_on=false, @element_absorb=[], @base_equip_slots=[], @equip_slots_on=false, @fixed_equip_type=[], @sealed_equip_type=[], @extra_starting_equips=[], @wtype_seal=[], @atype_seal=[], @cooldown_rate=1.0, @warmup_rate=1.0>, "0%"], ["Element Absorb:", "Light"]]
+---
+Id 344: Infermius' Pyre
+Desc: \}A gift from the Dragon Lord Infermius. Grants his \C[18]Aura of Flames\fr skill, allows you to absorb Fire attacks, and immunity to Burns.
+Type: General Armour
+Price: 0
+HP: 0
+MP: 0
+Attack: 50
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Gain Skill: ", "Aura of Flames"], ["State Resist: ", "Burn"], ["Element Absorb:", "Fire"]]
+---
+Id 345: Avaking's Benevolence
+Desc: \}A gift from the Dragon Lord Avaking. Grants his \C[31]Aura of Souls\fr skill, allows you to absorb Soul attacks, and immunity to Void Scars.
+Type: General Armour
+Price: 0
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 50
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Gain Skill: ", "Aura of Souls"], ["State Resist: ", "Void Scar"], ["Element Absorb:", "Soul"]]
+---
+Id 346: Elazireth's Current
+Desc: \}A gift from the Dragon Lord Elazireth. Grants his \C[23]Aura of Vapour\fr skill, allows you to absorb Water and Ice attacks, and immunity to Freezing.
+Type: General Armour
+Price: 0
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 50
+Agility: 0
+Luck: 0
+Features and Traits: [["Gain Skill: ", "Aura of Vapour"], ["State Resist: ", "Freezing"], ["Element Absorb:", "Ice"], ["Element Absorb:", "Water"]]
+---
