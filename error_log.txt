@@ -1,12 +1,6 @@
-Game_Interpreter:1411:in `eval': can't convert NoMethodError into String, TypeError
-	from DataManager:654:in `rescue in block (2 levels) in extract_armours'
-	from DataManager:501:in `block (2 levels) in extract_armours'
-	from DataManager:500:in `each'
-	from DataManager:500:in `each_with_index'
-	from DataManager:500:in `block in extract_armours'
-	from DataManager:499:in `open'
-	from DataManager:499:in `extract_armours'
-	from (eval):4:in `command_355'
+Game_Interpreter:1411:in `eval': undefined local variable or method `feature' for #<Game_Interpreter:0x1275e420>, NameError
+	from (eval):9:in `each'
+	from (eval):9:in `command_355'
 	from Game_Interpreter:1411:in `eval'
 	from Game_Interpreter:1411:in `command_355'
 	from Game_Interpreter:197:in `execute_command'

@@ -5,6 +5,7 @@ Price: 150G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "0%", "+500.0%"]]
 Ingredients: [["Red Pearl Orchid", 1], ["Stalwort", 2], ["Bat Wings", 2]]
 ---
 Id 2: Enhanced Potion
@@ -14,6 +15,7 @@ Price: 800G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "0%", "+2000.0%"]]
 Ingredients: [["Red Pearl Orchid", 2], ["Stalwort", 4], ["Bat Wings", 3], ["Juggernaut Leaf", 2], ["Slime Remedy", 1]]
 ---
 Id 3: Ultimate Potion
@@ -23,6 +25,7 @@ Price: 2000G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "100%", ""]]
 Ingredients: [["Red Pearl Orchid", 4], ["Stalwort", 6], ["Bat Wings", 5], ["Juggernaut Leaf", 4], ["Blue-Blood Cherries", 2], ["Potion", 1], ["Slime Remedy", 2]]
 ---
 Id 4: Magic Water
@@ -32,6 +35,7 @@ Price: 250G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover MP: ", "0%", "+50.0%"]]
 Ingredients: [["Milk", 1], ["Spirit Essence", 2], ["Revel Weed", 2]]
 ---
 Id 5: Sage's Water
@@ -41,6 +45,7 @@ Price: 1000G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover MP: ", "0%", "+250.0%"]]
 Ingredients: [["Milk", 2], ["Spirit Essence", 3], ["Revel Weed", 3], ["Potion", 2]]
 ---
 Id 6: Antidote
@@ -50,6 +55,7 @@ Price: 30G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Remove State: ", "Poison", "100%"], ["Remove State: ", "Plagued", "100%"]]
 Ingredients: [["Bei Root", 2], ["Hornet Venom", 1]]
 ---
 Id 7: Dispel Herb
@@ -59,6 +65,7 @@ Price: 300G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Remove State: ", "Poison", "100%"], ["Remove State: ", "Blind", "100%"], ["Remove State: ", "Silence", "100%"], ["Remove State: ", "Confusion", "100%"], ["Remove State: ", "Sleep", "100%"], ["Remove State: ", "Paralysis", "100%"]]
 ---
 Id 8: Elixir
 Desc: An ethereal potion that restores all HP and MP.
@@ -67,6 +74,7 @@ Price: 7500G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "100%", ""], ["Recover MP: ", "100%", ""]]
 Ingredients: [["Ultimate Potion", 1], ["Ancient Sage's Water", 1], ["Ghostfruit", 1], ["Spirit Essence", 3]]
 ---
 Id 9: Life Up
@@ -76,6 +84,7 @@ Price: 10000G
 Consume: Yes
 Scope: One Ally
 Occasion: Only from the Menu
+Effects and Traits: [["Increase Paramter: ", "MHP", 5000]]
 ---
 Id 10: Soul Up
 Desc: Increases MMP by 10.
@@ -84,6 +93,7 @@ Price: 10000G
 Consume: Yes
 Scope: One Ally
 Occasion: Only from the Menu
+Effects and Traits: [["Increase Paramter: ", "MMP", 1000]]
 ---
 Id 11: Strength Up
 Desc: Increases ATK by 3.
@@ -92,6 +102,7 @@ Price: 10000G
 Consume: Yes
 Scope: One Ally
 Occasion: Only from the Menu
+Effects and Traits: [["Increase Paramter: ", "ATK", 300]]
 ---
 Id 12: Guard Up
 Desc: Increases DEF by 3.
@@ -100,6 +111,7 @@ Price: 10000G
 Consume: Yes
 Scope: One Ally
 Occasion: Only from the Menu
+Effects and Traits: [["Increase Paramter: ", "DEF", 300]]
 ---
 Id 13: Magic Up
 Desc: Increases MAT by 3.
@@ -108,6 +120,7 @@ Price: 10000G
 Consume: Yes
 Scope: One Ally
 Occasion: Only from the Menu
+Effects and Traits: [["Increase Paramter: ", "MAT", 300]]
 ---
 Id 14: Resist Up
 Desc: Increases MDF by 3.
@@ -116,6 +129,7 @@ Price: 10000G
 Consume: Yes
 Scope: One Ally
 Occasion: Only from the Menu
+Effects and Traits: [["Increase Paramter: ", "MDF", 300]]
 ---
 Id 15: Speed Up
 Desc: Increases AGI by 3.
@@ -124,6 +138,7 @@ Price: 10000G
 Consume: Yes
 Scope: One Ally
 Occasion: Only from the Menu
+Effects and Traits: [["Increase Paramter: ", "AGI", 300]]
 ---
 Id 16: Luck Up
 Desc: Increases LUK by 3.
@@ -132,6 +147,7 @@ Price: 10000G
 Consume: Yes
 Scope: One Ally
 Occasion: Only from the Menu
+Effects and Traits: [["Increase Paramter: ", "LUK", 300]]
 ---
 Id 17: Stalwort
 Desc: A natural painkiller. Recovers some HP and soothes Headaches.
@@ -140,6 +156,7 @@ Price: 10G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "5%", ""], ["Remove State: ", "Headache", "100%"]]
 ---
 Id 18: Emwood Apple Juice
 Desc: Some freshly squeezed apple juice from the famous orchards of Emwood. Recovers some HP.
@@ -148,6 +165,7 @@ Price: 12G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "3%", "+100.0%"]]
 ---
 Id 19: Milk
 Desc: Good fo' yo' bones! Recovers a little HP and raises DEF for the battle.
@@ -156,6 +174,7 @@ Price: 20G
 Consume: Yes
 Scope: One Ally
 Occasion: Only in Battle
+Effects and Traits: [["Add Buff: ", "DEF", ", 200 turns"], ["Recover HP: ", "5%", "+75.0%"]]
 ---
 Id 20: Apple
 Desc: An apple. Recovers 25 HP.
@@ -164,6 +183,7 @@ Price: 2G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "0%", "+25.0%"]]
 ---
 Id 21: Bread
 Desc: A loaf of baked bread. Recovers some HP.
@@ -172,6 +192,7 @@ Price: 20G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "5%", "+100.0%"]]
 ---
 Id 22: Prime Juice
 Desc: Fuels energy directly into your Soul, causing significant damage but increasing your PR.
@@ -188,6 +209,7 @@ Price: 4G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "2%", "+25.0%"]]
 ---
 Id 24: Bucket of Cram
 Desc: Mushy substance to put between your gums. Not dip though. Fully heals and gain 10 PR.
@@ -196,6 +218,7 @@ Price: 3400G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "100%", ""], ["Gain PR: ", "1000%"]]
 ---
 Id 25: Spirit Essence
 Desc: Silvery powder left behind by a defeated spirit. Useful in Alchemy.
@@ -229,15 +252,6 @@ Consume: No
 Scope: None
 Occasion: Never
 ---
-Id 29: SWITCH
-Desc: An item that is added to your inventory to activate
-certain things on a whim. You should not see it.
-Type: Key
-Price: 0G
-Consume: No
-Scope: None
-Occasion: Never
----
 Id 30: Hornet Venom
 Desc: The venom of a giant Hornet. Useful in Alchemy.
 Type: Normal
@@ -245,6 +259,7 @@ Price: 26G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Add State: ", "Poison", "100%"]]
 ---
 Id 31: Ancient Insignia
 Desc: The insignia of a kingdom from a by-gone age. There may be a collector willing to trade for them.
@@ -325,6 +340,7 @@ Price: 38G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "4%", ""]]
 ---
 Id 41: Slime Remedy
 Desc: A concoction of slime and some basic herbs creates a cream that can be used to soothe Burns.
@@ -333,6 +349,7 @@ Price: 49G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Remove State: ", "Burn", "100%"], ["Recover HP: ", "5%", ""]]
 Ingredients: [["Slimedrop", 5], ["Bei Root", 1]]
 ---
 Id 42: Mead
@@ -342,6 +359,7 @@ Price: 30G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "3%", ""]]
 ---
 Id 43: Bird Tranquiliser
 Desc: A unique drink only found in a single pub in Talbury, its recipe unknown. Recovers MP and HP.
@@ -350,6 +368,7 @@ Price: 47G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover MP: ", "0%", "+50.0%"], ["Recover HP: ", "10%", ""]]
 ---
 Id 44: Skull
 Desc: A skull recovered from a skeleton. Useful in Alchemy.
@@ -374,6 +393,7 @@ Price: 76G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Add State: ", "Lucky Charm", "100%"]]
 ---
 Id 47: Revel Weed
 Desc: A weed that seems to grow in peace despite the presence of evil, reveling in it. Useful in Alchemy.
@@ -398,6 +418,7 @@ Price: 8G
 Consume: Yes
 Scope: The User
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "0%", "+-1.0%"]]
 ---
 Id 50: Juggernaut Leaf
 Desc: A famous and relatively rare leaf that is incredibly difficult to damage. Useful in Alchemy.
@@ -430,6 +451,7 @@ Price: 51G
 Consume: Yes
 Scope: The User
 Occasion: Only in Battle
+Effects and Traits: [["Add State: ", "Provoke", "100%"]]
 ---
 Id 54: Herbal Recipes
 Desc: Various collections of herbal remedies and concoctions, mostly using common ingredients.
@@ -438,6 +460,7 @@ Price: 120G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 55: Salmon
 Desc: A huge fish caught in the bay of the Dunnock River, a delicacy in much of the world.
@@ -446,6 +469,7 @@ Price: 128G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "10%", "+100.0%"]]
 ---
 Id 56: Trout
 Desc: A fish found deep in the Dunnock River. A common but popular food.
@@ -454,6 +478,7 @@ Price: 14G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "2%", "+50.0%"]]
 ---
 Id 57: Mountain Perch
 Desc: A long fish mostly found at the sping lakes at the foot of the western cliffs.
@@ -462,6 +487,7 @@ Price: 25G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "3%", "+50.0%"]]
 ---
 Id 58: Carp
 Desc: A usually quite large fish that is found all along the Dunnock River, though they are rarely caught.
@@ -470,6 +496,7 @@ Price: 47G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "6%", "+75.0%"]]
 ---
 Id 59: Sailors' Friend
 Desc: A type of pollack that often follows sailing ships. This unfortunately makes them easy to catch...
@@ -478,6 +505,7 @@ Price: 7G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "1%", ""]]
 ---
 Id 60: The Ancient Sages
 Desc: A large book detailing the history of the Ancient Sages, including their rise and fall. (EMPTY, DO NOT BUY)
@@ -502,6 +530,7 @@ Price: 250G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 63: Ice'N'Fire:OppositesAttract
 Desc: A book explaining the uses of combining the magic of the Ice and Fire elements in combat.
@@ -510,6 +539,7 @@ Price: 178G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 64: Those That Want to Kill You
 Desc: A hefty book going into detail about various large monsters and strange beings.
@@ -518,6 +548,7 @@ Price: 166G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 65: Light: How I was Blinded
 Desc: A book retelling the story of wizard who blinded himself when creating Light elemental magic.
@@ -526,6 +557,7 @@ Price: 15G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 66: The Dark Ones in the Shadows
 Desc: A book recalling the events of the Lord of Chaos' reign and the damage he caused.
@@ -534,6 +566,7 @@ Price: 78G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 67: Cheese
 Desc: Not even Wensleydale?
@@ -542,6 +575,7 @@ Price: 5G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "0%", "+5.0%"]]
 ---
 Id 68: Wing Medallion
 Desc: A winged pin used to identify a Bird Race enthusiast. Increases chances of winning bets.
@@ -609,6 +643,7 @@ Price: 488G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Add State: ", "Hallucinating", "100%"]]
 ---
 Id 76: Ancient Sage's Water
 Desc: A vial of mystical water that restores all MP.
@@ -617,6 +652,7 @@ Price: 5400G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover MP: ", "100%", ""]]
 Ingredients: [["Milk", 4], ["Spirit Essence", 5], ["Revel Weed", 5], ["Enhanced Potion", 2], ["Dispel Herb", 2]]
 ---
 Id 77: Leather
@@ -730,6 +766,7 @@ Price: 255G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 91: Fish Oil Cream
 Desc: A viscous cream with various health benefits. Helps to clear blindness.
@@ -738,6 +775,7 @@ Price: 43G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Remove State: ", "Blind", "100%"]]
 Ingredients: [["Carp", 1], ["Hunter's Mushrooms", 1]]
 ---
 Id 92: Srevena
@@ -747,6 +785,7 @@ Price: 1000G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "75%", ""], ["Gain PR: ", "1000%"]]
 ---
 Id 93: Snake Fang
 Desc: The large fang of a snake. Useful in Alchemy.
@@ -763,6 +802,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 95: Alric Portrait
 Desc: A portrait of Alric done by Hero Forge.
@@ -771,6 +811,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 96: Thaedrin Portrait
 Desc: A portrait of Thaedrin done by Hero Forge.
@@ -779,6 +820,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 97: Droconos Portrait
 Desc: A portrait of Droconos done by Hero Forge.
@@ -787,6 +829,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 98: Monster Repellant
 Desc: A jar of a viscous black fluid that seems to have the effect of repelling wild monsters for a time. Smells faintly of liquorice.
@@ -795,6 +838,7 @@ Price: 200G
 Consume: Yes
 Scope: The User
 Occasion: Only from the Menu
+Effects and Traits: [["Add State: ", "Monster Repellant", "100%"]]
 ---
 Id 99: Flare Feather
 Desc: A feather from the majestic Blue-Bellied Raven. Burning it restores some of your MP and PR.
@@ -803,6 +847,7 @@ Price: 600G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover MP: ", "10%", ""], ["Gain PR: ", "1000%"]]
 ---
 Id 100: Premium Birdfeed
 Desc: \}Exceptionally high quality birdfeed that magically seems to be liked by every bird that has it. Give it to your bird to make it fly better.
@@ -819,6 +864,7 @@ Price: 150G
 Consume: Yes
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 102: Conch Shell
 Desc: Some say that if you set the shell to your ear, you can hear the distant sound of the shipmaster yelling \}"Ahoy!"\{...
@@ -827,6 +873,7 @@ Price: 16G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 103: Seaweed
 Desc: Slimy, icky seaweed. Useful in alchemy.
@@ -851,6 +898,7 @@ Price: 175G
 Consume: No
 Scope: All Enemies
 Occasion: Only in Battle
+Effects and Traits: [["Add State: ", "Fear", "40%"]]
 ---
 Id 106: Sausage Roll
 Desc: Greg's specialty. Recovers some HP.
@@ -859,6 +907,7 @@ Price: 31G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "8%", "+150.0%"]]
 ---
 Id 107: Apple Pie
 Desc: A slice of apple pie made from fresh Talbrian apples. Recovers some HP.
@@ -867,6 +916,7 @@ Price: 38G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "9%", "+200.0%"]]
 ---
 Id 108: Custard Tart
 Desc: A slice of a tart filled with a thick custard.
@@ -875,6 +925,7 @@ Price: 46G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "10%", "+225.0%"]]
 ---
 Id 109: Apaslea
 Desc: A mixture of various herbs and spices used to arouse someone from unconciousness.
@@ -883,6 +934,7 @@ Price: 43G
 Consume: Yes
 Scope: One Ally
 Occasion: Only in Battle
+Effects and Traits: [["Remove State: ", "Sleep", "100%"]]
 Ingredients: [["Bei Root", 1], ["Revel Weed", 1], ["Celery", 2], ["Hunter's Mushrooms", 2]]
 ---
 Id 110: Bottled Song
@@ -900,6 +952,7 @@ Price: 0G
 Consume: Yes
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 112: Bone Apple Tea
 Desc: A biz are drink that makes peeple miss pell there words. It duhz taste gud tho, so bone apple tea!
@@ -908,6 +961,7 @@ Price: 60G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "5%", "+500.0%"]]
 Ingredients: [["Skull", 1], ["Apple", 1], ["Tea Leaves", 1], ["Fresh Water", 1]]
 ---
 Id 113: Tea Leaves
@@ -917,6 +971,7 @@ Price: 17G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "1%", ""]]
 ---
 Id 114: Tea
 Desc: A blend of hot water and tea leaves, this popular drink can
@@ -926,6 +981,7 @@ Price: 24G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "10%", "+100.0%"], ["Remove State: ", "Sleep", "100%"], ["Add State: ", "Sleepless", "100%"]]
 Ingredients: [["Tea Leaves", 2], ["Fresh Water", 1]]
 ---
 Id 115: Fresh Water
@@ -935,6 +991,7 @@ Price: 2G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "0%", "+5.0%"]]
 ---
 Id 116: Blazing Beverage
 Desc: A fiery drink that can thaw anything out from being frozen.
@@ -944,6 +1001,7 @@ Price: 54G
 Consume: Yes
 Scope: One Ally
 Occasion: Only in Battle
+Effects and Traits: [["Remove State: ", "Freezing", "100%"]]
 Ingredients: [["Magic Water", 1], ["Mead", 1], ["Scorchlog", 1]]
 ---
 Id 117: Scorchlog
@@ -969,6 +1027,7 @@ Price: 600G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 121: Tamrindi
 Desc: A refreshing beverage from Cavadrak made from boiling a rare fruit. Restores a good amount of HP.
@@ -977,6 +1036,7 @@ Price: 85G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "16%", ""]]
 ---
 Id 122: Midnight Whisky
 Desc: \}One of many alcohols to come from Slumberwood, this whisky is renowned for being seriously strong. It's named as such for its pitch-black colouration.
@@ -985,6 +1045,7 @@ Price: 62G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "10%", ""]]
 ---
 Id 123: Amber Liqueur
 Desc: \}An alcohol from Slumberwood made from combining brandy with wild berries and tree sap. The pride and joy of Slumberwoodan breweries. Restores a good amount of HP.
@@ -993,6 +1054,7 @@ Price: 76G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "13%", ""]]
 ---
 Id 124: Marriage Maker
 Desc: A cider from Slumberwood that the creator made to win back his partner's love. Traditionally served at weddings.
@@ -1001,6 +1063,7 @@ Price: 34G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "5%", ""]]
 ---
 Id 125: Beer Bread
 Desc: If you thought Slumberwood couldn't become any more alcoholic, they made bread using beer. I wish I was joking.
@@ -1009,6 +1072,7 @@ Price: 31G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "5%", "+80.0%"]]
 ---
 Id 126: Lobster
 Desc: If the EU were an animal...
@@ -1017,6 +1081,7 @@ Price: 63G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "8%", "+90.0%"]]
 ---
 Id 127: Vezran's Arm
 Desc: A prosthetic arm worn by Vezran. A relic of his evil deeds.
@@ -1057,6 +1122,7 @@ Price: 2000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 132: Powder Snow
 Desc: \}What's that? This is a generic and not interesting item? Well you try and come up with something more interesting! It's hard, y'know!
@@ -1081,6 +1147,7 @@ Price: 2000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 135: Magma Manuscript
 Desc: A book containing secrets to the craftmenship of some particularly hot gear.
@@ -1089,6 +1156,7 @@ Price: 2000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 136: Obsidian Shard
 Desc: A sharp chunk of obsidian born from the activity of Mt. Líflátlæ. Useful in alchemy.
@@ -1186,6 +1254,7 @@ Price: 15000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 149: Contaminated Conduit
 Desc: \}A Flow Conduit that was corrupted by pure Void energy. At every moment, you feel its malicious pull on your Soul. Useful in Alchemy.
@@ -1203,6 +1272,7 @@ Price: 2000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 151: Shocking Shenanigans
 Desc: Contains a list of recipes for the most striking of electrical equipment. How SHOCKING!
@@ -1211,6 +1281,7 @@ Price: 2000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 152: Tectonic Treatise
 Desc: A surprisingly heavy book that details many different earth-shattering alchemic recipes.
@@ -1219,6 +1290,7 @@ Price: 2000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 153: Aerodynamic Album
 Desc: A book that tells of recipes for even the quickest of adventurers.
@@ -1227,6 +1299,7 @@ Price: 2000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 154: Ma Rage Maker
 Desc: \}A small vial containing concentrated liquid that will make its drinker enraged for a short time. They will quickly suffer withdrawal afterwards, however.
@@ -1235,6 +1308,7 @@ Price: 80G
 Consume: Yes
 Scope: One Ally
 Occasion: Only in Battle
+Effects and Traits: [["Add State: ", "Bloodthirsty", "100%"]]
 ---
 Id 155: Blessed Abjugation
 Desc: A jar of holy water mixed with blessed fabric. Frees someone of their horrific afflictions and cures them of all curses.
@@ -1243,6 +1317,7 @@ Price: 380G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Remove State: ", "Curse of the Doomed", "100%"], ["Remove State: ", "Curse of the Debilitated", "100%"], ["Remove State: ", "Curse of the Feeble", "100%"], ["Remove State: ", "Curse of the Laggard", "100%"], ["Remove State: ", "Curse of the Soulless", "100%"]]
 Ingredients: [["Tears of Cedarus", 2], ["Templar's Ashes", 2], ["Sage's Water", 2], ["Bottled Song", 1]]
 ---
 Id 156: Abbysal Fluid
@@ -1260,14 +1335,7 @@ Price: 2000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
----
-Id 158: Lost Door Key
-Desc: A clumsy woman's door keys she dropped at the beach. Finders keepers.
-Type: Key
-Price: 0G
-Consume: No
-Scope: None
-Occasion: Never
+Effects and Traits: []
 ---
 Id 159: Wrapped Gift
 Desc: A gift purchased from the market in Overlook to be delivered to \V[57], allegedly containing \V[58].
@@ -1284,6 +1352,7 @@ Price: 2000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 161: Dave Alricke: A Biography
 Desc: Davonious Alricke, perhaps the greatest scholar to grace Adremesis. Who was he, and what happened to him?
@@ -1292,6 +1361,7 @@ Price: 100G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 162: TheFourKingdoms:Where'dTheyGo?
 Desc: A book explaining the histories of the four kingdoms of Adremesis: Barrodor, Asceroth, Excellion, and Nobolia.
@@ -1300,6 +1370,7 @@ Price: 92G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 163: How to Utilise the Desert
 Desc: Earth element in combat is quite rare compared to many others, which allows its strengths to be widely unknown.
@@ -1308,6 +1379,7 @@ Price: 130G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 164: Ironbark Impedimenta
 Desc: \}Ironbark is a a type of tree found solely in the Sagely Grounds' western mountains, and this book details how to properly use it.
@@ -1316,6 +1388,7 @@ Price: 2000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 165: Hypersteel
 Desc: \}An alloy made by magically combining steel with solid ice. The result is a nigh indestructable metal that is the pride and joy of Marrarockan blacksmiths.
@@ -1333,6 +1406,7 @@ Price: 67G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
+Effects and Traits: [["Recover HP: ", "12%", ""]]
 ---
 Id 167: ATK Grit
 Desc: A diamond grit used to cut and polish rialite. Cuts the gem into the ATK shape.
@@ -1477,6 +1551,7 @@ Price: 10000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 185: Ammunition Disc
 Desc: A disc for the Symbol Breaker that is yet to be twisted into an element, and so is useless.
@@ -1501,6 +1576,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 188: SymbolBreakerUserManual
 Desc: A small book written by Davonious Alricke describing in detail on how to wield his marvelous Symbol Breaker.
@@ -1509,6 +1585,7 @@ Price: 2500G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 189: Hydrocraft Handbook
 Desc: Dive into this meticulously curated volume and learn to harness the power of the seas.
@@ -1517,6 +1594,7 @@ Price: 2000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Effects and Traits: []
 ---
 Id 190: Support Brace
 Desc: \}A piece of Marrarockan ingenuity, this brace can instantly lock into place to support the stone above miners. Automatically spent to reduce the impact of cave-ins.

@@ -1,0 +1,2825 @@
+Id 1: Attack
+Desc: Damages the enemy.
+Skill Class: None
+Skill Type: HP Damage
+Formula: a.atk * 4 - b.def * 2
+Variance: 20
+Critical: true
+Scope: One Enemy
+Effects and Traits: []
+---
+Id 2: Guard
+Desc: Protects user and reduces damage taken.
+Skill Class: None
+Scope: The User
+Effects and Traits: [["Add State: ", "Guard", "100%"]]
+---
+Id 3: Dual Strike
+Desc: Hits a single enemy twice.
+Skill Class: Abilites
+Cost: 5PR
+Skill Type: HP Damage
+Formula: (a.atk * 4 - b.def * 2) - 25
+Variance: 15
+Critical: true
+Scope: One Enemy
+Effects and Traits: []
+---
+Id 4: Double Attack
+Desc: Attacks two random enemies.
+Skill Class: None
+Cost: 5PR
+Skill Type: HP Damage
+Formula: (a.atk * 4 - b.def * 2) - 50
+Variance: 20
+Critical: true
+Scope: 2 Random Enemies
+Effects and Traits: []
+---
+Id 5: Triple Attack
+Desc: Attacks three random enemies.
+Skill Class: None
+Skill Type: HP Damage
+Formula: a.atk * 4 - b.def * 2
+Variance: 20
+Critical: true
+Scope: 3 Random Enemies
+Effects and Traits: []
+---
+Id 6: Escape
+Desc: Enemy action. Causes enemy to flee from battle.
+Skill Class: None
+Scope: The User
+Effects and Traits: []
+---
+Id 7: Wait
+Desc: Does nothing.
+Skill Class: None
+Scope: None
+---
+Id 8: Fire Breath
+Desc: Deals fire damage to all enemies.
+Skill Class: Abilites
+Skill Type: HP Damage
+Formula: a.atk * 2
+Element: Fire
+Variance: 20
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Burn", "10%"]]
+---
+Id 9: Ice Breath
+Desc: Deals ice damage to all enemies.
+Skill Class: Abilites
+Skill Type: HP Damage
+Formula: a.atk * 2
+Element: Ice
+Variance: 20
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Freezing", "10%"]]
+---
+Id 10: Shock
+Desc: Deals thunder damage to all enemies.
+Skill Class: Abilites
+Skill Type: HP Damage
+Formula: a.atk
+Element: Storm
+Variance: 20
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Paralysis", "10%"]]
+---
+Id 11: Poison Cloud
+Desc: Poison all enemies.
+Skill Class: Abilites
+Cost: 10MP
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Poison", "45%"]]
+---
+Id 12: Dark Cloud
+Desc: Blinds all enemies.
+Skill Class: Abilites
+Cost: 10MP
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Blind", "30%"]]
+---
+Id 13: Forget Cloud
+Desc: Silences all enemies.
+Skill Class: Abilites
+Cost: 10MP
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Silence", "30%"]]
+---
+Id 14: Sonic Wave
+Desc: Confuses all enemies.
+Skill Class: Abilites
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Confusion", "50%"]]
+---
+Id 15: Char
+Desc: Send a concentrated ray of flame towards a target. Damage doubles if they're already Burned.
+Skill Class: Magic
+Cost: 35MP
+Skill Type: HP Damage
+Formula: b.state?(26) ? (a.mat*4 - b.mdf*2)*2 : a.mat*4 - b.mdf*2
+Element: Fire
+Variance: 15
+Critical: true
+Scope: One Enemy
+---
+Id 17: Sleep Pollen
+Desc: Puts all enemies to sleep.
+Skill Class: Abilites
+Cost: 30MP
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Sleep", "50%"]]
+---
+Id 18: Paralyze Breath
+Desc: Paralyzes all enemies.
+Skill Class: Abilites
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Paralysis", "50%"]]
+---
+Id 19: Paralyze Stare
+Desc: Paralyzes a single enemy.
+Skill Class: Abilites
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Paralysis", "50%"]]
+---
+Id 21: Bodyslam
+Desc: Damages enemy and attempt to stun enemy.
+Skill Class: Abilites
+Skill Type: HP Damage
+Formula: a.atk * 4 - b.def * 2
+Variance: 20
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Stun", "15%"]]
+---
+Id 23: Vampire
+Desc: Absorbs enemy's HP.
+Skill Class: Abilites
+Skill Type: HP Drain
+Formula: a.atk * 2 - b.def
+Element: Soul
+Variance: 20
+Critical: false
+Scope: One Enemy
+---
+Id 24: Meditate
+Desc: Recovers user's HP.
+Skill Class: Abilites
+Skill Type: HP Recover
+Formula: b.mhp / 4
+Variance: 20
+Critical: false
+Scope: The User
+---
+Id 26: Heal
+Desc: Restores HP to one ally.
+Skill Class: Magic
+Cost: 5MP
+Skill Type: HP Recover
+Formula: 250 + a.mat
+Variance: 20
+Critical: false
+Scope: One Ally
+---
+Id 27: Heal II
+Desc: Restores HP to one ally.
+Skill Class: Magic
+Cost: 15MP
+Skill Type: HP Recover
+Formula: 1000 + a.mat * 2
+Variance: 20
+Critical: false
+Scope: One Ally
+---
+Id 28: Heal III
+Desc: Restores HP to one ally.
+Skill Class: Magic
+Cost: 30MP
+Skill Type: HP Recover
+Formula: 2000 + a.mat * 3
+Variance: 20
+Critical: false
+Scope: One Ally
+---
+Id 29: Recovery
+Desc: Restores HP to all allies.
+Skill Class: Magic
+Cost: 12MP
+Skill Type: HP Recover
+Formula: 250 + a.mat
+Variance: 20
+Critical: false
+Scope: All Allies
+---
+Id 30: Recovery II
+Desc: Restores HP to all allies.
+Skill Class: Magic
+Cost: 24MP
+Skill Type: HP Recover
+Formula: 1000 + a.mat * 2
+Variance: 20
+Critical: false
+Scope: All Allies
+---
+Id 31: Cure
+Desc: Cures poison and paralsys.
+Skill Class: Magic
+Cost: 3MP
+Scope: One Ally
+Effects and Traits: [["Remove State: ", "Poison", "100%"], ["Remove State: ", "Paralysis", "100%"]]
+---
+Id 32: Cure II
+Desc: Cures many status ailments.
+Skill Class: Magic
+Cost: 8MP
+Scope: One Ally
+Effects and Traits: [["Remove State: ", "Poison", "100%"], ["Remove State: ", "Blind", "100%"], ["Remove State: ", "Silence", "100%"], ["Remove State: ", "Confusion", "100%"], ["Remove State: ", "Sleep", "100%"], ["Remove State: ", "Paralysis", "100%"]]
+---
+Id 33: Raise
+Desc: Revives a fallen ally.
+Skill Class: Magic
+Cost: 15MP
+Skill Type: HP Recover
+Formula: b.mhp / 10
+Variance: 20
+Critical: false
+Scope: One Ally (Dead)
+Effects and Traits: [["Remove State: ", "Death", "100%"]]
+---
+Id 34: Raise II
+Desc: Revives a fallen ally with a lot of HP.
+Skill Class: Magic
+Cost: 35MP
+Skill Type: HP Recover
+Formula: b.mhp / 2
+Variance: 20
+Critical: false
+Scope: One Ally (Dead)
+Effects and Traits: [["Remove State: ", "Death", "100%"]]
+---
+Id 35: Hazardous Glow
+Desc: Glow with radiation, damagaing foes MP.
+Skill Class: Abilites
+Cost: 30PR
+Skill Type: MP Damage
+Formula: a.mat / 3
+Variance: 50
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Irradiated", "15%"]]
+---
+Id 36: Nuclear Pulse
+Desc: Low damage but high chance to Irradiate all foes.
+Skill Class: Abilites
+Cost: 50PR
+Skill Type: HP Damage
+Formula: 300 + a.mat
+Variance: 99
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Irradiated", "50%"]]
+---
+Id 37: Radiotherapy
+Desc: Target an ally with concentrated radiation to heal them.
+Skill Class: Abilites
+Cost: 15PR
+Skill Type: HP Recover
+Formula: 800 + a.mat * 3
+Variance: 20
+Critical: false
+Scope: One Ally
+---
+Id 38: Contaminated Claw
+Desc: Rake a target with irradiated stone claws.
+Skill Class: Abilites
+Cost: 20PR
+Skill Type: HP Damage
+Formula: (a.atk * 3 + a.mat - b.def * 2) + 300
+Variance: 10
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Irradiated", "25%"]]
+---
+Id 39: Sleep
+Desc: May put an enemy to sleep.
+Skill Class: Magic
+Cost: 5MP
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Sleep", "75%"]]
+---
+Id 40: Fireflies
+Desc: Summon fireflies to reduce enemy EVA.
+Skill Class: Magic
+Cost: 5PR
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Fireflies", "75%"]]
+---
+Id 41: Survival Instinct
+Desc: Compare your HP to that of a target. If you have more HP, it strengthens your offence - or if you have less, bolster your defences.
+Skill Class: Magic
+Cost: 40MP
+Skill Type: HP Damage
+Formula: a.hp < b.hp ? a.add_state(124) : a.add_state(125); 0
+Variance: 0
+Critical: false
+Scope: One Enemy
+---
+Id 45: Curse Weapon
+Desc: Lower all enemies' ATK.
+Skill Class: Magic
+Cost: 9MP
+Scope: All Enemies
+Effects and Traits: [["Add Debuff: ", "ATK", ", 5 turns"]]
+---
+Id 46: Curse Armour
+Desc: Lower all enemies' DEF.
+Skill Class: Magic
+Cost: 8MP
+Scope: All Enemies
+Effects and Traits: [["Add Debuff: ", "DEF", ", 5 turns"]]
+---
+Id 47: Divine Curse
+Desc: Lower all enemies' MDF.
+Skill Class: Magic
+Cost: 7MP
+Scope: All Enemies
+Effects and Traits: [["Add Debuff: ", "MDF", ", 5 turns"]]
+---
+Id 48: Slow Move
+Desc: Lower all enemies' AGI.
+Skill Class: Magic
+Cost: 6MP
+Scope: All Enemies
+Effects and Traits: [["Add Debuff: ", "AGI", ", 5 turns"]]
+---
+Id 49: Life Drain
+Desc: Drains HP from one enemy.
+Skill Class: Magic
+Cost: 20MP
+Skill Type: HP Drain
+Formula: 200 + a.mat * 4 - b.mdf * 2
+Element: Soul
+Variance: 20
+Critical: false
+Scope: One Enemy
+---
+Id 50: Mana Drain
+Desc: Drains MP from one enemy.
+Skill Class: Magic
+Cost: 10MP
+Skill Type: MP Drain
+Formula: 20 + a.mat - b.mdf * 0.5
+Element: Soul
+Variance: 20
+Critical: false
+Scope: One Enemy
+---
+Id 51: Fire
+Desc: Deals fire damage to one enemy.
+Skill Class: Magic
+Cost: 5MP
+Skill Type: HP Damage
+Formula: 150 + a.mat * 2 - b.mdf * 2
+Element: Fire
+Variance: 20
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Burn", "10%"]]
+---
+Id 52: Fire II
+Desc: Deals fire damage to one enemy.
+Skill Class: Magic
+Cost: 30MP
+Skill Type: HP Damage
+Formula: 300 + a.mat * 2 - b.mdf * 2
+Element: Fire
+Variance: 20
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Burn", "20%"]]
+---
+Id 53: Firestorm
+Desc: Deals fire damage to all enemies.
+Skill Class: Magic
+Cost: 15MP
+Skill Type: HP Damage
+Formula: 150 + a.mat * 2 - b.mdf * 2
+Element: Fire
+Variance: 20
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Burn", "10%"]]
+---
+Id 54: Firestorm II
+Desc: Deals fire damage to all enemies.
+Skill Class: Magic
+Cost: 55MP
+Skill Type: HP Damage
+Formula: 300 + a.mat * 2 - b.mdf * 2
+Element: Fire
+Variance: 20
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Burn", "20%"]]
+---
+Id 55: Ice
+Desc: Deals ice damage to one enemy.
+Skill Class: Magic
+Cost: 5MP
+Skill Type: HP Damage
+Formula: 150 + a.mat * 2 - b.mdf * 2
+Element: Ice
+Variance: 20
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Freezing", "10%"]]
+---
+Id 56: Ice II
+Desc: Deals ice damage to one enemy.
+Skill Class: Magic
+Cost: 30MP
+Skill Type: HP Damage
+Formula: 300 + a.mat * 2 - b.mdf * 2
+Element: Ice
+Variance: 20
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Freezing", "20%"]]
+---
+Id 57: Blizzard
+Desc: Deals ice damage to all enemies.
+Skill Class: Magic
+Cost: 15MP
+Skill Type: HP Damage
+Formula: 150 + a.mat * 2 - b.mdf * 2
+Element: Ice
+Variance: 20
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Freezing", "10%"]]
+---
+Id 58: Blizzard II
+Desc: Deals ice damage to all enemies.
+Skill Class: Magic
+Cost: 55MP
+Skill Type: HP Damage
+Formula: 300 + a.mat * 2 - b.mdf * 2
+Element: Ice
+Variance: 20
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Freezing", "20%"]]
+---
+Id 59: Spark
+Desc: Deals lightning damage to one enemy.
+Skill Class: Magic
+Cost: 5MP
+Skill Type: HP Damage
+Formula: 150 + a.mat * 2 - b.mdf * 2
+Element: Storm
+Variance: 20
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Paralysis", "10%"]]
+---
+Id 60: Spark II
+Desc: Deals lightning damage to one enemy.
+Skill Class: Magic
+Cost: 30MP
+Skill Type: HP Damage
+Formula: 300 + a.mat * 2 - b.mdf * 2
+Element: Storm
+Variance: 20
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Paralysis", "20%"]]
+---
+Id 61: Thunder
+Desc: Deals lightning damage to all enemies.
+Skill Class: Magic
+Cost: 15MP
+Skill Type: HP Damage
+Formula: 150 + a.mat * 2 - b.mdf * 2
+Element: Storm
+Variance: 20
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Paralysis", "10%"]]
+---
+Id 62: Thunder II
+Desc: Deals lightning damage to all enemies.
+Skill Class: Magic
+Cost: 55MP
+Skill Type: HP Damage
+Formula: 300 + a.mat * 2 - b.mdf * 2
+Element: Storm
+Variance: 20
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Paralysis", "20%"]]
+---
+Id 63: Water
+Desc: Deals water damage to one enemy.
+Skill Class: Magic
+Cost: 5MP
+Skill Type: HP Damage
+Formula: 150 + a.mat * 2 - b.mdf * 2
+Element: Water
+Variance: 20
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Wet", "10%"]]
+---
+Id 64: Wave
+Desc: Deals water damage to all enemies.
+Skill Class: Magic
+Cost: 30MP
+Skill Type: HP Damage
+Formula: 300 + a.mat * 2 - b.mdf * 2
+Element: Water
+Variance: 20
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Wet", "20%"]]
+---
+Id 65: Stone
+Desc: Deals earth damage to one enemy.
+Skill Class: Magic
+Cost: 5MP
+Skill Type: HP Damage
+Formula: 150 + a.mat * 2 - b.mdf * 2
+Element: Earth
+Variance: 20
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Stun", "10%"]]
+---
+Id 66: Quake
+Desc: Deals earth damage to all enemies.
+Skill Class: Magic
+Cost: 30MP
+Skill Type: HP Damage
+Formula: 300 + a.mat * 2 - b.mdf * 2
+Element: Earth
+Variance: 20
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Stun", "20%"]]
+---
+Id 67: Wind
+Desc: Deals wind damage to one enemy.
+Skill Class: Magic
+Cost: 5MP
+Skill Type: HP Damage
+Formula: 150 + a.mat * 2 - b.mdf * 2
+Element: Air
+Variance: 20
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Knocked Over", "10%"]]
+---
+Id 68: Tornado
+Desc: Deals wind damage to all enemies.
+Skill Class: Magic
+Cost: 30MP
+Skill Type: HP Damage
+Formula: 400 + a.mat * 2 - b.mdf * 2
+Element: Air
+Variance: 20
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Knocked Over", "20%"]]
+---
+Id 69: Saint
+Desc: Deals holy damage to one enemy.
+Skill Class: Magic
+Cost: 5MP
+Skill Type: HP Damage
+Formula: 150 + a.mat * 2 - b.mdf * 2
+Element: Light
+Variance: 20
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Blind", "10%"]]
+---
+Id 70: Starlight
+Desc: Deals holy damage to all enemies.
+Skill Class: Magic
+Cost: 30MP
+Skill Type: HP Damage
+Formula: 300 + a.mat * 2 - b.mdf * 2
+Element: Light
+Variance: 20
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Blind", "20%"]]
+---
+Id 71: Shade
+Desc: Deals dark damage to one enemy.
+Skill Class: Magic
+Cost: 5MP
+Skill Type: HP Damage
+Formula: 150 + a.mat * 2 - b.mdf * 2
+Element: Dark
+Variance: 20
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Fear", "10%"]]
+---
+Id 72: Darkness
+Desc: Deals dark damage to all enemies.
+Skill Class: Magic
+Cost: 30MP
+Skill Type: HP Damage
+Formula: 300 + a.mat * 2 - b.mdf * 2
+Element: Dark
+Variance: 20
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Fear", "20%"]]
+---
+Id 73: Burst
+Desc: Deals defense ignoring damage to one enemy.
+Skill Class: Magic
+Cost: 15MP
+Skill Type: HP Damage
+Formula: 300 + a.mat * 2
+Variance: 40
+Critical: false
+Scope: One Enemy
+---
+Id 74: Nuclear
+Desc: Deals defense ignoring damage to all enemies.
+Skill Class: Magic
+Cost: 60MP
+Skill Type: HP Damage
+Formula: 400 + a.mat * 2
+Variance: 40
+Critical: false
+Scope: All Enemies
+---
+Id 80: Strong Attack
+Desc: A strong attack against one enemy. Cannot crit.
+Skill Class: Abilites
+Cost: 10PR
+Skill Type: HP Damage
+Formula: a.atk * 5 - b.def
+Variance: 20
+Critical: false
+Scope: One Enemy
+Effects and Traits: []
+---
+Id 81: Cleave
+Desc: An attack against all enemies.
+Skill Class: Abilites
+Cost: 15PR
+Skill Type: HP Damage
+Formula: a.atk * 4 - b.def * 2
+Variance: 20
+Critical: false
+Scope: All Enemies
+Effects and Traits: []
+---
+Id 85: Tackle
+Desc: Attack that may offset an enemy's balance. Damage is based on user's ATK and DEF.
+Skill Class: Abilites
+Cost: 10PR
+Skill Type: HP Damage
+Formula: a.atk * 4 + a.def * 2 - b.def * 2
+Variance: 20
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Stun", "30%"]]
+---
+Id 86: Corsair's Cascade
+Desc: Attack a single target thrice, with each hit generating significant PR.
+Skill Class: Abilites
+Cost: 100MP
+Skill Type: HP Damage
+Formula: a.atk * 4 - b.def
+Variance: 15
+Critical: true
+Scope: One Enemy
+---
+Id 90: Cover
+Desc: For 1 turn, protect allies with low HP.
+Skill Class: Abilites
+Cost: 15PR
+Scope: The User
+Effects and Traits: [["Add State: ", "Cover", "100%"]]
+---
+Id 91: Provoke
+Desc: For 5 turns, user is more likely to be attacked. Also slightly increases DEF.
+Skill Class: Abilites
+Cost: 10PR
+Scope: The User
+Effects and Traits: [["Add State: ", "Provoke", "100%"]]
+---
+Id 93: Restrengthen
+Desc: For 6 turns, greatly boost DEF for party.
+Skill Class: Magic
+Cost: 45MP
+Scope: All Allies
+Effects and Traits: [["Add Buff: ", "DEF", ", 6 turns"], ["Add Buff: ", "DEF", ", 6 turns"]]
+---
+Id 95: Aura Blade
+Desc: Sword Skill. Target is likely to be Silenced. Damage is based off user's ATK and MAT.
+Skill Class: Abilites
+Cost: 75PR
+Skill Type: HP Damage
+Formula: a.atk * 4 + a.mat * 3 - b.def - b.mdf
+Variance: 20
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Silence", "50%"]]
+---
+Id 97: Magic Barrier
+Desc: For 3 turns, boost MDF for party.
+Skill Class: Abilites
+Cost: 30MP
+Scope: All Allies
+Effects and Traits: [["Add Buff: ", "MDF", ", 3 turns"]]
+---
+Id 99: Radiant Blade
+Desc: Imbue your sword with Light and slice through all those that stand against you. Damage is based on user's ATK and MAT.
+Skill Class: Abilites
+Cost: 70PR
+Skill Type: HP Damage
+Formula: a.atk * 5 + a.mat * 5 - b.def - b.mdf
+Element: Light
+Variance: 20
+Critical: false
+Scope: All Enemies
+---
+Id 100: Flood of Fire
+Desc: Cast forward a wash of immense heat towards your foes.
+Skill Class: Magic
+Cost: 40MP
+Skill Type: HP Damage
+Formula: 200 + a.mat * 2 - b.mdf * 2
+Element: Fire
+Variance: 15
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Burn", "15%"]]
+---
+Id 101: Flameskin
+Desc: Engulf your body in searing flames for protection.
+Skill Class: Magic
+Cost: 25MP
+Scope: The User
+Effects and Traits: [["Add State: ", "Flameskin", "100%"]]
+---
+Id 102: Pyromancy
+Desc: Absorb the body heat from a target, draining their health and MP.
+Skill Class: Magic
+Cost: 30PR
+Skill Type: MP Drain
+Formula: (a.mat / 2.5)
+Element: Fire
+Variance: 10
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Freezing", "25%"], ["Recover HP: ", "-5%", ""]]
+---
+Id 103: Thorned Constriction
+Desc: Summon vines to erupt out of the ground and envelope an unfortunate target.
+Skill Class: Magic
+Cost: 35MP
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Thorned", "100%"]]
+---
+Id 104: Frost Charge
+Desc: Imbue your body with ice and rush a target, ignoring DEF. Can freeze.
+Skill Class: Abilites
+Cost: 20MP
+Skill Type: HP Damage
+Formula: 200 + a.atk * 2
+Element: Ice
+Variance: 20
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Freezing", "10%"]]
+---
+Id 105: Weapon Break
+Desc: Attacks enemy and lowers ATK.
+Skill Class: Abilites
+Cost: 10PR
+Skill Type: HP Damage
+Formula: a.atk * 4 - b.def * 2
+Variance: 20
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add Debuff: ", "ATK", ", 3 turns"]]
+---
+Id 106: Armour Break
+Desc: Attacks enemy and lowers DEF.
+Skill Class: Abilites
+Cost: 10PR
+Skill Type: HP Damage
+Formula: a.atk * 4 - b.def * 2
+Variance: 20
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add Debuff: ", "DEF", ", 3 turns"]]
+---
+Id 108: Aura of Earth
+Desc: Generate small rocks to orbit you and your allies, increasing PDR and DEF.
+Skill Class: Magic
+Cost: 150MP
+Scope: All Allies
+Effects and Traits: [["Add State: ", "Aura of Earth", "100%"], ["Add Buff: ", "DEF", ", 3 turns"]]
+---
+Id 109: Aura of Storms
+Desc: A strong wind sparking with electricity swirls around you and your allies, giving their attacks Storm element and a chance to invoke Thunderstorm.
+Skill Class: Magic
+Cost: 150MP
+Scope: All Allies
+Effects and Traits: [["Add State: ", "Aura of Storms", "100%"], ["Add Buff: ", "AGI", ", 3 turns"]]
+---
+Id 110: Aura of Darkness
+Desc: You and your allies subtly glow black, giving immunity to debuffs (not states).
+Skill Class: Magic
+Cost: 150MP
+Scope: All Allies
+Effects and Traits: [["Add State: ", "Aura of Darkness", "100%"], ["Add Buff: ", "LUK", ", 3 turns"]]
+---
+Id 111: Aura of Light
+Desc: You and your allies subtly glow, greatly increasing REC.
+Skill Class: Magic
+Cost: 150MP
+Scope: All Allies
+Effects and Traits: [["Add State: ", "Aura of Light", "100%"], ["Add Buff: ", "MHP", ", 3 turns"]]
+---
+Id 112: Aura of Vapour
+Desc: You and your allies are surrounded in a shimmering cloud of vapour, greatly increasing EVA and CEV.
+Skill Class: Magic
+Cost: 150MP
+Scope: All Allies
+Effects and Traits: [["Add State: ", "Aura of Vapour", "100%"], ["Add Buff: ", "MDF", ", 3 turns"]]
+---
+Id 113: Aura of Flames
+Desc: You and your allies are surrounded by whirling embers, greatly increasing counter chance.
+Skill Class: Magic
+Cost: 150MP
+Scope: All Allies
+Effects and Traits: [["Add State: ", "Aura of Flames", "100%"], ["Add Buff: ", "ATK", ", 3 turns"]]
+---
+Id 114: Aura of Souls
+Desc: You and your allies are surrounded by small white wisps, granting significant MMP regeneration.
+Skill Class: Magic
+Cost: 150MP
+Scope: All Allies
+Effects and Traits: [["Add State: ", "Aura of Souls", "100%"], ["Add Buff: ", "MAT", ", 3 turns"]]
+---
+Id 119: Magic Reflect
+Desc: Set up a magical barrier that deflects all incoming magic. Lasts 3 turns.
+Skill Class: Magic
+Cost: 20MP
+Scope: The User
+Effects and Traits: [["Add State: ", "Aura of Darkness", "100%"]]
+---
+Id 120: Enhance Spell
+Desc: For 5 turns, greatly increase user's MAT.
+Skill Class: Abilites
+Cost: 25PR
+Scope: The User
+Effects and Traits: [["Add Buff: ", "MAT", ", 5 turns"], ["Add Buff: ", "MAT", ", 5 turns"]]
+---
+Id 121: Nightmare
+Desc: Puts all enemies to sleep and lower their MDF.
+Skill Class: Abilites
+Cost: 100MP
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Sleep", "50%"], ["Add Debuff: ", "MDF", ", 5 turns"]]
+---
+Id 127: Righteous Support
+Desc: Heal an ally.
+Skill Class: Abilites
+Cost: 5MP
+Skill Type: HP Recover
+Formula: (a.mat * 2)  + (a.level * 5) + 200
+Variance: 10
+Critical: false
+Scope: One Ally
+---
+Id 128: Cold Slash
+Desc: Slash your target with a magically chilled sword.
+Skill Class: Abilites
+Cost: 10MP
+Skill Type: HP Damage
+Formula: (a.atk * 4 - b.def * 2) + a.mat
+Element: Ice
+Variance: 15
+Critical: true
+Scope: One Enemy
+---
+Id 129: Recuperation
+Desc: Focus your own energy to heal yourself significantly.
+Skill Class: Abilites
+Cost: 10PR
+Skill Type: HP Recover
+Formula: a.mat + 450
+Variance: 10
+Critical: false
+Scope: The User
+---
+Id 130: Ignite
+Desc: Fire up your allies and slightly increase ATK power.
+Skill Class: Magic
+Cost: 15MP
+Scope: All Allies
+Effects and Traits: [["Add Buff: ", "ATK", ", 4 turns"]]
+---
+Id 131: Soothing Rain
+Desc: Fire an arrow into the air that will rain down heals to the whole party.
+Skill Class: Abilites
+Cost: 15MP
+Scope: All Allies
+Effects and Traits: [["Recover HP: ", "18%", ""]]
+---
+Id 132: Pin Down
+Desc: \}Hit a target with a precise shot to keep them still. Reduces AGI, EVA, and increases debuff chance. Does not affect incorporeal or fluid creatures.
+Skill Class: Abilites
+Cost: 15PR
+Skill Type: HP Damage
+Formula: a.atk * 3 - b.def
+Variance: 10
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Pinned Down", "75%"]]
+---
+Id 133: Noble Discharge
+Desc: Halves own health to fully heal the team.
+Skill Class: Abilites
+Cost: 25MP
+Scope: All Allies
+Effects and Traits: []
+---
+Id 134: Holy Aura
+Desc: Exerts an aura to negate the chance of gaining some status conditions for a short time.
+Skill Class: Magic
+Cost: 20MP
+Scope: All Allies
+Effects and Traits: [["Add State: ", "Holy Aura", "100%"], ["Remove State: ", "Blind", "100%"], ["Remove State: ", "Silence", "100%"], ["Remove State: ", "Confusion", "100%"], ["Remove State: ", "Sleep", "100%"], ["Remove State: ", "Paralysis", "100%"], ["Remove State: ", "Stun", "100%"], ["Remove State: ", "Knocked Over", "100%"], ["Remove State: ", "Headache", "100%"], ["Remove State: ", "Fear", "100%"], ["Remove State: ", "Savage", "100%"], ["Remove State: ", "Hallucinating", "100%"], ["Remove State: ", "Webbed", "100%"]]
+---
+Id 135: Purge
+Desc: Cures Poison, Headaches, and Confusion. Also heals a little.
+Skill Class: Magic
+Cost: 10MP
+Skill Type: HP Recover
+Formula: 100
+Variance: 25
+Critical: false
+Scope: One Ally
+Effects and Traits: [["Remove State: ", "Poison", "100%"], ["Remove State: ", "Headache", "100%"], ["Remove State: ", "Confusion", "100%"]]
+---
+Id 136: Exploit Weakness
+Desc: Hit your opponent at a weakpoint that can open up a weakness. Likely to lower DEF.
+Skill Class: Abilites
+Cost: 5PR
+Skill Type: HP Damage
+Formula: (a.atk * 2) - b.def
+Variance: 10
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add Debuff: ", "DEF", ", 5 turns"]]
+---
+Id 137: Templar Instinct
+Desc: Enter a state of body and mind only the Templars are taught. Enter Parry Mode for a few turns.
+Skill Class: Abilites
+Cost: 10PR
+Scope: The User
+Effects and Traits: [["Add State: ", "Parry Mode", "100%"]]
+---
+Id 139: Tri-Attack
+Desc: Hits 3 random enemies.
+Skill Class: Abilites
+Cost: 15PR
+Skill Type: HP Damage
+Formula: (a.atk * 4 - b.def * 2) - 90
+Variance: 25
+Critical: true
+Scope: 3 Random Enemies
+Effects and Traits: []
+---
+Id 140: Tailwind
+Desc: Summon a tailwind that increases your party's agility and evasiveness.
+Skill Class: Magic
+Cost: 30MP
+Scope: All Allies
+Effects and Traits: [["Add State: ", "Tailwind", "100%"]]
+---
+Id 141: Blessing
+Desc: Significantly heals a member of your party.
+Skill Class: Magic
+Cost: 40MP
+Skill Type: HP Recover
+Formula: 800 + a.mat
+Variance: 10
+Critical: false
+Scope: One Ally
+---
+Id 142: Chilling Stab
+Desc: Stab an enemy with a chilled blade. Has a chance to freeze or bleed.
+Skill Class: Abilites
+Cost: 35MP
+Skill Type: HP Damage
+Formula: (((a.atk + a.mat) * 3) - b.def) + 125
+Element: Ice
+Variance: 25
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Freezing", "10%"], ["Add State: ", "Bleeding", "5%"]]
+---
+Id 143: Fire Throw
+Desc: Throw a glob of flame towards your foes. Hits 2 targets. Chance to burn.
+Skill Class: Magic
+Cost: 20MP
+Skill Type: HP Damage
+Formula: (a.mat * 4 - b.mdf) + 100
+Element: Fire
+Variance: 30
+Critical: true
+Scope: 2 Random Enemies
+Effects and Traits: [["Add State: ", "Burn", "15%"]]
+---
+Id 144: Explosive Arrow
+Desc: Fire an arrow magically charged to explode on contact. Chance to burn.
+Skill Class: Abilites
+Cost: 25MP
+Skill Type: HP Damage
+Formula: ((a.mat * 3) + (a.atk * 2)) - (b.def * 2)
+Element: Fire
+Variance: 20
+Critical: true
+Scope: 2 Random Enemies
+Effects and Traits: [["Add State: ", "Burn", "10%"]]
+---
+Id 145: Light Beam
+Desc: Cast a beam of light towards a target.
+Skill Class: Magic
+Cost: 45MP
+Skill Type: HP Damage
+Formula: (a.mat * 4 - b.mdf * 2) + 125
+Element: Light
+Variance: 25
+Critical: true
+Scope: One Enemy
+---
+Id 146: Winter
+Desc: Changes your Attack Element to Ice, and increases the chances of freezing an opponent.
+Skill Class: Magic
+Cost: 50MP
+Scope: The User
+Effects and Traits: [["Add State: ", "Winter", "100%"]]
+---
+Id 147: Dark Thrust
+Desc: Imbues your weapon with the power of darkness. Good chance to inflict fear.
+Skill Class: Abilites
+Cost: 50MP
+Skill Type: HP Damage
+Formula: (a.atk * 4 - b.def * 2) + 200
+Element: Dark
+Variance: 20
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Fear", "20%"]]
+---
+Id 148: Black Arrow
+Desc: A unique arrow that shatters into a shower of sparks. Low chance to paralyze.
+Skill Class: Abilites
+Cost: 45MP
+Skill Type: HP Damage
+Formula: (a.mat * 4 - b.mdf * 2) + 100
+Element: Storm
+Variance: 15
+Critical: false
+Scope: 4 Random Enemies
+Effects and Traits: [["Add State: ", "Paralysis", "10%"]]
+---
+Id 149: Priming Surge
+Desc: Surge magic into an ally's Soul to attempt to accelerate reaching Primed forme.
+Skill Class: Magic
+Cost: 100MP
+Skill Type: HP Damage
+Formula: 1000
+Element: Soul
+Variance: 15
+Critical: false
+Scope: One Ally
+---
+Id 150: PRIME
+Desc: Your ultimate Soul power is unleashed! Enter your PRIMED FORM!
+Skill Class: Abilites
+Cost: 100PR
+Scope: The User
+Effects and Traits: [["Add State: ", "Primed", "100%"]]
+---
+Id 151: Desert of Snow
+Desc: Affects all enemies with a good chance to freeze. Also increases your PR by 2 per enemy.
+Skill Class: Magic
+Cost: 45MP
+Skill Type: HP Damage
+Formula: 200 + (a.mat * 4 - b.mdf * 2)
+Element: Ice
+Variance: 15
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Freezing", "20%"]]
+---
+Id 152: Dark Shroud
+Desc: A mystical dark shadow covers the party, healing them and increasing DEF and EVA.
+Skill Class: Magic
+Cost: 35MP
+Scope: All Allies
+Effects and Traits: [["Add State: ", "Dark Shroud", "100%"], ["Recover HP: ", "15%", ""]]
+---
+Id 153: Leadership
+Desc: \}Only a true leader can utilise their team to their full strength. Raises the ATK, DEF, HIT, and counter chance of all allies.
+Skill Class: Abilites
+Cost: 30PR
+Scope: All Allies
+Effects and Traits: [["Add State: ", "Leadership", "100%"]]
+---
+Id 154: Soul Bond
+Desc: Recharge an ally's soul to get them back in the fight. 25% chance to revive.
+Skill Class: Magic
+Cost: 60MP
+Scope: One Ally (Dead)
+Effects and Traits: [["Remove State: ", "Death", "100%"], ["Recover HP: ", "25%", ""]]
+---
+Id 155: Ice Wall
+Desc: Greatly increases own DEF and MDF. Also regenerates HP while active.
+Skill Class: Magic
+Cost: 35MP
+Scope: The User
+Effects and Traits: [["Add State: ", "Ice Wall", "100%"]]
+---
+Id 156: Corruption
+Desc: High chance to turn the target Savage.
+Skill Class: Magic
+Cost: 50MP
+Skill Type: HP Damage
+Formula: a.mat
+Element: Dark
+Variance: 10
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Savage", "35%"]]
+---
+Id 157: Holy Storm
+Desc: Summon a storm blessed by the Almighty. Drains some MP and can blind enemies.
+Skill Class: Magic
+Cost: 20PR
+Skill Type: MP Drain
+Formula: 20
+Variance: 50
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Blind", "10%"]]
+---
+Id 158: Whirlwind Strike
+Desc: Strike your opponent while imbued with the mighty force of the wind. High chance to knock over.
+Skill Class: Abilites
+Cost: 45MP
+Skill Type: HP Damage
+Formula: (a.atk * 5 - b.def * 2) + 200
+Element: Air
+Variance: 15
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Knocked Over", "80%"]]
+---
+Id 159: Secret Strike
+Desc: Feint your foe and hit a critical spot. High variance but with a 25% chance to instantly kill.
+Skill Class: Abilites
+Cost: 25PR
+Skill Type: HP Damage
+Formula: (a.atk * 5 - b.def * 2) + 100
+Variance: 50
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Death", "25%"]]
+---
+Id 160: Shadow Siphon
+Desc: Steal HP from a target. You also gain 5 PR.
+Skill Class: Abilites
+Cost: 65MP
+Skill Type: HP Drain
+Formula: (a.atk * 4 - b.mdf * 2) + 100
+Element: Dark
+Variance: 10
+Critical: true
+Scope: One Enemy
+---
+Id 161: Arrow and Blade
+Desc: Fire an arrow and fluidly move into slashing your target. High damage but is able to fail.
+Skill Class: Abilites
+Cost: 15PR
+Skill Type: HP Damage
+Formula: (a.atk * 5 - b.def * 2) + 250
+Variance: 10
+Critical: true
+Scope: One Enemy
+Effects and Traits: []
+---
+Id 162: Divine Burst
+Desc: A burst of radiant energy that affects all enemies. Cannot miss.
+Skill Class: Magic
+Cost: 60MP
+Skill Type: HP Damage
+Formula: (a.mat * 4 - b.mdf * 2) + 100
+Element: Light
+Variance: 15
+Critical: true
+Scope: All Enemies
+---
+Id 163: Sub-Zero (Hostiles)
+Desc: Make the air around extremely cold for a time. High chance to freeze opponents.
+Skill Class: Magic
+Cost: 75MP
+Skill Type: HP Damage
+Formula: (a.mat * 3 - b.mdf)
+Element: Ice
+Variance: 25
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Freezing", "80%"]]
+---
+Id 164: Sub-Zero (Allies)
+Desc: Make the air around extremely cold for a time. Soothes all burns and gives an Ice Wall effect.
+Skill Class: Magic
+Cost: 50MP
+Scope: All Allies
+Effects and Traits: [["Remove State: ", "Burn", "100%"], ["Add State: ", "Ice Wall", "100%"]]
+---
+Id 165: Petrifying Pulse
+Desc: Surge dark energy into the surroundings; high chance of inflicting fear to targets. Gives 10 PR.
+Skill Class: Abilites
+Cost: 80MP
+Skill Type: HP Damage
+Formula: a.mat * 3
+Element: Dark
+Variance: 25
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Fear", "60%"]]
+---
+Id 166: Expelling Wind (Hostiles)
+Desc: Clears all foes of any buffs and throws off their guard. Priority move.
+Skill Class: Magic
+Cost: 45MP
+Scope: All Enemies
+Effects and Traits: [["Remove Buff: ", "MHP", ", 0 turns"], ["Remove Buff: ", "MMP", ", 0 turns"], ["Remove Buff: ", "ATK", ", 0 turns"], ["Remove Buff: ", "DEF", ", 0 turns"], ["Remove Buff: ", "MAT", ", 0 turns"], ["Remove Buff: ", "MDF", ", 0 turns"], ["Remove Buff: ", "AGI", ", 0 turns"], ["Remove Buff: ", "LUK", ", 0 turns"], ["Remove State: ", "", "100%"], ["Remove State: ", "Irradiated", "100%"], ["Remove State: ", "Fireflies", "100%"], ["Remove State: ", "Aura of Earth", "100%"], ["Remove State: ", "Ready for Harvest", "100%"], ["Remove State: ", "Parry Mode", "100%"], ["Remove State: ", "Aura of Storms", "100%"], ["Remove State: ", "Aura of Darkness", "100%"], ["Remove State: ", "Aura of Light", "100%"], ["Remove State: ", "Aura of Vapour", "100%"], ["Remove State: ", "Aura of Flames", "100%"], ["Remove State: ", "Aura of Souls", "100%"], ["Remove State: ", "Tailwind", "100%"], ["Remove State: ", "Winter", "100%"], ["Remove State: ", "Ice Wall", "100%"], ["Remove State: ", "Guard", "100%"], ["Remove State: ", "Bunkered Down", "100%"], ["Remove State: ", "Mystic Armour", "100%"], ["Remove State: ", "Dark Shroud", "100%"], ["Remove State: ", "Particle Shell", "100%"], ["Remove State: ", "Frostbite", "100%"], ["Remove State: ", "Flameskin", "100%"], ["Remove State: ", "Magic Might", "100%"]]
+---
+Id 167: Sacred Light
+Desc: Heal all allies significantly and cures Fear.
+Skill Class: Magic
+Cost: 65MP
+Scope: All Allies
+Effects and Traits: [["Recover HP: ", "30%", ""], ["Remove State: ", "Fear", "100%"]]
+---
+Id 168: Blade Typhoon
+Desc: Spin a whirlpool of water and ice to cast at your target. Can cause Confusion, but will drench them.
+Skill Class: Abilites
+Cost: 70MP
+Skill Type: HP Damage
+Formula: (a.atk * 4 - b.def * 2) + 400
+Element: Water
+Variance: 15
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Confusion", "15%"], ["Add State: ", "Wet", "100%"]]
+---
+Id 169: Infernal Rain
+Desc: Hails fire and brimstone down upon your foes. High chance to burn and gives you PR.
+Skill Class: Magic
+Cost: 160MP
+Skill Type: HP Damage
+Formula: (a.atk * 6 - b.def) + 300
+Element: Fire
+Variance: 15
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Burn", "50%"]]
+---
+Id 170: Force of the Air
+Desc: A force of wind surrounds you, powering your attacks and increasing your EVA & CRI rate.
+Skill Class: Abilites
+Cost: 60MP
+Scope: The User
+Effects and Traits: [["Add State: ", "Force of the Air", "100%"]]
+---
+Id 171: Hyper Soul Bond
+Desc: Rebind the Soul and body of a fallen ally. 75% chance to revive and gives you 5 PR.
+Skill Class: Magic
+Cost: 120MP
+Scope: One Ally (Dead)
+Effects and Traits: [["Remove State: ", "Death", "100%"], ["Recover HP: ", "50%", ""]]
+---
+Id 172: Blizzard
+Desc: Inflicts high damage, can freeze, but varies a lot. Also, gives
+you an effect of Ice Wall.
+Skill Class: Magic
+Cost: 100MP
+Skill Type: HP Damage
+Formula: (a.mat * 5 - b.mdf * 2) + 350
+Element: Ice
+Variance: 40
+Critical: true
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Freezing", "10%"]]
+---
+Id 173: Annihilation Ray
+Desc: A beam of pure dark energy is fired towards the target. Removes ALL buffs and states, then may still inflict Fear. afterwards.
+Skill Class: Magic
+Cost: 115MP
+Skill Type: HP Damage
+Formula: b.clear_states; (a.mat * 5 - b.mdf * 2) + 450
+Element: Dark
+Variance: 15
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Fear", "30%"], ["Remove Buff: ", "MHP", ", 0 turns"], ["Remove Buff: ", "MMP", ", 0 turns"], ["Remove Buff: ", "ATK", ", 0 turns"], ["Remove Buff: ", "DEF", ", 0 turns"], ["Remove Buff: ", "MAT", ", 0 turns"], ["Remove Buff: ", "MDF", ", 0 turns"], ["Remove Buff: ", "AGI", ", 0 turns"], ["Remove Buff: ", "LUK", ", 0 turns"]]
+---
+Id 174: Super Tailwind
+Desc: Gives the whole team Tailwind, Force of the Air effects, and gain 3 PR.
+Skill Class: Magic
+Cost: 110MP
+Scope: All Allies
+Effects and Traits: [["Add State: ", "Tailwind", "100%"], ["Add State: ", "Force of the Air", "100%"]]
+---
+Id 175: Undead Immitator
+Desc: Gives temporary immortality to a single ally.
+Skill Class: Magic
+Cost: 150MP
+Scope: One Ally
+Effects and Traits: [["Add State: ", "TempImmortal", "100%"]]
+---
+Id 176: Impale
+Desc: Violently stab your opponent, inflicting huge
+damage that ignores DEF. High chance to bleed.
+Skill Class: Abilites
+Cost: 45PR
+Skill Type: HP Damage
+Formula: a.atk * 6
+Variance: 5
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Bleeding", "80%"]]
+---
+Id 177: Blazing Beatdown
+Desc: Channel the ferocity of a roaring fire. High chance to inflict burn but will lower their DEF and MDF.
+Skill Class: Abilites
+Cost: 125MP
+Skill Type: HP Damage
+Formula: (a.atk * 5 - b.def * 2) + 450
+Element: Fire
+Variance: 10
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Burn", "60%"], ["Add Debuff: ", "MDF", ", 3 turns"], ["Add Debuff: ", "DEF", ", 3 turns"]]
+---
+Id 178: Focus
+Desc: Take a turn to focus, then on your next, use Careful Snipe.
+Skill Class: Abilites
+Cost: 35PR
+Scope: The User
+Effects and Traits: [["Add State: ", "Careful Snipe", "100%"]]
+---
+Id 179: Careful Snipe
+Desc: Let loose your arrow for high damage and CRT chance. Can instantly kill. Gain 5 PR.
+Skill Class: Unique
+Skill Type: HP Damage
+Formula: (a.atk * 6 - b.def)
+Variance: 20
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Death", "15%"]]
+---
+Id 180: Ultimate Priming Surge
+Desc: Surge magic into an ally's Soul to attempt to accelerate reaching Primed forme.
+Skill Class: Magic
+Cost: 300MP
+Skill Type: HP Damage
+Formula: 2500
+Element: Soul
+Variance: 20
+Critical: false
+Scope: One Ally
+---
+Id 181: Fenrir Stab
+Desc: Stab your foe with a jagged knife of ice, ignoring DEF. Will bleed and freeze.
+Skill Class: Magic
+Cost: 180MP
+Skill Type: HP Damage
+Formula: ((a.atk + a.mat) * 6) + 450
+Element: Ice
+Variance: 15
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Bleeding", "100%"], ["Add State: ", "Freezing", "100%"]]
+---
+Id 182: Wrath of Darkness
+Desc: Temporarily transform into a shadow, gaining many
+traits (including Immortality) for the duration.
+Skill Class: Magic
+Cost: 50PR
+Scope: The User
+Effects and Traits: [["Add State: ", "Wrath of Darkness", "100%"]]
+---
+Id 183: Hurricane Assault
+Desc: Attack everyone with the force of a hurricane. Massive damage, can't miss, and will knock over the targets.
+Skill Class: Abilites
+Cost: 200MP
+Skill Type: HP Damage
+Formula: (((a.atk + a.mat) * 5) - b.def * 2) + 150
+Element: Air
+Variance: 10
+Critical: true
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Knocked Over", "100%"]]
+---
+Id 184: Smite
+Desc: Smite down a target with holy justice. Inflicts high damage, will blind, and activates Holy Aura.
+Skill Class: Magic
+Cost: 230MP
+Skill Type: HP Damage
+Formula: (a.mat * 6 - b.mdf) + 350
+Element: Light
+Variance: 20
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Blind", "100%"]]
+---
+Id 185: Force Strike
+Desc: Cast a bolt of magic energy towards a target.
+Skill Class: Magic
+Cost: 15MP
+Skill Type: HP Damage
+Formula: 50 + (a.mat * 3 - b.mdf)
+Variance: 10
+Critical: true
+Scope: One Enemy
+---
+Id 187: Group Up
+Desc: Gather your allies to all attack the same target.
+Skill Class: Abilites
+Cost: 15PR
+Skill Type: HP Damage
+Formula: (a.atk * 4 - b.def) + 15
+Variance: 10
+Critical: true
+Scope: One Enemy
+Effects and Traits: []
+---
+Id 188: Bunker Down
+Desc: \}Extend your shield or armour around you, increasing your DEF and MDF drastically, but restricts your movement.
+Skill Class: Abilites
+Scope: The User
+Effects and Traits: [["Add State: ", "Bunkered Down", "100%"]]
+---
+Id 189: Retract Shield
+Desc: Lower your shield and retract the extended sides.
+Skill Class: Abilites
+Scope: The User
+Effects and Traits: [["Remove State: ", "Bunkered Down", "100%"]]
+---
+Id 190: Freezing Flame
+Desc: A combination attack of fire and ice. High damage and can freeze or burn.
+Skill Class: Magic
+Cost: 35MP
+Skill Type: HP Damage
+Formula: 300 + (a.mat * 4 - b.mdf)
+Element: 
+Unique
+Variance: 15
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Freezing", "10%"], ["Add State: ", "Burn", "10%"]]
+---
+Id 191: Bite
+Desc: Monch.
+Skill Class: Abilites
+Skill Type: HP Damage
+Formula: 100 + (a.atk * 2 - b.def)
+Variance: 25
+Critical: true
+Scope: One Enemy
+Effects and Traits: []
+---
+Id 192: Nature's Impact
+Desc: \}Blast all opponents with a mighty gust of wind full of splinters of wood and jagged rocks. Very likely to knock over targets.
+Skill Class: Magic
+Cost: 60MP
+Skill Type: HP Damage
+Formula: 300 + (a.mat * 3 - b.mdf)
+Element: 
+Unique
+Variance: 20
+Critical: true
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Knocked Over", "60%"]]
+---
+Id 193: Scythe Attack
+Desc: Damages the enemy. Scythe version.
+Skill Class: None
+Skill Type: HP Damage
+Formula: a.atk * 4 - b.def * 2
+Variance: 20
+Critical: true
+Scope: 2 Random Enemies
+Effects and Traits: []
+---
+Id 194: Butter
+Desc: Butter your target, and if that doesn't work, use more butter.
+Skill Class: Abilites
+Cost: 30MP
+Skill Type: HP Damage
+Formula: a.atk * 3 - b.def
+Variance: 20
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Buttered", "25%"]]
+---
+Id 195: Symbol Breaker Attack
+Desc: Damages the enemy. Symbol Breaker version.
+Skill Class: None
+Skill Type: HP Damage
+Formula: 2000 - (b.mdf * 3)
+Variance: 25
+Critical: true
+Scope: 3 Random Enemies
+Effects and Traits: []
+---
+Id 196: Fishslap
+Desc: Wield your presumably wet and slimy fish as a mighty weapon to assault your foes. This can confuse people.
+Skill Class: Abilites
+Skill Type: HP Damage
+Formula: 50 + (a.atk * 4 - b.def * 2)
+Element: Water
+Variance: 35
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Confusion", "15%"], ["Add State: ", "Wet", "10%"]]
+---
+Id 197: Glacial Hyperslash
+Desc: \}Unleash all of your power into a single slash of the ultimate cold. Will freeze, also heals you and gives you PR.
+Skill Class: Abilites
+Cost: 250MP
+Skill Type: HP Damage
+Formula: 1000 + a.atk * 10
+Element: Ice
+Variance: 30
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Freezing", "1000%"]]
+---
+Id 198: Windswept Hypershot
+Desc: \}Unleash all of your power into a single shot of the ultimate wind. Will knock over, also heals you and gives you PR.
+Skill Class: Abilites
+Cost: 250MP
+Skill Type: HP Damage
+Formula: 1000 + a.atk * 10
+Element: Air
+Variance: 30
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Knocked Over", "1000%"]]
+---
+Id 199: Armageddon Hyperslash
+Desc: \}Unleash all of your power into a single slash of the ultimate darkness. Will frighten, also heals you and gives you PR.
+Skill Class: Abilites
+Cost: 250MP
+Skill Type: HP Damage
+Formula: 1000 + a.atk * 10
+Element: Ice
+Variance: 30
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Fear", "1000%"]]
+---
+Id 200: Sacred Hyperspell
+Desc: \}Unleash all of your power into a single recovery of the ultimate strength. Completely clears allies of all ailments and fully heals.
+Skill Class: Abilites
+Cost: 200MP
+Scope: All Allies
+Effects and Traits: []
+---
+Id 201: Soul Redirection
+Desc: Focus your Soul power to restore 25% MP, at the cost of 10% HP.
+Skill Class: Abilites
+Cost: 15PR
+Scope: The User
+Effects and Traits: [["Recover MP: ", "25%", ""], ["Recover HP: ", "-10%", ""]]
+---
+Id 202: Mark Target
+Desc: Mark a target. That target takes increased damage from all sources and inflicts less damage to you. Can fail.
+Skill Class: Abilites
+Cost: 35MP
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Marked", "100%"]]
+---
+Id 203: Thunderstorm
+Desc: Summon a mighty thunderstorm to strike down your foes. Lingers for a couple of rounds.
+Skill Class: Magic
+Cost: 70MP
+Skill Type: HP Damage
+Formula: 200 + a.mat * 3 - b.mdf * 1
+Element: Storm
+Variance: 10
+Critical: true
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Thunderstorm", "75%"]]
+---
+Id 204: Mystic Armour
+Desc: Surround an ally in a glowing veil, increasing their MDF drastically and giving them HP regeneration.
+Skill Class: Magic
+Cost: 35MP
+Scope: One Ally
+Effects and Traits: [["Add State: ", "Mystic Armour", "100%"]]
+---
+Id 205: Spear Attack
+Desc: Damages the enemy, ignoring their DEF.
+Skill Class: None
+Skill Type: HP Damage
+Formula: a.atk * 3.5
+Variance: 15
+Critical: true
+Scope: One Enemy
+Effects and Traits: []
+---
+Id 206: Acid Spray
+Desc: Spray a jet of acidic fluid towards a target, ignoring DEF. Can burn the target or reduce their defences.
+Skill Class: Abilites
+Cost: 5PR
+Skill Type: HP Damage
+Formula: 100 + (a.mat * 2)
+Variance: 20
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Burn", "15%"], ["Add State: ", "Acid Damage", "30%"]]
+---
+Id 207: Scythe Cyclone
+Desc: Spin quickly, brandishing your scythe as you go. Can bleed.
+Skill Class: Abilites
+Cost: 35PR
+Skill Type: HP Damage
+Formula: 50 + (a.atk * 4 - b.def)
+Variance: 25
+Critical: true
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Bleeding", "15%"]]
+---
+Id 208: Stab 'n' Slash
+Desc: Using a spear, quickly stab then slash your target.
+Skill Class: Abilites
+Cost: 15PR
+Skill Type: HP Damage
+Formula: 150 + (a.atk * 3.5)
+Variance: 15
+Critical: true
+Scope: One Enemy
+Effects and Traits: []
+---
+Id 209: Devastating Blow
+Desc: Annihilate a foe with a mighty bludgeon. High chance to stun.
+Skill Class: Abilites
+Cost: 40PR
+Skill Type: HP Damage
+Formula: 500 + (a.atk * 4 - b.def)
+Variance: 30
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Stun", "80%"]]
+---
+Id 210: Flail Disarm
+Desc: Attempt to wrap your flail around an opponent or their weapon and disarm them.
+Skill Class: Abilites
+Cost: 10PR
+Skill Type: HP Damage
+Formula: 100
+Variance: 25
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add Debuff: ", "ATK", ", 5 turns"]]
+---
+Id 211: Pirouette
+Desc: A swift, dance-like manoeuvre that can make you attack your
+your target and still dodge almost anything.
+Skill Class: Abilites
+Cost: 15PR
+Skill Type: HP Damage
+Formula: 250 + (a.atk * 3 - b.def)
+Variance: 25
+Critical: true
+Scope: One Enemy
+Effects and Traits: []
+---
+Id 212: Lumber Mill
+Desc: Strike at your opponents with such ferocity, you could probably even chop them in half. Can instantly kill targets.
+Skill Class: Abilites
+Cost: 45PR
+Skill Type: HP Damage
+Formula: 550 + (a.atk * 4 - b.def)
+Variance: 35
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Death", "15%"]]
+---
+Id 213: Defensive Stance
+Desc: Step back into a defensive stance, prepared for anything that comes your way. Grants parry mode and raises DEF.
+Skill Class: Abilites
+Cost: 15PR
+Scope: The User
+Effects and Traits: [["Add State: ", "Parry Mode", "100%"], ["Add Buff: ", "DEF", ", 3 turns"]]
+---
+Id 214: Hawk-Eyed
+Desc: Focus to new heights and hit more shots as a critical for a short time. Taking damage can cause you to lose focus.
+Skill Class: Abilites
+Cost: 25PR
+Scope: The User
+Effects and Traits: [["Add State: ", "Hawk-Eyed", "100%"]]
+---
+Id 215: Particle Shell
+Desc: \}Form a protective bubble around an ally than makes them immune to incoming magical attacks for a time. Can break if it suffers too much physical damage.
+Skill Class: Magic
+Cost: 60MP
+Scope: One Ally
+Effects and Traits: [["Add State: ", "Particle Shell", "100%"]]
+---
+Id 216: Soul Rend
+Desc: Tear apart at the very bond between soul and body keeping you alive. Deals enormous damage to a target and can instantly kill.
+Skill Class: Abilites
+Cost: 150MP
+Skill Type: HP Damage
+Formula: 750 + (a.mat * 6 - b.mdf * 2)
+Element: Soul
+Variance: 25
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Death", "15%"], ["Add State: ", "Void Scar", "75%"]]
+---
+Id 217: Vampiric Shot
+Desc: Drain the life force of your target and regain your own using powerful magic arrows.
+Skill Class: Abilites
+Skill Type: HP Drain
+Formula: a.atk *4 - b.def * 2
+Variance: 15
+Critical: true
+Scope: One Enemy
+Effects and Traits: []
+---
+Id 218: Siphoning Shot
+Desc: Drain the MP of your target and regain your own using powerful magic arrows.
+Skill Class: Abilites
+Skill Type: MP Drain
+Formula: a.atk * 4 - b.mdf * 4
+Variance: 5
+Critical: true
+Scope: One Enemy
+Effects and Traits: []
+---
+Id 219: Shield Charge
+Desc: Brandishing your shield, ram into an opponent with full force. Will stun your target. Uses your DEF for damage.
+Skill Class: Abilites
+Cost: 25PR
+Skill Type: HP Damage
+Formula: 150 + (a.def * 4 - b.def * 2)
+Variance: 15
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Stun", "200%"]]
+---
+Id 220: Valour's Beacon Attack
+Desc: Damages the enemy, ignoring their DEF. Chance to inspire an ally.
+Skill Class: None
+Skill Type: HP Damage
+Formula: a.atk * 3.5
+Variance: 15
+Critical: true
+Scope: One Enemy
+Effects and Traits: []
+---
+Id 221: Lesser Prime
+Desc: Your ultimate Soul power is unleashed! Enter your PRIMED FORM!
+Skill Class: Abilites
+Cost: 100PR
+Scope: The User
+Effects and Traits: [["Add State: ", "Primed", "100%"]]
+---
+Id 223: Sentinel's Radiance
+Desc: Heal an ally and remove Fear with a 50% chance to also apply Holy Aura.
+Skill Class: Magic
+Cost: 10MP
+Skill Type: HP Recover
+Formula: 500
+Variance: 20
+Critical: false
+Scope: One Ally
+Effects and Traits: [["Remove State: ", "Fear", "100%"], ["Add State: ", "Holy Aura", "50%"]]
+---
+Id 224: Candlewax
+Desc: Grab a nearby candle and toss its hot wax at a target. Can blind the target.
+Skill Class: Abilites
+Skill Type: HP Damage
+Formula: 200
+Element: Fire
+Variance: 50
+Critical: true
+Scope: 1 Random Enemy
+Effects and Traits: [["Add State: ", "Blind", "25%"]]
+---
+Id 225: Chair Toss
+Desc: Grab a nearby chair and chuck it a target.
+Skill Class: Abilites
+Skill Type: HP Damage
+Formula: 200 + (a.atk * 4 - b.def * 2)
+Variance: 25
+Critical: true
+Scope: 1 Random Enemy
+---
+Id 226: Tackle
+Desc: Tackle a target. Will knock over both the user and the target.
+Skill Class: Abilites
+Skill Type: HP Damage
+Formula: 100
+Variance: 10
+Critical: false
+Scope: 1 Random Enemy
+Effects and Traits: [["Add State: ", "Knocked Over", "200%"]]
+---
+Id 227: Broken Bottle
+Desc: Smash a bottle to use as a weapon. Raises ATK.
+Skill Class: Abilites
+Scope: The User
+Effects and Traits: [["Add Buff: ", "ATK", ", 4 turns"]]
+---
+Id 228: Drink
+Desc: Take a swig! Get back in there!
+Skill Class: Abilites
+Skill Type: HP Recover
+Formula: 250
+Variance: 25
+Critical: false
+Scope: The User
+Effects and Traits: [["Gain PR: ", "1500%"]]
+---
+Id 229: Dragonspiral
+Desc: A relic of the past, this attack was born when magic met sport.
+Skill Class: Magic
+Cost: 75PR
+Skill Type: HP Damage
+Formula: 500 + (a.atk * 4) + (a.mat * 4)
+Element: Soul
+Variance: 15
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Stun", "100%"]]
+---
+Id 230: Dark Dragonspiral
+Desc: A relic of the past, this attack was born when magic met sport. A dark variant used by malevolent forces.
+Skill Class: Magic
+Cost: 75PR
+Skill Type: HP Damage
+Formula: 500 + (a.atk * 4) + (a.mat * 4)
+Element: Dark
+Variance: 15
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Fear", "100%"]]
+---
+Id 231: Pure Dragonspiral
+Desc: A relic of the past, this attack was born when magic met sport. This light variant is utilised by those pure of heart.
+Skill Class: Magic
+Cost: 75PR
+Skill Type: HP Damage
+Formula: 500 + (a.atk * 4) + (a.mat * 4)
+Element: Light
+Variance: 15
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Remove Buff: ", "MHP", ", 0 turns"], ["Remove Buff: ", "MMP", ", 0 turns"], ["Remove Buff: ", "ATK", ", 0 turns"], ["Remove Buff: ", "DEF", ", 0 turns"], ["Remove Buff: ", "MAT", ", 0 turns"], ["Remove Buff: ", "MDF", ", 0 turns"], ["Remove Buff: ", "AGI", ", 0 turns"], ["Remove Buff: ", "LUK", ", 0 turns"]]
+---
+Id 232: Dragonspiral Realm
+Desc: This mysterious art can only come about when three Dragonspiral users put aside their differences and unite!
+Skill Class: Magic
+Cost: 90PR
+Skill Type: HP Drain
+Formula: 20000
+Element: Soul
+Variance: 15
+Critical: true
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Death", "50%"]]
+---
+Id 233: Kinetic Conversion
+Desc: Your kinetic energy powers your soul. Restores 15% HP and you recover MP based off your AGI.
+Skill Class: Abilites
+Cost: 15PR
+Skill Type: MP Recover
+Formula: a.agi / 4
+Variance: 15
+Critical: false
+Scope: The User
+Effects and Traits: [["Recover HP: ", "15%", ""]]
+---
+Id 234: Magic Might
+Desc: Reduce your magic potential to massively increase your physical strength.
+Skill Class: Magic
+Cost: 50MP
+Scope: The User
+Effects and Traits: [["Add State: ", "Magic Might", "100%"]]
+---
+Id 235: Expelling Wind (Allies)
+Desc: Clears all allies of any debuffs and may give a Tailwind. Priority move.
+Skill Class: Magic
+Cost: 30MP
+Scope: All Allies
+Effects and Traits: [["Remove Debuff: ", "MHP", ", 0 turns"], ["Remove Debuff: ", "MMP", ", 0 turns"], ["Remove Debuff: ", "ATK", ", 0 turns"], ["Remove Debuff: ", "DEF", ", 0 turns"], ["Remove Debuff: ", "MAT", ", 0 turns"], ["Remove Debuff: ", "MDF", ", 0 turns"], ["Remove Debuff: ", "AGI", ", 0 turns"], ["Remove Debuff: ", "LUK", ", 0 turns"], ["Remove State: ", "Savage", "100%"], ["Add State: ", "Tailwind", "50%"]]
+---
+Id 236: Void Step
+Desc: An ability that can transport you almost instantly to distant locations at the will of the user.
+Skill Class: Magic
+Scope: None
+Effects and Traits: []
+---
+Id 242: Thunderflash
+Desc: Casts a bolt of lightning at a target with a high chance to blind.
+Skill Class: Magic
+Cost: 20MP
+Skill Type: HP Damage
+Formula: (a.mat * 4 - b.mdf * 2) + 200
+Element: Storm
+Variance: 20
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Blind", "50%"]]
+---
+Id 243: Tectonic Tremor
+Desc: Shake the ground beneath your feet with an earth-shattering fury. High chance to knock over.
+Skill Class: Magic
+Cost: 60MP
+Skill Type: HP Damage
+Formula: (a.mat * 5 - b.mdf  * 2)  + 100
+Element: Earth
+Variance: 15
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Knocked Over", "75%"]]
+---
+Id 244: Terraform
+Desc: Change the terrain to your benefit. Raises your defences and increases CRT evasion.
+Skill Class: Magic
+Cost: 25MP
+Scope: The User
+Effects and Traits: [["Add State: ", "Terraform", "100%"]]
+---
+Id 245: Camouflage
+Desc: Utilise surrounding terrain and foliage to blend into the environment and turn nigh invisible.
+Skill Class: Abilites
+Cost: 10PR
+Scope: All Allies (Dead)
+Effects and Traits: [["Add State: ", "Camouflaged", "100%"]]
+---
+Id 246: Storm Surge
+Desc: Dash into a target powered by a mighty lightning strike. Moderate chance to inflict an effect of Thunderstorm.
+Skill Class: Abilites
+Cost: 40MP
+Skill Type: HP Damage
+Formula: (a.mat * 5 - b.mdf  * 2)  + 150
+Element: Storm
+Variance: 15
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Thunderstorm", "50%"]]
+---
+Id 247: Infernal Lasceration
+Desc: Wield a whip of flame against your foe, high chance of causing bleeding or a burn.
+Skill Class: Abilites
+Cost: 100MP
+Skill Type: HP Damage
+Formula: (a.atk * 3 + a.mat * 2 - b.def * 2) + 250
+Element: Fire
+Variance: 20
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Bleeding", "50%"], ["Add State: ", "Burn", "75%"]]
+---
+Id 248: Reigning Misery
+Desc: Fill your target's mind with ideas of fear and doubt. Likely to make them hopeless.
+Skill Class: Magic
+Cost: 50MP
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Hopeless", "100%"], ["Gain PR: ", "1000%"]]
+---
+Id 249: Drowning Prison
+Desc: Atempt to encapsulate a target into a ball of suspended water, restricting their movement and drowning them.
+Skill Class: Magic
+Cost: 50MP
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Wet", "100%"], ["Add State: ", "Drowning", "50%"]]
+---
+Id 250: Shifting Tides
+Desc: Wash your foe with a sweeping rush of water, stealing the target's MP for yourself.
+Skill Class: Abilites
+Cost: 30PR
+Skill Type: MP Drain
+Formula: (a.mat / 3) - (b.mdf / 4)
+Element: Water
+Variance: 10
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Wet", "35%"]]
+---
+Id 251: Absolution
+Desc: Free someone of their burdens. Removes Silence, Confusion, any curses, and similar states.
+Skill Class: Magic
+Cost: 50MP
+Skill Type: HP Recover
+Formula: 100
+Variance: 99
+Critical: false
+Scope: One Ally
+Effects and Traits: [["Remove State: ", "Silence", "100%"], ["Remove State: ", "Confusion", "100%"], ["Remove State: ", "Hopeless", "100%"], ["Remove State: ", "Curse of the Doomed", "100%"], ["Remove State: ", "Curse of the Debilitated", "100%"], ["Remove State: ", "Curse of the Feeble", "100%"], ["Remove State: ", "Curse of the Laggard", "100%"], ["Remove State: ", "Curse of the Soulless", "100%"], ["Remove State: ", "Hexed", "100%"], ["Remove State: ", "Weakening Field", "100%"]]
+---
+Id 252: Drums of Ivory
+Desc: The drums of Excellion shall sound once again. All allies gain many powerful buffs.
+Skill Class: Abilites
+Cost: 50PR
+Scope: All Allies
+Effects and Traits: [["Add State: ", "Drums of Ivory", "100%"]]
+---
+Id 253: Bones Heal Stronger
+Desc: Heal your fellow skeleton and grant them a permanent DEF buff.
+Skill Class: Magic
+Cost: 20MP
+Skill Type: HP Recover
+Formula: a.mat * 3
+Variance: 15
+Critical: false
+Scope: One Ally
+Effects and Traits: [["Add Buff: ", "DEF", ", 1000 turns"]]
+---
+Id 254: Words Will Never Hurt Me
+Desc: Silences a target.
+Skill Class: Abilites
+Cost: 10MP
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Silence", "100%"]]
+---
+Id 255: Curse of the Doomed
+Desc: Lay a curse upon your foe. They take significant damage over time.
+Skill Class: Magic
+Cost: 50MP
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Curse of the Doomed", "100%"]]
+---
+Id 256: Curse of the Debilitated
+Desc: Lay a curse upon your foe. Their ATK is neutered.
+Skill Class: Magic
+Cost: 50MP
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Curse of the Debilitated", "100%"]]
+---
+Id 257: Curse of the Feeble
+Desc: Lay a curse upon your foe. Their DEF is neutered.
+Skill Class: Magic
+Cost: 50MP
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Curse of the Feeble", "100%"]]
+---
+Id 258: Curse of the Laggard
+Desc: Lay a curse upon your foe. Their AGI and EVA are massively reduced.
+Skill Class: Magic
+Cost: 50MP
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Curse of the Laggard", "100%"]]
+---
+Id 259: Curse of the Soulless
+Desc: Lay a curse upon your foe. They are unable to cast magic.
+Skill Class: Magic
+Cost: 50MP
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Curse of the Soulless", "100%"]]
+---
+Id 260: Mucus Mayhem
+Desc: Ooze a target.
+Skill Class: Abilites
+Cost: 10PR
+Skill Type: MP Damage
+Formula: 10 + (a.mat / 4)
+Variance: 25
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Oozed", "80%"]]
+---
+Id 261: Coil
+Desc: The snake wraps itself up defensively, in preperation for attacks. Increases DEF and guarantees counters for a short time.
+Skill Class: Abilites
+Cost: 10PR
+Scope: The User
+Effects and Traits: [["Add State: ", "Coiled", "100%"]]
+---
+Id 262: Echolocate
+Desc: Use echolocation to be certain on the whereabouts of your target.
+Skill Class: Abilites
+Cost: 5PR
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Echolocated", "100%"], ["Add State: ", "Headache", "15%"], ["Remove State: ", "Camouflaged", "100%"]]
+---
+Id 263: Pheromone Trail
+Desc: Call forth additional Hornets to aid in battle.
+Skill Class: Abilites
+Cost: 25PR
+Scope: The User
+Effects and Traits: []
+---
+Id 264: Harrass
+Desc: As a group, swarm around a target for a while, restricting their actions and stinging as you go.
+Skill Class: Abilites
+Cost: 15PR
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Swarmed", "100%"]]
+---
+Id 266: Constrict
+Desc: Wrap yourself around a target and tighten, restricting their breathing and movement.
+Skill Class: Abilites
+Cost: 15PR
+Skill Type: HP Damage
+Formula: a.addState(94); 100
+Variance: 20
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Constricted", "100%"]]
+---
+Id 267: Scavenge
+Desc: Eat the remains of a fallen comrade.
+Skill Class: Abilites
+Cost: 20PR
+Skill Type: HP Damage
+Formula: a.hp += b.mhp; b.mhp
+Variance: 0
+Critical: false
+Scope: One Ally (Dead)
+---
+Id 268: Sandscreen
+Desc: Brush sand towards your targets, potentially blinding them.
+Skill Class: Abilites
+Cost: 10PR
+Scope: 2 Random Enemies
+Effects and Traits: [["Add State: ", "Blind", "70%"]]
+---
+Id 269: The Abyss Stared Back
+Desc: Stare deeply into a targets eyes. Likely to make them fearful, and possibly even Hopeless.
+Skill Class: Abilites
+Cost: 50MP
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Fear", "100%"], ["Add State: ", "Hopeless", "50%"]]
+---
+Id 270: Plague Spreader
+Desc: Spread plague. Like, come on, what do you think it would do?
+Skill Class: Abilites
+Cost: 25PR
+Skill Type: HP Damage
+Formula: 200
+Variance: 100
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Plagued", "50%"]]
+---
+Id 271: Acid Mist
+Desc: Spray acid over \{everyone\}!
+Skill Class: Abilites
+Cost: 20PR
+Skill Type: HP Damage
+Formula: 350 - b.def
+Variance: 10
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Acid Damage", "30%"]]
+---
+Id 275: Erosion
+Desc: Rapid waters cleanse your opponents of their stats, permanently weakening them.
+Skill Class: Abilites
+Cost: 75PR
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Stats Eroded", "100%"]]
+---
+Id 276: Gnaw
+Desc: Piercing Monch.
+Skill Class: Abilites
+Cost: 10PR
+Skill Type: HP Damage
+Formula: 100 + (a.atk * 2)
+Variance: 20
+Critical: true
+Scope: One Enemy
+Effects and Traits: []
+---
+Id 277: Catastrophic Impact
+Desc: Crush a feeble target with insurmountable force. Will always stun and stack two DEF debuffs.
+Skill Class: Abilites
+Cost: 65PR
+Skill Type: HP Damage
+Formula: 2000 + (a.atk * 5)
+Variance: 15
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Stun", "100%"], ["Add Debuff: ", "DEF", ", 5 turns"], ["Add Debuff: ", "DEF", ", 5 turns"]]
+---
+Id 278: Martyr's Heal
+Desc: 
+Skill Class: Abilites
+Scope: One Enemy
+---
+Id 279: Arid Desolation
+Desc: \}Harness the dryness around you, gaining a Water immunity and chaning your attack element to Earth - all after attacking every enemy.
+Skill Class: Magic
+Cost: 55MP
+Skill Type: HP Damage
+Formula: ((a.mat * 4) + (a.atk * 2) - (b.def  * 2))  + 100
+Element: Earth
+Variance: 20
+Critical: false
+Scope: All Enemies
+Effects and Traits: []
+---
+Id 280: Standing Stones
+Desc: Reduces incoming physical damage by 50% for all allies.
+Skill Class: Magic
+Cost: 25MP
+Scope: All Allies
+Effects and Traits: [["Add State: ", "Standing Stones", "100%"]]
+---
+Id 281: Super Butter
+Desc: Butter all your targets, and if that doesn't work, use more butter.
+Skill Class: Abilites
+Cost: 100MP
+Skill Type: HP Damage
+Formula: a.atk * 3 - b.def
+Variance: 20
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Buttered", "30%"]]
+---
+Id 282: Voidgloom Attack
+Desc: Damages the enemy. Voidgloom Reaper version.
+Skill Class: None
+Skill Type: HP Drain
+Formula: a.atk * 4 - b.def - b.mdf
+Variance: 20
+Critical: true
+Scope: 2 Random Enemies
+Effects and Traits: []
+---
+Id 283: Void Shroud
+Desc: A thick cloud of Void energy envelopes the party, heavily restricting their sight.
+Skill Class: Magic
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Blind", "75%"], ["Add State: ", "Hallucinating", "15%"]]
+---
+Id 284: Soul Reinvigoration
+Desc: Heals all allies and grants a small buff to offences.
+Skill Class: Abilites
+Cost: 120MP
+Skill Type: HP Recover
+Formula: 2500 + a.mat
+Variance: 25
+Critical: false
+Scope: All Allies
+Effects and Traits: [["Add Buff: ", "ATK", ", 3 turns"], ["Add Buff: ", "MAT", ", 3 turns"]]
+---
+Id 285: Abyssal Smite
+Desc: Smite down a target with infernal punishment. Inflicts high damage and will inflict a Void Scar.
+Skill Class: Magic
+Cost: 280MP
+Skill Type: HP Damage
+Formula: (a.mat * 5 - b.mdf) + 450
+Element: Soul
+Variance: 20
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Void Scar", "100%"]]
+---
+Id 286: Void Vanish
+Desc: Escape into the Void, then in the following turn, return to instantly kill a non-boss target.
+Skill Class: Magic
+Cost: 300MP
+Scope: The User
+Effects and Traits: [["Add State: ", "Void Vanished", "100%"]]
+---
+Id 287: Void Vanish
+Desc: Return from the Void and ambush your target, finishing them in a single strike.
+Skill Class: Unique
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Death", "1000%"]]
+---
+Id 288: Cruel Onslaught
+Desc: The user lets loose and mercilessly attacks a target, weakening their DEF for the turn with every hit.
+Skill Class: Abilites
+Cost: 30PR
+Skill Type: HP Damage
+Formula: (a.atk * 4 - b.def * 2)
+Variance: 20
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add Debuff: ", "DEF", ", 1 turns"]]
+---
+Id 289: Critical Force
+Desc: Hit a single target thrice, using your LUK for damage. Requires a bow.
+Skill Class: Abilites
+Cost: 30PR
+Skill Type: HP Damage
+Formula: (a.luk * 3) - (b.def * 2) - 50
+Variance: 25
+Critical: true
+Scope: One Enemy
+Effects and Traits: []
+---
+Id 291: Digestive Deathray
+Desc: 
+Skill Class: Magic
+Skill Type: HP Damage
+Formula: a.mat * 6 - b.mdf
+Variance: 20
+Critical: true
+Scope: One Enemy
+---
+Id 292: Huge Hobnob Heave
+Desc: You can't handle my...huge...HOBNOB...\{HEAVE!
+Skill Class: Abilites
+Cost: 140MP
+Skill Type: HP Damage
+Formula: a.mat * 4 + a.atk * 4 - b.def - b.mdf
+Variance: 15
+Critical: false
+Scope: All Enemies
+---
+Id 293: Gru Dance
+Desc: Do the Gru Dance, buffing many stats.
+Skill Class: Abilites
+Scope: The User
+Effects and Traits: [["Add State: ", "Gru Dance", "100%"]]
+---
+Id 294: Rich Tea Remedy
+Desc: Eat a biscuit and regain 50% HP!
+Skill Class: Abilites
+Scope: The User
+Effects and Traits: [["Recover HP: ", "50%", ""]]
+---
+Id 295: Shortbread Shield
+Desc: Protect an ally completely.
+Skill Class: Abilites
+Cost: 200MP
+Scope: One Ally
+Effects and Traits: [["Add State: ", "Shortbread Shield", "100%"]]
+---
+Id 296: Liquood Drink
+Desc: Drink some liquood and regain 50% HP!
+Skill Class: Abilites
+Scope: The User
+Effects and Traits: [["Recover HP: ", "50%", ""]]
+---
+Id 297: /kill
+Desc: Instantly kill a target.
+Skill Class: Abilites
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Death", "100%"]]
+---
+Id 298: Game Crash
+Desc: Literally just crashes the game.
+Skill Class: Abilites
+Scope: One Enemy
+Effects and Traits: []
+---
+Id 299: random.choice(Skills)
+Desc: Just pick a random move!
+Skill Class: Abilites
+Scope: One Enemy
+---
+Id 300: Raxarian Obliteration
+Desc: 
+Skill Class: Abilites
+Skill Type: HP Damage
+Formula: a.mat * 8
+Variance: 20
+Critical: false
+Scope: All Enemies
+---
+Id 302: Bolster
+Desc: Steel up your allies and slightly increase DEF for 4 turns.
+Skill Class: Magic
+Cost: 15MP
+Scope: All Allies
+Effects and Traits: [["Add Buff: ", "DEF", ", 4 turns"]]
+---
+Id 303: Rolling Thunder
+Desc: Invoke the strike of a massive lightning strike, only to be heard by the foes a turn after.
+Skill Class: Magic
+Cost: 100MP
+Scope: The User
+Effects and Traits: [["Add State: ", "Rolling Thunder", "100%"]]
+---
+Id 304: Rolling Thunder
+Desc: The lightning strikes all foes, with a good chance to paralyze and a small chance to give Thunderstorm.
+Skill Class: Unique
+Skill Type: HP Damage
+Formula: (a.mat * 4 - b.mdf) + 300
+Element: Storm
+Variance: 20
+Critical: true
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Paralysis", "25%"], ["Add State: ", "Thunderstorm", "10%"]]
+---
+Id 306: Envenomating Bite
+Desc: \fiPoisonous\fr monch.
+Skill Class: Abilites
+Cost: 10PR
+Skill Type: HP Damage
+Formula: 100 + (a.atk * 2 - b.def)
+Variance: 25
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Poison", "20%"]]
+---
+Id 307: Intangibility
+Desc: Embrace your more ghostly features and become untouchable by physical moves.
+Skill Class: Abilites
+Cost: 20PR
+Scope: The User
+Effects and Traits: [["Add State: ", "Intangible", "100%"]]
+---
+Id 308: Bramble Lash
+Desc: Wielding a thick whip of a thorny vine, attack your target with a good chance to bleed.
+Skill Class: Abilites
+Cost: 25PR
+Skill Type: HP Damage
+Formula: 150 + (a.atk * 4 - b.def * 2)
+Element: Nature
+Variance: 10
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Bleeding", "20%"]]
+---
+Id 309: Verdant Flourish
+Desc: Your powers bloom. Greatly heal yourself and buff ATK and DEF.
+Skill Class: Abilites
+Cost: 50PR
+Skill Type: HP Recover
+Formula: 3000 + (a.mat * 2)
+Variance: 10
+Critical: false
+Scope: The User
+Effects and Traits: [["Add Buff: ", "ATK", ", 5 turns"], ["Add Buff: ", "DEF", ", 5 turns"]]
+---
+Id 310: Soul Degredation
+Desc: Damage the soul directly, hindering the target's ability to Prime.
+Skill Class: Abilites
+Cost: 150MP
+Skill Type: HP Damage
+Formula: b.tp -= 50; 500
+Element: Soul
+Variance: 99
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Void Scar", "50%"]]
+---
+Id 311: Death explosion
+Desc: pow
+Skill Class: Abilites
+Scope: The User
+Effects and Traits: [["Add State: ", "Death Explosion", "100%"]]
+---
+Id 312: Death Explosion
+Desc: bang
+Skill Class: Unique
+Skill Type: HP Damage
+Formula: a.remove_state(109); a.add_state(1); 1000
+Variance: 0
+Critical: true
+Scope: One Enemy
+---
+Id 313: Identify
+Desc: Read up on a target's weaknesses, and make them known. Lowers the target's DEF and MDF permanently.
+Skill Class: Abilites
+Cost: 20PR
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Identified", "100%"]]
+---
+Id 314: Treasure Hunt
+Desc: Sod this battle, you'd rather go digging for TREASURE!
+Skill Class: Abilites
+Cost: 5PR
+Scope: None
+Effects and Traits: []
+---
+Id 315: Bony Barrage
+Desc: Hit your target again and again for around 500 damage each time.
+Skill Class: Abilites
+Cost: 20PR
+Skill Type: HP Damage
+Formula: 500
+Variance: 10
+Critical: true
+Scope: One Enemy
+Effects and Traits: []
+---
+Id 316: Enduring Frostbite
+Desc: A powerful attack of concentrated ice that will always inflict a more painful version of Freezing.
+Skill Class: Abilites
+Cost: 120MP
+Skill Type: HP Damage
+Formula: (a.atk * 3) + (a.mat * 3) - (b.def * 2)
+Element: Ice
+Variance: 15
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Frostbite", "1000%"]]
+---
+Id 317: Weakening Field
+Desc: Grasp a target in an energy dense prison, disrupting the connection between soul and body. They cannot move in this time.
+Skill Class: Magic
+Cost: 80MP
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Weakening Field", "100%"]]
+---
+Id 318: Illusory Clones
+Desc: Generate copies of yourself, massively increasing EVA until you get damaged.
+Skill Class: Magic
+Cost: 50MP
+Scope: The User
+Effects and Traits: [["Add State: ", "Illusory Clones", "100%"]]
+---
+Id 319: Soul Disruption
+Desc: Partially interrupt the field around a soul, reducing a target's MDF heavily. 
+Skill Class: Magic
+Cost: 45MP
+Scope: One Enemy
+Effects and Traits: [["Add Debuff: ", "MDF", ", 5 turns"], ["Add Debuff: ", "MDF", ", 5 turns"]]
+---
+Id 320: Hex
+Desc: Impose woe upon a target and greatly increase the chances of many states being applied. Also does some MP damage.
+Skill Class: Magic
+Cost: 30MP
+Skill Type: MP Damage
+Formula: 50
+Variance: 90
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Hexed", "100%"]]
+---
+Id 321: Gnarled Smasher Attack
+Desc: Heal an ally by SMASHING THEM IN THE FACE!
+Skill Class: None
+Skill Type: HP Recover
+Formula: a.atk * 4 - b.def * 2
+Variance: 20
+Critical: true
+Scope: One Ally
+---
+Id 323: Salted Wound
+Desc: Damage doubles if the target is Bleeding.
+Skill Class: Abilites
+Cost: 25PR
+Skill Type: HP Damage
+Formula: c=(a.atk*4-b.def*2); if b.state?(32); c *= 2; else; b.result.used=false; end; c
+Variance: 20
+Critical: false
+Scope: One Enemy
+---
+Id 324: Thunderous Sunder
+Desc: \}Bring down a mighty bolt of lightning upon your target, shattering any and all defences they may have felt safe behind. Prevents the target using defensive States and zeroes DEF and MDF for 2 turns.
+Skill Class: Magic
+Cost: 210MP
+Skill Type: HP Damage
+Formula: (a.mat * 5) - b.mdf
+Element: Storm
+Variance: 15
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Thunderous Sunder", "1000%"]]
+---
+Id 325: Encase
+Desc: \}Manipulate the ground beneath you to envelop a target under an earthen prison. They will be utterly immobile, but also invulnerable, for the duration. Will always go last in the turn order.
+Skill Class: Abilites
+Cost: 220MP
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Encased", "100%"]]
+---
+Id 326: Echoes of Burdens
+Desc: Transfer every single state or debuff (positive or negative) from the user to a target enemy.
+Skill Class: Magic
+Cost: 100MP
+Skill Type: HP Damage
+Formula: a.states.each {|state| b.add_state(state.id)}; a.clear_states; 0
+Variance: 0
+Critical: false
+Scope: One Enemy
+---
+Id 327: Holy Nova
+Desc: Burst with energy sourced from Eternum. Restore all allies HP significantly and MP completely.
+Skill Class: Magic
+Cost: 70PR
+Skill Type: HP Recover
+Formula: 2500 + a.mat
+Variance: 15
+Critical: false
+Scope: All Allies
+Effects and Traits: [["Recover MP: ", "100%", ""]]
+---
+Id 328: Splurge
+Desc: \fiSquelching noise.
+Skill Class: Abilites
+Cost: 15PR
+Skill Type: HP Damage
+Formula: 100
+Variance: 50
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Oozed", "100%"]]
+---
+Id 330: Attack
+Desc: Commands \V[93] to strike an enemy.
+Skill Class: Unique
+Skill Type: HP Damage
+Formula: (($game_variables[97] * $game_variables[95]) * 1.5) - b.def
+Element: 
+Unique
+Variance: 20
+Critical: false
+Scope: One Enemy
+Effects and Traits: []
+---
+Id 331: Retrieve
+Desc: Send out \V[93] to potentially find and recover an item for use.
+Skill Class: Unique
+Cost: 5PR
+Scope: None
+Effects and Traits: []
+---
+Id 332: Raptor's Onslaught
+Desc: Commands \V[93] to attack all foes in a single swift motion. 
+Skill Class: Unique
+Skill Type: HP Damage
+Formula: (($game_variables[97] * $game_variables[95])) - b.def
+Element: 
+Unique
+Variance: 20
+Critical: false
+Scope: All Enemies
+Effects and Traits: []
+---
+Id 333: Comfort
+Desc: \}\V[93] loves you and is showing affection. Recovers a small amount of HP and removes some niche states such as Swarmed or Constricted. Can also remove Fear, Savage, or Hopeless at a reduced rate.
+Skill Class: Abilites
+Skill Type: HP Recover
+Formula: 50 + $game_variables[97]
+Element: 
+Unique
+Variance: 30
+Critical: false
+Scope: One Ally
+Effects and Traits: [["Remove State: ", "Swarmed", "100%"], ["Remove State: ", "Constricted", "100%"], ["Remove State: ", "Confusion", "100%"], ["Remove State: ", "Sleep", "100%"], ["Remove State: ", "Fear", "50%"], ["Remove State: ", "Savage", "50%"], ["Remove State: ", "Hopeless", "50%"]]
+---
+Id 334: Rending Talons
+Desc: Commands \V[93] to strike an enemy and sunder their DEF.
+Skill Class: Unique
+Cost: 5PR
+Skill Type: HP Damage
+Formula: (($game_variables[97] * $game_variables[95])) - b.def
+Element: 
+Unique
+Variance: 20
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add Debuff: ", "DEF", ", 3 turns"]]
+---
+Id 335: Symbol of Determination
+Desc: \V[93] inspires an ally to fight on.
+Skill Class: Unique
+Cost: 5PR
+Scope: One Ally
+Effects and Traits: [["Add State: ", "Inspired", "100%"]]
+---
+Id 337: Raptor's Onslaught
+Desc: Attack all foes in a single swift motion. 
+Skill Class: Abilites
+Skill Type: HP Damage
+Formula: (a.atk * 3) - b.def
+Variance: 20
+Critical: false
+Scope: All Enemies
+Effects and Traits: []
+---
+Id 338: Rending Talons
+Desc: Strike an enemy and sunder their DEF.
+Skill Class: Abilites
+Cost: 5PR
+Skill Type: HP Damage
+Formula: (a.atk * 4) - b.def
+Variance: 20
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add Debuff: ", "DEF", ", 3 turns"]]
+---
+Id 339: Geobite
+Desc: Bite into a target with teeth of stone, ignoring their DEF and likely to cause Bleeding.
+Skill Class: Abilites
+Cost: 15PR
+Skill Type: HP Damage
+Formula: a.atk * 3
+Element: Earth
+Variance: 10
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Bleeding", "30%"]]
+---
+Id 340: Fester
+Desc: Damage doubles if the target is Plagued. Generates 10 PR.
+Skill Class: Magic
+Cost: 40MP
+Skill Type: HP Damage
+Formula: c=(a.mat*4-b.mdf*2); if b.state?(95); c *= 2; else; b.result.used=false; end; c
+Variance: 20
+Critical: false
+Scope: One Enemy
+---
+Id 341: Doomsay
+Desc: Damage doubles if the target has Fear or Hopeless.
+Skill Class: Magic
+Cost: 45MP
+Skill Type: HP Damage
+Formula: c=(a.mat*4-b.mdf); if b.state?(53) || b.state?(31); c *= 2; else; b.result.used=false; end; c
+Element: Dark
+Variance: 20
+Critical: false
+Scope: One Enemy
+---
+Id 342: Cryoshock
+Desc: Suddenly drop the temperature of the air around a target. Damage doubles if the target is already Freezing.
+Skill Class: Magic
+Cost: 35MP
+Skill Type: HP Damage
+Formula: c=(a.mat*4-b.mdf*2); if b.state?(26); c *= 2; else; b.result.used=false; end; c
+Element: Ice
+Variance: 20
+Critical: false
+Scope: One Enemy
+---
+Id 343: Scarred Agony
+Desc: Damage doubles if the target is Void Scarred. 
+Skill Class: Magic
+Cost: 60MP
+Skill Type: HP Damage
+Formula: c=(a.mat*4); if b.state?(59); c *= 2; else; b.result.used=false; end; c
+Element: Soul
+Variance: 20
+Critical: false
+Scope: One Enemy
+---
+Id 344: Noxious Culling
+Desc: Damage doubles if the target is Poisoned. 
+Skill Class: Magic
+Cost: 30MP
+Skill Type: HP Damage
+Formula: c=(a.mat*4-b.mdf*2); if b.state?(2); c *= 2; else; b.result.used=false; end; c
+Element: Nature
+Variance: 20
+Critical: false
+Scope: One Enemy
+---
+Id 345: Dragon Quake
+Desc: Set up super quake
+Skill Class: Magic
+Scope: The User
+Effects and Traits: [["Add State: ", "Dragon Quake", "100%"]]
+---
+Id 346: Dragon Quake
+Desc: Attack
+Skill Class: Unique
+Skill Type: HP Damage
+Formula: (a.mat * 3 + a.atk * 3 - b.def) + 150
+Element: Earth
+Variance: 20
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Stun", "25%"], ["Add State: ", "Knocked Over", "50%"]]
+---
+Id 347: Tail Bash
+Desc: Wack a target with your bigass tail. High chance to stun.
+Skill Class: Abilites
+Cost: 20PR
+Skill Type: HP Damage
+Formula: (a.atk * 3 - b.def) + 150
+Variance: 10
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Stun", "50%"]]
+---
