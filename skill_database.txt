@@ -329,28 +329,28 @@ Desc: Lower all enemies' ATK.
 Skill Class: Magic
 Cost: 9MP
 Scope: All Enemies
-Effects and Traits: [["Add Debuff: ", "ATK", ", 5 turns"]]
+Effects and Traits: [["Add Debuff: ", "ATK", "5 turns"]]
 ---
 Id 46: Curse Armour
 Desc: Lower all enemies' DEF.
 Skill Class: Magic
 Cost: 8MP
 Scope: All Enemies
-Effects and Traits: [["Add Debuff: ", "DEF", ", 5 turns"]]
+Effects and Traits: [["Add Debuff: ", "DEF", "5 turns"]]
 ---
 Id 47: Divine Curse
 Desc: Lower all enemies' MDF.
 Skill Class: Magic
 Cost: 7MP
 Scope: All Enemies
-Effects and Traits: [["Add Debuff: ", "MDF", ", 5 turns"]]
+Effects and Traits: [["Add Debuff: ", "MDF", "5 turns"]]
 ---
 Id 48: Slow Move
 Desc: Lower all enemies' AGI.
 Skill Class: Magic
 Cost: 6MP
 Scope: All Enemies
-Effects and Traits: [["Add Debuff: ", "AGI", ", 5 turns"]]
+Effects and Traits: [["Add Debuff: ", "AGI", "5 turns"]]
 ---
 Id 49: Life Drain
 Desc: Drains HP from one enemy.
@@ -718,7 +718,7 @@ Desc: For 6 turns, greatly boost DEF for party.
 Skill Class: Magic
 Cost: 45MP
 Scope: All Allies
-Effects and Traits: [["Add Buff: ", "DEF", ", 6 turns"], ["Add Buff: ", "DEF", ", 6 turns"]]
+Effects and Traits: [["Add Buff: ", "DEF", "6 turns"], ["Add Buff: ", "DEF", "6 turns"]]
 ---
 Id 95: Aura Blade
 Desc: Sword Skill. Target is likely to be Silenced. Damage is based off user's ATK and MAT.
@@ -736,7 +736,7 @@ Desc: For 3 turns, boost MDF for party.
 Skill Class: Abilites
 Cost: 30MP
 Scope: All Allies
-Effects and Traits: [["Add Buff: ", "MDF", ", 3 turns"]]
+Effects and Traits: [["Add Buff: ", "MDF", "3 turns"]]
 ---
 Id 99: Radiant Blade
 Desc: Imbue your sword with Light and slice through all those that stand against you. Damage is based on user's ATK and MAT.
@@ -808,7 +808,7 @@ Formula: a.atk * 4 - b.def * 2
 Variance: 20
 Critical: false
 Scope: One Enemy
-Effects and Traits: [["Add Debuff: ", "ATK", ", 3 turns"]]
+Effects and Traits: [["Add Debuff: ", "ATK", "3 turns"]]
 ---
 Id 106: Armour Break
 Desc: Attacks enemy and lowers DEF.
@@ -819,56 +819,56 @@ Formula: a.atk * 4 - b.def * 2
 Variance: 20
 Critical: false
 Scope: One Enemy
-Effects and Traits: [["Add Debuff: ", "DEF", ", 3 turns"]]
+Effects and Traits: [["Add Debuff: ", "DEF", "3 turns"]]
 ---
 Id 108: Aura of Earth
 Desc: Generate small rocks to orbit you and your allies, increasing PDR and DEF.
 Skill Class: Magic
 Cost: 150MP
 Scope: All Allies
-Effects and Traits: [["Add State: ", "Aura of Earth", "100%"], ["Add Buff: ", "DEF", ", 3 turns"]]
+Effects and Traits: [["Add State: ", "Aura of Earth", "100%"], ["Add Buff: ", "DEF", "3 turns"]]
 ---
 Id 109: Aura of Storms
 Desc: A strong wind sparking with electricity swirls around you and your allies, giving their attacks Storm element and a chance to invoke Thunderstorm.
 Skill Class: Magic
 Cost: 150MP
 Scope: All Allies
-Effects and Traits: [["Add State: ", "Aura of Storms", "100%"], ["Add Buff: ", "AGI", ", 3 turns"]]
+Effects and Traits: [["Add State: ", "Aura of Storms", "100%"], ["Add Buff: ", "AGI", "3 turns"]]
 ---
 Id 110: Aura of Darkness
 Desc: You and your allies subtly glow black, giving immunity to debuffs (not states).
 Skill Class: Magic
 Cost: 150MP
 Scope: All Allies
-Effects and Traits: [["Add State: ", "Aura of Darkness", "100%"], ["Add Buff: ", "LUK", ", 3 turns"]]
+Effects and Traits: [["Add State: ", "Aura of Darkness", "100%"], ["Add Buff: ", "LUK", "3 turns"]]
 ---
 Id 111: Aura of Light
 Desc: You and your allies subtly glow, greatly increasing REC.
 Skill Class: Magic
 Cost: 150MP
 Scope: All Allies
-Effects and Traits: [["Add State: ", "Aura of Light", "100%"], ["Add Buff: ", "MHP", ", 3 turns"]]
+Effects and Traits: [["Add State: ", "Aura of Light", "100%"], ["Add Buff: ", "MHP", "3 turns"]]
 ---
 Id 112: Aura of Vapour
 Desc: You and your allies are surrounded in a shimmering cloud of vapour, greatly increasing EVA and CEV.
 Skill Class: Magic
 Cost: 150MP
 Scope: All Allies
-Effects and Traits: [["Add State: ", "Aura of Vapour", "100%"], ["Add Buff: ", "MDF", ", 3 turns"]]
+Effects and Traits: [["Add State: ", "Aura of Vapour", "100%"], ["Add Buff: ", "MDF", "3 turns"]]
 ---
 Id 113: Aura of Flames
 Desc: You and your allies are surrounded by whirling embers, greatly increasing counter chance.
 Skill Class: Magic
 Cost: 150MP
 Scope: All Allies
-Effects and Traits: [["Add State: ", "Aura of Flames", "100%"], ["Add Buff: ", "ATK", ", 3 turns"]]
+Effects and Traits: [["Add State: ", "Aura of Flames", "100%"], ["Add Buff: ", "ATK", "3 turns"]]
 ---
 Id 114: Aura of Souls
 Desc: You and your allies are surrounded by small white wisps, granting significant MMP regeneration.
 Skill Class: Magic
 Cost: 150MP
 Scope: All Allies
-Effects and Traits: [["Add State: ", "Aura of Souls", "100%"], ["Add Buff: ", "MAT", ", 3 turns"]]
+Effects and Traits: [["Add State: ", "Aura of Souls", "100%"], ["Add Buff: ", "MAT", "3 turns"]]
 ---
 Id 119: Magic Reflect
 Desc: Set up a magical barrier that deflects all incoming magic. Lasts 3 turns.
@@ -882,14 +882,14 @@ Desc: For 5 turns, greatly increase user's MAT.
 Skill Class: Abilites
 Cost: 25PR
 Scope: The User
-Effects and Traits: [["Add Buff: ", "MAT", ", 5 turns"], ["Add Buff: ", "MAT", ", 5 turns"]]
+Effects and Traits: [["Add Buff: ", "MAT", "5 turns"], ["Add Buff: ", "MAT", "5 turns"]]
 ---
 Id 121: Nightmare
 Desc: Puts all enemies to sleep and lower their MDF.
 Skill Class: Abilites
 Cost: 100MP
 Scope: All Enemies
-Effects and Traits: [["Add State: ", "Sleep", "50%"], ["Add Debuff: ", "MDF", ", 5 turns"]]
+Effects and Traits: [["Add State: ", "Sleep", "50%"], ["Add Debuff: ", "MDF", "5 turns"]]
 ---
 Id 127: Righteous Support
 Desc: Heal an ally.
@@ -927,7 +927,7 @@ Desc: Fire up your allies and slightly increase ATK power.
 Skill Class: Magic
 Cost: 15MP
 Scope: All Allies
-Effects and Traits: [["Add Buff: ", "ATK", ", 4 turns"]]
+Effects and Traits: [["Add Buff: ", "ATK", "4 turns"]]
 ---
 Id 131: Soothing Rain
 Desc: Fire an arrow into the air that will rain down heals to the whole party.
@@ -980,7 +980,7 @@ Formula: (a.atk * 2) - b.def
 Variance: 10
 Critical: false
 Scope: One Enemy
-Effects and Traits: [["Add Debuff: ", "DEF", ", 5 turns"]]
+Effects and Traits: [["Add Debuff: ", "DEF", "5 turns"]]
 ---
 Id 137: Templar Instinct
 Desc: Enter a state of body and mind only the Templars are taught. Enter Parry Mode for a few turns.
@@ -1327,7 +1327,7 @@ Scope: All Enemies
 Effects and Traits: [["Add State: ", "Freezing", "10%"]]
 ---
 Id 173: Annihilation Ray
-Desc: A beam of pure dark energy is fired towards the target. Removes ALL buffs and states, then may still inflict Fear. afterwards.
+Desc: A beam of pure dark energy is fired towards the target. Removes ALL buffs and states, then may still inflict Fear afterwards.
 Skill Class: Magic
 Cost: 115MP
 Skill Type: HP Damage
@@ -1374,7 +1374,7 @@ Element: Fire
 Variance: 10
 Critical: true
 Scope: One Enemy
-Effects and Traits: [["Add State: ", "Burn", "60%"], ["Add Debuff: ", "MDF", ", 3 turns"], ["Add Debuff: ", "DEF", ", 3 turns"]]
+Effects and Traits: [["Add State: ", "Burn", "60%"], ["Add Debuff: ", "MDF", "3 turns"], ["Add Debuff: ", "DEF", "3 turns"]]
 ---
 Id 178: Focus
 Desc: Take a turn to focus, then on your next, use Careful Snipe.
@@ -1691,7 +1691,7 @@ Formula: 100
 Variance: 25
 Critical: false
 Scope: One Enemy
-Effects and Traits: [["Add Debuff: ", "ATK", ", 5 turns"]]
+Effects and Traits: [["Add Debuff: ", "ATK", "5 turns"]]
 ---
 Id 211: Pirouette
 Desc: A swift, dance-like manoeuvre that can make you attack your
@@ -1720,7 +1720,7 @@ Desc: Step back into a defensive stance, prepared for anything that comes your w
 Skill Class: Abilites
 Cost: 15PR
 Scope: The User
-Effects and Traits: [["Add State: ", "Parry Mode", "100%"], ["Add Buff: ", "DEF", ", 3 turns"]]
+Effects and Traits: [["Add State: ", "Parry Mode", "100%"], ["Add Buff: ", "DEF", "3 turns"]]
 ---
 Id 214: Hawk-Eyed
 Desc: Focus to new heights and hit more shots as a critical for a short time. Taking damage can cause you to lose focus.
@@ -1838,7 +1838,7 @@ Id 227: Broken Bottle
 Desc: Smash a bottle to use as a weapon. Raises ATK.
 Skill Class: Abilites
 Scope: The User
-Effects and Traits: [["Add Buff: ", "ATK", ", 4 turns"]]
+Effects and Traits: [["Add Buff: ", "ATK", "4 turns"]]
 ---
 Id 228: Drink
 Desc: Take a swig! Get back in there!
@@ -2043,7 +2043,7 @@ Formula: a.mat * 3
 Variance: 15
 Critical: false
 Scope: One Ally
-Effects and Traits: [["Add Buff: ", "DEF", ", 1000 turns"]]
+Effects and Traits: [["Add Buff: ", "DEF", "1000 turns"]]
 ---
 Id 254: Words Will Never Hurt Me
 Desc: Silences a target.
@@ -2208,7 +2208,7 @@ Formula: 2000 + (a.atk * 5)
 Variance: 15
 Critical: true
 Scope: One Enemy
-Effects and Traits: [["Add State: ", "Stun", "100%"], ["Add Debuff: ", "DEF", ", 5 turns"], ["Add Debuff: ", "DEF", ", 5 turns"]]
+Effects and Traits: [["Add State: ", "Stun", "100%"], ["Add Debuff: ", "DEF", "5 turns"], ["Add Debuff: ", "DEF", "5 turns"]]
 ---
 Id 278: Martyr's Heal
 Desc: 
@@ -2268,7 +2268,7 @@ Formula: 2500 + a.mat
 Variance: 25
 Critical: false
 Scope: All Allies
-Effects and Traits: [["Add Buff: ", "ATK", ", 3 turns"], ["Add Buff: ", "MAT", ", 3 turns"]]
+Effects and Traits: [["Add Buff: ", "ATK", "3 turns"], ["Add Buff: ", "MAT", "3 turns"]]
 ---
 Id 285: Abyssal Smite
 Desc: Smite down a target with infernal punishment. Inflicts high damage and will inflict a Void Scar.
@@ -2304,7 +2304,7 @@ Formula: (a.atk * 4 - b.def * 2)
 Variance: 20
 Critical: true
 Scope: One Enemy
-Effects and Traits: [["Add Debuff: ", "DEF", ", 1 turns"]]
+Effects and Traits: [["Add Debuff: ", "DEF", "1 turns"]]
 ---
 Id 289: Critical Force
 Desc: Hit a single target thrice, using your LUK for damage. Requires a bow.
@@ -2390,7 +2390,7 @@ Desc: Steel up your allies and slightly increase DEF for 4 turns.
 Skill Class: Magic
 Cost: 15MP
 Scope: All Allies
-Effects and Traits: [["Add Buff: ", "DEF", ", 4 turns"]]
+Effects and Traits: [["Add Buff: ", "DEF", "4 turns"]]
 ---
 Id 303: Rolling Thunder
 Desc: Invoke the strike of a massive lightning strike, only to be heard by the foes a turn after.
@@ -2449,7 +2449,7 @@ Formula: 3000 + (a.mat * 2)
 Variance: 10
 Critical: false
 Scope: The User
-Effects and Traits: [["Add Buff: ", "ATK", ", 5 turns"], ["Add Buff: ", "DEF", ", 5 turns"]]
+Effects and Traits: [["Add Buff: ", "ATK", "5 turns"], ["Add Buff: ", "DEF", "5 turns"]]
 ---
 Id 310: Soul Degredation
 Desc: Damage the soul directly, hindering the target's ability to Prime.
@@ -2532,7 +2532,7 @@ Desc: Partially interrupt the field around a soul, reducing a target's MDF heavi
 Skill Class: Magic
 Cost: 45MP
 Scope: One Enemy
-Effects and Traits: [["Add Debuff: ", "MDF", ", 5 turns"], ["Add Debuff: ", "MDF", ", 5 turns"]]
+Effects and Traits: [["Add Debuff: ", "MDF", "5 turns"], ["Add Debuff: ", "MDF", "5 turns"]]
 ---
 Id 320: Hex
 Desc: Impose woe upon a target and greatly increase the chances of many states being applied. Also does some MP damage.
@@ -2666,7 +2666,7 @@ Unique
 Variance: 20
 Critical: false
 Scope: One Enemy
-Effects and Traits: [["Add Debuff: ", "DEF", ", 3 turns"]]
+Effects and Traits: [["Add Debuff: ", "DEF", "3 turns"]]
 ---
 Id 335: Symbol of Determination
 Desc: \V[93] inspires an ally to fight on.
@@ -2693,7 +2693,7 @@ Formula: (a.atk * 4) - b.def
 Variance: 20
 Critical: false
 Scope: One Enemy
-Effects and Traits: [["Add Debuff: ", "DEF", ", 3 turns"]]
+Effects and Traits: [["Add Debuff: ", "DEF", "3 turns"]]
 ---
 Id 339: Geobite
 Desc: Bite into a target with teeth of stone, ignoring their DEF and likely to cause Bleeding.
