@@ -778,7 +778,7 @@ Element: Fire
 Variance: 10
 Critical: false
 Scope: One Enemy
-Effects and Traits: [["Add State: ", "Freezing", "25%"], ["Recover HP: ", "-0.05%", ""]]
+Effects and Traits: [["Add State: ", "Freezing", "25%"], ["Recover HP: ", "-5%", ""]]
 ---
 Id 103: Thorned Constriction
 Desc: Summon vines to erupt out of the ground and envelope an unfortunate target.
@@ -934,7 +934,7 @@ Desc: Fire an arrow into the air that will rain down heals to the whole party.
 Skill Class: Abilites
 Cost: 15MP
 Scope: All Allies
-Effects and Traits: [["Recover HP: ", "0.18%", ""]]
+Effects and Traits: [["Recover HP: ", "18%", ""]]
 ---
 Id 132: Pin Down
 Desc: \}Hit a target with a precise shot to keep them still. Reduces AGI, EVA, and increases debuff chance. Does not affect incorporeal or fluid creatures.
@@ -1129,7 +1129,7 @@ Desc: A mystical dark shadow covers the party, healing them and increasing DEF a
 Skill Class: Magic
 Cost: 35MP
 Scope: All Allies
-Effects and Traits: [["Add State: ", "Dark Shroud", "100%"], ["Recover HP: ", "0.15%", ""]]
+Effects and Traits: [["Add State: ", "Dark Shroud", "100%"], ["Recover HP: ", "15%", ""]]
 ---
 Id 153: Leadership
 Desc: \}Only a true leader can utilise their team to their full strength. Raises the ATK, DEF, HIT, and counter chance of all allies.
@@ -1143,7 +1143,7 @@ Desc: Recharge an ally's soul to get them back in the fight. 25% chance to reviv
 Skill Class: Magic
 Cost: 60MP
 Scope: One Ally (Dead)
-Effects and Traits: [["Remove State: ", "Death", "100%"], ["Recover HP: ", "0.25%", ""]]
+Effects and Traits: [["Remove State: ", "Death", "100%"], ["Recover HP: ", "25%", ""]]
 ---
 Id 155: Ice Wall
 Desc: Greatly increases own DEF and MDF. Also regenerates HP while active.
@@ -1273,7 +1273,7 @@ Desc: Heal all allies significantly and cures Fear.
 Skill Class: Magic
 Cost: 65MP
 Scope: All Allies
-Effects and Traits: [["Recover HP: ", "0.3%", ""], ["Remove State: ", "Fear", "100%"]]
+Effects and Traits: [["Recover HP: ", "30%", ""], ["Remove State: ", "Fear", "100%"]]
 ---
 Id 168: Blade Typhoon
 Desc: Spin a whirlpool of water and ice to cast at your target. Can cause Confusion, but will drench them.
@@ -1311,7 +1311,7 @@ Desc: Rebind the Soul and body of a fallen ally. 75% chance to revive and gives 
 Skill Class: Magic
 Cost: 120MP
 Scope: One Ally (Dead)
-Effects and Traits: [["Remove State: ", "Death", "100%"], ["Recover HP: ", "0.5%", ""]]
+Effects and Traits: [["Remove State: ", "Death", "100%"], ["Recover HP: ", "50%", ""]]
 ---
 Id 172: Blizzard
 Desc: Inflicts high damage, can freeze, but varies a lot. Also, gives
@@ -1602,7 +1602,7 @@ Desc: Focus your Soul power to restore 25% MP, at the cost of 10% HP.
 Skill Class: Abilites
 Cost: 15PR
 Scope: The User
-Effects and Traits: [["Recover MP: ", "25%", ""], ["Recover HP: ", "-0.1%", ""]]
+Effects and Traits: [["Recover MP: ", "25%", ""], ["Recover HP: ", "-10%", ""]]
 ---
 Id 202: Mark Target
 Desc: Mark a target. That target takes increased damage from all sources and inflicts less damage to you. Can fail.
@@ -1907,7 +1907,7 @@ Formula: a.agi / 4
 Variance: 15
 Critical: false
 Scope: The User
-Effects and Traits: [["Recover HP: ", "0.15%", ""]]
+Effects and Traits: [["Recover HP: ", "15%", ""]]
 ---
 Id 234: Magic Might
 Desc: Reduce your magic potential to massively increase your physical strength.
@@ -2345,7 +2345,7 @@ Id 294: Rich Tea Remedy
 Desc: Eat a biscuit and regain 50% HP!
 Skill Class: Abilites
 Scope: The User
-Effects and Traits: [["Recover HP: ", "0.5%", ""]]
+Effects and Traits: [["Recover HP: ", "50%", ""]]
 ---
 Id 295: Shortbread Shield
 Desc: Protect an ally completely.
@@ -2358,7 +2358,7 @@ Id 296: Liquood Drink
 Desc: Drink some liquood and regain 50% HP!
 Skill Class: Abilites
 Scope: The User
-Effects and Traits: [["Recover HP: ", "0.5%", ""]]
+Effects and Traits: [["Recover HP: ", "50%", ""]]
 ---
 Id 297: /kill
 Desc: Instantly kill a target.
