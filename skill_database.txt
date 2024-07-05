@@ -1266,7 +1266,7 @@ Desc: Clears all foes of any buffs and throws off their guard. Priority move.
 Skill Class: Magic
 Cost: 45MP
 Scope: All Enemies
-Effects and Traits: [["Remove Buff: ", "MHP", ", 0 turns"], ["Remove Buff: ", "MMP", ", 0 turns"], ["Remove Buff: ", "ATK", ", 0 turns"], ["Remove Buff: ", "DEF", ", 0 turns"], ["Remove Buff: ", "MAT", ", 0 turns"], ["Remove Buff: ", "MDF", ", 0 turns"], ["Remove Buff: ", "AGI", ", 0 turns"], ["Remove Buff: ", "LUK", ", 0 turns"], ["Remove State: ", "", "100%"], ["Remove State: ", "Irradiated", "100%"], ["Remove State: ", "Fireflies", "100%"], ["Remove State: ", "Aura of Earth", "100%"], ["Remove State: ", "Ready for Harvest", "100%"], ["Remove State: ", "Parry Mode", "100%"], ["Remove State: ", "Aura of Storms", "100%"], ["Remove State: ", "Aura of Darkness", "100%"], ["Remove State: ", "Aura of Light", "100%"], ["Remove State: ", "Aura of Vapour", "100%"], ["Remove State: ", "Aura of Flames", "100%"], ["Remove State: ", "Aura of Souls", "100%"], ["Remove State: ", "Tailwind", "100%"], ["Remove State: ", "Winter", "100%"], ["Remove State: ", "Ice Wall", "100%"], ["Remove State: ", "Guard", "100%"], ["Remove State: ", "Bunkered Down", "100%"], ["Remove State: ", "Mystic Armour", "100%"], ["Remove State: ", "Dark Shroud", "100%"], ["Remove State: ", "Particle Shell", "100%"], ["Remove State: ", "Frostbite", "100%"], ["Remove State: ", "Flameskin", "100%"], ["Remove State: ", "Magic Might", "100%"]]
+Effects and Traits: [["Remove Buff: ", "MHP"], ["Remove Buff: ", "MMP"], ["Remove Buff: ", "ATK"], ["Remove Buff: ", "DEF"], ["Remove Buff: ", "MAT"], ["Remove Buff: ", "MDF"], ["Remove Buff: ", "AGI"], ["Remove Buff: ", "LUK"], ["Remove State: ", "", "100%"], ["Remove State: ", "Irradiated", "100%"], ["Remove State: ", "Fireflies", "100%"], ["Remove State: ", "Aura of Earth", "100%"], ["Remove State: ", "Ready for Harvest", "100%"], ["Remove State: ", "Parry Mode", "100%"], ["Remove State: ", "Aura of Storms", "100%"], ["Remove State: ", "Aura of Darkness", "100%"], ["Remove State: ", "Aura of Light", "100%"], ["Remove State: ", "Aura of Vapour", "100%"], ["Remove State: ", "Aura of Flames", "100%"], ["Remove State: ", "Aura of Souls", "100%"], ["Remove State: ", "Tailwind", "100%"], ["Remove State: ", "Winter", "100%"], ["Remove State: ", "Ice Wall", "100%"], ["Remove State: ", "Guard", "100%"], ["Remove State: ", "Bunkered Down", "100%"], ["Remove State: ", "Mystic Armour", "100%"], ["Remove State: ", "Dark Shroud", "100%"], ["Remove State: ", "Particle Shell", "100%"], ["Remove State: ", "Frostbite", "100%"], ["Remove State: ", "Flameskin", "100%"], ["Remove State: ", "Magic Might", "100%"]]
 ---
 Id 167: Sacred Light
 Desc: Heal all allies significantly and cures Fear.
@@ -1336,7 +1336,7 @@ Element: Dark
 Variance: 15
 Critical: true
 Scope: One Enemy
-Effects and Traits: [["Add State: ", "Fear", "30%"], ["Remove Buff: ", "MHP", ", 0 turns"], ["Remove Buff: ", "MMP", ", 0 turns"], ["Remove Buff: ", "ATK", ", 0 turns"], ["Remove Buff: ", "DEF", ", 0 turns"], ["Remove Buff: ", "MAT", ", 0 turns"], ["Remove Buff: ", "MDF", ", 0 turns"], ["Remove Buff: ", "AGI", ", 0 turns"], ["Remove Buff: ", "LUK", ", 0 turns"]]
+Effects and Traits: [["Add State: ", "Fear", "30%"], ["Remove Buff: ", "MHP"], ["Remove Buff: ", "MMP"], ["Remove Buff: ", "ATK"], ["Remove Buff: ", "DEF"], ["Remove Buff: ", "MAT"], ["Remove Buff: ", "MDF"], ["Remove Buff: ", "AGI"], ["Remove Buff: ", "LUK"]]
 ---
 Id 174: Super Tailwind
 Desc: Gives the whole team Tailwind, Force of the Air effects, and gain 3 PR.
@@ -1884,7 +1884,7 @@ Element: Light
 Variance: 15
 Critical: true
 Scope: One Enemy
-Effects and Traits: [["Remove Buff: ", "MHP", ", 0 turns"], ["Remove Buff: ", "MMP", ", 0 turns"], ["Remove Buff: ", "ATK", ", 0 turns"], ["Remove Buff: ", "DEF", ", 0 turns"], ["Remove Buff: ", "MAT", ", 0 turns"], ["Remove Buff: ", "MDF", ", 0 turns"], ["Remove Buff: ", "AGI", ", 0 turns"], ["Remove Buff: ", "LUK", ", 0 turns"]]
+Effects and Traits: [["Remove Buff: ", "MHP"], ["Remove Buff: ", "MMP"], ["Remove Buff: ", "ATK"], ["Remove Buff: ", "DEF"], ["Remove Buff: ", "MAT"], ["Remove Buff: ", "MDF"], ["Remove Buff: ", "AGI"], ["Remove Buff: ", "LUK"]]
 ---
 Id 232: Dragonspiral Realm
 Desc: This mysterious art can only come about when three Dragonspiral users put aside their differences and unite!
@@ -1921,7 +1921,7 @@ Desc: Clears all allies of any debuffs and may give a Tailwind. Priority move.
 Skill Class: Magic
 Cost: 30MP
 Scope: All Allies
-Effects and Traits: [["Remove Debuff: ", "MHP", ", 0 turns"], ["Remove Debuff: ", "MMP", ", 0 turns"], ["Remove Debuff: ", "ATK", ", 0 turns"], ["Remove Debuff: ", "DEF", ", 0 turns"], ["Remove Debuff: ", "MAT", ", 0 turns"], ["Remove Debuff: ", "MDF", ", 0 turns"], ["Remove Debuff: ", "AGI", ", 0 turns"], ["Remove Debuff: ", "LUK", ", 0 turns"], ["Remove State: ", "Savage", "100%"], ["Add State: ", "Tailwind", "50%"]]
+Effects and Traits: [["Remove Debuff: ", "MHP"], ["Remove Debuff: ", "MMP"], ["Remove Debuff: ", "ATK"], ["Remove Debuff: ", "DEF"], ["Remove Debuff: ", "MAT"], ["Remove Debuff: ", "MDF"], ["Remove Debuff: ", "AGI"], ["Remove Debuff: ", "LUK"], ["Remove State: ", "Savage", "100%"], ["Add State: ", "Tailwind", "50%"]]
 ---
 Id 236: Void Step
 Desc: An ability that can transport you almost instantly to distant locations at the will of the user.
