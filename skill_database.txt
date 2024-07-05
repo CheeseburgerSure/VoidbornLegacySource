@@ -2645,7 +2645,7 @@ Critical: false
 Scope: All Enemies
 Effects and Traits: [["Add State: ", "Oozed", "100%"]]
 ---
-Id 330: Attack
+Id 330: Sparrowhawk Attack
 Desc: Commands \V[93] to strike an enemy.
 Skill Class: Unique
 Skill Type: HP Damage
