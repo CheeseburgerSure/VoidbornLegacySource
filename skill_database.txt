@@ -6,7 +6,6 @@ Formula: a.atk * 4 - b.def * 2
 Variance: 20
 Critical: true
 Scope: One Enemy
-Effects and Traits: []
 ---
 Id 2: Guard
 Desc: Protects user and reduces damage taken.
@@ -23,7 +22,6 @@ Formula: (a.atk * 4 - b.def * 2) - 25
 Variance: 15
 Critical: true
 Scope: One Enemy
-Effects and Traits: []
 ---
 Id 4: Double Attack
 Desc: Attacks two random enemies.
@@ -34,7 +32,6 @@ Formula: (a.atk * 4 - b.def * 2) - 50
 Variance: 20
 Critical: true
 Scope: 2 Random Enemies
-Effects and Traits: []
 ---
 Id 5: Triple Attack
 Desc: Attacks three random enemies.
@@ -44,13 +41,11 @@ Formula: a.atk * 4 - b.def * 2
 Variance: 20
 Critical: true
 Scope: 3 Random Enemies
-Effects and Traits: []
 ---
 Id 6: Escape
 Desc: Enemy action. Causes enemy to flee from battle.
 Skill Class: None
 Scope: The User
-Effects and Traits: []
 ---
 Id 7: Wait
 Desc: Does nothing.
@@ -672,7 +667,6 @@ Formula: a.atk * 5 - b.def
 Variance: 20
 Critical: false
 Scope: One Enemy
-Effects and Traits: []
 ---
 Id 81: Cleave
 Desc: An attack against all enemies.
@@ -683,7 +677,6 @@ Formula: a.atk * 4 - b.def * 2
 Variance: 20
 Critical: false
 Scope: All Enemies
-Effects and Traits: []
 ---
 Id 85: Tackle
 Desc: Attack that may offset an enemy's balance. Damage is based on user's ATK and DEF.
@@ -959,7 +952,6 @@ Desc: Halves own health to fully heal the team.
 Skill Class: Abilites
 Cost: 25MP
 Scope: All Allies
-Effects and Traits: []
 ---
 Id 134: Holy Aura
 Desc: Exerts an aura to negate the chance of gaining some status conditions for a short time.
@@ -1006,7 +998,6 @@ Formula: (a.atk * 4 - b.def * 2) - 90
 Variance: 25
 Critical: true
 Scope: 3 Random Enemies
-Effects and Traits: []
 ---
 Id 140: Tailwind
 Desc: Summon a tailwind that increases your party's agility and evasiveness.
@@ -1227,7 +1218,6 @@ Formula: (a.atk * 5 - b.def * 2) + 250
 Variance: 10
 Critical: true
 Scope: One Enemy
-Effects and Traits: []
 ---
 Id 162: Divine Burst
 Desc: A burst of radiant energy that affects all enemies. Cannot miss.
@@ -1477,7 +1467,6 @@ Formula: (a.atk * 4 - b.def) + 15
 Variance: 10
 Critical: true
 Scope: One Enemy
-Effects and Traits: []
 ---
 Id 188: Bunker Down
 Desc: \}Extend your shield or armour around you, increasing your DEF and MDF drastically, but restricts your movement.
@@ -1512,7 +1501,6 @@ Formula: 100 + (a.atk * 2 - b.def)
 Variance: 25
 Critical: true
 Scope: One Enemy
-Effects and Traits: []
 ---
 Id 192: Nature's Impact
 Desc: \}Blast all opponents with a mighty gust of wind full of splinters of wood and jagged rocks. Very likely to knock over targets.
@@ -1535,7 +1523,6 @@ Formula: a.atk * 4 - b.def * 2
 Variance: 20
 Critical: true
 Scope: 2 Random Enemies
-Effects and Traits: []
 ---
 Id 194: Butter
 Desc: Butter your target, and if that doesn't work, use more butter.
@@ -1556,7 +1543,6 @@ Formula: 2000 - (b.mdf * 3)
 Variance: 25
 Critical: true
 Scope: 3 Random Enemies
-Effects and Traits: []
 ---
 Id 196: Fishslap
 Desc: Wield your presumably wet and slimy fish as a mighty weapon to assault your foes. This can confuse people.
@@ -1610,7 +1596,6 @@ Desc: \}Unleash all of your power into a single recovery of the ultimate strengt
 Skill Class: Abilites
 Cost: 200MP
 Scope: All Allies
-Effects and Traits: []
 ---
 Id 201: Soul Redirection
 Desc: Focus your Soul power to restore 25% MP, at the cost of 10% HP.
@@ -1653,7 +1638,6 @@ Formula: a.atk * 3.5
 Variance: 15
 Critical: true
 Scope: One Enemy
-Effects and Traits: []
 ---
 Id 206: Acid Spray
 Desc: Spray a jet of acidic fluid towards a target, ignoring DEF. Can burn the target or reduce their defences.
@@ -1686,7 +1670,6 @@ Formula: 150 + (a.atk * 3.5)
 Variance: 15
 Critical: true
 Scope: One Enemy
-Effects and Traits: []
 ---
 Id 209: Devastating Blow
 Desc: Annihilate a foe with a mighty bludgeon. High chance to stun.
@@ -1720,7 +1703,6 @@ Formula: 250 + (a.atk * 3 - b.def)
 Variance: 25
 Critical: true
 Scope: One Enemy
-Effects and Traits: []
 ---
 Id 212: Lumber Mill
 Desc: Strike at your opponents with such ferocity, you could probably even chop them in half. Can instantly kill targets.
@@ -1774,7 +1756,6 @@ Formula: a.atk *4 - b.def * 2
 Variance: 15
 Critical: true
 Scope: One Enemy
-Effects and Traits: []
 ---
 Id 218: Siphoning Shot
 Desc: Drain the MP of your target and regain your own using powerful magic arrows.
@@ -1784,7 +1765,6 @@ Formula: a.atk * 4 - b.mdf * 4
 Variance: 5
 Critical: true
 Scope: One Enemy
-Effects and Traits: []
 ---
 Id 219: Shield Charge
 Desc: Brandishing your shield, ram into an opponent with full force. Will stun your target. Uses your DEF for damage.
@@ -1805,7 +1785,6 @@ Formula: a.atk * 3.5
 Variance: 15
 Critical: true
 Scope: One Enemy
-Effects and Traits: []
 ---
 Id 221: Lesser Prime
 Desc: Your ultimate Soul power is unleashed! Enter your PRIMED FORM!
@@ -1948,7 +1927,6 @@ Id 236: Void Step
 Desc: An ability that can transport you almost instantly to distant locations at the will of the user.
 Skill Class: Magic
 Scope: None
-Effects and Traits: []
 ---
 Id 242: Thunderflash
 Desc: Casts a bolt of lightning at a target with a high chance to blind.
@@ -2139,7 +2117,6 @@ Desc: Call forth additional Hornets to aid in battle.
 Skill Class: Abilites
 Cost: 25PR
 Scope: The User
-Effects and Traits: []
 ---
 Id 264: Harrass
 Desc: As a group, swarm around a target for a while, restricting their actions and stinging as you go.
@@ -2221,7 +2198,6 @@ Formula: 100 + (a.atk * 2)
 Variance: 20
 Critical: true
 Scope: One Enemy
-Effects and Traits: []
 ---
 Id 277: Catastrophic Impact
 Desc: Crush a feeble target with insurmountable force. Will always stun and stack two DEF debuffs.
@@ -2249,7 +2225,6 @@ Element: Earth
 Variance: 20
 Critical: false
 Scope: All Enemies
-Effects and Traits: []
 ---
 Id 280: Standing Stones
 Desc: Reduces incoming physical damage by 50% for all allies.
@@ -2277,7 +2252,6 @@ Formula: a.atk * 4 - b.def - b.mdf
 Variance: 20
 Critical: true
 Scope: 2 Random Enemies
-Effects and Traits: []
 ---
 Id 283: Void Shroud
 Desc: A thick cloud of Void energy envelopes the party, heavily restricting their sight.
@@ -2341,7 +2315,6 @@ Formula: (a.luk * 3) - (b.def * 2) - 50
 Variance: 25
 Critical: true
 Scope: One Enemy
-Effects and Traits: []
 ---
 Id 291: Digestive Deathray
 Desc: 
@@ -2397,7 +2370,6 @@ Id 298: Game Crash
 Desc: Literally just crashes the game.
 Skill Class: Abilites
 Scope: One Enemy
-Effects and Traits: []
 ---
 Id 299: random.choice(Skills)
 Desc: Just pick a random move!
@@ -2518,7 +2490,6 @@ Desc: Sod this battle, you'd rather go digging for TREASURE!
 Skill Class: Abilites
 Cost: 5PR
 Scope: None
-Effects and Traits: []
 ---
 Id 315: Bony Barrage
 Desc: Hit your target again and again for around 500 damage each time.
@@ -2529,7 +2500,6 @@ Formula: 500
 Variance: 10
 Critical: true
 Scope: One Enemy
-Effects and Traits: []
 ---
 Id 316: Enduring Frostbite
 Desc: A powerful attack of concentrated ice that will always inflict a more painful version of Freezing.
@@ -2655,14 +2625,12 @@ Unique
 Variance: 20
 Critical: false
 Scope: One Enemy
-Effects and Traits: []
 ---
 Id 331: Retrieve
 Desc: Send out \V[93] to potentially find and recover an item for use.
 Skill Class: Unique
 Cost: 5PR
 Scope: None
-Effects and Traits: []
 ---
 Id 332: Raptor's Onslaught
 Desc: Commands \V[93] to attack all foes in a single swift motion. 
@@ -2674,7 +2642,6 @@ Unique
 Variance: 20
 Critical: false
 Scope: All Enemies
-Effects and Traits: []
 ---
 Id 333: Comfort
 Desc: \}\V[93] loves you and is showing affection. Recovers a small amount of HP and removes some niche states such as Swarmed or Constricted. Can also remove Fear, Savage, or Hopeless at a reduced rate.
@@ -2716,7 +2683,6 @@ Formula: (a.atk * 3) - b.def
 Variance: 20
 Critical: false
 Scope: All Enemies
-Effects and Traits: []
 ---
 Id 338: Rending Talons
 Desc: Strike an enemy and sunder their DEF.

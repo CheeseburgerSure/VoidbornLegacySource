@@ -460,7 +460,6 @@ Price: 120G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 55: Salmon
 Desc: A huge fish caught in the bay of the Dunnock River, a delicacy in much of the world.
@@ -530,7 +529,6 @@ Price: 250G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 63: Ice'N'Fire:OppositesAttract
 Desc: A book explaining the uses of combining the magic of the Ice and Fire elements in combat.
@@ -539,7 +537,6 @@ Price: 178G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 64: Those That Want to Kill You
 Desc: A hefty book going into detail about various large monsters and strange beings.
@@ -548,7 +545,6 @@ Price: 166G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 65: Light: How I was Blinded
 Desc: A book retelling the story of wizard who blinded himself when creating Light elemental magic.
@@ -557,7 +553,6 @@ Price: 15G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 66: The Dark Ones in the Shadows
 Desc: A book recalling the events of the Lord of Chaos' reign and the damage he caused.
@@ -566,7 +561,6 @@ Price: 78G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 67: Cheese
 Desc: Not even Wensleydale?
@@ -766,7 +760,6 @@ Price: 255G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 91: Fish Oil Cream
 Desc: A viscous cream with various health benefits. Helps to clear blindness.
@@ -802,7 +795,6 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 95: Alric Portrait
 Desc: A portrait of Alric done by Hero Forge.
@@ -811,7 +803,6 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 96: Thaedrin Portrait
 Desc: A portrait of Thaedrin done by Hero Forge.
@@ -820,7 +811,6 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 97: Droconos Portrait
 Desc: A portrait of Droconos done by Hero Forge.
@@ -829,7 +819,6 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 98: Monster Repellant
 Desc: A jar of a viscous black fluid that seems to have the effect of repelling wild monsters for a time. Smells faintly of liquorice.
@@ -864,7 +853,6 @@ Price: 150G
 Consume: Yes
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 102: Conch Shell
 Desc: Some say that if you set the shell to your ear, you can hear the distant sound of the shipmaster yelling \}"Ahoy!"\{...
@@ -873,7 +861,6 @@ Price: 16G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 103: Seaweed
 Desc: Slimy, icky seaweed. Useful in alchemy.
@@ -952,7 +939,6 @@ Price: 0G
 Consume: Yes
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 112: Bone Apple Tea
 Desc: A biz are drink that makes peeple miss pell there words. It duhz taste gud tho, so bone apple tea!
@@ -1027,7 +1013,6 @@ Price: 600G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 121: Tamrindi
 Desc: A refreshing beverage from Cavadrak made from boiling a rare fruit. Restores a good amount of HP.
@@ -1122,7 +1107,6 @@ Price: 2000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 132: Powder Snow
 Desc: \}What's that? This is a generic and not interesting item? Well you try and come up with something more interesting! It's hard, y'know!
@@ -1147,7 +1131,6 @@ Price: 2000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 135: Magma Manuscript
 Desc: A book containing secrets to the craftmenship of some particularly hot gear.
@@ -1156,7 +1139,6 @@ Price: 2000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 136: Obsidian Shard
 Desc: A sharp chunk of obsidian born from the activity of Mt. Líflátlæ. Useful in alchemy.
@@ -1254,7 +1236,6 @@ Price: 15000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 149: Contaminated Conduit
 Desc: \}A Flow Conduit that was corrupted by pure Void energy. At every moment, you feel its malicious pull on your Soul. Useful in Alchemy.
@@ -1272,7 +1253,6 @@ Price: 2000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 151: Shocking Shenanigans
 Desc: Contains a list of recipes for the most striking of electrical equipment. How SHOCKING!
@@ -1281,7 +1261,6 @@ Price: 2000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 152: Tectonic Treatise
 Desc: A surprisingly heavy book that details many different earth-shattering alchemic recipes.
@@ -1290,7 +1269,6 @@ Price: 2000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 153: Aerodynamic Album
 Desc: A book that tells of recipes for even the quickest of adventurers.
@@ -1299,7 +1277,6 @@ Price: 2000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 154: Ma Rage Maker
 Desc: \}A small vial containing concentrated liquid that will make its drinker enraged for a short time. They will quickly suffer withdrawal afterwards, however.
@@ -1335,7 +1312,6 @@ Price: 2000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 159: Wrapped Gift
 Desc: A gift purchased from the market in Overlook to be delivered to \V[57], allegedly containing \V[58].
@@ -1352,7 +1328,6 @@ Price: 2000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 161: Dave Alricke: A Biography
 Desc: Davonious Alricke, perhaps the greatest scholar to grace Adremesis. Who was he, and what happened to him?
@@ -1361,7 +1336,6 @@ Price: 100G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 162: TheFourKingdoms:Where'dTheyGo?
 Desc: A book explaining the histories of the four kingdoms of Adremesis: Barrodor, Asceroth, Excellion, and Nobolia.
@@ -1370,7 +1344,6 @@ Price: 92G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 163: How to Utilise the Desert
 Desc: Earth element in combat is quite rare compared to many others, which allows its strengths to be widely unknown.
@@ -1379,7 +1352,6 @@ Price: 130G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 164: Ironbark Impedimenta
 Desc: \}Ironbark is a a type of tree found solely in the Sagely Grounds' western mountains, and this book details how to properly use it.
@@ -1388,7 +1360,6 @@ Price: 2000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 165: Hypersteel
 Desc: \}An alloy made by magically combining steel with solid ice. The result is a nigh indestructable metal that is the pride and joy of Marrarockan blacksmiths.
@@ -1551,7 +1522,6 @@ Price: 10000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 185: Ammunition Disc
 Desc: A disc for the Symbol Breaker that is yet to be twisted into an element, and so is useless.
@@ -1576,7 +1546,6 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 188: SymbolBreakerUserManual
 Desc: A small book written by Davonious Alricke describing in detail on how to wield his marvelous Symbol Breaker.
@@ -1585,7 +1554,6 @@ Price: 2500G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 189: Hydrocraft Handbook
 Desc: Dive into this meticulously curated volume and learn to harness the power of the seas.
@@ -1594,7 +1562,6 @@ Price: 2000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Effects and Traits: []
 ---
 Id 190: Support Brace
 Desc: \}A piece of Marrarockan ingenuity, this brace can instantly lock into place to support the stone above miners. Automatically spent to reduce the impact of cave-ins.
