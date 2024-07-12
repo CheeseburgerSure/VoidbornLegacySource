@@ -1,8 +1,1 @@
-Game_Interpreter:1411:in `eval': undefined local variable or method `feature' for #<Game_Interpreter:0x1275e420>, NameError
-	from (eval):9:in `each'
-	from (eval):9:in `command_355'
-	from Game_Interpreter:1411:in `eval'
-	from Game_Interpreter:1411:in `command_355'
-	from Game_Interpreter:197:in `execute_command'
-	from Game_Interpreter:103:in `run'
-	from Game_Interpreter:60:in `block in create_fiber'
+Game_BaseItem:20: stack level too deep, SystemStackError
