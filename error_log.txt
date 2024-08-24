@@ -1,4 +1,4 @@
-Game_Interpreter:1411:in `eval': undefined method `stop_anim_loop' for #<Game_Event:0xef87d80>, NoMethodError
+Game_Interpreter:1411:in `eval': undefined method `direction=' for #<Game_Event:0xf351ccc>, NoMethodError
 	from Game_Interpreter:1411:in `eval'
 	from Game_Interpreter:1411:in `command_355'
 	from Game_Interpreter:197:in `execute_command'
