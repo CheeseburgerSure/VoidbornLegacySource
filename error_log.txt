@@ -1,12 +1,8 @@
-AdditionalEquipmentFunctions:195:in `pay_skill_cost': undefined method `+' for nil:NilClass, NoMethodError
-	from Game_Battler:418:in `use_item'
-	from CombinedSkills:407:in `use_item'
-	from BestiaryBookAddon:136:in `use_item'
-	from BattleEngine:3088:in `use_item'
-	from Random Skill Invoke:160:in `use_item'
-	from BattleEngine:2997:in `execute_action'
-	from LunaticStates:558:in `execute_action'
-	from Scene_Battle:550:in `process_action'
+BattleEngine:2964:in `block in turn_end': uninitialized constant Scene_Battle::REV_RNG, NameError
+	from BattleEngine:2960:in `each'
+	from BattleEngine:2960:in `turn_end'
+	from LunaticStates:550:in `turn_end'
+	from Scene_Battle:545:in `process_action'
 	from Scene_Battle:48:in `update'
 	from BestiaryMain:1819:in `update'
 	from Scene_Base:14:in `main'
