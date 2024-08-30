@@ -1,11 +1,7 @@
-BattleEngine:2964:in `block in turn_end': uninitialized constant Scene_Battle::REV_RNG, NameError
-	from BattleEngine:2960:in `each'
-	from BattleEngine:2960:in `turn_end'
-	from LunaticStates:550:in `turn_end'
-	from Scene_Battle:545:in `process_action'
-	from Scene_Battle:48:in `update'
-	from BestiaryMain:1819:in `update'
-	from Scene_Base:14:in `main'
-	from SceneManager:23:in `run'
-	from Mapshot:986:in `run'
-	from Main:10:in `block in <main>'
+Game_Interpreter:1411:in `eval': undefined method `etype_id' for nil:NilClass, NoMethodError
+	from (eval):1:in `command_355'
+	from Game_Interpreter:1411:in `eval'
+	from Game_Interpreter:1411:in `command_355'
+	from Game_Interpreter:197:in `execute_command'
+	from Game_Interpreter:103:in `run'
+	from Game_Interpreter:60:in `block in create_fiber'
