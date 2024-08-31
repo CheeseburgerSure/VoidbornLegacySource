@@ -1,4 +1,5 @@
-Game_Interpreter:1411:in `eval': undefined method `etype_id' for nil:NilClass, NoMethodError
+Game_Interpreter:1411:in `eval': undefined method `equip_change_ok?' for nil:NilClass, NoMethodError
+	from Randoweisser:19:in `randoweisser'
 	from (eval):1:in `command_355'
 	from Game_Interpreter:1411:in `eval'
 	from Game_Interpreter:1411:in `command_355'
