@@ -1,4 +1,10 @@
-Game_Interpreter:1411:in `eval': undefined method `start_anim_loop' for nil:NilClass, NoMethodError
+Game_Interpreter:1411:in `eval': can't convert Symbol into Integer, TypeError
+	from Achievements:827:in `block in find_achievement_index'
+	from Achievements:826:in `times'
+	from Achievements:826:in `find_achievement_index'
+	from Achievements:791:in `tier?'
+	from Achievements:1769:in `gain_achievement'
+	from (eval):1:in `command_355'
 	from Game_Interpreter:1411:in `eval'
 	from Game_Interpreter:1411:in `command_355'
 	from Game_Interpreter:197:in `execute_command'
