@@ -1,5 +1,4 @@
-Game_Interpreter:1411:in `eval': undefined method `name' for nil:NilClass, NoMethodError
-	from (eval):1:in `command_355'
+Game_Interpreter:1411:in `eval': undefined method `start_anim_loop' for nil:NilClass, NoMethodError
 	from Game_Interpreter:1411:in `eval'
 	from Game_Interpreter:1411:in `command_355'
 	from Game_Interpreter:197:in `execute_command'
