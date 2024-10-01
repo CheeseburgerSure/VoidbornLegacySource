@@ -96,6 +96,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "HIT", "7%"], ["ExParam: ", "EVA", "7%"], ["ExParam: ", "CNT", "3%"]]
+Dropped By: [["Warden of Skies", "7%"]]
 ---
 Id 8: Dagger of Deceit
 Desc: A dagger concealed seamlessly in a candlestick. Gets past guard checks and remains hidden.
@@ -266,6 +267,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Ingredients: [["Leather", 1], ["Iron Ore", 1]]
+Dropped By: [["Skeleton", "9%"]]
 ---
 Id 20: Long Sword
 Desc: The standard sword used by travellers and military around the world.
@@ -279,6 +281,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Dropped By: [["Withered Skeleton", "8%"]]
 ---
 Id 21: Falcion
 Desc: A broad sword with a curved blade.
@@ -292,6 +295,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Dropped By: [["Amalgamation", "10%"], ["Languished Skeleton", "7%"]]
 ---
 Id 22: Hypersteel Sword
 Desc: Longsword made of the incredible mineral.
@@ -305,6 +309,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Dropped By: [["Writhing Amalgamation", "8%"]]
 ---
 Id 23: Rune Blade
 Desc: Engraved with magical runes.
@@ -318,6 +323,7 @@ Magical Attack: 10
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Dropped By: [["Contorted Amalgamation", "7%"]]
 ---
 Id 24: Tyrfing Sword
 Desc: A magic sword that brings triumph over evil.
@@ -331,6 +337,7 @@ Magical Attack: 20
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Dropped By: [["Ivy", "25%"]]
 ---
 Id 25: Drake Blade
 Desc: A sword imbued with the strength of Dragons.
@@ -400,6 +407,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Attack Skill:", "Scythe Attack"]]
+Dropped By: [["Ivy", "25%"]]
 ---
 Id 30: Dread Scythe
 Desc: A horrifying scythe utilised to intimidate the enemy before engaging them. Can inflict Fear.
@@ -586,6 +594,7 @@ Magical Defence: 0
 Agility: 10
 Luck: 10
 Features and Traits: [["ExParam: ", "EVA", "10%"], ["Can Dual Wield"]]
+Dropped By: [["Sage of the Bones", "7%"]]
 ---
 Id 43: Mace
 Desc: A circular club with metal spikes.
@@ -643,6 +652,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk State: ", "Stun", "6%"], ["Atk Element: ", "Unique"], ["Atk Speed: ", -5]]
+Dropped By: [["Skeletal Champion", "7%"]]
 ---
 Id 47: Terrahammer
 Desc: The world itself could crack under the weight of this mighty hammer.
@@ -658,6 +668,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Unique"], ["Atk Speed: ", -5], ["Atk State: ", "Stun", "8%"]]
 Ingredients: [["War Hammer", 1], ["Iron Ore", 2], ["Tin Ore", 2], ["Fallen Star", 2]]
+Dropped By: [["Skeletal King", "7%"]]
 ---
 Id 48: Un-Maker
 Desc: Whatever gets struck by this ginormous hammer of wrought iron will see the light of day again.
@@ -672,6 +683,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Unique"], ["Atk Speed: ", -5], ["Atk State: ", "Stun", "10%"]]
+Dropped By: [["Skeletal Lord", "6%"]]
 ---
 Id 49: Wood Staff
 Desc: Sturdy staff made of oak.
@@ -742,6 +754,7 @@ Magical Defence: 8
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "MRG", "2%"]]
+Dropped By: [["Bone Mage", "7%"]]
 ---
 Id 55: Energy of Avaking
 Desc: The Energy of Avaking War Axe is the most powerful axe in existence.
@@ -756,6 +769,7 @@ Magical Defence: 50
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Soul"], ["ExParam: ", "HIT", "100%"], ["ExParam: ", "CRI", "20%"], ["Seal Equip: ", "Shield"]]
+Dropped By: [["William", "100%"]]
 ---
 Id 56: Scourge of Maelsium
 Desc: The Scourge of Maelsium Death Scythe is the most powerful scythe in existence.
@@ -812,6 +826,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Fire"], ["ExParam: ", "HIT", "100%"], ["ExParam: ", "CRI", "20%"], ["ExParam: ", "CNT", "50%"], ["Seal Equip: ", "Shield"]]
+Dropped By: [["Harrison", "100%"]]
 ---
 Id 60: Might of Zysargia
 Desc: The Might of Zysargia Terra Hammer, the most powerful hammer in existence.
@@ -896,6 +911,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Dark"], ["ExParam: ", "HIT", "5%"], ["ExParam: ", "MRG", "8%"]]
+Dropped By: [["Baleful Volwrath", "100%"]]
 ---
 Id 66: Radiance of Justicium
 Desc: The Radiance of Justicium God Bow is the most powerful bow in existence.
@@ -1007,6 +1023,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Can Dual Wield"]]
+Dropped By: [["Butter Slime", "50%"], ["Butter Golem", "50%"], ["Butter Manifestation", "100%"]]
 ---
 Id 74: Symbol Breaker
 Desc: An ingenius contraption that breaks pre-made magic symbols to attack. Useless without ammunition.
@@ -1049,6 +1066,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk State: ", "Burn", "80%"], ["ExParam: ", "CRI", "5%"], ["Atk Element: ", "Unique"], ["Atk State: ", "Void Scar", "10%"]]
+Dropped By: [["Void Marshal", "6%"]]
 ---
 Id 77: Sealord's Bane
 Desc: A mighty blade that's the scourge of all aquatic foes.
@@ -1079,6 +1097,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Water"], ["Gain Skill: ", "Wave"], ["Attack Skill:", "Spear Attack"]]
 Ingredients: [["Spear", 3], ["Conch Shell", 1], ["Seaweed", 3]]
+Dropped By: [["Sahagin", "8%"]]
 ---
 Id 79: Cataxtrophe
 Desc: Axidents happen.
@@ -1177,6 +1196,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Gain Skill: ", "Soulreach Slash"]]
+Dropped By: [["Aberrational Amalgamation", "6%"]]
 ---
 Id 86: Pig-Iron Pike
 Desc: A cheap Marrarockan weapon that can go ham on your enemies.
@@ -1206,6 +1226,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Storm"], ["ExParam: ", "MRG", "2%"], ["Atk State: ", "Paralysis", "5%"], ["Gain Skill: ", "Spark"], ["Element Absorb:", "Storm"]]
 Ingredients: [["Wood Staff", 1], ["Thundrite", 1]]
+Dropped By: [["Tempest Titan", "9%"]]
 ---
 Id 88: Fishing Spear
 Desc: A barbed spear, used for fishing in shallow waters. Increased damage to aquatic targets.
@@ -1391,6 +1412,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Dark"], ["State Rate: ", "Curse of the Doomed", "150%"], ["State Rate: ", "Curse of the Debilitated", "150%"], ["State Rate: ", "Curse of the Feeble", "150%"], ["State Rate: ", "Curse of the Laggard", "150%"], ["State Rate: ", "Curse of the Soulless", "150%"], ["Attack Skill:", "Vilebrand Fauchard Attack"]]
+Dropped By: [["Malignant Volwrath", "50%"]]
 ---
 Id 101: Hammerburger
 Desc: Can I have a, uhhhh...cheeseburger?
@@ -1419,6 +1441,7 @@ Magical Attack: 25
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Dropped By: [["Vezran", "100%"]]
 ---
 Id 103: Blade of the Diabolous
 Desc: The bane of an entire species, this sword ended an untold number of lives. High chance to Burn.
@@ -1433,6 +1456,7 @@ Magical Defence: 0
 Agility: 45
 Luck: 0
 Features and Traits: [["ExParam: ", "HIT", "10%"], ["Can Dual Wield"], ["Atk State: ", "Burn", "50%"]]
+Dropped By: [["Diabolous", "33%"]]
 ---
 Id 104: Cold Shoulder
 Desc: A bludgeon so cold that your enemies can feel it just by looking at you. Be sure to show them how it feels, too.
@@ -1664,6 +1688,7 @@ Magical Defence: 8
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Dark"], ["Atk State: ", "Death", "10%"], ["ExParam: ", "MRG", "3%"]]
+Dropped By: [["Reaping Volwrath", "100%"], ["Bone Conjurer", "7%"]]
 ---
 Id 120: Magma Maul
 Desc: A mace made from encasing pure \fiactual\fr magma in a magic seal.
@@ -1776,6 +1801,7 @@ Magical Defence: 0
 Agility: 11
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "9%"], ["Can Dual Wield"], ["Atk State: ", "Curse of the Doomed", "5%"], ["Atk State: ", "Curse of the Debilitated", "5%"], ["Atk State: ", "Curse of the Feeble", "5%"], ["Atk State: ", "Curse of the Laggard", "5%"], ["Atk State: ", "Curse of the Soulless", "5%"]]
+Dropped By: [["Damned Volwrath", "100%"]]
 ---
 Id 128: Soul Eviscerator
 Desc: \}This bow shreds the connection between body and soul, tearing at their mind as it does so. Can cause hopelessness or instantly kill.
@@ -2097,6 +2123,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Unique"], ["Atk Speed: ", -2], ["Attack Skill:", "Gnarled Smasher Attack"]]
+Dropped By: [["Zysargia", "100%"]]
 ---
 Id 150: Void's Eclipse
 Desc: \}A bow of the Void, capable of launching arrows of concentrated Void at ranges and speeds any human bow could only wish for. Doesn't restrict use of shields, and every attack will Hex the target.

@@ -1111,6 +1111,7 @@ Magical Defence: 0
 Agility: -100
 Luck: 0
 Features and Traits: [["Atk Speed: ", -10]]
+Dropped By: [["Grave Defiler", "8%"]]
 ---
 Id 82: Burning Oitment
 Desc: A cream to soothe burns that burns to the touch. Increases Fire Resistance a lot, but reduces MHP.
@@ -1139,6 +1140,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Party Ability: ", "Double Gold Drops"]]
+Dropped By: [["Mimic", "2%"], ["Devillish Mimic", "2%"], ["Abhorent Mimic", "3%"]]
 ---
 Id 84: Fast-Track Ticket
 Desc: Tickets to a non-existant theatre for the fast line in. Increases AGI by a lot, but decreases CRI too.
@@ -1223,6 +1225,7 @@ Magical Defence: 2
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "-10%"], ["Element Rate: ", "Ice", "15%"], ["State Resist: ", "Freezing"]]
+Dropped By: [["Frigid Scorpion", "8%"]]
 ---
 Id 90: Permanent Gloves
 Desc: Gloves filled with a strange adhesive. Increases DEF, but decreases HIT significantly.
@@ -1872,6 +1875,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Dark"]]
+Dropped By: [["Bone Mage", "8%"]]
 ---
 Id 136: Earthquake Arrows
 Desc: Arrows imbued with the power of Earth, changing your attack element to it.
@@ -2026,6 +2030,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "HIT", "50%"], ["ExParam: ", "CRI", "10%"], ["ExParam: ", "CNT", "15%"]]
+Dropped By: [["Butter Slime", "1%"], ["Butter Golem", "1%"], ["Butter Manifestation", "3%"]]
 ---
 Id 147: Butter
 Desc: \}Paried with the Butter Knife Enhancer. Gives you the Butter skill, passive regeneration for all resources, and makes you slippery.
@@ -2040,6 +2045,7 @@ Magical Defence: 0
 Agility: 50
 Luck: 100
 Features and Traits: [["Gain Skill: ", "Butter"], ["ExParam: ", "EVA", "10%"], ["Atk State: ", "Buttered", "50%"], ["ExParam: ", "HRG", "5%"], ["ExParam: ", "MRG", "2%"], ["ExParam: ", "TRG", "2%"]]
+Dropped By: [["Butter Slime", "1%"], ["Butter Golem", "1%"], ["Butter Manifestation", "3%"]]
 ---
 Id 148: Second Blade
 Desc: Another blade you can attach to the hilt of your sword. More likely to allow you to have multiple attacks.
@@ -2293,6 +2299,7 @@ Magical Defence: 45
 Agility: 0
 Luck: 0
 Features and Traits: [["SpParam: ", "MCR", "x0.8"]]
+Dropped By: [["Vezran", "100%"]]
 ---
 Id 166: Supreme Templar's Armour
 Desc: The armour worn falsely by the Diabolous. The greatest armour the Templars can offer. 
@@ -2307,6 +2314,7 @@ Magical Defence: 30
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "HRG", "10%"], ["ExParam: ", "EVA", "5%"]]
+Dropped By: [["Diabolous", "33%"]]
 ---
 Id 167: Frosted Scale Mail
 Desc: Glistening mail covered in a thin frost. Gives Ice resistance.
@@ -2438,6 +2446,7 @@ Agility: 0
 Luck: 15
 Features and Traits: [["ExParam: ", "CEV", "10%"]]
 Ingredients: [["Hypersteel Plate", 1], ["Heavy Feather", 1], ["Oil of Ill-Intent", 2], ["Abbysal Fluid", 2]]
+Dropped By: [["Bone Conjurer", "8%"]]
 ---
 Id 176: Midnight Shroud
 Desc: A cowl that can hide even the brightest of lights. Greatly increased EVA.
@@ -2453,6 +2462,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "15%"]]
 Ingredients: [["Elemental Cloak", 1], ["Invisibility Cloak", 1], ["Oil of Ill-Intent", 2], ["Abbysal Fluid", 1]]
+Dropped By: [["Reaping Volwrath", "100%"]]
 ---
 Id 177: Chaos Doomplate
 Desc: Armour so malevolent it fuels a deep rage within its wearer.
@@ -2468,6 +2478,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "-4%"], ["Atk Speed: ", -3]]
 Ingredients: [["Hypersteel Armour", 2], ["Force Wand", 1], ["Stygian Scythe", 1], ["Oil of Ill-Intent", 2], ["Abbysal Fluid", 1]]
+Dropped By: [["Skeletal King", "7%"]]
 ---
 Id 178: Hallowed Battlegear
 Desc: Divine armour that protects you from Dark magic and ailments.
@@ -2946,6 +2957,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Parameter: ", "MHP", "50%"]]
+Dropped By: [["Damned Volwrath", "100%"]]
 ---
 Id 212: Floral Crown
 Desc: A circlet made from Everbloom which wards off magical attacks.
@@ -4519,6 +4531,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Dropped By: [["Skeletal Lord", "7%"]]
 ---
 Id 322: King's Grace
 Desc: \}A lone golden gauntlet encrusted in gems that was once worn by ancient monarchs. Grants immunity to all debuffs (not states).
@@ -4709,6 +4722,7 @@ Magical Defence: 15
 Agility: 0
 Luck: 0
 Features and Traits: [["State Rate: ", "Death", "0%"]]
+Dropped By: [["Angel", "6%"]]
 ---
 Id 335: Ribcage
 Desc: Identifying Characteristics:
@@ -4932,6 +4946,7 @@ Magical Defence: 46
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "10%"], ["ExParam: ", "CEV", "6%"], ["Atk Speed: ", -2], ["Gain Skill: ", "Shield Charge"]]
+Dropped By: [["Malignant Volwrath", "50%"]]
 ---
 Id 351: Prismatic Morphguard
 Desc: \}A colourfully shining suit of armour. After receiving an elemental attack, you cumulatively gain 5% resistance to that element for the rest of combat. Caps at 50%.
@@ -4946,6 +4961,7 @@ Magical Defence: 63
 Agility: 0
 Luck: 0
 Ingredients: [["Hallowed Battlegear", 1], ["Mirror Shield", 1], ["Holy Symbol", 1], ["Raxorium Ore", 1], ["Hypersteel", 2]]
+Dropped By: [["Sage of the Bones", "6%"]]
 ---
 Id 352: Wardstone of Transmutation
 Desc: A thick stone slab chiseled with ineffable ramblings. Though, it seems to be able to invert incoming buffs and debuffs - from both friend and foe.

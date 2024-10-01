@@ -9,6 +9,7 @@ Agility: 10
 Luck: 10
 Experience: 14
 Gold: 19
+Loot: [["Slimedrop", "17%"]]
 ---
 Id 2: Bat
 HP: 130
@@ -21,6 +22,7 @@ Agility: 12
 Luck: 12
 Experience: 15
 Gold: 20
+Loot: [["Bat Wings", "14%"]]
 ---
 Id 3: Hornet
 HP: 175
@@ -33,6 +35,7 @@ Agility: 25
 Luck: 16
 Experience: 20
 Gold: 25
+Loot: [["Hornet Venom", "14%"]]
 ---
 Id 4: Spider
 HP: 300
@@ -45,6 +48,7 @@ Agility: 34
 Luck: 18
 Experience: 33
 Gold: 41
+Loot: [["Spider Silk", "13%"]]
 ---
 Id 5: Rat
 HP: 80
@@ -57,6 +61,7 @@ Agility: 22
 Luck: 25
 Experience: 9
 Gold: 11
+Loot: []
 ---
 Id 6: Wisp
 HP: 300
@@ -69,6 +74,7 @@ Agility: 24
 Luck: 24
 Experience: 34
 Gold: 42
+Loot: [["Spirit Essence", "8%"]]
 ---
 Id 7: Large Snake
 HP: 540
@@ -81,6 +87,7 @@ Agility: 28
 Luck: 28
 Experience: 59
 Gold: 69
+Loot: [["Snake Fang", "10%"]]
 ---
 Id 9: Weeping Wisp
 HP: 2400
@@ -93,6 +100,7 @@ Agility: 50
 Luck: 65
 Experience: 253
 Gold: 283
+Loot: [["Spirit Essence", "8%"]]
 ---
 Id 10: Man-Eating Plant
 HP: 1400
@@ -105,6 +113,7 @@ Agility: 45
 Luck: 40
 Experience: 148
 Gold: 167
+Loot: [["Revel Weed", "13%"], ["Dylorien", "7%"]]
 ---
 Id 11: Blooming Hunger
 HP: 1800
@@ -117,6 +126,7 @@ Agility: 58
 Luck: 65
 Experience: 193
 Gold: 212
+Loot: [["Revel Weed", "14%"], ["Dylorien", "7%"]]
 ---
 Id 12: Skeleton
 HP: 700
@@ -129,6 +139,7 @@ Agility: 40
 Luck: 40
 Experience: 78
 Gold: 90
+Loot: [["Skull", "13%"], ["Short Sword", "9%"]]
 ---
 Id 14: Imp
 HP: 1400
@@ -141,6 +152,7 @@ Agility: 68
 Luck: 54
 Experience: 120
 Gold: 139
+Loot: [["Scorchlog", "8%"]]
 ---
 Id 15: Gazer
 HP: 4000
@@ -153,6 +165,7 @@ Agility: 50
 Luck: 95
 Experience: 519
 Gold: 575
+Loot: [["Abbysal Fluid", "8%"]]
 ---
 Id 20: Mimic
 HP: 2500
@@ -165,6 +178,7 @@ Agility: 65
 Luck: 62
 Experience: 262
 Gold: 800
+Loot: [["Ancient Insignia", "3%"], ["Liquid Gold", "2%"]]
 ---
 Id 22: Sahagin
 HP: 8000
@@ -177,6 +191,7 @@ Agility: 200
 Luck: 150
 Experience: 830
 Gold: 918
+Loot: [["Trident", "8%"]]
 ---
 Id 23: Amalgamation
 HP: 3400
@@ -189,6 +204,7 @@ Agility: 64
 Luck: 70
 Experience: 353
 Gold: 376
+Loot: [["Silver Ore", "8%"], ["Falcion", "10%"]]
 ---
 Id 26: Ravenous Mawchid
 HP: 4500
@@ -201,6 +217,7 @@ Agility: 70
 Luck: 90
 Experience: 495
 Gold: 529
+Loot: [["Srevena", "9%"], ["Dispel Herb", "8%"]]
 ---
 Id 27: Reaping Volwrath
 HP: 14000
@@ -213,6 +230,7 @@ Agility: 200
 Luck: 90
 Experience: 3000
 Gold: 3500
+Loot: [["Necrotic Sceptre", "100%"], ["Midnight Shroud", "100%"]]
 ---
 Id 31: Shadow Creature
 HP: 550
@@ -225,6 +243,7 @@ Agility: 38
 Luck: 35
 Experience: 60
 Gold: 0
+Loot: [["Oil of Ill-Intent", "8%"]]
 ---
 Id 32: Green Slime
 HP: 1400
@@ -237,6 +256,7 @@ Agility: 70
 Luck: 55
 Experience: 151
 Gold: 162
+Loot: [["Slimedrop", "20%"]]
 ---
 Id 33: Vezran
 HP: 13000
@@ -249,6 +269,7 @@ Agility: 250
 Luck: 130
 Experience: 6000
 Gold: 8000
+Loot: [["Vezran's Cloak", "100%"], ["Vezran's Arm", "100%"], ["Vezran's Sword", "100%"]]
 ---
 Id 34: Zysargia
 HP: 10000
@@ -261,6 +282,7 @@ Agility: 999
 Luck: 50
 Experience: 10000
 Gold: 16000
+Loot: [["Gnarled Smasher", "100%"]]
 ---
 Id 35: Guardian Spirit
 HP: 300
@@ -273,6 +295,7 @@ Agility: 12
 Luck: 26
 Experience: 35
 Gold: 43
+Loot: [["Spirit Essence", "13%"]]
 ---
 Id 36: Volwrath
 HP: 1100
@@ -285,6 +308,7 @@ Agility: 50
 Luck: 10
 Experience: 120
 Gold: 150
+Loot: [["Spirit Essence", "100%"]]
 ---
 Id 37: Purple Slime
 HP: 300
@@ -297,6 +321,7 @@ Agility: 30
 Luck: 30
 Experience: 36
 Gold: 44
+Loot: [["Slimedrop", "17%"]]
 ---
 Id 40: Cave Bat
 HP: 330
@@ -309,6 +334,7 @@ Agility: 35
 Luck: 26
 Experience: 38
 Gold: 46
+Loot: [["Bat Wings", "13%"]]
 ---
 Id 41: Toxic Snake
 HP: 1200
@@ -321,6 +347,7 @@ Agility: 72
 Luck: 35
 Experience: 127
 Gold: 144
+Loot: [["Snake Fang", "9%"]]
 ---
 Id 42: Pink Slime
 HP: 900
@@ -333,6 +360,7 @@ Agility: 50
 Luck: 50
 Experience: 100
 Gold: 115
+Loot: [["Slimedrop", "20%"]]
 ---
 Id 43: Thunder Spider
 HP: 1200
@@ -345,6 +373,7 @@ Agility: 65
 Luck: 50
 Experience: 150
 Gold: 170
+Loot: [["Spider Silk", "11%"]]
 ---
 Id 44: Withered Skeleton
 HP: 1900
@@ -357,6 +386,7 @@ Agility: 55
 Luck: 50
 Experience: 200
 Gold: 225
+Loot: [["Skull", "13%"], ["Long Sword", "8%"]]
 ---
 Id 45: Butter Slime
 HP: 2500
@@ -369,6 +399,7 @@ Agility: 250
 Luck: 100
 Experience: 2500
 Gold: 3000
+Loot: [["Butter Knife", "50%"], ["Butter Knife Enhancer", "1%"], ["Butter", "1%"]]
 ---
 Id 46: Rabid Rat
 HP: 250
@@ -381,6 +412,7 @@ Agility: 44
 Luck: 34
 Experience: 29
 Gold: 33
+Loot: []
 ---
 Id 47: Wailing Wisp
 HP: 1100
@@ -393,6 +425,7 @@ Agility: 30
 Luck: 46
 Experience: 119
 Gold: 135
+Loot: [["Spirit Essence", "8%"]]
 ---
 Id 48: Void Marshal
 HP: 16000
@@ -405,6 +438,7 @@ Agility: 300
 Luck: 250
 Experience: 8000
 Gold: 9000
+Loot: [["Energy Sword", "6%"], ["Void Residue", "25%"]]
 ---
 Id 49: Void Wraith
 HP: 14000
@@ -417,6 +451,7 @@ Agility: 275
 Luck: 100
 Experience: 8000
 Gold: 9000
+Loot: [["Void Residue", "25%"]]
 ---
 Id 50: Mad Hornet
 HP: 500
@@ -429,6 +464,7 @@ Agility: 51
 Luck: 25
 Experience: 55
 Gold: 65
+Loot: [["Hornet Venom", "14%"], ["Insect Stinger", "11%"]]
 ---
 Id 52: Diabolous
 HP: 30000
@@ -441,6 +477,7 @@ Agility: 250
 Luck: 300
 Experience: 20000
 Gold: 25000
+Loot: [["Blade of the Diabolous", "33%"], ["Supreme Templar's Armour", "33%"]]
 ---
 Id 54: Burning Spirit
 HP: 2000
@@ -453,6 +490,7 @@ Agility: 42
 Luck: 67
 Experience: 298
 Gold: 332
+Loot: [["Spirit Essence", "8%"], ["Crystalised Flame", "7%"]]
 ---
 Id 55: Cerberus
 HP: 9500
@@ -465,6 +503,7 @@ Agility: 150
 Luck: 90
 Experience: 2000
 Gold: 2500
+Loot: [["Crystalised Flame", "100%"]]
 ---
 Id 56: Manticore
 HP: 9500
@@ -477,6 +516,7 @@ Agility: 150
 Luck: 90
 Experience: 2000
 Gold: 2500
+Loot: [["Dylorien", "100%"]]
 ---
 Id 57: Behemoth
 HP: 9500
@@ -489,6 +529,7 @@ Agility: 150
 Luck: 90
 Experience: 2000
 Gold: 2500
+Loot: [["Winter's Heart", "100%"]]
 ---
 Id 58: Forest Custodian
 HP: 1800
@@ -501,6 +542,7 @@ Agility: 40
 Luck: 61
 Experience: 172
 Gold: 194
+Loot: [["Spirit Essence", "13%"], ["Ghostfruit", "7%"]]
 ---
 Id 59: Frigid Scorpion
 HP: 1600
@@ -513,6 +555,7 @@ Agility: 64
 Luck: 56
 Experience: 171
 Gold: 193
+Loot: [["Unmelting Ice", "8%"]]
 ---
 Id 60: Titan of Black Ice
 HP: 3000
@@ -525,6 +568,7 @@ Agility: 15
 Luck: 86
 Experience: 317
 Gold: 353
+Loot: [["Winter's Heart", "7%"], ["Powder Snow", "8%"]]
 ---
 Id 61: Languished Skeleton
 HP: 2900
@@ -537,6 +581,7 @@ Agility: 71
 Luck: 65
 Experience: 303
 Gold: 338
+Loot: [["Obsidian Shard", "8%"], ["Falcion", "7%"]]
 ---
 Id 62: Shadow Wraith
 HP: 950
@@ -549,6 +594,7 @@ Agility: 60
 Luck: 40
 Experience: 150
 Gold: 0
+Loot: [["Oil of Ill-Intent", "10%"]]
 ---
 Id 63: Ivy
 HP: 25000
@@ -561,6 +607,7 @@ Agility: 400
 Luck: 150
 Experience: 10000
 Gold: 15000
+Loot: [["Hypersteel Scythe", "25%"], ["Tyrfing Sword", "25%"]]
 ---
 Id 64: Stormbringer Cerberus
 HP: 24000
@@ -573,6 +620,7 @@ Agility: 400
 Luck: 200
 Experience: 8000
 Gold: 10000
+Loot: [["Thundrite", "100%"]]
 ---
 Id 65: Hurricane Manticore
 HP: 24000
@@ -585,6 +633,7 @@ Agility: 400
 Luck: 200
 Experience: 8000
 Gold: 10000
+Loot: [["Wind's Wing", "100%"]]
 ---
 Id 66: Boulder Behemoth
 HP: 21000
@@ -597,6 +646,7 @@ Agility: 300
 Luck: 165
 Experience: 5500
 Gold: 6000
+Loot: [["Fallen Star", "100%"]]
 ---
 Id 67: Writhing Amalgamation
 HP: 4200
@@ -609,6 +659,7 @@ Agility: 85
 Luck: 90
 Experience: 438
 Gold: 496
+Loot: [["Hypersteel Sword", "8%"]]
 ---
 Id 68: Skeletal Champion
 HP: 8500
@@ -621,6 +672,7 @@ Agility: 96
 Luck: 110
 Experience: 872
 Gold: 964
+Loot: [["Hypersteel Mace", "7%"]]
 ---
 Id 69: Bone Mage
 HP: 4000
@@ -633,6 +685,7 @@ Agility: 80
 Luck: 100
 Experience: 420
 Gold: 467
+Loot: [["Spirit Staff", "7%"], ["Darkstrike Arrows", "8%"]]
 ---
 Id 70: Damned Volwrath
 HP: 20000
@@ -645,6 +698,7 @@ Agility: 300
 Luck: 115
 Experience: 5000
 Gold: 6000
+Loot: [["Edge of the Damned", "100%"], ["Gauntlet of the Accursed", "100%"]]
 ---
 Id 71: Roots of Evil
 HP: 1500
@@ -657,6 +711,7 @@ Agility: 120
 Luck: 75
 Experience: 165
 Gold: 186
+Loot: [["Bei Root", "14%"], ["Stalwort", "11%"]]
 ---
 Id 72: Hornet Swarm
 HP: 850
@@ -669,6 +724,7 @@ Agility: 125
 Luck: 80
 Experience: 203
 Gold: 218
+Loot: [["Hornet Venom", "25%"], ["Insect Stinger", "17%"]]
 ---
 Id 73: Mad Hornet Swarm
 HP: 2000
@@ -681,6 +737,7 @@ Agility: 255
 Luck: 125
 Experience: 375
 Gold: 407
+Loot: [["Hornet Venom", "33%"], ["Insect Stinger", "20%"]]
 ---
 Id 75: Devillish Mimic
 HP: 6500
@@ -693,6 +750,7 @@ Agility: 116
 Luck: 115
 Experience: 673
 Gold: 1600
+Loot: [["Ancient Insignia", "3%"], ["Liquid Gold", "2%"]]
 ---
 Id 76: Pit Viper
 HP: 4500
@@ -705,6 +763,7 @@ Agility: 138
 Luck: 90
 Experience: 359
 Gold: 399
+Loot: [["Snake Fang", "10%"]]
 ---
 Id 77: Grave Defiler
 HP: 6000
@@ -717,6 +776,7 @@ Agility: 105
 Luck: 100
 Experience: 620
 Gold: 687
+Loot: [["Heavy Feather", "8%"], ["Fallen Star", "7%"]]
 ---
 Id 78: Maelstrom Cerberus
 HP: 21000
@@ -729,6 +789,7 @@ Agility: 300
 Luck: 165
 Experience: 5500
 Gold: 6000
+Loot: [["Oil of Ill-Intent", "100%"]]
 ---
 Id 79: Stallion of Plague
 HP: 6000
@@ -741,6 +802,7 @@ Agility: 165
 Luck: 115
 Experience: 623
 Gold: 690
+Loot: [["Oil of Ill-Intent", "7%"], ["Sage's Water", "8%"]]
 ---
 Id 80: Benevolent Manticore
 HP: 21000
@@ -753,6 +815,7 @@ Agility: 300
 Luck: 165
 Experience: 5500
 Gold: 6000
+Loot: [["Templar's Ashes", "100%"]]
 ---
 Id 81: Angel
 HP: 4800
@@ -765,6 +828,7 @@ Agility: 150
 Luck: 145
 Experience: 509
 Gold: 564
+Loot: [["Templar's Ashes", "7%"], ["Feather of Renewal", "6%"]]
 ---
 Id 82: Warden of Skies
 HP: 6000
@@ -777,6 +841,7 @@ Agility: 125
 Luck: 130
 Experience: 626
 Gold: 693
+Loot: [["Foreteller's Sword", "7%"]]
 ---
 Id 83: Shadow Collossus
 HP: 3000
@@ -789,6 +854,7 @@ Agility: 30
 Luck: 50
 Experience: 1500
 Gold: 0
+Loot: [["Abbysal Fluid", "100%"]]
 ---
 Id 84: Torrential Behemoth
 HP: 24000
@@ -801,6 +867,7 @@ Agility: 400
 Luck: 200
 Experience: 8000
 Gold: 10000
+Loot: [["Tears of Cedarus", "100%"]]
 ---
 Id 85: Abhorent Mimic
 HP: 11000
@@ -813,6 +880,7 @@ Agility: 180
 Luck: 140
 Experience: 1128
 Gold: 2400
+Loot: [["Ancient Insignia", "4%"], ["Liquid Gold", "3%"]]
 ---
 Id 105: Contorted Amalgamation
 HP: 6800
@@ -825,6 +893,7 @@ Agility: 115
 Luck: 110
 Experience: 701
 Gold: 776
+Loot: [["Omnium", "7%"], ["Rune Blade", "7%"]]
 ---
 Id 106: Skeletal King
 HP: 14000
@@ -837,6 +906,7 @@ Agility: 103
 Luck: 155
 Experience: 1431
 Gold: 1579
+Loot: [["Chaos Doomplate", "7%"], ["Terrahammer", "7%"]]
 ---
 Id 107: Bone Conjurer
 HP: 6000
@@ -849,6 +919,7 @@ Agility: 130
 Luck: 125
 Experience: 613
 Gold: 679
+Loot: [["Necrotic Sceptre", "7%"], ["Phantom Shadowmail", "8%"]]
 ---
 Id 108: Malignant Volwrath
 HP: 16000
@@ -861,6 +932,7 @@ Agility: 500
 Luck: 155
 Experience: 6500
 Gold: 5500
+Loot: [["Vilebrand Fauchard", "50%"], ["Sanguine Oath", "50%"]]
 ---
 Id 109: Bouldergeist
 HP: 3000
@@ -873,6 +945,7 @@ Agility: 8
 Luck: 30
 Experience: 306
 Gold: 341
+Loot: [["Iron Ore", "13%"]]
 ---
 Id 110: Jagged Bouldergeist
 HP: 2000
@@ -885,6 +958,7 @@ Agility: 10
 Luck: 40
 Experience: 318
 Gold: 353
+Loot: [["Copper Ore", "10%"], ["Silver Ore", "8%"]]
 ---
 Id 111: Warding Bouldergeist
 HP: 4000
@@ -897,6 +971,7 @@ Agility: 5
 Luck: 25
 Experience: 305
 Gold: 450
+Loot: [["Tin Ore", "10%"], ["Rialite", "8%"]]
 ---
 Id 112: Man-o'-Storms
 HP: 7800
@@ -909,6 +984,7 @@ Agility: 125
 Luck: 200
 Experience: 820
 Gold: 902
+Loot: [["Seaweed", "17%"]]
 ---
 Id 113: Butter Golem
 HP: 6000
@@ -921,6 +997,7 @@ Agility: 300
 Luck: 150
 Experience: 5500
 Gold: 7500
+Loot: [["Butter Knife", "50%"], ["Butter Knife Enhancer", "1%"], ["Butter", "1%"]]
 ---
 Id 114: Butter Manifestation
 HP: 10000
@@ -933,6 +1010,7 @@ Agility: 600
 Luck: 200
 Experience: 25000
 Gold: 28000
+Loot: [["Butter Knife", "100%"], ["Butter Knife Enhancer", "3%"], ["Butter", "3%"]]
 ---
 Id 115: Void Leviathan
 HP: 22000
@@ -945,6 +1023,7 @@ Agility: 350
 Luck: 250
 Experience: 10000
 Gold: 12000
+Loot: [["Elixir", "10%"], ["Void Residue", "33%"], ["Book of Souls", "25%"]]
 ---
 Id 116: Void Eldritch Devourer
 HP: 27000
@@ -957,6 +1036,7 @@ Agility: 200
 Luck: 200
 Experience: 14000
 Gold: 16000
+Loot: [["Contaminated Conduit", "5%"], ["Void Residue", "100%"], ["Void Residue", "50%"]]
 ---
 Id 117: Rocklereige
 HP: 4500
@@ -969,6 +1049,7 @@ Agility: 30
 Luck: 35
 Experience: 2600
 Gold: 3500
+Loot: [["Rialite", "100%"], ["Silver Ore", "100%"], ["Iron Ore", "100%"]]
 ---
 Id 118: Black Lidra
 HP: 1000
@@ -981,6 +1062,7 @@ Agility: 200
 Luck: 60
 Experience: 132
 Gold: 150
+Loot: [["Bat Wings", "9%"]]
 ---
 Id 119: William
 HP: 20000
@@ -993,6 +1075,7 @@ Agility: 500
 Luck: 300
 Experience: 25000
 Gold: 50000
+Loot: [["Energy of Avaking", "100%"]]
 ---
 Id 120: Harrison
 HP: 20000
@@ -1005,6 +1088,7 @@ Agility: 500
 Luck: 300
 Experience: 25000
 Gold: 50000
+Loot: [["Blaze of Infermius", "100%"]]
 ---
 Id 121: Rocklesiege
 HP: 7000
@@ -1017,6 +1101,7 @@ Agility: 45
 Luck: 100
 Experience: 3500
 Gold: 4600
+Loot: [["Rialite", "100%"], ["Rialite", "50%"], ["Omnium", "25%"]]
 ---
 Id 122: Rockleliege
 HP: 14000
@@ -1029,6 +1114,7 @@ Agility: 90
 Luck: 200
 Experience: 8500
 Gold: 9000
+Loot: [["Rialite", "100%"], ["Omnium", "100%"], ["Raxorium Ore", "33%"]]
 ---
 Id 123: Tempest Titan
 HP: 8300
@@ -1041,6 +1127,7 @@ Agility: 85
 Luck: 100
 Experience: 850
 Gold: 935
+Loot: [["Thunder Rod", "9%"], ["Thundrite", "7%"]]
 ---
 Id 124: Abyssal Coraljaws
 HP: 7600
@@ -1053,6 +1140,7 @@ Agility: 140
 Luck: 125
 Experience: 785
 Gold: 868
+Loot: [["Shark Tooth", "10%"], ["Tears of Cedarus", "7%"]]
 ---
 Id 125: Shadow Revenant
 HP: 1800
@@ -1065,6 +1153,7 @@ Agility: 90
 Luck: 100
 Experience: 210
 Gold: 0
+Loot: [["Oil of Ill-Intent", "13%"]]
 ---
 Id 126: Green Lidra
 HP: 1900
@@ -1077,6 +1166,7 @@ Agility: 250
 Luck: 80
 Experience: 207
 Gold: 232
+Loot: [["Bat Wings", "10%"]]
 ---
 Id 127: Garuda
 HP: 7800
@@ -1089,6 +1179,7 @@ Agility: 300
 Luck: 350
 Experience: 840
 Gold: 929
+Loot: [["Flare Feather", "9%"], ["Wind's Wing", "7%"]]
 ---
 Id 128: Dreadstinger Hornet Swarm
 HP: 7000
@@ -1101,6 +1192,7 @@ Agility: 280
 Luck: 300
 Experience: 900
 Gold: 990
+Loot: [["Hornet Venom", "100%"], ["Insect Stinger", "50%"], ["Dispel Herb", "8%"]]
 ---
 Id 129: Baleful Volwrath
 HP: 30000
@@ -1113,6 +1205,7 @@ Agility: 750
 Luck: 280
 Experience: 15000
 Gold: 20000
+Loot: [["Lord of Chaos' Sceptre", "100%"]]
 ---
 Id 130: Aberrational Amalgamation
 HP: 11000
@@ -1125,6 +1218,7 @@ Agility: 160
 Luck: 225
 Experience: 1145
 Gold: 1264
+Loot: [["Omnium", "13%"], ["Soulreach Sabre", "6%"]]
 ---
 Id 131: Skeletal Lord
 HP: 24000
@@ -1137,6 +1231,7 @@ Agility: 130
 Luck: 200
 Experience: 2450
 Gold: 2665
+Loot: [["King's Disgrace", "7%"], ["Un-Maker", "6%"]]
 ---
 Id 132: Sage of the Bones
 HP: 8500
@@ -1149,6 +1244,7 @@ Agility: 169
 Luck: 155
 Experience: 851
 Gold: 974
+Loot: [["Vortex Blade", "7%"], ["Prismatic Morphguard", "6%"]]
 ---
 Id 133: Void Weaver
 HP: 38000
@@ -1161,6 +1257,7 @@ Agility: 400
 Luck: 150
 Experience: 22000
 Gold: 28000
+Loot: [["Contaminated Conduit", "10%"], ["Void Residue", "100%"], ["Void Residue", "100%"]]
 ---
 Id 134: Atomic Bouldergeist
 HP: 11000
@@ -1173,4 +1270,5 @@ Agility: 20
 Luck: 60
 Experience: 1112
 Gold: 1228
+Loot: [["Omnium", "10%"], ["Raxorium Ore", "6%"]]
 ---

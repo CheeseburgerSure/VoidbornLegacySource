@@ -47,6 +47,7 @@ Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover MP: ", "", "+250"]]
 Ingredients: [["Milk", 2], ["Spirit Essence", 3], ["Revel Weed", 3], ["Potion", 2]]
+Dropped By: [["Stallion of Plague", "8%"]]
 ---
 Id 6: Antidote
 Desc: Treats poison and plague.
@@ -66,6 +67,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Remove State: ", "Poison", "100%"], ["Remove State: ", "Blind", "100%"], ["Remove State: ", "Silence", "100%"], ["Remove State: ", "Confusion", "100%"], ["Remove State: ", "Sleep", "100%"], ["Remove State: ", "Paralysis", "100%"]]
+Dropped By: [["Ravenous Mawchid", "8%"], ["Dreadstinger Hornet Swarm", "8%"]]
 ---
 Id 8: Elixir
 Desc: An ethereal potion that restores all HP and MP.
@@ -76,6 +78,7 @@ Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "100%", ""], ["Recover MP: ", "100%", ""]]
 Ingredients: [["Ultimate Potion", 1], ["Ancient Sage's Water", 1], ["Ghostfruit", 1], ["Spirit Essence", 3]]
+Dropped By: [["Void Leviathan", "10%"]]
 ---
 Id 9: Life Up
 Desc: Increases MHP by 50.
@@ -157,6 +160,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "5%", ""], ["Remove State: ", "Headache", "100%"]]
+Dropped By: [["Roots of Evil", "11%"]]
 ---
 Id 18: Emwood Apple Juice
 Desc: Some freshly squeezed apple juice from the famous orchards of Emwood. Recovers some HP.
@@ -227,6 +231,7 @@ Price: 50G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Wisp", "8%"], ["Weeping Wisp", "8%"], ["Guardian Spirit", "13%"], ["Volwrath", "100%"], ["Wailing Wisp", "8%"], ["Burning Spirit", "8%"], ["Forest Custodian", "13%"]]
 ---
 Id 26: Slimedrop
 Desc: Collected residue from a Slime. Useful in Alchemy.
@@ -235,6 +240,7 @@ Price: 16G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Blue Slime", "17%"], ["Green Slime", "20%"], ["Purple Slime", "17%"], ["Pink Slime", "20%"]]
 ---
 Id 27: Bat Wings
 Desc: Wings taken from a bat. Useful in Alchemy.
@@ -243,6 +249,7 @@ Price: 18G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Bat", "14%"], ["Cave Bat", "13%"], ["Black Lidra", "9%"], ["Green Lidra", "10%"]]
 ---
 Id 28: Spider Silk
 Desc: Silk extracted from a Spider. Useful in Alchemy.
@@ -251,6 +258,7 @@ Price: 16G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Spider", "13%"], ["Thunder Spider", "11%"]]
 ---
 Id 30: Hornet Venom
 Desc: The venom of a giant Hornet. Useful in Alchemy.
@@ -260,6 +268,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Add State: ", "Poison", "100%"]]
+Dropped By: [["Hornet", "14%"], ["Mad Hornet", "14%"], ["Hornet Swarm", "25%"], ["Mad Hornet Swarm", "33%"], ["Dreadstinger Hornet Swarm", "100%"]]
 ---
 Id 31: Ancient Insignia
 Desc: The insignia of a kingdom from a by-gone age. There may be a collector willing to trade for them.
@@ -268,6 +277,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Mimic", "3%"], ["Devillish Mimic", "3%"], ["Abhorent Mimic", "4%"]]
 ---
 Id 32: Raxorium Ore
 Desc: An indescribably rare metal with wonderous traits. It's allegedly linked to some by-gone species.
@@ -276,6 +286,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Rockleliege", "33%"], ["Atomic Bouldergeist", "6%"]]
 ---
 Id 33: Infermius Raxorium
 Desc: A refined form of Raxorium in the elements of Infermius. Useful in alchemy.
@@ -377,6 +388,7 @@ Price: 3G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Skeleton", "13%"], ["Withered Skeleton", "13%"]]
 ---
 Id 45: Bei Root
 Desc: The root of a Bei flower. Strong scent but is known to help in some herbal remedies. Useful in Alchemy.
@@ -385,6 +397,7 @@ Price: 13G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Roots of Evil", "14%"]]
 ---
 Id 46: Four-Leaf Clover
 Desc: Consuming can invigorate you to be luckier and to also gain EXP faster.
@@ -402,6 +415,7 @@ Price: 37G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Man-Eating Plant", "13%"], ["Blooming Hunger", "14%"]]
 ---
 Id 48: Red Pearl Orchid
 Desc: A type of orchid with flowers that grow in perfect red spheres, hence the name. Useful in Alchemy.
@@ -621,6 +635,7 @@ Price: 88G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Bouldergeist", "13%"], ["Rocklereige", "100%"]]
 ---
 Id 74: Silver Ore
 Desc: A rare ore of the shimmering silver. Useful in Alchemy.
@@ -629,6 +644,7 @@ Price: 270G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Amalgamation", "8%"], ["Jagged Bouldergeist", "8%"], ["Rocklereige", "100%"]]
 ---
 Id 75: Ghostfruit
 Desc: A rare fruit that resembles black apples, ghostfruit seem to lack a true physical form. Useful in Alchemy.
@@ -638,6 +654,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Add State: ", "Hallucinating", "100%"]]
+Dropped By: [["Forest Custodian", "7%"]]
 ---
 Id 76: Ancient Sage's Water
 Desc: A vial of mystical water that restores all MP.
@@ -680,6 +697,7 @@ Price: 47G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Jagged Bouldergeist", "10%"]]
 ---
 Id 81: Tin Ore
 Desc: A relatively common metal mostly used to combine with copper to make bronze. Useful in Alchemy.
@@ -688,6 +706,7 @@ Price: 51G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Warding Bouldergeist", "10%"]]
 ---
 Id 82: Artefact Shards
 Desc: \}Shards of ancient artefacts. Sort after by someone somewhere.
@@ -779,6 +798,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "75%", ""], ["Gain PR: ", "1000%"]]
+Dropped By: [["Ravenous Mawchid", "9%"]]
 ---
 Id 93: Snake Fang
 Desc: The large fang of a snake. Useful in Alchemy.
@@ -787,6 +807,7 @@ Price: 29G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Large Snake", "10%"], ["Toxic Snake", "9%"], ["Pit Viper", "10%"]]
 ---
 Id 94: Xavier Portrait
 Desc: A portrait of Xavier done by Hero Forge.
@@ -837,6 +858,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover MP: ", "10%", ""], ["Gain PR: ", "1000%"]]
+Dropped By: [["Garuda", "9%"]]
 ---
 Id 100: Premium Birdfeed
 Desc: \}Exceptionally high quality birdfeed that magically seems to be liked by every bird that has it. Give it to your bird to make it fly better.
@@ -869,6 +891,7 @@ Price: 5G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Man-o'-Storms", "17%"]]
 ---
 Id 104: Shark Tooth
 Desc: A tooth of a once mighty shark. Useful in alchemy.
@@ -877,6 +900,7 @@ Price: 60G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Abyssal Coraljaws", "10%"]]
 ---
 Id 105: War Horn
 Desc: Blowing the horn can strike fear into the hearts of your foes.
@@ -997,6 +1021,7 @@ Price: 55G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Imp", "8%"]]
 ---
 Id 118: Storage Ticket
 Desc: \}A ticket that denotes what and where your equipment is. Must be given to the bouncer when leaving the Oak and Antler to have your equipment returned.
@@ -1013,6 +1038,7 @@ Price: 28G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Mad Hornet", "11%"], ["Hornet Swarm", "17%"], ["Mad Hornet Swarm", "20%"], ["Dreadstinger Hornet Swarm", "50%"]]
 ---
 Id 120: Sailor's Scripture
 Desc: A very old scroll that details various parts of sailing and the equipment you need.
@@ -1083,6 +1109,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Vezran", "100%"]]
 ---
 Id 128: Crystalised Flame
 Desc: Fire left behind from an unwavering Soul that collected into a fine gemstone of immense heat. Useful in alchemy.
@@ -1091,6 +1118,7 @@ Price: 500G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Burning Spirit", "7%"], ["Cerberus", "100%"]]
 ---
 Id 129: Dylorien
 Desc: A flower said to be so inconceivably rare that there is only 1 plant in Adremesis that blooms with it. Useful in alchemy.
@@ -1099,6 +1127,7 @@ Price: 500G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Man-Eating Plant", "7%"], ["Blooming Hunger", "7%"], ["Manticore", "100%"]]
 ---
 Id 130: Winter's Heart
 Desc: A gemstone that mixed with ice crystals to form this gorgeous reminder of winter's beauty. Useful in alchemy.
@@ -1107,6 +1136,7 @@ Price: 500G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Behemoth", "100%"], ["Titan of Black Ice", "7%"]]
 ---
 Id 131: Tome of Permafrost
 Desc: A book dusted in snow that tells of many armaments fit for a winter wonderland.
@@ -1123,6 +1153,7 @@ Price: 48G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Titan of Black Ice", "8%"]]
 ---
 Id 133: Powdered Explosive
 Desc: A concoction of different materials creates this potent explosive. Useable in battle.
@@ -1155,6 +1186,7 @@ Price: 140G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Languished Skeleton", "8%"]]
 ---
 Id 137: Flow Conduit
 Desc: A rare item that focuses the elements of the Flow into whatever the user desires. Useful in alchemy.
@@ -1180,6 +1212,7 @@ Price: 500G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Torrential Behemoth", "100%"], ["Abyssal Coraljaws", "7%"]]
 ---
 Id 140: Templar's Ashes
 Desc: Ashes of some member of the ancient High Templar's clergy. Useful in alchemy.
@@ -1188,6 +1221,7 @@ Price: 500G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Benevolent Manticore", "100%"], ["Angel", "7%"]]
 ---
 Id 141: Thundrite
 Desc: A mineral formed when lightning strikes solid stone in just the right way. Useful in alchemy.
@@ -1196,6 +1230,7 @@ Price: 500G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Stormbringer Cerberus", "100%"], ["Tempest Titan", "7%"]]
 ---
 Id 142: Oil of Ill-Intent
 Desc: This mysterious fluid naturally found only on Devil's Eye Land that silently corrupts everything around it. Useful in alchemy.
@@ -1204,6 +1239,7 @@ Price: 500G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Shadow Creature", "8%"], ["Shadow Wraith", "10%"], ["Maelstrom Cerberus", "100%"], ["Stallion of Plague", "7%"], ["Shadow Revenant", "13%"]]
 ---
 Id 143: Wind's Wing
 Desc: A very strange feather that doesn't come from any known species of bird, yet is still found randomly. Useful in alchemy.
@@ -1212,6 +1248,7 @@ Price: 500G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Hurricane Manticore", "100%"], ["Garuda", "7%"]]
 ---
 Id 144: Fallen Star
 Desc: A chunk of rock that fell from the sky at breakneck speed, its true origins are confusing scholars. Useful in alchemy.
@@ -1220,6 +1257,7 @@ Price: 500G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Boulder Behemoth", "100%"], ["Grave Defiler", "7%"]]
 ---
 Id 145: Void Residue
 Desc: \}A small sample of Void energy left behind by a defeated Void creature. Useful in Alchemy, but use it quickly; Void energy decays!
@@ -1228,6 +1266,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Void Marshal", "25%"], ["Void Wraith", "25%"], ["Void Leviathan", "33%"], ["Void Eldritch Devourer", "100%"], ["Void Eldritch Devourer", "50%"], ["Void Weaver", "100%"], ["Void Weaver", "100%"]]
 ---
 Id 146: Omnium
 Desc: \}A mineral that requires so much pressure to form that it can only be found in minuscule amounts in the darkest depths of the world. Useful in alchemy.
@@ -1236,6 +1275,7 @@ Price: 3000G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Contorted Amalgamation", "7%"], ["Rocklesiege", "25%"], ["Rockleliege", "100%"], ["Aberrational Amalgamation", "13%"], ["Atomic Bouldergeist", "10%"]]
 ---
 Id 148: Elemental Escapades
 Desc: A book written by the Ancient Sage Gabriel about alchemising with the elements.
@@ -1253,6 +1293,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Ingredients: [["Flow Conduit", 1], ["Void Residue", 3], ["Soul Orb", 1]]
+Dropped By: [["Void Eldritch Devourer", "5%"], ["Void Weaver", "10%"]]
 ---
 Id 150: Light Literature
 Desc: Notes detailing some alchemic recipes of the Light element.
@@ -1312,6 +1353,7 @@ Price: 320G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Gazer", "8%"], ["Shadow Collossus", "100%"]]
 ---
 Id 157: Egregious Equipment
 Desc: A book with a malevolent air about it. What's in here may not be safe for mortal eyes but...perhaps it's worth it...
@@ -1490,6 +1532,7 @@ Price: 2000G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Warding Bouldergeist", "8%"], ["Rocklereige", "100%"], ["Rocklesiege", "100%"], ["Rocklesiege", "50%"], ["Rockleliege", "100%"]]
 ---
 Id 180: Paradigms of Paragons
 Desc: A book containing details on how to make each of the baseline Paragons.
@@ -1554,6 +1597,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Dropped By: [["Void Leviathan", "25%"]]
 ---
 Id 188: SymbolBreakerUserManual
 Desc: A small book written by Davonious Alricke describing in detail on how to wield his marvelous Symbol Breaker.
