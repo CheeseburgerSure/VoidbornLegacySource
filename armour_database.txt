@@ -482,7 +482,7 @@ Price: 150
 HP: 0
 MP: 0
 Attack: 0
-Defence: 8
+Defence: 6
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
@@ -495,7 +495,7 @@ Price: 700
 HP: 0
 MP: 0
 Attack: 0
-Defence: 13
+Defence: 11
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
@@ -509,7 +509,7 @@ Price: 1400
 HP: 0
 MP: 0
 Attack: 0
-Defence: 19
+Defence: 14
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
@@ -523,7 +523,7 @@ Price: 5500
 HP: 0
 MP: 0
 Attack: 0
-Defence: 26
+Defence: 20
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
@@ -536,7 +536,7 @@ Price: 22000
 HP: 0
 MP: 0
 Attack: 0
-Defence: 38
+Defence: 28
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
@@ -663,7 +663,7 @@ Price: 7000
 HP: 0
 MP: 0
 Attack: 0
-Defence: 23
+Defence: 24
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
@@ -820,19 +820,19 @@ Magical Defence: 12
 Agility: 12
 Luck: 12
 ---
-Id 61: Helmet of Silence
-Desc: Immunity to Headaches while worn.
+Id 61: Loyal Helm
+Desc: A helm that always remembers who is friend or foe. Grants immunity to states that would confuse its wearer.
 Type: General Armour
-Price: 350
+Price: 9000
 HP: 0
 MP: 0
 Attack: 0
-Defence: 3
+Defence: 29
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["State Resist: ", "Headache"]]
+Features and Traits: [["State Resist: ", "Confusion"], ["State Resist: ", "Savage"], ["State Resist: ", "Hallucinating"]]
 ---
 Id 62: Shield of Brawn
 Desc: A shield that puts brawn over brains. Increases your max HP, but reduces your max MP.
@@ -1002,7 +1002,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "-2%"]]
 ---
-Id 74: Religious Symbol
+Id 74: Religious Idol
 Desc: Reduces damage from Dark element and changes your attack element to Light.
 Type: General Armour
 Price: 2100
@@ -1917,7 +1917,7 @@ Features and Traits: [["Attack Skill:", "Vampiric Shot"]]
 ---
 Id 139: Siphon Arrows
 Desc: Magical arrows that can return some of the damage dealt as MP recovery for the user.
-Type: General Armour
+Type: Bow Attachments
 Price: 5000
 HP: 0
 MP: 0
@@ -2546,17 +2546,17 @@ Ingredients: [["Elemental Cloak", 1], ["Thunder Rod", 1], ["Thundrite", 3]]
 Id 183: Tempest Surgemail
 Desc: Armour enriched with lightning that quickens your step. Also increases EVA and MHP.
 Type: Light Armour
-Price: 16000
-HP: 100
+Price: 10000
+HP: 200
 MP: 0
 Attack: 0
-Defence: 15
-Magical Attack: 19
-Magical Defence: 0
+Defence: 25
+Magical Attack: 0
+Magical Defence: 29
 Agility: 20
 Luck: 0
-Features and Traits: [["ExParam: ", "EVA", "2%"]]
-Ingredients: [["Hypersteel Plate", 1], ["Lightning Lance", 1], ["Thundrite", 2], ["Lightning Rod", 1]]
+Features and Traits: [["ExParam: ", "EVA", "6%"]]
+Ingredients: [["Hypersteel Plate", 1], ["Thundrite", 1], ["Lightning Rod", 1], ["Winged Boots", 1]]
 ---
 Id 184: Emblem of Vigour
 Desc: Adds an exceptional amount of additional health to the wearer.
@@ -2579,19 +2579,6 @@ HP: 0
 MP: 0
 Attack: 0
 Defence: 20
-Magical Attack: 0
-Magical Defence: 0
-Agility: 0
-Luck: 0
----
-Id 186: Ravishing Pauldrons
-Desc: 
-Type: General Armour
-Price: 0
-HP: 0
-MP: 0
-Attack: 0
-Defence: 0
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
@@ -2641,7 +2628,7 @@ Luck: 0
 Features and Traits: [["Element Rate: ", "Fire", "75%"], ["Element Rate: ", "Ice", "75%"], ["Element Rate: ", "Storm", "75%"], ["Element Rate: ", "Water", "75%"], ["Element Rate: ", "Earth", "75%"], ["Element Rate: ", "Air", "75%"], ["Element Rate: ", "Light", "75%"], ["Element Rate: ", "Dark", "75%"], ["Element Rate: ", "Nature", "75%"], ["ExParam: ", "EVA", "-4%"], ["Atk Speed: ", -3]]
 Ingredients: [["Hypersteel Armour", 1], ["Blazing Beverage", 1], ["Crystalised Flame", 1], ["Obsidian Shard", 2]]
 ---
-Id 190: Regalia of the Phoenix's Soul
+Id 190: Regalia of the Phoenix
 Desc: A mystical cloak made with phoenix feathers, a one-of-a-kind item. Gives the Undead Immitator skill.
 Type: Magic Armour
 Price: 16000
@@ -2734,7 +2721,7 @@ Price: 3200
 HP: 0
 MP: 0
 Attack: 0
-Defence: 17
+Defence: 19
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
@@ -2755,14 +2742,14 @@ Agility: 0
 Luck: 0
 Features and Traits: [["State Resist: ", "Fear"], ["State Resist: ", "Hopeless"]]
 ---
-Id 198: Ifriadian Mail
+Id 198: Ifradian Mail
 Desc: Light armour specially made for Ifradian archers.
 Type: Light Armour
 Price: 3000
 HP: 0
 MP: 0
 Attack: 0
-Defence: 24
+Defence: 20
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
@@ -2776,7 +2763,7 @@ Price: 14000
 HP: 150
 MP: 0
 Attack: 0
-Defence: 37
+Defence: 47
 Magical Attack: 0
 Magical Defence: 0
 Agility: -20
@@ -3103,7 +3090,7 @@ Luck: 0
 Ingredients: [["Ironbark", 2]]
 ---
 Id 222: Flow Amplifier
-Desc: \}Casting magic through this gauntlet charges the Flow that passes through it, causing stronger magic but also an intense strain on the wearer. Higher MP cost and PR charge rates.
+Desc: \}Casting magic through this gauntlet charges the Flow that passes through it, causing stronger magic but also an intense strain on the wearer. Higher MCR and TCR.
 Type: General Armour
 Price: 18000
 HP: 0
@@ -3260,7 +3247,7 @@ Price: 2200
 HP: 0
 MP: 0
 Attack: 0
-Defence: 24
+Defence: 18
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
@@ -4523,7 +4510,7 @@ Ingredients: [["Ancient Ascerothan Gauntlets", 1], ["Iron Ore", 2], ["Silver Ore
 Id 321: King's Disgrace
 Desc: A relic of by-gone monarchs destined to rule over ruin.
 Type: General Armour
-Price: 7500
+Price: 6500
 HP: 0
 MP: 0
 Attack: 0
@@ -4569,13 +4556,13 @@ Price: 17500
 HP: 0
 MP: 0
 Attack: 0
-Defence: 42
+Defence: 48
 Magical Attack: 0
 Magical Defence: 28
 Agility: 0
 Luck: 0
 Features and Traits: [["Parameter: ", "MHP", "125%"], ["ExParam: ", "EVA", "12%"], ["ExParam: ", "CEV", "7%"], ["Atk Speed: ", -2], ["Gain Skill: ", "Shield Charge"]]
-Ingredients: [["Forgotten Legend", 1], ["Exemplary MHP Paragon", 1], ["Omnium", 4], ["Artefact Shards", 6]]
+Ingredients: [["Forgotten Legend", 1], ["Exemplary MHP Paragon", 1], ["Hypersteel", 2], ["Omnium", 4], ["Artefact Shards", 6]]
 ---
 Id 325: Void-Wreathed Carapace
 Desc: \}A suit of armour made of remnant Void energy. It's defensive capabilities rival armour of full raxorium. PR increases twice as fast.
@@ -4600,7 +4587,7 @@ HP: 0
 MP: 0
 Attack: 0
 Defence: 40
-Magical Attack: 75
+Magical Attack: 50
 Magical Defence: 85
 Agility: 0
 Luck: 0
@@ -4614,7 +4601,7 @@ Price: 0
 HP: 0
 MP: 0
 Attack: 0
-Defence: 75
+Defence: 65
 Magical Attack: 0
 Magical Defence: 50
 Agility: 0
@@ -4646,7 +4633,7 @@ MP: 0
 Attack: 0
 Defence: 0
 Magical Attack: 0
-Magical Defence: 30
+Magical Defence: 25
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "MRF", "25%"]]
@@ -4708,6 +4695,20 @@ Magical Attack: 40
 Magical Defence: 40
 Agility: 40
 Luck: 40
+---
+Id 334: Feather of Renewal
+Desc: \}A feather from an ancient creature, said to have the power to prevent death. Once per battle, the first time you would be killed, you are set 100HP instead.
+Type: General Armour
+Price: 35000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 15
+Agility: 0
+Luck: 0
+Features and Traits: [["State Rate: ", "Death", "0%"]]
 ---
 Id 335: Ribcage
 Desc: Identifying Characteristics:
@@ -4781,7 +4782,7 @@ Features and Traits: [["Parameter: ", "MHP", "120%"], ["Parameter: ", "MMP", "12
 Ingredients: [["Rialite", 3], ["Darkstrike Paragon O", 1], ["Smitecaster Paragon D", 1], ["Raxorium Ore", 1], ["Void Residue", 2], ["Contaminated Conduit", 1]]
 ---
 Id 340: Zysargia's Ward
-Desc: \}A gift from the Dragon Lord Zysargia. Grants his \C[20]Aura of Earth\fr skill, allows you to absorb Earth and Nature attacks, and immunity to Stun.
+Desc: \}A gift from the Dragon Lord Zysargia. Grants his \C[20]Aura of Earth\C[0] skill, allows you to absorb Earth and Nature attacks, and immunity to Stun.
 Type: General Armour
 Price: 0
 HP: 0
@@ -4795,7 +4796,7 @@ Luck: 0
 Features and Traits: [["Gain Skill: ", "Aura of Earth"], ["State Resist: ", "Stun"], ["Element Absorb:", "Earth"], ["Element Absorb:", "Nature"]]
 ---
 Id 341: Tempora's Echo
-Desc: \}A gift from the Dragon Lord Tempora. Grants his \C[24]Aura of Storms\fr skill, allows you to absorb Air and Storm attacks, and immunity to Paralysis.
+Desc: \}A gift from the Dragon Lord Tempora. Grants his \C[24]Aura of Storms\C[0] skill, allows you to absorb Air and Storm attacks, and immunity to Paralysis.
 Type: General Armour
 Price: 0
 HP: 0
@@ -4809,7 +4810,7 @@ Luck: 0
 Features and Traits: [["Gain Skill: ", "Aura of Storms"], ["State Resist: ", "Paralysis"], ["Element Absorb:", "Storm"], ["Element Absorb:", "Air"]]
 ---
 Id 342: Maelsium's Reckoning
-Desc: \}A gift from the Dragon Lord Maelsium. Grants his \C[15]Aura of Darkness\fr skill, allows you to absorb Dark attacks, and immunity to Fear and Hopeless.
+Desc: \}A gift from the Dragon Lord Maelsium. Grants his \C[15]Aura of Darkness\C[0] skill, allows you to absorb Dark attacks, and immunity to Fear and Hopeless.
 Type: General Armour
 Price: 0
 HP: 0
@@ -4823,11 +4824,11 @@ Luck: 50
 Features and Traits: [["Gain Skill: ", "Aura of Darkness"], ["State Resist: ", "Fear"], ["State Resist: ", "Hopeless"], ["Element Absorb:", "Dark"]]
 ---
 Id 343: Justicium's Blessing
-Desc: \}A gift from the Dragon Lord Justicium. Grants his \C[6]Aura of Light\fr skill, allows you to absorb Light attacks, and immunity to instant death.
+Desc: \}A gift from the Dragon Lord Justicium. Grants his \C[6]Aura of Light\C[0] skill, allows you to absorb Light attacks, and immunity to instant death.
 Type: General Armour
 Price: 0
-HP: 0
-MP: 500
+HP: 500
+MP: 0
 Attack: 0
 Defence: 0
 Magical Attack: 0
@@ -4837,7 +4838,7 @@ Luck: 0
 Features and Traits: [["Gain Skill: ", "Aura of Light"], ["State Rate: ", "Death", "0%"], ["Element Absorb:", "Light"]]
 ---
 Id 344: Infermius' Pyre
-Desc: \}A gift from the Dragon Lord Infermius. Grants his \C[18]Aura of Flames\fr skill, allows you to absorb Fire attacks, and immunity to Burns.
+Desc: \}A gift from the Dragon Lord Infermius. Grants his \C[18]Aura of Flames\C[0] skill, allows you to absorb Fire attacks, and immunity to Burns.
 Type: General Armour
 Price: 0
 HP: 0
@@ -4851,7 +4852,7 @@ Luck: 0
 Features and Traits: [["Gain Skill: ", "Aura of Flames"], ["State Resist: ", "Burn"], ["Element Absorb:", "Fire"]]
 ---
 Id 345: Avaking's Benevolence
-Desc: \}A gift from the Dragon Lord Avaking. Grants his \C[31]Aura of Souls\fr skill, allows you to absorb Soul attacks, and immunity to Void Scars.
+Desc: \}A gift from the Dragon Lord Avaking. Grants his \C[31]Aura of Souls\C[0] skill, allows you to absorb Soul attacks, and immunity to Void Scars.
 Type: General Armour
 Price: 0
 HP: 0
@@ -4865,7 +4866,7 @@ Luck: 0
 Features and Traits: [["Gain Skill: ", "Aura of Souls"], ["State Resist: ", "Void Scar"], ["Element Absorb:", "Soul"]]
 ---
 Id 346: Elazireth's Current
-Desc: \}A gift from the Dragon Lord Elazireth. Grants his \C[23]Aura of Vapour\fr skill, allows you to absorb Water and Ice attacks, and immunity to Freezing.
+Desc: \}A gift from the Dragon Lord Elazireth. Grants his \C[23]Aura of Vapour\C[0] skill, allows you to absorb Water and Ice attacks, and immunity to Freezing.
 Type: General Armour
 Price: 0
 HP: 0
@@ -4877,4 +4878,85 @@ Magical Defence: 50
 Agility: 0
 Luck: 0
 Features and Traits: [["Gain Skill: ", "Aura of Vapour"], ["State Resist: ", "Freezing"], ["Element Absorb:", "Ice"], ["Element Absorb:", "Water"]]
+---
+Id 347: Coronet of the Long Forgotten
+Desc: A fallen monarch's headware, perfect for one's abdication.
+Type: General Armour
+Price: 7500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 1
+Magical Attack: 0
+Magical Defence: 1
+Agility: 0
+Luck: 0
+---
+Id 348: Diadem of the Past
+Desc: \}A renewed monarch's headware, perfect for one's ever lasting memory. For every relic item equipped, you gain 10% physical damage resistance.
+Type: General Armour
+Price: 15000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 7
+Magical Attack: 0
+Magical Defence: 7
+Agility: 0
+Luck: 0
+Ingredients: [["Coronet of the Long Forgotten", 1], ["Magi's Crown", 1], ["Liquid Gold", 1], ["Hypersteel", 1], ["Artefact Shards", 5]]
+---
+Id 349: Riskmaker's Coin
+Desc: Gamble with the Natural Flow itself. At the start of combat, you will be given a random state. Dare take the risk?
+Type: General Armour
+Price: 8000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 25
+---
+Id 350: Sanguine Oath
+Desc: \}A deathly shield that endlessly lusts for a splash of fresh crimson blood. After taking or inflicting a total of 2,000 damage, you gain a random permanent buff.
+Type: Large Shield
+Price: 14000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 26
+Magical Attack: 0
+Magical Defence: 46
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "10%"], ["ExParam: ", "CEV", "6%"], ["Atk Speed: ", -2], ["Gain Skill: ", "Shield Charge"]]
+---
+Id 351: Prismatic Morphguard
+Desc: \}A colourfully shining suit of armour. After receiving an elemental attack, you cumulatively gain 5% resistance to that element for the rest of combat. Caps at 50%.
+Type: Magic Armour
+Price: 23000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 56
+Magical Attack: 0
+Magical Defence: 63
+Agility: 0
+Luck: 0
+Ingredients: [["Hallowed Battlegear", 1], ["Mirror Shield", 1], ["Holy Symbol", 1], ["Raxorium Ore", 1], ["Hypersteel", 2]]
+---
+Id 352: Wardstone of Transmutation
+Desc: A thick stone slab chiseled with ineffable ramblings. Though, it seems to be able to invert incoming buffs and debuffs - from both friend and foe.
+Type: General Armour
+Price: 9500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 13
+Agility: 0
+Luck: 0
 ---

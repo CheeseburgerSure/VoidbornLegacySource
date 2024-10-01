@@ -87,7 +87,7 @@ Effects and Traits: [["Add State: ", "Paralysis", "10%"]]
 ---
 Id 11: Poison Cloud
 Desc: Poison all enemies.
-Skill Class: Abilites
+Skill Class: Unique
 Cost: 10MP
 Scope: All Enemies
 Effects and Traits: [["Add State: ", "Poison", "45%"]]
@@ -123,6 +123,16 @@ Variance: 15
 Critical: true
 Scope: One Enemy
 ---
+Id 16: Soulreach Slash
+Desc: Unleash the stored energy from the Soulreach Blade. Using it now will inflict \C[23]\V[125]\C[0] damage.
+Skill Class: Abilites
+Cost: 30PR
+Skill Type: HP Damage
+Formula: a.soulreach_charge
+Variance: 0
+Critical: false
+Scope: One Enemy
+---
 Id 17: Sleep Pollen
 Desc: Puts all enemies to sleep.
 Skill Class: Abilites
@@ -138,9 +148,18 @@ Effects and Traits: [["Add State: ", "Paralysis", "50%"]]
 ---
 Id 19: Paralyze Stare
 Desc: Paralyzes a single enemy.
-Skill Class: Abilites
+Skill Class: Unique
 Scope: One Enemy
 Effects and Traits: [["Add State: ", "Paralysis", "50%"]]
+---
+Id 20: Vilebrand Fauchard Attack
+Desc: \}Damages the enemy, ignoring their DEF. Additional multiplier based on amount of current Curses.
+Skill Class: None
+Skill Type: HP Damage
+Formula: a.atk * 3.5 * (a.vilebrand + 1)
+Variance: 15
+Critical: true
+Scope: One Enemy
 ---
 Id 21: Bodyslam
 Desc: Damages enemy and attempt to stun enemy.
@@ -291,7 +310,7 @@ Scope: One Ally
 ---
 Id 38: Contaminated Claw
 Desc: Rake a target with irradiated stone claws.
-Skill Class: Abilites
+Skill Class: Unique
 Cost: 20PR
 Skill Type: HP Damage
 Formula: (a.atk * 3 + a.mat - b.def * 2) + 300
@@ -379,7 +398,7 @@ Desc: Deals fire damage to one enemy.
 Skill Class: Magic
 Cost: 5MP
 Skill Type: HP Damage
-Formula: 150 + a.mat * 2 - b.mdf * 2
+Formula: 150 + a.mat * 3 - b.mdf * 2
 Element: Fire
 Variance: 20
 Critical: false
@@ -391,7 +410,7 @@ Desc: Deals fire damage to one enemy.
 Skill Class: Magic
 Cost: 30MP
 Skill Type: HP Damage
-Formula: 300 + a.mat * 2 - b.mdf * 2
+Formula: 500 + a.mat * 3 - b.mdf * 2
 Element: Fire
 Variance: 20
 Critical: false
@@ -415,7 +434,7 @@ Desc: Deals fire damage to all enemies.
 Skill Class: Magic
 Cost: 55MP
 Skill Type: HP Damage
-Formula: 300 + a.mat * 2 - b.mdf * 2
+Formula: 300 + a.mat * 3 - b.mdf * 2
 Element: Fire
 Variance: 20
 Critical: false
@@ -427,7 +446,7 @@ Desc: Deals ice damage to one enemy.
 Skill Class: Magic
 Cost: 5MP
 Skill Type: HP Damage
-Formula: 150 + a.mat * 2 - b.mdf * 2
+Formula: 150 + a.mat * 3 - b.mdf * 2
 Element: Ice
 Variance: 20
 Critical: false
@@ -439,7 +458,7 @@ Desc: Deals ice damage to one enemy.
 Skill Class: Magic
 Cost: 30MP
 Skill Type: HP Damage
-Formula: 300 + a.mat * 2 - b.mdf * 2
+Formula: 500 + a.mat * 3 - b.mdf * 2
 Element: Ice
 Variance: 20
 Critical: false
@@ -463,7 +482,7 @@ Desc: Deals ice damage to all enemies.
 Skill Class: Magic
 Cost: 55MP
 Skill Type: HP Damage
-Formula: 300 + a.mat * 2 - b.mdf * 2
+Formula: 300 + a.mat * 3 - b.mdf * 2
 Element: Ice
 Variance: 20
 Critical: false
@@ -475,7 +494,7 @@ Desc: Deals lightning damage to one enemy.
 Skill Class: Magic
 Cost: 5MP
 Skill Type: HP Damage
-Formula: 150 + a.mat * 2 - b.mdf * 2
+Formula: 150 + a.mat * 3 - b.mdf * 2
 Element: Storm
 Variance: 20
 Critical: false
@@ -487,7 +506,7 @@ Desc: Deals lightning damage to one enemy.
 Skill Class: Magic
 Cost: 30MP
 Skill Type: HP Damage
-Formula: 300 + a.mat * 2 - b.mdf * 2
+Formula: 500 + a.mat * 3 - b.mdf * 2
 Element: Storm
 Variance: 20
 Critical: false
@@ -497,7 +516,7 @@ Effects and Traits: [["Add State: ", "Paralysis", "20%"]]
 Id 61: Thunder
 Desc: Deals lightning damage to all enemies.
 Skill Class: Magic
-Cost: 15MP
+Cost: 5MP
 Skill Type: HP Damage
 Formula: 150 + a.mat * 2 - b.mdf * 2
 Element: Storm
@@ -511,7 +530,7 @@ Desc: Deals lightning damage to all enemies.
 Skill Class: Magic
 Cost: 55MP
 Skill Type: HP Damage
-Formula: 300 + a.mat * 2 - b.mdf * 2
+Formula: 300 + a.mat * 3 - b.mdf * 2
 Element: Storm
 Variance: 20
 Critical: false
@@ -523,7 +542,7 @@ Desc: Deals water damage to one enemy.
 Skill Class: Magic
 Cost: 5MP
 Skill Type: HP Damage
-Formula: 150 + a.mat * 2 - b.mdf * 2
+Formula: 150 + a.mat * 3 - b.mdf * 2
 Element: Water
 Variance: 20
 Critical: false
@@ -535,7 +554,7 @@ Desc: Deals water damage to all enemies.
 Skill Class: Magic
 Cost: 30MP
 Skill Type: HP Damage
-Formula: 300 + a.mat * 2 - b.mdf * 2
+Formula: 150 + a.mat * 2 - b.mdf * 2
 Element: Water
 Variance: 20
 Critical: false
@@ -547,7 +566,7 @@ Desc: Deals earth damage to one enemy.
 Skill Class: Magic
 Cost: 5MP
 Skill Type: HP Damage
-Formula: 150 + a.mat * 2 - b.mdf * 2
+Formula: 150 + a.mat * 3 - b.mdf * 2
 Element: Earth
 Variance: 20
 Critical: false
@@ -559,7 +578,7 @@ Desc: Deals earth damage to all enemies.
 Skill Class: Magic
 Cost: 30MP
 Skill Type: HP Damage
-Formula: 300 + a.mat * 2 - b.mdf * 2
+Formula: 150 + a.mat * 2 - b.mdf * 2
 Element: Earth
 Variance: 20
 Critical: false
@@ -571,7 +590,7 @@ Desc: Deals wind damage to one enemy.
 Skill Class: Magic
 Cost: 5MP
 Skill Type: HP Damage
-Formula: 150 + a.mat * 2 - b.mdf * 2
+Formula: 150 + a.mat * 3 - b.mdf * 2
 Element: Air
 Variance: 20
 Critical: false
@@ -583,7 +602,7 @@ Desc: Deals wind damage to all enemies.
 Skill Class: Magic
 Cost: 30MP
 Skill Type: HP Damage
-Formula: 400 + a.mat * 2 - b.mdf * 2
+Formula: 150 + a.mat * 2 - b.mdf * 2
 Element: Air
 Variance: 20
 Critical: false
@@ -595,7 +614,7 @@ Desc: Deals holy damage to one enemy.
 Skill Class: Magic
 Cost: 5MP
 Skill Type: HP Damage
-Formula: 150 + a.mat * 2 - b.mdf * 2
+Formula: 150 + a.mat * 3 - b.mdf * 2
 Element: Light
 Variance: 20
 Critical: false
@@ -607,7 +626,7 @@ Desc: Deals holy damage to all enemies.
 Skill Class: Magic
 Cost: 30MP
 Skill Type: HP Damage
-Formula: 300 + a.mat * 2 - b.mdf * 2
+Formula: 150 + a.mat * 2 - b.mdf * 2
 Element: Light
 Variance: 20
 Critical: false
@@ -619,7 +638,7 @@ Desc: Deals dark damage to one enemy.
 Skill Class: Magic
 Cost: 5MP
 Skill Type: HP Damage
-Formula: 150 + a.mat * 2 - b.mdf * 2
+Formula: 150 + a.mat * 3 - b.mdf * 2
 Element: Dark
 Variance: 20
 Critical: false
@@ -631,7 +650,7 @@ Desc: Deals dark damage to all enemies.
 Skill Class: Magic
 Cost: 30MP
 Skill Type: HP Damage
-Formula: 300 + a.mat * 2 - b.mdf * 2
+Formula: 150 + a.mat * 2 - b.mdf * 2
 Element: Dark
 Variance: 20
 Critical: false
@@ -875,7 +894,7 @@ Desc: Set up a magical barrier that deflects all incoming magic. Lasts 3 turns.
 Skill Class: Magic
 Cost: 20MP
 Scope: The User
-Effects and Traits: [["Add State: ", "Aura of Darkness", "100%"]]
+Effects and Traits: [["Add State: ", "Magic Reflect", "100%"]]
 ---
 Id 120: Enhance Spell
 Desc: For 5 turns, greatly increase user's MAT.
@@ -1266,7 +1285,7 @@ Desc: Clears all foes of any buffs and throws off their guard. Priority move.
 Skill Class: Magic
 Cost: 45MP
 Scope: All Enemies
-Effects and Traits: [["Remove Buff: ", "MHP"], ["Remove Buff: ", "MMP"], ["Remove Buff: ", "ATK"], ["Remove Buff: ", "DEF"], ["Remove Buff: ", "MAT"], ["Remove Buff: ", "MDF"], ["Remove Buff: ", "AGI"], ["Remove Buff: ", "LUK"], ["Remove State: ", "", "100%"], ["Remove State: ", "Irradiated", "100%"], ["Remove State: ", "Fireflies", "100%"], ["Remove State: ", "Aura of Earth", "100%"], ["Remove State: ", "Ready for Harvest", "100%"], ["Remove State: ", "Parry Mode", "100%"], ["Remove State: ", "Aura of Storms", "100%"], ["Remove State: ", "Aura of Darkness", "100%"], ["Remove State: ", "Aura of Light", "100%"], ["Remove State: ", "Aura of Vapour", "100%"], ["Remove State: ", "Aura of Flames", "100%"], ["Remove State: ", "Aura of Souls", "100%"], ["Remove State: ", "Tailwind", "100%"], ["Remove State: ", "Winter", "100%"], ["Remove State: ", "Ice Wall", "100%"], ["Remove State: ", "Guard", "100%"], ["Remove State: ", "Bunkered Down", "100%"], ["Remove State: ", "Mystic Armour", "100%"], ["Remove State: ", "Dark Shroud", "100%"], ["Remove State: ", "Particle Shell", "100%"], ["Remove State: ", "Frostbite", "100%"], ["Remove State: ", "Flameskin", "100%"], ["Remove State: ", "Magic Might", "100%"]]
+Effects and Traits: [["Remove Buff: ", "MHP"], ["Remove Buff: ", "MMP"], ["Remove Buff: ", "ATK"], ["Remove Buff: ", "DEF"], ["Remove Buff: ", "MAT"], ["Remove Buff: ", "MDF"], ["Remove Buff: ", "AGI"], ["Remove Buff: ", "LUK"], ["Remove State: ", "Magic Reflect", "100%"], ["Remove State: ", "Irradiated", "100%"], ["Remove State: ", "Fireflies", "100%"], ["Remove State: ", "Aura of Earth", "100%"], ["Remove State: ", "Ready for Harvest", "100%"], ["Remove State: ", "Parry Mode", "100%"], ["Remove State: ", "Aura of Storms", "100%"], ["Remove State: ", "Aura of Darkness", "100%"], ["Remove State: ", "Aura of Light", "100%"], ["Remove State: ", "Aura of Vapour", "100%"], ["Remove State: ", "Aura of Flames", "100%"], ["Remove State: ", "Aura of Souls", "100%"], ["Remove State: ", "Tailwind", "100%"], ["Remove State: ", "Winter", "100%"], ["Remove State: ", "Ice Wall", "100%"], ["Remove State: ", "Guard", "100%"], ["Remove State: ", "Bunkered Down", "100%"], ["Remove State: ", "Mystic Armour", "100%"], ["Remove State: ", "Dark Shroud", "100%"], ["Remove State: ", "Particle Shell", "100%"], ["Remove State: ", "Frostbite", "100%"], ["Remove State: ", "Flameskin", "100%"], ["Remove State: ", "Magic Might", "100%"]]
 ---
 Id 167: Sacred Light
 Desc: Heal all allies significantly and cures Fear.
@@ -1737,7 +1756,7 @@ Scope: One Ally
 Effects and Traits: [["Add State: ", "Particle Shell", "100%"]]
 ---
 Id 216: Soul Rend
-Desc: Tear apart at the very bond between soul and body keeping you alive. Deals enormous damage to a target and can instantly kill.
+Desc: \}Tear apart at the very bond between soul and body keeping you alive. Deals enormous damage to a target and can instantly kill.
 Skill Class: Abilites
 Cost: 150MP
 Skill Type: HP Damage
@@ -2089,7 +2108,7 @@ Effects and Traits: [["Add State: ", "Curse of the Soulless", "100%"]]
 ---
 Id 260: Mucus Mayhem
 Desc: Ooze a target.
-Skill Class: Abilites
+Skill Class: Unique
 Cost: 10PR
 Skill Type: MP Damage
 Formula: 10 + (a.mat / 4)
@@ -2099,8 +2118,8 @@ Scope: One Enemy
 Effects and Traits: [["Add State: ", "Oozed", "80%"]]
 ---
 Id 261: Coil
-Desc: The snake wraps itself up defensively, in preperation for attacks. Increases DEF and guarantees counters for a short time.
-Skill Class: Abilites
+Desc: Wrap up defensively, in preperation for attacks. Increases DEF and guarantees counters for a short time.
+Skill Class: Unique
 Cost: 10PR
 Scope: The User
 Effects and Traits: [["Add State: ", "Coiled", "100%"]]
@@ -2127,7 +2146,7 @@ Effects and Traits: [["Add State: ", "Swarmed", "100%"]]
 ---
 Id 266: Constrict
 Desc: Wrap yourself around a target and tighten, restricting their breathing and movement.
-Skill Class: Abilites
+Skill Class: Unique
 Cost: 15PR
 Skill Type: HP Damage
 Formula: a.addState(94); 100
@@ -2161,8 +2180,8 @@ Scope: One Enemy
 Effects and Traits: [["Add State: ", "Fear", "100%"], ["Add State: ", "Hopeless", "50%"]]
 ---
 Id 270: Plague Spreader
-Desc: Spread plague. Like, come on, what do you think it would do?
-Skill Class: Abilites
+Desc: Spread Plague to all foes.
+Skill Class: Unique
 Cost: 25PR
 Skill Type: HP Damage
 Formula: 200
@@ -2245,7 +2264,7 @@ Scope: All Enemies
 Effects and Traits: [["Add State: ", "Buttered", "30%"]]
 ---
 Id 282: Voidgloom Attack
-Desc: Damages the enemy. Voidgloom Reaper version.
+Desc: Damages the enemy and drains their health. Voidgloom Reaper version.
 Skill Class: None
 Skill Type: HP Drain
 Formula: a.atk * 4 - b.def - b.mdf
@@ -2254,14 +2273,14 @@ Critical: true
 Scope: 2 Random Enemies
 ---
 Id 283: Void Shroud
-Desc: A thick cloud of Void energy envelopes the party, heavily restricting their sight.
-Skill Class: Magic
+Desc: A thick cloud of Void energy envelopes foes, heavily restricting their sight.
+Skill Class: Unique
 Scope: All Enemies
 Effects and Traits: [["Add State: ", "Blind", "75%"], ["Add State: ", "Hallucinating", "15%"]]
 ---
 Id 284: Soul Reinvigoration
 Desc: Heals all allies and grants a small buff to offences.
-Skill Class: Abilites
+Skill Class: Unique
 Cost: 120MP
 Skill Type: HP Recover
 Formula: 2500 + a.mat
@@ -2412,7 +2431,7 @@ Effects and Traits: [["Add State: ", "Paralysis", "25%"], ["Add State: ", "Thund
 ---
 Id 306: Envenomating Bite
 Desc: \fiPoisonous\fr monch.
-Skill Class: Abilites
+Skill Class: Unique
 Cost: 10PR
 Skill Type: HP Damage
 Formula: 100 + (a.atk * 2 - b.def)
@@ -2423,7 +2442,7 @@ Effects and Traits: [["Add State: ", "Poison", "20%"]]
 ---
 Id 307: Intangibility
 Desc: Embrace your more ghostly features and become untouchable by physical moves.
-Skill Class: Abilites
+Skill Class: Unique
 Cost: 20PR
 Scope: The User
 Effects and Traits: [["Add State: ", "Intangible", "100%"]]
@@ -2452,7 +2471,7 @@ Scope: The User
 Effects and Traits: [["Add Buff: ", "ATK", "5 turns"], ["Add Buff: ", "DEF", "5 turns"]]
 ---
 Id 310: Soul Degredation
-Desc: Damage the soul directly, hindering the target's ability to Prime.
+Desc: Damage the soul directly, hindering the target's ability to Prime. Very likely to also inflict a Void Scar.
 Skill Class: Abilites
 Cost: 150MP
 Skill Type: HP Damage
@@ -2514,7 +2533,7 @@ Scope: One Enemy
 Effects and Traits: [["Add State: ", "Frostbite", "1000%"]]
 ---
 Id 317: Weakening Field
-Desc: Grasp a target in an energy dense prison, disrupting the connection between soul and body. They cannot move in this time.
+Desc: \}Grasp a target in an energy dense prison, disrupting the connection between soul and body. They cannot move in this time.
 Skill Class: Magic
 Cost: 80MP
 Scope: One Enemy
@@ -2559,7 +2578,7 @@ Desc: Damage doubles if the target is Bleeding.
 Skill Class: Abilites
 Cost: 25PR
 Skill Type: HP Damage
-Formula: c=(a.atk*4-b.def*2); if b.state?(32); c *= 2; else; b.result.used=false; end; c
+Formula: c=(100+a.atk*4-b.def*2); if b.state?(32); c *= 2; else; b.result.used=false; end; c
 Variance: 20
 Critical: false
 Scope: One Enemy
@@ -2584,7 +2603,7 @@ Scope: One Enemy
 Effects and Traits: [["Add State: ", "Encased", "100%"]]
 ---
 Id 326: Echoes of Burdens
-Desc: Transfer every single state or debuff (positive or negative) from the user to a target enemy.
+Desc: Transfer \fievery single\fr state from the user to a target enemy.
 Skill Class: Magic
 Cost: 100MP
 Skill Type: HP Damage
@@ -2606,7 +2625,7 @@ Effects and Traits: [["Recover MP: ", "100%", ""]]
 ---
 Id 328: Splurge
 Desc: \fiSquelching noise.
-Skill Class: Abilites
+Skill Class: Unique
 Cost: 15PR
 Skill Type: HP Damage
 Formula: 100
@@ -2677,7 +2696,7 @@ Effects and Traits: [["Add State: ", "Inspired", "100%"]]
 ---
 Id 337: Raptor's Onslaught
 Desc: Attack all foes in a single swift motion. 
-Skill Class: Abilites
+Skill Class: Unique
 Skill Type: HP Damage
 Formula: (a.atk * 3) - b.def
 Variance: 20
@@ -2686,7 +2705,7 @@ Scope: All Enemies
 ---
 Id 338: Rending Talons
 Desc: Strike an enemy and sunder their DEF.
-Skill Class: Abilites
+Skill Class: Unique
 Cost: 5PR
 Skill Type: HP Damage
 Formula: (a.atk * 4) - b.def
@@ -2709,10 +2728,10 @@ Effects and Traits: [["Add State: ", "Bleeding", "30%"]]
 ---
 Id 340: Fester
 Desc: Damage doubles if the target is Plagued. Generates 10 PR.
-Skill Class: Magic
+Skill Class: Unique
 Cost: 40MP
 Skill Type: HP Damage
-Formula: c=(a.mat*4-b.mdf*2); if b.state?(95); c *= 2; else; b.result.used=false; end; c
+Formula: c=(100+a.mat*4-b.mdf*2); if b.state?(95); c *= 2; else; b.result.used=false; end; c
 Variance: 20
 Critical: false
 Scope: One Enemy
@@ -2722,7 +2741,7 @@ Desc: Damage doubles if the target has Fear or Hopeless.
 Skill Class: Magic
 Cost: 45MP
 Skill Type: HP Damage
-Formula: c=(a.mat*4-b.mdf); if b.state?(53) || b.state?(31); c *= 2; else; b.result.used=false; end; c
+Formula: c=(100+a.mat*4-b.mdf); if b.state?(53) || b.state?(31); c *= 2; else; b.result.used=false; end; c
 Element: Dark
 Variance: 20
 Critical: false
@@ -2733,7 +2752,7 @@ Desc: Suddenly drop the temperature of the air around a target. Damage doubles i
 Skill Class: Magic
 Cost: 35MP
 Skill Type: HP Damage
-Formula: c=(a.mat*4-b.mdf*2); if b.state?(26); c *= 2; else; b.result.used=false; end; c
+Formula: c=(100+a.mat*4-b.mdf*2); if b.state?(26); c *= 2; else; b.result.used=false; end; c
 Element: Ice
 Variance: 20
 Critical: false
@@ -2752,10 +2771,10 @@ Scope: One Enemy
 ---
 Id 344: Noxious Culling
 Desc: Damage doubles if the target is Poisoned. 
-Skill Class: Magic
+Skill Class: Unique
 Cost: 30MP
 Skill Type: HP Damage
-Formula: c=(a.mat*4-b.mdf*2); if b.state?(2); c *= 2; else; b.result.used=false; end; c
+Formula: c=(100+a.mat*4-b.mdf*2); if b.state?(2); c *= 2; else; b.result.used=false; end; c
 Element: Nature
 Variance: 20
 Critical: false
@@ -2788,4 +2807,340 @@ Variance: 10
 Critical: true
 Scope: One Enemy
 Effects and Traits: [["Add State: ", "Stun", "50%"]]
+---
+Id 348: Cremate
+Desc: \}Bring a fire so searing hot that it rips through anything in its path. Will always Burn if they survive. Also gives 25 PR.
+Skill Class: Magic
+Cost: 200MP
+Skill Type: HP Damage
+Formula: 4000 + a.mat
+Element: Fire
+Variance: 15
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Burn", "100%"], ["Add State: ", "Burn", "100%"], ["Add State: ", "Burn", "100%"], ["Add State: ", "Burn", "100%"], ["Add State: ", "Burn", "100%"], ["Add State: ", "Burn", "100%"], ["Add State: ", "Burn", "100%"], ["Add State: ", "Burn", "100%"], ["Add State: ", "Burn", "100%"], ["Add State: ", "Burn", "100%"], ["Add State: ", "Burn", "100%"], ["Add State: ", "Burn", "100%"], ["Add State: ", "Burn", "100%"], ["Add State: ", "Burn", "100%"], ["Add State: ", "Burn", "100%"], ["Add State: ", "Burn", "100%"], ["Add State: ", "Burn", "100%"], ["Add State: ", "Burn", "100%"], ["Add State: ", "Burn", "100%"], ["Add State: ", "Burn", "100%"], ["Add State: ", "Burn", "100%"], ["Add State: ", "Burn", "100%"], ["Add State: ", "Burn", "100%"], ["Add State: ", "Burn", "100%"]]
+---
+Id 349: Soulsnare Slash
+Desc: A relatively low damage attack. However, if it successfully kills, the enemy will be added to your Soul collection.
+Skill Class: Abilites
+Cost: 25PR
+Skill Type: HP Damage
+Formula: 750
+Variance: 75
+Critical: true
+Scope: One Enemy
+---
+Id 351: Slime
+Desc: \fiSkills learned: Slime Attack, Mucus Mayhem, Splurge
+Weakness: Ice
+Skill Class: Unique
+Cost: 25MP
+Scope: The User
+Effects and Traits: [["Add State: ", "Form: Slime", "100%"], ["Remove State: ", "Form: Serpent", "100%"], ["Remove State: ", "Form: Volwrath", "100%"], ["Remove State: ", "Form: Stallion", "100%"], ["Remove State: ", "Form: Skeleton", "100%"], ["Remove State: ", "Form: Void", "100%"], ["Remove State: ", "Form: Avian", "100%"], ["Remove State: ", "Form: Bouldergeist", "100%"], ["Remove State: ", "Form: Cerberus", "100%"], ["Remove State: ", "Form: Manticore", "100%"], ["Remove State: ", "Form: Behemoth", "100%"], ["Remove State: ", "Form: Michaelon", "100%"], ["Remove State: ", "Form: Plantoid", "100%"]]
+---
+Id 352: Volwrath
+Desc: \fiSkills learned: Intangibility, Annihilation Ray, Undead Immitator
+Weakness: Light
+Skill Class: Unique
+Cost: 50MP
+Scope: The User
+Effects and Traits: [["Add State: ", "Form: Volwrath", "100%"], ["Remove State: ", "Form: Serpent", "100%"], ["Remove State: ", "Form: Volwrath", "100%"], ["Remove State: ", "Form: Slime", "100%"], ["Remove State: ", "Form: Stallion", "100%"], ["Remove State: ", "Form: Skeleton", "100%"], ["Remove State: ", "Form: Void", "100%"], ["Remove State: ", "Form: Avian", "100%"], ["Remove State: ", "Form: Bouldergeist", "100%"], ["Remove State: ", "Form: Cerberus", "100%"], ["Remove State: ", "Form: Manticore", "100%"], ["Remove State: ", "Form: Behemoth", "100%"], ["Remove State: ", "Form: Michaelon", "100%"], ["Remove State: ", "Form: Plantoid", "100%"]]
+---
+Id 353: Annihilation Ray
+Desc: A beam of pure dark energy is fired towards the target. Removes ALL buffs and states, then may still inflict Fear afterwards.
+Skill Class: Unique
+Cost: 115MP
+Skill Type: HP Damage
+Formula: b.clear_states; (a.mat * 5 - b.mdf * 2) + 450
+Element: Dark
+Variance: 15
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Fear", "30%"], ["Remove Buff: ", "MHP"], ["Remove Buff: ", "MMP"], ["Remove Buff: ", "ATK"], ["Remove Buff: ", "DEF"], ["Remove Buff: ", "MAT"], ["Remove Buff: ", "MDF"], ["Remove Buff: ", "AGI"], ["Remove Buff: ", "LUK"]]
+---
+Id 354: Undead Immitator
+Desc: Gives temporary immortality to a single ally.
+Skill Class: Unique
+Cost: 150MP
+Scope: One Ally
+Effects and Traits: [["Add State: ", "TempImmortal", "100%"]]
+---
+Id 355: Serpent
+Desc: \fiSkills learned: Envenomating Bite, Coil, Constrict
+Weakness: Air
+Skill Class: Unique
+Cost: 25MP
+Scope: The User
+Effects and Traits: [["Add State: ", "Form: Serpent", "100%"], ["Remove State: ", "Form: Volwrath", "100%"], ["Remove State: ", "Form: Slime", "100%"], ["Remove State: ", "Form: Stallion", "100%"], ["Remove State: ", "Form: Skeleton", "100%"], ["Remove State: ", "Form: Void", "100%"], ["Remove State: ", "Form: Avian", "100%"], ["Remove State: ", "Form: Bouldergeist", "100%"], ["Remove State: ", "Form: Cerberus", "100%"], ["Remove State: ", "Form: Manticore", "100%"], ["Remove State: ", "Form: Behemoth", "100%"], ["Remove State: ", "Form: Michaelon", "100%"], ["Remove State: ", "Form: Plantoid", "100%"]]
+---
+Id 356: Stallion
+Desc: \fiSkills learned: Plague Spreader, Fester, Acid Mist
+Weakness: Light
+Skill Class: Unique
+Cost: 50MP
+Scope: The User
+Effects and Traits: [["Add State: ", "Form: Stallion", "100%"], ["Remove State: ", "Form: Volwrath", "100%"], ["Remove State: ", "Form: Serpent", "100%"], ["Remove State: ", "Form: Slime", "100%"], ["Remove State: ", "Form: Skeleton", "100%"], ["Remove State: ", "Form: Void", "100%"], ["Remove State: ", "Form: Avian", "100%"], ["Remove State: ", "Form: Bouldergeist", "100%"], ["Remove State: ", "Form: Cerberus", "100%"], ["Remove State: ", "Form: Manticore", "100%"], ["Remove State: ", "Form: Behemoth", "100%"], ["Remove State: ", "Form: Michaelon", "100%"], ["Remove State: ", "Form: Plantoid", "100%"]]
+---
+Id 357: Acid Mist
+Desc: Spray acid over \{everyone\}!
+Skill Class: Unique
+Cost: 20PR
+Skill Type: HP Damage
+Formula: 350 - b.def
+Variance: 10
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Acid Damage", "30%"]]
+---
+Id 358: Skeleton
+Desc: \fi\}Skills learned: Drums of Ivory, Bones Heal Stronger, Words Will Never Hurt Me
+Weakness: Light
+Skill Class: Unique
+Cost: 25MP
+Scope: The User
+Effects and Traits: [["Add State: ", "Form: Skeleton", "100%"], ["Remove State: ", "Form: Volwrath", "100%"], ["Remove State: ", "Form: Serpent", "100%"], ["Remove State: ", "Form: Stallion", "100%"], ["Remove State: ", "Form: Slime", "100%"], ["Remove State: ", "Form: Void", "100%"], ["Remove State: ", "Form: Avian", "100%"], ["Remove State: ", "Form: Bouldergeist", "100%"], ["Remove State: ", "Form: Cerberus", "100%"], ["Remove State: ", "Form: Manticore", "100%"], ["Remove State: ", "Form: Behemoth", "100%"], ["Remove State: ", "Form: Michaelon", "100%"], ["Remove State: ", "Form: Plantoid", "100%"]]
+---
+Id 359: Drums of Ivory
+Desc: The drums of Excellion shall sound once again. All allies gain many powerful buffs.
+Skill Class: Unique
+Cost: 50PR
+Scope: All Allies
+Effects and Traits: [["Add State: ", "Drums of Ivory", "100%"]]
+---
+Id 360: Bones Heal Stronger
+Desc: Heal your fellow skeleton and grant them a permanent DEF buff.
+Skill Class: Unique
+Cost: 20MP
+Skill Type: HP Recover
+Formula: a.mat * 3
+Variance: 15
+Critical: false
+Scope: One Ally
+Effects and Traits: [["Add Buff: ", "DEF", "1000 turns"]]
+---
+Id 361: Words Will Never Hurt Me
+Desc: Silences a target.
+Skill Class: Unique
+Cost: 10MP
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Silence", "100%"]]
+---
+Id 362: Void
+Desc: \fi\}Skills learned: Soul Reinvigoration, Voidgloom Attack, Void Shroud
+Weakness: Soul
+Skill Class: Unique
+Cost: 100MP
+Scope: The User
+Effects and Traits: [["Add State: ", "Form: Void", "100%"], ["Remove State: ", "Form: Volwrath", "100%"], ["Remove State: ", "Form: Serpent", "100%"], ["Remove State: ", "Form: Stallion", "100%"], ["Remove State: ", "Form: Skeleton", "100%"], ["Remove State: ", "Form: Slime", "100%"], ["Remove State: ", "Form: Avian", "100%"], ["Remove State: ", "Form: Bouldergeist", "100%"], ["Remove State: ", "Form: Cerberus", "100%"], ["Remove State: ", "Form: Manticore", "100%"], ["Remove State: ", "Form: Behemoth", "100%"], ["Remove State: ", "Form: Michaelon", "100%"], ["Remove State: ", "Form: Plantoid", "100%"]]
+---
+Id 363: Voidgloom Attack
+Desc: Damages the enemy and drains their health. Voidgloom Reaper version.
+Skill Class: Unique
+Skill Type: HP Drain
+Formula: a.atk * 4 - b.def - b.mdf
+Variance: 20
+Critical: true
+Scope: 2 Random Enemies
+---
+Id 364: Avian
+Desc: \fi\}Skills learned: Hawk-Eyed, Raptor's Onslaught, Rending Talons
+Weakness: Storm
+Skill Class: Unique
+Cost: 50MP
+Scope: The User
+Effects and Traits: [["Add State: ", "Form: Avian", "100%"], ["Remove State: ", "Form: Volwrath", "100%"], ["Remove State: ", "Form: Serpent", "100%"], ["Remove State: ", "Form: Stallion", "100%"], ["Remove State: ", "Form: Skeleton", "100%"], ["Remove State: ", "Form: Void", "100%"], ["Remove State: ", "Form: Slime", "100%"], ["Remove State: ", "Form: Bouldergeist", "100%"], ["Remove State: ", "Form: Cerberus", "100%"], ["Remove State: ", "Form: Manticore", "100%"], ["Remove State: ", "Form: Behemoth", "100%"], ["Remove State: ", "Form: Michaelon", "100%"], ["Remove State: ", "Form: Plantoid", "100%"]]
+---
+Id 365: Hawk-Eyed
+Desc: Focus to new heights and hit more shots as a critical for a short time. Taking damage can cause you to lose focus.
+Skill Class: Unique
+Cost: 25PR
+Scope: The User
+Effects and Traits: [["Add State: ", "Hawk-Eyed", "100%"]]
+---
+Id 366: Bouldergeist
+Desc: \}\fiSkills learned: Tectonic Tremor, Standing Stones, Contaminated Claw
+Weakness: Water
+Skill Class: Unique
+Cost: 25MP
+Scope: The User
+Effects and Traits: [["Add State: ", "Form: Bouldergeist", "100%"], ["Remove State: ", "Form: Volwrath", "100%"], ["Remove State: ", "Form: Serpent", "100%"], ["Remove State: ", "Form: Stallion", "100%"], ["Remove State: ", "Form: Skeleton", "100%"], ["Remove State: ", "Form: Void", "100%"], ["Remove State: ", "Form: Avian", "100%"], ["Remove State: ", "Form: Slime", "100%"], ["Remove State: ", "Form: Cerberus", "100%"], ["Remove State: ", "Form: Manticore", "100%"], ["Remove State: ", "Form: Behemoth", "100%"], ["Remove State: ", "Form: Michaelon", "100%"], ["Remove State: ", "Form: Plantoid", "100%"]]
+---
+Id 367: Tectonic Tremor
+Desc: Shake the ground beneath your feet with an earth-shattering fury. High chance to knock over.
+Skill Class: Unique
+Cost: 60MP
+Skill Type: HP Damage
+Formula: (a.mat * 5 - b.mdf  * 2)  + 100
+Element: Earth
+Variance: 15
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Knocked Over", "75%"]]
+---
+Id 368: Standing Stones
+Desc: Reduces incoming physical damage by 50% for all allies.
+Skill Class: Unique
+Cost: 25MP
+Scope: All Allies
+Effects and Traits: [["Add State: ", "Standing Stones", "100%"]]
+---
+Id 369: Cerberus
+Desc: \fiSkills learned: Flood of Fire, Wrath of Darkness, Thunderstorm
+Weakness: Water, Light, Earth
+Skill Class: Unique
+Cost: 75MP
+Scope: The User
+Effects and Traits: [["Add State: ", "Form: Cerberus", "100%"], ["Remove State: ", "Form: Volwrath", "100%"], ["Remove State: ", "Form: Serpent", "100%"], ["Remove State: ", "Form: Stallion", "100%"], ["Remove State: ", "Form: Skeleton", "100%"], ["Remove State: ", "Form: Void", "100%"], ["Remove State: ", "Form: Slime", "100%"], ["Remove State: ", "Form: Bouldergeist", "100%"], ["Remove State: ", "Form: Avian", "100%"], ["Remove State: ", "Form: Manticore", "100%"], ["Remove State: ", "Form: Behemoth", "100%"], ["Remove State: ", "Form: Michaelon", "100%"], ["Remove State: ", "Form: Plantoid", "100%"]]
+---
+Id 370: Flood of Fire
+Desc: Cast forward a wash of immense heat towards your foes.
+Skill Class: Unique
+Cost: 40MP
+Skill Type: HP Damage
+Formula: 200 + a.mat * 2 - b.mdf * 2
+Element: Fire
+Variance: 15
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Burn", "15%"]]
+---
+Id 371: Wrath of Darkness
+Desc: Temporarily transform into a shadow, gaining many
+traits (including Immortality) for the duration.
+Skill Class: Unique
+Cost: 50PR
+Scope: The User
+Effects and Traits: [["Add State: ", "Wrath of Darkness", "100%"]]
+---
+Id 372: Thunderstorm
+Desc: Summon a mighty thunderstorm to strike down your foes. Lingers for a couple of rounds.
+Skill Class: Unique
+Cost: 70MP
+Skill Type: HP Damage
+Formula: 200 + a.mat * 3 - b.mdf * 1
+Element: Storm
+Variance: 10
+Critical: true
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Thunderstorm", "75%"]]
+---
+Id 373: Manticore
+Desc: \fiSkills learned: Bramble Lash, Whirlwind Strike, Light Beam
+Weakness: Fire, Storm, Dark
+Skill Class: Unique
+Cost: 75MP
+Scope: The User
+Effects and Traits: [["Add State: ", "Form: Manticore", "100%"], ["Remove State: ", "Form: Volwrath", "100%"], ["Remove State: ", "Form: Serpent", "100%"], ["Remove State: ", "Form: Stallion", "100%"], ["Remove State: ", "Form: Skeleton", "100%"], ["Remove State: ", "Form: Void", "100%"], ["Remove State: ", "Form: Slime", "100%"], ["Remove State: ", "Form: Bouldergeist", "100%"], ["Remove State: ", "Form: Avian", "100%"], ["Remove State: ", "Form: Cerberus", "100%"], ["Remove State: ", "Form: Behemoth", "100%"], ["Remove State: ", "Form: Michaelon", "100%"], ["Remove State: ", "Form: Plantoid", "100%"]]
+---
+Id 374: Bramble Lash
+Desc: Wielding a thick whip of a thorny vine, attack your target with a good chance to bleed.
+Skill Class: Unique
+Cost: 25PR
+Skill Type: HP Damage
+Formula: 150 + (a.atk * 4 - b.def * 2)
+Element: Nature
+Variance: 10
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Bleeding", "20%"]]
+---
+Id 375: Whirlwind Strike
+Desc: Strike your opponent while imbued with the mighty force of the wind. High chance to knock over.
+Skill Class: Unique
+Cost: 45MP
+Skill Type: HP Damage
+Formula: (a.atk * 5 - b.def * 2) + 200
+Element: Air
+Variance: 15
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Knocked Over", "80%"]]
+---
+Id 376: Light Beam
+Desc: Cast a beam of light towards a target.
+Skill Class: Unique
+Cost: 45MP
+Skill Type: HP Damage
+Formula: (a.mat * 4 - b.mdf * 2) + 125
+Element: Light
+Variance: 25
+Critical: true
+Scope: One Enemy
+---
+Id 377: Behemoth
+Desc: \fiSkills learned: Ice Wall, Terraform, Drowning Prison
+Weakness: Fire, Water, Nature
+Skill Class: Unique
+Cost: 75MP
+Scope: The User
+Effects and Traits: [["Add State: ", "Form: Behemoth", "100%"], ["Remove State: ", "Form: Volwrath", "100%"], ["Remove State: ", "Form: Serpent", "100%"], ["Remove State: ", "Form: Stallion", "100%"], ["Remove State: ", "Form: Skeleton", "100%"], ["Remove State: ", "Form: Void", "100%"], ["Remove State: ", "Form: Slime", "100%"], ["Remove State: ", "Form: Bouldergeist", "100%"], ["Remove State: ", "Form: Avian", "100%"], ["Remove State: ", "Form: Cerberus", "100%"], ["Remove State: ", "Form: Manticore", "100%"], ["Remove State: ", "Form: Michaelon", "100%"], ["Remove State: ", "Form: Plantoid", "100%"]]
+---
+Id 378: Ice Wall
+Desc: Greatly increases own DEF and MDF. Also regenerates HP while active.
+Skill Class: Unique
+Cost: 35MP
+Scope: The User
+Effects and Traits: [["Add State: ", "Ice Wall", "100%"]]
+---
+Id 379: Terraform
+Desc: Change the terrain to your benefit. Raises your defences and increases CRT evasion.
+Skill Class: Unique
+Cost: 25MP
+Scope: The User
+Effects and Traits: [["Add State: ", "Terraform", "100%"]]
+---
+Id 380: Drowning Prison
+Desc: Atempt to encapsulate a target into a ball of suspended water, restricting their movement and drowning them.
+Skill Class: Unique
+Cost: 50MP
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Wet", "100%"], ["Add State: ", "Drowning", "50%"]]
+---
+Id 381: Michaelon
+Desc: \fiSkills learned: Aura Blade, Mystic Armour, Leadership
+Weakness: Dark
+Skill Class: Unique
+Cost: 25MP
+Scope: The User
+Effects and Traits: [["Add State: ", "Form: Michaelon", "100%"], ["Remove State: ", "Form: Volwrath", "100%"], ["Remove State: ", "Form: Serpent", "100%"], ["Remove State: ", "Form: Stallion", "100%"], ["Remove State: ", "Form: Skeleton", "100%"], ["Remove State: ", "Form: Void", "100%"], ["Remove State: ", "Form: Slime", "100%"], ["Remove State: ", "Form: Bouldergeist", "100%"], ["Remove State: ", "Form: Avian", "100%"], ["Remove State: ", "Form: Cerberus", "100%"], ["Remove State: ", "Form: Manticore", "100%"], ["Remove State: ", "Form: Behemoth", "100%"], ["Remove State: ", "Form: Plantoid", "100%"]]
+---
+Id 382: Aura Blade
+Desc: Sword Skill. Target is likely to be Silenced. Damage is based off user's ATK and MAT.
+Skill Class: Unique
+Cost: 75PR
+Skill Type: HP Damage
+Formula: a.atk * 4 + a.mat * 3 - b.def - b.mdf
+Variance: 20
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Silence", "50%"]]
+---
+Id 383: Mystic Armour
+Desc: Surround an ally in a glowing veil, increasing their MDF drastically and giving them HP regeneration.
+Skill Class: Unique
+Cost: 35MP
+Scope: One Ally
+Effects and Traits: [["Add State: ", "Mystic Armour", "100%"]]
+---
+Id 384: Leadership
+Desc: \}Only a true leader can utilise their team to their full strength. Raises the ATK, DEF, HIT, and counter chance of all allies.
+Skill Class: Unique
+Cost: 30PR
+Scope: All Allies
+Effects and Traits: [["Add State: ", "Leadership", "100%"]]
+---
+Id 385: Plantoid
+Desc: \fi\}Skills learned: Thorned Constriction, Poison Cloud, Noxious Culling
+Weakness: Fire
+Skill Class: Unique
+Cost: 50MP
+Scope: The User
+Effects and Traits: [["Add State: ", "Form: Plantoid", "100%"], ["Remove State: ", "Form: Volwrath", "100%"], ["Remove State: ", "Form: Serpent", "100%"], ["Remove State: ", "Form: Stallion", "100%"], ["Remove State: ", "Form: Skeleton", "100%"], ["Remove State: ", "Form: Void", "100%"], ["Remove State: ", "Form: Slime", "100%"], ["Remove State: ", "Form: Bouldergeist", "100%"], ["Remove State: ", "Form: Avian", "100%"], ["Remove State: ", "Form: Cerberus", "100%"], ["Remove State: ", "Form: Manticore", "100%"], ["Remove State: ", "Form: Behemoth", "100%"], ["Remove State: ", "Form: Michaelon", "100%"]]
+---
+Id 386: Thorned Constriction
+Desc: Summon vines to erupt out of the ground and envelope an unfortunate target.
+Skill Class: Unique
+Cost: 35MP
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Thorned", "100%"]]
 ---

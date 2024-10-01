@@ -932,7 +932,7 @@ Consume: No
 Scope: None
 Occasion: Never
 ---
-Id 111: Soul Vigor Vial
+Id 111: Soul Vigour Vial
 Desc: A mystical concoction of extremely rare and mystical ingredients that rapidly accelerates the Soul's growth. Instantly levels up a character.
 Type: Normal
 Price: 0G
@@ -994,6 +994,14 @@ Id 117: Scorchlog
 Desc: \}The rare scorchlog burns very easily, even when wet, and so is the preferable material to make firewood out of. Useful in Alchemy.
 Type: Normal
 Price: 55G
+Consume: No
+Scope: None
+Occasion: Never
+---
+Id 118: Storage Ticket
+Desc: \}A ticket that denotes what and where your equipment is. Must be given to the bouncer when leaving the Oak and Antler to have your equipment returned.
+Type: Key
+Price: 0G
 Consume: No
 Scope: None
 Occasion: Never

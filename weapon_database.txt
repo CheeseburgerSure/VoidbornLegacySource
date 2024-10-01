@@ -856,7 +856,7 @@ Luck: 0
 Features and Traits: [["Atk Element: ", "Ice"], ["Atk State: ", "Freezing", "10%"], ["Gain Skill: ", "Glacial Hyperslash"], ["ExParam: ", "CNT", "10%"]]
 ---
 Id 63: Eagle Bow
-Desc: This mythical bow is the heirloom of the Sage of the Bow descendancy.
+Desc: This mythical bow is the heirloom of the Sage of the Bow lineage.
 Type: Unique
 Price: 0
 HP: 0
@@ -1164,6 +1164,20 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Equip Armour: ", "Unique"]]
 ---
+Id 85: Soulreach Sabre
+Desc: \}A blade that ties itself to your Soul to enhance its strength. Spending MP will charge it, building up to releasing an immensely powerful attack.
+Type: Sword
+Price: 18000
+HP: 0
+MP: 50
+Attack: 38
+Defence: 0
+Magical Attack: 84
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Gain Skill: ", "Soulreach Slash"]]
+---
 Id 86: Pig-Iron Pike
 Desc: A cheap Marrarockan weapon that can go ham on your enemies.
 Type: Spear
@@ -1364,6 +1378,20 @@ Luck: 0
 Features and Traits: [["Atk Element: ", "Unique"], ["Atk State: ", "Stun", "12%"], ["Atk Speed: ", -5]]
 Ingredients: [["Iron Ore", 6], ["Rope", 2]]
 ---
+Id 100: Vilebrand Fauchard
+Desc: \}A woeful polearm infused with pure malevolent energy. It's basic attacks grow more potent with each Curse its wielder bears, turning misfortune into deadly strength.
+Type: Spear
+Price: 20000
+HP: 0
+MP: 0
+Attack: 97
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Dark"], ["State Rate: ", "Curse of the Doomed", "150%"], ["State Rate: ", "Curse of the Debilitated", "150%"], ["State Rate: ", "Curse of the Feeble", "150%"], ["State Rate: ", "Curse of the Laggard", "150%"], ["State Rate: ", "Curse of the Soulless", "150%"], ["Attack Skill:", "Vilebrand Fauchard Attack"]]
+---
 Id 101: Hammerburger
 Desc: Can I have a, uhhhh...cheeseburger?
 Cheeseburger? Sure! \}(Also increases PHA, by the way)
@@ -1393,18 +1421,18 @@ Agility: 0
 Luck: 0
 ---
 Id 103: Blade of the Diabolous
-Desc: The bane of an entire species, this sword ended an untold number of lives.
+Desc: The bane of an entire species, this sword ended an untold number of lives. High chance to Burn.
 Type: Sword
 Price: 30000
 HP: 0
 MP: 0
 Attack: 92
 Defence: 0
-Magical Attack: 20
+Magical Attack: 25
 Magical Defence: 0
 Agility: 45
 Luck: 0
-Features and Traits: [["ExParam: ", "HIT", "10%"], ["Can Dual Wield"]]
+Features and Traits: [["ExParam: ", "HIT", "10%"], ["Can Dual Wield"], ["Atk State: ", "Burn", "50%"]]
 ---
 Id 104: Cold Shoulder
 Desc: A bludgeon so cold that your enemies can feel it just by looking at you. Be sure to show them how it feels, too.
@@ -1538,7 +1566,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Attack Skill:", "Valour's Beacon Attack"]]
-Ingredients: [["Shadow of Cowardice", 1], ["Candescent Cudgel", 1], ["Soul Orb", 1], ["Omnium", 3], ["Artefact Shards", 6]]
+Ingredients: [["Shadow of Cowardice", 1], ["Candescent Cudgel", 1], ["Soul Orb", 1], ["Hypersteel", 2], ["Omnium", 1], ["Artefact Shards", 6]]
 ---
 Id 113: Shadow of Cowardice
 Desc: Remants of some ancient spear. Simply holding it makes you feel uneasy and distrustful.
@@ -1566,6 +1594,34 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
+-^-ERR-^-
+Id 115: Felling Billhook
+Desc: Knocks down large enemies
+Type: Staff
+Price: 0
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 116: Revenant's Pact
+Desc: A sanctified sceptre that will occasionally turn an undead foe into a confused ally for a short time.
+Type: Staff
+Price: 14500
+HP: 0
+MP: 0
+Attack: 16
+Defence: 0
+Magical Attack: 75
+Magical Defence: 11
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Light"]]
+---
 Id 117: Boulder Bludgeoner
 Desc: A hammer of impossible proportions that blow your foes into the next era.
 Type: Hammer
@@ -1777,7 +1833,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["ExParam: ", "HIT", "1%"]]
+Features and Traits: [["ExParam: ", "HIT", "2%"]]
 ---
 Id 132: Snake's Vengeance
 Desc: A small, curved blade embodying a snake's terrifying bite. Chance to poison.
@@ -2031,7 +2087,7 @@ Features and Traits: [["Atk Element: ", "Fire"], ["Atk State: ", "Burn", "15%"],
 Id 149: Gnarled Smasher
 Desc: \}This hammer is crowned with a dense network of knotted roots that form a tough surface to smash your friends with (it heals them, don't worry).
 Type: Hammer
-Price: 16000
+Price: 14000
 HP: 0
 MP: 0
 Attack: 63
@@ -2056,4 +2112,18 @@ Agility: 10
 Luck: 25
 Features and Traits: [["Atk Element: ", "Soul"], ["ExParam: ", "CRI", "4%"], ["Atk Speed: ", 3], ["Atk State: ", "Hexed", "1000%"], ["Atk State: ", "Hexed", "1000%"]]
 Ingredients: [["Crimson Talon", 1], ["Magic Repressor", 1], ["Raxorium Ore", 2], ["Void Residue", 3], ["Contaminated Conduit", 1]]
+---
+Id 151: Heartpiercer
+Desc: A serrated knife that will always score a critical hit after evading an enemy's attack.
+Type: Dagger
+Price: 14000
+HP: 0
+MP: 0
+Attack: 33
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 10
+Luck: 10
+Features and Traits: [["ExParam: ", "EVA", "8%"], ["Can Dual Wield"], ["ExParam: ", "CRI", "3%"]]
 ---

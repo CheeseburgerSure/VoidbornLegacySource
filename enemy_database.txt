@@ -2,9 +2,9 @@ Id 1: Blue Slime
 HP: 120
 MP: 0
 Attack: 25
-Defense: 8
+Defence: 8
 Magical Attack: 8
-Magical Defense: 2
+Magical Defence: 2
 Agility: 10
 Luck: 10
 Experience: 14
@@ -14,9 +14,9 @@ Id 2: Bat
 HP: 130
 MP: 0
 Attack: 29
-Defense: 10
+Defence: 10
 Magical Attack: 9
-Magical Defense: 3
+Magical Defence: 3
 Agility: 12
 Luck: 12
 Experience: 15
@@ -26,9 +26,9 @@ Id 3: Hornet
 HP: 175
 MP: 0
 Attack: 28
-Defense: 11
+Defence: 11
 Magical Attack: 12
-Magical Defense: 4
+Magical Defence: 4
 Agility: 25
 Luck: 16
 Experience: 20
@@ -38,9 +38,9 @@ Id 4: Spider
 HP: 300
 MP: 0
 Attack: 29
-Defense: 13
+Defence: 13
 Magical Attack: 14
-Magical Defense: 14
+Magical Defence: 14
 Agility: 34
 Luck: 18
 Experience: 33
@@ -50,9 +50,9 @@ Id 5: Rat
 HP: 80
 MP: 0
 Attack: 14
-Defense: 7
+Defence: 7
 Magical Attack: 1
-Magical Defense: 2
+Magical Defence: 2
 Agility: 22
 Luck: 25
 Experience: 9
@@ -62,9 +62,9 @@ Id 6: Wisp
 HP: 300
 MP: 60
 Attack: 19
-Defense: 44
+Defence: 44
 Magical Attack: 28
-Magical Defense: 15
+Magical Defence: 15
 Agility: 24
 Luck: 24
 Experience: 34
@@ -74,33 +74,21 @@ Id 7: Large Snake
 HP: 540
 MP: 0
 Attack: 38
-Defense: 26
+Defence: 26
 Magical Attack: 20
-Magical Defense: 19
+Magical Defence: 19
 Agility: 28
 Luck: 28
 Experience: 59
 Gold: 69
 ---
-Id 8: Scorpion
-HP: 450
-MP: 0
-Attack: 46
-Defense: 34
-Magical Attack: 25
-Magical Defense: 25
-Agility: 30
-Luck: 30
-Experience: 51
-Gold: 61
----
 Id 9: Weeping Wisp
 HP: 2400
 MP: 300
 Attack: 72
-Defense: 110
+Defence: 110
 Magical Attack: 94
-Magical Defense: 40
+Magical Defence: 40
 Agility: 50
 Luck: 65
 Experience: 253
@@ -110,9 +98,9 @@ Id 10: Man-Eating Plant
 HP: 1400
 MP: 0
 Attack: 102
-Defense: 29
+Defence: 29
 Magical Attack: 40
-Magical Defense: 41
+Magical Defence: 41
 Agility: 45
 Luck: 40
 Experience: 148
@@ -122,9 +110,9 @@ Id 11: Blooming Hunger
 HP: 1800
 MP: 100
 Attack: 124
-Defense: 42
+Defence: 42
 Magical Attack: 86
-Magical Defense: 63
+Magical Defence: 63
 Agility: 58
 Luck: 65
 Experience: 193
@@ -134,33 +122,21 @@ Id 12: Skeleton
 HP: 700
 MP: 0
 Attack: 49
-Defense: 22
+Defence: 22
 Magical Attack: 35
-Magical Defense: 19
+Magical Defence: 19
 Agility: 40
 Luck: 40
 Experience: 78
 Gold: 90
 ---
-Id 13: Ifradian Soldier
-HP: 350
-MP: 0
-Attack: 30
-Defense: 20
-Magical Attack: 1
-Magical Defense: 11
-Agility: 15
-Luck: 10
-Experience: 300
-Gold: 0
----
 Id 14: Imp
 HP: 1400
 MP: 150
 Attack: 65
-Defense: 36
+Defence: 36
 Magical Attack: 60
-Magical Defense: 48
+Magical Defence: 48
 Agility: 68
 Luck: 54
 Experience: 120
@@ -170,93 +146,33 @@ Id 15: Gazer
 HP: 4000
 MP: 300
 Attack: 65
-Defense: 70
+Defence: 70
 Magical Attack: 169
-Magical Defense: 189
+Magical Defence: 189
 Agility: 50
 Luck: 95
 Experience: 519
 Gold: 575
 ---
-Id 16: Vezran
-HP: 999999
-MP: 500
-Attack: 89
-Defense: 64
-Magical Attack: 999
-Magical Defense: 82
-Agility: 1
-Luck: 20
-Experience: 0
-Gold: 0
----
-Id 17: Zombie
-HP: 1050
-MP: 0
-Attack: 75
-Defense: 40
-Magical Attack: 45
-Magical Defense: 45
-Agility: 50
-Luck: 50
-Experience: 180
-Gold: 320
----
-Id 18: Frost Wolf
-HP: 100
-MP: 0
-Attack: 10
-Defense: 10
-Magical Attack: 10
-Magical Defense: 10
-Agility: 10
-Luck: 10
-Experience: 0
-Gold: 0
----
-Id 19: Necrow
-HP: 100
-MP: 0
-Attack: 10
-Defense: 10
-Magical Attack: 10
-Magical Defense: 10
-Agility: 10
-Luck: 10
-Experience: 0
-Gold: 0
----
 Id 20: Mimic
 HP: 2500
 MP: 50
 Attack: 90
-Defense: 45
+Defence: 45
 Magical Attack: 60
-Magical Defense: 45
+Magical Defence: 45
 Agility: 65
 Luck: 62
 Experience: 262
 Gold: 800
 ---
-Id 21: Necrow
-HP: 100
-MP: 0
-Attack: 10
-Defense: 10
-Magical Attack: 10
-Magical Defense: 10
-Agility: 10
-Luck: 10
-Experience: 0
-Gold: 0
----
 Id 22: Sahagin
 HP: 8000
 MP: 400
 Attack: 210
-Defense: 130
+Defence: 130
 Magical Attack: 175
-Magical Defense: 100
+Magical Defence: 100
 Agility: 200
 Luck: 150
 Experience: 830
@@ -266,45 +182,21 @@ Id 23: Amalgamation
 HP: 3400
 MP: 80
 Attack: 123
-Defense: 78
+Defence: 78
 Magical Attack: 76
-Magical Defense: 70
+Magical Defence: 70
 Agility: 64
 Luck: 70
 Experience: 353
 Gold: 376
 ---
-Id 24: Gargoyle
-HP: 2400
-MP: 0
-Attack: 130
-Defense: 80
-Magical Attack: 70
-Magical Defense: 70
-Agility: 90
-Luck: 90
-Experience: 1400
-Gold: 2400
----
-Id 25: Domosseus
-HP: 100
-MP: 0
-Attack: 10
-Defense: 10
-Magical Attack: 10
-Magical Defense: 10
-Agility: 10
-Luck: 10
-Experience: 0
-Gold: 0
----
 Id 26: Ravenous Mawchid
 HP: 4500
 MP: 200
 Attack: 154
-Defense: 72
+Defence: 72
 Magical Attack: 108
-Magical Defense: 91
+Magical Defence: 91
 Agility: 70
 Luck: 90
 Experience: 495
@@ -314,45 +206,21 @@ Id 27: Reaping Volwrath
 HP: 14000
 MP: 9999
 Attack: 132
-Defense: 90
+Defence: 90
 Magical Attack: 103
-Magical Defense: 66
+Magical Defence: 66
 Agility: 200
 Luck: 90
 Experience: 3000
 Gold: 3500
 ---
-Id 28: Pop goes the zombie
-HP: 1000
-MP: 999
-Attack: 1
-Defense: 50
-Magical Attack: 10
-Magical Defense: 10
-Agility: 999
-Luck: 10
-Experience: 0
-Gold: 0
----
-Id 29: Zysargian Serpent
-HP: 8000
-MP: 100
-Attack: 264
-Defense: 177
-Magical Attack: 127
-Magical Defense: 105
-Agility: 300
-Luck: 160
-Experience: 0
-Gold: 0
----
 Id 31: Shadow Creature
 HP: 550
 MP: 40
 Attack: 50
-Defense: 20
+Defence: 20
 Magical Attack: 32
-Magical Defense: 10
+Magical Defence: 10
 Agility: 38
 Luck: 35
 Experience: 60
@@ -362,9 +230,9 @@ Id 32: Green Slime
 HP: 1400
 MP: 20
 Attack: 60
-Defense: 35
+Defence: 35
 Magical Attack: 48
-Magical Defense: 26
+Magical Defence: 26
 Agility: 70
 Luck: 55
 Experience: 151
@@ -374,9 +242,9 @@ Id 33: Vezran
 HP: 13000
 MP: 9999
 Attack: 170
-Defense: 130
+Defence: 130
 Magical Attack: 150
-Magical Defense: 110
+Magical Defence: 110
 Agility: 250
 Luck: 130
 Experience: 6000
@@ -386,9 +254,9 @@ Id 34: Zysargia
 HP: 10000
 MP: 9999
 Attack: 200
-Defense: 175
+Defence: 175
 Magical Attack: 220
-Magical Defense: 210
+Magical Defence: 210
 Agility: 999
 Luck: 50
 Experience: 10000
@@ -398,9 +266,9 @@ Id 35: Guardian Spirit
 HP: 300
 MP: 100
 Attack: 28
-Defense: 9
+Defence: 9
 Magical Attack: 35
-Magical Defense: 40
+Magical Defence: 40
 Agility: 12
 Luck: 26
 Experience: 35
@@ -410,9 +278,9 @@ Id 36: Volwrath
 HP: 1100
 MP: 250
 Attack: 36
-Defense: 18
+Defence: 18
 Magical Attack: 42
-Magical Defense: 33
+Magical Defence: 33
 Agility: 50
 Luck: 10
 Experience: 120
@@ -422,45 +290,21 @@ Id 37: Purple Slime
 HP: 300
 MP: 0
 Attack: 35
-Defense: 14
+Defence: 14
 Magical Attack: 24
-Magical Defense: 10
+Magical Defence: 10
 Agility: 30
 Luck: 30
 Experience: 36
 Gold: 44
 ---
-Id 38: Erwin
-HP: 900
-MP: 0
-Attack: 60
-Defense: 30
-Magical Attack: 1
-Magical Defense: 15
-Agility: 19
-Luck: 13
-Experience: 15
-Gold: 0
----
-Id 39: Rosa
-HP: 700
-MP: 120
-Attack: 50
-Defense: 40
-Magical Attack: 1
-Magical Defense: 25
-Agility: 15
-Luck: 11
-Experience: 10
-Gold: 0
----
 Id 40: Cave Bat
 HP: 330
 MP: 0
 Attack: 29
-Defense: 15
+Defence: 15
 Magical Attack: 20
-Magical Defense: 10
+Magical Defence: 10
 Agility: 35
 Luck: 26
 Experience: 38
@@ -470,9 +314,9 @@ Id 41: Toxic Snake
 HP: 1200
 MP: 0
 Attack: 62
-Defense: 36
+Defence: 36
 Magical Attack: 28
-Magical Defense: 27
+Magical Defence: 27
 Agility: 72
 Luck: 35
 Experience: 127
@@ -482,9 +326,9 @@ Id 42: Pink Slime
 HP: 900
 MP: 12
 Attack: 47
-Defense: 20
+Defence: 20
 Magical Attack: 39
-Magical Defense: 19
+Magical Defence: 19
 Agility: 50
 Luck: 50
 Experience: 100
@@ -494,9 +338,9 @@ Id 43: Thunder Spider
 HP: 1200
 MP: 25
 Attack: 51
-Defense: 32
+Defence: 32
 Magical Attack: 49
-Magical Defense: 42
+Magical Defence: 42
 Agility: 65
 Luck: 50
 Experience: 150
@@ -506,9 +350,9 @@ Id 44: Withered Skeleton
 HP: 1900
 MP: 27
 Attack: 90
-Defense: 60
+Defence: 60
 Magical Attack: 67
-Magical Defense: 50
+Magical Defence: 50
 Agility: 55
 Luck: 50
 Experience: 200
@@ -518,9 +362,9 @@ Id 45: Butter Slime
 HP: 2500
 MP: 200
 Attack: 125
-Defense: 175
+Defence: 175
 Magical Attack: 100
-Magical Defense: 150
+Magical Defence: 150
 Agility: 250
 Luck: 100
 Experience: 2500
@@ -530,9 +374,9 @@ Id 46: Rabid Rat
 HP: 250
 MP: 0
 Attack: 28
-Defense: 16
+Defence: 16
 Magical Attack: 1
-Magical Defense: 2
+Magical Defence: 2
 Agility: 44
 Luck: 34
 Experience: 29
@@ -542,9 +386,9 @@ Id 47: Wailing Wisp
 HP: 1100
 MP: 150
 Attack: 58
-Defense: 80
+Defence: 80
 Magical Attack: 62
-Magical Defense: 25
+Magical Defence: 25
 Agility: 30
 Luck: 46
 Experience: 119
@@ -554,9 +398,9 @@ Id 48: Void Marshal
 HP: 16000
 MP: 0
 Attack: 320
-Defense: 210
+Defence: 210
 Magical Attack: 240
-Magical Defense: 350
+Magical Defence: 350
 Agility: 300
 Luck: 250
 Experience: 8000
@@ -566,9 +410,9 @@ Id 49: Void Wraith
 HP: 14000
 MP: 0
 Attack: 240
-Defense: 200
+Defence: 200
 Magical Attack: 320
-Magical Defense: 400
+Magical Defence: 400
 Agility: 275
 Luck: 100
 Experience: 8000
@@ -578,57 +422,33 @@ Id 50: Mad Hornet
 HP: 500
 MP: 0
 Attack: 41
-Defense: 22
+Defence: 22
 Magical Attack: 14
-Magical Defense: 15
+Magical Defence: 15
 Agility: 51
 Luck: 25
 Experience: 55
 Gold: 65
 ---
-Id 51: Thug
-HP: 1700
-MP: 0
-Attack: 65
-Defense: 45
-Magical Attack: 1
-Magical Defense: 20
-Agility: 27
-Luck: 40
-Experience: 185
-Gold: 240
----
 Id 52: Diabolous
 HP: 30000
 MP: 9999
 Attack: 330
-Defense: 280
+Defence: 280
 Magical Attack: 260
-Magical Defense: 245
+Magical Defence: 245
 Agility: 250
 Luck: 300
 Experience: 20000
 Gold: 25000
 ---
-Id 53: Orb
-HP: 5000
-MP: 9999
-Attack: 1
-Defense: 100
-Magical Attack: 200
-Magical Defense: 500
-Agility: 250
-Luck: 100
-Experience: 0
-Gold: 0
----
 Id 54: Burning Spirit
 HP: 2000
 MP: 240
 Attack: 52
-Defense: 115
+Defence: 115
 Magical Attack: 80
-Magical Defense: 35
+Magical Defence: 35
 Agility: 42
 Luck: 67
 Experience: 298
@@ -638,9 +458,9 @@ Id 55: Cerberus
 HP: 9500
 MP: 300
 Attack: 96
-Defense: 64
+Defence: 64
 Magical Attack: 112
-Magical Defense: 85
+Magical Defence: 85
 Agility: 150
 Luck: 90
 Experience: 2000
@@ -650,9 +470,9 @@ Id 56: Manticore
 HP: 9500
 MP: 300
 Attack: 104
-Defense: 74
+Defence: 74
 Magical Attack: 104
-Magical Defense: 74
+Magical Defence: 74
 Agility: 150
 Luck: 90
 Experience: 2000
@@ -662,9 +482,9 @@ Id 57: Behemoth
 HP: 9500
 MP: 300
 Attack: 112
-Defense: 85
+Defence: 85
 Magical Attack: 96
-Magical Defense: 64
+Magical Defence: 64
 Agility: 150
 Luck: 90
 Experience: 2000
@@ -674,9 +494,9 @@ Id 58: Forest Custodian
 HP: 1800
 MP: 180
 Attack: 60
-Defense: 45
+Defence: 45
 Magical Attack: 82
-Magical Defense: 121
+Magical Defence: 121
 Agility: 40
 Luck: 61
 Experience: 172
@@ -686,9 +506,9 @@ Id 59: Frigid Scorpion
 HP: 1600
 MP: 100
 Attack: 84
-Defense: 114
+Defence: 114
 Magical Attack: 8
-Magical Defense: 62
+Magical Defence: 62
 Agility: 64
 Luck: 56
 Experience: 171
@@ -698,9 +518,9 @@ Id 60: Titan of Black Ice
 HP: 3000
 MP: 40
 Attack: 128
-Defense: 108
+Defence: 108
 Magical Attack: 1
-Magical Defense: 58
+Magical Defence: 58
 Agility: 15
 Luck: 86
 Experience: 317
@@ -710,9 +530,9 @@ Id 61: Languished Skeleton
 HP: 2900
 MP: 60
 Attack: 103
-Defense: 70
+Defence: 70
 Magical Attack: 69
-Magical Defense: 70
+Magical Defence: 70
 Agility: 71
 Luck: 65
 Experience: 303
@@ -722,9 +542,9 @@ Id 62: Shadow Wraith
 HP: 950
 MP: 70
 Attack: 60
-Defense: 30
+Defence: 30
 Magical Attack: 50
-Magical Defense: 70
+Magical Defence: 70
 Agility: 60
 Luck: 40
 Experience: 150
@@ -734,9 +554,9 @@ Id 63: Ivy
 HP: 25000
 MP: 9999
 Attack: 200
-Defense: 175
+Defence: 175
 Magical Attack: 280
-Magical Defense: 200
+Magical Defence: 200
 Agility: 400
 Luck: 150
 Experience: 10000
@@ -746,9 +566,9 @@ Id 64: Stormbringer Cerberus
 HP: 24000
 MP: 1000
 Attack: 265
-Defense: 260
+Defence: 260
 Magical Attack: 300
-Magical Defense: 280
+Magical Defence: 280
 Agility: 400
 Luck: 200
 Experience: 8000
@@ -758,9 +578,9 @@ Id 65: Hurricane Manticore
 HP: 24000
 MP: 1000
 Attack: 283
-Defense: 270
+Defence: 270
 Magical Attack: 283
-Magical Defense: 270
+Magical Defence: 270
 Agility: 400
 Luck: 200
 Experience: 8000
@@ -770,9 +590,9 @@ Id 66: Boulder Behemoth
 HP: 21000
 MP: 600
 Attack: 245
-Defense: 192
+Defence: 192
 Magical Attack: 218
-Magical Defense: 157
+Magical Defence: 157
 Agility: 300
 Luck: 165
 Experience: 5500
@@ -782,9 +602,9 @@ Id 67: Writhing Amalgamation
 HP: 4200
 MP: 95
 Attack: 149
-Defense: 102
+Defence: 102
 Magical Attack: 82
-Magical Defense: 96
+Magical Defence: 96
 Agility: 85
 Luck: 90
 Experience: 438
@@ -794,9 +614,9 @@ Id 68: Skeletal Champion
 HP: 8500
 MP: 0
 Attack: 195
-Defense: 128
+Defence: 128
 Magical Attack: 61
-Magical Defense: 115
+Magical Defence: 115
 Agility: 96
 Luck: 110
 Experience: 872
@@ -806,9 +626,9 @@ Id 69: Bone Mage
 HP: 4000
 MP: 300
 Attack: 62
-Defense: 96
+Defence: 96
 Magical Attack: 150
-Magical Defense: 131
+Magical Defence: 131
 Agility: 80
 Luck: 100
 Experience: 420
@@ -818,9 +638,9 @@ Id 70: Damned Volwrath
 HP: 20000
 MP: 9999
 Attack: 167
-Defense: 112
+Defence: 112
 Magical Attack: 210
-Magical Defense: 175
+Magical Defence: 175
 Agility: 300
 Luck: 115
 Experience: 5000
@@ -830,9 +650,9 @@ Id 71: Roots of Evil
 HP: 1500
 MP: 50
 Attack: 126
-Defense: 88
+Defence: 88
 Magical Attack: 79
-Magical Defense: 64
+Magical Defence: 64
 Agility: 120
 Luck: 75
 Experience: 165
@@ -842,9 +662,9 @@ Id 72: Hornet Swarm
 HP: 850
 MP: 0
 Attack: 75
-Defense: 40
+Defence: 40
 Magical Attack: 60
-Magical Defense: 20
+Magical Defence: 20
 Agility: 125
 Luck: 80
 Experience: 203
@@ -854,33 +674,21 @@ Id 73: Mad Hornet Swarm
 HP: 2000
 MP: 0
 Attack: 205
-Defense: 120
+Defence: 120
 Magical Attack: 70
-Magical Defense: 75
+Magical Defence: 75
 Agility: 255
 Luck: 125
 Experience: 375
 Gold: 407
 ---
-Id 74: Slime Lord Splarg
-HP: 100
-MP: 0
-Attack: 10
-Defense: 10
-Magical Attack: 10
-Magical Defense: 10
-Agility: 10
-Luck: 10
-Experience: 0
-Gold: 0
----
 Id 75: Devillish Mimic
 HP: 6500
 MP: 250
 Attack: 193
-Defense: 102
+Defence: 102
 Magical Attack: 144
-Magical Defense: 87
+Magical Defence: 87
 Agility: 116
 Luck: 115
 Experience: 673
@@ -890,9 +698,9 @@ Id 76: Pit Viper
 HP: 4500
 MP: 0
 Attack: 148
-Defense: 94
+Defence: 94
 Magical Attack: 42
-Magical Defense: 52
+Magical Defence: 52
 Agility: 138
 Luck: 90
 Experience: 359
@@ -902,9 +710,9 @@ Id 77: Grave Defiler
 HP: 6000
 MP: 300
 Attack: 183
-Defense: 82
+Defence: 82
 Magical Attack: 132
-Magical Defense: 73
+Magical Defence: 73
 Agility: 105
 Luck: 100
 Experience: 620
@@ -914,9 +722,9 @@ Id 78: Maelstrom Cerberus
 HP: 21000
 MP: 700
 Attack: 218
-Defense: 157
+Defence: 157
 Magical Attack: 245
-Magical Defense: 192
+Magical Defence: 192
 Agility: 300
 Luck: 165
 Experience: 5500
@@ -926,9 +734,9 @@ Id 79: Stallion of Plague
 HP: 6000
 MP: 800
 Attack: 156
-Defense: 132
+Defence: 132
 Magical Attack: 133
-Magical Defense: 121
+Magical Defence: 121
 Agility: 165
 Luck: 115
 Experience: 623
@@ -938,9 +746,9 @@ Id 80: Benevolent Manticore
 HP: 21000
 MP: 700
 Attack: 232
-Defense: 175
+Defence: 175
 Magical Attack: 232
-Magical Defense: 175
+Magical Defence: 175
 Agility: 300
 Luck: 165
 Experience: 5500
@@ -950,9 +758,9 @@ Id 81: Angel
 HP: 4800
 MP: 800
 Attack: 112
-Defense: 64
+Defence: 64
 Magical Attack: 216
-Magical Defense: 245
+Magical Defence: 245
 Agility: 150
 Luck: 145
 Experience: 509
@@ -962,9 +770,9 @@ Id 82: Warden of Skies
 HP: 6000
 MP: 250
 Attack: 200
-Defense: 156
+Defence: 156
 Magical Attack: 153
-Magical Defense: 122
+Magical Defence: 122
 Agility: 125
 Luck: 130
 Experience: 626
@@ -974,9 +782,9 @@ Id 83: Shadow Collossus
 HP: 3000
 MP: 500
 Attack: 110
-Defense: 55
+Defence: 55
 Magical Attack: 80
-Magical Defense: 79
+Magical Defence: 79
 Agility: 30
 Luck: 50
 Experience: 1500
@@ -986,9 +794,9 @@ Id 84: Torrential Behemoth
 HP: 24000
 MP: 1000
 Attack: 300
-Defense: 280
+Defence: 280
 Magical Attack: 265
-Magical Defense: 260
+Magical Defence: 260
 Agility: 400
 Luck: 200
 Experience: 8000
@@ -998,9 +806,9 @@ Id 85: Abhorent Mimic
 HP: 11000
 MP: 400
 Attack: 264
-Defense: 142
+Defence: 142
 Magical Attack: 186
-Magical Defense: 121
+Magical Defence: 121
 Agility: 180
 Luck: 140
 Experience: 1128
@@ -1010,9 +818,9 @@ Id 105: Contorted Amalgamation
 HP: 6800
 MP: 120
 Attack: 173
-Defense: 149
+Defence: 149
 Magical Attack: 99
-Magical Defense: 116
+Magical Defence: 116
 Agility: 115
 Luck: 110
 Experience: 701
@@ -1022,9 +830,9 @@ Id 106: Skeletal King
 HP: 14000
 MP: 0
 Attack: 258
-Defense: 153
+Defence: 153
 Magical Attack: 92
-Magical Defense: 147
+Magical Defence: 147
 Agility: 103
 Luck: 155
 Experience: 1431
@@ -1034,9 +842,9 @@ Id 107: Bone Conjurer
 HP: 6000
 MP: 500
 Attack: 78
-Defense: 112
+Defence: 112
 Magical Attack: 180
-Magical Defense: 162
+Magical Defence: 162
 Agility: 130
 Luck: 125
 Experience: 613
@@ -1046,9 +854,9 @@ Id 108: Malignant Volwrath
 HP: 16000
 MP: 9999
 Attack: 190
-Defense: 150
+Defence: 150
 Magical Attack: 250
-Magical Defense: 210
+Magical Defence: 210
 Agility: 500
 Luck: 155
 Experience: 6500
@@ -1058,9 +866,9 @@ Id 109: Bouldergeist
 HP: 3000
 MP: 100
 Attack: 110
-Defense: 250
+Defence: 250
 Magical Attack: 60
-Magical Defense: 65
+Magical Defence: 65
 Agility: 8
 Luck: 30
 Experience: 306
@@ -1070,9 +878,9 @@ Id 110: Jagged Bouldergeist
 HP: 2000
 MP: 150
 Attack: 130
-Defense: 200
+Defence: 200
 Magical Attack: 110
-Magical Defense: 45
+Magical Defence: 45
 Agility: 10
 Luck: 40
 Experience: 318
@@ -1082,9 +890,9 @@ Id 111: Warding Bouldergeist
 HP: 4000
 MP: 120
 Attack: 70
-Defense: 300
+Defence: 300
 Magical Attack: 30
-Magical Defense: 110
+Magical Defence: 110
 Agility: 5
 Luck: 25
 Experience: 305
@@ -1094,9 +902,9 @@ Id 112: Man-o'-Storms
 HP: 7800
 MP: 800
 Attack: 127
-Defense: 90
+Defence: 90
 Magical Attack: 244
-Magical Defense: 300
+Magical Defence: 300
 Agility: 125
 Luck: 200
 Experience: 820
@@ -1106,9 +914,9 @@ Id 113: Butter Golem
 HP: 6000
 MP: 250
 Attack: 200
-Defense: 260
+Defence: 260
 Magical Attack: 180
-Magical Defense: 260
+Magical Defence: 260
 Agility: 300
 Luck: 150
 Experience: 5500
@@ -1118,9 +926,9 @@ Id 114: Butter Manifestation
 HP: 10000
 MP: 400
 Attack: 250
-Defense: 400
+Defence: 400
 Magical Attack: 200
-Magical Defense: 400
+Magical Defence: 400
 Agility: 600
 Luck: 200
 Experience: 25000
@@ -1130,9 +938,9 @@ Id 115: Void Leviathan
 HP: 22000
 MP: 0
 Attack: 380
-Defense: 340
+Defence: 340
 Magical Attack: 285
-Magical Defense: 425
+Magical Defence: 425
 Agility: 350
 Luck: 250
 Experience: 10000
@@ -1142,9 +950,9 @@ Id 116: Void Eldritch Devourer
 HP: 27000
 MP: 0
 Attack: 460
-Defense: 350
+Defence: 350
 Magical Attack: 380
-Magical Defense: 500
+Magical Defence: 500
 Agility: 200
 Luck: 200
 Experience: 14000
@@ -1154,9 +962,9 @@ Id 117: Rocklereige
 HP: 4500
 MP: 250
 Attack: 140
-Defense: 260
+Defence: 260
 Magical Attack: 80
-Magical Defense: 40
+Magical Defence: 40
 Agility: 30
 Luck: 35
 Experience: 2600
@@ -1166,9 +974,9 @@ Id 118: Black Lidra
 HP: 1000
 MP: 0
 Attack: 70
-Defense: 50
+Defence: 50
 Magical Attack: 50
-Magical Defense: 60
+Magical Defence: 60
 Agility: 200
 Luck: 60
 Experience: 132
@@ -1178,9 +986,9 @@ Id 119: William
 HP: 20000
 MP: 0
 Attack: 550
-Defense: 350
+Defence: 350
 Magical Attack: 550
-Magical Defense: 350
+Magical Defence: 350
 Agility: 500
 Luck: 300
 Experience: 25000
@@ -1190,9 +998,9 @@ Id 120: Harrison
 HP: 20000
 MP: 0
 Attack: 550
-Defense: 350
+Defence: 350
 Magical Attack: 550
-Magical Defense: 350
+Magical Defence: 350
 Agility: 500
 Luck: 300
 Experience: 25000
@@ -1202,9 +1010,9 @@ Id 121: Rocklesiege
 HP: 7000
 MP: 500
 Attack: 220
-Defense: 540
+Defence: 540
 Magical Attack: 180
-Magical Defense: 90
+Magical Defence: 90
 Agility: 45
 Luck: 100
 Experience: 3500
@@ -1214,9 +1022,9 @@ Id 122: Rockleliege
 HP: 14000
 MP: 1000
 Attack: 440
-Defense: 999
+Defence: 999
 Magical Attack: 360
-Magical Defense: 180
+Magical Defence: 180
 Agility: 90
 Luck: 200
 Experience: 8500
@@ -1226,9 +1034,9 @@ Id 123: Tempest Titan
 HP: 8300
 MP: 250
 Attack: 260
-Defense: 150
+Defence: 150
 Magical Attack: 125
-Magical Defense: 75
+Magical Defence: 75
 Agility: 85
 Luck: 100
 Experience: 850
@@ -1238,9 +1046,9 @@ Id 124: Abyssal Coraljaws
 HP: 7600
 MP: 200
 Attack: 280
-Defense: 142
+Defence: 142
 Magical Attack: 82
-Magical Defense: 78
+Magical Defence: 78
 Agility: 140
 Luck: 125
 Experience: 785
@@ -1250,9 +1058,9 @@ Id 125: Shadow Revenant
 HP: 1800
 MP: 300
 Attack: 90
-Defense: 50
+Defence: 50
 Magical Attack: 105
-Magical Defense: 125
+Magical Defence: 125
 Agility: 90
 Luck: 100
 Experience: 210
@@ -1262,9 +1070,9 @@ Id 126: Green Lidra
 HP: 1900
 MP: 0
 Attack: 126
-Defense: 78
+Defence: 78
 Magical Attack: 57
-Magical Defense: 93
+Magical Defence: 93
 Agility: 250
 Luck: 80
 Experience: 207
@@ -1274,23 +1082,23 @@ Id 127: Garuda
 HP: 7800
 MP: 500
 Attack: 220
-Defense: 110
+Defence: 130
 Magical Attack: 180
-Magical Defense: 90
-Agility: 200
-Luck: 300
+Magical Defence: 90
+Agility: 300
+Luck: 350
 Experience: 840
 Gold: 929
 ---
 Id 128: Dreadstinger Hornet Swarm
 HP: 7000
 MP: 0
-Attack: 380
-Defense: 145
-Magical Attack: 75
-Magical Defense: 90
-Agility: 400
-Luck: 250
+Attack: 280
+Defence: 95
+Magical Attack: 65
+Magical Defence: 70
+Agility: 280
+Luck: 300
 Experience: 900
 Gold: 990
 ---
@@ -1298,9 +1106,9 @@ Id 129: Baleful Volwrath
 HP: 30000
 MP: 9999
 Attack: 425
-Defense: 390
+Defence: 390
 Magical Attack: 450
-Magical Defense: 400
+Magical Defence: 400
 Agility: 750
 Luck: 280
 Experience: 15000
@@ -1310,9 +1118,9 @@ Id 130: Aberrational Amalgamation
 HP: 11000
 MP: 200
 Attack: 250
-Defense: 180
+Defence: 180
 Magical Attack: 170
-Magical Defense: 145
+Magical Defence: 145
 Agility: 160
 Luck: 225
 Experience: 1145
@@ -1322,9 +1130,9 @@ Id 131: Skeletal Lord
 HP: 24000
 MP: 250
 Attack: 325
-Defense: 195
+Defence: 195
 Magical Attack: 117
-Magical Defense: 182
+Magical Defence: 182
 Agility: 130
 Luck: 200
 Experience: 2450
@@ -1334,9 +1142,9 @@ Id 132: Sage of the Bones
 HP: 8500
 MP: 800
 Attack: 92
-Defense: 143
+Defence: 143
 Magical Attack: 234
-Magical Defense: 210
+Magical Defence: 210
 Agility: 169
 Luck: 155
 Experience: 851
@@ -1346,9 +1154,9 @@ Id 133: Void Weaver
 HP: 38000
 MP: 0
 Attack: 540
-Defense: 480
+Defence: 480
 Magical Attack: 495
-Magical Defense: 650
+Magical Defence: 650
 Agility: 400
 Luck: 150
 Experience: 22000
@@ -1358,95 +1166,11 @@ Id 134: Atomic Bouldergeist
 HP: 11000
 MP: 250
 Attack: 270
-Defense: 450
+Defence: 450
 Magical Attack: 320
-Magical Defense: 230
+Magical Defence: 230
 Agility: 20
 Luck: 60
 Experience: 1112
 Gold: 1228
----
-Id 135: Zysargia
-HP: 40000
-MP: 9999
-Attack: 600
-Defense: 550
-Magical Attack: 680
-Magical Defense: 580
-Agility: 999
-Luck: 50
-Experience: 30000
-Gold: 45000
----
-Id 136: Tempora
-HP: 40000
-MP: 9999
-Attack: 600
-Defense: 550
-Magical Attack: 680
-Magical Defense: 580
-Agility: 999
-Luck: 50
-Experience: 30000
-Gold: 45000
----
-Id 137: Maelsium
-HP: 40000
-MP: 9999
-Attack: 600
-Defense: 550
-Magical Attack: 680
-Magical Defense: 580
-Agility: 999
-Luck: 50
-Experience: 30000
-Gold: 45000
----
-Id 138: Justicium
-HP: 40000
-MP: 9999
-Attack: 600
-Defense: 550
-Magical Attack: 680
-Magical Defense: 580
-Agility: 999
-Luck: 50
-Experience: 30000
-Gold: 45000
----
-Id 139: Elazireth
-HP: 40000
-MP: 9999
-Attack: 600
-Defense: 550
-Magical Attack: 680
-Magical Defense: 580
-Agility: 999
-Luck: 50
-Experience: 30000
-Gold: 45000
----
-Id 140: Infermius
-HP: 40000
-MP: 9999
-Attack: 600
-Defense: 550
-Magical Attack: 680
-Magical Defense: 580
-Agility: 999
-Luck: 50
-Experience: 30000
-Gold: 45000
----
-Id 141: Avaking
-HP: 40000
-MP: 9999
-Attack: 600
-Defense: 550
-Magical Attack: 680
-Magical Defense: 580
-Agility: 999
-Luck: 50
-Experience: 30000
-Gold: 45000
 ---
