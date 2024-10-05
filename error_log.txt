@@ -1,9 +1,9 @@
-Achievements:1398:in `draw_completed': uninitialized constant Clstn_Achievement_System::Achievement_Completed_Icon, NameError
-	from Achievements:1379:in `refresh'
-	from Achievements:1319:in `initialize'
-	from Achievements:1590:in `new'
-	from Achievements:1590:in `create_notification_window'
-	from Achievements:1583:in `create_all_windows'
+Achievements:1397:in `draw_completed': uninitialized constant Clstn_Achievement_System::Achievement_Completed_Icon, NameError
+	from Achievements:1378:in `refresh'
+	from Achievements:1318:in `initialize'
+	from Achievements:1589:in `new'
+	from Achievements:1589:in `create_notification_window'
+	from Achievements:1582:in `create_all_windows'
 	from Scene_Map:18:in `start'
 	from Scene_Base:12:in `main'
 	from SceneManager:23:in `run'
