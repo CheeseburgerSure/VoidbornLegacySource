@@ -1,6 +1,5 @@
-Game_Interpreter:1411:in `eval': undefined method `dispose' for nil:NilClass, NoMethodError
-	from Bots Notification:15:in `refresh'
-	from Bots Notification:10:in `initialize'
+Game_Interpreter:1411:in `eval': undefined method `seconds' for 2:Fixnum, NoMethodError
+	from Bots Notification:11:in `initialize'
 	from (eval):1:in `new'
 	from (eval):1:in `command_355'
 	from Game_Interpreter:1411:in `eval'
