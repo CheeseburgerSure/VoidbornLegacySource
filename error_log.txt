@@ -1,9 +1,8 @@
-Slumberwood Brewery:19:in `on_after_load': undefined method `each' for nil:NilClass, NoMethodError
-	from Scene_Load:37:in `on_load_success'
-	from Scene_Load:26:in `on_savefile_ok'
-	from Scene_File:133:in `update_savefile_selection'
-	from Scene_File:32:in `update'
-	from Scene_Base:14:in `main'
-	from SceneManager:23:in `run'
-	from Mapshot:986:in `run'
-	from Main:10:in `block in <main>'
+Game_Interpreter:1411:in `eval': undefined method `[]=' for 0:Fixnum, NoMethodError
+	from Slumberwood Brewery:90:in `create_drink'
+	from (eval):1:in `command_355'
+	from Game_Interpreter:1411:in `eval'
+	from Game_Interpreter:1411:in `command_355'
+	from Game_Interpreter:197:in `execute_command'
+	from Game_Interpreter:103:in `run'
+	from Game_Interpreter:60:in `block in create_fiber'
