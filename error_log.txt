@@ -1,11 +1,8 @@
-(eval):1:in `bgm_play': No such file or directory - Audio/BGM/PBW - Shopping Mall 9, Errno::ENOENT
-	from (eval):1:in `play'
-	from Game_Map:328:in `autoplay'
-	from Game_Player:82:in `perform_transfer'
-	from Scene_Map:205:in `perform_transfer'
-	from Scene_Map:167:in `update_transfer_player'
-	from Scene_Map:79:in `update_scene'
-	from Scene_Map:66:in `update'
+Slumberwood Brewery:19:in `on_after_load': undefined method `each' for nil:NilClass, NoMethodError
+	from Scene_Load:37:in `on_load_success'
+	from Scene_Load:26:in `on_savefile_ok'
+	from Scene_File:133:in `update_savefile_selection'
+	from Scene_File:32:in `update'
 	from Scene_Base:14:in `main'
 	from SceneManager:23:in `run'
 	from Mapshot:986:in `run'
