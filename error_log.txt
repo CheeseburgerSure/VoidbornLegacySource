@@ -1,5 +1,8 @@
-Game_Interpreter:1411:in `eval': undefined method `[]=' for 0:Fixnum, NoMethodError
-	from Slumberwood Brewery:90:in `create_drink'
+Game_Interpreter:1411:in `eval': can't convert Symbol into Integer, TypeError
+	from Slumberwood Brewery:379:in `block in clear_slots'
+	from Slumberwood Brewery:378:in `each'
+	from Slumberwood Brewery:378:in `each_with_index'
+	from Slumberwood Brewery:378:in `clear_slots'
 	from (eval):1:in `command_355'
 	from Game_Interpreter:1411:in `eval'
 	from Game_Interpreter:1411:in `command_355'
