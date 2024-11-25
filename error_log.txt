@@ -1,7 +1,5 @@
-Game_Interpreter:1411:in `eval': can't modify frozen object, RuntimeError
-	from Slumberwood Brewery:97:in `create_drink'
-	from Slumberwood Brewery:376:in `randrink'
-	from (eval):2:in `command_355'
+Game_Interpreter:1411:in `eval': undefined method `copy_item!' for nil:NilClass, NoMethodError
+	from (eval):1:in `command_355'
 	from Game_Interpreter:1411:in `eval'
 	from Game_Interpreter:1411:in `command_355'
 	from Game_Interpreter:197:in `execute_command'
