@@ -1,7 +1,8 @@
-Game_Interpreter:1411:in `eval': undefined method `copy_item!' for nil:NilClass, NoMethodError
-	from (eval):1:in `command_355'
-	from Game_Interpreter:1411:in `eval'
-	from Game_Interpreter:1411:in `command_355'
-	from Game_Interpreter:197:in `execute_command'
-	from Game_Interpreter:103:in `run'
-	from Game_Interpreter:60:in `block in create_fiber'
+Slumberwood Brewery:604:in `initialize': wrong number of arguments (3 for 4), ArgumentError
+	from Slumberwood Brewery:573:in `new'
+	from Slumberwood Brewery:573:in `create_command_window'
+	from Slumberwood Brewery:568:in `start'
+	from Scene_Base:12:in `main'
+	from SceneManager:23:in `run'
+	from Mapshot:986:in `run'
+	from Main:10:in `block in <main>'
