@@ -1,7 +1,7 @@
-Slumberwood Brewery:604:in `initialize': wrong number of arguments (3 for 4), ArgumentError
-	from Slumberwood Brewery:573:in `new'
-	from Slumberwood Brewery:573:in `create_command_window'
-	from Slumberwood Brewery:568:in `start'
+Slumberwood Brewery:732:in `/': divided by 0, ZeroDivisionError
+	from Slumberwood Brewery:732:in `refresh'
+	from Slumberwood Brewery:597:in `create_command_window'
+	from Slumberwood Brewery:590:in `start'
 	from Scene_Base:12:in `main'
 	from SceneManager:23:in `run'
 	from Mapshot:986:in `run'
