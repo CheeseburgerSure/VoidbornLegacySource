@@ -1,5 +1,16 @@
-Window_Base:83:in `update': disposed window, RGSSError
-	from Window_Base:83:in `update'
+Slumberwood Brewery:203:in `[]': can't convert String into Integer, TypeError
+	from Slumberwood Brewery:203:in `block in add_drink'
+	from Slumberwood Brewery:152:in `each'
+	from Slumberwood Brewery:152:in `add_drink'
+	from Slumberwood Brewery:96:in `create_drink'
+	from Slumberwood Brewery:625:in `confirm'
+	from Window_Selectable:212:in `call'
+	from Window_Selectable:212:in `call_handler'
+	from Window_Command:136:in `call_ok_handler'
+	from Window_Selectable:322:in `process_ok'
+	from Window_Selectable:297:in `process_handling'
+	from Crafting:859:in `process_handling'
+	from Window_Selectable:276:in `update'
 	from Scene_Base:95:in `block in update_all_windows'
 	from Scene_Base:93:in `each'
 	from Scene_Base:93:in `update_all_windows'
