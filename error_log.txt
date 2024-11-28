@@ -1,6 +1,5 @@
-Game_Interpreter:1411:in `eval': undefined method `clamp' for 0.024:Float, NoMethodError
-	from (eval):3:in `each'
-	from (eval):3:in `command_355'
+Game_Interpreter:1411:in `eval': comparison of Fixnum with nil failed, ArgumentError
+	from (eval):2:in `command_355'
 	from Game_Interpreter:1411:in `eval'
 	from Game_Interpreter:1411:in `command_355'
 	from Game_Interpreter:197:in `execute_command'
