@@ -1,8 +1,11 @@
-Slumberwood Brewery:732:in `/': divided by 0, ZeroDivisionError
-	from Slumberwood Brewery:732:in `refresh'
-	from Slumberwood Brewery:597:in `create_command_window'
-	from Slumberwood Brewery:590:in `start'
-	from Scene_Base:12:in `main'
+Window_Base:83:in `update': disposed window, RGSSError
+	from Window_Base:83:in `update'
+	from Scene_Base:95:in `block in update_all_windows'
+	from Scene_Base:93:in `each'
+	from Scene_Base:93:in `update_all_windows'
+	from Scene_Base:49:in `update_basic'
+	from Scene_Base:41:in `update'
+	from Scene_Base:14:in `main'
 	from SceneManager:23:in `run'
 	from Mapshot:986:in `run'
 	from Main:10:in `block in <main>'
