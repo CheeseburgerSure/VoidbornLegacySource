@@ -1,4 +1,5 @@
-Game_Interpreter:1411:in `eval': undefined local variable or method `parameter' for #<Game_Interpreter:0x103feaac>, NameError
+Game_Interpreter:1411:in `eval': undefined method `name' for nil:NilClass, NoMethodError
+	from (eval):5:in `command_355'
 	from Game_Interpreter:1411:in `eval'
 	from Game_Interpreter:1411:in `command_355'
 	from Game_Interpreter:197:in `execute_command'
