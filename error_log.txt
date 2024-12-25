@@ -1,1 +1,15 @@
-Slumberwood Brewery:636: stack level too deep, SystemStackError
+AdditionalItem/SkillFunctions:49:in `block in update_state_turns': undefined method `actor_id' for #<Game_Actor:0x107f7cf8>, NoMethodError
+	from AdditionalItem/SkillFunctions:47:in `each'
+	from AdditionalItem/SkillFunctions:47:in `update_state_turns'
+	from Game_Battler:803:in `on_turn_end'
+	from BattleEngine:2997:in `block in turn_end'
+	from BattleEngine:2978:in `each'
+	from BattleEngine:2978:in `turn_end'
+	from LunaticStates:550:in `turn_end'
+	from Scene_Battle:545:in `process_action'
+	from Scene_Battle:48:in `update'
+	from BestiaryMain:1819:in `update'
+	from Scene_Base:14:in `main'
+	from SceneManager:23:in `run'
+	from Mapshot:986:in `run'
+	from Main:10:in `block in <main>'
