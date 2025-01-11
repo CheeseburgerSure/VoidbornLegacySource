@@ -225,6 +225,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Attack Skill:", "Spear Attack"]]
+Dropped By: [["Stallion of War", "7%"]]
 ---
 Id 17: Holy Lance
 Desc: A spear blessed by the Supreme Templar.
@@ -756,13 +757,28 @@ Luck: 0
 Features and Traits: [["ExParam: ", "MRG", "2%"]]
 Dropped By: [["Bone Mage", "7%"]]
 ---
+Id 54: Prophet's Omen
+Desc: \}This sword can predict the Natural Flow itself, enabling once-impossible skills while wielding it. Greatly increases HIT, EVA, CNT, and CRI.
+Type: Sword
+Price: 15000
+HP: 0
+MP: 0
+Attack: 79
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 25
+Features and Traits: [["ExParam: ", "HIT", "14%"], ["ExParam: ", "EVA", "10%"], ["ExParam: ", "CNT", "6%"], ["ExParam: ", "CRI", "4%"]]
+Ingredients: [["Foreteller's Sword", 1], ["Hypersteel", 1], ["Omnium", 1], ["Silver Ore", 2], ["Ghostfruit", 2]]
+---
 Id 55: Energy of Avaking
 Desc: The Energy of Avaking War Axe is the most powerful axe in existence.
 Type: Axe
 Price: 0
 HP: 0
 MP: 0
-Attack: 150
+Attack: 160
 Defence: 0
 Magical Attack: 0
 Magical Defence: 50
@@ -777,7 +793,7 @@ Type: Scythe
 Price: 0
 HP: 0
 MP: 0
-Attack: 150
+Attack: 160
 Defence: 0
 Magical Attack: 0
 Magical Defence: 0
@@ -791,7 +807,7 @@ Type: Staff
 Price: 0
 HP: 0
 MP: 0
-Attack: 150
+Attack: 160
 Defence: 0
 Magical Attack: 0
 Magical Defence: 0
@@ -805,7 +821,7 @@ Type: Spear
 Price: 0
 HP: 0
 MP: 50
-Attack: 150
+Attack: 160
 Defence: 0
 Magical Attack: 0
 Magical Defence: 0
@@ -819,7 +835,7 @@ Type: Flail
 Price: 0
 HP: 0
 MP: 0
-Attack: 150
+Attack: 160
 Defence: 0
 Magical Attack: 50
 Magical Defence: 0
@@ -834,7 +850,7 @@ Type: Hammer
 Price: 0
 HP: 0
 MP: 0
-Attack: 150
+Attack: 160
 Defence: 50
 Magical Attack: 0
 Magical Defence: 0
@@ -919,7 +935,7 @@ Type: Bow
 Price: 0
 HP: 150
 MP: 0
-Attack: 150
+Attack: 160
 Defence: 0
 Magical Attack: 0
 Magical Defence: 0
@@ -940,7 +956,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 25
 ---
-Id 68: Sword Breaker
+Id 68: Swordbreaker
 Desc: \}A special type of knife designed to catch incoming weapons and can disarm their opponent or allow them to counterattack.
 Type: Dagger
 Price: 7500
@@ -1080,7 +1096,6 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["Atk Element: ", "Unique"]]
 Ingredients: [["Falcion", 1], ["Swordfish", 1], ["Conch Shell", 2], ["Shark Tooth", 2]]
 ---
 Id 78: Trident
@@ -1228,20 +1243,20 @@ Features and Traits: [["Atk Element: ", "Storm"], ["ExParam: ", "MRG", "2%"], ["
 Ingredients: [["Wood Staff", 1], ["Thundrite", 1]]
 Dropped By: [["Tempest Titan", "9%"]]
 ---
-Id 88: Fishing Spear
-Desc: A barbed spear, used for fishing in shallow waters. Increased damage to aquatic targets.
-Type: Spear
-Price: 140
+Id 88: Soulcleave Sabre
+Desc: \}An intensely energetic sword that can allegedly split a soul in twain. Charges Soulreach Slash twice as fast and increases your MCR.
+Type: Sword
+Price: 29000
 HP: 0
-MP: 0
-Attack: 15
+MP: 80
+Attack: 67
 Defence: 0
-Magical Attack: 0
+Magical Attack: 108
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["Atk Element: ", "Unique"], ["Attack Skill:", "Spear Attack"]]
-Ingredients: [["Spear", 1], ["Shark Tooth", 2]]
+Features and Traits: [["Gain Skill: ", "Soulreach Slash"], ["SpParam: ", "MCR", "x1.2"]]
+Ingredients: [["Soulreach Sabre", 1], ["Soul Orb", 2], ["Hypersteel", 1], ["Ironbark", 1], ["Obsidian Shard", 2]]
 ---
 Id 89: Cryo Cutter
 Desc: Despite being virtually nothing more than a glorified icicle, this knife can still inflict some real damage.
@@ -1430,9 +1445,9 @@ Luck: 0
 Features and Traits: [["Atk Element: ", "Unique"], ["Atk Speed: ", -5], ["Atk State: ", "Stun", "7%"], ["SpParam: ", "PHA", "x1.5"]]
 ---
 Id 102: Vezran's Sword
-Desc: A seldom used blade forged in a diabolous smithy.
+Desc: A seldom used blade forged in a diabolous smithy. Sports an increased CRI.
 Type: Sword
-Price: 14000
+Price: 12000
 HP: 0
 MP: 0
 Attack: 54
@@ -1440,7 +1455,8 @@ Defence: 0
 Magical Attack: 25
 Magical Defence: 0
 Agility: 0
-Luck: 0
+Luck: 15
+Features and Traits: [["ExParam: ", "CRI", "3%"]]
 Dropped By: [["Vezran", "100%"]]
 ---
 Id 103: Blade of the Diabolous
@@ -1459,7 +1475,7 @@ Features and Traits: [["ExParam: ", "HIT", "10%"], ["Can Dual Wield"], ["Atk Sta
 Dropped By: [["Diabolous", "33%"]]
 ---
 Id 104: Cold Shoulder
-Desc: A bludgeon so cold that your enemies can feel it just by looking at you. Be sure to show them how it feels, too.
+Desc: A bludgeon so cold that your enemies can feel it just by looking at you. Be sure to show them up close, too.
 Type: Hammer
 Price: 9500
 HP: 0
@@ -1547,6 +1563,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Ice"], ["Atk State: ", "Freezing", "5%"], ["Attack Skill:", "Scythe Attack"]]
 Ingredients: [["Serrated Scythe", 1], ["Fangfrost Arrows", 1], ["Unmelting Ice", 1], ["Winter's Heart", 1]]
+Dropped By: [["Stallion of Death", "7%"]]
 ---
 Id 110: Lightning Fork
 Desc: A poky stick that can zap your foes into submission.
@@ -1565,7 +1582,7 @@ Ingredients: [["Lightning Lance", 1], ["Thunder Rod", 1], ["Lightning Rod", 1]]
 ---
 Id 111: Ironbark Cudgel
 Desc: A quarterstaff made from a rare tree found on mountainsides.
-Type: Staff
+Type: Hammer
 Price: 8400
 HP: 0
 MP: 0
@@ -1606,36 +1623,40 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Attack Skill:", "Spear Attack"]]
 ---
-Id 114: Betrayal Flail
-Desc: Makes the user Savage, greatly increasing their power at the risk of harming their allies.
-Type: Flail
-Price: 7500
+Id 114: Precursor of Virtue
+Desc: \}A fauchard imbued with the essence of celestial virtue, its radiant blade cleanses the unworthy and shields the righteous. Gives the Absolution skill.
+Type: Spear
+Price: 30000
 HP: 0
 MP: 0
-Attack: 40
-Defence: 0
+Attack: 112
+Defence: 25
 Magical Attack: 0
+Magical Defence: 25
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Light"], ["State Resist: ", "Curse of the Doomed"], ["State Resist: ", "Curse of the Debilitated"], ["State Resist: ", "Curse of the Feeble"], ["State Resist: ", "Curse of the Laggard"], ["State Resist: ", "Curse of the Soulless"], ["Gain Skill: ", "Absolution"], ["Attack Skill:", "Spear Attack"]]
+Ingredients: [["Vilebrand Fauchard", 1], ["Templar's Ashes", 3], ["Blessed Abjugation", 1], ["Hypersteel", 1], ["Holy Symbol", 1]]
+---
+Id 115: Harbinger of Sin
+Desc: \}A fauchard drenched in blight, said to carry the weight of every broken oath. It sears with unholy radiance, condemning the wielder. Just holding it makes you bear a curse.
+Type: Spear
+Price: 30000
+HP: 0
+MP: 0
+Attack: 137
+Defence: 0
+Magical Attack: 25
 Magical Defence: 0
 Agility: 0
 Luck: 0
--^-ERR-^-
-Id 115: Felling Billhook
-Desc: Knocks down large enemies
-Type: Staff
-Price: 0
-HP: 0
-MP: 0
-Attack: 0
-Defence: 0
-Magical Attack: 0
-Magical Defence: 0
-Agility: 0
-Luck: 0
+Features and Traits: [["Atk Element: ", "Dark"], ["State Rate: ", "Curse of the Doomed", "200%"], ["State Rate: ", "Curse of the Debilitated", "200%"], ["State Rate: ", "Curse of the Feeble", "200%"], ["State Rate: ", "Curse of the Laggard", "200%"], ["State Rate: ", "Curse of the Soulless", "200%"], ["Attack Skill:", "Vilebrand Fauchard Attack"], ["Passive State:", "Curse of the Sinbearer"]]
+Ingredients: [["Vilebrand Fauchard", 1], ["Shadow of Cowardice", 1], ["Oil of Ill-Intent", 3], ["Abbysal Fluid", 2], ["Hypersteel", 1]]
 ---
 Id 116: Revenant's Pact
 Desc: A sanctified sceptre that will occasionally turn an undead foe into a confused ally for a short time.
 Type: Staff
-Price: 14500
+Price: 16500
 HP: 0
 MP: 0
 Attack: 16
@@ -1644,7 +1665,7 @@ Magical Attack: 75
 Magical Defence: 11
 Agility: 0
 Luck: 0
-Features and Traits: [["Atk Element: ", "Light"]]
+Features and Traits: [["Atk Element: ", "Light"], ["ExParam: ", "MRG", "3%"]]
 ---
 Id 117: Boulder Bludgeoner
 Desc: A hammer of impossible proportions that blow your foes into the next era.
@@ -1731,7 +1752,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["Atk Element: ", "Unique"], ["ExParam: ", "HIT", "-4%"]]
+Features and Traits: [["ExParam: ", "HIT", "-4%"], ["Atk Element: ", "Water"]]
 ---
 Id 123: Wise Man's Wallop
 Desc: A wallop so wise, it can take advantage of the best of situations for a cunning counterattack.
@@ -1834,7 +1855,7 @@ Features and Traits: [["Atk Element: ", "Light"], ["Atk State: ", "Stun", "14%"]
 Ingredients: [["Terrahammer", 1], ["Omnium", 2], ["Templar's Ashes", 2], ["Blessed Abjugation", 1]]
 ---
 Id 130: Siphon Bow
-Desc: A bow that enhances the arrows it fires to heal the user (only applies to basic attacks).
+Desc: A bow that enhances the arrows it fires to drain the target's MP (only applies to basic attacks).
 Type: Bow
 Price: 16000
 HP: 0
@@ -1874,7 +1895,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "6%"], ["Can Dual Wield"], ["Atk State: ", "Poison", "10%"]]
-Ingredients: [["Main Gauche", 1], ["Snake Fang", 2], ["Anti-Anti-Venom", 1]]
+Ingredients: [["Main Gauche", 1], ["Snake Fang", 2], ["Hornet Venom", 1]]
 ---
 Id 133: Hornet's Wrath
 Desc: A tiny knife scultped in the likeness of all those angry Hornets. It's stature helps keep the wielder swift and evasive.
@@ -1894,7 +1915,7 @@ Ingredients: [["Dagger", 1], ["Insect Stinger", 1], ["Hornet Venom", 1]]
 Id 134: Bat's Sight
 Desc: A sword that should work best under the cover of darkness and it gives you the Echolocate skill.
 Type: Sword
-Price: 4500
+Price: 3500
 HP: 0
 MP: 0
 Attack: 39
@@ -1904,7 +1925,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Gain Skill: ", "Echolocate"]]
-Ingredients: [["Long Sword", 1], ["Bat Wings", 2], ["Revel Weed", 1]]
+Ingredients: [["Short Sword", 1], ["Bat Wings", 2], ["Revel Weed", 1]]
 ---
 Id 135: Spider's Web
 Desc: A net made of recovered spider silk. Incredibly strong and difficult to break free from. Can be dual wielded.
@@ -1918,8 +1939,8 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["Can Dual Wield"], ["Atk State: ", "Net", "30%"], ["Atk State: ", "Webbed", "50%"]]
-Ingredients: [["Spider Silk", 4], ["Net-Launcher Arrows", 1]]
+Features and Traits: [["Can Dual Wield"], ["Atk State: ", "Curse of the Sinbearer", "30%"], ["Atk State: ", "Webbed", "50%"]]
+Ingredients: [["Spider Silk", 4], ["", 1]]
 ---
 Id 136: Skeleton's Noggin
 Desc: A bludgeon made with combining ground-up skulls into one MEGA skull.
@@ -2137,8 +2158,8 @@ Magical Attack: 90
 Magical Defence: 0
 Agility: 10
 Luck: 25
-Features and Traits: [["Atk Element: ", "Soul"], ["ExParam: ", "CRI", "4%"], ["Atk Speed: ", 3], ["Atk State: ", "Hexed", "1000%"], ["Atk State: ", "Hexed", "1000%"]]
-Ingredients: [["Crimson Talon", 1], ["Magic Repressor", 1], ["Raxorium Ore", 2], ["Void Residue", 3], ["Contaminated Conduit", 1]]
+Features and Traits: [["Atk Element: ", "Soul"], ["ExParam: ", "CRI", "5%"], ["Atk Speed: ", 3], ["Atk State: ", "Hexed", "1000%"], ["Atk State: ", "Hexed", "1000%"]]
+Ingredients: [["Void's Eclipse", 1], ["Magic Repressor", 1], ["Raxorium Ore", 2], ["Void Residue", 3], ["Contaminated Conduit", 1]]
 ---
 Id 151: Heartpiercer
 Desc: A serrated knife that will always score a critical hit after evading an enemy's attack.
@@ -2153,4 +2174,48 @@ Magical Defence: 0
 Agility: 10
 Luck: 10
 Features and Traits: [["ExParam: ", "EVA", "8%"], ["Can Dual Wield"], ["ExParam: ", "CRI", "3%"]]
+---
+Id 152: Void Weaver's Loom
+Desc: \}A staff of the Void, bearing power akin to that of the Void Weavers. Based on your 
+Type: Staff
+Price: 0
+HP: 0
+MP: 0
+Attack: 60
+Defence: 0
+Magical Attack: 130
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Ingredients: [["Spirit Staff", 1], ["Magic Repressor", 1], ["Raxorium Ore", 2], ["Void Residue", 3], ["Contaminated Conduit", 1]]
+---
+Id 153: Soulspite Longbow
+Desc: \}A hefty bow that enhances the arrows it fires to drain the target's MP (only applies to basic attacks). Drains 50% more of applied damage.
+Type: Bow
+Price: 26000
+HP: 0
+MP: 0
+Attack: 103
+Defence: 0
+Magical Attack: 22
+Magical Defence: 0
+Agility: 0
+Luck: 10
+Features and Traits: [["Seal Equip: ", "Shield"], ["ExParam: ", "CRI", "6%"], ["Atk Speed: ", 3], ["Attack Skill:", "Siphoning Shot"]]
+Ingredients: [["Siphon Bow", 1], ["Siphon Arrows", 1], ["Soul in a Jar", 1], ["Ironbark", 2], ["Spirit Essence", 3]]
+---
+Id 154: Heartrender
+Desc: An enhanced Heartpiercer that exploits even the greatest strengths of its targets.
+Type: Dagger
+Price: 22000
+HP: 0
+MP: 0
+Attack: 56
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 25
+Luck: 100
+Features and Traits: [["ExParam: ", "EVA", "15%"], ["Can Dual Wield"], ["ExParam: ", "CRI", "5%"]]
+Ingredients: [["Heartpiercer", 1], ["Obsidian Shard", 2], ["Omnium", 2], ["Exemplary EVA Paragon", 1]]
 ---

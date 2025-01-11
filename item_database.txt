@@ -11,7 +11,7 @@ Ingredients: [["Red Pearl Orchid", 1], ["Stalwort", 2], ["Bat Wings", 2]]
 Id 2: Enhanced Potion
 Desc: A magical potion that restores 2,500 HP.
 Type: Normal
-Price: 700G
+Price: 650G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
@@ -39,34 +39,34 @@ Effects and Traits: [["Recover MP: ", "", "+50"]]
 Ingredients: [["Milk", 1], ["Spirit Essence", 2], ["Revel Weed", 2]]
 ---
 Id 5: Sage's Water
-Desc: A vial of enchanted water that restores 250 MP.
+Desc: A vial of enchanted water that restores 200 MP.
 Type: Normal
-Price: 1000G
+Price: 750G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
-Effects and Traits: [["Recover MP: ", "", "+250"]]
+Effects and Traits: [["Recover MP: ", "", "+200"]]
 Ingredients: [["Milk", 2], ["Spirit Essence", 3], ["Revel Weed", 3], ["Potion", 2]]
-Dropped By: [["Stallion of Plague", "8%"]]
+Dropped By: [["Stallion of Plague", "8%"], ["Stallion of War", "8%"], ["Stallion of Famine", "8%"], ["Stallion of Death", "8%"]]
 ---
 Id 6: Antidote
-Desc: Treats poison and plague.
+Desc: Treats poison.
 Type: Normal
 Price: 30G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
-Effects and Traits: [["Remove State: ", "Poison", "100%"], ["Remove State: ", "Plagued", "100%"]]
+Effects and Traits: [["Remove State: ", "Poison", "100%"]]
 Ingredients: [["Bei Root", 2], ["Hornet Venom", 1]]
 ---
 Id 7: Dispel Herb
-Desc: Treats many status ailments.
+Desc: A sought-after medicinal herb that can treat some obscure ailments such as Silence, Confusion, Paralysis, and Stun.
 Type: Normal
-Price: 300G
+Price: 200G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
-Effects and Traits: [["Remove State: ", "Poison", "100%"], ["Remove State: ", "Blind", "100%"], ["Remove State: ", "Silence", "100%"], ["Remove State: ", "Confusion", "100%"], ["Remove State: ", "Sleep", "100%"], ["Remove State: ", "Paralysis", "100%"]]
+Effects and Traits: [["Remove State: ", "Silence", "100%"], ["Remove State: ", "Confusion", "100%"], ["Remove State: ", "Paralysis", "100%"], ["Remove State: ", "Stun", "100%"]]
 Dropped By: [["Ravenous Mawchid", "8%"], ["Dreadstinger Hornet Swarm", "8%"]]
 ---
 Id 8: Elixir
@@ -162,7 +162,7 @@ Occasion: Always
 Effects and Traits: [["Recover HP: ", "5%", ""], ["Remove State: ", "Headache", "100%"]]
 Dropped By: [["Roots of Evil", "11%"]]
 ---
-Id 18: Emwood Apple Juice
+Id 18: Apple Juice
 Desc: Some freshly squeezed apple juice from the famous orchards of Emwood. Recovers some HP.
 Type: Normal
 Price: 12G
@@ -240,7 +240,7 @@ Price: 16G
 Consume: No
 Scope: None
 Occasion: Never
-Dropped By: [["Blue Slime", "17%"], ["Green Slime", "20%"], ["Purple Slime", "17%"], ["Pink Slime", "20%"]]
+Dropped By: [["Blue Slime", "17%"], ["Green Slime", "20%"], ["Purple Slime", "17%"], ["Pink Slime", "20%"], ["Black Pus", "33%"], ["Sickening Ooze", "50%"]]
 ---
 Id 27: Bat Wings
 Desc: Wings taken from a bat. Useful in Alchemy.
@@ -289,7 +289,7 @@ Occasion: Never
 Dropped By: [["Rockleliege", "33%"], ["Atomic Bouldergeist", "6%"]]
 ---
 Id 33: Infermius Raxorium
-Desc: A refined form of Raxorium in the elements of Infermius. Useful in alchemy.
+Desc: A refined form of Raxorium in the element of Infermius. Useful in alchemy.
 Type: Normal
 Price: 0G
 Consume: No
@@ -305,7 +305,7 @@ Scope: None
 Occasion: Never
 ---
 Id 35: Zysargia Raxorium
-Desc: A refined form of Raxorium in the element of Zysargia. Useful in alchemy.
+Desc: A refined form of Raxorium in the elements of Zysargia. Useful in alchemy.
 Type: Normal
 Price: 0G
 Consume: No
@@ -329,7 +329,7 @@ Scope: None
 Occasion: Never
 ---
 Id 38: Maelsium Raxorium
-Desc: A refined form of Raxorium in the elements of Maelsium. Useful in alchemy. 
+Desc: A refined form of Raxorium in the element of Maelsium. Useful in alchemy. 
 Type: Normal
 Price: 0G
 Consume: No
@@ -337,7 +337,7 @@ Scope: None
 Occasion: Never
 ---
 Id 39: Avaking Raxorium
-Desc: A refined form of Raxorium in the elements of Avaking. Useful in alchemy.
+Desc: A refined form of Raxorium in the element of Avaking. Useful in alchemy.
 Type: Normal
 Price: 0G
 Consume: No
@@ -345,7 +345,7 @@ Scope: None
 Occasion: Never
 ---
 Id 40: Talbrian Ale
-Desc: A unique ale dubbed from it's origins in Talbury. Has a sweet, fruity taste. Restores some HP.
+Desc: A unique ale dubbed from its origins in Talbury. Has a sweet, fruity taste. Restores some HP.
 Type: Normal
 Price: 38G
 Consume: Yes
@@ -361,10 +361,10 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Remove State: ", "Burn", "100%"], ["Recover HP: ", "5%", ""]]
-Ingredients: [["Slimedrop", 5], ["Bei Root", 1]]
+Ingredients: [["Slimedrop", 4], ["Bei Root", 1], ["Stalwort", 1]]
 ---
 Id 42: Mead
-Desc: A simple and common alcoholic drink. Restores a little HP and PR.
+Desc: A simple and common alcoholic drink. Restores a little HP.
 Type: Normal
 Price: 30G
 Consume: Yes
@@ -379,7 +379,7 @@ Price: 47G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
-Effects and Traits: [["Recover MP: ", "", "+50"], ["Recover HP: ", "10%", ""]]
+Effects and Traits: [["Recover MP: ", "2%", ""], ["Recover HP: ", "10%", ""]]
 ---
 Id 44: Skull
 Desc: A skull recovered from a skeleton. Useful in Alchemy.
@@ -426,7 +426,7 @@ Scope: None
 Occasion: Never
 ---
 Id 49: Celery
-Desc: Literally just celery, that horrific green malice. Useful in Alchemy, somehow. Eat to lose 1 HP.
+Desc: Celery, that horrific green malice. Useful in Alchemy, somehow. Eat to lose 1 HP.
 Type: Normal
 Price: 8G
 Consume: Yes
@@ -494,7 +494,7 @@ Occasion: Always
 Effects and Traits: [["Recover HP: ", "2%", "+50"]]
 ---
 Id 57: Mountain Perch
-Desc: A long fish mostly found at the sping lakes at the foot of the western cliffs.
+Desc: A long fish mostly found at the spring lakes at the foot of the western cliffs.
 Type: Normal
 Price: 25G
 Consume: Yes
@@ -544,10 +544,10 @@ Consume: No
 Scope: None
 Occasion: Only from the Menu
 ---
-Id 63: Ice'N'Fire:OppositesAttract
-Desc: A book explaining the uses of combining the magic of the Ice and Fire elements in combat.
+Id 63: Tome of Upgrades
+Desc: \}A book written by the master of alchemy himself. It explains in great detail how to take some of the rarest and most powerful equipment of Adremesis to their full potential.
 Type: Key
-Price: 178G
+Price: 0G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
@@ -585,8 +585,8 @@ Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "", "+5"]]
 ---
-Id 68: Wing Medallion
-Desc: A winged pin used to identify a Bird Race enthusiast. Increases chances of winning bets.
+Id 68: Wing Pin
+Desc: A mettalic winged pin used to identify a Bird Race enthusiast. Increases chances of winning bets.
 Type: Key
 Price: 0G
 Consume: No
@@ -654,7 +654,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Add State: ", "Hallucinating", "100%"]]
-Dropped By: [["Forest Custodian", "7%"]]
+Dropped By: [["Forest Custodian", "7%"], ["Stallion of Famine", "7%"]]
 ---
 Id 76: Ancient Sage's Water
 Desc: A vial of mystical water that restores all MP.
@@ -791,13 +791,13 @@ Effects and Traits: [["Remove State: ", "Blind", "100%"]]
 Ingredients: [["Carp", 1], ["Hunter's Mushrooms", 1]]
 ---
 Id 92: Srevena
-Desc: \}A very large bioluminescent fruit grown in the caves of Nyet Yem. Recovers a large portion of health and gives 10 PR.
+Desc: \}A very large bioluminescent fruit grown in the caves of Nyet Yem. Recovers a massive portion of health and gives 10 PR.
 Type: Normal
 Price: 1000G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
-Effects and Traits: [["Recover HP: ", "75%", ""], ["Gain PR: ", "1000%"]]
+Effects and Traits: [["Recover HP: ", "50%", ""], ["Gain PR: ", "1000%"]]
 Dropped By: [["Ravenous Mawchid", "9%"]]
 ---
 Id 93: Snake Fang
@@ -842,7 +842,7 @@ Scope: None
 Occasion: Only from the Menu
 ---
 Id 98: Monster Repellant
-Desc: A jar of a viscous black fluid that seems to have the effect of repelling wild monsters for a time. Smells faintly of liquorice.
+Desc: \}A jar of a viscous black fluid that seems to have the effect of repelling wild monsters for a time. Smells faintly of liquorice.
 Type: Normal
 Price: 200G
 Consume: Yes
@@ -877,7 +877,7 @@ Scope: None
 Occasion: Only from the Menu
 ---
 Id 102: Conch Shell
-Desc: Some say that if you set the shell to your ear, you can hear the distant sound of the shipmaster yelling \}"Ahoy!"\{...
+Desc: Some say that if you set the shell to your ear, you can hear the distant sound of the shipmaster yelling "Ahoy!"...
 Type: Normal
 Price: 16G
 Consume: No
@@ -902,14 +902,13 @@ Scope: None
 Occasion: Never
 Dropped By: [["Abyssal Coraljaws", "10%"]]
 ---
-Id 105: War Horn
-Desc: Blowing the horn can strike fear into the hearts of your foes.
+Id 105: Cider
+Desc: An alcoholic beverage produced by the fermentation of apple juice.
 Type: Normal
-Price: 175G
+Price: 0G
 Consume: No
-Scope: All Enemies
-Occasion: Only in Battle
-Effects and Traits: [["Add State: ", "Fear", "40%"]]
+Scope: None
+Occasion: Never
 ---
 Id 106: Sausage Roll
 Desc: Greg's specialty. Recovers some HP.
@@ -957,12 +956,13 @@ Scope: None
 Occasion: Never
 ---
 Id 111: Soul Vigour Vial
-Desc: A mystical concoction of extremely rare and mystical ingredients that rapidly accelerates the Soul's growth. Instantly levels up a character.
+Desc: \}A mystical concoction of extremely rare ingredients that rapidly accelerates the Soul's growth. Instantly levels up a character once.
 Type: Normal
-Price: 0G
+Price: 10000G
 Consume: Yes
 Scope: None
 Occasion: Only from the Menu
+Dropped By: [["Stygian Ichor", "5%"]]
 ---
 Id 112: Bone Apple Tea
 Desc: A biz are drink that makes peeple miss pell there words. It duhz taste gud tho, so bone apple tea!
@@ -984,18 +984,17 @@ Occasion: Always
 Effects and Traits: [["Recover HP: ", "1%", ""]]
 ---
 Id 114: Tea
-Desc: A blend of hot water and tea leaves, this popular drink can
-stave away sleep.
+Desc: A blend of hot water and tea leaves, this popular drink can stave away sleep.
 Type: Normal
 Price: 24G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
-Effects and Traits: [["Recover HP: ", "10%", "+100"], ["Remove State: ", "Sleep", "100%"], ["Add State: ", "Sleepless", "100%"]]
+Effects and Traits: [["Recover HP: ", "5%", "+150"], ["Remove State: ", "Sleep", "100%"]]
 Ingredients: [["Tea Leaves", 2], ["Fresh Water", 1]]
 ---
 Id 115: Fresh Water
-Desc: It's literally just fresh water, what do you expect. Restores 5 HP.
+Desc: A bottle of fresh water. Restores 5 HP.
 Type: Normal
 Price: 2G
 Consume: Yes
@@ -1004,8 +1003,7 @@ Occasion: Always
 Effects and Traits: [["Recover HP: ", "", "+5"]]
 ---
 Id 116: Blazing Beverage
-Desc: A fiery drink that can thaw anything out from being frozen.
-Warms someone up and stops them from freezing.
+Desc: A fiery drink that can thaw anything out from being frozen. Warms someone up and stops them from freezing.
 Type: Normal
 Price: 54G
 Consume: Yes
@@ -1085,7 +1083,7 @@ Occasion: Always
 Effects and Traits: [["Recover HP: ", "5%", ""]]
 ---
 Id 125: Beer Bread
-Desc: If you thought Slumberwood couldn't become any more alcoholic, they made bread using beer. I wish I was joking.
+Desc: \}If you thought Slumberwood couldn't become any more alcoholic, they made bread using beer. Restores some HP and PR.
 Type: Normal
 Price: 31G
 Consume: Yes
@@ -1154,14 +1152,6 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Titan of Black Ice", "8%"]]
----
-Id 133: Powdered Explosive
-Desc: A concoction of different materials creates this potent explosive. Useable in battle.
-Type: Normal
-Price: 53G
-Consume: Yes
-Scope: 1 Random Enemy
-Occasion: Only in Battle
 ---
 Id 134: Book for Botanists
 Desc: A weirdly sweet-smelling book containing details on the creation of nature-esque equipment.
@@ -1233,7 +1223,7 @@ Occasion: Never
 Dropped By: [["Stormbringer Cerberus", "100%"], ["Tempest Titan", "7%"]]
 ---
 Id 142: Oil of Ill-Intent
-Desc: This mysterious fluid naturally found only on Devil's Eye Land that silently corrupts everything around it. Useful in alchemy.
+Desc: \}This mysterious fluid naturally found only on Devil's Eye Land that silently corrupts everything around it. Useful in alchemy.
 Type: Normal
 Price: 500G
 Consume: No
@@ -1276,6 +1266,14 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Contorted Amalgamation", "7%"], ["Rocklesiege", "25%"], ["Rockleliege", "100%"], ["Aberrational Amalgamation", "13%"], ["Atomic Bouldergeist", "10%"]]
+---
+Id 147: Wine
+Desc: An alcoholic drink typically made using grape, but can be made using a wide variety of fruity ingredients.
+Type: Normal
+Price: 0G
+Consume: No
+Scope: None
+Occasion: Never
 ---
 Id 148: Elemental Escapades
 Desc: A book written by the Ancient Sage Gabriel about alchemising with the elements.
@@ -1327,19 +1325,10 @@ Consume: No
 Scope: None
 Occasion: Only from the Menu
 ---
-Id 154: Ma Rage Maker
-Desc: \}A small vial containing concentrated liquid that will make its drinker enraged for a short time. They will quickly suffer withdrawal afterwards, however.
-Type: Normal
-Price: 80G
-Consume: Yes
-Scope: One Ally
-Occasion: Only in Battle
-Effects and Traits: [["Add State: ", "Bloodthirsty", "100%"]]
----
 Id 155: Blessed Abjugation
 Desc: A jar of holy water mixed with blessed fabric. Frees someone of their horrific afflictions and cures them of all curses.
 Type: Normal
-Price: 380G
+Price: 2300G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
@@ -1353,7 +1342,7 @@ Price: 320G
 Consume: No
 Scope: None
 Occasion: Never
-Dropped By: [["Gazer", "8%"], ["Shadow Collossus", "100%"]]
+Dropped By: [["Gazer", "8%"], ["Shadow Collossus", "100%"], ["Black Pus", "7%"], ["Sickening Ooze", "8%"], ["Stygian Ichor", "13%"]]
 ---
 Id 157: Egregious Equipment
 Desc: A book with a malevolent air about it. What's in here may not be safe for mortal eyes but...perhaps it's worth it...
@@ -1582,13 +1571,13 @@ Consume: No
 Scope: None
 Occasion: Never
 ---
-Id 186: Mister Bones' Gratitude
-Desc: A token of thanks from the one and only Mister Bones. A symbol of his appreciation for your friendship.
-Type: Normal
+Id 186: Mister Bones' Companion
+Desc: \}A golden medallion from the one and only Mister Bones. A token of thanks and a symbol of your friendship. It seems to increase the rarity of unearthed treasures.
+Type: Key
 Price: 0G
-Consume: Yes
-Scope: One Ally
-Occasion: Always
+Consume: No
+Scope: None
+Occasion: Never
 ---
 Id 187: Book of Souls
 Desc: In some unknown culture, even laying eyes on such an object would be viewed as heresy...
@@ -1599,7 +1588,7 @@ Scope: None
 Occasion: Only from the Menu
 Dropped By: [["Void Leviathan", "25%"]]
 ---
-Id 188: SymbolBreakerUserManual
+Id 188: Symbol Breaker User Manual
 Desc: A small book written by Davonious Alricke describing in detail on how to wield his marvelous Symbol Breaker.
 Type: Key
 Price: 2500G
@@ -1659,6 +1648,54 @@ Id 195: Hired Escort Ticket
 Desc: \}A ticket that denotes you have purchased muscle to help escort your party when fast travelling. Heavily reduces the chance for monsters.
 Type: Key
 Price: 3600G
+Consume: No
+Scope: None
+Occasion: Never
+---
+Id 196: Archeological Survey Data
+Desc: \}Archeologists are highly interested in the rich history that lie in wait deep in the mountains. Increases the chance of finding treasures, consumed when leaving.
+Type: Key
+Price: 3500G
+Consume: No
+Scope: None
+Occasion: Never
+---
+Id 211: Distance Doug's Pride
+Desc: \}A golden medallion from the legendary miner, Distance Doug. A token of how impressed he is of your mining skills. It seems to increase the rarity of unearthed ores.
+Type: Key
+Price: 0G
+Consume: No
+Scope: None
+Occasion: Never
+---
+Id 212: Adronica's Legend
+Desc: \}A golden medallion from Adronica, beholder of Inferno Tower. A token of your mythical combat ability, to claim victory from the jaws of the Void. It seems to do something.
+Type: Key
+Price: 0G
+Consume: No
+Scope: None
+Occasion: Never
+---
+Id 213: Flyer's Grace
+Desc: \}A golden medallion from the Talbrian Flyer's Association. A token of your prowess (or...luck) to often bet on the right bird. It seems to double your earned Wing Tokens.
+Type: Key
+Price: 0G
+Consume: No
+Scope: None
+Occasion: Never
+---
+Id 214: Brewmistress' Pinnacle
+Desc: \}A golden medallion from the Brewmistress of the Oak and Antler. A token of your impressive ability to brew highly popular beverages. It seems to do something.
+Type: Key
+Price: 0G
+Consume: No
+Scope: None
+Occasion: Never
+---
+Id 215: Al Chemy's Expert
+Desc: \}A golden medallion from Al Chemy. A token of your determination to complete the recipe book. You produce two copies of every item you alchemise.
+Type: Key
+Price: 0G
 Consume: No
 Scope: None
 Occasion: Never

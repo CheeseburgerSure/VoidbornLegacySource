@@ -517,7 +517,7 @@ Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "0%"]]
 ---
 Id 39: Hypersteel Helm
-Desc: Tough helm made of the incredible mineral.
+Desc: Tough helm made of the incredible alloy.
 Type: Heavy Armour
 Price: 5500
 HP: 0
@@ -687,7 +687,7 @@ Features and Traits: [["ExParam: ", "EVA", "10%"], ["ExParam: ", "CEV", "5%"], [
 Id 51: War's Belt
 Desc: Metallic belt that magically engraves itself with the names of the wearer's kills.
 Type: General Armour
-Price: 4000
+Price: 5000
 HP: 0
 MP: 0
 Attack: 20
@@ -827,7 +827,7 @@ Price: 9000
 HP: 0
 MP: 0
 Attack: 0
-Defence: 29
+Defence: 19
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
@@ -835,13 +835,13 @@ Luck: 0
 Features and Traits: [["State Resist: ", "Confusion"], ["State Resist: ", "Savage"], ["State Resist: ", "Hallucinating"]]
 ---
 Id 62: Shield of Brawn
-Desc: A shield that puts brawn over brains. Increases your max HP, but reduces your max MP.
+Desc: A shield that puts brawn over brains. Increases your MHP, but reduces your MMP.
 Type: Small Shield
-Price: 2400
+Price: 2200
 HP: 0
 MP: 0
 Attack: 0
-Defence: 10
+Defence: 12
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
@@ -1017,18 +1017,17 @@ Luck: 0
 Features and Traits: [["Element Rate: ", "Dark", "75%"], ["Atk Element: ", "Light"]]
 ---
 Id 75: HourglassOfInfinitePatience
-Desc: A mystical hourglass that somehow never stops flowing. Reduces EXP gains by a lot, but increases AGI. 
+Desc: \}A mystical hourglass that somehow never stops flowing. Every consecutive turn you spend idle builds a multiplier for your next action's strength (caps at 5x).
 Type: General Armour
-Price: 2760
+Price: 4570
 HP: 0
 MP: 0
 Attack: 0
 Defence: 0
 Magical Attack: 0
-Magical Defence: 0
-Agility: 75
+Magical Defence: 7
+Agility: -25
 Luck: 0
-Features and Traits: [["SpParam: ", "EXR", "x0.7"]]
 ---
 Id 76: The Silent Ringer
 Desc: A bell that makes no sound. 25% MP cost, but significantly increases damage from all sources.
@@ -1072,8 +1071,8 @@ Agility: 3
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "10%"], ["ExParam: ", "HIT", "-15%"]]
 ---
-Id 79: Genie Lamp with no Genie
-Desc: Literally just a lamp. Increases MAT significantly, but decreases ATK by loads.
+Id 79: Lamp of Empty Promises
+Desc: A lamp that seems to lack any sort of use. Increases MAT significantly, but decreases ATK by loads.
 Type: General Armour
 Price: 1970
 HP: 0
@@ -1085,7 +1084,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 ---
-Id 80: Too Sharp Quill Pen
+Id 80: Terribly Sharp Quill Pen
 Desc: A quill that is so sharp it ruins any material it tries to write on. Increases ATK but decreases LUK.
 Type: General Armour
 Price: 5120
@@ -1099,7 +1098,7 @@ Agility: 0
 Luck: -50
 ---
 Id 81: Heavy Feather
-Desc: A feather that weighs an incredulous amount. Increases DEF a lot, but decreases AGI too.
+Desc: A seemingly impossible feather that weighs an incredulous amount. Increases DEF a lot, but decreases AGI too.
 Type: General Armour
 Price: 4130
 HP: 0
@@ -1110,25 +1109,24 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: -100
 Luck: 0
-Features and Traits: [["Atk Speed: ", -10]]
 Dropped By: [["Grave Defiler", "8%"]]
 ---
-Id 82: Burning Oitment
-Desc: A cream to soothe burns that burns to the touch. Increases Fire Resistance a lot, but reduces MHP.
+Id 82: Burning Ointment
+Desc: A cream to soothe burns that burns to the touch. Increases Fire Resistance a lot, but reduces MHP slightly.
 Type: General Armour
 Price: 1800
 HP: 0
 MP: 0
 Attack: 0
 Defence: 0
-Magical Attack: 2
-Magical Defence: 0
+Magical Attack: 0
+Magical Defence: 5
 Agility: 0
 Luck: 0
-Features and Traits: [["Element Rate: ", "Fire", "15%"], ["Parameter: ", "MHP", "85%"], ["State Resist: ", "Burn"]]
+Features and Traits: [["Element Rate: ", "Fire", "15%"], ["Parameter: ", "MHP", "90%"], ["State Resist: ", "Burn"]]
 ---
 Id 83: Liquid Gold
-Desc: A pouch of Gold coins that melt when touched. Doubles Gold drops, but completely eliminates ATK and MAT.
+Desc: A pouch of gold coins that melt when touched. Doubles gold drops, but completely eliminates ATK and MAT.
 Type: General Armour
 Price: 8000
 HP: 0
@@ -1152,30 +1150,30 @@ Attack: 0
 Defence: 0
 Magical Attack: 0
 Magical Defence: 0
-Agility: 50
+Agility: 75
 Luck: 0
 Features and Traits: [["ExParam: ", "CRI", "-10%"]]
 ---
 Id 85: Useless Mirror
-Desc: A mirror that only shows the reflection when you  can't see it. Can deflect magic, but decreases TGR.
+Desc: A mirror that only shows the reflection when you  can't see it. Can deflect magic, but massively decreases TGR.
 Type: General Armour
-Price: 4670
+Price: 6700
 HP: 0
 MP: 0
 Attack: 0
 Defence: 0
 Magical Attack: 0
-Magical Defence: 3
+Magical Defence: 12
 Agility: 0
 Luck: 0
-Features and Traits: [["SpParam: ", "MDR", "x0.75"], ["SpParam: ", "TGR", "x0.25"]]
+Features and Traits: [["ExParam: ", "MRF", "25%"], ["SpParam: ", "TGR", "x0.25"]]
 ---
 Id 86: Puzzle Piece
-Desc: One part of a jigsaw that consists of two pieces. Massively decreases MP costs, but you lose MP passively.
+Desc: One part of a jigsaw that consists of two pieces. Halves MP costs, but you lose MP passively.
 Type: General Armour
 Price: 3940
 HP: 0
-MP: 0
+MP: 10
 Attack: 0
 Defence: 0
 Magical Attack: 0
@@ -1193,7 +1191,7 @@ MP: 0
 Attack: 0
 Defence: 0
 Magical Attack: 0
-Magical Defence: -50
+Magical Defence: -35
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "15%"]]
@@ -1221,7 +1219,7 @@ MP: 0
 Attack: 0
 Defence: 0
 Magical Attack: 0
-Magical Defence: 2
+Magical Defence: 5
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "-10%"], ["Element Rate: ", "Ice", "15%"], ["State Resist: ", "Freezing"]]
@@ -1239,7 +1237,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["ExParam: ", "HIT", "-30%"]]
+Features and Traits: [["ExParam: ", "HIT", "-15%"]]
 ---
 Id 91: Lockless Key
 Desc: A copper key that doesn't open anything. Increases LUK by loads but increases your TGR.
@@ -1253,12 +1251,12 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 100
-Features and Traits: [["SpParam: ", "TGR", "x1.2"]]
+Features and Traits: [["SpParam: ", "TGR", "x1.3"]]
 ---
 Id 92: Soul in a Jar
-Desc: A soul was trapped in this jar and seems annoyed. Increases PR but decreases DEF and MDF by loads.
+Desc: A soul was trapped in this jar and seems annoyed. Passively increases PR but decreases DEF and MDF by loads.
 Type: General Armour
-Price: 40000
+Price: 20000
 HP: 0
 MP: 0
 Attack: 0
@@ -1284,7 +1282,7 @@ Luck: 2
 Features and Traits: [["SpParam: ", "MCR", "x1.3"], ["SpParam: ", "TGR", "x0.45"]]
 ---
 Id 94: A Really Cool Hat
-Desc: A really cool hat. Increases LUK by a tonne, but your resistance to ailments is greatly reduced.
+Desc: A really cool hat. Increases LUK immensly, but your resistance to ailments is greatly reduced.
 Type: General Armour
 Price: 7500
 HP: 0
@@ -1295,24 +1293,10 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 200
-Features and Traits: [["State Rate: ", "Poison", "150%"], ["State Rate: ", "Blind", "150%"], ["State Rate: ", "Silence", "150%"], ["State Rate: ", "Confusion", "150%"], ["State Rate: ", "Sleep", "150%"], ["State Rate: ", "Paralysis", "150%"], ["State Rate: ", "Stun", "150%"], ["State Rate: ", "Freezing", "150%"], ["State Rate: ", "Knocked Over", "150%"], ["State Rate: ", "Headache", "150%"], ["State Rate: ", "Burn", "150%"], ["State Rate: ", "Fear", "150%"], ["State Rate: ", "Bleeding", "150%"], ["State Rate: ", "Pinned Down", "150%"], ["State Rate: ", "Hallucinating", "150%"], ["State Rate: ", "Net", "150%"], ["State Rate: ", "Savage", "150%"], ["State Rate: ", "Hopeless", "150%"], ["State Rate: ", "Buttered", "150%"], ["State Rate: ", "Marked", "150%"], ["State Rate: ", "Thunderstorm", "150%"], ["State Rate: ", "Void Scar", "150%"], ["State Rate: ", "Acid Damage", "150%"], ["State Rate: ", "Wet", "150%"], ["State Rate: ", "Drowning", "150%"], ["State Rate: ", "Oozed", "150%"], ["State Rate: ", "Constricted", "150%"], ["State Rate: ", "Plagued", "150%"], ["State Rate: ", "Stats Eroded", "150%"]]
+Features and Traits: [["State Rate: ", "Poison", "150%"], ["State Rate: ", "Blind", "150%"], ["State Rate: ", "Silence", "150%"], ["State Rate: ", "Confusion", "150%"], ["State Rate: ", "Sleep", "150%"], ["State Rate: ", "Paralysis", "150%"], ["State Rate: ", "Stun", "150%"], ["State Rate: ", "Freezing", "150%"], ["State Rate: ", "Knocked Over", "150%"], ["State Rate: ", "Headache", "150%"], ["State Rate: ", "Burn", "150%"], ["State Rate: ", "Fear", "150%"], ["State Rate: ", "Bleeding", "150%"], ["State Rate: ", "Pinned Down", "150%"], ["State Rate: ", "Hallucinating", "150%"], ["State Rate: ", "Curse of the Sinbearer", "150%"], ["State Rate: ", "Savage", "150%"], ["State Rate: ", "Hopeless", "150%"], ["State Rate: ", "Buttered", "150%"], ["State Rate: ", "Marked", "150%"], ["State Rate: ", "Thunderstorm", "150%"], ["State Rate: ", "Void Scar", "150%"], ["State Rate: ", "Acid Damage", "150%"], ["State Rate: ", "Wet", "150%"], ["State Rate: ", "Drowning", "150%"], ["State Rate: ", "Oozed", "150%"], ["State Rate: ", "Constricted", "150%"], ["State Rate: ", "Plagued", "150%"], ["State Rate: ", "Stats Eroded", "150%"], ["State Rate: ", "Hexed", "150%"], ["State Rate: ", "Weakening Field", "150%"], ["State Rate: ", "Oozed", "150%"]]
 ---
-Id 95: Anti-Anti-Venom
-Desc: Negates the effects of an ingested anti-venom. Gives Poison immunity, but your lose HP passively.
-Type: General Armour
-Price: 1230
-HP: 0
-MP: 0
-Attack: 0
-Defence: 0
-Magical Attack: 0
-Magical Defence: 2
-Agility: 0
-Luck: 0
-Features and Traits: [["ExParam: ", "HRG", "-5%"], ["State Resist: ", "Poison"]]
----
-Id 96: McDonalds
-Desc: A paper bag full of greasy fast food. Gives passive HP regeneration, but decreases MHP.
+Id 96: Fast Food
+Desc: A paper bag full of cheap and greasy food. Gives passive HP regeneration, but decreases MHP.
 Type: General Armour
 Price: 2430
 HP: -450
@@ -1330,7 +1314,7 @@ Desc: A clover with no leaves. Decreases your LUK, but increases your MMP.
 Type: General Armour
 Price: 2640
 HP: 0
-MP: 50
+MP: 60
 Attack: 0
 Defence: 0
 Magical Attack: 0
@@ -1339,7 +1323,7 @@ Agility: 0
 Luck: -50
 ---
 Id 98: Gift Box
-Desc: A present labled for a "Dave". Doubles item drops from monsters, but you take more Critical Hits.
+Desc: A present labled for a "Dave". Doubles item drops from monsters, but you take far more Critical Hits.
 Type: General Armour
 Price: 5980
 HP: 0
@@ -1349,8 +1333,8 @@ Defence: 0
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
-Luck: 2
-Features and Traits: [["Party Ability: ", "Double Drop Item Chance"], ["ExParam: ", "CEV", "-15%"]]
+Luck: 10
+Features and Traits: [["Party Ability: ", "Double Drop Item Chance"]]
 ---
 Id 99: Loose Belt
 Desc: A belt that is always *just* too loose no matter how much you tighten it. Decreases DEF, but gives ATK.
@@ -1492,7 +1476,7 @@ Luck: 0
 Features and Traits: [["Element Rate: ", "Earth", "15%"], ["State Resist: ", "Stun"]]
 ---
 Id 109: Soul Orb
-Desc: An orb that creates a mystical barrier to protect your Soul. Increases Soul resistance and gives immunity to instant Death attacks, but lowers PR.
+Desc: \}An orb that creates an invisible barrier to protect your Soul. Increases Soul resistance and gives immunity to instant Death attacks, but lowers PR.
 Type: General Armour
 Price: 6000
 HP: 0
@@ -1506,7 +1490,7 @@ Luck: 0
 Features and Traits: [["Element Rate: ", "Soul", "15%"], ["ExParam: ", "TRG", "-5%"], ["State Rate: ", "Death", "0%"]]
 ---
 Id 110: Wind Warder
-Desc: A charm that seems to weaken even the strongest winds. Gives resistance to Wind, but decreases CRT.
+Desc: A charm that seems to weaken even the strongest winds. Gives resistance to Wind, but decreases CRI.
 Type: General Armour
 Price: 1800
 HP: 0
@@ -1534,13 +1518,13 @@ Luck: -50
 Features and Traits: [["Element Rate: ", "Dark", "15%"], ["State Resist: ", "Fear"]]
 ---
 Id 112: Definitely a Sponge
-Desc: A sponge that looks, smells, and tastes like cheese. Gives Water resistance, but decreases PHA a lot.
+Desc: A sponge that looks, smells, and tastes like cheese. Gives Water resistance, but halves PHA.
 Type: General Armour
 Price: 1800
 HP: 0
 MP: 0
 Attack: 0
-Defence: 2
+Defence: 4
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
@@ -1548,7 +1532,7 @@ Luck: 0
 Features and Traits: [["Element Rate: ", "Water", "15%"], ["SpParam: ", "PHA", "x0.5"], ["State Resist: ", "Wet"]]
 ---
 Id 113: Blunthead Arrows
-Desc: A blunt arrowhead, can stun targets.
+Desc: A blunt arrowhead that can Stun targets on impact.
 Type: Bow Attachments
 Price: 245
 HP: 0
@@ -1563,7 +1547,7 @@ Features and Traits: [["Atk State: ", "Stun", "10%"]]
 Ingredients: [["Wood", 1]]
 ---
 Id 114: Fishhead Arrows
-Desc: A barbed arrowhead used for fishing. Can bleed targets.
+Desc: A barbed arrowhead used for fishing. Can Bleed targets.
 Type: Bow Attachments
 Price: 400
 HP: 0
@@ -1578,7 +1562,7 @@ Features and Traits: [["Atk State: ", "Bleeding", "5%"]]
 Ingredients: [["Wood", 1], ["Blunthead Arrows", 1]]
 ---
 Id 115: Crescent Arrows
-Desc: Crescent-shaped arrows used to instantly decapitate birds. Higher chance to bleed than fishheads.
+Desc: Crescent-shaped arrows used to instantly decapitate birds. Higher chance to Bleed than fishheads.
 Type: Bow Attachments
 Price: 730
 HP: 0
@@ -1593,7 +1577,7 @@ Features and Traits: [["Atk State: ", "Bleeding", "10%"]]
 Ingredients: [["Wood", 1], ["Iron Ore", 1], ["Fishhead Arrows", 1]]
 ---
 Id 116: Broadhead Arrows
-Desc: A very wide and sharp arrowhead used for big game hunting. Higher chance to bleed than crescent ones.
+Desc: A very wide and sharp arrowhead used for big game hunting. Higher chance to Bleed than crescent ones.
 Type: Bow Attachments
 Price: 1100
 HP: 0
@@ -1608,7 +1592,7 @@ Features and Traits: [["Atk State: ", "Bleeding", "15%"]]
 Ingredients: [["Wood", 2], ["Iron Ore", 2], ["Crescent Arrows", 1]]
 ---
 Id 117: Serrated Broadhead Arrows
-Desc: Broadhead arrows with serrated edges. Higher chance to bleed than general broadheads.
+Desc: Broadhead arrows with serrated edges. Higher chance to Bleed than general broadheads.
 Type: Bow Attachments
 Price: 1500
 HP: 0
@@ -1623,7 +1607,7 @@ Features and Traits: [["Atk State: ", "Bleeding", "20%"]]
 Ingredients: [["Wood", 2], ["Silver Ore", 2], ["Broadhead Arrows", 2]]
 ---
 Id 118: Hooked Arrows
-Desc: Broadheads with bladed hooks that are incredibly deadly. Very high chance to bleed targets.
+Desc: Broadheads with bladed hooks that are incredibly deadly. Very high chance to Bleed targets.
 Type: Bow Attachments
 Price: 2000
 HP: 0
@@ -1638,7 +1622,7 @@ Features and Traits: [["Atk State: ", "Bleeding", "25%"]]
 Ingredients: [["Wood", 3], ["Silver Ore", 5], ["Serrated Broadhead Arrows", 2]]
 ---
 Id 119: Poison-tipped Arrows
-Desc: Fieldhead arrows dipped in hornet venom. Can poison targets.
+Desc: Fieldhead arrows dipped in hornet venom. Can Poison targets.
 Type: Bow Attachments
 Price: 475
 HP: 0
@@ -1653,7 +1637,7 @@ Features and Traits: [["Atk State: ", "Poison", "10%"]]
 Ingredients: [["Blunthead Arrows", 1], ["Hornet Venom", 2]]
 ---
 Id 120: Flaming Arrows
-Desc: Magic arrows that set themselves alight when released. Can burn targets.
+Desc: Magic arrows that set themselves alight when released. Can Burn targets.
 Type: Bow Attachments
 Price: 480
 HP: 0
@@ -1681,7 +1665,7 @@ Luck: 0
 Features and Traits: [["ExParam: ", "MRG", "10%"]]
 ---
 Id 122: Tranquilizer Arrows
-Desc: Arrows tipped with a strange liquid that can put targets to sleep.
+Desc: Arrows tipped with a strange liquid that can put targets to Sleep.
 Type: Bow Attachments
 Price: 560
 HP: 0
@@ -1694,22 +1678,8 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk State: ", "Sleep", "25%"]]
 ---
-Id 123: Net-Launcher Arrows
-Desc: A perculiar arrow that releases a large net after firing. Can slow down targets.
-Type: Bow Attachments
-Price: 340
-HP: 0
-MP: 0
-Attack: 3
-Defence: 0
-Magical Attack: 0
-Magical Defence: 0
-Agility: 0
-Luck: 0
-Features and Traits: [["Atk State: ", "Net", "50%"]]
----
 Id 124: Exploding Arrows
-Desc: An arrow that explodes on impact. Chance to burn and gives the Explosive Arrow skill.
+Desc: An arrow that explodes on impact. Chance to Burn and increased HIT.
 Type: Bow Attachments
 Price: 930
 HP: 0
@@ -1720,10 +1690,10 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["Gain Skill: ", "Explosive Arrow"], ["Atk State: ", "Burn", "15%"], ["ExParam: ", "HIT", "10%"]]
+Features and Traits: [["Atk State: ", "Burn", "15%"], ["ExParam: ", "HIT", "10%"]]
 ---
 Id 125: Talbrian Arrows
-Desc: \}A hallmark of Talbrian history and expertise, this arrow is among the most precise and powerful to date. Slightly increases crit chance.
+Desc: \}A hallmark of Talbrian history and expertise, this arrow is among the most precise and powerful to date. Slightly increases CRI.
 Type: Bow Attachments
 Price: 1780
 HP: 0
@@ -1737,7 +1707,7 @@ Luck: 0
 Features and Traits: [["ExParam: ", "CRI", "3%"]]
 ---
 Id 126: Raxorium Arrows
-Desc: \}Arrows with Raxorium serrated broadheads that annihilate anything in its path. High chance to bleed and can instantly kill.
+Desc: \}Arrows with Raxorium serrated broadheads that annihilate anything in its path. High chance to Bleed and can instantly kill.
 Type: Bow Attachments
 Price: 0
 HP: 0
@@ -1751,7 +1721,7 @@ Luck: 0
 Features and Traits: [["Atk State: ", "Bleeding", "30%"], ["Atk State: ", "Death", "5%"]]
 ---
 Id 127: Flare Arrows
-Desc: \}Flaming arrow variant tipped with magnesium that burns blindingly bright. High chance to blind targets and can still burn.
+Desc: \}Flaming arrow variant tipped with magnesium that burns blindingly bright. High chance to Blind targets and can still Burn.
 Type: Bow Attachments
 Price: 1950
 HP: 0
@@ -2004,7 +1974,7 @@ Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "7%"], ["SpParam: ", "REC", "x2.0"], ["ExParam: ", "CEV", "5%"], ["Atk Speed: ", -2], ["Gain Skill: ", "Shield Charge"]]
 ---
 Id 145: Invisibility Cloak
-Desc: \}It doesn't make you invisible or anything, \{it\} is invisible. It slightly reduces your EVA for MDF and MMP.
+Desc: A cloak that's, well, invisible. It slightly reduces your EVA for MDF and MMP.
 Type: Magic Armour
 Price: 6100
 HP: 0
@@ -2090,7 +2060,7 @@ Luck: 0
 Features and Traits: [["Atk Element: ", "Fire"], ["Atk Element: ", "Dark"], ["Atk State: ", "Fear", "10%"], ["+Action Chance: ", "50%"], ["State Resist: ", "Fear"]]
 ---
 Id 151: Dave's Cloak
-Desc: The well-loved cloak of the well-loved Davonius Alricke.
+Desc: The well-loved travel cloak of the well-loved Davonius Alricke.
 Type: Unique
 Price: 0
 HP: 200
@@ -2304,13 +2274,13 @@ Dropped By: [["Vezran", "100%"]]
 Id 166: Supreme Templar's Armour
 Desc: The armour worn falsely by the Diabolous. The greatest armour the Templars can offer. 
 Type: Light Armour
-Price: 38000
+Price: 28000
 HP: 0
-MP: 0
+MP: 50
 Attack: 0
 Defence: 58
 Magical Attack: 0
-Magical Defence: 30
+Magical Defence: 40
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "HRG", "10%"], ["ExParam: ", "EVA", "5%"]]
@@ -2424,9 +2394,9 @@ Price: 11000
 HP: 0
 MP: 0
 Attack: 0
-Defence: 19
+Defence: 23
 Magical Attack: 0
-Magical Defence: 19
+Magical Defence: 23
 Agility: 0
 Luck: 0
 Features and Traits: [["SpParam: ", "PHA", "x1.5"]]
@@ -2522,7 +2492,7 @@ Magical Defence: 64
 Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Fire", "50%"], ["Element Rate: ", "Light", "50%"], ["State Resist: ", "Blind"], ["State Resist: ", "Burn"]]
-Ingredients: [["Elemental Cloak", 1], ["Templar's Ashes", 1], ["Sun Candle", 2], ["Burning Oitment", 1]]
+Ingredients: [["Elemental Cloak", 1], ["Templar's Ashes", 1], ["Sun Candle", 2], ["Burning Ointment", 1]]
 ---
 Id 181: Thundershock Stormguard
 Desc: Mighty armour that absorbs incoming Storm attacks.
@@ -2573,7 +2543,7 @@ Id 184: Emblem of Vigour
 Desc: Adds an exceptional amount of additional health to the wearer.
 Type: General Armour
 Price: 25000
-HP: 800
+HP: 1200
 MP: 0
 Attack: 0
 Defence: 0
@@ -2582,18 +2552,35 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 ---
-Id 185: Solid Oak Headgear
-Desc: \}Sturdy helmet that can protect your noggin. "Crikey, that's expensive!", I hear you say. Don't worry, it's premium oak.
-Type: General Armour
-Price: 8700
-HP: 0
+Id 185: Dark Ooze Bodygear
+Desc: \}A suit of armour made with incorporating black pus into steel. At the end of every round, regain half of the damage you lost. Also gives 5% HRG regardless.
+Type: Light Armour
+Price: 17000
+HP: 200
 MP: 0
 Attack: 0
-Defence: 20
+Defence: 42
 Magical Attack: 0
-Magical Defence: 0
+Magical Defence: 51
 Agility: 0
 Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "3%"], ["State Resist: ", "Dark Oozed"], ["State Rate: ", "Poison", "50%"], ["State Rate: ", "Plagued", "75%"], ["ExParam: ", "HRG", "5%"]]
+Dropped By: [["Stygian Ichor", "6%"]]
+---
+Id 186: Blightsludge Husk
+Desc: \}A heavy suit of armour inbued with a writhing mass of black pus. Retains the same healing properties, but with a higher base 10% HRG.
+Type: Heavy Armour
+Price: 28000
+HP: 500
+MP: 0
+Attack: 0
+Defence: 78
+Magical Attack: 0
+Magical Defence: 82
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "-4%"], ["Atk Speed: ", -3], ["State Resist: ", "Dark Oozed"], ["ExParam: ", "HRG", "10%"], ["State Resist: ", "Poison"], ["State Rate: ", "Plagued", "50%"]]
+Ingredients: [["Dark Ooze Bodygear", 1], ["Abbysal Fluid", 3], ["Oil of Ill-Intent", 1], ["Root Boots", 1], ["Exemplary MHP Paragon", 1]]
 ---
 Id 187: Sabre-tooth Necklace
 Desc: This necklace bears the large tooth of a by-gone creature. Slightly increases the PR gain when taking damage.
@@ -2607,7 +2594,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["SpParam: ", "TCR", "x1.1"]]
+Features and Traits: [["SpParam: ", "TCR", "x1.15"]]
 ---
 Id 188: Eye of the Storm
 Desc: A ring that heavily accentuates the magical power of its wearer. Slightly reduces MP costs.
@@ -2706,7 +2693,7 @@ MP: 0
 Attack: 0
 Defence: 0
 Magical Attack: 0
-Magical Defence: 3
+Magical Defence: 6
 Agility: 0
 Luck: 0
 Features and Traits: [["SpParam: ", "TCR", "x1.5"], ["SpParam: ", "TGR", "x0.25"]]
@@ -2819,7 +2806,7 @@ Price: 12000
 HP: 0
 MP: 0
 Attack: 0
-Defence: 26
+Defence: 32
 Magical Attack: 0
 Magical Defence: 0
 Agility: 50
@@ -2850,8 +2837,8 @@ HP: 0
 MP: 0
 Attack: 0
 Defence: 17
-Magical Attack: 12
-Magical Defence: 41
+Magical Attack: 0
+Magical Defence: 51
 Agility: 0
 Luck: 0
 Ingredients: [["Iron Plate", 1], ["Wind Warder", 2], ["Wind's Wing", 1]]
@@ -2868,11 +2855,11 @@ Magical Attack: 18
 Magical Defence: 59
 Agility: 0
 Luck: 0
-Features and Traits: [["Element Rate: ", "Ice", "125%"], ["Element Rate: ", "Storm", "125%"], ["Element Rate: ", "Water", "50%"], ["Element Rate: ", "Earth", "50%"]]
+Features and Traits: [["Element Rate: ", "Ice", "110%"], ["Element Rate: ", "Storm", "110%"], ["Element Rate: ", "Water", "50%"], ["Element Rate: ", "Earth", "50%"]]
 Ingredients: [["Wet Wrap", 1], ["Tears of Cedarus", 1], ["Fresh Water", 5], ["Tsunami Paragon D", 1]]
 ---
 Id 206: Oceanic Master's Aegis
-Desc: A suit of armour that no wielder of water can do without. Grants the Erosion and Drowning Prison skills.
+Desc: A suit of armour that no wielder of water can do without. Increases AGI by 15%.
 Type: Heavy Armour
 Price: 18000
 HP: 0
@@ -2883,11 +2870,11 @@ Magical Attack: 21
 Magical Defence: 21
 Agility: 0
 Luck: 0
-Features and Traits: [["ExParam: ", "EVA", "-3%"], ["Atk Speed: ", -3]]
+Features and Traits: [["ExParam: ", "EVA", "-2%"], ["Atk Speed: ", -2], ["Parameter: ", "AGI", "114%"]]
 Ingredients: [["Hypersteel Plate", 1], ["Tears of Cedarus", 2], ["Conch Shell", 4], ["Shark Tooth", 2]]
 ---
 Id 207: Torrential Vanguard
-Desc: A helmet that grants it's wearer mild control over surrounding water. Grants the Shifting Tides skill.
+Desc: A helmet that grants it's wearer mild control over surrounding water.
 Type: General Armour
 Price: 12500
 HP: 0
@@ -4584,9 +4571,9 @@ Price: 0
 HP: 0
 MP: 0
 Attack: 0
-Defence: 100
+Defence: 110
 Magical Attack: 0
-Magical Defence: 100
+Magical Defence: 90
 Agility: 0
 Luck: 0
 Features and Traits: [["SpParam: ", "TCR", "x2.0"]]
@@ -4599,9 +4586,9 @@ Price: 0
 HP: 0
 MP: 0
 Attack: 0
-Defence: 40
-Magical Attack: 50
-Magical Defence: 85
+Defence: 45
+Magical Attack: 30
+Magical Defence: 125
 Agility: 0
 Luck: 0
 Features and Traits: [["SpParam: ", "TCR", "x2.0"]]
@@ -4659,9 +4646,9 @@ Price: 0
 HP: 0
 MP: 0
 Attack: 0
-Defence: 30
+Defence: 35
 Magical Attack: 0
-Magical Defence: 30
+Magical Defence: 35
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "CNT", "25%"]]
@@ -4963,8 +4950,8 @@ Luck: 0
 Ingredients: [["Hallowed Battlegear", 1], ["Mirror Shield", 1], ["Holy Symbol", 1], ["Raxorium Ore", 1], ["Hypersteel", 2]]
 Dropped By: [["Sage of the Bones", "6%"]]
 ---
-Id 352: Wardstone of Transmutation
-Desc: A thick stone slab chiseled with ineffable ramblings. Though, it seems to be able to invert incoming buffs and debuffs - from both friend and foe.
+Id 352: Reverstone of Transmutation
+Desc: \}A thick stone slab chiseled with ineffable ramblings. Though, it seems to be able to invert incoming buffs and debuffs - from both friend and foe.
 Type: General Armour
 Price: 9500
 HP: 0
@@ -4975,4 +4962,91 @@ Magical Attack: 0
 Magical Defence: 13
 Agility: 0
 Luck: 0
+---
+Id 353: Reverstone of Vitality
+Desc: A thick stone slab chiseled with ineffable ramblings. Though, it seems to be able to invert HP Regeneration.
+Type: General Armour
+Price: 9500
+HP: 200
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 354: Riskmaster's Coin
+Desc: Gamble with the Natural Flow itself. At the start of combat, you will be given TWO random states. Do you feel LUCKY?
+Type: General Armour
+Price: 12000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 50
+Ingredients: [["Riskmaker's Coin", 1], ["Silver Ore", 2], ["Liquid Gold", 1], ["Luck Up", 2]]
+---
+Id 355: Raiment of the Sunborn
+Desc: \}A resplendent raiment that channels the golden light of a glorious star, wrapping its wearer in an unyielding sense of self. Grants immunity to Light and Fire but a mild weakness to Dark and Water.
+Type: Magic Armour
+Price: 32000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 54
+Magical Attack: 15
+Magical Defence: 131
+Agility: 0
+Luck: 0
+Features and Traits: [["Element Rate: ", "Fire", "0%"], ["Element Rate: ", "Light", "0%"], ["State Resist: ", "Blind"], ["State Resist: ", "Burn"], ["Element Rate: ", "Water", "110%"], ["Element Rate: ", "Dark", "110%"]]
+Ingredients: [["Solar Majesty's Regalia", 1], ["Templar's Ashes", 2], ["Crystalised Flame", 2], ["Sun Candle", 3], ["Exemplary Hellfire Paragon O", 1]]
+---
+Id 356: Resplendant Seraph
+Desc: \}Even in the darkest times, the light of a loyal ally shines through. Gain the Seraph's Resplendence skill.
+Type: Light Armour
+Price: 20000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 41
+Magical Attack: 26
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Gain Skill: ", "Seraph's Resplendence"]]
+Ingredients: [["Radiant Sentinel", 1], ["Templar's Ashes", 1], ["Talisman of Light", 1], ["Hypersteel", 1], ["Flare Feather", 2]]
+---
+Id 357: Shimmerveil Shroud
+Desc: \}A sparkling cloak that glistens beautifully, even in the dark. Greatly increases EVA and some MEV.
+Type: Magic Armour
+Price: 18500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 26
+Magical Attack: 20
+Magical Defence: 48
+Agility: 70
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "16%"], ["ExParam: ", "MEV", "5%"]]
+Ingredients: [["Aurora Cloak", 1], ["Unmelting Ice", 2], ["Winter's Heart", 2], ["Spirit Essence", 4], ["Bottled Song", 1]]
+---
+Id 358: Consciousness Manipulator
+Desc: \}A crown that sets its wearer into a deep trance to control and act with a mind of its own. Stat boost is much greater and you get an additional action.
+Type: General Armour
+Price: 30000
+HP: 100
+MP: 50
+Attack: 80
+Defence: 80
+Magical Attack: 80
+Magical Defence: 80
+Agility: 80
+Luck: 80
+Features and Traits: [["+Action Chance: ", "100%"]]
+Ingredients: [["Mind-Control Brace", 1], ["Hypersteel", 1], ["Liquid Gold", 1], ["Rialite", 2], ["Ghostfruit", 3]]
 ---

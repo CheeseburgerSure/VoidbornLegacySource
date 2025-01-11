@@ -241,7 +241,7 @@ Magical Attack: 32
 Magical Defence: 10
 Agility: 38
 Luck: 35
-Experience: 60
+Experience: 90
 Gold: 0
 Loot: [["Oil of Ill-Intent", "8%"]]
 ---
@@ -592,7 +592,7 @@ Magical Attack: 50
 Magical Defence: 70
 Agility: 60
 Luck: 40
-Experience: 150
+Experience: 225
 Gold: 0
 Loot: [["Oil of Ill-Intent", "10%"]]
 ---
@@ -852,7 +852,7 @@ Magical Attack: 80
 Magical Defence: 79
 Agility: 30
 Luck: 50
-Experience: 1500
+Experience: 1750
 Gold: 0
 Loot: [["Abbysal Fluid", "100%"]]
 ---
@@ -881,6 +881,84 @@ Luck: 140
 Experience: 1128
 Gold: 2400
 Loot: [["Ancient Insignia", "4%"], ["Liquid Gold", "3%"]]
+---
+Id 86: Black Pus
+HP: 2000
+MP: 0
+Attack: 140
+Defence: 235
+Magical Attack: 20
+Magical Defence: 260
+Agility: 130
+Luck: 15
+Experience: 406
+Gold: 451
+Loot: [["Slimedrop", "33%"], ["Abbysal Fluid", "7%"]]
+---
+Id 87: Sickening Ooze
+HP: 4500
+MP: 0
+Attack: 195
+Defence: 300
+Magical Attack: 30
+Magical Defence: 345
+Agility: 170
+Luck: 50
+Experience: 920
+Gold: 1107
+Loot: [["Slimedrop", "50%"], ["Abbysal Fluid", "8%"]]
+---
+Id 88: Stygian Ichor
+HP: 7000
+MP: 0
+Attack: 260
+Defence: 390
+Magical Attack: 40
+Magical Defence: 425
+Agility: 210
+Luck: 150
+Experience: 1460
+Gold: 1611
+Loot: [["Dark Ooze Bodygear", "6%"], ["Abbysal Fluid", "13%"], ["Soul Vigour Vial", "5%"]]
+---
+Id 89: Stallion of War
+HP: 6000
+MP: 800
+Attack: 156
+Defence: 132
+Magical Attack: 133
+Magical Defence: 121
+Agility: 165
+Luck: 115
+Experience: 623
+Gold: 690
+Loot: [["Hypersteel Halberd", "7%"], ["Sage's Water", "8%"]]
+---
+Id 90: Stallion of Famine
+HP: 6000
+MP: 800
+Attack: 156
+Defence: 132
+Magical Attack: 133
+Magical Defence: 121
+Agility: 165
+Luck: 115
+Experience: 623
+Gold: 690
+Loot: [["Ghostfruit", "7%"], ["Sage's Water", "8%"]]
+---
+Id 91: Stallion of Death
+HP: 6000
+MP: 800
+Attack: 156
+Defence: 132
+Magical Attack: 133
+Magical Defence: 121
+Agility: 165
+Luck: 115
+Experience: 623
+Gold: 690
+Loot: [["Freezing Scythe", "7%"], ["Sage's Water", "8%"]]
 ---
 Id 105: Contorted Amalgamation
 HP: 6800
@@ -1151,7 +1229,7 @@ Magical Attack: 105
 Magical Defence: 125
 Agility: 90
 Luck: 100
-Experience: 210
+Experience: 305
 Gold: 0
 Loot: [["Oil of Ill-Intent", "13%"]]
 ---
