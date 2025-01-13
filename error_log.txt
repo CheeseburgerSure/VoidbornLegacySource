@@ -1,10 +1,5 @@
-Game_Interpreter:1411:in `eval': undefined method `name' for nil:NilClass, NoMethodError
-	from Randoweisser:335:in `each'
-	from Randoweisser:335:in `compare_parties'
-	from Randoweisser:301:in `restore_party'
-	from (eval):1:in `command_355'
-	from Game_Interpreter:1411:in `eval'
-	from Game_Interpreter:1411:in `command_355'
+Game_Interpreter:1044:in `play_movie': No such file or directory - Movies/correct_Answer, Errno::ENOENT
+	from Game_Interpreter:1044:in `command_261'
 	from Game_Interpreter:197:in `execute_command'
 	from Game_Interpreter:103:in `run'
 	from Game_Interpreter:60:in `block in create_fiber'
