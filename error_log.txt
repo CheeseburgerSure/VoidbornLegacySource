@@ -1,10 +1,6 @@
-Game_Interpreter:1411:in `eval': undefined method `exist?' for nil:NilClass, NoMethodError
-	from Game_Party:75:in `select'
-	from Game_Party:75:in `battle_members'
-	from Game_Player:48:in `actor'
-	from Game_Player:40:in `refresh'
-	from Game_Party:182:in `add_actor'
-	from (eval):1:in `command_355'
+Game_Interpreter:1411:in `eval': wrong number of arguments (1 for 0), ArgumentError
+	from (eval):4:in `each'
+	from (eval):4:in `command_355'
 	from Game_Interpreter:1411:in `eval'
 	from Game_Interpreter:1411:in `command_355'
 	from Game_Interpreter:197:in `execute_command'
