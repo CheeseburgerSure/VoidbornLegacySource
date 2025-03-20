@@ -1,7 +1,7 @@
-Game_Interpreter:1411:in `eval': There is no entry under the name of 'Xaver', NameError
-	from (eval):1:in `command_355'
-	from Game_Interpreter:1411:in `eval'
-	from Game_Interpreter:1411:in `command_355'
-	from Game_Interpreter:197:in `execute_command'
-	from Game_Interpreter:103:in `run'
-	from Game_Interpreter:60:in `block in create_fiber'
+Bots Notes Menus:505:in `contents_opacity': disposed window, RGSSError
+	from Bots Notes Menus:505:in `bot_update'
+	from Bots Notes Menus:498:in `update'
+	from Scene_Base:14:in `main'
+	from SceneManager:23:in `run'
+	from Mapshot:986:in `run'
+	from Main:10:in `block in <main>'
