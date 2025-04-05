@@ -156,7 +156,7 @@ Id 20: Vilebrand Fauchard Attack
 Desc: \}Damages the enemy, ignoring their DEF. Additional multiplier based on amount of current Curses.
 Skill Class: None
 Skill Type: HP Damage
-Formula: a.atk * 3.5 * (a.vilebrand + 1)
+Formula: a.atk * 3.5 * a.vilebrand
 Variance: 15
 Critical: true
 Scope: One Enemy
@@ -911,7 +911,7 @@ Scope: One Enemy
 Effects and Traits: [["Add State: ", "Silence", "50%"]]
 ---
 Id 96: Drought
-Desc: While Drought is active, the user resists Water attacks and gains increase ATK and MAT.
+Desc: While Drought is active, the user resists Water attacks and gains increased ATK and MAT.
 Skill Class: Magic
 Cost: 50MP
 Scope: The User
@@ -1336,6 +1336,13 @@ Critical: true
 Scope: 2 Random Enemies
 Effects and Traits: [["Add State: ", "Burn", "15%"]]
 ---
+Id 144: Precision
+Desc: Using your practised shot, raise your LUK and CRI for a short time.
+Skill Class: Abilites
+Cost: 15PR
+Scope: The User
+Effects and Traits: [["Add State: ", "Precision", "100%"]]
+---
 Id 145: Light Beam
 Desc: Cast a beam of light towards a target.
 Skill Class: Magic
@@ -1669,6 +1676,16 @@ Variance: 20
 Critical: true
 Scope: One Enemy
 Effects and Traits: [["Add State: ", "Paralysis", "10%"]]
+---
+Id 179: Aftershock
+Desc: A devastating blow that, upon a critical hit, ripples through the battlefield, spreading the damage to all.
+Skill Class: Abilites
+Cost: 40PR
+Skill Type: HP Damage
+Formula: a.atk * 4 - b.def * 3 + a.luk
+Variance: 30
+Critical: true
+Scope: One Enemy
 ---
 Id 180: Ultimate Priming Surge
 Desc: Surge magic into an ally's Soul to attempt to accelerate reaching Primed forme.
@@ -2416,7 +2433,7 @@ Desc: Eat the remains of a fallen comrade.
 Skill Class: Abilites
 Cost: 20PR
 Skill Type: HP Damage
-Formula: a.hp += b.mhp; b.mhp
+Formula: p a.hp; a.hp += b.mhp; p a.hp; b.mhp
 Variance: 0
 Critical: false
 Scope: One Ally (Dead)
@@ -3040,7 +3057,7 @@ Id 346: Dragon Quake
 Desc: Attack
 Skill Class: Unique
 Skill Type: HP Damage
-Formula: (a.mat * 3 + a.atk * 3 - b.def) + 150
+Formula: (a.mat * 3 + a.atk * 3 - b.def) + 250
 Element: Earth
 Variance: 20
 Critical: false
@@ -3063,7 +3080,7 @@ Desc: \}Bring a fire so searing hot that it rips through anything in its path. W
 Skill Class: Magic
 Cost: 200MP
 Skill Type: HP Damage
-Formula: 4000 + a.mat
+Formula: 3000 + (a.mat * 2)
 Element: Fire
 Variance: 15
 Critical: false
@@ -3078,5 +3095,41 @@ Skill Type: HP Damage
 Formula: 750
 Variance: 75
 Critical: true
+Scope: One Enemy
+---
+Id 388: Opportunist’s Instinct
+Desc: \}For a short time, your team gains a buff upon a critical hit. Boost ATK and LUK when they inflict a crit or massively buff DEF and EVA if they receive one.
+Skill Class: Abilites
+Cost: 15PR
+Scope: All Allies
+Effects and Traits: [["Add State: ", "Opportunist's Instinct", "100%"]]
+---
+Id 389: Expert's Insight
+Desc: \}With a keen eye and honed instinct, you reveal the hidden flaws in every defense, allowing your allies to strike with precision. Raises CRI and all skills can crit.
+Skill Class: Abilites
+Cost: 50PR
+Scope: All Allies
+Effects and Traits: [["Add State: ", "Expert's Insight", "100%"]]
+---
+Id 390: The Best Offence
+Desc: Slam into your target with your entire bodyweight. If your DEF is over 300, the damage is doubled.
+Skill Class: Abilites
+Cost: 30PR
+Skill Type: HP Damage
+Formula: c=(a.atk*3)+a.def-(b.def*3); c*=2 if a.def>=300; c
+Variance: 25
+Critical: true
+Scope: One Enemy
+---
+Id 391: ((explode on death))
+Desc: A state so that enemies explode when killed for some
+extra damage, NOT burst on death from zombie
+Skill Class: Abilites
+Scope: One Enemy
+---
+Id 392: (MHP buff when heal)
+Desc: Gain a(n uncapped?) MHP buff when gaining health
+(not HRG). Not sure how useful this will be
+Skill Class: Abilites
 Scope: One Enemy
 ---

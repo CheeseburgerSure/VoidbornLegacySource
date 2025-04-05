@@ -777,15 +777,15 @@ Desc: The Energy of Avaking War Axe is the most powerful axe in existence.
 Type: Axe
 Price: 0
 HP: 0
-MP: 0
+MP: 50
 Attack: 160
 Defence: 0
 Magical Attack: 0
-Magical Defence: 50
+Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Soul"], ["ExParam: ", "HIT", "100%"], ["ExParam: ", "CRI", "20%"], ["Seal Equip: ", "Shield"]]
-Dropped By: [["William", "100%"]]
+Ingredients: [["Gigantes Axe", 1], ["Spectre's Regret", 1], ["Avaking Raxorium", 3], ["Avaking Essence", 1], ["Flow Conduit", 1], ["Artefact Shards", 2], ["Soul Vigour Vial", 1]]
 ---
 Id 56: Scourge of Maelsium
 Desc: The Scourge of Maelsium Death Scythe is the most powerful scythe in existence.
@@ -800,6 +800,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 50
 Features and Traits: [["Atk Element: ", "Dark"], ["ExParam: ", "HIT", "100%"], ["ExParam: ", "CRI", "20%"], ["Seal Equip: ", "Shield"], ["Attack Skill:", "Scythe Attack"]]
+Ingredients: [["Dread Scythe", 1], ["Vilebrand Fauchard", 1], ["Maelsium Raxorium", 3], ["Maelsium Essence", 1], ["Flow Conduit", 1], ["Artefact Shards", 2], ["Soul Vigour Vial", 1]]
 ---
 Id 57: Fury of Tempora
 Desc: The Fury of Tempora Storm Sceptre is the most powerful staff in existence
@@ -807,27 +808,29 @@ Type: Staff
 Price: 0
 HP: 0
 MP: 0
-Attack: 160
+Attack: 0
 Defence: 0
-Magical Attack: 0
+Magical Attack: 160
 Magical Defence: 0
 Agility: 50
 Luck: 0
 Features and Traits: [["ExParam: ", "HIT", "100%"], ["ExParam: ", "CRI", "20%"], ["Atk Element: ", "Air"], ["Atk Element: ", "Storm"], ["ExParam: ", "MRG", "25%"]]
+Ingredients: [["Revenant's Pact", 1], ["Lightning Fork", 1], ["Tempora Raxorium", 3], ["Tempora Essence", 1], ["Flow Conduit", 1], ["Artefact Shards", 2], ["Soul Vigour Vial", 1]]
 ---
 Id 58: Wake of Elazireth
 Desc: The Wake of Elazireth Aqua Spear is the most powerful spear in existence.
 Type: Spear
 Price: 0
 HP: 0
-MP: 50
+MP: 0
 Attack: 160
 Defence: 0
 Magical Attack: 0
-Magical Defence: 0
+Magical Defence: 50
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Water"], ["ExParam: ", "HIT", "100%"], ["ExParam: ", "CRI", "20%"], ["Atk Element: ", "Ice"], ["Attack Skill:", "Spear Attack"]]
+Ingredients: [["Beacon of Valour", 1], ["Cold Shoulder", 1], ["Elazireth Raxorium", 3], ["Elazireth Essence", 1], ["Flow Conduit", 1], ["Artefact Shards", 2], ["Soul Vigour Vial", 1]]
 ---
 Id 59: Blaze of Infermius
 Desc: The Blaze of Infermius Nova Flail is the most powerful flail in existence.
@@ -842,7 +845,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Fire"], ["ExParam: ", "HIT", "100%"], ["ExParam: ", "CRI", "20%"], ["ExParam: ", "CNT", "50%"], ["Seal Equip: ", "Shield"]]
-Dropped By: [["Harrison", "100%"]]
+Ingredients: [["Osmium Flail", 1], ["Ardent Raptor", 1], ["Infermius Raxorium", 3], ["Infermius Essence", 1], ["Flow Conduit", 1], ["Artefact Shards", 2], ["Soul Vigour Vial", 1]]
 ---
 Id 60: Might of Zysargia
 Desc: The Might of Zysargia Terra Hammer, the most powerful hammer in existence.
@@ -857,6 +860,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Earth"], ["Atk Element: ", "Nature"], ["Atk Element: ", "Unique"], ["ExParam: ", "HIT", "100%"], ["ExParam: ", "CRI", "20%"], ["Seal Equip: ", "Shield"], ["Atk State: ", "Stun", "30%"]]
+Ingredients: [["Boulder Bludgeoner", 1], ["Gnarled Smasher", 1], ["Zysargia Raxorium", 3], ["Zysargia Essence", 1], ["Flow Conduit", 1], ["Artefact Shards", 2], ["Soul Vigour Vial", 1]]
 ---
 Id 61: Sword of Retribution
 Desc: A sword gifted to Xavier to assist in the vengeance of his father's killer.
@@ -941,7 +945,8 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["Atk Element: ", "Light"], ["ExParam: ", "HIT", "100%"], ["ExParam: ", "CRI", "20%"], ["Seal Equip: ", "Shield"]]
+Features and Traits: [["Atk Element: ", "Light"], ["ExParam: ", "HIT", "100%"], ["ExParam: ", "CRI", "25%"], ["Seal Equip: ", "Shield"]]
+Ingredients: [["Soulspite Longbow", 1], ["Hammer of Justice", 1], ["Maelsium Raxorium", 3], ["Maelsium Essence", 1], ["Flow Conduit", 1], ["Artefact Shards", 2], ["Soul Vigour Vial", 1]]
 ---
 Id 67: Cram Sword
 Desc: Left out in the sun for a fortnight, now it is harder than steeeeel.
@@ -1624,7 +1629,7 @@ Luck: 0
 Features and Traits: [["Attack Skill:", "Spear Attack"]]
 ---
 Id 114: Precursor of Virtue
-Desc: \}A fauchard imbued with the essence of celestial virtue, its radiant blade cleanses the unworthy and shields the righteous. Gives the Absolution skill.
+Desc: \}A polearm imbued with the essence of celestial virtue, its radiant blade cleanses the unworthy and shields the righteous. Gives the Absolution skill.
 Type: Spear
 Price: 30000
 HP: 0
@@ -1639,7 +1644,7 @@ Features and Traits: [["Atk Element: ", "Light"], ["State Resist: ", "Curse of t
 Ingredients: [["Vilebrand Fauchard", 1], ["Templar's Ashes", 3], ["Blessed Abjugation", 1], ["Hypersteel", 1], ["Holy Symbol", 1]]
 ---
 Id 115: Harbinger of Sin
-Desc: \}A fauchard drenched in blight, said to carry the weight of every broken oath. It sears with unholy radiance, condemning the wielder. Just holding it makes you bear a curse.
+Desc: \}A polearm drenched in blight, said to carry the weight of every broken oath. It sears with unholy radiance, condemning the wielder. Just holding it makes you bear a curse.
 Type: Spear
 Price: 30000
 HP: 0
@@ -2120,7 +2125,7 @@ Features and Traits: [["Seal Equip: ", "Shield"], ["ExParam: ", "CRI", "25%"], [
 Id 148: Ardent Raptor
 Desc: A blazing bow, allegedly forged in the volcano, that engulfs your targets with searing flames.
 Type: Bow
-Price: 26000
+Price: 24000
 HP: 0
 MP: 0
 Attack: 79
@@ -2144,7 +2149,6 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Unique"], ["Atk Speed: ", -2], ["Attack Skill:", "Gnarled Smasher Attack"]]
-Dropped By: [["Zysargia", "100%"]]
 ---
 Id 150: Void's Eclipse
 Desc: \}A bow of the Void, capable of launching arrows of concentrated Void at ranges and speeds any human bow could only wish for. Doesn't restrict use of shields, and every attack will Hex the target.
@@ -2159,7 +2163,7 @@ Magical Defence: 0
 Agility: 10
 Luck: 25
 Features and Traits: [["Atk Element: ", "Soul"], ["ExParam: ", "CRI", "5%"], ["Atk Speed: ", 3], ["Atk State: ", "Hexed", "1000%"], ["Atk State: ", "Hexed", "1000%"]]
-Ingredients: [["Void's Eclipse", 1], ["Magic Repressor", 1], ["Raxorium Ore", 2], ["Void Residue", 3], ["Contaminated Conduit", 1]]
+Ingredients: [["Ardent Raptor", 1], ["Magic Repressor", 1], ["Raxorium Ore", 2], ["Void Residue", 3], ["Contaminated Conduit", 1]]
 ---
 Id 151: Heartpiercer
 Desc: A serrated knife that will always score a critical hit after evading an enemy's attack.
@@ -2176,7 +2180,7 @@ Luck: 10
 Features and Traits: [["ExParam: ", "EVA", "8%"], ["Can Dual Wield"], ["ExParam: ", "CRI", "3%"]]
 ---
 Id 152: Void Weaver's Loom
-Desc: \}A staff of the Void, bearing power akin to that of the Void Weavers. Based on your 
+Desc: \}A staff of the Void, akin to a Void Weaver. If you evade a magical attack, the damage it would have dealt charges your next spell.
 Type: Staff
 Price: 0
 HP: 0
@@ -2187,6 +2191,7 @@ Magical Attack: 130
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Features and Traits: [["ExParam: ", "MEV", "10%"]]
 Ingredients: [["Spirit Staff", 1], ["Magic Repressor", 1], ["Raxorium Ore", 2], ["Void Residue", 3], ["Contaminated Conduit", 1]]
 ---
 Id 153: Soulspite Longbow

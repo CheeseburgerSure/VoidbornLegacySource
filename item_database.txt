@@ -160,7 +160,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "5%", ""], ["Remove State: ", "Headache", "100%"]]
-Dropped By: [["Roots of Evil", "11%"]]
+Dropped By: [["Roots of Evil", "11%"], ["Throttleroot", "13%"]]
 ---
 Id 18: Apple Juice
 Desc: Some freshly squeezed apple juice from the famous orchards of Emwood. Recovers some HP.
@@ -231,7 +231,7 @@ Price: 50G
 Consume: No
 Scope: None
 Occasion: Never
-Dropped By: [["Wisp", "8%"], ["Weeping Wisp", "8%"], ["Guardian Spirit", "13%"], ["Volwrath", "100%"], ["Wailing Wisp", "8%"], ["Burning Spirit", "8%"], ["Forest Custodian", "13%"]]
+Dropped By: [["Wisp", "8%"], ["Weeping Wisp", "8%"], ["Guardian Spirit", "13%"], ["Volwrath", "100%"], ["Wailing Wisp", "8%"], ["Burning Spirit", "8%"], ["Forest Custodian", "13%"], ["Steward of the Mantle", "14%"]]
 ---
 Id 26: Slimedrop
 Desc: Collected residue from a Slime. Useful in Alchemy.
@@ -277,7 +277,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
-Dropped By: [["Mimic", "3%"], ["Devillish Mimic", "3%"], ["Abhorent Mimic", "4%"]]
+Dropped By: [["Mimic", "2%"], ["Devillish Mimic", "3%"], ["Abhorent Mimic", "3%"]]
 ---
 Id 32: Raxorium Ore
 Desc: An indescribably rare metal with wonderous traits. It's allegedly linked to some by-gone species.
@@ -286,7 +286,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
-Dropped By: [["Rockleliege", "33%"], ["Atomic Bouldergeist", "6%"]]
+Dropped By: [["Rockleliege", "33%"], ["Atomic Bouldergeist", "4%"]]
 ---
 Id 33: Infermius Raxorium
 Desc: A refined form of Raxorium in the element of Infermius. Useful in alchemy.
@@ -295,6 +295,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
+Ingredients: [["Raxorium Ore", 1], ["Crystalised Flame", 2]]
 ---
 Id 34: Elazireth Raxorium
 Desc: A refined form of Raxorium in the elements of Elazireth. Useful in alchemy.
@@ -303,6 +304,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
+Ingredients: [["Raxorium Ore", 1], ["Tears of Cedarus", 1], ["Winter's Heart", 1]]
 ---
 Id 35: Zysargia Raxorium
 Desc: A refined form of Raxorium in the elements of Zysargia. Useful in alchemy.
@@ -311,6 +313,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
+Ingredients: [["Raxorium Ore", 1], ["Dylorien", 1], ["Fallen Star", 1]]
 ---
 Id 36: Tempora Raxorium
 Desc: A refined form of Raxorium in the elements of Tempora. Useful in alchemy.
@@ -319,6 +322,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
+Ingredients: [["Raxorium Ore", 1], ["Wind's Wing", 1], ["Thundrite", 1]]
 ---
 Id 37: Justicium Raxorium
 Desc: A refined form of Raxorium in the elements of Justicium. Useful in alchemy.
@@ -327,6 +331,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
+Ingredients: [["Raxorium Ore", 1], ["Templar's Ashes", 2]]
 ---
 Id 38: Maelsium Raxorium
 Desc: A refined form of Raxorium in the element of Maelsium. Useful in alchemy. 
@@ -335,6 +340,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
+Ingredients: [["Raxorium Ore", 1], ["Oil of Ill-Intent", 2]]
 ---
 Id 39: Avaking Raxorium
 Desc: A refined form of Raxorium in the element of Avaking. Useful in alchemy.
@@ -343,6 +349,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
+Ingredients: [["Raxorium Ore", 1], ["Ghostfruit", 3]]
 ---
 Id 40: Talbrian Ale
 Desc: A unique ale dubbed from its origins in Talbury. Has a sweet, fruity taste. Restores some HP.
@@ -397,7 +404,7 @@ Price: 13G
 Consume: No
 Scope: None
 Occasion: Never
-Dropped By: [["Roots of Evil", "14%"]]
+Dropped By: [["Roots of Evil", "14%"], ["Throttleroot", "17%"]]
 ---
 Id 46: Four-Leaf Clover
 Desc: Consuming can invigorate you to be luckier and to also gain EXP faster.
@@ -635,7 +642,7 @@ Price: 88G
 Consume: No
 Scope: None
 Occasion: Never
-Dropped By: [["Bouldergeist", "13%"], ["Rocklereige", "100%"]]
+Dropped By: [["Mossy Bouldergeist", "13%"], ["Bouldergeist", "13%"], ["Rocklereige", "100%"]]
 ---
 Id 74: Silver Ore
 Desc: A rare ore of the shimmering silver. Useful in Alchemy.
@@ -644,7 +651,7 @@ Price: 270G
 Consume: No
 Scope: None
 Occasion: Never
-Dropped By: [["Amalgamation", "8%"], ["Jagged Bouldergeist", "8%"], ["Rocklereige", "100%"]]
+Dropped By: [["Amalgamation", "8%"], ["Mossy Bouldergeist", "7%"], ["Jagged Bouldergeist", "8%"], ["Rocklereige", "100%"]]
 ---
 Id 75: Ghostfruit
 Desc: A rare fruit that resembles black apples, ghostfruit seem to lack a true physical form. Useful in Alchemy.
@@ -791,14 +798,14 @@ Effects and Traits: [["Remove State: ", "Blind", "100%"]]
 Ingredients: [["Carp", 1], ["Hunter's Mushrooms", 1]]
 ---
 Id 92: Srevena
-Desc: \}A very large bioluminescent fruit grown in the caves of Nyet Yem. Recovers a massive portion of health and gives 10 PR.
+Desc: \}A very rare, large bioluminescent fruit found in caves. It seems unnatural, but its origins are utterly unknown. Recovers a massive portion of health and gives 10 PR.
 Type: Normal
 Price: 1000G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "50%", ""], ["Gain PR: ", "1000%"]]
-Dropped By: [["Ravenous Mawchid", "9%"]]
+Dropped By: [["Ravenous Mawchid", "9%"], ["Botyranny", "10%"]]
 ---
 Id 93: Snake Fang
 Desc: The large fang of a snake. Useful in Alchemy.
@@ -962,6 +969,7 @@ Price: 10000G
 Consume: Yes
 Scope: None
 Occasion: Only from the Menu
+Ingredients: [["Bottled Song", 2], ["Ghostfruit", 2], ["Ancient Sage's Water", 3], ["Flare Feather", 1], ["Apple Juice", 1]]
 Dropped By: [["Stygian Ichor", "5%"]]
 ---
 Id 112: Bone Apple Tea
@@ -1125,7 +1133,7 @@ Price: 500G
 Consume: No
 Scope: None
 Occasion: Never
-Dropped By: [["Man-Eating Plant", "7%"], ["Blooming Hunger", "7%"], ["Manticore", "100%"]]
+Dropped By: [["Blooming Hunger", "7%"], ["Botyranny", "7%"], ["Zysargia", "100%"], ["Manticore", "100%"]]
 ---
 Id 130: Winter's Heart
 Desc: A gemstone that mixed with ice crystals to form this gorgeous reminder of winter's beauty. Useful in alchemy.
@@ -1152,6 +1160,14 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Titan of Black Ice", "8%"]]
+---
+Id 133: Armlekas-is lia Draken Veren-is
+Desc: A beyond-ancient scroll that describes the seven Dragon Lords. If only you could read it...
+Type: Key
+Price: 0G
+Consume: No
+Scope: None
+Occasion: Never
 ---
 Id 134: Book for Botanists
 Desc: A weirdly sweet-smelling book containing details on the creation of nature-esque equipment.
@@ -1194,6 +1210,7 @@ Price: 50G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Steward of the Mantle", "8%"]]
 ---
 Id 139: Tears of Cedarus
 Desc: A vial of water from a stream hidden deep in Slumberwood, once blessed by the Ancient Sage Cedarus. Useful in alchemy.
@@ -1247,7 +1264,7 @@ Price: 500G
 Consume: No
 Scope: None
 Occasion: Never
-Dropped By: [["Boulder Behemoth", "100%"], ["Grave Defiler", "7%"]]
+Dropped By: [["Zysargia", "100%"], ["Boulder Behemoth", "100%"], ["Grave Defiler", "7%"]]
 ---
 Id 145: Void Residue
 Desc: \}A small sample of Void energy left behind by a defeated Void creature. Useful in Alchemy, but use it quickly; Void energy decays!
@@ -1321,6 +1338,14 @@ Id 153: Aerodynamic Album
 Desc: A book that tells of recipes for even the quickest of adventurers.
 Type: Key
 Price: 2000G
+Consume: No
+Scope: None
+Occasion: Only from the Menu
+---
+Id 154: Book of Bits and Bobs
+Desc: A small book containing recipes for various miscellaneous items that may not otherwise have a home.
+Type: Key
+Price: 1500G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
@@ -1685,7 +1710,7 @@ Scope: None
 Occasion: Never
 ---
 Id 214: Brewmistress' Pinnacle
-Desc: \}A golden medallion from the Brewmistress of the Oak and Antler. A token of your impressive ability to brew highly popular beverages. It seems to do something.
+Desc: \}A golden medallion from the Brewmistress of the Oak and Antler. A token of your ability to brew highly popular beverages. You no longer need to bring your own ingredients for brewing.
 Type: Key
 Price: 0G
 Consume: No

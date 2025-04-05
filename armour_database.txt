@@ -509,12 +509,12 @@ Price: 1400
 HP: 0
 MP: 0
 Attack: 0
-Defence: 14
+Defence: 17
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["ExParam: ", "EVA", "0%"]]
+Features and Traits: [["ExParam: ", "EVA", "-1%"]]
 ---
 Id 39: Hypersteel Helm
 Desc: Tough helm made of the incredible alloy.
@@ -523,7 +523,7 @@ Price: 5500
 HP: 0
 MP: 0
 Attack: 0
-Defence: 20
+Defence: 25
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
@@ -536,7 +536,7 @@ Price: 22000
 HP: 0
 MP: 0
 Attack: 0
-Defence: 28
+Defence: 31
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
@@ -819,6 +819,7 @@ Magical Attack: 12
 Magical Defence: 12
 Agility: 12
 Luck: 12
+Dropped By: [["Warden of Skies", "9%"]]
 ---
 Id 61: Loyal Helm
 Desc: A helm that always remembers who is friend or foe. Grants immunity to states that would confuse its wearer.
@@ -1138,7 +1139,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Party Ability: ", "Double Gold Drops"]]
-Dropped By: [["Mimic", "2%"], ["Devillish Mimic", "2%"], ["Abhorent Mimic", "3%"]]
+Dropped By: [["Mimic", "3%"], ["Devillish Mimic", "4%"], ["Abhorent Mimic", "7%"]]
 ---
 Id 84: Fast-Track Ticket
 Desc: Tickets to a non-existant theatre for the fast line in. Increases AGI by a lot, but decreases CRI too.
@@ -1966,7 +1967,7 @@ Price: 25000
 HP: 0
 MP: 0
 Attack: 0
-Defence: 65
+Defence: 55
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
@@ -2375,17 +2376,18 @@ Luck: 0
 Ingredients: [["Leather Mail", 1], ["Wood", 2], ["Dylorien", 1]]
 ---
 Id 173: Deciduous Mantle
-Desc: 
+Desc: A warm cloak with a layer of tiny leaves, covering its entire surface. An almost perfect camouflage, greatly reducing your TGR.
 Type: Magic Armour
-Price: 0
+Price: 8500
 HP: 0
 MP: 0
 Attack: 0
-Defence: 0
-Magical Attack: 0
-Magical Defence: 0
+Defence: 24
+Magical Attack: 8
+Magical Defence: 26
 Agility: 0
 Luck: 0
+Features and Traits: [["SpParam: ", "TGR", "x0.5"]]
 ---
 Id 174: Verdant Leafshroud
 Desc: A cloak made of many large leaves, made in recognition of the Shadow of the Forest. Increases PHA.
@@ -2437,7 +2439,7 @@ Dropped By: [["Reaping Volwrath", "100%"]]
 Id 177: Chaos Doomplate
 Desc: Armour so malevolent it fuels a deep rage within its wearer.
 Type: Heavy Armour
-Price: 18800
+Price: 16800
 HP: 0
 MP: 0
 Attack: 15
@@ -2462,7 +2464,7 @@ Magical Attack: 0
 Magical Defence: 46
 Agility: 0
 Luck: 0
-Features and Traits: [["Element Rate: ", "Dark", "15%"], ["State Resist: ", "Silence"], ["State Resist: ", "Confusion"], ["State Resist: ", "Blind"], ["State Resist: ", "Fear"], ["State Resist: ", "Savage"], ["State Resist: ", "Hallucinating"], ["State Rate: ", "Death", "0%"], ["ExParam: ", "EVA", "-4%"], ["Atk Speed: ", -3]]
+Features and Traits: [["Element Rate: ", "Dark", "50%"], ["State Resist: ", "Silence"], ["State Resist: ", "Confusion"], ["State Resist: ", "Blind"], ["State Resist: ", "Fear"], ["State Resist: ", "Savage"], ["State Resist: ", "Hallucinating"], ["State Rate: ", "Death", "0%"], ["ExParam: ", "EVA", "-4%"], ["Atk Speed: ", -3]]
 Ingredients: [["Hypersteel Armour", 1], ["Templar's Ashes", 1], ["Silver Mirror", 1], ["Smitecaster Arrows", 1]]
 ---
 Id 179: Radiant Sentinel
@@ -2510,7 +2512,7 @@ Features and Traits: [["ExParam: ", "EVA", "-3%"], ["Atk Speed: ", -3], ["Elemen
 Ingredients: [["Hypersteel Armour", 1], ["Thunder Rod", 1], ["Thundrite", 1], ["Lightning Rod", 2]]
 ---
 Id 182: Storm Summoner's Garb
-Desc: These robes have an innate static tingle to them. Adds a chance to paralyse targets.
+Desc: These robes have an innate static tingle to them. Adds a chance to paralyze targets.
 Type: Magic Armour
 Price: 9400
 HP: 0
@@ -2518,7 +2520,7 @@ MP: 0
 Attack: 0
 Defence: 14
 Magical Attack: 27
-Magical Defence: 18
+Magical Defence: 20
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk State: ", "Paralysis", "15%"]]
@@ -2542,7 +2544,7 @@ Ingredients: [["Hypersteel Plate", 1], ["Thundrite", 1], ["Lightning Rod", 1], [
 Id 184: Emblem of Vigour
 Desc: Adds an exceptional amount of additional health to the wearer.
 Type: General Armour
-Price: 25000
+Price: 20000
 HP: 1200
 MP: 0
 Attack: 0
@@ -2627,7 +2629,7 @@ Features and Traits: [["Element Rate: ", "Fire", "75%"], ["Element Rate: ", "Ice
 Ingredients: [["Hypersteel Armour", 1], ["Blazing Beverage", 1], ["Crystalised Flame", 1], ["Obsidian Shard", 2]]
 ---
 Id 190: Regalia of the Phoenix
-Desc: A mystical cloak made with phoenix feathers, a one-of-a-kind item. Gives the Undead Immitator skill.
+Desc: A mystical cloak made with large fluffy feathers. Gives the Undead Immitator skill.
 Type: Magic Armour
 Price: 16000
 HP: 0
@@ -2648,7 +2650,7 @@ HP: 0
 MP: 0
 Attack: 0
 Defence: 21
-Magical Attack: 0
+Magical Attack: 14
 Magical Defence: 45
 Agility: 0
 Luck: 0
@@ -2682,7 +2684,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["ExParam: ", "EVA", "8%"], ["ExParam: ", "CEV", "4%"], ["Debuff Rate: ", "ATK", "15%"], ["Debuff Rate: ", "DEF", "5%"], ["Gain Skill: ", "Shield Charge"]]
+Features and Traits: [["ExParam: ", "EVA", "8%"], ["ExParam: ", "CEV", "4%"], ["Debuff Rate: ", "ATK", "75%"], ["Debuff Rate: ", "DEF", "50%"], ["Gain Skill: ", "Shield Charge"]]
 ---
 Id 194: Liquood
 Desc: A wooden log that, weirdly, seems to be melting. Increases your PR charge rate but heavily reduces your target rate.
@@ -2764,10 +2766,11 @@ Attack: 0
 Defence: 47
 Magical Attack: 0
 Magical Defence: 0
-Agility: -20
+Agility: -25
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "-3%"], ["Atk Speed: ", -3]]
 Ingredients: [["Hypersteel Armour", 1], ["Iron Ore", 3], ["Fallen Star", 2]]
+Dropped By: [["Zysargia", "100%"]]
 ---
 Id 200: Earthwarden's Mantle
 Desc: A rigid cloak that gives a sturdy resistance to Earth-based attacks.
@@ -2830,7 +2833,7 @@ Features and Traits: [["Gain Skill: ", "Thunderstorm"]]
 Ingredients: [["Runed Robe", 1], ["Eye of the Storm", 1], ["Thundrite", 1], ["Wind's Wing", 1]]
 ---
 Id 204: Empyrean Winguard
-Desc: Armour that can reliably absorb the impacts of many spells.
+Desc: Armour that can reliably absorb the impacts of spells.
 Type: Light Armour
 Price: 9000
 HP: 0
@@ -3081,7 +3084,7 @@ Price: 3500
 HP: 0
 MP: 0
 Attack: 0
-Defence: 26
+Defence: 22
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
@@ -3183,20 +3186,6 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Fire", "50%"], ["State Resist: ", "Burn"]]
----
-Id 229: Thieves' Light Touch
-Desc: Fingerless gloves that make picking pockets particularly painless. Enemies will drop their items twice as often.
-Type: General Armour
-Price: 16000
-HP: 0
-MP: 0
-Attack: 0
-Defence: 2
-Magical Attack: 0
-Magical Defence: 0
-Agility: 10
-Luck: 5
-Features and Traits: [["Party Ability: ", "Double Drop Item Chance"]]
 ---
 Id 230: Ifradian Gauntlets
 Desc: Armoured gauntlets worn by the soldiers of Ifrad.
@@ -4695,9 +4684,10 @@ Magical Attack: 40
 Magical Defence: 40
 Agility: 40
 Luck: 40
+Ingredients: [["Coronet of the Long Forgotten", 1], ["Skull", 2], ["Copper Ore", 4], ["Ghostfruit", 1]]
 ---
 Id 334: Feather of Renewal
-Desc: \}A feather from an ancient creature, said to have the power to prevent death. Once per battle, the first time you would be killed, you are set 100HP instead.
+Desc: \}A feather from an ancient creature, said to have the power to prevent death. Once per battle, the first time you would be killed, you are set 500HP instead.
 Type: General Armour
 Price: 35000
 HP: 0
@@ -4710,62 +4700,6 @@ Agility: 0
 Luck: 0
 Features and Traits: [["State Rate: ", "Death", "0%"]]
 Dropped By: [["Angel", "6%"]]
----
-Id 335: Ribcage
-Desc: Identifying Characteristics:
-He's a skeleton.
-Type: General Armour
-Price: 0
-HP: 0
-MP: 0
-Attack: 0
-Defence: 0
-Magical Attack: 0
-Magical Defence: 0
-Agility: 0
-Luck: 0
----
-Id 336: Skull
-Desc: Facial Features:
-Skull.
-Type: General Armour
-Price: 0
-HP: 0
-MP: 0
-Attack: 0
-Defence: 0
-Magical Attack: 0
-Magical Defence: 0
-Agility: 0
-Luck: 0
----
-Id 337: Just Bones
-Desc: Physical Quirks:
-He's still a skeleton.
-Type: General Armour
-Price: 0
-HP: 0
-MP: 0
-Attack: 0
-Defence: 0
-Magical Attack: 0
-Magical Defence: 0
-Agility: 0
-Luck: 0
----
-Id 338: Just Bones
-Desc: Apparel & Accessories:
-All of his clothes were lost to the volcano.
-Type: General Armour
-Price: 0
-HP: 0
-MP: 0
-Attack: 0
-Defence: 0
-Magical Attack: 0
-Magical Defence: 0
-Agility: 0
-Luck: 0
 ---
 Id 339: Voidsoul Paragon
 Desc: A Paragon crafted outside of known recipes, violent with Void energy. Increases all core stats by 20%.
@@ -4795,6 +4729,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Gain Skill: ", "Aura of Earth"], ["State Resist: ", "Stun"], ["Element Absorb:", "Earth"], ["Element Absorb:", "Nature"]]
+Ingredients: [["Flow Conduit", 2], ["Dylorien", 1], ["Fallen Star", 1], ["Raxorium Ore", 1], ["Zysargia Raxorium", 1], ["Soul Vigour Vial", 1]]
 ---
 Id 341: Tempora's Echo
 Desc: \}A gift from the Dragon Lord Tempora. Grants his \C[24]Aura of Storms\C[0] skill, allows you to absorb Air and Storm attacks, and immunity to Paralysis.
@@ -4809,6 +4744,7 @@ Magical Defence: 0
 Agility: 50
 Luck: 0
 Features and Traits: [["Gain Skill: ", "Aura of Storms"], ["State Resist: ", "Paralysis"], ["Element Absorb:", "Storm"], ["Element Absorb:", "Air"]]
+Ingredients: [["Flow Conduit", 2], ["Wind's Wing", 1], ["Thundrite", 1], ["Raxorium Ore", 1], ["Tempora Raxorium", 1], ["Soul Vigour Vial", 1]]
 ---
 Id 342: Maelsium's Reckoning
 Desc: \}A gift from the Dragon Lord Maelsium. Grants his \C[15]Aura of Darkness\C[0] skill, allows you to absorb Dark attacks, and immunity to Fear and Hopeless.
@@ -4823,6 +4759,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 50
 Features and Traits: [["Gain Skill: ", "Aura of Darkness"], ["State Resist: ", "Fear"], ["State Resist: ", "Hopeless"], ["Element Absorb:", "Dark"]]
+Ingredients: [["Flow Conduit", 2], ["Oil of Ill-Intent", 2], ["Raxorium Ore", 1], ["Maelsium Raxorium", 1], ["Soul Vigour Vial", 1]]
 ---
 Id 343: Justicium's Blessing
 Desc: \}A gift from the Dragon Lord Justicium. Grants his \C[6]Aura of Light\C[0] skill, allows you to absorb Light attacks, and immunity to instant death.
@@ -4837,6 +4774,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Gain Skill: ", "Aura of Light"], ["State Rate: ", "Death", "0%"], ["Element Absorb:", "Light"]]
+Ingredients: [["Flow Conduit", 2], ["Templar's Ashes", 2], ["Raxorium Ore", 1], ["Justicium Raxorium", 1], ["Soul Vigour Vial", 1]]
 ---
 Id 344: Infermius' Pyre
 Desc: \}A gift from the Dragon Lord Infermius. Grants his \C[18]Aura of Flames\C[0] skill, allows you to absorb Fire attacks, and immunity to Burns.
@@ -4851,6 +4789,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Gain Skill: ", "Aura of Flames"], ["State Resist: ", "Burn"], ["Element Absorb:", "Fire"]]
+Ingredients: [["Flow Conduit", 2], ["Crystalised Flame", 2], ["Raxorium Ore", 1], ["Infermius Raxorium", 1], ["Soul Vigour Vial", 1]]
 ---
 Id 345: Avaking's Benevolence
 Desc: \}A gift from the Dragon Lord Avaking. Grants his \C[31]Aura of Souls\C[0] skill, allows you to absorb Soul attacks, and immunity to Void Scars.
@@ -4865,6 +4804,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Gain Skill: ", "Aura of Souls"], ["State Resist: ", "Void Scar"], ["Element Absorb:", "Soul"]]
+Ingredients: [["Flow Conduit", 2], ["Ghostfruit", 3], ["Raxorium Ore", 1], ["Avaking Raxorium", 1], ["Soul Vigour Vial", 1]]
 ---
 Id 346: Elazireth's Current
 Desc: \}A gift from the Dragon Lord Elazireth. Grants his \C[23]Aura of Vapour\C[0] skill, allows you to absorb Water and Ice attacks, and immunity to Freezing.
@@ -4879,6 +4819,7 @@ Magical Defence: 50
 Agility: 0
 Luck: 0
 Features and Traits: [["Gain Skill: ", "Aura of Vapour"], ["State Resist: ", "Freezing"], ["Element Absorb:", "Ice"], ["Element Absorb:", "Water"]]
+Ingredients: [["Flow Conduit", 2], ["Winter's Heart", 1], ["Tears of Cedarus", 1], ["Raxorium Ore", 1], ["Elazireth Raxorium", 1], ["Soul Vigour Vial", 1]]
 ---
 Id 347: Coronet of the Long Forgotten
 Desc: A fallen monarch's headware, perfect for one's abdication.
@@ -4948,7 +4889,6 @@ Magical Defence: 63
 Agility: 0
 Luck: 0
 Ingredients: [["Hallowed Battlegear", 1], ["Mirror Shield", 1], ["Holy Symbol", 1], ["Raxorium Ore", 1], ["Hypersteel", 2]]
-Dropped By: [["Sage of the Bones", "6%"]]
 ---
 Id 352: Reverstone of Transmutation
 Desc: \}A thick stone slab chiseled with ineffable ramblings. Though, it seems to be able to invert incoming buffs and debuffs - from both friend and foe.
@@ -5008,7 +4948,7 @@ Ingredients: [["Solar Majesty's Regalia", 1], ["Templar's Ashes", 2], ["Crystali
 Id 356: Resplendant Seraph
 Desc: \}Even in the darkest times, the light of a loyal ally shines through. Gain the Seraph's Resplendence skill.
 Type: Light Armour
-Price: 20000
+Price: 22000
 HP: 0
 MP: 0
 Attack: 0
@@ -5049,4 +4989,86 @@ Agility: 80
 Luck: 80
 Features and Traits: [["+Action Chance: ", "100%"]]
 Ingredients: [["Mind-Control Brace", 1], ["Hypersteel", 1], ["Liquid Gold", 1], ["Rialite", 2], ["Ghostfruit", 3]]
+---
+Id 359: Silver Ring
+Desc: A ring made of silver that many aristocrats bear.
+Type: General Armour
+Price: 65
+HP: 0
+MP: 0
+Attack: 0
+Defence: 4
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 360: Cring
+Desc: An almost weightless ring that seems to help you pinpoint exactly where to strike. Slight boost to CRI.
+Type: General Armour
+Price: 200
+HP: 0
+MP: 0
+Attack: 0
+Defence: 2
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 10
+Features and Traits: [["ExParam: ", "CRI", "2%"]]
+---
+Id 362: Bronze Ring
+Desc: A small, simple ring to adorn one's finger.
+Type: General Armour
+Price: 30
+HP: 0
+MP: 0
+Attack: 0
+Defence: 2
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 363: Night Ring
+Desc: A dark ring that seems to help the wearer slip by unnoticed. Boosts EVA.
+Type: General Armour
+Price: 160
+HP: 0
+MP: 0
+Attack: 0
+Defence: 2
+Magical Attack: 0
+Magical Defence: 0
+Agility: 10
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "3%"]]
+---
+Id 364: Rejuvenation Ring
+Desc: While wearing this ring, 10% of your HRG is also applied as MRG (10% HRG → 1% MRG).
+Type: General Armour
+Price: 9000
+HP: 100
+MP: 15
+Attack: 0
+Defence: 2
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+---
+Id 365: Boots of Adrenaline
+Desc: \}Dark boots that are uncomfortable to wear and move around quickly in. As a result, upon dodging an attack, you gain 5 PR.
+Type: General Armour
+Price: 10000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 14
+Magical Attack: 0
+Magical Defence: 6
+Agility: 20
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "5%"]]
+Dropped By: [["Sage of the Bones", "8%"]]
 ---

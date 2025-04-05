@@ -113,7 +113,7 @@ Agility: 45
 Luck: 40
 Experience: 148
 Gold: 167
-Loot: [["Revel Weed", "13%"], ["Dylorien", "7%"]]
+Loot: [["Revel Weed", "13%"]]
 ---
 Id 11: Blooming Hunger
 HP: 1800
@@ -178,7 +178,7 @@ Agility: 65
 Luck: 62
 Experience: 262
 Gold: 800
-Loot: [["Ancient Insignia", "3%"], ["Liquid Gold", "2%"]]
+Loot: [["Ancient Insignia", "2%"], ["Liquid Gold", "3%"]]
 ---
 Id 22: Sahagin
 HP: 8000
@@ -232,6 +232,19 @@ Experience: 3000
 Gold: 3500
 Loot: [["Necrotic Sceptre", "100%"], ["Midnight Shroud", "100%"]]
 ---
+Id 30: Botyranny
+HP: 7000
+MP: 350
+Attack: 192
+Defence: 96
+Magical Attack: 141
+Magical Defence: 118
+Agility: 85
+Luck: 110
+Experience: 722
+Gold: 799
+Loot: [["Srevena", "10%"], ["Dylorien", "7%"]]
+---
 Id 31: Shadow Creature
 HP: 550
 MP: 40
@@ -274,15 +287,15 @@ Loot: [["Vezran's Cloak", "100%"], ["Vezran's Arm", "100%"], ["Vezran's Sword", 
 Id 34: Zysargia
 HP: 10000
 MP: 9999
-Attack: 200
-Defence: 175
-Magical Attack: 220
-Magical Defence: 210
+Attack: 240
+Defence: 275
+Magical Attack: 260
+Magical Defence: 240
 Agility: 999
 Luck: 50
 Experience: 10000
 Gold: 16000
-Loot: [["Gnarled Smasher", "100%"]]
+Loot: [["Dylorien", "100%"], ["Fallen Star", "100%"], ["Tectonic Platemail", "100%"]]
 ---
 Id 35: Guardian Spirit
 HP: 300
@@ -540,8 +553,8 @@ Magical Attack: 82
 Magical Defence: 121
 Agility: 40
 Luck: 61
-Experience: 172
-Gold: 194
+Experience: 192
+Gold: 221
 Loot: [["Spirit Essence", "13%"], ["Ghostfruit", "7%"]]
 ---
 Id 59: Frigid Scorpion
@@ -750,7 +763,7 @@ Agility: 116
 Luck: 115
 Experience: 673
 Gold: 1600
-Loot: [["Ancient Insignia", "3%"], ["Liquid Gold", "2%"]]
+Loot: [["Ancient Insignia", "3%"], ["Liquid Gold", "4%"]]
 ---
 Id 76: Pit Viper
 HP: 4500
@@ -841,7 +854,7 @@ Agility: 125
 Luck: 130
 Experience: 626
 Gold: 693
-Loot: [["Foreteller's Sword", "7%"]]
+Loot: [["Foreteller's Sword", "7%"], ["Talisman of Light", "9%"]]
 ---
 Id 83: Shadow Collossus
 HP: 3000
@@ -880,7 +893,7 @@ Agility: 180
 Luck: 140
 Experience: 1128
 Gold: 2400
-Loot: [["Ancient Insignia", "4%"], ["Liquid Gold", "3%"]]
+Loot: [["Ancient Insignia", "3%"], ["Liquid Gold", "7%"]]
 ---
 Id 86: Black Pus
 HP: 2000
@@ -959,6 +972,45 @@ Luck: 115
 Experience: 623
 Gold: 690
 Loot: [["Freezing Scythe", "7%"], ["Sage's Water", "8%"]]
+---
+Id 92: Throttleroot
+HP: 3250
+MP: 65
+Attack: 163
+Defence: 99
+Magical Attack: 91
+Magical Defence: 74
+Agility: 150
+Luck: 100
+Experience: 345
+Gold: 389
+Loot: [["Bei Root", "17%"], ["Stalwort", "13%"]]
+---
+Id 93: Steward of the Mantle
+HP: 5000
+MP: 200
+Attack: 138
+Defence: 245
+Magical Attack: 171
+Magical Defence: 97
+Agility: 75
+Luck: 95
+Experience: 519
+Gold: 580
+Loot: [["Spirit Essence", "14%"], ["Ironbark", "8%"]]
+---
+Id 104: Mossy Bouldergeist
+HP: 3500
+MP: 100
+Attack: 90
+Defence: 225
+Magical Attack: 120
+Magical Defence: 130
+Agility: 12
+Luck: 35
+Experience: 306
+Gold: 341
+Loot: [["Iron Ore", "13%"], ["Silver Ore", "7%"]]
 ---
 Id 105: Contorted Amalgamation
 HP: 6800
@@ -1047,8 +1099,8 @@ Magical Attack: 30
 Magical Defence: 110
 Agility: 5
 Luck: 25
-Experience: 305
-Gold: 450
+Experience: 405
+Gold: 455
 Loot: [["Tin Ore", "10%"], ["Rialite", "8%"]]
 ---
 Id 112: Man-o'-Storms
@@ -1086,8 +1138,8 @@ Magical Attack: 200
 Magical Defence: 400
 Agility: 600
 Luck: 200
-Experience: 25000
-Gold: 28000
+Experience: 20000
+Gold: 25000
 Loot: [["Butter Knife", "100%"], ["Butter Knife Enhancer", "3%"], ["Butter", "3%"]]
 ---
 Id 115: Void Leviathan
@@ -1153,7 +1205,7 @@ Agility: 500
 Luck: 300
 Experience: 25000
 Gold: 50000
-Loot: [["Energy of Avaking", "100%"]]
+Loot: []
 ---
 Id 120: Harrison
 HP: 20000
@@ -1166,7 +1218,7 @@ Agility: 500
 Luck: 300
 Experience: 25000
 Gold: 50000
-Loot: [["Blaze of Infermius", "100%"]]
+Loot: []
 ---
 Id 121: Rocklesiege
 HP: 7000
@@ -1322,7 +1374,7 @@ Agility: 169
 Luck: 155
 Experience: 851
 Gold: 974
-Loot: [["Vortex Blade", "7%"], ["Prismatic Morphguard", "6%"]]
+Loot: [["Vortex Blade", "7%"], ["Boots of Adrenaline", "8%"]]
 ---
 Id 133: Void Weaver
 HP: 38000
@@ -1348,5 +1400,5 @@ Agility: 20
 Luck: 60
 Experience: 1112
 Gold: 1228
-Loot: [["Omnium", "10%"], ["Raxorium Ore", "6%"]]
+Loot: [["Omnium", "10%"], ["Raxorium Ore", "4%"]]
 ---
