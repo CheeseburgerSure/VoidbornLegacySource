@@ -1,4 +1,4 @@
-AdditionalItem/SkillFunctions:646:in `invoke_counter_attack': undefined method `atk=' for #<Game_Actor:0x148a7730>, NoMethodError
+AdditionalItem/SkillFunctions:645:in `invoke_counter_attack': undefined method `equips' for #<Game_Enemy:0x13ea5278>, NoMethodError
 	from Scene_Battle:593:in `invoke_item'
 	from BattleEngine:3151:in `invoke_item'
 	from BattleEngine:3135:in `block (2 levels) in use_item'
