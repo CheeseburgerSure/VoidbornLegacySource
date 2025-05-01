@@ -285,7 +285,7 @@ Gold: 8000
 Loot: [["Vezran's Cloak", "100%"], ["Vezran's Arm", "100%"], ["Vezran's Sword", "100%"]]
 ---
 Id 34: Zysargia
-HP: 10000
+HP: 9000
 MP: 9999
 Attack: 240
 Defence: 275
@@ -1003,7 +1003,7 @@ Id 104: Mossy Bouldergeist
 HP: 3500
 MP: 100
 Attack: 90
-Defence: 225
+Defence: 220
 Magical Attack: 120
 Magical Defence: 130
 Agility: 12
@@ -1286,13 +1286,13 @@ Gold: 0
 Loot: [["Oil of Ill-Intent", "13%"]]
 ---
 Id 126: Green Lidra
-HP: 1900
+HP: 1700
 MP: 0
-Attack: 126
-Defence: 78
+Attack: 116
+Defence: 74
 Magical Attack: 57
 Magical Defence: 93
-Agility: 250
+Agility: 230
 Luck: 80
 Experience: 207
 Gold: 232

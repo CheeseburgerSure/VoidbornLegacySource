@@ -1932,21 +1932,6 @@ Luck: 0
 Features and Traits: [["Gain Skill: ", "Echolocate"]]
 Ingredients: [["Short Sword", 1], ["Bat Wings", 2], ["Revel Weed", 1]]
 ---
-Id 135: Spider's Web
-Desc: A net made of recovered spider silk. Incredibly strong and difficult to break free from. Can be dual wielded.
-Type: Bow
-Price: 2000
-HP: 0
-MP: 0
-Attack: 3
-Defence: 0
-Magical Attack: 0
-Magical Defence: 0
-Agility: 0
-Luck: 0
-Features and Traits: [["Can Dual Wield"], ["Atk State: ", "Curse of the Sinbearer", "30%"], ["Atk State: ", "Webbed", "50%"]]
-Ingredients: [["Spider Silk", 4], ["", 1]]
----
 Id 136: Skeleton's Noggin
 Desc: A bludgeon made with combining ground-up skulls into one MEGA skull.
 Type: Hammer

@@ -782,7 +782,7 @@ Unique
 Variance: 15
 Critical: false
 Scope: 
-Effects and Traits: [["Add State: ", "Dark Oozed", "50%"], ["Add State: ", "Acid Damage", "40%"], ["Add State: ", "Plagued", "10%"]]
+Effects and Traits: [["Add State: ", "Dark Oozed", "50%"], ["User State: ", "Burst"], ["Add State: ", "Acid Damage", "40%"], ["User State: ", "Burst"], ["Add State: ", "Plagued", "10%"], ["User State: ", "Burst"]]
 ---
 Id 83: Tendril
 Desc: Form a slimy appendage and then lash out at a target.
@@ -1231,20 +1231,25 @@ Formula: a.atk * 3 - b.def
 Variance: 10
 Critical: true
 Scope: One Enemy
-Effects and Traits: [["Add State: ", "Pinned Down", "75%"]]
+Effects and Traits: [["Add State: ", "Pinned Down", "95%"]]
 ---
-Id 133: Noble Discharge
-Desc: Halves own health to fully heal the team.
-Skill Class: Abilites
+Id 133: Envigour
+Desc: Decently heals a target ally and buffs their MHP for 3 turns.
+Skill Class: Magic
 Cost: 25MP
-Scope: All Allies
+Skill Type: HP Recover
+Formula: a.mat
+Variance: 0
+Critical: false
+Scope: One Ally
+Effects and Traits: [["Add Buff: ", "MHP", "3 turns"], ["Recover HP: ", "10%", ""]]
 ---
 Id 134: Holy Aura
-Desc: Exerts an aura to negate the chance of gaining some status conditions for a short time.
+Desc: Exerts an aura that protects allies from negative ailments.
 Skill Class: Magic
 Cost: 20MP
 Scope: All Allies
-Effects and Traits: [["Add State: ", "Holy Aura", "100%"], ["Remove State: ", "Blind", "100%"], ["Remove State: ", "Silence", "100%"], ["Remove State: ", "Confusion", "100%"], ["Remove State: ", "Sleep", "100%"], ["Remove State: ", "Paralysis", "100%"], ["Remove State: ", "Stun", "100%"], ["Remove State: ", "Knocked Over", "100%"], ["Remove State: ", "Headache", "100%"], ["Remove State: ", "Fear", "100%"], ["Remove State: ", "Savage", "100%"], ["Remove State: ", "Hallucinating", "100%"], ["Remove State: ", "Webbed", "100%"]]
+Effects and Traits: [["Add State: ", "Holy Aura", "100%"]]
 ---
 Id 135: Purge
 Desc: Cures Poison, Headaches, and Confusion. Also heals a little.
@@ -1354,12 +1359,17 @@ Variance: 25
 Critical: true
 Scope: One Enemy
 ---
-Id 146: Winter
-Desc: Changes your Attack Element to Ice, and increases the chances of freezing an opponent.
+Id 146: Snowball
+Desc: Attack a target with a large, rolling snowball. Each cast raises your MAT.
 Skill Class: Magic
-Cost: 50MP
-Scope: The User
-Effects and Traits: [["Add State: ", "Winter", "100%"]]
+Cost: 35MP
+Skill Type: HP Damage
+Formula: a.atk * 2 + a.mat * 3 - b.mdf * 3 + 50
+Element: Ice
+Variance: 15
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Freezing", "20%"], ["User Buff: ", "MAT"]]
 ---
 Id 147: Dark Thrust
 Desc: Imbues your weapon with the power of darkness. Good chance to inflict fear.
@@ -1404,7 +1414,7 @@ Scope: The User
 Effects and Traits: [["Add State: ", "Primed", "100%"]]
 ---
 Id 151: Desert of Snow
-Desc: Affects all enemies with a good chance to freeze. Also increases your PR by 2 per enemy.
+Desc: Damages all enemies with a good chance to freeze. Also increases your PR by 2 per enemy.
 Skill Class: Magic
 Cost: 45MP
 Skill Type: HP Damage
@@ -1413,7 +1423,7 @@ Element: Ice
 Variance: 15
 Critical: false
 Scope: All Enemies
-Effects and Traits: [["Add State: ", "Freezing", "20%"]]
+Effects and Traits: [["Add State: ", "Freezing", "25%"]]
 ---
 Id 152: Dark Shroud
 Desc: A mystical dark shadow covers the party, healing them and increasing DEF and EVA.
@@ -1563,6 +1573,10 @@ Id 167: Sacred Light
 Desc: Heal all allies significantly and cures Fear.
 Skill Class: Magic
 Cost: 65MP
+Skill Type: HP Recover
+Formula: a.mat / 2
+Variance: 0
+Critical: false
 Scope: All Allies
 Effects and Traits: [["Recover HP: ", "30%", ""], ["Remove State: ", "Fear", "100%"]]
 ---
@@ -1614,7 +1628,7 @@ Element: Ice
 Variance: 40
 Critical: true
 Scope: All Enemies
-Effects and Traits: [["Add State: ", "Freezing", "15%"]]
+Effects and Traits: [["Add State: ", "Freezing", "15%"], ["User State: ", "Ice Wall"]]
 ---
 Id 173: Annihilation Ray
 Desc: A beam of pure dark energy is fired towards the target. Removes ALL buffs and states, then may still inflict Fear afterwards.
@@ -2126,7 +2140,7 @@ Formula: 100
 Variance: 10
 Critical: false
 Scope: 1 Random Enemy
-Effects and Traits: [["Add State: ", "Knocked Over", "200%"]]
+Effects and Traits: [["Add State: ", "Knocked Over", "200%"], ["User State: ", "Knocked Over"]]
 ---
 Id 227: Broken Bottle
 Desc: Smash a bottle to use as a weapon. Raises ATK.
@@ -2927,6 +2941,7 @@ Scope: None
 Id 332: Raptor's Onslaught
 Desc: Commands \V[93] to attack all foes in a single swift motion. 
 Skill Class: Unique
+Cost: 5PR
 Skill Type: HP Damage
 Formula: (($game_variables[97] * $game_variables[95])) - b.def
 Element: 
@@ -2939,7 +2954,7 @@ Id 333: Comfort
 Desc: \}\V[93] loves you and is showing affection. Recovers a small amount of HP and removes some niche states such as Swarmed or Constricted. Can also remove Fear, Savage, or Hopeless at a reduced rate.
 Skill Class: Abilites
 Skill Type: HP Recover
-Formula: 50 + $game_variables[97]
+Formula: (50 + $game_variables[97]) * $game_variables[95]
 Element: 
 Unique
 Variance: 30
@@ -3062,7 +3077,7 @@ Element: Earth
 Variance: 20
 Critical: false
 Scope: All Enemies
-Effects and Traits: [["Add State: ", "Stun", "25%"], ["Add State: ", "Knocked Over", "50%"]]
+Effects and Traits: [["Add State: ", "Stun", "25%"], ["User State: ", "Fatigue"], ["Add State: ", "Knocked Over", "50%"], ["User State: ", "Fatigue"]]
 ---
 Id 347: Tail Bash
 Desc: Wack a target with your bigass tail. High chance to stun.
@@ -3127,9 +3142,64 @@ extra damage, NOT burst on death from zombie
 Skill Class: Abilites
 Scope: One Enemy
 ---
-Id 392: (MHP buff when heal)
-Desc: Gain a(n uncapped?) MHP buff when gaining health
-(not HRG). Not sure how useful this will be
+Id 392: Revitalise
+Desc: Restore some MP to an ally. Will fail if you target yourself.
+Skill Class: Magic
+Cost: 10MP
+Skill Type: MP Recover
+Formula: b.name == a.name ? 0 : 50 + (a.mat / 50)
+Variance: 10
+Critical: false
+Scope: One Ally
+---
+Id 393: Manaflow
+Desc: Restore some MP to all allies besides the user.
+Skill Class: Magic
+Cost: 30MP
+Skill Type: MP Recover
+Formula: 30 + (a.mat / 25)
+Variance: 15
+Critical: false
+Scope: 
+---
+Id 394: Shared Reserves
+Desc: Half your current MP and split it equally between your allies. Gain 15PR.
 Skill Class: Abilites
+Cost: 5PR
+Skill Type: MP Recover
+Formula: a.mp = a.mp / 2; c = a.mp; c / 3
+Variance: 0
+Critical: false
+Scope: 
+---
+Id 395: Seabreeze
+Desc: Bring a salty breeze across your allies, recovering both HP and MP.
+Skill Class: Abilites
+Cost: 25PR
+Skill Type: HP Recover
+Formula: a.mat
+Variance: 10
+Critical: false
+Scope: All Allies
+Effects and Traits: [["Recover HP: ", "15%", ""], ["Recover MP: ", "15%", ""]]
+---
+Id 396: Sanctuary of Still Waters
+Desc: \}Spawn a shallow pool of calm water that acts as a magical conduit. Allies regenerate MP each turn and skills cost slightly less MP for a few rounds.
+Skill Class: Magic
+Cost: 50MP
+Scope: All Allies
+Effects and Traits: [["Add State: ", "Still Waters", "100%"]]
+---
+Id 397: Tide Within
+Desc: \}Weaponise a target's water content, causing immense internal pain. Particularly effective against Water-element or Slime foes. Damage increases based on your MMP.
+Skill Class: Magic
+Cost: 100MP
+Skill Type: HP Damage
+Formula: (a.mat * 5) - (b.mdf * 3) + a.mmp
+Element: 
+Unique
+Variance: 15
+Critical: false
 Scope: One Enemy
+Effects and Traits: [["Add State: ", "Fear", "20%"]]
 ---

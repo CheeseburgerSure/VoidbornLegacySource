@@ -910,7 +910,7 @@ Occasion: Never
 Dropped By: [["Abyssal Coraljaws", "10%"]]
 ---
 Id 105: Cider
-Desc: An alcoholic beverage produced by the fermentation of apple juice.
+Desc: \}An alcoholic beverage produced by the fermentation of apple juice. You can use this as a base without owning it.
 Type: Normal
 Price: 0G
 Consume: No
@@ -1285,7 +1285,7 @@ Occasion: Never
 Dropped By: [["Contorted Amalgamation", "7%"], ["Rocklesiege", "25%"], ["Rockleliege", "100%"], ["Aberrational Amalgamation", "13%"], ["Atomic Bouldergeist", "10%"]]
 ---
 Id 147: Wine
-Desc: An alcoholic drink typically made using grape, but can be made using a wide variety of fruity ingredients.
+Desc: An alcoholic drink typically made using grape, but can be made using a wide variety of fruity ingredients. You can use this as a base without owning it.
 Type: Normal
 Price: 0G
 Consume: No
@@ -1648,7 +1648,7 @@ Occasion: Never
 Id 192: Geological Survey Data
 Desc: \}Marrarockan geologists are constantly hard at work to determine the best spots to mine. Increases the chance of finding ores, consumed when leaving.
 Type: Key
-Price: 3000G
+Price: 2500G
 Consume: No
 Scope: None
 Occasion: Never
@@ -1677,10 +1677,10 @@ Consume: No
 Scope: None
 Occasion: Never
 ---
-Id 196: Archeological Survey Data
-Desc: \}Archeologists are highly interested in the rich history that lie in wait deep in the mountains. Increases the chance of finding treasures, consumed when leaving.
+Id 196: Archaeological Survey Data
+Desc: \}Archaeologists are highly interested in the rich history that lie in wait deep in the mountains. Increases the chance of finding treasures, consumed when leaving.
 Type: Key
-Price: 3500G
+Price: 3000G
 Consume: No
 Scope: None
 Occasion: Never
@@ -1721,6 +1721,14 @@ Id 215: Al Chemy's Expert
 Desc: \}A golden medallion from Al Chemy. A token of your determination to complete the recipe book. You produce two copies of every item you alchemise.
 Type: Key
 Price: 0G
+Consume: No
+Scope: None
+Occasion: Never
+---
+Id 216: Faunal Survey Data
+Desc: \}A detailed examination into known areas where certain creatures tend to reside. Increases the chance of finding monster dens, consumed when leaving.
+Type: Key
+Price: 3500G
 Consume: No
 Scope: None
 Occasion: Never

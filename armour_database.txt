@@ -725,7 +725,7 @@ Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "5%"]]
 ---
 Id 54: Earth's Embrace
-Desc: The power of the earth protects the wearer, increasing DEF and resists most States.
+Desc: The power of the earth protects the wearer, increasing DEF and resisting most States.
 Type: General Armour
 Price: 4000
 HP: 0
@@ -1679,6 +1679,20 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk State: ", "Sleep", "25%"]]
 ---
+Id 123: Charm of Retribution
+Desc: A necklace that bolsters those that counter-attack often. Only when countering, your ATK is doubled.
+Type: General Armour
+Price: 6000
+HP: 0
+MP: 0
+Attack: 5
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "CNT", "5%"]]
+---
 Id 124: Exploding Arrows
 Desc: An arrow that explodes on impact. Chance to Burn and increased HIT.
 Type: Bow Attachments
@@ -2376,7 +2390,7 @@ Luck: 0
 Ingredients: [["Leather Mail", 1], ["Wood", 2], ["Dylorien", 1]]
 ---
 Id 173: Deciduous Mantle
-Desc: A warm cloak with a layer of tiny leaves, covering its entire surface. An almost perfect camouflage, greatly reducing your TGR.
+Desc: A warm cloak with a layer of tiny leaves, covering its surface. An almost perfect camouflage, greatly reducing your TGR.
 Type: Magic Armour
 Price: 8500
 HP: 0
