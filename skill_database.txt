@@ -2522,7 +2522,7 @@ Skill Class: Abilites
 Scope: One Enemy
 ---
 Id 279: Arid Desolation
-Desc: \}Harness the dryness around you, gaining a Water immunity and chaning your attack element to Earth - all after attacking every enemy.
+Desc: \}Harness the dryness around you, gaining a Water immunity and changing your attack element to Earth - all after attacking every enemy.
 Skill Class: Magic
 Cost: 55MP
 Skill Type: HP Damage
@@ -2531,6 +2531,7 @@ Element: Earth
 Variance: 20
 Critical: false
 Scope: All Enemies
+Effects and Traits: [["User State: ", "Arid Desolation"]]
 ---
 Id 280: Standing Stones
 Desc: Reduces incoming physical damage by 50% for all allies.
