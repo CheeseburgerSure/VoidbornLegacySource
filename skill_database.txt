@@ -782,7 +782,7 @@ Unique
 Variance: 15
 Critical: false
 Scope: 
-Effects and Traits: [["Add State: ", "Dark Oozed", "50%"], ["User State: ", "Burst"], ["Add State: ", "Acid Damage", "40%"], ["User State: ", "Burst"], ["Add State: ", "Plagued", "10%"], ["User State: ", "Burst"]]
+Effects and Traits: [["Add State: ", "Dark Oozed", "50%"], ["Add State: ", "Acid Damage", "40%"], ["Add State: ", "Plagued", "10%"], ["User State: ", "Burst"]]
 ---
 Id 83: Tendril
 Desc: Form a slimy appendage and then lash out at a target.
@@ -3077,7 +3077,7 @@ Element: Earth
 Variance: 20
 Critical: false
 Scope: All Enemies
-Effects and Traits: [["Add State: ", "Stun", "25%"], ["User State: ", "Fatigue"], ["Add State: ", "Knocked Over", "50%"], ["User State: ", "Fatigue"]]
+Effects and Traits: [["Add State: ", "Stun", "25%"], ["Add State: ", "Knocked Over", "50%"], ["User State: ", "Fatigue"]]
 ---
 Id 347: Tail Bash
 Desc: Wack a target with your bigass tail. High chance to stun.
