@@ -1,4 +1,5 @@
 Id 1: Blue Slime
+Description: A blob of amorphous slime that gained sentience.
 HP: 120
 MP: 0
 Attack: 25
@@ -10,8 +11,10 @@ Luck: 10
 Experience: 14
 Gold: 19
 Loot: [["Slimedrop", "17%"]]
+Findable in: ["Southern Featherlands", "Photrin's Forest", "Northern Featherlands"]
 ---
 Id 2: Bat
+Description: A common bat. They generally lurk in dark places.
 HP: 130
 MP: 0
 Attack: 29
@@ -23,8 +26,10 @@ Luck: 12
 Experience: 15
 Gold: 20
 Loot: [["Bat Wings", "14%"]]
+Findable in: ["Ancient Library", "AncientLibraryR2"]
 ---
 Id 3: Hornet
+Description: A hornet that grow to its size by sheer will and determination.
 HP: 175
 MP: 0
 Attack: 28
@@ -36,8 +41,10 @@ Luck: 16
 Experience: 20
 Gold: 25
 Loot: [["Hornet Venom", "14%"]]
+Findable in: ["Southern Featherlands", "Photrin's Forest", "Northern Featherlands"]
 ---
 Id 4: Spider
+Description: These particularly large spiders are seldom found near human settlements. It seems they're rather afraid of people.
 HP: 300
 MP: 0
 Attack: 29
@@ -49,8 +56,10 @@ Luck: 18
 Experience: 33
 Gold: 41
 Loot: [["Spider Silk", "13%"]]
+Findable in: ["Ancient Library", "AncientLibraryR2", "The Dark Beneath"]
 ---
 Id 5: Rat
+Description: A feral rat. They always come in large groups.
 HP: 80
 MP: 0
 Attack: 14
@@ -61,9 +70,11 @@ Agility: 22
 Luck: 25
 Experience: 9
 Gold: 11
-Loot: []
+Loot: [["Fur", "5%"]]
+Findable in: ["Ancient Library", "AncientLibraryR2", "The Dark Beneath"]
 ---
 Id 6: Wisp
+Description: A wisp of soul energy left behind when the soul wasn't prepared to return to the sky.
 HP: 300
 MP: 60
 Attack: 19
@@ -75,8 +86,10 @@ Luck: 24
 Experience: 34
 Gold: 42
 Loot: [["Spirit Essence", "8%"]]
+Findable in: ["Southern Featherlands", "Ancient Library", "AncientLibraryR2", "Photrin's Forest"]
 ---
 Id 7: Large Snake
+Description: As the name implies, it is a large snake.
 HP: 540
 MP: 0
 Attack: 38
@@ -88,8 +101,10 @@ Luck: 28
 Experience: 59
 Gold: 69
 Loot: [["Snake Fang", "10%"]]
+Findable in: ["Northern Featherlands"]
 ---
 Id 9: Weeping Wisp
+Description: With the tragic fall of Asceroth, thousands of people lost their homes - or even their lives. Most of their souls never truly found peace.
 HP: 2400
 MP: 300
 Attack: 72
@@ -101,8 +116,10 @@ Luck: 65
 Experience: 253
 Gold: 283
 Loot: [["Spirit Essence", "8%"]]
+Findable in: ["Asceroth", "AscerothCityCentre", "AscerothPalaceGrounds"]
 ---
 Id 10: Man-Eating Plant
+Description: This famished flower got its name when a research trio became a research duo.
 HP: 1400
 MP: 0
 Attack: 102
@@ -114,8 +131,10 @@ Luck: 40
 Experience: 148
 Gold: 167
 Loot: [["Revel Weed", "13%"]]
+Findable in: ["The Rustling Beneath", "Anvil's Cutting Table", "SagelyGrounds4", "Ascerothan Outskirts", "Lunecry Weald - North", "SagelyGrounds/Lunecry", "Lunecry Weald - West", "Lunecry Weald - East"]
 ---
 Id 11: Blooming Hunger
+Description: A species of voracious flora that has no trouble devouring any wildlife that dares tread too near.
 HP: 1800
 MP: 100
 Attack: 124
@@ -127,8 +146,10 @@ Luck: 65
 Experience: 193
 Gold: 212
 Loot: [["Revel Weed", "14%"], ["Dylorien", "7%"]]
+Findable in: ["Lunecry Weald - North", "Lunecry Weald - West", "Lunecry Weald - East", "Lunecry/Recluse", "Lunecry Recluse", "Lunecry Recluse", "RecluseCaveEntrance", "Zysargia'sRecluse1"]
 ---
 Id 12: Skeleton
+Description: A reanimated skeleton full of wrath.
 HP: 700
 MP: 0
 Attack: 49
@@ -140,8 +161,10 @@ Luck: 40
 Experience: 78
 Gold: 90
 Loot: [["Skull", "13%"], ["Short Sword", "9%"]]
+Findable in: ["DarkBeneath3", "The Dark Beneath", "DarkBeneath2", "The Abandoned Mine"]
 ---
 Id 14: Imp
+Description: Little devils that love to terrorise anything that goes near their lair. Though their red-hot temper can usually lead them to fight other Imps on the regular.
 HP: 1400
 MP: 150
 Attack: 65
@@ -153,8 +176,10 @@ Luck: 54
 Experience: 120
 Gold: 139
 Loot: [["Scorchlog", "8%"]]
+Findable in: ["The Burning Beneath"]
 ---
 Id 15: Gazer
+Description: Its eye is said to be so strong that it can look into the fears of your soul. Researchers have often theorised that it could be used to look into other realities.
 HP: 4000
 MP: 300
 Attack: 65
@@ -166,8 +191,10 @@ Luck: 95
 Experience: 519
 Gold: 575
 Loot: [["Abbysal Fluid", "8%"]]
+Findable in: ["The Vile Beneath"]
 ---
 Id 20: Mimic
+Description: Tricky little buggers hiding as chests to entice you. Hope that you don't die to the shock alone.
 HP: 2500
 MP: 50
 Attack: 90
@@ -181,6 +208,7 @@ Gold: 800
 Loot: [["Ancient Insignia", "2%"], ["Liquid Gold", "3%"]]
 ---
 Id 22: Sahagin
+Description: Warriors of the sea that can swim at lightning speeds to catch their prey. they are quite nomadic as they can quickly wipe out small ecosystems.
 HP: 8000
 MP: 400
 Attack: 210
@@ -191,9 +219,11 @@ Agility: 200
 Luck: 150
 Experience: 830
 Gold: 918
-Loot: [["Trident", "8%"]]
+Loot: [["Trident", "8%"], ["Tears of Cedarus", "7%"]]
+Findable in: ["The Soaking Beneath"]
 ---
 Id 23: Amalgamation
+Description: A reanimated skeleton that melded itself with one of its brethren, becoming this formidable abomination.
 HP: 3400
 MP: 80
 Attack: 123
@@ -207,6 +237,7 @@ Gold: 376
 Loot: [["Silver Ore", "8%"], ["Falcion", "10%"]]
 ---
 Id 26: Ravenous Mawchid
+Description: A carnivorous plant that grew to its immense size due to its vicinity to a Nature-elemental rich domain.
 HP: 4500
 MP: 200
 Attack: 154
@@ -218,8 +249,10 @@ Luck: 90
 Experience: 495
 Gold: 529
 Loot: [["Srevena", "9%"], ["Dispel Herb", "8%"]]
+Findable in: ["AncientOutpost", "Lunecry/Recluse", "Lunecry Recluse", "Lunecry Recluse", "RecluseCaveEntrance", "Zysargia'sRecluse1", "Zysargia'sRecluse2", "Zysargia'sRecluse3"]
 ---
 Id 27: Reaping Volwrath
+Description: A depraved and violent spectre born from a soul. It was allegedly sealed in the Dark Beaneath long ago. Was it defending something, or someone?
 HP: 14000
 MP: 9999
 Attack: 132
@@ -233,6 +266,7 @@ Gold: 3500
 Loot: [["Necrotic Sceptre", "100%"], ["Midnight Shroud", "100%"]]
 ---
 Id 30: Botyranny
+Description: A highly active and voracious flower that constantly yearns for its next mighty meal. It's a botanical miracle that any plant can grow so large.
 HP: 7000
 MP: 350
 Attack: 192
@@ -244,8 +278,10 @@ Luck: 110
 Experience: 722
 Gold: 799
 Loot: [["Srevena", "10%"], ["Dylorien", "7%"]]
+Findable in: ["Lunecry/Recluse", "Lunecry Recluse", "Lunecry Recluse", "RecluseCaveEntrance", "Zysargia'sRecluse1", "Zysargia'sRecluse2", "Zysargia'sRecluse3"]
 ---
 Id 31: Shadow Creature
+Description: A being created solely to destroy by Vezran.
 HP: 550
 MP: 40
 Attack: 50
@@ -259,6 +295,7 @@ Gold: 0
 Loot: [["Oil of Ill-Intent", "8%"]]
 ---
 Id 32: Green Slime
+Description: Slimes from dense forests, turned green from rolling around in the grass.
 HP: 1400
 MP: 20
 Attack: 60
@@ -270,6 +307,7 @@ Luck: 55
 Experience: 151
 Gold: 162
 Loot: [["Slimedrop", "20%"]]
+Findable in: ["Lunecry Weald - North", "Lunecry Weald - West", "Lunecry Weald - East"]
 ---
 Id 33: Vezran
 HP: 13000
@@ -287,10 +325,10 @@ Loot: [["Vezran's Cloak", "100%"], ["Vezran's Arm", "100%"], ["Vezran's Sword", 
 Id 34: Zysargia
 HP: 9000
 MP: 9999
-Attack: 240
-Defence: 275
-Magical Attack: 260
-Magical Defence: 240
+Attack: 230
+Defence: 260
+Magical Attack: 230
+Magical Defence: 220
 Agility: 999
 Luck: 50
 Experience: 10000
@@ -309,8 +347,10 @@ Luck: 26
 Experience: 35
 Gold: 43
 Loot: [["Spirit Essence", "13%"]]
+Findable in: ["Tribute to the Bestower", "AncientLibraryR2"]
 ---
 Id 36: Volwrath
+Description: Born from the vilest depths of a soul’s hatred, Volwrath was ensnared in Bots to protect his boundless knowledge. He instead laid waste to his pages.
 HP: 1100
 MP: 250
 Attack: 36
@@ -324,6 +364,7 @@ Gold: 150
 Loot: [["Spirit Essence", "100%"]]
 ---
 Id 37: Purple Slime
+Description: A differently coloured blob of amorphous slime that gained sentience.
 HP: 300
 MP: 0
 Attack: 35
@@ -335,8 +376,10 @@ Luck: 30
 Experience: 36
 Gold: 44
 Loot: [["Slimedrop", "17%"]]
+Findable in: ["Southern Featherlands"]
 ---
 Id 40: Cave Bat
+Description: A variant of the common bat. They specifically hide in caves and are generally stronger than their generic cousins.
 HP: 330
 MP: 0
 Attack: 29
@@ -348,8 +391,10 @@ Luck: 26
 Experience: 38
 Gold: 46
 Loot: [["Bat Wings", "13%"]]
+Findable in: ["DarkBeneath3", "The Dark Beneath", "DarkBeneath2", "Mister e-cave", "MineEntrance", "Tunnels2Bridge"]
 ---
 Id 41: Toxic Snake
+Description: A variant of the Large Snake, this version is incredibly venomous.
 HP: 1200
 MP: 0
 Attack: 62
@@ -361,8 +406,10 @@ Luck: 35
 Experience: 127
 Gold: 144
 Loot: [["Snake Fang", "9%"]]
+Findable in: ["Ifradian Outskirts - South", "Ifradian Outskirts - North", "Anvil's Cutting Table", "SagelyGrounds4", "SagelyGrounds/Lunecry"]
 ---
 Id 42: Pink Slime
+Description: Don't be fooled by its pink appearance. Many have lost hands when going to pet it.
 HP: 900
 MP: 12
 Attack: 47
@@ -374,8 +421,10 @@ Luck: 50
 Experience: 100
 Gold: 115
 Loot: [["Slimedrop", "20%"]]
+Findable in: ["Ifradian Outskirts - South", "DarkBeneath4", "DarkBeneath3", "Ifradian Outskirts - North", "DarkBeneath5", "Anvil's Cutting Table", "SagelyGrounds4", "SagelyGrounds/Lunecry"]
 ---
 Id 43: Thunder Spider
+Description: A spider that was probably struck by lightning.
 HP: 1200
 MP: 25
 Attack: 51
@@ -387,8 +436,10 @@ Luck: 50
 Experience: 150
 Gold: 170
 Loot: [["Spider Silk", "11%"]]
+Findable in: ["Ifradian Outskirts - South", "Ifradian Outskirts - North", "Anvil's Cutting Table", "Anvil's Throat", "SagelyGrounds4", "SagelyGrounds/Lunecry"]
 ---
 Id 44: Withered Skeleton
+Description: A reanimated skeleton full of wrath. This version has aged more and thus has more wrath.
 HP: 1900
 MP: 27
 Attack: 90
@@ -400,8 +451,10 @@ Luck: 50
 Experience: 200
 Gold: 225
 Loot: [["Skull", "13%"], ["Long Sword", "8%"]]
+Findable in: ["DarkBeneath4", "DarkBeneath5", "The Burning Beneath", "The Rustling Beneath", "The Freezing Beneath", "DarkBeneath6", "Tunnels1", "Tunnels1Extended", "Tunnels1Ladder", "Tunnels2Bridge", "Tunnels2Dorms", "Tunnels3", "Tunnels4"]
 ---
 Id 45: Butter Slime
+Description: A blob of...butter?
 HP: 2500
 MP: 200
 Attack: 125
@@ -413,8 +466,10 @@ Luck: 100
 Experience: 2500
 Gold: 3000
 Loot: [["Butter Knife", "50%"], ["Butter Knife Enhancer", "1%"], ["Butter", "1%"]]
+Findable in: ["DarkBeneath7b", "DarkBeneath8a", "DarkBeneath7a"]
 ---
 Id 46: Rabid Rat
+Description: A rabid, feral rat. Always come in large groups.
 HP: 250
 MP: 0
 Attack: 28
@@ -425,9 +480,11 @@ Agility: 44
 Luck: 34
 Experience: 29
 Gold: 33
-Loot: []
+Loot: [["Fur", "6%"]]
+Findable in: ["DarkBeneath4", "DarkBeneath3", "DarkBeneath2", "DarkBeneath5"]
 ---
 Id 47: Wailing Wisp
+Description: This type of Wisp stemmed from a much more powerful soul compared to its lesser cousin.
 HP: 1100
 MP: 150
 Attack: 58
@@ -439,6 +496,7 @@ Luck: 46
 Experience: 119
 Gold: 135
 Loot: [["Spirit Essence", "8%"]]
+Findable in: ["DarkBeneath4", "DarkBeneath5"]
 ---
 Id 48: Void Marshal
 HP: 16000
@@ -452,6 +510,7 @@ Luck: 250
 Experience: 8000
 Gold: 9000
 Loot: [["Energy Sword", "6%"], ["Void Residue", "25%"]]
+Findable in: ["????????"]
 ---
 Id 49: Void Wraith
 HP: 14000
@@ -465,8 +524,10 @@ Luck: 100
 Experience: 8000
 Gold: 9000
 Loot: [["Void Residue", "25%"]]
+Findable in: ["????????"]
 ---
 Id 50: Mad Hornet
+Description: A hornet that grew to its size by sheer will and determination.
 HP: 500
 MP: 0
 Attack: 41
@@ -478,6 +539,7 @@ Luck: 25
 Experience: 55
 Gold: 65
 Loot: [["Hornet Venom", "14%"], ["Insect Stinger", "11%"]]
+Findable in: ["Ifradian Outskirts - South", "Ifradian Outskirts - North", "Anvil's Cutting Table", "Anvil's Throat", "SagelyGrounds4", "SagelyGrounds/Lunecry"]
 ---
 Id 52: Diabolous
 HP: 30000
@@ -493,6 +555,7 @@ Gold: 25000
 Loot: [["Blade of the Diabolous", "33%"], ["Supreme Templar's Armour", "33%"]]
 ---
 Id 54: Burning Spirit
+Description: The souls that create these Wisps were highly concentrated with the Fire element.
 HP: 2000
 MP: 240
 Attack: 52
@@ -504,8 +567,10 @@ Luck: 67
 Experience: 298
 Gold: 332
 Loot: [["Spirit Essence", "8%"], ["Crystalised Flame", "7%"]]
+Findable in: ["DarkBeneath5", "The Burning Beneath", "DarkBeneath6"]
 ---
 Id 55: Cerberus
+Description: This mythical beast was said to be born from the lava of Mt. Liflatlae, though it is unknown how it reached the Dark Beneath.
 HP: 9500
 MP: 300
 Attack: 96
@@ -519,6 +584,7 @@ Gold: 2500
 Loot: [["Crystalised Flame", "100%"]]
 ---
 Id 56: Manticore
+Description: Many years ago, Barrodor attempted to fuse different creatures to create the perfect body. The Manticore was one of their more successful experiments.
 HP: 9500
 MP: 300
 Attack: 104
@@ -532,6 +598,7 @@ Gold: 2500
 Loot: [["Dylorien", "100%"]]
 ---
 Id 57: Behemoth
+Description: These great beasts used to roam freely across the plains of Melviel but their numbers dwindled immensely. Seeing one is a rarity nowadays.
 HP: 9500
 MP: 300
 Attack: 112
@@ -545,6 +612,7 @@ Gold: 2500
 Loot: [["Winter's Heart", "100%"]]
 ---
 Id 58: Forest Custodian
+Description: These guardians of the woods have a formidable set of abilities to keep a vast array of threats off their lawn.
 HP: 1800
 MP: 180
 Attack: 60
@@ -556,8 +624,10 @@ Luck: 61
 Experience: 192
 Gold: 221
 Loot: [["Spirit Essence", "13%"], ["Ghostfruit", "7%"]]
+Findable in: ["DarkBeneath5", "The Rustling Beneath", "DarkBeneath6", "Lunecry Weald - North", "Lunecry Weald - West", "AncientOutpost", "Lunecry Weald - East"]
 ---
 Id 59: Frigid Scorpion
+Description: Their venom has completely frozen into crystalline needles that melt into the bloodstream after piercing deep under the skin.
 HP: 1600
 MP: 100
 Attack: 84
@@ -569,8 +639,10 @@ Luck: 56
 Experience: 171
 Gold: 193
 Loot: [["Unmelting Ice", "8%"]]
+Findable in: ["DarkBeneath5", "The Freezing Beneath", "DarkBeneath6"]
 ---
 Id 60: Titan of Black Ice
+Description: These absolute deathtraps show extreme signs of aggression followed by total apathy. A fatal punch to the face is in their icy reception.
 HP: 3000
 MP: 40
 Attack: 128
@@ -582,8 +654,10 @@ Luck: 86
 Experience: 317
 Gold: 353
 Loot: [["Winter's Heart", "7%"], ["Powder Snow", "8%"]]
+Findable in: ["The Freezing Beneath"]
 ---
 Id 61: Languished Skeleton
+Description: A reanimated skeleton full of wrath. This type has been suffering for an eternity, wishing for its end at the hand of a great warrior.
 HP: 2900
 MP: 60
 Attack: 103
@@ -595,8 +669,10 @@ Luck: 65
 Experience: 303
 Gold: 338
 Loot: [["Obsidian Shard", "8%"], ["Falcion", "7%"]]
+Findable in: ["DarkBeneath6", "DarkBeneath7a"]
 ---
 Id 62: Shadow Wraith
+Description: A variant of the Shadow Creature, this version wields more dangerous abilities.
 HP: 950
 MP: 70
 Attack: 60
@@ -608,6 +684,7 @@ Luck: 40
 Experience: 225
 Gold: 0
 Loot: [["Oil of Ill-Intent", "10%"]]
+Findable in: ["AscerothCityCentre", "AscerothPalaceGrounds"]
 ---
 Id 63: Ivy
 HP: 25000
@@ -623,6 +700,7 @@ Gold: 15000
 Loot: [["Hypersteel Scythe", "25%"], ["Tyrfing Sword", "25%"]]
 ---
 Id 64: Stormbringer Cerberus
+Description: Packs of this Cerberus subspecies are to be blamed for the highly tempestuous periods that often ravage the Forbidden Lands.
 HP: 24000
 MP: 1000
 Attack: 265
@@ -636,6 +714,7 @@ Gold: 10000
 Loot: [["Thundrite", "100%"]]
 ---
 Id 65: Hurricane Manticore
+Description: Contrary to popular belief, hurricanes are actually named after this beast as they were initially believed to be the cause for such weather phenomena. The origin of the creature's name has since been lost to time.
 HP: 24000
 MP: 1000
 Attack: 283
@@ -649,6 +728,7 @@ Gold: 10000
 Loot: [["Wind's Wing", "100%"]]
 ---
 Id 66: Boulder Behemoth
+Description: \}This beast traps its prey in tectonic prisons by moving the ground around its victim. It's believed to have the power to create entire continents, it is even theorised one is to blame for the canyon that splits the Featherlands.
 HP: 21000
 MP: 600
 Attack: 245
@@ -662,6 +742,7 @@ Gold: 6000
 Loot: [["Fallen Star", "100%"]]
 ---
 Id 67: Writhing Amalgamation
+Description: As the fusion with their brethren after death is extremely painful and causes them to suffer, they look for those to take out their anger on.
 HP: 4200
 MP: 95
 Attack: 149
@@ -673,8 +754,10 @@ Luck: 90
 Experience: 438
 Gold: 496
 Loot: [["Hypersteel Sword", "8%"]]
+Findable in: ["DarkBeneath7a", "The Dry Beneath", "The Vile Beneath", "The Shining Beneath"]
 ---
 Id 68: Skeletal Champion
+Description: A reanimated skeleton that was once a war hero. It continues to proudly lead its soldiers, even in death.
 HP: 8500
 MP: 0
 Attack: 195
@@ -686,8 +769,10 @@ Luck: 110
 Experience: 872
 Gold: 964
 Loot: [["Hypersteel Mace", "7%"]]
+Findable in: ["DarkBeneath7a", "The Vile Beneath", "The Shining Beneath"]
 ---
 Id 69: Bone Mage
+Description: A reanimated skeleton that used to be a sorcerer of some kind. Now they only serve Domosseus.
 HP: 4000
 MP: 300
 Attack: 62
@@ -699,8 +784,10 @@ Luck: 100
 Experience: 420
 Gold: 467
 Loot: [["Spirit Staff", "7%"], ["Darkstrike Arrows", "8%"]]
+Findable in: ["DarkBeneath7a"]
 ---
 Id 70: Damned Volwrath
+Description: A tortured spectre with even more fury than the last. It has the ability to enter other souls and destroy them from the inside with crippling curses.
 HP: 20000
 MP: 9999
 Attack: 167
@@ -712,8 +799,10 @@ Luck: 115
 Experience: 5000
 Gold: 6000
 Loot: [["Edge of the Damned", "100%"], ["Gauntlet of the Accursed", "100%"]]
+Findable in: ["DarkBeneath8a"]
 ---
 Id 71: Roots of Evil
+Description: These carnivorous seedlings camouflage themselves among large weeds or detritus and take hold of any unsuspecting creature that treads near them.
 HP: 1500
 MP: 50
 Attack: 126
@@ -725,8 +814,10 @@ Luck: 75
 Experience: 165
 Gold: 186
 Loot: [["Bei Root", "14%"], ["Stalwort", "11%"]]
+Findable in: ["SagelyGrounds4", "Ascerothan Outskirts", "Lunecry Weald - North", "SagelyGrounds/Lunecry", "Lunecry Weald - West", "Lunecry Weald - East", "Lunecry/Recluse"]
 ---
 Id 72: Hornet Swarm
+Description: A group of hornets that decided to group up to harrass travellers instead of going solo.
 HP: 850
 MP: 0
 Attack: 75
@@ -738,8 +829,10 @@ Luck: 80
 Experience: 203
 Gold: 218
 Loot: [["Hornet Venom", "25%"], ["Insect Stinger", "17%"]]
+Findable in: ["Ifradian Outskirts - South", "Ifradian Outskirts - North", "Anvil's Cutting Table", "Anvil's Throat", "SagelyGrounds4", "Lunecry Weald - North", "SagelyGrounds/Lunecry", "Lunecry Weald - West", "Lunecry Weald - East"]
 ---
 Id 73: Mad Hornet Swarm
+Description: A group of \fimad\fr hornets that decided to group up to harrass travellers instead of going solo.
 HP: 2000
 MP: 0
 Attack: 205
@@ -751,8 +844,10 @@ Luck: 125
 Experience: 375
 Gold: 407
 Loot: [["Hornet Venom", "33%"], ["Insect Stinger", "20%"]]
+Findable in: ["SagelyGrounds4", "Lunecry Weald - North", "SagelyGrounds/Lunecry", "Lunecry Weald - West", "Lunecry Weald - East", "Lunecry/Recluse"]
 ---
 Id 75: Devillish Mimic
+Description: Even trickier buggers that make sure that if the shock doesn’t kill you, then they will. They disguise travellers as their own cooking, delightfully devilish.
 HP: 6500
 MP: 250
 Attack: 193
@@ -766,6 +861,7 @@ Gold: 1600
 Loot: [["Ancient Insignia", "3%"], ["Liquid Gold", "4%"]]
 ---
 Id 76: Pit Viper
+Description: This snake hides in dirt burrows and lashes out at prey when they draw too near.
 HP: 4500
 MP: 0
 Attack: 148
@@ -777,8 +873,10 @@ Luck: 90
 Experience: 359
 Gold: 399
 Loot: [["Snake Fang", "10%"]]
+Findable in: ["The Dry Beneath", "Anvil's Throat"]
 ---
 Id 77: Grave Defiler
+Description: These ruthless vultures will hunt those dying and dead as easy prey and leave their corpse unrecognisable.
 HP: 6000
 MP: 300
 Attack: 183
@@ -790,8 +888,10 @@ Luck: 100
 Experience: 620
 Gold: 687
 Loot: [["Heavy Feather", "8%"], ["Fallen Star", "7%"]]
+Findable in: ["The Dry Beneath"]
 ---
 Id 78: Maelstrom Cerberus
+Description: A creature that once thrived in the intense darkness of Devil's Eye Land. Archaeological surveys there have discovered ancient art that seemingly depicts their domestication by the Diaboli.
 HP: 21000
 MP: 700
 Attack: 218
@@ -805,6 +905,7 @@ Gold: 6000
 Loot: [["Oil of Ill-Intent", "100%"]]
 ---
 Id 79: Stallion of Plague
+Description: This equine epidemic-causer has been said to have created many a pestilence throughout history. It neighs every time a victim is infected.
 HP: 6000
 MP: 800
 Attack: 156
@@ -816,8 +917,10 @@ Luck: 115
 Experience: 623
 Gold: 690
 Loot: [["Oil of Ill-Intent", "7%"], ["Sage's Water", "8%"]]
+Findable in: ["The Vile Beneath"]
 ---
 Id 80: Benevolent Manticore
+Description: It soars through the sky shining down a radiant light upon all peaceful beings, but it will show no mercy in maiming those who brutalise living creatures.
 HP: 21000
 MP: 700
 Attack: 232
@@ -828,9 +931,10 @@ Agility: 300
 Luck: 165
 Experience: 5500
 Gold: 6000
-Loot: [["Templar's Ashes", "100%"]]
+Loot: [["Lustred Sundial", "100%"]]
 ---
 Id 81: Angel
+Description: Hallowed maidens of madness who will go to extreme lengths to sanctify all there is. They form choirs to purify the most accursed entities.
 HP: 4800
 MP: 800
 Attack: 112
@@ -841,9 +945,11 @@ Agility: 150
 Luck: 145
 Experience: 509
 Gold: 564
-Loot: [["Templar's Ashes", "7%"], ["Feather of Renewal", "6%"]]
+Loot: [["Lustred Sundial", "7%"], ["Feather of Renewal", "6%"]]
+Findable in: ["The Shining Beneath"]
 ---
 Id 82: Warden of Skies
+Description: Knights manifested entirely from the Light element, they are devout to their order and will battle anyone who poses a threat to their domain.
 HP: 6000
 MP: 250
 Attack: 200
@@ -855,8 +961,10 @@ Luck: 130
 Experience: 626
 Gold: 693
 Loot: [["Foreteller's Sword", "7%"], ["Talisman of Light", "9%"]]
+Findable in: ["The Shining Beneath"]
 ---
 Id 83: Shadow Collossus
+Description: This elite soldier of Vezran’s invoked legion was instructed to simply destroy anything that stands in its way.
 HP: 3000
 MP: 500
 Attack: 110
@@ -865,11 +973,12 @@ Magical Attack: 80
 Magical Defence: 79
 Agility: 30
 Luck: 50
-Experience: 1750
+Experience: 2000
 Gold: 0
 Loot: [["Abbysal Fluid", "100%"]]
 ---
 Id 84: Torrential Behemoth
+Description: This humungous beast
 HP: 24000
 MP: 1000
 Attack: 300
@@ -883,6 +992,7 @@ Gold: 10000
 Loot: [["Tears of Cedarus", "100%"]]
 ---
 Id 85: Abhorent Mimic
+Description: EVEN trickier buggers et cetera, et cetera. They allegedly smell quite bad, so the fact that you didn't catch it first is beyond me.
 HP: 11000
 MP: 400
 Attack: 264
@@ -896,6 +1006,7 @@ Gold: 2400
 Loot: [["Ancient Insignia", "3%"], ["Liquid Gold", "7%"]]
 ---
 Id 86: Black Pus
+Description: \}A semi-sentient ooze composed of necrotic sludge, often found festering in battlefields or grave sites. Black Pus feeds on rot and suffering, its regenerative properties allowing it to reconstitute from nearly any injury. Though slow and formless, it poses a serious threat if left unchecked.
 HP: 2000
 MP: 0
 Attack: 140
@@ -907,8 +1018,10 @@ Luck: 15
 Experience: 406
 Gold: 451
 Loot: [["Slimedrop", "33%"], ["Abbysal Fluid", "7%"]]
+Findable in: ["BlackPusDen"]
 ---
 Id 87: Sickening Ooze
+Description: \}An advanced mutation of Black Pus, the Sickening Ooze radiates a miasma of decay. Its body secretes volatile enzymes that break down flesh and bone alike, accelerating rot and disease in nearby creatures. Direct contact often results in a painful, lasting contamination.
 HP: 4500
 MP: 0
 Attack: 195
@@ -920,8 +1033,10 @@ Luck: 50
 Experience: 920
 Gold: 1107
 Loot: [["Slimedrop", "50%"], ["Abbysal Fluid", "8%"]]
+Findable in: ["BlackPusDen"]
 ---
 Id 88: Stygian Ichor
+Description: A vile culmination of the ooze strain, the thing pulses with necrotic energy and an unnatural will to persist. Standard weapons often prove useless against its ever-mending form.
 HP: 7000
 MP: 0
 Attack: 260
@@ -933,8 +1048,10 @@ Luck: 150
 Experience: 1460
 Gold: 1611
 Loot: [["Dark Ooze Bodygear", "6%"], ["Abbysal Fluid", "13%"], ["Soul Vigour Vial", "5%"]]
+Findable in: ["BlackPusDen"]
 ---
 Id 89: Stallion of War
+Description: Armoured in scorched steel and shrouded in smoke, the Stallion of War gallops through battlefields unseen, a manifestation of unending conflict.
 HP: 6000
 MP: 800
 Attack: 156
@@ -961,6 +1078,7 @@ Gold: 690
 Loot: [["Ghostfruit", "7%"], ["Sage's Water", "8%"]]
 ---
 Id 91: Stallion of Death
+Description: Encased in hoarfrost and wreathed in mist, this stallion is a spectral herald of the cold beyond life. Its approach brings an unnatural chill that seeps into bone and soul alike.
 HP: 6000
 MP: 800
 Attack: 156
@@ -971,9 +1089,10 @@ Agility: 165
 Luck: 115
 Experience: 623
 Gold: 690
-Loot: [["Freezing Scythe", "7%"], ["Sage's Water", "8%"]]
+Loot: [["Scythe of Hoarfrost", "7%"], ["Sage's Water", "8%"]]
 ---
 Id 92: Throttleroot
+Description: When in such a nutritionally rich environment, it is only natural that even hemiparasitic plants can grow beyond reasonable expectations.
 HP: 3250
 MP: 65
 Attack: 163
@@ -985,8 +1104,10 @@ Luck: 100
 Experience: 345
 Gold: 389
 Loot: [["Bei Root", "17%"], ["Stalwort", "13%"]]
+Findable in: ["Lunecry Recluse", "Lunecry Recluse", "RecluseCaveEntrance", "Zysargia'sRecluse1"]
 ---
 Id 93: Steward of the Mantle
+Description: \}A Nature and Earth spirit found exclusively beneath the Lunecry Recluse. They serve as a guardian of subterranean balance, believed to regulate the biosphere within deep tectonic chambers. Though incorporeal, it can exert significant physical force when provoked.
 HP: 5000
 MP: 200
 Attack: 138
@@ -998,8 +1119,10 @@ Luck: 95
 Experience: 519
 Gold: 580
 Loot: [["Spirit Essence", "14%"], ["Ironbark", "8%"]]
+Findable in: ["Zysargia'sRecluse2", "Zysargia'sRecluse3"]
 ---
 Id 104: Mossy Bouldergeist
+Description: A Bouldergeist estranged from its usual cousins, appearing only deep into Lunecry. The moss on its surface is said to have mild healing properties.
 HP: 3500
 MP: 100
 Attack: 90
@@ -1011,8 +1134,10 @@ Luck: 35
 Experience: 306
 Gold: 341
 Loot: [["Iron Ore", "13%"], ["Silver Ore", "7%"]]
+Findable in: ["Lunecry Recluse", "RecluseCaveEntrance", "Zysargia'sRecluse1", "Zysargia'sRecluse2", "Zysargia'sRecluse3"]
 ---
 Id 105: Contorted Amalgamation
+Description: They collect the swords of adventurers that they slay and keep them as trophies, yearning for fine additions to their collection.
 HP: 6800
 MP: 120
 Attack: 173
@@ -1024,8 +1149,10 @@ Luck: 110
 Experience: 701
 Gold: 776
 Loot: [["Omnium", "7%"], ["Rune Blade", "7%"]]
+Findable in: ["DarkBeneath8a", "The Thunderous Beneath", "The Soaking Beneath"]
 ---
 Id 106: Skeletal King
+Description: A reanimated skeleton that was once a respected king. It continues to proudly lead its soldiers, even in death.
 HP: 14000
 MP: 0
 Attack: 258
@@ -1037,8 +1164,10 @@ Luck: 155
 Experience: 1431
 Gold: 1579
 Loot: [["Chaos Doomplate", "7%"], ["Terrahammer", "7%"]]
+Findable in: ["DarkBeneath8a"]
 ---
 Id 107: Bone Conjurer
+Description: A reanimated skeleton that used to be a sorcerer of some kind. Now they only serve Domosseus.
 HP: 6000
 MP: 500
 Attack: 78
@@ -1050,6 +1179,7 @@ Luck: 125
 Experience: 613
 Gold: 679
 Loot: [["Necrotic Sceptre", "7%"], ["Phantom Shadowmail", "8%"]]
+Findable in: ["DarkBeneath8a", "The Thunderous Beneath", "The Soaking Beneath"]
 ---
 Id 108: Malignant Volwrath
 HP: 16000
@@ -1063,8 +1193,10 @@ Luck: 155
 Experience: 6500
 Gold: 5500
 Loot: [["Vilebrand Fauchard", "50%"], ["Sanguine Oath", "50%"]]
+Findable in: ["DarkBeneath9"]
 ---
 Id 109: Bouldergeist
+Description: A loathesome individual once suggested they should be dubbed "Punk Rockers". They were rightfully banished forthwith from the scientific community.
 HP: 3000
 MP: 100
 Attack: 110
@@ -1076,8 +1208,10 @@ Luck: 30
 Experience: 306
 Gold: 341
 Loot: [["Iron Ore", "13%"]]
+Findable in: ["Tunnels3", "Tunnels4"]
 ---
 Id 110: Jagged Bouldergeist
+Description: A Bouldergeist that wields its sharper edges with thoughtless aggression.
 HP: 2000
 MP: 150
 Attack: 130
@@ -1089,8 +1223,10 @@ Luck: 40
 Experience: 318
 Gold: 353
 Loot: [["Copper Ore", "10%"], ["Silver Ore", "8%"]]
+Findable in: ["Tunnels4"]
 ---
 Id 111: Warding Bouldergeist
+Description: A Bouldergeist that feels like the true treasure was the friends it made along the way.
 HP: 4000
 MP: 120
 Attack: 70
@@ -1102,8 +1238,10 @@ Luck: 25
 Experience: 405
 Gold: 455
 Loot: [["Tin Ore", "10%"], ["Rialite", "8%"]]
+Findable in: ["Tunnels3", "Tunnels4", "Lunecry Recluse", "RecluseCaveEntrance", "Zysargia'sRecluse1", "Zysargia'sRecluse2", "Zysargia'sRecluse3"]
 ---
 Id 112: Man-o'-Storms
+Description: While most jellyfish have adapted a mild sting to keep predators at bay,  this particular species wields powerful bioelectric currents for a much stronger deterrent.
 HP: 7800
 MP: 800
 Attack: 127
@@ -1115,8 +1253,10 @@ Luck: 200
 Experience: 820
 Gold: 902
 Loot: [["Seaweed", "17%"]]
+Findable in: ["The Thunderous Beneath"]
 ---
 Id 113: Butter Golem
+Description: A bigger blob of...butter?
 HP: 6000
 MP: 250
 Attack: 200
@@ -1128,8 +1268,10 @@ Luck: 150
 Experience: 5500
 Gold: 7500
 Loot: [["Butter Knife", "50%"], ["Butter Knife Enhancer", "1%"], ["Butter", "1%"]]
+Findable in: ["DarkBeneath8a", "DarkBeneath9", "BlackPusDen"]
 ---
 Id 114: Butter Manifestation
+Description: A testament to butter's true ideals.
 HP: 10000
 MP: 400
 Attack: 250
@@ -1141,6 +1283,7 @@ Luck: 200
 Experience: 20000
 Gold: 25000
 Loot: [["Butter Knife", "100%"], ["Butter Knife Enhancer", "3%"], ["Butter", "3%"]]
+Findable in: ["????????"]
 ---
 Id 115: Void Leviathan
 HP: 22000
@@ -1154,6 +1297,7 @@ Luck: 250
 Experience: 10000
 Gold: 12000
 Loot: [["Elixir", "10%"], ["Void Residue", "33%"], ["Book of Souls", "25%"]]
+Findable in: ["????????"]
 ---
 Id 116: Void Eldritch Devourer
 HP: 27000
@@ -1167,12 +1311,14 @@ Luck: 200
 Experience: 14000
 Gold: 16000
 Loot: [["Contaminated Conduit", "5%"], ["Void Residue", "100%"], ["Void Residue", "50%"]]
+Findable in: ["????????"]
 ---
 Id 117: Rocklereige
+Description: The monster that forced the Marrarockan miners to flee that ancient mineshaft, now reduced the rubble.
 HP: 4500
 MP: 250
 Attack: 140
-Defence: 260
+Defence: 250
 Magical Attack: 80
 Magical Defence: 40
 Agility: 30
@@ -1182,6 +1328,7 @@ Gold: 3500
 Loot: [["Rialite", "100%"], ["Silver Ore", "100%"], ["Iron Ore", "100%"]]
 ---
 Id 118: Black Lidra
+Description: The smallest species of lidra, they tend to hide in the darkness of caves to avoid predators. They're quick and can dodge attacks effortlessly.
 HP: 1000
 MP: 0
 Attack: 70
@@ -1193,6 +1340,7 @@ Luck: 60
 Experience: 132
 Gold: 150
 Loot: [["Bat Wings", "9%"]]
+Findable in: ["MineEntrance", "Tunnels1", "Tunnels1Extended", "Tunnels1Ladder", "Tunnels2Bridge", "Tunnels2Dorms", "Tunnels3", "Tunnels4"]
 ---
 Id 119: William
 HP: 20000
@@ -1221,6 +1369,7 @@ Gold: 50000
 Loot: []
 ---
 Id 121: Rocklesiege
+Description: Another member of the great golem family, this species will barrage you with a constant stream of rocks and stones.
 HP: 7000
 MP: 500
 Attack: 220
@@ -1234,6 +1383,7 @@ Gold: 4600
 Loot: [["Rialite", "100%"], ["Rialite", "50%"], ["Omnium", "25%"]]
 ---
 Id 122: Rockleliege
+Description: The king of the golems, this enormous creature can singlehandedly wreak havoc upon all in its way.
 HP: 14000
 MP: 1000
 Attack: 440
@@ -1247,6 +1397,7 @@ Gold: 9000
 Loot: [["Rialite", "100%"], ["Omnium", "100%"], ["Raxorium Ore", "33%"]]
 ---
 Id 123: Tempest Titan
+Description: This manifestation of Storm can attack at surprising speed, creating shockwaves that sound remarkably like a crack of thunder.
 HP: 8300
 MP: 250
 Attack: 260
@@ -1258,8 +1409,10 @@ Luck: 100
 Experience: 850
 Gold: 935
 Loot: [["Thunder Rod", "9%"], ["Thundrite", "7%"]]
+Findable in: ["The Thunderous Beneath"]
 ---
 Id 124: Abyssal Coraljaws
+Description: These bottom-feeders devour corpses that fall on them until there's nothing left, though they will greedily consume living beings that stumble upon them too.
 HP: 7600
 MP: 200
 Attack: 280
@@ -1270,9 +1423,11 @@ Agility: 140
 Luck: 125
 Experience: 785
 Gold: 868
-Loot: [["Shark Tooth", "10%"], ["Tears of Cedarus", "7%"]]
+Loot: [["Shark Tooth", "10%"], ["Coral Brief", "7%"]]
+Findable in: ["The Soaking Beneath"]
 ---
 Id 125: Shadow Revenant
+Description: A newer version of the Shadow Creatures that Vezran concocted to battle tougher foes.
 HP: 1800
 MP: 300
 Attack: 90
@@ -1284,8 +1439,10 @@ Luck: 100
 Experience: 305
 Gold: 0
 Loot: [["Oil of Ill-Intent", "13%"]]
+Findable in: ["Asceroth", "AscerothCityCentre", "AscerothPalaceGrounds"]
 ---
 Id 126: Green Lidra
+Description: A species of lidra with a greenish hue, telltale of their venomous bite.
 HP: 1700
 MP: 0
 Attack: 116
@@ -1297,6 +1454,7 @@ Luck: 80
 Experience: 207
 Gold: 232
 Loot: [["Bat Wings", "10%"]]
+Findable in: ["Asceroth", "AscerothCityCentre", "AscerothPalaceGrounds", "Mister e-cave"]
 ---
 Id 127: Garuda
 HP: 7800
@@ -1310,8 +1468,10 @@ Luck: 350
 Experience: 840
 Gold: 929
 Loot: [["Flare Feather", "9%"], ["Wind's Wing", "7%"]]
+Findable in: ["The Blustering Beneath"]
 ---
 Id 128: Dreadstinger Hornet Swarm
+Description: The very worst kind of hornets you can come across. If their venom doesn't kill you, their crits will. If you see even one, you're better off fleeing.
 HP: 7000
 MP: 0
 Attack: 280
@@ -1323,8 +1483,10 @@ Luck: 300
 Experience: 900
 Gold: 990
 Loot: [["Hornet Venom", "100%"], ["Insect Stinger", "50%"], ["Dispel Herb", "8%"]]
+Findable in: ["The Blustering Beneath"]
 ---
 Id 129: Baleful Volwrath
+Description: Originating from the most depraved depths of a maligned soul, this spectre can annihilate swathes of lives in an instant with its overwhelming array of magic.
 HP: 30000
 MP: 9999
 Attack: 425
@@ -1336,8 +1498,10 @@ Luck: 280
 Experience: 15000
 Gold: 20000
 Loot: [["Lord of Chaos' Sceptre", "100%"]]
+Findable in: ["DarkBeneath10"]
 ---
 Id 130: Aberrational Amalgamation
+Description: Lurking in the shadows, these sinister revenants derive pleasure from the demise of adventurers, claiming their swords as trophies.
 HP: 11000
 MP: 200
 Attack: 250
@@ -1349,8 +1513,10 @@ Luck: 225
 Experience: 1145
 Gold: 1264
 Loot: [["Omnium", "13%"], ["Soulreach Sabre", "6%"]]
+Findable in: ["DarkBeneath9"]
 ---
 Id 131: Skeletal Lord
+Description: A reanimated skeleton that was once a being of immense power. It continues to proudly lead its allies, even in death.
 HP: 24000
 MP: 250
 Attack: 325
@@ -1362,8 +1528,10 @@ Luck: 200
 Experience: 2450
 Gold: 2665
 Loot: [["King's Disgrace", "7%"], ["Un-Maker", "6%"]]
+Findable in: ["DarkBeneath9"]
 ---
 Id 132: Sage of the Bones
+Description: A wretched skeleton, once a formidable sorcerer who wielded dark powers with mastery.
 HP: 8500
 MP: 800
 Attack: 92
@@ -1375,6 +1543,7 @@ Luck: 155
 Experience: 851
 Gold: 974
 Loot: [["Vortex Blade", "7%"], ["Boots of Adrenaline", "8%"]]
+Findable in: ["DarkBeneath9"]
 ---
 Id 133: Void Weaver
 HP: 38000
@@ -1388,8 +1557,10 @@ Luck: 150
 Experience: 22000
 Gold: 28000
 Loot: [["Contaminated Conduit", "10%"], ["Void Residue", "100%"], ["Void Residue", "100%"]]
+Findable in: ["????????"]
 ---
 Id 134: Atomic Bouldergeist
+Description: A Bouldergeist with mysterious rocks jutting out of it. Probably better off keeping your distance.
 HP: 11000
 MP: 250
 Attack: 270

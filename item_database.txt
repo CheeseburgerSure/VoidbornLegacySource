@@ -7,6 +7,8 @@ Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "", "+500"]]
 Ingredients: [["Red Pearl Orchid", 1], ["Stalwort", 2], ["Bat Wings", 2]]
+Purchasable from: ["FortCharlie", "PeregrineShop", "TalburyMysticShop", "IfradShop", "Woman'sHouse", "Anvil'sMarketInterior", "MarrarockShop", "DauvillierShop", "Witch Hut", "StremleyShop", "SlumberwoodShop"]
+Used for making: ["Ultimate Potion"]
 ---
 Id 2: Enhanced Potion
 Desc: A magical potion that restores 2,500 HP.
@@ -17,6 +19,7 @@ Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "", "+2500"]]
 Ingredients: [["Red Pearl Orchid", 2], ["Stalwort", 4], ["Bat Wings", 3], ["Juggernaut Leaf", 2], ["Slime Remedy", 1]]
+Purchasable from: ["FortCharlie", "TalburyMysticShop", "IfradShop", "Anvil'sMarketInterior", "DauvillierShop", "Witch Hut", "StremleyShop", "SlumberwoodShop"]
 ---
 Id 3: Ultimate Potion
 Desc: An enchanted potion that restores all HP.
@@ -27,6 +30,8 @@ Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "100%", ""]]
 Ingredients: [["Red Pearl Orchid", 4], ["Stalwort", 6], ["Bat Wings", 5], ["Juggernaut Leaf", 4], ["Blue-Blood Cherries", 2], ["Potion", 1], ["Slime Remedy", 2]]
+Purchasable from: ["TalburyMysticShop", "PeregrinePortAlley", "Anvil'sMarketInterior"]
+Used for making: ["Elixir"]
 ---
 Id 4: Magic Water
 Desc: A vial of magical water that restores 50 MP.
@@ -36,7 +41,9 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover MP: ", "", "+50"]]
-Ingredients: [["Milk", 1], ["Spirit Essence", 2], ["Revel Weed", 2]]
+Ingredients: [["Milk", 1], ["Blue-Blood Cherries", 2], ["Revel Weed", 2]]
+Purchasable from: ["FortCharlie", "TalburyMysticShop", "Woman'sHouse", "Anvil'sMarketInterior", "MarrarockShop", "DauvillierShop", "Witch Hut", "StremleyShop", "SlumberwoodShop"]
+Used for making: ["Blazing Beverage"]
 ---
 Id 5: Sage's Water
 Desc: A vial of enchanted water that restores 200 MP.
@@ -46,8 +53,10 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover MP: ", "", "+200"]]
-Ingredients: [["Milk", 2], ["Spirit Essence", 3], ["Revel Weed", 3], ["Potion", 2]]
+Ingredients: [["Milk", 2], ["Blue-Blood Cherries", 3], ["Spirit Essence", 2], ["Revel Weed", 3], ["Yellow Fang", 1]]
 Dropped By: [["Stallion of Plague", "8%"], ["Stallion of War", "8%"], ["Stallion of Famine", "8%"], ["Stallion of Death", "8%"]]
+Purchasable from: ["FortCharlie", "TalburyMysticShop", "Anvil'sMarketInterior", "DauvillierShop", "Witch Hut", "StremleyShop", "SlumberwoodShop"]
+Used for making: ["Blessed Abjugation"]
 ---
 Id 6: Antidote
 Desc: Treats poison.
@@ -58,6 +67,7 @@ Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Remove State: ", "Poison", "100%"]]
 Ingredients: [["Bei Root", 2], ["Hornet Venom", 1]]
+Purchasable from: ["FortCharlie", "EmwoodShop", "TalburyMarket", "PeregrineMarket/Shipyard", "Anvil'sMarketInterior", "Caravan park", "SlumberwoodShop"]
 ---
 Id 7: Dispel Herb
 Desc: A sought-after medicinal herb that can treat some obscure ailments such as Silence, Confusion, Paralysis, and Stun.
@@ -68,6 +78,8 @@ Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Remove State: ", "Silence", "100%"], ["Remove State: ", "Confusion", "100%"], ["Remove State: ", "Paralysis", "100%"], ["Remove State: ", "Stun", "100%"]]
 Dropped By: [["Ravenous Mawchid", "8%"], ["Dreadstinger Hornet Swarm", "8%"]]
+Purchasable from: ["FortCharlie", "TalburyMarket", "Anvil'sMarketInterior", "Witch Hut", "Caravan park"]
+Used for making: ["Ancient Sage's Water"]
 ---
 Id 8: Elixir
 Desc: An ethereal potion that restores all HP and MP.
@@ -79,6 +91,7 @@ Occasion: Always
 Effects and Traits: [["Recover HP: ", "100%", ""], ["Recover MP: ", "100%", ""]]
 Ingredients: [["Ultimate Potion", 1], ["Ancient Sage's Water", 1], ["Ghostfruit", 1], ["Spirit Essence", 3]]
 Dropped By: [["Void Leviathan", "10%"]]
+Purchasable from: ["TalburyMysticShop", "Anvil'sMarketInterior", "Witch Hut"]
 ---
 Id 9: Life Up
 Desc: Increases MHP by 50.
@@ -151,6 +164,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Only from the Menu
 Effects and Traits: [["Increase Paramter: ", "LUK", 3]]
+Used for making: ["Riskmaster's Coin"]
 ---
 Id 17: Stalwort
 Desc: A natural painkiller. Recovers some HP and soothes Headaches.
@@ -161,6 +175,8 @@ Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "5%", ""], ["Remove State: ", "Headache", "100%"]]
 Dropped By: [["Roots of Evil", "11%"], ["Throttleroot", "13%"]]
+Purchasable from: ["EmwoodTavern", "EmwoodShop", "TalburyMarket", "Anvil'sMarketInterior", "DauvillierShop", "Caravan park", "StremleyShop"]
+Used for making: ["Potion", "Enhanced Potion", "Ultimate Potion", "Slime Remedy"]
 ---
 Id 18: Apple Juice
 Desc: Some freshly squeezed apple juice from the famous orchards of Emwood. Recovers some HP.
@@ -170,6 +186,8 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "3%", "+100"]]
+Purchasable from: ["EmwoodTavern", "TalburyOuterInn", "TalburyTavern", "TheDivingFalconF1", "PeregrineMarket/Shipyard", "StremleyInnPub", "StremleyShop", "DauvillierOldGarrison"]
+Used for making: ["Soul Vigour Vial"]
 ---
 Id 19: Milk
 Desc: Good fo' yo' bones! Recovers a little HP and raises DEF for the battle.
@@ -179,6 +197,8 @@ Consume: Yes
 Scope: One Ally
 Occasion: Only in Battle
 Effects and Traits: [["Add Buff: ", "DEF", "200 turns"], ["Recover HP: ", "5%", "+75"]]
+Purchasable from: ["EmwoodTavern", "PeregrInn", "TalburyOuterInn", "TalburyTavern", "TalburyMarket", "TheDivingFalconF1", "IfradShop", "FortBarry", "Caravan park", "StremleyInnPub", "StremleyShop", "SlumberwoodShop", "Pub/BreweryGF"]
+Used for making: ["Magic Water", "Sage's Water", "Ancient Sage's Water"]
 ---
 Id 20: Apple
 Desc: An apple. Recovers 25 HP.
@@ -188,6 +208,8 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "", "+25"]]
+Purchasable from: ["FortCharlie", "EmwoodShop", "PeregrInn", "TalburyMarket", "PeregrineMarket/Shipyard", "Anvil'sMarketInterior", "FortBarry", "StremleyInnPub", "StremleyShop", "SlumberwoodShop", "Pub/BreweryGF", "Pub/BreweryStage", "DauvillierOldGarrison"]
+Used for making: ["Bone Apple Tea"]
 ---
 Id 21: Bread
 Desc: A loaf of baked bread. Recovers some HP.
@@ -197,6 +219,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "5%", "+100"]]
+Purchasable from: ["FortCharlie", "EmwoodTavern", "EmwoodShop", "PeregrInn", "TalburyOuterInn", "PeregrineShop", "TalburyTavern", "TalburyShop", "TalburyMarket", "TheDivingFalconF1", "PeregrineMarket/Shipyard", "FlowemShop", "IfradShop", "Anvil'sMarketInterior", "DauvillierShop", "FortBarry", "Caravan park", "StremleyInnPub", "StremleyShop", "SlumberwoodShop", "Pub/BreweryGF", "DauvillierOldGarrison"]
 ---
 Id 22: Prime Juice
 Desc: Fuels energy directly into your Soul, causing significant damage but increasing your PR.
@@ -214,6 +237,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "2%", "+25"]]
+Purchasable from: ["Anvil'sMarketInterior", "Pub/BreweryGF", "Pub/BreweryStage"]
 ---
 Id 24: Bucket of Cram
 Desc: Mushy substance to put between your gums. Not dip though. Fully heals and gain 10 PR.
@@ -232,6 +256,8 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Wisp", "8%"], ["Weeping Wisp", "8%"], ["Guardian Spirit", "13%"], ["Volwrath", "100%"], ["Wailing Wisp", "8%"], ["Burning Spirit", "8%"], ["Forest Custodian", "13%"], ["Steward of the Mantle", "14%"]]
+Purchasable from: ["PeregrineSecretShop"]
+Used for making: ["Sage's Water", "Elixir", "Ancient Sage's Water", "Flame Catalyst", "Icicle Catalyst", "Tempest Catalyst", "Ocean Catalyst", "Mountain Catalyst", "Sky Catalyst", "Astral Catalyst", "Night Catalyst", "Forest Catalyst", "Spectre's Regret", "Soulspite Longbow", "Shimmerveil Shroud"]
 ---
 Id 26: Slimedrop
 Desc: Collected residue from a Slime. Useful in Alchemy.
@@ -241,6 +267,8 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Blue Slime", "17%"], ["Green Slime", "20%"], ["Purple Slime", "17%"], ["Pink Slime", "20%"], ["Black Pus", "33%"], ["Sickening Ooze", "50%"]]
+Purchasable from: ["TalburyMarket", "Anvil'sMarketInterior"]
+Used for making: ["Slime Remedy"]
 ---
 Id 27: Bat Wings
 Desc: Wings taken from a bat. Useful in Alchemy.
@@ -250,6 +278,8 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Bat", "14%"], ["Cave Bat", "13%"], ["Black Lidra", "9%"], ["Green Lidra", "10%"]]
+Purchasable from: ["TalburyMarket"]
+Used for making: ["Potion", "Enhanced Potion", "Ultimate Potion", "Bat's Sight"]
 ---
 Id 28: Spider Silk
 Desc: Silk extracted from a Spider. Useful in Alchemy.
@@ -259,6 +289,8 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Spider", "13%"], ["Thunder Spider", "11%"]]
+Purchasable from: ["TalburyMarket", "Anvil'sMarketInterior"]
+Used for making: ["Cotton"]
 ---
 Id 30: Hornet Venom
 Desc: The venom of a giant Hornet. Useful in Alchemy.
@@ -269,6 +301,8 @@ Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Add State: ", "Poison", "100%"]]
 Dropped By: [["Hornet", "14%"], ["Mad Hornet", "14%"], ["Hornet Swarm", "25%"], ["Mad Hornet Swarm", "33%"], ["Dreadstinger Hornet Swarm", "100%"]]
+Purchasable from: ["TalburyMarket"]
+Used for making: ["Antidote", "Snake's Vengeance", "Hornet's Wrath", "Poison-tipped Arrows"]
 ---
 Id 31: Ancient Insignia
 Desc: The insignia of a kingdom from a by-gone age. There may be a collector willing to trade for them.
@@ -287,6 +321,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Rockleliege", "33%"], ["Atomic Bouldergeist", "4%"]]
+Used for making: ["Infermius Raxorium", "Elazireth Raxorium", "Zysargia Raxorium", "Tempora Raxorium", "Justicium Raxorium", "Maelsium Raxorium", "Avaking Raxorium", "Flame Catalyst", "Icicle Catalyst", "Tempest Catalyst", "Ocean Catalyst", "Mountain Catalyst", "Sky Catalyst", "Astral Catalyst", "Night Catalyst", "Forest Catalyst", "Voidgloom Reaper", "Voidfang Piercer", "Void's Eclipse", "Void Weaver's Loom", "Void-Wreathed Carapace", "Void-Wreathed Cloak", "Abyssal Voidguard", "Grasp of the Void", "Void Mistward", "Void-Breather's Cage", "Void Steppers", "Voidsoul Paragon", "Zysargia's Ward", "Tempora's Echo", "Maelsium's Reckoning", "Justicium's Blessing", "Infermius' Pyre", "Avaking's Benevolence", "Elazireth's Current", "Prismatic Morphguard"]
 ---
 Id 33: Infermius Raxorium
 Desc: A refined form of Raxorium in the element of Infermius. Useful in alchemy.
@@ -296,6 +331,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Ingredients: [["Raxorium Ore", 1], ["Crystalised Flame", 2]]
+Used for making: ["Blaze of Infermius", "Infermius' Pyre"]
 ---
 Id 34: Elazireth Raxorium
 Desc: A refined form of Raxorium in the elements of Elazireth. Useful in alchemy.
@@ -305,6 +341,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Ingredients: [["Raxorium Ore", 1], ["Tears of Cedarus", 1], ["Winter's Heart", 1]]
+Used for making: ["Wake of Elazireth", "Elazireth's Current"]
 ---
 Id 35: Zysargia Raxorium
 Desc: A refined form of Raxorium in the elements of Zysargia. Useful in alchemy.
@@ -314,6 +351,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Ingredients: [["Raxorium Ore", 1], ["Dylorien", 1], ["Fallen Star", 1]]
+Used for making: ["Might of Zysargia", "Zysargia's Ward"]
 ---
 Id 36: Tempora Raxorium
 Desc: A refined form of Raxorium in the elements of Tempora. Useful in alchemy.
@@ -323,6 +361,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Ingredients: [["Raxorium Ore", 1], ["Wind's Wing", 1], ["Thundrite", 1]]
+Used for making: ["Fury of Tempora", "Tempora's Echo"]
 ---
 Id 37: Justicium Raxorium
 Desc: A refined form of Raxorium in the elements of Justicium. Useful in alchemy.
@@ -331,7 +370,8 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
-Ingredients: [["Raxorium Ore", 1], ["Templar's Ashes", 2]]
+Ingredients: [["Raxorium Ore", 1], ["Lustred Sundial", 2]]
+Used for making: ["Radiance of Justicium", "Justicium's Blessing"]
 ---
 Id 38: Maelsium Raxorium
 Desc: A refined form of Raxorium in the element of Maelsium. Useful in alchemy. 
@@ -341,6 +381,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Ingredients: [["Raxorium Ore", 1], ["Oil of Ill-Intent", 2]]
+Used for making: ["Scourge of Maelsium", "Maelsium's Reckoning"]
 ---
 Id 39: Avaking Raxorium
 Desc: A refined form of Raxorium in the element of Avaking. Useful in alchemy.
@@ -350,6 +391,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Ingredients: [["Raxorium Ore", 1], ["Ghostfruit", 3]]
+Used for making: ["Energy of Avaking", "Avaking's Benevolence"]
 ---
 Id 40: Talbrian Ale
 Desc: A unique ale dubbed from its origins in Talbury. Has a sweet, fruity taste. Restores some HP.
@@ -359,6 +401,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "4%", ""]]
+Purchasable from: ["TalburyOuterInn", "PeregrineShop", "TalburyTavern", "TalburyShop", "TheDivingFalconF1", "FlowemShop", "Anvil'sMarketInterior", "DauvillierOldGarrison"]
 ---
 Id 41: Slime Remedy
 Desc: A concoction of slime and some basic herbs creates a cream that can be used to soothe Burns.
@@ -369,6 +412,8 @@ Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Remove State: ", "Burn", "100%"], ["Recover HP: ", "5%", ""]]
 Ingredients: [["Slimedrop", 4], ["Bei Root", 1], ["Stalwort", 1]]
+Purchasable from: ["FortCharlie", "PeregrineMarket/Shipyard", "Woman'sHouse", "StremleyShop"]
+Used for making: ["Enhanced Potion", "Ultimate Potion"]
 ---
 Id 42: Mead
 Desc: A simple and common alcoholic drink. Restores a little HP.
@@ -378,6 +423,8 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "3%", ""]]
+Purchasable from: ["FortCharlie", "EmwoodTavern", "TalburyOuterInn", "PeregrineShop", "TalburyTavern", "TalburyShop", "TheDivingFalconF1", "PeregrineMarket/Shipyard", "FlowemShop", "Anvil'sMarketInterior", "MarrarockShop", "DauvillierShop", "FortBarry", "Caravan park", "StremleyInnPub", "StremleyShop", "Pub/BreweryGF", "Pub/BreweryStage", "DauvillierOldGarrison"]
+Used for making: ["Blazing Beverage"]
 ---
 Id 43: Bird Tranquiliser
 Desc: A unique drink only found in a single pub in Talbury, its recipe unknown. Recovers MP and HP.
@@ -387,6 +434,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover MP: ", "2%", ""], ["Recover HP: ", "10%", ""]]
+Purchasable from: ["TalburyTavern"]
 ---
 Id 44: Skull
 Desc: A skull recovered from a skeleton. Useful in Alchemy.
@@ -396,6 +444,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Skeleton", "13%"], ["Withered Skeleton", "13%"]]
+Used for making: ["Bone Apple Tea", "Skeleton's Noggin", "Mind-Control Brace"]
 ---
 Id 45: Bei Root
 Desc: The root of a Bei flower. Strong scent but is known to help in some herbal remedies. Useful in Alchemy.
@@ -405,6 +454,8 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Roots of Evil", "14%"], ["Throttleroot", "17%"]]
+Purchasable from: ["FortCharlie", "TalburyMarket", "PeregrineMarket/Shipyard", "Anvil'sMarketInterior", "Caravan park", "StremleyShop"]
+Used for making: ["Antidote", "Slime Remedy", "Apaslea", "Root Boots"]
 ---
 Id 46: Four-Leaf Clover
 Desc: Consuming can invigorate you to be luckier and to also gain EXP faster.
@@ -414,6 +465,8 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Add State: ", "Lucky Charm", "100%"]]
+Purchasable from: ["TalburyMarket", "Anvil'sMarketInterior", "StremleyShop"]
+Used for making: ["Verdant Leafshroud"]
 ---
 Id 47: Revel Weed
 Desc: A weed that seems to grow in peace despite the presence of evil, reveling in it. Useful in Alchemy.
@@ -423,6 +476,8 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Man-Eating Plant", "13%"], ["Blooming Hunger", "14%"]]
+Purchasable from: ["FortCharlie", "Anvil'sMarketInterior"]
+Used for making: ["Magic Water", "Sage's Water", "Ancient Sage's Water", "Apaslea", "Bat's Sight"]
 ---
 Id 48: Red Pearl Orchid
 Desc: A type of orchid with flowers that grow in perfect red spheres, hence the name. Useful in Alchemy.
@@ -431,15 +486,8 @@ Price: 45G
 Consume: No
 Scope: None
 Occasion: Never
----
-Id 49: Celery
-Desc: Celery, that horrific green malice. Useful in Alchemy, somehow. Eat to lose 1 HP.
-Type: Normal
-Price: 8G
-Consume: Yes
-Scope: The User
-Occasion: Always
-Effects and Traits: [["Recover HP: ", "", "+-1"]]
+Purchasable from: ["Anvil'sMarketInterior", "DauvillierShop", "Caravan park", "StremleyShop", "SlumberwoodShop"]
+Used for making: ["Potion", "Enhanced Potion", "Ultimate Potion"]
 ---
 Id 50: Juggernaut Leaf
 Desc: A famous and relatively rare leaf that is incredibly difficult to damage. Useful in Alchemy.
@@ -448,6 +496,8 @@ Price: 55G
 Consume: No
 Scope: None
 Occasion: Never
+Purchasable from: ["PeregrineMarket/Shipyard", "Anvil'sMarketInterior", "Caravan park", "SlumberwoodShop"]
+Used for making: ["Enhanced Potion", "Ultimate Potion", "Nature's Behest", "Root Boots", "Verdant Leafshroud"]
 ---
 Id 51: Yellow Fang
 Desc: A plant who's thin flowers grows curving downwards, bearing similarity to fangs. Useful in Alchemy.
@@ -456,6 +506,8 @@ Price: 26G
 Consume: No
 Scope: None
 Occasion: Never
+Purchasable from: ["FortCharlie", "TalburyMarket", "Anvil'sMarketInterior", "Caravan park", "StremleyInnPub", "StremleyShop", "SlumberwoodShop"]
+Used for making: ["Sage's Water", "Apaslea", "Snake's Vengeance"]
 ---
 Id 52: Blue-Blood Cherries
 Desc: Bizzare cherries that appear normal but actually have bright blue juice. Useful in Alchemy.
@@ -464,6 +516,8 @@ Price: 68G
 Consume: No
 Scope: None
 Occasion: Never
+Purchasable from: ["Anvil'sMarketInterior", "StremleyShop"]
+Used for making: ["Ultimate Potion", "Magic Water", "Sage's Water", "Ancient Sage's Water"]
 ---
 Id 53: Hunter's Mushrooms
 Desc: A mushroom that has an incredibly strong scent when opened and so is used as a bait. Useful in Alchemy.
@@ -473,6 +527,8 @@ Consume: Yes
 Scope: The User
 Occasion: Only in Battle
 Effects and Traits: [["Add State: ", "Provoke", "100%"]]
+Purchasable from: ["TalburyMarket", "Anvil'sMarketInterior", "Caravan park", "SlumberwoodShop"]
+Used for making: ["Fish Oil Cream", "Apaslea"]
 ---
 Id 54: Herbal Recipes
 Desc: Various collections of herbal remedies and concoctions, mostly using common ingredients.
@@ -481,6 +537,7 @@ Price: 120G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Purchasable from: ["TalburyMarket"]
 ---
 Id 55: Salmon
 Desc: A huge fish caught in the bay of the Dunnock River, a delicacy in much of the world.
@@ -490,6 +547,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "10%", "+100"]]
+Purchasable from: ["PeregrineShop", "TalburyRiverside", "PeregrineSailorsStop", "TheDivingFalconF1", "PeregrineMarket/Shipyard", "FlowemShop", "DauvillierShop", "StremleyInnPub", "StremleyShop", "Pub/BreweryGF"]
 ---
 Id 56: Trout
 Desc: A fish found deep in the Dunnock River. A common but popular food.
@@ -499,6 +557,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "2%", "+50"]]
+Purchasable from: ["PeregrineShop", "TalburyRiverside", "PeregrineSailorsStop", "TheDivingFalconF1", "PeregrineMarket/Shipyard", "DauvillierOldGarrison"]
 ---
 Id 57: Mountain Perch
 Desc: A long fish mostly found at the spring lakes at the foot of the western cliffs.
@@ -508,6 +567,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "3%", "+50"]]
+Purchasable from: ["TalburyRiverside", "PeregrineSailorsStop", "PeregrineMarket/Shipyard", "StremleyInnPub", "StremleyShop", "SlumberwoodShop", "Pub/BreweryGF"]
 ---
 Id 58: Carp
 Desc: A usually quite large fish that is found all along the Dunnock River, though they are rarely caught.
@@ -517,6 +577,8 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "6%", "+75"]]
+Purchasable from: ["PeregrineShop", "TalburyRiverside", "PeregrineSailorsStop", "TheDivingFalconF1", "PeregrineMarket/Shipyard", "FlowemShop", "DauvillierShop", "StremleyInnPub", "StremleyShop", "Pub/BreweryGF", "DauvillierOldGarrison"]
+Used for making: ["Fish Oil Cream"]
 ---
 Id 59: Sailors' Friend
 Desc: A type of pollack that often follows sailing ships. This unfortunately makes them easy to catch...
@@ -526,6 +588,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "1%", ""]]
+Purchasable from: ["PeregrineShop", "TalburyRiverside", "PeregrineSailorsStop", "PeregrineMarket/Shipyard", "FlowemShop"]
 ---
 Id 60: The Ancient Sages
 Desc: A large book detailing the history of the Ancient Sages, including their rise and fall. (EMPTY, DO NOT BUY)
@@ -534,6 +597,7 @@ Price: 87G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Purchasable from: ["TalburyMarket"]
 ---
 Id 61: Religion and Templars
 Desc: A book explaining more about the Templars, their religion, and their histories. (EMPTY, DO NOT BUY)
@@ -542,6 +606,7 @@ Price: 36G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Purchasable from: ["TalburyMarket"]
 ---
 Id 62: Wind and How to Cast it
 Desc: A book expanding on the fundamentals of the Wind element.
@@ -550,6 +615,7 @@ Price: 250G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Purchasable from: ["TalburyMarket"]
 ---
 Id 63: Tome of Upgrades
 Desc: \}A book written by the master of alchemy himself. It explains in great detail how to take some of the rarest and most powerful equipment of Adremesis to their full potential.
@@ -566,6 +632,7 @@ Price: 166G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Purchasable from: ["TalburyMarket"]
 ---
 Id 65: Light: How I was Blinded
 Desc: A book retelling the story of wizard who blinded himself when creating Light elemental magic.
@@ -574,6 +641,7 @@ Price: 15G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Purchasable from: ["TalburyMarket"]
 ---
 Id 66: The Dark Ones in the Shadows
 Desc: A book recalling the events of the Lord of Chaos' reign and the damage he caused.
@@ -582,6 +650,7 @@ Price: 78G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Purchasable from: ["TalburyMarket"]
 ---
 Id 67: Cheese
 Desc: Not even Wensleydale?
@@ -591,6 +660,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "", "+5"]]
+Purchasable from: ["TalburyMarket", "TheDivingFalconF1", "StremleyInnPub", "StremleyShop", "Pub/BreweryGF", "Pub/BreweryStage"]
 ---
 Id 68: Wing Pin
 Desc: A mettalic winged pin used to identify a Bird Race enthusiast. Increases chances of winning bets.
@@ -616,6 +686,8 @@ Consume: No
 Scope: None
 Occasion: Never
 Ingredients: [["Cotton", 2]]
+Purchasable from: ["TalburyMarket", "PeregrineSailorsStop"]
+Used for making: ["Bandages", "Hard Leather", "Bandana", "Silk Cloak", "Elemental Cloak", "Workman's Gloves", "Ascerothan Uniform"]
 ---
 Id 71: Cotton
 Desc: Cotton wool, often used in insulation and padding. Useful in Alchemy.
@@ -625,6 +697,8 @@ Consume: No
 Scope: None
 Occasion: Never
 Ingredients: [["Spider Silk", 1]]
+Purchasable from: ["TalburyMarket", "FlowemShop"]
+Used for making: ["Fabric", "Rope", "Bandages", "Adventurer's Garb", "Cotton Robe", "Silk Cloak", "Ascerothan Uniform"]
 ---
 Id 72: Rope
 Desc: A short length of rope that can be used in a variety of ways. Useful in Alchemy.
@@ -634,6 +708,8 @@ Consume: No
 Scope: None
 Occasion: Never
 Ingredients: [["Cotton", 3]]
+Purchasable from: ["TalburyMarket", "DauvillierShop"]
+Used for making: ["Hunter's Bow", "Shortbow", "Anchor"]
 ---
 Id 73: Iron Ore
 Desc: Iron ore that can be extracted and refined into armour or weapons. Useful in Alchemy.
@@ -643,6 +719,8 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Mossy Bouldergeist", "13%"], ["Bouldergeist", "13%"], ["Rocklereige", "100%"]]
+Purchasable from: ["Anvil'sMarketInterior"]
+Used for making: ["Hypersteel", "Hand Axe", "Spear", "Short Sword", "Knife", "Mace", "Terrahammer", "Anchor", "Ironbark Cudgel", "Boulder Bludgeoner", "Ascerothan Sabre", "Circlet", "Iron Plate", "Buckler", "Crescent Arrows", "Broadhead Arrows", "Tectonic Platemail", "Earthwarden's Mantle", "Gaiashell Carapace", "Ascerothan Gauntlets"]
 ---
 Id 74: Silver Ore
 Desc: A rare ore of the shimmering silver. Useful in Alchemy.
@@ -652,6 +730,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Amalgamation", "8%"], ["Mossy Bouldergeist", "7%"], ["Jagged Bouldergeist", "8%"], ["Rocklereige", "100%"]]
+Used for making: ["Hypersteel", "Prophet's Omen", "Candescent Cudgel", "Ascerothan Sabre", "Ascerothan Halberd", "Serrated Broadhead Arrows", "Hooked Arrows", "Ascerothan Gauntlets", "King's Grace", "Riskmaster's Coin"]
 ---
 Id 75: Ghostfruit
 Desc: A rare fruit that resembles black apples, ghostfruit seem to lack a true physical form. Useful in Alchemy.
@@ -662,16 +741,20 @@ Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Add State: ", "Hallucinating", "100%"]]
 Dropped By: [["Forest Custodian", "7%"], ["Stallion of Famine", "7%"]]
+Purchasable from: ["PeregrineSecretShop"]
+Used for making: ["Elixir", "Avaking Raxorium", "Ancient Sage's Water", "Soul Vigour Vial", "Prophet's Omen", "Spectre's Regret", "Mind-Control Brace", "Avaking's Benevolence", "Consciousness Manipulator"]
 ---
 Id 76: Ancient Sage's Water
 Desc: A vial of mystical water that restores all MP.
 Type: Normal
-Price: 5400G
+Price: 3000G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover MP: ", "100%", ""]]
-Ingredients: [["Milk", 4], ["Spirit Essence", 5], ["Revel Weed", 5], ["Enhanced Potion", 2], ["Dispel Herb", 2]]
+Ingredients: [["Milk", 3], ["Blue-Blood Cherries", 3], ["Spirit Essence", 4], ["Revel Weed", 5], ["Dispel Herb", 2], ["Ghostfruit", 1]]
+Purchasable from: ["PeregrinePortAlley", "Anvil'sMarketInterior"]
+Used for making: ["Elixir", "Soul Vigour Vial"]
 ---
 Id 77: Leather
 Desc: A square of leather ready to be crafted into something new. Useful in Alchemy.
@@ -680,6 +763,8 @@ Price: 44G
 Consume: No
 Scope: None
 Occasion: Never
+Purchasable from: ["FortCharlie", "TalburyMarket", "FlowemShop", "MarrarockShop", "FortBarry", "Caravan park"]
+Used for making: ["Short Sword", "Adventurer's Garb", "Hard Leather", "Leather Bandana", "Blacksmith's Boots", "Workman's Gloves"]
 ---
 Id 78: Wood
 Desc: Some generic oak wood. Useful in Alchemy.
@@ -688,6 +773,8 @@ Price: 7G
 Consume: No
 Scope: None
 Occasion: Never
+Purchasable from: ["FortCharlie", "TalburyMarket", "FlowemShop", "DauvillierShop", "FortBarry", "Caravan park"]
+Used for making: ["Hand Axe", "Hunter's Bow", "Spear", "Shortbow", "Wood Staff", "Buckler", "Blunthead Arrows", "Fishhead Arrows", "Crescent Arrows", "Broadhead Arrows", "Serrated Broadhead Arrows", "Hooked Arrows", "Ship Shield", "Oaken Vanguard", "Earthwarden's Mantle"]
 ---
 Id 79: Fur
 Desc: A handful of thick fur. Useful in Alchemy.
@@ -696,6 +783,9 @@ Price: 12G
 Consume: No
 Scope: None
 Occasion: Never
+Dropped By: [["Rat", "5%"], ["Rabid Rat", "6%"]]
+Purchasable from: ["TalburyMarket", "Anvil'sMarketInterior"]
+Used for making: ["Elemental Cloak"]
 ---
 Id 80: Copper Ore
 Desc: An ore of the common copper. Useful in Alchemy.
@@ -705,6 +795,8 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Jagged Bouldergeist", "10%"]]
+Purchasable from: ["Anvil'sMarketInterior"]
+Used for making: ["Hypersteel", "Copper Brace", "Bronze Plate", "Mind-Control Brace"]
 ---
 Id 81: Tin Ore
 Desc: A relatively common metal mostly used to combine with copper to make bronze. Useful in Alchemy.
@@ -714,6 +806,8 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Warding Bouldergeist", "10%"]]
+Purchasable from: ["Anvil'sMarketInterior"]
+Used for making: ["Hypersteel", "Terrahammer", "Bronze Plate"]
 ---
 Id 82: Artefact Shards
 Desc: \}Shards of ancient artefacts. Sort after by someone somewhere.
@@ -722,6 +816,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
+Used for making: ["Energy of Avaking", "Scourge of Maelsium", "Fury of Tempora", "Wake of Elazireth", "Blaze of Infermius", "Might of Zysargia", "Radiance of Justicium", "Beacon of Valour", "Ascerothan Sabre", "Ascerothan Halberd", "Ascerothan Uniform", "Ascerothan Gauntlets", "King's Grace", "Legend's Safeguard", "Diadem of the Past"]
 ---
 Id 83: Avaking Essence
 Desc: Soul essence of the Dragon Lord of Souls, Avaking. Used to refine the Dragon Lord weapons.
@@ -730,6 +825,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
+Used for making: ["Energy of Avaking"]
 ---
 Id 84: Zysargia Essence
 Desc: Soul essence of the Dragon Lord of the Earth, Zysargia. Used to refine the Dragon Lord weapons.
@@ -738,6 +834,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
+Used for making: ["Might of Zysargia"]
 ---
 Id 85: Justicium Essence
 Desc: Soul essence of the Dragon Lord of Light, Justicium. Used to refine the Dragon Lord weapons.
@@ -746,6 +843,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
+Used for making: ["Radiance of Justicium"]
 ---
 Id 86: Maelsium Essence
 Desc: Soul essence of the Dragon Lord of Dark, Maelsium. Used to refine the Dragon Lord weapons.
@@ -754,6 +852,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
+Used for making: ["Scourge of Maelsium"]
 ---
 Id 87: Infermius Essence
 Desc: Soul essence of the Dragon Lord of Flames, Infermius. Used to refine the Dragon Lord weapons.
@@ -762,6 +861,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
+Used for making: ["Blaze of Infermius"]
 ---
 Id 88: Tempora Essence
 Desc: Soul essence of the Dragon Lord of the Skies, Tempora. Used to refine the Dragon Lord weapons.
@@ -770,6 +870,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
+Used for making: ["Fury of Tempora"]
 ---
 Id 89: Elazireth Essence
 Desc: Soul essence of the Dragon Lord of the Seas, Elazireth. Used to refine the Dragon Lord weapons.
@@ -778,6 +879,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
+Used for making: ["Wake of Elazireth"]
 ---
 Id 90: To be a Master Hunter
 Desc: A book containing details and recipes for becoming a great hunter.
@@ -786,6 +888,7 @@ Price: 255G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Purchasable from: ["TalburyMarket"]
 ---
 Id 91: Fish Oil Cream
 Desc: A viscous cream with various health benefits. Helps to clear blindness.
@@ -796,6 +899,7 @@ Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Remove State: ", "Blind", "100%"]]
 Ingredients: [["Carp", 1], ["Hunter's Mushrooms", 1]]
+Purchasable from: ["PeregrineShop", "PeregrineSailorsStop", "PeregrineMarket/Shipyard", "DauvillierShop", "SlumberwoodShop"]
 ---
 Id 92: Srevena
 Desc: \}A very rare, large bioluminescent fruit found in caves. It seems unnatural, but its origins are utterly unknown. Recovers a massive portion of health and gives 10 PR.
@@ -815,6 +919,8 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Large Snake", "10%"], ["Toxic Snake", "9%"], ["Pit Viper", "10%"]]
+Purchasable from: ["Anvil'sMarketInterior"]
+Used for making: ["Snake's Vengeance"]
 ---
 Id 94: Xavier Portrait
 Desc: A portrait of Xavier done by Hero Forge.
@@ -856,6 +962,7 @@ Consume: Yes
 Scope: The User
 Occasion: Only from the Menu
 Effects and Traits: [["Add State: ", "Monster Repellant", "100%"]]
+Purchasable from: ["TalburyMarket", "FlowemShop", "MarrarockShop"]
 ---
 Id 99: Flare Feather
 Desc: A feather from the majestic Blue-Bellied Raven. Burning it restores some of your MP and PR.
@@ -866,6 +973,8 @@ Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover MP: ", "10%", ""], ["Gain PR: ", "1000%"]]
 Dropped By: [["Garuda", "9%"]]
+Purchasable from: ["StremleyShop"]
+Used for making: ["Soul Vigour Vial", "Resplendant Seraph"]
 ---
 Id 100: Premium Birdfeed
 Desc: \}Exceptionally high quality birdfeed that magically seems to be liked by every bird that has it. Give it to your bird to make it fly better.
@@ -890,6 +999,8 @@ Price: 16G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Purchasable from: ["PeregrineSailorsStop", "DauvillierShop"]
+Used for making: ["Sealord's Bane", "Trident", "Shellmet", "Floodgate Shield", "Ship Shield", "Oceanic Master's Aegis"]
 ---
 Id 103: Seaweed
 Desc: Slimy, icky seaweed. Useful in alchemy.
@@ -899,6 +1010,8 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Man-o'-Storms", "17%"]]
+Purchasable from: ["PeregrineShop", "PeregrineSailorsStop", "DauvillierShop"]
+Used for making: ["Trident", "Floodgate Shield"]
 ---
 Id 104: Shark Tooth
 Desc: A tooth of a once mighty shark. Useful in alchemy.
@@ -908,6 +1021,8 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Abyssal Coraljaws", "10%"]]
+Purchasable from: ["PeregrineSailorsStop", "DauvillierShop"]
+Used for making: ["Sealord's Bane", "Oceanic Master's Aegis", "Torrential Vanguard"]
 ---
 Id 105: Cider
 Desc: \}An alcoholic beverage produced by the fermentation of apple juice. You can use this as a base without owning it.
@@ -925,6 +1040,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "8%", "+150"]]
+Purchasable from: ["TalburyMarket", "TheDivingFalconF1", "PeregrineMarket/Shipyard", "IfradShop", "FortBarry", "DauvillierOldGarrison"]
 ---
 Id 107: Apple Pie
 Desc: A slice of apple pie made from fresh Talbrian apples. Recovers some HP.
@@ -934,6 +1050,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "9%", "+200"]]
+Purchasable from: ["PeregrInn", "TalburyMarket", "TheDivingFalconF1", "PeregrineMarket/Shipyard", "IfradShop", "Anvil'sMarketInterior", "FortBarry", "Pub/BreweryGF"]
 ---
 Id 108: Custard Tart
 Desc: A slice of a tart filled with a thick custard.
@@ -943,6 +1060,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "10%", "+225"]]
+Purchasable from: ["TalburyMarket", "PeregrineMarket/Shipyard", "IfradShop"]
 ---
 Id 109: Apaslea
 Desc: A mixture of various herbs and spices used to arouse someone from unconciousness.
@@ -952,7 +1070,8 @@ Consume: Yes
 Scope: One Ally
 Occasion: Only in Battle
 Effects and Traits: [["Remove State: ", "Sleep", "100%"]]
-Ingredients: [["Bei Root", 1], ["Revel Weed", 1], ["Celery", 2], ["Hunter's Mushrooms", 2]]
+Ingredients: [["Bei Root", 1], ["Revel Weed", 1], ["Yellow Fang", 2], ["Hunter's Mushrooms", 2]]
+Purchasable from: ["TalburyMarket", "PeregrineMarket/Shipyard", "Anvil'sMarketInterior", "DauvillierShop", "StremleyShop"]
 ---
 Id 110: Bottled Song
 Desc: Music has been encased inside this airtight bottle. Opening it will irreversibly release its song. Useful in alchemy.
@@ -961,6 +1080,8 @@ Price: 600G
 Consume: No
 Scope: None
 Occasion: Never
+Purchasable from: ["PeregrineSecretShop"]
+Used for making: ["Soul Vigour Vial", "Blessed Abjugation", "Shimmerveil Shroud"]
 ---
 Id 111: Soul Vigour Vial
 Desc: \}A mystical concoction of extremely rare ingredients that rapidly accelerates the Soul's growth. Instantly levels up a character once.
@@ -971,6 +1092,7 @@ Scope: None
 Occasion: Only from the Menu
 Ingredients: [["Bottled Song", 2], ["Ghostfruit", 2], ["Ancient Sage's Water", 3], ["Flare Feather", 1], ["Apple Juice", 1]]
 Dropped By: [["Stygian Ichor", "5%"]]
+Used for making: ["Energy of Avaking", "Scourge of Maelsium", "Fury of Tempora", "Wake of Elazireth", "Blaze of Infermius", "Might of Zysargia", "Radiance of Justicium", "Zysargia's Ward", "Tempora's Echo", "Maelsium's Reckoning", "Justicium's Blessing", "Infermius' Pyre", "Avaking's Benevolence", "Elazireth's Current"]
 ---
 Id 112: Bone Apple Tea
 Desc: A biz are drink that makes peeple miss pell there words. It duhz taste gud tho, so bone apple tea!
@@ -990,6 +1112,8 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "1%", ""]]
+Purchasable from: ["TalburyMarket", "FlowemShop"]
+Used for making: ["Bone Apple Tea", "Tea"]
 ---
 Id 114: Tea
 Desc: A blend of hot water and tea leaves, this popular drink can stave away sleep.
@@ -1000,6 +1124,7 @@ Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "5%", "+150"], ["Remove State: ", "Sleep", "100%"]]
 Ingredients: [["Tea Leaves", 2], ["Fresh Water", 1]]
+Purchasable from: ["PeregrInn", "TheDivingFalconF1", "Pub/BreweryGF", "DauvillierOldGarrison"]
 ---
 Id 115: Fresh Water
 Desc: A bottle of fresh water. Restores 5 HP.
@@ -1009,6 +1134,8 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "", "+5"]]
+Purchasable from: ["EmwoodTavern", "PeregrInn", "TalburyOuterInn", "TalburyShop", "TalburyMarket", "TheDivingFalconF1", "PeregrineMarket/Shipyard", "FlowemShop", "IfradPub", "Anvil'sMarketInterior", "MarrarockShop", "MarrarockPub", "SlumberwoodShop", "Pub/BreweryGF", "Pub/BreweryStage", "DauvillierOldGarrison"]
+Used for making: ["Bone Apple Tea", "Tea", "Tsunami Ward"]
 ---
 Id 116: Blazing Beverage
 Desc: A fiery drink that can thaw anything out from being frozen. Warms someone up and stops them from freezing.
@@ -1019,6 +1146,8 @@ Scope: One Ally
 Occasion: Only in Battle
 Effects and Traits: [["Remove State: ", "Freezing", "100%"]]
 Ingredients: [["Magic Water", 1], ["Mead", 1], ["Scorchlog", 1]]
+Purchasable from: ["TheDivingFalconF1", "Anvil'sMarketInterior", "Pub/BreweryGF", "Pub/BreweryStage"]
+Used for making: ["Smouldering Lavamail"]
 ---
 Id 117: Scorchlog
 Desc: \}The rare scorchlog burns very easily, even when wet, and so is the preferable material to make firewood out of. Useful in Alchemy.
@@ -1028,6 +1157,8 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Imp", "8%"]]
+Purchasable from: ["TalburyMarket"]
+Used for making: ["Blazing Beverage", "Igneous Bulwark"]
 ---
 Id 118: Storage Ticket
 Desc: \}A ticket that denotes what and where your equipment is. Must be given to the bouncer when leaving the Oak and Antler to have your equipment returned.
@@ -1045,6 +1176,8 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Mad Hornet", "11%"], ["Hornet Swarm", "17%"], ["Mad Hornet Swarm", "20%"], ["Dreadstinger Hornet Swarm", "50%"]]
+Purchasable from: ["Anvil'sMarketInterior"]
+Used for making: ["Hornet's Wrath"]
 ---
 Id 120: Sailor's Scripture
 Desc: A very old scroll that details various parts of sailing and the equipment you need.
@@ -1053,6 +1186,7 @@ Price: 600G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Purchasable from: ["PeregrineSailorsStop"]
 ---
 Id 121: Tamrindi
 Desc: A refreshing beverage from Cavadrak made from boiling a rare fruit. Restores a good amount of HP.
@@ -1062,6 +1196,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "16%", ""]]
+Purchasable from: ["TheDivingFalconF1", "Anvil'sMarketInterior", "DauvillierShop", "DauvillierOldGarrison"]
 ---
 Id 122: Midnight Whisky
 Desc: \}One of many alcohols to come from Slumberwood, this whisky is renowned for being seriously strong. It's named as such for its pitch-black colouration.
@@ -1071,6 +1206,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "10%", ""]]
+Purchasable from: ["TheDivingFalconF1", "IfradPub", "Anvil'sMarketInterior", "MarrarockPub", "DauvillierShop", "FortBarry", "StremleyInnPub", "StremleyShop", "Pub/BreweryGF", "Pub/BreweryStage", "DauvillierOldGarrison"]
 ---
 Id 123: Amber Liqueur
 Desc: \}An alcohol from Slumberwood made from combining brandy with wild berries and tree sap. The pride and joy of Slumberwoodan breweries. Restores a good amount of HP.
@@ -1080,6 +1216,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "13%", ""]]
+Purchasable from: ["TalburyOuterInn", "TheDivingFalconF1", "IfradPub", "Anvil'sMarketInterior", "MarrarockPub", "DauvillierShop", "StremleyInnPub", "StremleyShop", "Pub/BreweryGF", "Pub/BreweryStage"]
 ---
 Id 124: Marriage Maker
 Desc: A cider from Slumberwood that the creator made to win back his partner's love. Traditionally served at weddings.
@@ -1089,6 +1226,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "5%", ""]]
+Purchasable from: ["TheDivingFalconF1", "IfradPub", "MarrarockPub", "StremleyInnPub", "StremleyShop", "Pub/BreweryGF", "Pub/BreweryStage", "DauvillierOldGarrison"]
 ---
 Id 125: Beer Bread
 Desc: \}If you thought Slumberwood couldn't become any more alcoholic, they made bread using beer. Restores some HP and PR.
@@ -1098,6 +1236,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "5%", "+80"]]
+Purchasable from: ["TheDivingFalconF1", "IfradPub", "MarrarockPub", "StremleyInnPub", "StremleyShop", "Pub/BreweryGF", "DauvillierOldGarrison"]
 ---
 Id 126: Lobster
 Desc: If the EU were an animal...
@@ -1107,6 +1246,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "8%", "+90"]]
+Purchasable from: ["PeregrineMarket/Shipyard", "DauvillierShop", "StremleyInnPub", "StremleyShop", "DauvillierOldGarrison"]
 ---
 Id 127: Vezran's Arm
 Desc: A prosthetic arm worn by Vezran. A relic of his evil deeds.
@@ -1125,6 +1265,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Burning Spirit", "7%"], ["Cerberus", "100%"]]
+Used for making: ["Infermius Raxorium", "Flow Conduit", "Flame Catalyst", "Ice Bane", "Obsidian Inferno Sword", "Magma Maul", "Smouldering Lavamail", "Igneous Bulwark", "Hellfire Paragon O", "Exemplary Hellfire Paragon O", "Hellfire Paragon D", "Exemplary Hellfire Paragon D", "Symbol Breaker Disc: Fire", "Infermius' Pyre", "Raiment of the Sunborn"]
 ---
 Id 129: Dylorien
 Desc: A flower said to be so inconceivably rare that there is only 1 plant in Adremesis that blooms with it. Useful in alchemy.
@@ -1134,6 +1275,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Blooming Hunger", "7%"], ["Botyranny", "7%"], ["Zysargia", "100%"], ["Manticore", "100%"]]
+Used for making: ["Zysargia Raxorium", "Flow Conduit", "Forest Catalyst", "Nature's Behest", "Oaken Vanguard", "Verdant Leafshroud", "Woodhammer Paragon O", "Exemplary Woodhammer Paragon O", "Woodhammer Paragon D", "Symbol Breaker Disc: Nature", "Zysargia's Ward"]
 ---
 Id 130: Winter's Heart
 Desc: A gemstone that mixed with ice crystals to form this gorgeous reminder of winter's beauty. Useful in alchemy.
@@ -1143,6 +1285,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Behemoth", "100%"], ["Titan of Black Ice", "7%"]]
+Used for making: ["Elazireth Raxorium", "Flow Conduit", "Icicle Catalyst", "Cold Shoulder", "Scythe of Hoarfrost", "Frosted Scale Mail", "Aurora Cloak", "Fangfrost Paragon O", "Exemplary Fangfrost Paragon O", "Fangfrost Paragon D", "Exemplary Fangfrost Paragon D", "Symbol Breaker Disc: Ice", "Elazireth's Current", "Shimmerveil Shroud"]
 ---
 Id 131: Tome of Permafrost
 Desc: A book dusted in snow that tells of many armaments fit for a winter wonderland.
@@ -1153,13 +1296,15 @@ Scope: None
 Occasion: Only from the Menu
 ---
 Id 132: Powder Snow
-Desc: \}What's that? This is a generic and not interesting item? Well you try and come up with something more interesting! It's hard, y'know!
+Desc: A handful of fluffy snow, sourced from whatever's left of an icy creature.
 Type: Normal
 Price: 48G
 Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Titan of Black Ice", "8%"]]
+Purchasable from: ["Anvil'sMarketInterior"]
+Used for making: ["Hypersteel", "Frosted Scale Mail"]
 ---
 Id 133: Armlekas-is lia Draken Veren-is
 Desc: A beyond-ancient scroll that describes the seven Dragon Lords. If only you could read it...
@@ -1193,6 +1338,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Languished Skeleton", "8%"]]
+Used for making: ["Soulcleave Sabre", "Obsidian Inferno Sword", "Heartrender", "Smouldering Lavamail"]
 ---
 Id 137: Flow Conduit
 Desc: A rare item that focuses the elements of the Flow into whatever the user desires. Useful in alchemy.
@@ -1201,7 +1347,8 @@ Price: 15000G
 Consume: No
 Scope: None
 Occasion: Never
-Ingredients: [["Crystalised Flame", 1], ["Dylorien", 1], ["Winter's Heart", 1], ["Tears of Cedarus", 1], ["Templar's Ashes", 1], ["Thundrite", 1], ["Oil of Ill-Intent", 1], ["Wind's Wing", 1], ["Fallen Star", 1]]
+Ingredients: [["Crystalised Flame", 1], ["Dylorien", 1], ["Winter's Heart", 1], ["Tears of Cedarus", 1], ["Lustred Sundial", 1], ["Thundrite", 1], ["Oil of Ill-Intent", 1], ["Wind's Wing", 1], ["Fallen Star", 1]]
+Used for making: ["Contaminated Conduit", "Flame Catalyst", "Icicle Catalyst", "Tempest Catalyst", "Ocean Catalyst", "Mountain Catalyst", "Sky Catalyst", "Astral Catalyst", "Night Catalyst", "Forest Catalyst", "Energy of Avaking", "Scourge of Maelsium", "Fury of Tempora", "Wake of Elazireth", "Blaze of Infermius", "Might of Zysargia", "Radiance of Justicium", "Soul Eviscerator", "Elemental Cloak", "Flow Amplifier", "Zysargia's Ward", "Tempora's Echo", "Maelsium's Reckoning", "Justicium's Blessing", "Infermius' Pyre", "Avaking's Benevolence", "Elazireth's Current"]
 ---
 Id 138: Ironbark
 Desc: \}A rare species of wood that only grows on mountainsides due to the surpluss of iron in the stone. The leaves of the tree are a remarkable reddish colour. Useful in alchemy.
@@ -1211,6 +1358,8 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Steward of the Mantle", "8%"]]
+Purchasable from: ["Anvil'sMarketInterior", "MarrarockShop"]
+Used for making: ["Soulcleave Sabre", "Ironbark Cudgel", "Ironbark Blade", "Forest Thomper", "Soulspite Longbow", "Ironbark Shield", "Ironbark Shell", "Ferrous Hardhat"]
 ---
 Id 139: Tears of Cedarus
 Desc: A vial of water from a stream hidden deep in Slumberwood, once blessed by the Ancient Sage Cedarus. Useful in alchemy.
@@ -1219,16 +1368,18 @@ Price: 500G
 Consume: No
 Scope: None
 Occasion: Never
-Dropped By: [["Torrential Behemoth", "100%"], ["Abyssal Coraljaws", "7%"]]
+Dropped By: [["Sahagin", "7%"], ["Torrential Behemoth", "100%"]]
+Used for making: ["Elazireth Raxorium", "Flow Conduit", "Blessed Abjugation", "Ocean Catalyst", "Pickaxe", "Tsunami Ward", "Oceanic Master's Aegis", "Torrential Vanguard", "Tsunami Paragon O", "Exemplary Tsunami Paragon O", "Tsunami Paragon D", "Exemplary Tsunami Paragon D", "Exemplary Woodhammer Paragon D", "Symbol Breaker Disc: Water", "Elazireth's Current"]
 ---
-Id 140: Templar's Ashes
-Desc: Ashes of some member of the ancient High Templar's clergy. Useful in alchemy.
+Id 140: Lustred Sundial
+Desc: A radiant timepiece said to trap stray beams of sunlight, shining brightest when all else fades. Useful in alchemy.
 Type: Normal
 Price: 500G
 Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Benevolent Manticore", "100%"], ["Angel", "7%"]]
+Used for making: ["Justicium Raxorium", "Flow Conduit", "Blessed Abjugation", "Astral Catalyst", "Precursor of Virtue", "Hammer of Justice", "Hallowed Battlegear", "Solar Majesty's Regalia", "Smitecaster Paragon O", "Exemplary Smitecaster Paragon O", "Smitecaster Paragon D", "Exemplary Smitecaster Paragon D", "Symbol Breaker Disc: Light", "Justicium's Blessing", "Raiment of the Sunborn", "Resplendant Seraph"]
 ---
 Id 141: Thundrite
 Desc: A mineral formed when lightning strikes solid stone in just the right way. Useful in alchemy.
@@ -1238,6 +1389,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Stormbringer Cerberus", "100%"], ["Tempest Titan", "7%"]]
+Used for making: ["Tempora Raxorium", "Flow Conduit", "Tempest Catalyst", "Thunder Rod", "Thundershock Stormguard", "Storm Summoner's Garb", "Tempest Surgemail", "Tempest Evoker's Robes", "Thunderfury Paragon O", "Exemplary Thunderfury Paragon O", "Thunderfury Paragon D", "Exemplary Thunderfury Paragon D", "Symbol Breaker Disc: Storm", "Tempora's Echo"]
 ---
 Id 142: Oil of Ill-Intent
 Desc: \}This mysterious fluid naturally found only on Devil's Eye Land that silently corrupts everything around it. Useful in alchemy.
@@ -1247,6 +1399,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Shadow Creature", "8%"], ["Shadow Wraith", "10%"], ["Maelstrom Cerberus", "100%"], ["Stallion of Plague", "7%"], ["Shadow Revenant", "13%"]]
+Used for making: ["Maelsium Raxorium", "Flow Conduit", "Night Catalyst", "Harbinger of Sin", "Phantom Shadowmail", "Midnight Shroud", "Chaos Doomplate", "Blightsludge Husk", "Darkstrike Paragon O", "Exemplary Darkstrike Paragon O", "Darkstrike Paragon D", "Exemplary Darkstrike Paragon D", "Symbol Breaker Disc: Dark", "Maelsium's Reckoning"]
 ---
 Id 143: Wind's Wing
 Desc: A very strange feather that doesn't come from any known species of bird, yet is still found randomly. Useful in alchemy.
@@ -1256,6 +1409,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Hurricane Manticore", "100%"], ["Garuda", "7%"]]
+Used for making: ["Tempora Raxorium", "Flow Conduit", "Sky Catalyst", "Tempest Evoker's Robes", "Empyrean Winguard", "Airblade Paragon O", "Exemplary Airblade Paragon O", "Airblade Paragon D", "Exemplary Airblade Paragon D", "Symbol Breaker Disc: Air", "Tempora's Echo"]
 ---
 Id 144: Fallen Star
 Desc: A chunk of rock that fell from the sky at breakneck speed, its true origins are confusing scholars. Useful in alchemy.
@@ -1265,6 +1419,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Zysargia", "100%"], ["Boulder Behemoth", "100%"], ["Grave Defiler", "7%"]]
+Used for making: ["Zysargia Raxorium", "Flow Conduit", "Mountain Catalyst", "Terrahammer", "Stone Launcher", "Boulder Bludgeoner", "Tectonic Platemail", "Earthwarden's Mantle", "Earthquake Paragon O", "Exemplary Earthquake Paragon O", "Earthquake Paragon D", "Exemplary Earthquake Paragon D", "Symbol Breaker Disc: Earth", "Zysargia's Ward"]
 ---
 Id 145: Void Residue
 Desc: \}A small sample of Void energy left behind by a defeated Void creature. Useful in Alchemy, but use it quickly; Void energy decays!
@@ -1274,6 +1429,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Void Marshal", "25%"], ["Void Wraith", "25%"], ["Void Leviathan", "33%"], ["Void Eldritch Devourer", "100%"], ["Void Eldritch Devourer", "50%"], ["Void Weaver", "100%"], ["Void Weaver", "100%"]]
+Used for making: ["Contaminated Conduit", "Voidgloom Reaper", "Voidfang Piercer", "Void's Eclipse", "Void Weaver's Loom", "Void-Wreathed Carapace", "Void-Wreathed Cloak", "Abyssal Voidguard", "Grasp of the Void", "Void Mistward", "Void-Breather's Cage", "Void Steppers", "Voidsoul Paragon"]
 ---
 Id 146: Omnium
 Desc: \}A mineral that requires so much pressure to form that it can only be found in minuscule amounts in the darkest depths of the world. Useful in alchemy.
@@ -1283,6 +1439,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Contorted Amalgamation", "7%"], ["Rocklesiege", "25%"], ["Rockleliege", "100%"], ["Aberrational Amalgamation", "13%"], ["Atomic Bouldergeist", "10%"]]
+Used for making: ["Prophet's Omen", "Soulcleave Sabre", "Beacon of Valour", "Hammer of Justice", "Ascerothan Halberd", "Heartrender", "Magic Repressor", "Strength Repressor", "King's Grace", "Legend's Safeguard"]
 ---
 Id 147: Wine
 Desc: An alcoholic drink typically made using grape, but can be made using a wide variety of fruity ingredients. You can use this as a base without owning it.
@@ -1299,6 +1456,7 @@ Price: 15000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Purchasable from: ["PeregrinePortAlley"]
 ---
 Id 149: Contaminated Conduit
 Desc: \}A Flow Conduit that was corrupted by pure Void energy. At every moment, you feel its malicious pull on your Soul. Useful in Alchemy.
@@ -1309,6 +1467,7 @@ Scope: None
 Occasion: Never
 Ingredients: [["Flow Conduit", 1], ["Void Residue", 3], ["Soul Orb", 1]]
 Dropped By: [["Void Eldritch Devourer", "5%"], ["Void Weaver", "10%"]]
+Used for making: ["Voidgloom Reaper", "Voidfang Piercer", "Void's Eclipse", "Void Weaver's Loom", "Void-Wreathed Carapace", "Void-Wreathed Cloak", "Abyssal Voidguard", "Grasp of the Void", "Void Mistward", "Void-Breather's Cage", "Void Steppers", "Voidsoul Paragon"]
 ---
 Id 150: Light Literature
 Desc: Notes detailing some alchemic recipes of the Light element.
@@ -1351,14 +1510,15 @@ Scope: None
 Occasion: Only from the Menu
 ---
 Id 155: Blessed Abjugation
-Desc: A jar of holy water mixed with blessed fabric. Frees someone of their horrific afflictions and cures them of all curses.
+Desc: A flask of holy water mixed with blessed fabric. Frees someone of their horrific afflictions and cures them of all curses.
 Type: Normal
 Price: 2300G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Remove State: ", "Curse of the Doomed", "100%"], ["Remove State: ", "Curse of the Debilitated", "100%"], ["Remove State: ", "Curse of the Feeble", "100%"], ["Remove State: ", "Curse of the Laggard", "100%"], ["Remove State: ", "Curse of the Soulless", "100%"]]
-Ingredients: [["Tears of Cedarus", 2], ["Templar's Ashes", 2], ["Sage's Water", 2], ["Bottled Song", 1]]
+Ingredients: [["Tears of Cedarus", 1], ["Lustred Sundial", 2], ["Sage's Water", 2], ["Bottled Song", 1]]
+Used for making: ["Precursor of Virtue", "Hammer of Justice"]
 ---
 Id 156: Abbysal Fluid
 Desc: A thick pus that is excreted by even the least grotesque of other-worldly abominations. Useful in Alchemy.
@@ -1368,6 +1528,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Gazer", "8%"], ["Shadow Collossus", "100%"], ["Black Pus", "7%"], ["Sickening Ooze", "8%"], ["Stygian Ichor", "13%"]]
+Used for making: ["Harbinger of Sin", "Phantom Shadowmail", "Midnight Shroud", "Chaos Doomplate", "Blightsludge Husk"]
 ---
 Id 157: Egregious Equipment
 Desc: A book with a malevolent air about it. What's in here may not be safe for mortal eyes but...perhaps it's worth it...
@@ -1388,10 +1549,11 @@ Occasion: Never
 Id 160: Wildlife Weaponry
 Desc: Contains alchemic recipes that will turn your foes' tools against themselves.
 Type: Key
-Price: 2000G
+Price: 1000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Purchasable from: ["TalburyMarket"]
 ---
 Id 161: Dave Alricke: A Biography
 Desc: Davonious Alricke, perhaps the greatest scholar to grace Adremesis. Who was he, and what happened to him?
@@ -1400,6 +1562,7 @@ Price: 100G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Purchasable from: ["Anvil'sMarketInterior"]
 ---
 Id 162: TheFourKingdoms:Where'dTheyGo?
 Desc: A book explaining the histories of the four kingdoms of Adremesis: Barrodor, Asceroth, Excellion, and Nobolia.
@@ -1408,6 +1571,8 @@ Price: 92G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Purchasable from: ["Anvil'sMarketInterior"]
+Used for making: ["Ascerothan Sabre", "Ascerothan Halberd", "Ascerothan Uniform", "Ascerothan Gauntlets"]
 ---
 Id 163: How to Utilise the Desert
 Desc: Earth element in combat is quite rare compared to many others, which allows its strengths to be widely unknown.
@@ -1416,6 +1581,7 @@ Price: 130G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Purchasable from: ["Anvil'sMarketInterior"]
 ---
 Id 164: Ironbark Impedimenta
 Desc: \}Ironbark is a a type of tree found solely in the Sagely Grounds' western mountains, and this book details how to properly use it.
@@ -1424,6 +1590,7 @@ Price: 2000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Purchasable from: ["Anvil'sMarketInterior"]
 ---
 Id 165: Hypersteel
 Desc: \}An alloy made by magically combining steel with solid ice. The result is a nigh indestructable metal that is the pride and joy of Marrarockan blacksmiths.
@@ -1432,7 +1599,8 @@ Price: 2500G
 Consume: No
 Scope: None
 Occasion: Never
-Ingredients: [["Iron Ore", 5], ["Winter's Heart", 1], ["Unmelting Ice", 1]]
+Ingredients: [["Iron Ore", 5], ["Copper Ore", 2], ["Tin Ore", 1], ["Silver Ore", 1], ["Powder Snow", 3], ["Unmelting Ice", 1]]
+Used for making: ["Prophet's Omen", "Soulcleave Sabre", "Beacon of Valour", "Precursor of Virtue", "Harbinger of Sin", "Pickaxe", "Legend's Safeguard", "Diadem of the Past", "Prismatic Morphguard", "Resplendant Seraph", "Consciousness Manipulator"]
 ---
 Id 166: Cold Steel Lager
 Desc: \}A very old Marrarockan recipe using cheap and readily available ingredients. Was once the only affordable drink for miners, but is now considered tradition.
@@ -1442,6 +1610,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "12%", ""]]
+Purchasable from: ["MarrarockShop", "MarrarockPub"]
 ---
 Id 167: ATK Grit
 Desc: A diamond grit used to cut and polish rialite. Cuts the gem into the ATK shape.
@@ -1450,6 +1619,8 @@ Price: 1500G
 Consume: No
 Scope: None
 Occasion: Never
+Purchasable from: ["MarrarockMasons"]
+Used for making: ["ATK Paragon", "Exemplary ATK Paragon", "Masterpiece ATK Paragon", "Hellfire Paragon O", "Exemplary Hellfire Paragon O", "Fangfrost Paragon O", "Exemplary Fangfrost Paragon O", "Thunderfury Paragon O", "Exemplary Thunderfury Paragon O", "Tsunami Paragon O", "Exemplary Tsunami Paragon O", "Earthquake Paragon O", "Exemplary Earthquake Paragon O", "Airblade Paragon O", "Exemplary Airblade Paragon O", "Smitecaster Paragon O", "Exemplary Smitecaster Paragon O", "Darkstrike Paragon O", "Exemplary Darkstrike Paragon O", "Woodhammer Paragon O", "Exemplary Woodhammer Paragon O"]
 ---
 Id 168: CNT Grit
 Desc: A diamond grit used to cut and polish rialite. Cuts the gem into the CNT shape.
@@ -1458,6 +1629,8 @@ Price: 1500G
 Consume: No
 Scope: None
 Occasion: Never
+Purchasable from: ["MarrarockMasons"]
+Used for making: ["CNT Paragon", "Exemplary CNT Paragon", "Masterpiece CNT Paragon"]
 ---
 Id 169: HIT Grit
 Desc: A diamond grit used to cut and polish rialite. Cuts the gem into the HIT shape.
@@ -1466,6 +1639,8 @@ Price: 1500G
 Consume: No
 Scope: None
 Occasion: Never
+Purchasable from: ["MarrarockMasons"]
+Used for making: ["HIT Paragon", "Exemplary HIT Paragon", "Masterpiece HIT Paragon"]
 ---
 Id 170: CRI Grit
 Desc: A diamond grit used to cut and polish rialite. Cuts the gem into the CRI shape.
@@ -1474,6 +1649,8 @@ Price: 1500G
 Consume: No
 Scope: None
 Occasion: Never
+Purchasable from: ["MarrarockMasons"]
+Used for making: ["CRI Paragon", "Exemplary CRI Paragon", "Masterpiece CRI Paragon"]
 ---
 Id 171: MAT Grit
 Desc: A diamond grit used to cut and polish rialite. Cuts the gem into the MAT shape.
@@ -1482,6 +1659,8 @@ Price: 1500G
 Consume: No
 Scope: None
 Occasion: Never
+Purchasable from: ["MarrarockMasons"]
+Used for making: ["MAT Paragon", "Exemplary MAT Paragon", "Masterpiece MAT Paragon", "Hellfire Paragon O", "Exemplary Hellfire Paragon O", "Fangfrost Paragon O", "Exemplary Fangfrost Paragon O", "Thunderfury Paragon O", "Exemplary Thunderfury Paragon O", "Tsunami Paragon O", "Exemplary Tsunami Paragon O", "Earthquake Paragon O", "Exemplary Earthquake Paragon O", "Airblade Paragon O", "Exemplary Airblade Paragon O", "Smitecaster Paragon O", "Exemplary Smitecaster Paragon O", "Darkstrike Paragon O", "Exemplary Darkstrike Paragon O", "Woodhammer Paragon O", "Exemplary Woodhammer Paragon O"]
 ---
 Id 172: MCR Grit
 Desc: A diamond grit used to cut and polish rialite. Cuts the gem into the MCR shape.
@@ -1490,6 +1669,8 @@ Price: 1500G
 Consume: No
 Scope: None
 Occasion: Never
+Purchasable from: ["MarrarockMasons"]
+Used for making: ["MCR Paragon", "Exemplary MCR Paragon", "Masterpiece MCR Paragon"]
 ---
 Id 173: DEF Grit
 Desc: A diamond grit used to cut and polish rialite. Cuts the gem into the DEF shape.
@@ -1498,6 +1679,8 @@ Price: 1500G
 Consume: No
 Scope: None
 Occasion: Never
+Purchasable from: ["MarrarockMasons"]
+Used for making: ["DEF Paragon", "Exemplary DEF Paragon", "Masterpiece DEF Paragon", "Hellfire Paragon D", "Exemplary Hellfire Paragon D", "Fangfrost Paragon D", "Exemplary Fangfrost Paragon D", "Thunderfury Paragon D", "Exemplary Thunderfury Paragon D", "Tsunami Paragon D", "Exemplary Tsunami Paragon D", "Earthquake Paragon D", "Exemplary Earthquake Paragon D", "Airblade Paragon D", "Exemplary Airblade Paragon D", "Smitecaster Paragon D", "Exemplary Smitecaster Paragon D", "Darkstrike Paragon D", "Exemplary Darkstrike Paragon D", "Woodhammer Paragon D", "Exemplary Woodhammer Paragon D"]
 ---
 Id 174: MHP Grit
 Desc: A diamond grit used to cut and polish rialite. Cuts the gem into the MHP shape.
@@ -1506,6 +1689,8 @@ Price: 1500G
 Consume: No
 Scope: None
 Occasion: Never
+Purchasable from: ["MarrarockMasons"]
+Used for making: ["MHP Paragon", "Exemplary MHP Paragon", "Masterpiece MHP Paragon"]
 ---
 Id 175: MMP Grit
 Desc: A diamond grit used to cut and polish rialite. Cuts the gem into the MMP shape.
@@ -1514,6 +1699,8 @@ Price: 1500G
 Consume: No
 Scope: None
 Occasion: Never
+Purchasable from: ["MarrarockMasons"]
+Used for making: ["MMP Paragon", "Exemplary MMP Paragon", "Masterpiece MMP Paragon"]
 ---
 Id 176: EVA Grit
 Desc: A diamond grit used to cut and polish rialite. Cuts the gem into the EVA shape.
@@ -1522,6 +1709,8 @@ Price: 1500G
 Consume: No
 Scope: None
 Occasion: Never
+Purchasable from: ["MarrarockMasons"]
+Used for making: ["EVA Paragon", "Exemplary EVA Paragon", "Masterpiece EVA Paragon"]
 ---
 Id 177: MDF Grit
 Desc: A diamond grit used to cut and polish rialite. Cuts the gem into the MDF shape.
@@ -1530,6 +1719,8 @@ Price: 1500G
 Consume: No
 Scope: None
 Occasion: Never
+Purchasable from: ["MarrarockMasons"]
+Used for making: ["MDF Paragon", "Exemplary MDF Paragon", "Masterpiece MDF Paragon", "Hellfire Paragon D", "Exemplary Hellfire Paragon D", "Fangfrost Paragon D", "Exemplary Fangfrost Paragon D", "Thunderfury Paragon D", "Exemplary Thunderfury Paragon D", "Tsunami Paragon D", "Exemplary Tsunami Paragon D", "Earthquake Paragon D", "Exemplary Earthquake Paragon D", "Airblade Paragon D", "Exemplary Airblade Paragon D", "Smitecaster Paragon D", "Exemplary Smitecaster Paragon D", "Darkstrike Paragon D", "Exemplary Darkstrike Paragon D", "Woodhammer Paragon D", "Exemplary Woodhammer Paragon D"]
 ---
 Id 178: MEV Grit
 Desc: A diamond grit used to cut and polish rialite. Cuts the gem into the MEV shape.
@@ -1538,6 +1729,8 @@ Price: 1500G
 Consume: No
 Scope: None
 Occasion: Never
+Purchasable from: ["MarrarockMasons"]
+Used for making: ["MEV Paragon", "Exemplary MEV Paragon", "Masterpiece MEV Paragon"]
 ---
 Id 179: Rialite
 Desc: A rare gemstone that is the foundation of crafting Paragons. It sparkles dimly in the light.
@@ -1547,6 +1740,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Warding Bouldergeist", "8%"], ["Rocklereige", "100%"], ["Rocklesiege", "100%"], ["Rocklesiege", "50%"], ["Rockleliege", "100%"]]
+Used for making: ["ATK Paragon", "Exemplary ATK Paragon", "Masterpiece ATK Paragon", "CNT Paragon", "Exemplary CNT Paragon", "Masterpiece CNT Paragon", "HIT Paragon", "Exemplary HIT Paragon", "Masterpiece HIT Paragon", "CRI Paragon", "Exemplary CRI Paragon", "Masterpiece CRI Paragon", "MAT Paragon", "Exemplary MAT Paragon", "Masterpiece MAT Paragon", "MCR Paragon", "Exemplary MCR Paragon", "Masterpiece MCR Paragon", "DEF Paragon", "Exemplary DEF Paragon", "Masterpiece DEF Paragon", "MHP Paragon", "Exemplary MHP Paragon", "Masterpiece MHP Paragon", "MMP Paragon", "Exemplary MMP Paragon", "Masterpiece MMP Paragon", "EVA Paragon", "Exemplary EVA Paragon", "Masterpiece EVA Paragon", "MDF Paragon", "Exemplary MDF Paragon", "Masterpiece MDF Paragon", "MEV Paragon", "Exemplary MEV Paragon", "Masterpiece MEV Paragon", "Hellfire Paragon O", "Exemplary Hellfire Paragon O", "Hellfire Paragon D", "Exemplary Hellfire Paragon D", "Fangfrost Paragon O", "Exemplary Fangfrost Paragon O", "Fangfrost Paragon D", "Exemplary Fangfrost Paragon D", "Thunderfury Paragon O", "Exemplary Thunderfury Paragon O", "Thunderfury Paragon D", "Exemplary Thunderfury Paragon D", "Tsunami Paragon O", "Exemplary Tsunami Paragon O", "Tsunami Paragon D", "Exemplary Tsunami Paragon D", "Earthquake Paragon O", "Exemplary Earthquake Paragon O", "Earthquake Paragon D", "Exemplary Earthquake Paragon D", "Airblade Paragon O", "Exemplary Airblade Paragon O", "Airblade Paragon D", "Exemplary Airblade Paragon D", "Smitecaster Paragon O", "Exemplary Smitecaster Paragon O", "Smitecaster Paragon D", "Exemplary Smitecaster Paragon D", "Darkstrike Paragon O", "Exemplary Darkstrike Paragon O", "Darkstrike Paragon D", "Exemplary Darkstrike Paragon D", "Woodhammer Paragon O", "Exemplary Woodhammer Paragon O", "Woodhammer Paragon D", "Exemplary Woodhammer Paragon D", "King's Grace", "Voidsoul Paragon", "Consciousness Manipulator"]
 ---
 Id 180: Paradigms of Paragons
 Desc: A book containing details on how to make each of the baseline Paragons.
@@ -1571,6 +1765,7 @@ Price: 6000G
 Consume: No
 Scope: None
 Occasion: Never
+Purchasable from: ["Blacksmith&Shop"]
 ---
 Id 183: Hypersteel Pickaxe
 Desc: A pickaxe made of hypersteel that no rock can resist. Can be used 40 times.
@@ -1579,6 +1774,7 @@ Price: 15000G
 Consume: No
 Scope: None
 Occasion: Never
+Purchasable from: ["Blacksmith&Shop"]
 ---
 Id 184: Guide To Restoration
 Desc: \}A book, apparently written by Mister Bones, that is covered in dirt and dust that explains the delicate process of restoring relics of the past to the modern age.
@@ -1587,6 +1783,7 @@ Price: 10000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Purchasable from: ["Blacksmith&Shop"]
 ---
 Id 185: Ammunition Disc
 Desc: A disc for the Symbol Breaker that is yet to be twisted into an element, and so is useless.
@@ -1595,6 +1792,8 @@ Price: 500G
 Consume: No
 Scope: None
 Occasion: Never
+Purchasable from: ["Bill'sBlacksmith"]
+Used for making: ["Symbol Breaker Disc: Fire", "Symbol Breaker Disc: Ice", "Symbol Breaker Disc: Storm", "Symbol Breaker Disc: Water", "Symbol Breaker Disc: Earth", "Symbol Breaker Disc: Air", "Symbol Breaker Disc: Light", "Symbol Breaker Disc: Dark", "Symbol Breaker Disc: Nature"]
 ---
 Id 186: Mister Bones' Companion
 Desc: \}A golden medallion from the one and only Mister Bones. A token of thanks and a symbol of your friendship. It seems to increase the rarity of unearthed treasures.
@@ -1620,6 +1819,7 @@ Price: 2500G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
+Purchasable from: ["Bill'sBlacksmith"]
 ---
 Id 189: Hydrocraft Handbook
 Desc: Dive into this meticulously curated volume and learn to harness the power of the seas.
@@ -1636,6 +1836,7 @@ Price: 2500G
 Consume: No
 Scope: None
 Occasion: Never
+Purchasable from: ["Blacksmith&Shop"]
 ---
 Id 191: Blasting Powder
 Desc: \}A highly explosive material that can instantly clear a portion of rock, including tough bedrock. Can be spent to bypass bedrock without spending PS.
@@ -1644,6 +1845,7 @@ Price: 1800G
 Consume: No
 Scope: None
 Occasion: Never
+Purchasable from: ["Blacksmith&Shop"]
 ---
 Id 192: Geological Survey Data
 Desc: \}Marrarockan geologists are constantly hard at work to determine the best spots to mine. Increases the chance of finding ores, consumed when leaving.
@@ -1652,6 +1854,7 @@ Price: 2500G
 Consume: No
 Scope: None
 Occasion: Never
+Purchasable from: ["Blacksmith&Shop"]
 ---
 Id 193: Harvest Basket
 Desc: \}A basket that increases the amount of items you can carry when scavenging. They're somewhat poor quality though, so may break after travelling.
@@ -1684,6 +1887,7 @@ Price: 3000G
 Consume: No
 Scope: None
 Occasion: Never
+Purchasable from: ["Blacksmith&Shop"]
 ---
 Id 211: Distance Doug's Pride
 Desc: \}A golden medallion from the legendary miner, Distance Doug. A token of how impressed he is of your mining skills. It seems to increase the rarity of unearthed ores.
@@ -1732,4 +1936,97 @@ Price: 3500G
 Consume: No
 Scope: None
 Occasion: Never
+Purchasable from: ["Blacksmith&Shop"]
+---
+Id 217: Flame Catalyst
+Desc: A metallic ingot of an element-rich material that reacts with the Soul to produce new and powerful magic with Fire.
+Type: Normal
+Price: 20000G
+Consume: Yes
+Scope: None
+Occasion: Only from the Menu
+Ingredients: [["Crystalised Flame", 2], ["Raxorium Ore", 1], ["Flow Conduit", 1], ["Spirit Essence", 3]]
+---
+Id 218: Icicle Catalyst
+Desc: A metallic ingot of an element-rich material that reacts with the Soul to produce new and powerful magic with Ice.
+Type: Normal
+Price: 20000G
+Consume: Yes
+Scope: None
+Occasion: Only from the Menu
+Ingredients: [["Winter's Heart", 2], ["Raxorium Ore", 1], ["Flow Conduit", 1], ["Spirit Essence", 3]]
+---
+Id 219: Tempest Catalyst
+Desc: A metallic ingot of an element-rich material that reacts with the Soul to produce new and powerful magic with Storm.
+Type: Normal
+Price: 20000G
+Consume: Yes
+Scope: None
+Occasion: Only from the Menu
+Ingredients: [["Thundrite", 2], ["Raxorium Ore", 1], ["Flow Conduit", 1], ["Spirit Essence", 3]]
+---
+Id 220: Ocean Catalyst
+Desc: A metallic ingot of an element-rich material that reacts with the Soul to produce new and powerful magic with Water.
+Type: Normal
+Price: 20000G
+Consume: Yes
+Scope: None
+Occasion: Only from the Menu
+Ingredients: [["Tears of Cedarus", 2], ["Raxorium Ore", 1], ["Flow Conduit", 1], ["Spirit Essence", 3]]
+---
+Id 221: Mountain Catalyst
+Desc: A metallic ingot of an element-rich material that reacts with the Soul to produce new and powerful magic with Earth.
+Type: Normal
+Price: 20000G
+Consume: Yes
+Scope: None
+Occasion: Only from the Menu
+Ingredients: [["Fallen Star", 2], ["Raxorium Ore", 1], ["Flow Conduit", 1], ["Spirit Essence", 3]]
+---
+Id 222: Sky Catalyst
+Desc: A metallic ingot of an element-rich material that reacts with the Soul to produce new and powerful magic with Air.
+Type: Normal
+Price: 20000G
+Consume: Yes
+Scope: None
+Occasion: Only from the Menu
+Ingredients: [["Wind's Wing", 2], ["Raxorium Ore", 1], ["Flow Conduit", 1], ["Spirit Essence", 3]]
+---
+Id 223: Astral Catalyst
+Desc: A metallic ingot of an element-rich material that reacts with the Soul to produce new and powerful magic with Light.
+Type: Normal
+Price: 20000G
+Consume: Yes
+Scope: None
+Occasion: Only from the Menu
+Ingredients: [["Lustred Sundial", 2], ["Raxorium Ore", 1], ["Flow Conduit", 1], ["Spirit Essence", 3]]
+---
+Id 224: Night Catalyst
+Desc: A metallic ingot of an element-rich material that reacts with the Soul to produce new and powerful magic with Dark.
+Type: Normal
+Price: 20000G
+Consume: Yes
+Scope: None
+Occasion: Only from the Menu
+Ingredients: [["Oil of Ill-Intent", 2], ["Raxorium Ore", 1], ["Flow Conduit", 1], ["Spirit Essence", 3]]
+---
+Id 225: Forest Catalyst
+Desc: A metallic ingot of an element-rich material that reacts with the Soul to produce new and powerful magic with Nature.
+Type: Normal
+Price: 20000G
+Consume: Yes
+Scope: None
+Occasion: Only from the Menu
+Ingredients: [["Dylorien", 2], ["Raxorium Ore", 1], ["Flow Conduit", 1], ["Spirit Essence", 3]]
+---
+Id 226: Bandages
+Desc: A thick, woven fabric wrap used to staunch heavy bleeding.
+Type: Normal
+Price: 32G
+Consume: Yes
+Scope: One Ally
+Occasion: Always
+Effects and Traits: [["Remove State: ", "Bleeding", "100%"]]
+Ingredients: [["Fabric", 2], ["Cotton", 1]]
+Purchasable from: ["TalburyMarket", "IfradShop", "MarrarockShop", "DauvillierShop"]
 ---

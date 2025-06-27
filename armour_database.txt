@@ -1,5 +1,5 @@
 Id 1: Casual Clothes
-Desc: Very lightweight clothes.
+Desc: Everyday clothes for your average person.
 Type: General Armour
 Price: 15
 HP: 0
@@ -10,6 +10,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Purchasable from: ["EmwoodShop", "PeregrineShop", "TalburyShop", "TalburyMarket"]
 ---
 Id 2: Leather Top
 Desc: Made with the best leather.
@@ -23,6 +24,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Purchasable from: ["EmwoodShop", "PeregrineShop", "TalburyShop", "TalburyMarket", "PeregrineBlacksmiths"]
 ---
 Id 3: Adventurer's Garb
 Desc: Worn clothing that can withstand a harsh journey.
@@ -37,6 +39,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Ingredients: [["Cotton", 2], ["Leather", 3]]
+Purchasable from: ["PeregrineShop", "TalburyMarket", "PeregrineBlacksmiths"]
 ---
 Id 4: Hard Leather
 Desc: Hardened leather vest.
@@ -51,9 +54,10 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Ingredients: [["Fabric", 2], ["Leather", 4]]
+Purchasable from: ["TalburyMarket", "PeregrinePortAlley", "PeregrineBlacksmiths"]
 ---
 Id 5: Brigandine
-Desc: Clothing made with reinforced steel.
+Desc: Thin steel plates riveted to thick cloth on top.
 Type: General Armour
 Price: 1400
 HP: 0
@@ -64,6 +68,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Purchasable from: ["PeregrineBlacksmiths", "Anvil'sMarketInterior"]
 ---
 Id 6: Bandana
 Desc: Headband cloth that protects the head.
@@ -78,6 +83,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Ingredients: [["Fabric", 1]]
+Purchasable from: ["PeregrineSailorsStop"]
 ---
 Id 7: Leather Bandana
 Desc: Wrap made of leather to better protect the head.
@@ -92,6 +98,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Ingredients: [["Leather", 1]]
+Purchasable from: ["PeregrineSailorsStop", "PeregrineMarket/Shipyard"]
 ---
 Id 8: Fur Hat
 Desc: Hat made of fur.
@@ -106,6 +113,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Ice", "90%"]]
+Purchasable from: ["TalburyJewelers"]
 ---
 Id 9: Turban
 Desc: Thick cloth wrapped repeatedly around one's head.
@@ -132,6 +140,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Purchasable from: ["TalburyJewelers", "PeregrineMarket/Shipyard", "DauvillierShop"]
 ---
 Id 11: Cotton Robe
 Desc: A robe made of thick cotton.
@@ -146,6 +155,7 @@ Magical Defence: 2
 Agility: 0
 Luck: 0
 Ingredients: [["Cotton", 3]]
+Purchasable from: ["PeregrineShop", "TalburyJewelers"]
 ---
 Id 12: Silk Cloak
 Desc: A cloak made of fine silk.
@@ -160,6 +170,7 @@ Magical Defence: 4
 Agility: 0
 Luck: 0
 Ingredients: [["Fabric", 1], ["Cotton", 4]]
+Purchasable from: ["TalburyJewelers"]
 ---
 Id 13: Runed Robe
 Desc: A lined robe engraved with runes.
@@ -173,6 +184,7 @@ Magical Attack: 6
 Magical Defence: 7
 Agility: 0
 Luck: 0
+Purchasable from: ["TalburyJewelers", "DauvillierAntiqueShop"]
 ---
 Id 14: Hermit Robe
 Desc: Robe worn by a wise old man.
@@ -186,6 +198,7 @@ Magical Attack: 13
 Magical Defence: 14
 Agility: 0
 Luck: 0
+Purchasable from: ["TalburyJewelers", "DauvillierShop", "DauvillierAntiqueShop"]
 ---
 Id 15: Elemental Cloak
 Desc: The Natural Flow was influenced into the very fibres of this cloak.
@@ -194,12 +207,12 @@ Price: 12000
 HP: 0
 MP: 0
 Attack: 0
-Defence: 28
-Magical Attack: 20
-Magical Defence: 21
+Defence: 39
+Magical Attack: 40
+Magical Defence: 52
 Agility: 0
 Luck: 0
-Ingredients: [["Runed Robe", 1], ["Magic Staff", 1], ["Flow Conduit", 1]]
+Ingredients: [["Runed Robe", 1], ["Magic Staff", 1], ["Flow Conduit", 1], ["Fabric", 2], ["Fur", 3]]
 ---
 Id 16: Copper Brace
 Desc: Hair ornaments made of copper.
@@ -214,6 +227,7 @@ Magical Defence: 1
 Agility: 0
 Luck: 0
 Ingredients: [["Copper Ore", 1]]
+Purchasable from: ["TalburyJewelers", "PeregrineBlacksmiths", "Anvil'sMarketInterior", "DauvillierAntiqueShop"]
 ---
 Id 17: Circlet
 Desc: A ring-shaped ornament made of iron.
@@ -228,6 +242,7 @@ Magical Defence: 3
 Agility: 0
 Luck: 0
 Ingredients: [["Iron Ore", 1]]
+Purchasable from: ["TalburyJewelers", "PeregrineBlacksmiths", "Anvil'sMarketInterior", "DauvillierAntiqueShop"]
 ---
 Id 18: Silver Hairpin
 Desc: Hair accessory that enhances magic.
@@ -241,6 +256,7 @@ Magical Attack: 5
 Magical Defence: 4
 Agility: 0
 Luck: 0
+Purchasable from: ["TalburyJewelers", "PeregrinePortAlley", "PeregrineBlacksmiths", "Anvil'sMarketInterior", "DauvillierAntiqueShop"]
 ---
 Id 19: Hypersteel Circlet
 Desc: Tough circlet made of the incredible alloy.
@@ -254,6 +270,7 @@ Magical Attack: 7
 Magical Defence: 6
 Agility: 0
 Luck: 0
+Purchasable from: ["Anvil'sMarketInterior"]
 ---
 Id 20: Magi's Crown
 Desc: Empowered by an ancient mage's power.
@@ -267,6 +284,7 @@ Magical Attack: 12
 Magical Defence: 11
 Agility: 0
 Luck: 0
+Purchasable from: ["Anvil'sMarketInterior", "DauvillierBlacksmith"]
 ---
 Id 21: Leather Mail
 Desc: Armour made with overlapping leather.
@@ -281,6 +299,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "1%"]]
+Purchasable from: ["PeregrineBlacksmiths"]
 ---
 Id 22: Bronze Plate
 Desc: A breastplate made of bronze.
@@ -296,6 +315,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "2%"]]
 Ingredients: [["Copper Ore", 2], ["Tin Ore", 1]]
+Purchasable from: ["PeregrineBlacksmiths"]
 ---
 Id 23: Iron Plate
 Desc: A breastplate made of iron.
@@ -311,6 +331,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "3%"]]
 Ingredients: [["Iron Ore", 3]]
+Purchasable from: ["PeregrineBlacksmiths", "FlowemBlacksmith", "Anvil'sMarketInterior", "SlumberwoodSmith"]
 ---
 Id 24: Hypersteel Plate
 Desc: Tough breastplate made of the incredible alloy.
@@ -325,20 +346,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "4%"]]
----
-Id 25: Dragon Plate
-Desc: A breastplate made from dragon scales.
-Type: Light Armour
-Price: 15000
-HP: 0
-MP: 0
-Attack: 0
-Defence: 30
-Magical Attack: 0
-Magical Defence: 0
-Agility: 0
-Luck: 0
-Features and Traits: [["ExParam: ", "EVA", "5%"], ["Element Rate: ", "Fire", "80%"]]
+Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&Shop"]
 ---
 Id 26: Leather Hap
 Desc: A hat made out of leather.
@@ -356,20 +364,21 @@ Luck: 0
 Id 27: Bronze Cap
 Desc: A reinforced hat made with bronze.
 Type: Light Armour
-Price: 500
+Price: 300
 HP: 0
 MP: 0
 Attack: 0
-Defence: 7
+Defence: 9
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Purchasable from: ["PeregrineBlacksmiths"]
 ---
 Id 28: Sarett
 Desc: A hat made with steel.
 Type: Light Armour
-Price: 1200
+Price: 700
 HP: 0
 MP: 0
 Attack: 0
@@ -378,6 +387,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Purchasable from: ["PeregrinePortAlley", "PeregrineBlacksmiths", "FlowemBlacksmith", "Anvil'sMarketInterior", "SlumberwoodSmith"]
 ---
 Id 29: Hypersteel Cap
 Desc: Tough cap made of the incredible alloy.
@@ -391,22 +401,9 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&Shop"]
 ---
-Id 30: Dragon Cap
-Desc: A hat made of dragon scales.
-Type: Light Armour
-Price: 15000
-HP: 0
-MP: 0
-Attack: 0
-Defence: 25
-Magical Attack: 0
-Magical Defence: 0
-Agility: 0
-Luck: 0
-Features and Traits: [["Element Rate: ", "Fire", "80%"]]
----
-Id 31: Chain Mail
+Id 31: Iron Mail
 Desc: Armour made with iron chains.
 Type: Heavy Armour
 Price: 150
@@ -419,11 +416,12 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Speed: ", -1]]
+Purchasable from: ["PeregrineBlacksmiths"]
 ---
 Id 32: Iron Armour
-Desc: General suit of armour.
+Desc: A general suit of armour worn by many.
 Type: Heavy Armour
-Price: 750
+Price: 1000
 HP: 0
 MP: 0
 Attack: 0
@@ -433,11 +431,12 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "-1%"], ["Atk Speed: ", -2]]
+Purchasable from: ["PeregrinePortAlley", "PeregrineBlacksmiths", "FlowemBlacksmith", "Bill'sBlacksmith"]
 ---
 Id 33: Plate Mail
-Desc: Iron armour strengthened by overlapping plates.
+Desc: Iron mail strengthened by overlapping plate armour.
 Type: Heavy Armour
-Price: 1800
+Price: 2000
 HP: 0
 MP: 0
 Attack: 0
@@ -447,6 +446,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "-2%"], ["Atk Speed: ", -3]]
+Purchasable from: ["PeregrineBlacksmiths", "Anvil'sMarketInterior", "SlumberwoodSmith"]
 ---
 Id 34: Hypersteel Armour
 Desc: Tough armour made of the incredible alloy. Lacks the EVA reduction of other heavy armours.
@@ -455,28 +455,16 @@ Price: 7500
 HP: 0
 MP: 0
 Attack: 0
-Defence: 32
+Defence: 35
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Features and Traits: [["Atk Speed: ", -2]]
+Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&Shop"]
 ---
-Id 35: Dragon Armour
-Desc: Armour made from dragon scales.
-Type: Heavy Armour
-Price: 22000
-HP: 0
-MP: 0
-Attack: 0
-Defence: 40
-Magical Attack: 0
-Magical Defence: 0
-Agility: 0
-Luck: 0
-Features and Traits: [["ExParam: ", "EVA", "-1%"], ["Element Rate: ", "Fire", "80%"], ["Atk Speed: ", -2]]
----
-Id 36: Chain Helm
-Desc: Helmet made of iron chains.
+Id 36: Chain Coif
+Desc: A piece of armour made of iron chains that typically goes under helmets.
 Type: Heavy Armour
 Price: 150
 HP: 0
@@ -501,9 +489,10 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "0%"]]
+Purchasable from: ["PeregrinePortAlley", "FlowemBlacksmith", "Bill'sBlacksmith"]
 ---
 Id 38: Knight Helm
-Desc: Knights wear this helm.
+Desc: A helmet of steel similar to what honour-bound warriors of kingdoms would have once worn.
 Type: Heavy Armour
 Price: 1400
 HP: 0
@@ -515,9 +504,10 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "-1%"]]
+Purchasable from: ["Anvil'sMarketInterior", "SlumberwoodSmith"]
 ---
 Id 39: Hypersteel Helm
-Desc: Tough helm made of the incredible alloy.
+Desc: Tough helm made of the incredible alloy. Lacks the EVA reduction of other heavy helmets.
 Type: Heavy Armour
 Price: 5500
 HP: 0
@@ -528,20 +518,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
----
-Id 40: Dragon Helm
-Desc: Helmet made of dragon scales.
-Type: Heavy Armour
-Price: 22000
-HP: 0
-MP: 0
-Attack: 0
-Defence: 31
-Magical Attack: 0
-Magical Defence: 0
-Agility: 0
-Luck: 0
-Features and Traits: [["ExParam: ", "EVA", "-1%"], ["Element Rate: ", "Fire", "80%"], ["Atk Speed: ", -2]]
+Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&Shop"]
 ---
 Id 41: Buckler
 Desc: A small shield used to fend off attacks.
@@ -557,6 +534,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "2%"]]
 Ingredients: [["Wood", 1], ["Iron Ore", 1]]
+Purchasable from: ["TalburyMarket", "PeregrineBlacksmiths"]
 ---
 Id 42: Round Shield
 Desc: A circular shield with a reinforced steel frame.
@@ -571,6 +549,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "4%"]]
+Purchasable from: ["PeregrineBlacksmiths"]
 ---
 Id 43: Spike Shield
 Desc: A shield with spikes on its surface for offense. Enables you to rarely counterattack.
@@ -585,6 +564,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "6%"], ["ExParam: ", "CNT", "3%"]]
+Purchasable from: ["PeregrinePortAlley", "PeregrineBlacksmiths", "Anvil'sMarketInterior", "SlumberwoodSmith"]
 ---
 Id 44: Hypersteel Buckler
 Desc: Tough buckler made of the incredible alloy.
@@ -599,23 +579,10 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "8%"]]
----
-Id 45: Dragon Buckler
-Desc: Buckler made of dragon scales.
-Type: Small Shield
-Price: 15000
-HP: 0
-MP: 0
-Attack: 0
-Defence: 31
-Magical Attack: 0
-Magical Defence: 0
-Agility: 0
-Luck: 0
-Features and Traits: [["ExParam: ", "EVA", "12%"], ["Element Rate: ", "Fire", "80%"]]
+Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&Shop"]
 ---
 Id 46: Wood Shield
-Desc: A shield made with hard wood.
+Desc: A hefty shield made with hard wood.
 Type: Large Shield
 Price: 100
 HP: 0
@@ -627,6 +594,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "2%"], ["ExParam: ", "CEV", "1%"], ["Atk Speed: ", -1], ["Gain Skill: ", "Shield Charge"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 47: Steel Shield
 Desc: Shield made of steel.
@@ -641,6 +609,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "4%"], ["ExParam: ", "CEV", "2%"], ["Atk Speed: ", -1], ["Gain Skill: ", "Shield Charge"]]
+Purchasable from: ["PeregrineBlacksmiths", "FlowemBlacksmith", "Bill'sBlacksmith"]
 ---
 Id 48: Knight's Shield
 Desc: The classical shield that many warriors wield.
@@ -655,6 +624,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "6%"], ["ExParam: ", "CEV", "3%"], ["Atk Speed: ", -1], ["Gain Skill: ", "Shield Charge"]]
+Purchasable from: ["PeregrineBlacksmiths", "FlowemBlacksmith", "Anvil'sMarketInterior", "SlumberwoodSmith"]
 ---
 Id 49: Hypersteel Shield
 Desc: Tough shield made of the incredible alloy.
@@ -669,23 +639,10 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "8%"], ["ExParam: ", "CEV", "4%"], ["Atk Speed: ", -1], ["Gain Skill: ", "Shield Charge"]]
----
-Id 50: Dragon Shield
-Desc: Shield made of dragon scales.
-Type: Large Shield
-Price: 15000
-HP: 0
-MP: 0
-Attack: 0
-Defence: 34
-Magical Attack: 0
-Magical Defence: 0
-Agility: 0
-Luck: 0
-Features and Traits: [["ExParam: ", "EVA", "10%"], ["ExParam: ", "CEV", "5%"], ["Atk Speed: ", -1], ["Element Rate: ", "Fire", "80%"], ["Gain Skill: ", "Shield Charge"]]
+Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&Shop"]
 ---
 Id 51: War's Belt
-Desc: Metallic belt that magically engraves itself with the names of the wearer's kills.
+Desc: A metallic belt that magically engraves itself with the names of the wearer's kills.
 Type: General Armour
 Price: 5000
 HP: 0
@@ -709,6 +666,7 @@ Magical Attack: 0
 Magical Defence: 10
 Agility: 0
 Luck: 0
+Purchasable from: ["DauvillierBlacksmith"]
 ---
 Id 53: Winged Boots
 Desc: A spirit of the wind dwell in these boots. Increases EVA.
@@ -723,11 +681,12 @@ Magical Defence: 0
 Agility: 20
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "5%"]]
+Purchasable from: ["PeregrineSecretShop"]
 ---
 Id 54: Earth's Embrace
-Desc: The power of the earth protects the wearer, increasing DEF and resisting most States.
+Desc: The a rocky charm that protects the wearer, increasing DEF and resisting many ailments.
 Type: General Armour
-Price: 4000
+Price: 5000
 HP: 0
 MP: 0
 Attack: 0
@@ -737,6 +696,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["State Resist: ", "Poison"], ["State Resist: ", "Blind"], ["State Resist: ", "Silence"], ["State Resist: ", "Confusion"], ["State Resist: ", "Sleep"], ["State Resist: ", "Paralysis"], ["State Resist: ", "Freezing"], ["State Resist: ", "Knocked Over"], ["State Resist: ", "Headache"], ["State Resist: ", "Burn"]]
+Purchasable from: ["Anvil'sMarketInterior"]
 ---
 Id 55: Lucky Charm
 Desc: A charm engraved with the name of a creature of luck.
@@ -750,6 +710,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 30
+Purchasable from: ["Anvil'sMarketInterior", "DauvillierBlacksmith"]
 ---
 Id 56: Holy Symbol
 Desc: A symbol worn by those who serve the Almighty. It wards off elemental damage from all sources.
@@ -764,9 +725,10 @@ Magical Defence: 5
 Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Fire", "80%"], ["Element Rate: ", "Ice", "80%"], ["Element Rate: ", "Storm", "80%"], ["Element Rate: ", "Water", "80%"], ["Element Rate: ", "Earth", "80%"], ["Element Rate: ", "Air", "80%"], ["Element Rate: ", "Nature", "80%"], ["Element Rate: ", "Light", "80%"], ["Element Rate: ", "Dark", "80%"]]
+Purchasable from: ["DauvillierAntiqueShop"]
 ---
-Id 57: Solomon's Ring
-Desc: A ring with the hidden power of a mighty wizard, reducing the MP cost of Spells and Abilities.
+Id 57: Holundael's Ring
+Desc: A ring with the hidden power of an ancient mighty wizard, reducing the MP cost of Spells and Abilities by 10%.
 Type: General Armour
 Price: 5000
 HP: 0
@@ -777,12 +739,13 @@ Magical Attack: 10
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["SpParam: ", "MCR", "x0.5"]]
+Features and Traits: [["SpParam: ", "MCR", "x0.9"]]
+Purchasable from: ["Anvil'sMarketInterior"]
 ---
 Id 58: Empowering Necklace
 Desc: A magic necklace that empowers those who fight. Increases your EVA, HIT, and TRG.
 Type: General Armour
-Price: 5000
+Price: 8000
 HP: 0
 MP: 0
 Attack: 10
@@ -792,20 +755,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "HIT", "10%"], ["ExParam: ", "EVA", "10%"], ["ExParam: ", "TRG", "4%"]]
----
-Id 59: Eyepatch of Fury
-Desc: An eyepatch worn by powerful berserkers.
-Type: General Armour
-Price: 5000
-HP: 0
-MP: 0
-Attack: 15
-Defence: -5
-Magical Attack: 0
-Magical Defence: 0
-Agility: 0
-Luck: 0
-Features and Traits: [["ExParam: ", "EVA", "-5%"]]
+Purchasable from: ["Anvil'sMarketInterior"]
 ---
 Id 60: Talisman of Light
 Desc: The holy power of the Almighty has been imbued into this talisman, increasing all stats.
@@ -834,34 +784,37 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["State Resist: ", "Confusion"], ["State Resist: ", "Savage"], ["State Resist: ", "Hallucinating"]]
+Purchasable from: ["DauvillierBlacksmith"]
 ---
 Id 62: Shield of Brawn
 Desc: A shield that puts brawn over brains. Increases your MHP, but reduces your MMP.
 Type: Small Shield
-Price: 2200
+Price: 2600
 HP: 0
 MP: 0
 Attack: 0
-Defence: 12
+Defence: 18
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["ExParam: ", "EVA", "3%"], ["Parameter: ", "MHP", "125%"], ["Parameter: ", "MMP", "75%"]]
+Features and Traits: [["ExParam: ", "EVA", "4%"], ["Parameter: ", "MHP", "125%"], ["Parameter: ", "MMP", "75%"]]
+Purchasable from: ["TalburyMysticShop"]
 ---
 Id 63: Mirror Shield
-Desc: A wonderous shield with the powerful ability to deflect magic attacks away from it's holder.
+Desc: A wonderous shield with the powerful ability to deflect magic attacks away from its holder.
 Type: Small Shield
-Price: 6400
+Price: 4500
 HP: 0
 MP: 0
 Attack: 0
-Defence: 13
+Defence: 15
 Magical Attack: 0
-Magical Defence: 0
+Magical Defence: 7
 Agility: 0
 Luck: 0
-Features and Traits: [["ExParam: ", "EVA", "4%"], ["SpParam: ", "MDR", "x0.75"], ["ExParam: ", "MRF", "10%"]]
+Features and Traits: [["ExParam: ", "EVA", "4%"], ["ExParam: ", "MRF", "10%"]]
+Purchasable from: ["TalburyMysticShop", "DauvillierBlacksmith"]
 ---
 Id 64: Bulwark Shield
 Desc: Gives you the ability to bunker down by extending the sides of the shield around you.
@@ -876,23 +829,25 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "5%"], ["Gain Skill: ", "Bunker Down"], ["ExParam: ", "CEV", "15%"], ["Atk Speed: ", -2], ["Gain Skill: ", "Shield Charge"]]
+Purchasable from: ["TalburyMysticShop", "Anvil'sMarketInterior"]
 ---
-Id 65: Hat of the Grey Wizard
-Desc: Totally, 100% original idea. Gives significant bonus to MAT and MMP, while decreasing MP costs. 
-Type: General Armour
-Price: 12500
+Id 65: Wizard's Hat
+Desc: A greyish pointed hat, perfect for practitioners of magic. Decreases MP costs by 20%.
+Type: Magic Armour
+Price: 8000
 HP: 0
-MP: 150
+MP: 100
 Attack: 0
 Defence: 3
-Magical Attack: 25
+Magical Attack: 20
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["SpParam: ", "MCR", "x0.5"]]
+Features and Traits: [["SpParam: ", "MCR", "x0.8"]]
+Purchasable from: ["TalburyMysticShop"]
 ---
 Id 66: Hiking Boots
-Desc: Big leather boots that fend of nature. They're made for lots and lots of walking. 
+Desc: Big leather boots that fend of Nature. They're great for lots and lots of walking.
 Type: General Armour
 Price: 300
 HP: 0
@@ -903,38 +858,40 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 8
 Luck: 0
-Features and Traits: [["ExParam: ", "EVA", "0%"], ["Element Rate: ", "Nature", "80%"]]
+Features and Traits: [["ExParam: ", "EVA", "0%"], ["Element Rate: ", "Nature", "80%"], ["State Rate: ", "Sleep", "50%"]]
+Purchasable from: ["PeregrineShop", "TalburyCobbler", "PeregrinePortAlley", "Anvil'sMarketInterior"]
 ---
-Id 67: Steel-Toed Boots
-Desc: These boots cap the toes with a thin layer of steel for extra strength and kicking power.
+Id 67: Steel-Toed Shoes
+Desc: These boots cap the toes with a thin layer of steel for extra protection or kicking power.
 Type: General Armour
-Price: 75
+Price: 150
 HP: 0
 MP: 0
-Attack: 0
-Defence: 2
+Attack: 1
+Defence: 4
 Magical Attack: 0
 Magical Defence: 0
 Agility: 3
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "0%"]]
+Purchasable from: ["TalburyCobbler", "Bill'sBlacksmith", "Anvil'sMarketInterior"]
 ---
-Id 68: Sandals
-Desc: Light feet wraps that...uh, cover your feet.
+Id 68: Casual Shoes
+Desc: Typical thin leather shoes with a short lace.
 Type: General Armour
-Price: 9
+Price: 10
 HP: 0
 MP: 0
 Attack: 0
-Defence: -1
+Defence: 1
 Magical Attack: 0
 Magical Defence: 0
-Agility: 2
+Agility: 1
 Luck: 0
-Ingredients: [["Skull", 10], ["Celery", 69]]
+Purchasable from: ["TalburyCobbler", "Anvil'sMarketInterior"]
 ---
 Id 69: Wizard's Clogs
-Desc: A shoe with a funny name often worn by those who delve into magic.
+Desc: A wooden shoe often worn by those who delve into magic.
 Type: General Armour
 Price: 65
 HP: 0
@@ -946,20 +903,22 @@ Magical Defence: 3
 Agility: 2
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "0%"]]
+Purchasable from: ["TalburyCobbler", "Anvil'sMarketInterior"]
 ---
 Id 70: Fur Boots
-Desc: Large boots with a fur trim that help protect against the cold.
+Desc: Thick boots with a fur trim that help protect against the cold.
 Type: General Armour
 Price: 300
 HP: 0
 MP: 0
 Attack: 0
-Defence: 2
+Defence: 3
 Magical Attack: 0
 Magical Defence: 0
 Agility: 6
 Luck: 0
-Features and Traits: [["ExParam: ", "EVA", "0%"], ["Element Rate: ", "Ice", "80%"], ["State Resist: ", "Freezing"]]
+Features and Traits: [["ExParam: ", "EVA", "0%"], ["Element Rate: ", "Ice", "80%"], ["State Rate: ", "Freezing", "50%"]]
+Purchasable from: ["TalburyCobbler", "Anvil'sMarketInterior"]
 ---
 Id 71: Wellies
 Desc: Big rubber boots that insulate against Storm attacks.
@@ -968,17 +927,18 @@ Price: 300
 HP: 0
 MP: 0
 Attack: 0
-Defence: 2
+Defence: 3
 Magical Attack: 0
 Magical Defence: 0
 Agility: 6
 Luck: 0
-Features and Traits: [["ExParam: ", "EVA", "0%"], ["Element Rate: ", "Storm", "80%"], ["State Resist: ", "Paralysis"]]
+Features and Traits: [["ExParam: ", "EVA", "0%"], ["Element Rate: ", "Storm", "80%"], ["State Rate: ", "Paralysis", "50%"]]
+Purchasable from: ["TalburyCobbler", "PeregrineMarket/Shipyard", "Anvil'sMarketInterior"]
 ---
 Id 72: Iron Sabatons
 Desc: Large, heavy steel boots that protect your feet from those who wish to harm them.
 Type: Heavy Armour
-Price: 1500
+Price: 500
 HP: 0
 MP: 0
 Attack: 0
@@ -988,11 +948,12 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "-1%"]]
+Purchasable from: ["Anvil'sMarketInterior", "SlumberwoodSmith"]
 ---
 Id 73: Hypersteel Sabatons
-Desc: Larger, heavier hypersteel boots that really protect your feet from those who wish to harm them.
+Desc: Big, heavy sabatons made of the incredible alloy.
 Type: Heavy Armour
-Price: 3000
+Price: 2000
 HP: 0
 MP: 0
 Attack: 0
@@ -1002,6 +963,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "-2%"]]
+Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&Shop"]
 ---
 Id 74: Religious Idol
 Desc: Reduces damage from Dark element and changes your attack element to Light.
@@ -1029,6 +991,7 @@ Magical Attack: 0
 Magical Defence: 7
 Agility: -25
 Luck: 0
+Purchasable from: ["TalburyMarket"]
 ---
 Id 76: The Silent Ringer
 Desc: A bell that makes no sound. 25% MP cost, but significantly increases damage from all sources.
@@ -1043,6 +1006,7 @@ Magical Defence: -15
 Agility: 0
 Luck: 0
 Features and Traits: [["SpParam: ", "MCR", "x0.25"], ["SpParam: ", "MDR", "x1.5"], ["SpParam: ", "PDR", "x1.5"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 77: Bag to the Void
 Desc: A bag where things inside it seem to disappear forever. Increases CRI rate, but increases TGR.
@@ -1057,6 +1021,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 2
 Features and Traits: [["ExParam: ", "CRI", "8%"], ["SpParam: ", "TGR", "x1.3"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 78: Map to Nowhere
 Desc: A map of an unknown place with a trail that has no end. Increases EVA a lot but decreases HIT as well.
@@ -1071,6 +1036,7 @@ Magical Defence: 0
 Agility: 3
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "10%"], ["ExParam: ", "HIT", "-15%"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 79: Lamp of Empty Promises
 Desc: A lamp that seems to lack any sort of use. Increases MAT significantly, but decreases ATK by loads.
@@ -1084,6 +1050,7 @@ Magical Attack: 45
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Purchasable from: ["TalburyMarket"]
 ---
 Id 80: Terribly Sharp Quill Pen
 Desc: A quill that is so sharp it ruins any material it tries to write on. Increases ATK but decreases LUK.
@@ -1097,6 +1064,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: -50
+Purchasable from: ["TalburyMarket"]
 ---
 Id 81: Heavy Feather
 Desc: A seemingly impossible feather that weighs an incredulous amount. Increases DEF a lot, but decreases AGI too.
@@ -1111,6 +1079,7 @@ Magical Defence: 0
 Agility: -100
 Luck: 0
 Dropped By: [["Grave Defiler", "8%"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 82: Burning Ointment
 Desc: A cream to soothe burns that burns to the touch. Increases Fire Resistance a lot, but reduces MHP slightly.
@@ -1125,6 +1094,7 @@ Magical Defence: 5
 Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Fire", "15%"], ["Parameter: ", "MHP", "90%"], ["State Resist: ", "Burn"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 83: Liquid Gold
 Desc: A pouch of gold coins that melt when touched. Doubles gold drops, but completely eliminates ATK and MAT.
@@ -1140,6 +1110,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Party Ability: ", "Double Gold Drops"]]
 Dropped By: [["Mimic", "3%"], ["Devillish Mimic", "4%"], ["Abhorent Mimic", "7%"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 84: Fast-Track Ticket
 Desc: Tickets to a non-existant theatre for the fast line in. Increases AGI by a lot, but decreases CRI too.
@@ -1154,6 +1125,7 @@ Magical Defence: 0
 Agility: 75
 Luck: 0
 Features and Traits: [["ExParam: ", "CRI", "-10%"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 85: Useless Mirror
 Desc: A mirror that only shows the reflection when you  can't see it. Can deflect magic, but massively decreases TGR.
@@ -1168,6 +1140,7 @@ Magical Defence: 12
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "MRF", "25%"], ["SpParam: ", "TGR", "x0.25"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 86: Puzzle Piece
 Desc: One part of a jigsaw that consists of two pieces. Halves MP costs, but you lose MP passively.
@@ -1182,6 +1155,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "MRG", "-5%"], ["SpParam: ", "MCR", "x0.5"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 87: Cold Cloak
 Desc: A large fur cloak that is eternally surrounded by sub-zero air. Decreases MDF, but increases EVA.
@@ -1196,6 +1170,7 @@ Magical Defence: -35
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "15%"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 88: Untuned Harp
 Desc: A harp out of tune that cannot be adjusted. Increases MAT but also increases TGR a lot.
@@ -1210,6 +1185,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["SpParam: ", "TGR", "x1.4"]]
+Purchasable from: ["TalburyMarket", "DauvillierAntiqueShop"]
 ---
 Id 89: Unmelting Ice
 Desc: An ice cube that doesn't melt, no matter what. Gives Ice resistance, but decreases EVA.
@@ -1225,6 +1201,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "-10%"], ["Element Rate: ", "Ice", "15%"], ["State Resist: ", "Freezing"]]
 Dropped By: [["Frigid Scorpion", "8%"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 90: Permanent Gloves
 Desc: Gloves filled with a strange adhesive. Increases DEF, but decreases HIT significantly.
@@ -1239,6 +1216,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "HIT", "-15%"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 91: Lockless Key
 Desc: A copper key that doesn't open anything. Increases LUK by loads but increases your TGR.
@@ -1253,6 +1231,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 100
 Features and Traits: [["SpParam: ", "TGR", "x1.3"]]
+Purchasable from: ["TalburyMarket", "DauvillierAntiqueShop"]
 ---
 Id 92: Soul in a Jar
 Desc: A soul was trapped in this jar and seems annoyed. Passively increases PR but decreases DEF and MDF by loads.
@@ -1267,6 +1246,7 @@ Magical Defence: -100
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "TRG", "15%"]]
+Purchasable from: ["PeregrineSecretShop"]
 ---
 Id 93: Lightless Lantern
 Desc: A lantern with tinted glass that blocks light from being cast. Decreases TGR, but increases MP Costs.
@@ -1281,6 +1261,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 2
 Features and Traits: [["SpParam: ", "MCR", "x1.3"], ["SpParam: ", "TGR", "x0.45"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 94: A Really Cool Hat
 Desc: A really cool hat. Increases LUK immensly, but your resistance to ailments is greatly reduced.
@@ -1295,6 +1276,21 @@ Magical Defence: 0
 Agility: 0
 Luck: 200
 Features and Traits: [["State Rate: ", "Poison", "150%"], ["State Rate: ", "Blind", "150%"], ["State Rate: ", "Silence", "150%"], ["State Rate: ", "Confusion", "150%"], ["State Rate: ", "Sleep", "150%"], ["State Rate: ", "Paralysis", "150%"], ["State Rate: ", "Stun", "150%"], ["State Rate: ", "Freezing", "150%"], ["State Rate: ", "Knocked Over", "150%"], ["State Rate: ", "Headache", "150%"], ["State Rate: ", "Burn", "150%"], ["State Rate: ", "Fear", "150%"], ["State Rate: ", "Bleeding", "150%"], ["State Rate: ", "Pinned Down", "150%"], ["State Rate: ", "Hallucinating", "150%"], ["State Rate: ", "Curse of the Sinbearer", "150%"], ["State Rate: ", "Savage", "150%"], ["State Rate: ", "Hopeless", "150%"], ["State Rate: ", "Buttered", "150%"], ["State Rate: ", "Marked", "150%"], ["State Rate: ", "Thunderstorm", "150%"], ["State Rate: ", "Void Scar", "150%"], ["State Rate: ", "Acid Damage", "150%"], ["State Rate: ", "Wet", "150%"], ["State Rate: ", "Drowning", "150%"], ["State Rate: ", "Oozed", "150%"], ["State Rate: ", "Constricted", "150%"], ["State Rate: ", "Plagued", "150%"], ["State Rate: ", "Stats Eroded", "150%"], ["State Rate: ", "Hexed", "150%"], ["State Rate: ", "Weakening Field", "150%"], ["State Rate: ", "Oozed", "150%"]]
+Purchasable from: ["TalburyMarket", "PeregrinePortAlley"]
+---
+Id 95: Armour of the Hellclad
+Desc: \}The mythic suit of armour worn by members of the ancient warrior clan, the "Hellclad". Domosseus, their last commander, has been defeated. Doubles REC.
+Type: Heavy Armour
+Price: 0
+HP: 0
+MP: 0
+Attack: 30
+Defence: 95
+Magical Attack: 0
+Magical Defence: 70
+Agility: 0
+Luck: 0
+Features and Traits: [["SpParam: ", "REC", "x2.0"]]
 ---
 Id 96: Fast Food
 Desc: A paper bag full of cheap and greasy food. Gives passive HP regeneration, but decreases MHP.
@@ -1309,6 +1305,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "HRG", "10%"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 97: No-Leaf Clover
 Desc: A clover with no leaves. Decreases your LUK, but increases your MMP.
@@ -1322,6 +1319,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: -50
+Purchasable from: ["TalburyMarket"]
 ---
 Id 98: Gift Box
 Desc: A present labled for a "Dave". Doubles item drops from monsters, but you take far more Critical Hits.
@@ -1336,6 +1334,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 10
 Features and Traits: [["Party Ability: ", "Double Drop Item Chance"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 99: Loose Belt
 Desc: A belt that is always *just* too loose no matter how much you tighten it. Decreases DEF, but gives ATK.
@@ -1349,6 +1348,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Purchasable from: ["TalburyMarket"]
 ---
 Id 100: Mini Chest
 Desc: A tiny chest you can't open. There are sounds from inside. Increases MDF, but also increases TGR.
@@ -1363,6 +1363,7 @@ Magical Defence: 40
 Agility: 0
 Luck: 0
 Features and Traits: [["SpParam: ", "TGR", "x1.25"]]
+Purchasable from: ["TalburyMarket", "DauvillierAntiqueShop"]
 ---
 Id 101: Pocket Sand
 Desc: It's coarse, rough, irritating, and it gets everywhere. Increases EVA, but you get Blinded easier.
@@ -1377,6 +1378,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["State Rate: ", "Blind", "125%"], ["ExParam: ", "EVA", "25%"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 102: Curved Stick
 Desc: It looks just like a boomerang, but it won't come back. Increases ATK but decreases HIT rate.
@@ -1391,6 +1393,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "HIT", "-25%"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 103: Salt Shaker
 Desc: Salt with an unknown origin that makes food so much better. Improves HP increases from items but lowers MHP.
@@ -1405,6 +1408,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["SpParam: ", "PHA", "x1.5"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 104: Bubble Blower
 Desc: A small bottle containing a soapy liquid for blowing bubbles. Can Blind targets, but lowers your EVA.
@@ -1419,6 +1423,7 @@ Magical Defence: 0
 Agility: 2
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "-25%"], ["Atk State: ", "Blind", "10%"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 105: Ancient Recipes
 Desc: Recipes from long ago that are the bane of fruit and veg. Gives Nature resistance, but lowers AGI.
@@ -1433,6 +1438,7 @@ Magical Defence: 0
 Agility: -35
 Luck: 0
 Features and Traits: [["Element Rate: ", "Nature", "15%"], ["State Resist: ", "Poison"]]
+Purchasable from: ["TalburyMarket", "DauvillierAntiqueShop"]
 ---
 Id 106: Lightning Rod
 Desc: A metal rod that absorbs and redirects electricity. Gives Storm resistance, but lowers MDF.
@@ -1447,6 +1453,7 @@ Magical Defence: -25
 Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Storm", "15%"], ["State Resist: ", "Paralysis"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 107: Silver Mirror
 Desc: A mirror that is horrendously reflective. Gives Light resistance, but lowers your HIT.
@@ -1461,6 +1468,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Light", "15%"], ["ExParam: ", "HIT", "-15%"], ["State Resist: ", "Blind"]]
+Purchasable from: ["TalburyMarket", "DauvillierAntiqueShop"]
 ---
 Id 108: Wet Wrap
 Desc: A soggy cloak that dampens the impact of dry material. Gives Earth resistance, but lowers MDF.
@@ -1475,6 +1483,7 @@ Magical Defence: -25
 Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Earth", "15%"], ["State Resist: ", "Stun"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 109: Soul Orb
 Desc: \}An orb that creates an invisible barrier to protect your Soul. Increases Soul resistance and gives immunity to instant Death attacks, but lowers PR.
@@ -1489,6 +1498,7 @@ Magical Defence: 8
 Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Soul", "15%"], ["ExParam: ", "TRG", "-5%"], ["State Rate: ", "Death", "0%"]]
+Purchasable from: ["PeregrineSecretShop"]
 ---
 Id 110: Wind Warder
 Desc: A charm that seems to weaken even the strongest winds. Gives resistance to Wind, but decreases CRI.
@@ -1503,6 +1513,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Air", "15%"], ["State Resist: ", "Knocked Over"], ["ExParam: ", "CRI", "-10%"]]
+Purchasable from: ["TalburyMarket", "DauvillierShop"]
 ---
 Id 111: Sun Candle
 Desc: A candle that sheds enough light to be mistaken for day time. Gives Dark resistance but decreases LUK.
@@ -1517,6 +1528,7 @@ Magical Defence: 0
 Agility: 0
 Luck: -50
 Features and Traits: [["Element Rate: ", "Dark", "15%"], ["State Resist: ", "Fear"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 112: Definitely a Sponge
 Desc: A sponge that looks, smells, and tastes like cheese. Gives Water resistance, but halves PHA.
@@ -1531,6 +1543,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Water", "15%"], ["SpParam: ", "PHA", "x0.5"], ["State Resist: ", "Wet"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 113: Blunthead Arrows
 Desc: A blunt arrowhead that can Stun targets on impact.
@@ -1546,6 +1559,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk State: ", "Stun", "10%"]]
 Ingredients: [["Wood", 1]]
+Purchasable from: ["TalburyMarket", "Anvil'sMarketInterior"]
 ---
 Id 114: Fishhead Arrows
 Desc: A barbed arrowhead used for fishing. Can Bleed targets.
@@ -1561,6 +1575,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk State: ", "Bleeding", "5%"]]
 Ingredients: [["Wood", 1], ["Blunthead Arrows", 1]]
+Purchasable from: ["TalburyMarket", "PeregrineMarket/Shipyard", "Anvil'sMarketInterior", "DauvillierShop", "DauvillierBlacksmith"]
 ---
 Id 115: Crescent Arrows
 Desc: Crescent-shaped arrows used to instantly decapitate birds. Higher chance to Bleed than fishheads.
@@ -1576,6 +1591,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk State: ", "Bleeding", "10%"]]
 Ingredients: [["Wood", 1], ["Iron Ore", 1], ["Fishhead Arrows", 1]]
+Purchasable from: ["TalburyMarket", "Anvil'sMarketInterior", "DauvillierBlacksmith"]
 ---
 Id 116: Broadhead Arrows
 Desc: A very wide and sharp arrowhead used for big game hunting. Higher chance to Bleed than crescent ones.
@@ -1591,6 +1607,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk State: ", "Bleeding", "15%"]]
 Ingredients: [["Wood", 2], ["Iron Ore", 2], ["Crescent Arrows", 1]]
+Purchasable from: ["IfradBlacksmith", "Anvil'sMarketInterior", "DauvillierBlacksmith"]
 ---
 Id 117: Serrated Broadhead Arrows
 Desc: Broadhead arrows with serrated edges. Higher chance to Bleed than general broadheads.
@@ -1606,6 +1623,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk State: ", "Bleeding", "20%"]]
 Ingredients: [["Wood", 2], ["Silver Ore", 2], ["Broadhead Arrows", 2]]
+Purchasable from: ["Anvil'sMarketInterior"]
 ---
 Id 118: Hooked Arrows
 Desc: Broadheads with bladed hooks that are incredibly deadly. Very high chance to Bleed targets.
@@ -1636,6 +1654,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk State: ", "Poison", "10%"]]
 Ingredients: [["Blunthead Arrows", 1], ["Hornet Venom", 2]]
+Purchasable from: ["TalburyMarket", "Anvil'sMarketInterior"]
 ---
 Id 120: Flaming Arrows
 Desc: Magic arrows that set themselves alight when released. Can Burn targets.
@@ -1650,6 +1669,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk State: ", "Burn", "10%"]]
+Purchasable from: ["TalburyMarket", "Anvil'sMarketInterior"]
 ---
 Id 121: Bookmark
 Desc: \}A handy little bookmark for Dave that helps him to keep his page without having to crimp the page at all. Gives some MP regeneration.
@@ -1678,6 +1698,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk State: ", "Sleep", "25%"]]
+Purchasable from: ["IfradBlacksmith"]
 ---
 Id 123: Charm of Retribution
 Desc: A necklace that bolsters those that counter-attack often. Only when countering, your ATK is doubled.
@@ -1720,6 +1741,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "CRI", "3%"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 126: Raxorium Arrows
 Desc: \}Arrows with Raxorium serrated broadheads that annihilate anything in its path. High chance to Bleed and can instantly kill.
@@ -1762,6 +1784,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Times: ", 1], ["Atk Speed: ", 2]]
+Purchasable from: ["Anvil'sMarketInterior"]
 ---
 Id 129: Thunderfury Arrows
 Desc: Arrows imbued with the power of Storm, changing your attack element to it.
@@ -1776,6 +1799,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Storm"]]
+Purchasable from: ["Anvil'sMarketInterior"]
 ---
 Id 130: Tsunami Arrows
 Desc: Arrows imbued with the power of Water, changing your attack element to it.
@@ -1790,6 +1814,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Water"]]
+Purchasable from: ["PeregrineMarket/Shipyard", "DauvillierShop"]
 ---
 Id 131: Smitecaster Arrows
 Desc: Arrows imbued with the power of Light, changing your attack element to it.
@@ -1804,6 +1829,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Light"]]
+Purchasable from: ["IfradBlacksmith"]
 ---
 Id 132: Hellfire Arrows
 Desc: Arrows imbued with the power of Fire, changing your attack element to it.
@@ -1818,6 +1844,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Fire"]]
+Purchasable from: ["IfradBlacksmith"]
 ---
 Id 133: Fangfrost Arrows
 Desc: Arrows imbued with the power of Ice, changing your attack element to it.
@@ -1832,6 +1859,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Ice"]]
+Purchasable from: ["IfradBlacksmith", "Anvil'sMarketInterior"]
 ---
 Id 134: Airblade Arrows
 Desc: Arrows imbued with the power of Wind, changing your attack element to it.
@@ -1846,6 +1874,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Air"]]
+Purchasable from: ["TalburyMarket", "DauvillierShop"]
 ---
 Id 135: Darkstrike Arrows
 Desc: Arrows imbued with the power of Dark, changing your attack element to it.
@@ -1875,6 +1904,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Earth"]]
+Purchasable from: ["Anvil'sMarketInterior"]
 ---
 Id 137: Woodhammer Arrows
 Desc: Arrows imbued with the power of Nature, changing your attack element to it.
@@ -1889,6 +1919,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Nature"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 138: Vampiric Arrows
 Desc: Magical arrows that can return some of the damage dealt as healing for the user.
@@ -1931,6 +1962,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "HIT", "3%"]]
+Purchasable from: ["TalburyMarket", "Anvil'sMarketInterior"]
 ---
 Id 141: Bow Stabilisers
 Desc: Weights that you attach to a bow to make it heavier, thus making it sway less and increasing accuracy.
@@ -1945,6 +1977,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "HIT", "6%"]]
+Purchasable from: ["IfradBlacksmith", "Anvil'sMarketInterior", "DauvillierBlacksmith"]
 ---
 Id 142: Attachable Handguard
 Desc: A sort of cage that you can lock onto the grip of a sword that helps you to counterattack incoming foes.
@@ -1959,6 +1992,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "CNT", "10%"]]
+Purchasable from: ["TalburyMarket", "FlowemBlacksmith", "Bill'sBlacksmith", "DauvillierBlacksmith"]
 ---
 Id 143: Jagged Pummel
 Desc: A different type of pummel you can attach to a sword that allows you to sometimes get an additional hit in.
@@ -1973,6 +2007,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["+Action Chance: ", "25%"]]
+Purchasable from: ["TalburyMarket", "PeregrinePortAlley", "SlumberwoodSmith", "DauvillierBlacksmith"]
 ---
 Id 144: Swordstopper
 Desc: A large hemi-sphere of a multicoloured material that seems unbreakable. Doubles your Recovery Rate while equipped.
@@ -1987,6 +2022,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "7%"], ["SpParam: ", "REC", "x2.0"], ["ExParam: ", "CEV", "5%"], ["Atk Speed: ", -2], ["Gain Skill: ", "Shield Charge"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 145: Invisibility Cloak
 Desc: A cloak that's, well, invisible. It slightly reduces your EVA for MDF and MMP.
@@ -2001,6 +2037,7 @@ Magical Defence: 35
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "-5%"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 146: Butter Knife Enhancer
 Desc: \}Paired with Butter. Makes you and your Butter Knife unstoppable, increasing your HIT, CRI, and allowing you to counter.
@@ -2016,6 +2053,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "HIT", "50%"], ["ExParam: ", "CRI", "10%"], ["ExParam: ", "CNT", "15%"]]
 Dropped By: [["Butter Slime", "1%"], ["Butter Golem", "1%"], ["Butter Manifestation", "3%"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 147: Butter
 Desc: \}Paried with the Butter Knife Enhancer. Gives you the Butter skill, passive regeneration for all resources, and makes you slippery.
@@ -2031,6 +2069,7 @@ Agility: 50
 Luck: 100
 Features and Traits: [["Gain Skill: ", "Butter"], ["ExParam: ", "EVA", "10%"], ["Atk State: ", "Buttered", "50%"], ["ExParam: ", "HRG", "5%"], ["ExParam: ", "MRG", "2%"], ["ExParam: ", "TRG", "2%"]]
 Dropped By: [["Butter Slime", "1%"], ["Butter Golem", "1%"], ["Butter Manifestation", "3%"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 148: Second Blade
 Desc: Another blade you can attach to the hilt of your sword. More likely to allow you to have multiple attacks.
@@ -2045,6 +2084,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["+Action Chance: ", "50%"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 149: Royal Admiral's Armour
 Desc: \}The masterfully crafted outfit of the Royal Admiral of Talbury. The perfect match of strength, agility, and aesthetic, this is the perfect armour for Thaedrin.
@@ -2115,6 +2155,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Ingredients: [["Copper Brace", 1], ["Conch Shell", 2]]
+Purchasable from: ["DauvillierBlacksmith"]
 ---
 Id 154: Floodgate Shield
 Desc: A shield that repels even the greatest torrents. Doubles as an umbrella.
@@ -2130,6 +2171,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "6%"], ["ExParam: ", "CEV", "3%"], ["Atk Speed: ", -1], ["Element Rate: ", "Water", "50%"], ["Gain Skill: ", "Shield Charge"]]
 Ingredients: [["Knight's Shield", 1], ["Seaweed", 2], ["Conch Shell", 2]]
+Purchasable from: ["DauvillierBlacksmith"]
 ---
 Id 155: Cookie Bag
 Desc: A small pouch filled with bite-sized cookies. Gives passive HP regeneration.
@@ -2158,6 +2200,7 @@ Magical Defence: 10
 Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Nature", "40%"]]
+Purchasable from: ["Anvil'sMarketInterior"]
 ---
 Id 157: Talbrian Armour
 Desc: The standard-issue armour distributed to the soldiers of Talbury.
@@ -2171,6 +2214,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Purchasable from: ["Bill'sBlacksmith"]
 ---
 Id 158: Ship Shield
 Desc: \}A shield crafted from the remains of destroyed ships. The wood is strong, just not, y'know, strong enough to have saved the ships.
@@ -2186,6 +2230,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "6%"], ["ExParam: ", "CEV", "4%"], ["Atk Speed: ", -1], ["Gain Skill: ", "Shield Charge"]]
 Ingredients: [["Wood", 5], ["Conch Shell", 2], ["Wood Shield", 1]]
+Purchasable from: ["PeregrineSailorsStop", "DauvillierBlacksmith"]
 ---
 Id 159: Second Splitter
 Desc: \}An additional axehead you can lock onto your axe. Slightly increased chance to have additional action but mostly increases your HIT rate.
@@ -2200,6 +2245,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["+Action Chance: ", "25%"], ["ExParam: ", "HIT", "5%"]]
+Purchasable from: ["FlowemBlacksmith", "Bill'sBlacksmith", "SlumberwoodSmith", "DauvillierBlacksmith"]
 ---
 Id 160: Springy Splitter
 Desc: \}\}Basically, right, the splitter is attached to the grip by a spring. So it wobbles around all over the place uncontrollably. It is completely useless now. BUT, it does give you more HIT chance.
@@ -2228,6 +2274,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk State: ", "Bleeding", "20%"]]
+Purchasable from: ["FlowemBlacksmith", "SlumberwoodSmith", "DauvillierBlacksmith"]
 ---
 Id 162: Retractable Chain
 Desc: A button on the grip allows you to launch the ball and chain at a target and retract it back. Increases attack speed.
@@ -2242,6 +2289,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Speed: ", 5]]
+Purchasable from: ["SlumberwoodSmith", "DauvillierBlacksmith"]
 ---
 Id 163: Thorn Plating
 Desc: Large plates of thick spikes are attached to your shield. Increases counter chance.
@@ -2256,6 +2304,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "CNT", "5%"]]
+Purchasable from: ["Bill'sBlacksmith", "SlumberwoodSmith"]
 ---
 Id 164: Templar Armour
 Desc: The standard-issue amour distributed to the soldiers of the Templar Order.
@@ -2388,9 +2437,10 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Ingredients: [["Leather Mail", 1], ["Wood", 2], ["Dylorien", 1]]
+Purchasable from: ["SlumberwoodSmith"]
 ---
 Id 173: Deciduous Mantle
-Desc: A warm cloak with a layer of tiny leaves, covering its surface. An almost perfect camouflage, greatly reducing your TGR.
+Desc: A warm cloak with a layer of tiny leaves, covering its surface. A near perfect camouflage, greatly reducing TGR.
 Type: Magic Armour
 Price: 8500
 HP: 0
@@ -2479,7 +2529,7 @@ Magical Defence: 46
 Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Dark", "50%"], ["State Resist: ", "Silence"], ["State Resist: ", "Confusion"], ["State Resist: ", "Blind"], ["State Resist: ", "Fear"], ["State Resist: ", "Savage"], ["State Resist: ", "Hallucinating"], ["State Rate: ", "Death", "0%"], ["ExParam: ", "EVA", "-4%"], ["Atk Speed: ", -3]]
-Ingredients: [["Hypersteel Armour", 1], ["Templar's Ashes", 1], ["Silver Mirror", 1], ["Smitecaster Arrows", 1]]
+Ingredients: [["Hypersteel Armour", 1], ["Lustred Sundial", 1], ["Silver Mirror", 1], ["Smitecaster Arrows", 1]]
 ---
 Id 179: Radiant Sentinel
 Desc: \}A beacon of light in the darkness, this helmet is worn by those destined for a path of good will and selflessness. Gain the Sentinel's Radiance skill.
@@ -2508,7 +2558,7 @@ Magical Defence: 64
 Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Fire", "50%"], ["Element Rate: ", "Light", "50%"], ["State Resist: ", "Blind"], ["State Resist: ", "Burn"]]
-Ingredients: [["Elemental Cloak", 1], ["Templar's Ashes", 1], ["Sun Candle", 2], ["Burning Ointment", 1]]
+Ingredients: [["Elemental Cloak", 1], ["Lustred Sundial", 1], ["Sun Candle", 2], ["Burning Ointment", 1]]
 ---
 Id 181: Thundershock Stormguard
 Desc: Mighty armour that absorbs incoming Storm attacks.
@@ -2611,6 +2661,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["SpParam: ", "TCR", "x1.15"]]
+Purchasable from: ["Anvil'sMarketInterior"]
 ---
 Id 188: Eye of the Storm
 Desc: A ring that heavily accentuates the magical power of its wearer. Slightly reduces MP costs.
@@ -2713,6 +2764,7 @@ Magical Defence: 6
 Agility: 0
 Luck: 0
 Features and Traits: [["SpParam: ", "TCR", "x1.5"], ["SpParam: ", "TGR", "x0.25"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 195: Ifradian Armour
 Desc: Heavy armour made in partnership with Marrarock to protect the soldiers of Ifrad.
@@ -2727,6 +2779,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "-2%"], ["Atk Speed: ", -2]]
+Purchasable from: ["IfradBlacksmith"]
 ---
 Id 196: Ifradian Shield
 Desc: A shield carried by Ifradians worthy of its status.
@@ -2741,6 +2794,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "6%"], ["ExParam: ", "CEV", "3%"], ["Atk Speed: ", -1], ["Gain Skill: ", "Shield Charge"]]
+Purchasable from: ["IfradBlacksmith"]
 ---
 Id 197: Ifradian Emblem
 Desc: \}The emblem of the soldiers to Ifrad, the vigilant fortress. Fills the wearer with raw courage and faith in their allies. IFRAD EST VICTORIA!
@@ -2769,6 +2823,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "3%"]]
+Purchasable from: ["IfradBlacksmith"]
 ---
 Id 199: Tectonic Platemail
 Desc: \}Dense armour that can't be scratched by even the toughest of weapons. It is very heavy, however, so your AGI is reduced.
@@ -2800,6 +2855,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Earth", "25%"]]
 Ingredients: [["Hard Leather", 1], ["Iron Ore", 1], ["Wood", 1], ["Fallen Star", 1]]
+Purchasable from: ["SlumberwoodShop"]
 ---
 Id 201: Gaiashell Carapace
 Desc: A thick shell-like armour set that boosts your MHP and adds the Bunker Down skill.
@@ -2847,13 +2903,13 @@ Features and Traits: [["Gain Skill: ", "Thunderstorm"]]
 Ingredients: [["Runed Robe", 1], ["Eye of the Storm", 1], ["Thundrite", 1], ["Wind's Wing", 1]]
 ---
 Id 204: Empyrean Winguard
-Desc: Armour that can reliably absorb the impacts of spells.
+Desc: Light armour that can reliably absorb the impacts of spells.
 Type: Light Armour
 Price: 9000
 HP: 0
 MP: 0
 Attack: 0
-Defence: 17
+Defence: 19
 Magical Attack: 0
 Magical Defence: 51
 Agility: 0
@@ -2917,6 +2973,7 @@ Magical Defence: 6
 Agility: 0
 Luck: 0
 Features and Traits: [["SpParam: ", "TCR", "x1.5"], ["ExParam: ", "HRG", "-10%"]]
+Purchasable from: ["TalburyMarket"]
 ---
 Id 209: Magic Repressor
 Desc: \}A crown that represses the wearer's ability to use magic. Prevents the use of spells, removes all MAT, significantly reduces MP, but ATK is massively increased.
@@ -2975,6 +3032,7 @@ Magical Attack: 0
 Magical Defence: 17
 Agility: 0
 Luck: 0
+Purchasable from: ["Woman'sHouse", "Anvil'sMarketInterior"]
 ---
 Id 213: Tungsten Tongs
 Desc: \}A pair of tongs made of tungsten not uncommon in the forge. It's uncanny ability to resist heat grants Fire resistance and MEV.
@@ -2989,9 +3047,10 @@ Magical Defence: 4
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "MEV", "10%"], ["Element Rate: ", "Fire", "50%"], ["State Resist: ", "Burn"]]
+Purchasable from: ["Bill'sBlacksmith", "MarrarockShop"]
 ---
 Id 214: Amethyst Necklace
-Desc: A necklace recommended to Xavier specifically. His new confidence on his appearance increases his EXP gain rate.
+Desc: A necklace recommended to Xavier specifically. His new confidence on his appearance increases his Atk Speed.
 Type: Unique
 Price: 2000
 HP: 0
@@ -3002,7 +3061,8 @@ Magical Attack: 0
 Magical Defence: 4
 Agility: 0
 Luck: 4
-Features and Traits: [["SpParam: ", "EXR", "x1.1"]]
+Features and Traits: [["Atk Speed: ", 2]]
+Purchasable from: ["Anvil'sMarketInterior"]
 ---
 Id 215: Fisherman's Waders
 Desc: An experienced pair of waders that has parried water for many a year.
@@ -3031,6 +3091,7 @@ Magical Defence: 4
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "0%"]]
+Purchasable from: ["Anvil'sMarketInterior"]
 ---
 Id 217: Running Shoes
 Desc: Shoes from a far away region. They came with a note that reads 'Press B to run faster.'.
@@ -3045,6 +3106,7 @@ Magical Defence: 0
 Agility: 20
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "1%"]]
+Purchasable from: ["Anvil'sMarketInterior"]
 ---
 Id 218: Blacksmith's Boots
 Desc: Thick leathers that protect you from the hottest of fires, popular among Marrarockan smiths. 
@@ -3060,6 +3122,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "0%"], ["Element Rate: ", "Fire", "80%"], ["State Resist: ", "Burn"]]
 Ingredients: [["Leather", 2], ["Wellies", 1]]
+Purchasable from: ["Anvil'sMarketInterior", "MarrarockShop"]
 ---
 Id 219: Ironbark Shield
 Desc: A shield made with Ironbark and Hypersteel, this barrier will last a lifetime. 
@@ -3075,6 +3138,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "9%"], ["ExParam: ", "CEV", "5%"], ["Atk Speed: ", -1], ["Gain Skill: ", "Shield Charge"]]
 Ingredients: [["Hypersteel Shield", 1], ["Ironbark", 3]]
+Purchasable from: ["Anvil'sMarketInterior"]
 ---
 Id 220: Ironbark Shell
 Desc: A cuirass made from ironwood. It's heavy, it's uncomfortable, but it'll keep your body safe.
@@ -3133,6 +3197,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Ingredients: [["Leather", 1], ["Fabric", 1]]
+Purchasable from: ["PeregrineShop", "MarrarockShop"]
 ---
 Id 224: Bronze Gauntlets
 Desc: Gauntlets made of bronze to protect your hands in combat.
@@ -3146,6 +3211,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Purchasable from: ["PeregrineShop", "DauvillierAntiqueShop"]
 ---
 Id 225: Iron Gauntlets
 Desc: Gauntlets made of iron to protect your hands in combat.
@@ -3159,6 +3225,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Purchasable from: ["MarrarockShop", "SlumberwoodSmith"]
 ---
 Id 226: Hypersteel Gauntlets
 Desc: Gauntlets made of the incredible alloy.
@@ -3172,6 +3239,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Purchasable from: ["Blacksmith&Shop"]
 ---
 Id 227: Fluffy Mittens
 Desc: Insulated gloves that will keep your hands safe from the cold.
@@ -3186,6 +3254,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Ice", "50%"], ["State Resist: ", "Freezing"]]
+Purchasable from: ["MarrarockShop"]
 ---
 Id 228: Blacksmith's Gloves
 Desc: Heavy leather gloves that can resist the fires of industry.
@@ -3200,6 +3269,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Fire", "50%"], ["State Resist: ", "Burn"]]
+Purchasable from: ["MarrarockShop"]
 ---
 Id 230: Ifradian Gauntlets
 Desc: Armoured gauntlets worn by the soldiers of Ifrad.
@@ -3213,6 +3283,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Purchasable from: ["IfradBlacksmith"]
 ---
 Id 231: Ifradian Sabatons
 Desc: Heavy boots fit for a soldier of Ifrad.
@@ -3227,6 +3298,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "-1%"]]
+Purchasable from: ["IfradBlacksmith"]
 ---
 Id 232: Bronze Sabatons
 Desc: Boots of bronze that'll protect you from even the toughest of table legs.
@@ -3241,6 +3313,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "0%"]]
+Purchasable from: ["PeregrineShop"]
 ---
 Id 233: Ifradian Helmet
 Desc: A thick iron helmet to protect your head from blows.
@@ -3255,6 +3328,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "0%"]]
+Purchasable from: ["IfradBlacksmith"]
 ---
 Id 235: ATK Paragon
 Desc: A Paragon made by refining Rialite with ATK Grit. +10 ATK.
@@ -4151,7 +4225,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Light"]]
-Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Templar's Ashes", 1]]
+Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Lustred Sundial", 1]]
 ---
 Id 296: Exemplary Smitecaster Paragon O
 Desc: A gemstone made by improving upon the previous Paragon. +20 ATK and MAT, also adds Light as an attack element.
@@ -4166,7 +4240,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Light"], ["Atk State: ", "Blind", "10%"]]
-Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Templar's Ashes", 2], ["Smitecaster Paragon O", 1]]
+Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Lustred Sundial", 2], ["Smitecaster Paragon O", 1]]
 ---
 Id 297: Smitecaster Paragon D
 Desc: A Paragon made by refining Rialite into a particular element. +10 DEF and MDF, also adds Light resistance.
@@ -4181,7 +4255,7 @@ Magical Defence: 10
 Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Light", "75%"]]
-Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Templar's Ashes", 1]]
+Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Lustred Sundial", 1]]
 ---
 Id 298: Exemplary Smitecaster Paragon D
 Desc: A gemstone made by improving upon the previous Paragon. +20 DEF and MDF, also adds Light resistance.
@@ -4196,7 +4270,7 @@ Magical Defence: 20
 Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Light", "50%"], ["State Resist: ", "Blind"]]
-Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Templar's Ashes", 2], ["Smitecaster Paragon D", 1]]
+Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Lustred Sundial", 2], ["Smitecaster Paragon D", 1]]
 ---
 Id 299: Darkstrike Paragon O
 Desc: A Paragon made by refining Rialite into a particular element. +10 ATK and MAT, also adds Dark as an attack element.
@@ -4330,6 +4404,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Purchasable from: ["DauvillierAntiqueShop"]
 ---
 Id 309: Ascerothan Uniform
 Desc: \}A once great mark of Ascerothan grandeur, now restored into a new age. Gives some MEV. 
@@ -4449,7 +4524,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Light"], ["Atk State: ", "Blind", "10%"]]
-Ingredients: [["Ammunition Disc", 1], ["Templar's Ashes", 1]]
+Ingredients: [["Ammunition Disc", 1], ["Lustred Sundial", 1]]
 ---
 Id 317: Symbol Breaker Disc: Dark
 Desc: An ammunition disc for the Symbol Breaker that fires an elemental orb. Crafted in the Dark element.
@@ -4482,7 +4557,7 @@ Features and Traits: [["Atk Element: ", "Nature"], ["Atk State: ", "Poison", "10
 Ingredients: [["Ammunition Disc", 1], ["Dylorien", 1]]
 ---
 Id 319: Ancient Ascerothan Gauntlets
-Desc: \}Armoured gauntlets from the long-lost kingdom. With some time and effort, it could be restored to its former glory.
+Desc: \}Armoured gauntlets from the long-lost kingdom. With some time and effort, they could be restored to their former glory.
 Type: General Armour
 Price: 5000
 HP: 0
@@ -4493,9 +4568,10 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Purchasable from: ["DauvillierAntiqueShop"]
 ---
 Id 320: Ascerothan Gauntlets
-Desc: Ascerothan gauntlets that will once again see the glory of battle. Recovery rate is increased.
+Desc: Ascerothan gauntlets that will once again see the glory of battle. REC is increased by 50%.
 Type: General Armour
 Price: 10000
 HP: 0
@@ -4788,7 +4864,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Gain Skill: ", "Aura of Light"], ["State Rate: ", "Death", "0%"], ["Element Absorb:", "Light"]]
-Ingredients: [["Flow Conduit", 2], ["Templar's Ashes", 2], ["Raxorium Ore", 1], ["Justicium Raxorium", 1], ["Soul Vigour Vial", 1]]
+Ingredients: [["Flow Conduit", 2], ["Lustred Sundial", 2], ["Raxorium Ore", 1], ["Justicium Raxorium", 1], ["Soul Vigour Vial", 1]]
 ---
 Id 344: Infermius' Pyre
 Desc: \}A gift from the Dragon Lord Infermius. Grants his \C[18]Aura of Flames\C[0] skill, allows you to absorb Fire attacks, and immunity to Burns.
@@ -4874,15 +4950,16 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 25
+Purchasable from: ["TalburyMarket"]
 ---
 Id 350: Sanguine Oath
 Desc: \}A deathly shield that endlessly lusts for a splash of fresh crimson blood. After taking or inflicting a total of 2,000 damage, you gain a random permanent buff.
 Type: Large Shield
-Price: 14000
+Price: 16000
 HP: 0
 MP: 0
 Attack: 0
-Defence: 26
+Defence: 34
 Magical Attack: 0
 Magical Defence: 46
 Agility: 0
@@ -4916,6 +4993,7 @@ Magical Attack: 0
 Magical Defence: 13
 Agility: 0
 Luck: 0
+Purchasable from: ["TalburyMarket", "PeregrineSecretShop"]
 ---
 Id 353: Reverstone of Vitality
 Desc: A thick stone slab chiseled with ineffable ramblings. Though, it seems to be able to invert HP Regeneration.
@@ -4929,6 +5007,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Purchasable from: ["TalburyMarket", "PeregrineSecretShop"]
 ---
 Id 354: Riskmaster's Coin
 Desc: Gamble with the Natural Flow itself. At the start of combat, you will be given TWO random states. Do you feel LUCKY?
@@ -4957,7 +5036,7 @@ Magical Defence: 131
 Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Fire", "0%"], ["Element Rate: ", "Light", "0%"], ["State Resist: ", "Blind"], ["State Resist: ", "Burn"], ["Element Rate: ", "Water", "110%"], ["Element Rate: ", "Dark", "110%"]]
-Ingredients: [["Solar Majesty's Regalia", 1], ["Templar's Ashes", 2], ["Crystalised Flame", 2], ["Sun Candle", 3], ["Exemplary Hellfire Paragon O", 1]]
+Ingredients: [["Solar Majesty's Regalia", 1], ["Lustred Sundial", 2], ["Crystalised Flame", 2], ["Sun Candle", 3], ["Exemplary Hellfire Paragon O", 1]]
 ---
 Id 356: Resplendant Seraph
 Desc: \}Even in the darkest times, the light of a loyal ally shines through. Gain the Seraph's Resplendence skill.
@@ -4972,7 +5051,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Gain Skill: ", "Seraph's Resplendence"]]
-Ingredients: [["Radiant Sentinel", 1], ["Templar's Ashes", 1], ["Talisman of Light", 1], ["Hypersteel", 1], ["Flare Feather", 2]]
+Ingredients: [["Radiant Sentinel", 1], ["Lustred Sundial", 1], ["Talisman of Light", 1], ["Hypersteel", 1], ["Flare Feather", 2]]
 ---
 Id 357: Shimmerveil Shroud
 Desc: \}A sparkling cloak that glistens beautifully, even in the dark. Greatly increases EVA and some MEV.
@@ -5016,6 +5095,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Purchasable from: ["EmwoodShop", "PeregrineShop", "TalburyJewelers", "PeregrineBlacksmiths", "FlowemBlacksmith", "DauvillierAntiqueShop"]
 ---
 Id 360: Cring
 Desc: An almost weightless ring that seems to help you pinpoint exactly where to strike. Slight boost to CRI.
@@ -5030,6 +5110,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 10
 Features and Traits: [["ExParam: ", "CRI", "2%"]]
+Purchasable from: ["TalburyJewelers", "PeregrineBlacksmiths"]
 ---
 Id 362: Bronze Ring
 Desc: A small, simple ring to adorn one's finger.
@@ -5043,6 +5124,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Purchasable from: ["EmwoodShop", "TalburyJewelers", "Woman'sHouse", "DauvillierAntiqueShop"]
 ---
 Id 363: Night Ring
 Desc: A dark ring that seems to help the wearer slip by unnoticed. Boosts EVA.
@@ -5057,9 +5139,10 @@ Magical Defence: 0
 Agility: 10
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "3%"]]
+Purchasable from: ["PeregrineBlacksmiths", "FlowemBlacksmith"]
 ---
 Id 364: Rejuvenation Ring
-Desc: While wearing this ring, 10% of your HRG is also applied as MRG (10% HRG → 1% MRG).
+Desc: A ring that blurs the line between body and soul. While equipped, 10% of your HRG is also applied as MRG (Eg, 10% HRG = 1% MRG).
 Type: General Armour
 Price: 9000
 HP: 100
@@ -5070,6 +5153,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Purchasable from: ["SlumberwoodSmith"]
 ---
 Id 365: Boots of Adrenaline
 Desc: \}Dark boots that are uncomfortable to wear and move around quickly in. As a result, upon dodging an attack, you gain 5 PR.
@@ -5085,4 +5169,19 @@ Agility: 20
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "5%"]]
 Dropped By: [["Sage of the Bones", "8%"]]
+---
+Id 366: Stalwart Defender
+Desc: \}A relatively large yet light buckler that sits very comfortably on your arm. These factors make it particularly easy to wield, increasing your GRD by 50%.
+Type: Small Shield
+Price: 9500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 32
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "9%"], ["SpParam: ", "GRD", "x1.5"]]
+Purchasable from: ["DauvillierBlacksmith"]
 ---
