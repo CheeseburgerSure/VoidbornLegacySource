@@ -55,6 +55,7 @@ Agility: 0
 Luck: 0
 Ingredients: [["Fabric", 2], ["Leather", 4]]
 Purchasable from: ["TalburyMarket", "PeregrinePortAlley", "PeregrineBlacksmiths"]
+Used for making: ["Earthwarden's Mantle"]
 ---
 Id 5: Brigandine
 Desc: Thin steel plates riveted to thick cloth on top.
@@ -127,6 +128,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Used for making: ["Midnight Shroud"]
 ---
 Id 10: Feather Cap
 Desc: Stylish hat with feathers from many beautiful birds.
@@ -185,6 +187,7 @@ Magical Defence: 7
 Agility: 0
 Luck: 0
 Purchasable from: ["TalburyJewelers", "DauvillierAntiqueShop"]
+Used for making: ["Elemental Cloak", "Deciduous Mantle", "Tempest Evoker's Robes"]
 ---
 Id 14: Hermit Robe
 Desc: Robe worn by a wise old man.
@@ -199,6 +202,7 @@ Magical Defence: 14
 Agility: 0
 Luck: 0
 Purchasable from: ["TalburyJewelers", "DauvillierShop", "DauvillierAntiqueShop"]
+Used for making: ["Verdant Leafshroud"]
 ---
 Id 15: Elemental Cloak
 Desc: The Natural Flow was influenced into the very fibres of this cloak.
@@ -213,6 +217,7 @@ Magical Defence: 52
 Agility: 0
 Luck: 0
 Ingredients: [["Runed Robe", 1], ["Magic Staff", 1], ["Flow Conduit", 1], ["Fabric", 2], ["Fur", 3]]
+Used for making: ["Solar Majesty's Regalia", "Storm Summoner's Garb", "Eruption Robes"]
 ---
 Id 16: Copper Brace
 Desc: Hair ornaments made of copper.
@@ -228,6 +233,7 @@ Agility: 0
 Luck: 0
 Ingredients: [["Copper Ore", 1]]
 Purchasable from: ["TalburyJewelers", "PeregrineBlacksmiths", "Anvil'sMarketInterior", "DauvillierAntiqueShop"]
+Used for making: ["Shellmet"]
 ---
 Id 17: Circlet
 Desc: A ring-shaped ornament made of iron.
@@ -285,6 +291,7 @@ Magical Defence: 11
 Agility: 0
 Luck: 0
 Purchasable from: ["Anvil'sMarketInterior", "DauvillierBlacksmith"]
+Used for making: ["Magic Repressor", "Strength Repressor", "Diadem of the Past"]
 ---
 Id 21: Leather Mail
 Desc: Armour made with overlapping leather.
@@ -300,6 +307,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "1%"]]
 Purchasable from: ["PeregrineBlacksmiths"]
+Used for making: ["Oaken Vanguard"]
 ---
 Id 22: Bronze Plate
 Desc: A breastplate made of bronze.
@@ -332,6 +340,7 @@ Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "3%"]]
 Ingredients: [["Iron Ore", 3]]
 Purchasable from: ["PeregrineBlacksmiths", "FlowemBlacksmith", "Anvil'sMarketInterior", "SlumberwoodSmith"]
+Used for making: ["Empyrean Winguard", "Ironbark Shell"]
 ---
 Id 24: Hypersteel Plate
 Desc: Tough breastplate made of the incredible alloy.
@@ -346,7 +355,8 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "4%"]]
-Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&Shop"]
+Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
+Used for making: ["Phantom Shadowmail", "Tempest Surgemail", "Gale Force Battlegear", "Oceanic Master's Aegis"]
 ---
 Id 26: Leather Hap
 Desc: A hat made out of leather.
@@ -401,7 +411,8 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&Shop"]
+Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
+Used for making: ["Torrential Vanguard"]
 ---
 Id 31: Iron Mail
 Desc: Armour made with iron chains.
@@ -432,6 +443,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "-1%"], ["Atk Speed: ", -2]]
 Purchasable from: ["PeregrinePortAlley", "PeregrineBlacksmiths", "FlowemBlacksmith", "Bill'sBlacksmith"]
+Used for making: ["Icicle Armour"]
 ---
 Id 33: Plate Mail
 Desc: Iron mail strengthened by overlapping plate armour.
@@ -447,6 +459,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "-2%"], ["Atk Speed: ", -3]]
 Purchasable from: ["PeregrineBlacksmiths", "Anvil'sMarketInterior", "SlumberwoodSmith"]
+Used for making: ["Frosted Scale Mail"]
 ---
 Id 34: Hypersteel Armour
 Desc: Tough armour made of the incredible alloy. Lacks the EVA reduction of other heavy armours.
@@ -461,7 +474,8 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Speed: ", -2]]
-Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&Shop"]
+Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
+Used for making: ["Chaos Doomplate", "Hallowed Battlegear", "Thundershock Stormguard", "Smouldering Lavamail", "Tectonic Platemail", "Gaiashell Carapace"]
 ---
 Id 36: Chain Coif
 Desc: A piece of armour made of iron chains that typically goes under helmets.
@@ -505,6 +519,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "-1%"]]
 Purchasable from: ["Anvil'sMarketInterior", "SlumberwoodSmith"]
+Used for making: ["Igneous Bulwark"]
 ---
 Id 39: Hypersteel Helm
 Desc: Tough helm made of the incredible alloy. Lacks the EVA reduction of other heavy helmets.
@@ -518,7 +533,8 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&Shop"]
+Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
+Used for making: ["Radiant Sentinel"]
 ---
 Id 41: Buckler
 Desc: A small shield used to fend off attacks.
@@ -579,7 +595,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "8%"]]
-Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&Shop"]
+Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
 ---
 Id 46: Wood Shield
 Desc: A hefty shield made with hard wood.
@@ -595,6 +611,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "2%"], ["ExParam: ", "CEV", "1%"], ["Atk Speed: ", -1], ["Gain Skill: ", "Shield Charge"]]
 Purchasable from: ["TalburyMarket"]
+Used for making: ["Ship Shield"]
 ---
 Id 47: Steel Shield
 Desc: Shield made of steel.
@@ -625,6 +642,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "6%"], ["ExParam: ", "CEV", "3%"], ["Atk Speed: ", -1], ["Gain Skill: ", "Shield Charge"]]
 Purchasable from: ["PeregrineBlacksmiths", "FlowemBlacksmith", "Anvil'sMarketInterior", "SlumberwoodSmith"]
+Used for making: ["Floodgate Shield"]
 ---
 Id 49: Hypersteel Shield
 Desc: Tough shield made of the incredible alloy.
@@ -639,7 +657,8 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "8%"], ["ExParam: ", "CEV", "4%"], ["Atk Speed: ", -1], ["Gain Skill: ", "Shield Charge"]]
-Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&Shop"]
+Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
+Used for making: ["Ironbark Shield"]
 ---
 Id 51: War's Belt
 Desc: A metallic belt that magically engraves itself with the names of the wearer's kills.
@@ -682,6 +701,7 @@ Agility: 20
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "5%"]]
 Purchasable from: ["PeregrineSecretShop"]
+Used for making: ["Tempest Surgemail", "Gale Force Battlegear", "Void Steppers"]
 ---
 Id 54: Earth's Embrace
 Desc: The a rocky charm that protects the wearer, increasing DEF and resisting many ailments.
@@ -726,6 +746,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Fire", "80%"], ["Element Rate: ", "Ice", "80%"], ["Element Rate: ", "Storm", "80%"], ["Element Rate: ", "Water", "80%"], ["Element Rate: ", "Earth", "80%"], ["Element Rate: ", "Air", "80%"], ["Element Rate: ", "Nature", "80%"], ["Element Rate: ", "Light", "80%"], ["Element Rate: ", "Dark", "80%"]]
 Purchasable from: ["DauvillierAntiqueShop"]
+Used for making: ["Precursor of Virtue", "Prismatic Morphguard"]
 ---
 Id 57: Holundael's Ring
 Desc: A ring with the hidden power of an ancient mighty wizard, reducing the MP cost of Spells and Abilities by 10%.
@@ -741,6 +762,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["SpParam: ", "MCR", "x0.9"]]
 Purchasable from: ["Anvil'sMarketInterior"]
+Used for making: ["Eye of the Storm"]
 ---
 Id 58: Empowering Necklace
 Desc: A magic necklace that empowers those who fight. Increases your EVA, HIT, and TRG.
@@ -770,6 +792,7 @@ Magical Defence: 12
 Agility: 12
 Luck: 12
 Dropped By: [["Warden of Skies", "9%"]]
+Used for making: ["Resplendant Seraph"]
 ---
 Id 61: Loyal Helm
 Desc: A helm that always remembers who is friend or foe. Grants immunity to states that would confuse its wearer.
@@ -815,6 +838,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "4%"], ["ExParam: ", "MRF", "10%"]]
 Purchasable from: ["TalburyMysticShop", "DauvillierBlacksmith"]
+Used for making: ["Prismatic Morphguard"]
 ---
 Id 64: Bulwark Shield
 Desc: Gives you the ability to bunker down by extending the sides of the shield around you.
@@ -830,6 +854,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "5%"], ["Gain Skill: ", "Bunker Down"], ["ExParam: ", "CEV", "15%"], ["Atk Speed: ", -2], ["Gain Skill: ", "Shield Charge"]]
 Purchasable from: ["TalburyMysticShop", "Anvil'sMarketInterior"]
+Used for making: ["Gaiashell Carapace"]
 ---
 Id 65: Wizard's Hat
 Desc: A greyish pointed hat, perfect for practitioners of magic. Decreases MP costs by 20%.
@@ -860,6 +885,7 @@ Agility: 8
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "0%"], ["Element Rate: ", "Nature", "80%"], ["State Rate: ", "Sleep", "50%"]]
 Purchasable from: ["PeregrineShop", "TalburyCobbler", "PeregrinePortAlley", "Anvil'sMarketInterior"]
+Used for making: ["Root Boots"]
 ---
 Id 67: Steel-Toed Shoes
 Desc: These boots cap the toes with a thin layer of steel for extra protection or kicking power.
@@ -934,6 +960,7 @@ Agility: 6
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "0%"], ["Element Rate: ", "Storm", "80%"], ["State Rate: ", "Paralysis", "50%"]]
 Purchasable from: ["TalburyCobbler", "PeregrineMarket/Shipyard", "Anvil'sMarketInterior"]
+Used for making: ["Blacksmith's Boots"]
 ---
 Id 72: Iron Sabatons
 Desc: Large, heavy steel boots that protect your feet from those who wish to harm them.
@@ -963,7 +990,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "-2%"]]
-Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&Shop"]
+Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
 ---
 Id 74: Religious Idol
 Desc: Reduces damage from Dark element and changes your attack element to Light.
@@ -978,6 +1005,8 @@ Magical Defence: 4
 Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Dark", "75%"], ["Atk Element: ", "Light"]]
+Purchasable from: ["Anvil'sMarketInterior"]
+Used for making: ["Hallowed Battlegear"]
 ---
 Id 75: HourglassOfInfinitePatience
 Desc: \}A mystical hourglass that somehow never stops flowing. Every consecutive turn you spend idle builds a multiplier for your next action's strength (caps at 5x).
@@ -1080,6 +1109,7 @@ Agility: -100
 Luck: 0
 Dropped By: [["Grave Defiler", "8%"]]
 Purchasable from: ["TalburyMarket"]
+Used for making: ["Phantom Shadowmail", "Gale Force Battlegear"]
 ---
 Id 82: Burning Ointment
 Desc: A cream to soothe burns that burns to the touch. Increases Fire Resistance a lot, but reduces MHP slightly.
@@ -1095,6 +1125,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Fire", "15%"], ["Parameter: ", "MHP", "90%"], ["State Resist: ", "Burn"]]
 Purchasable from: ["TalburyMarket"]
+Used for making: ["Solar Majesty's Regalia"]
 ---
 Id 83: Liquid Gold
 Desc: A pouch of gold coins that melt when touched. Doubles gold drops, but completely eliminates ATK and MAT.
@@ -1111,6 +1142,7 @@ Luck: 0
 Features and Traits: [["Party Ability: ", "Double Gold Drops"]]
 Dropped By: [["Mimic", "3%"], ["Devillish Mimic", "4%"], ["Abhorent Mimic", "7%"]]
 Purchasable from: ["TalburyMarket"]
+Used for making: ["Diadem of the Past", "Riskmaster's Coin", "Consciousness Manipulator"]
 ---
 Id 84: Fast-Track Ticket
 Desc: Tickets to a non-existant theatre for the fast line in. Increases AGI by a lot, but decreases CRI too.
@@ -1202,6 +1234,7 @@ Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "-10%"], ["Element Rate: ", "Ice", "15%"], ["State Resist: ", "Freezing"]]
 Dropped By: [["Frigid Scorpion", "8%"]]
 Purchasable from: ["TalburyMarket"]
+Used for making: ["Hypersteel", "Cold Shoulder", "Scythe of Hoarfrost", "Frosted Scale Mail", "Shimmerveil Shroud"]
 ---
 Id 90: Permanent Gloves
 Desc: Gloves filled with a strange adhesive. Increases DEF, but decreases HIT significantly.
@@ -1247,6 +1280,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "TRG", "15%"]]
 Purchasable from: ["PeregrineSecretShop"]
+Used for making: ["Soulspite Longbow"]
 ---
 Id 93: Lightless Lantern
 Desc: A lantern with tinted glass that blocks light from being cast. Decreases TGR, but increases MP Costs.
@@ -1262,6 +1296,7 @@ Agility: 0
 Luck: 2
 Features and Traits: [["SpParam: ", "MCR", "x1.3"], ["SpParam: ", "TGR", "x0.45"]]
 Purchasable from: ["TalburyMarket"]
+Used for making: ["Dread Scythe"]
 ---
 Id 94: A Really Cool Hat
 Desc: A really cool hat. Increases LUK immensly, but your resistance to ailments is greatly reduced.
@@ -1364,6 +1399,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["SpParam: ", "TGR", "x1.25"]]
 Purchasable from: ["TalburyMarket", "DauvillierAntiqueShop"]
+Used for making: ["Void Mistward"]
 ---
 Id 101: Pocket Sand
 Desc: It's coarse, rough, irritating, and it gets everywhere. Increases EVA, but you get Blinded easier.
@@ -1424,6 +1460,7 @@ Agility: 2
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "-25%"], ["Atk State: ", "Blind", "10%"]]
 Purchasable from: ["TalburyMarket"]
+Used for making: ["Torrential Vanguard"]
 ---
 Id 105: Ancient Recipes
 Desc: Recipes from long ago that are the bane of fruit and veg. Gives Nature resistance, but lowers AGI.
@@ -1454,6 +1491,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Storm", "15%"], ["State Resist: ", "Paralysis"]]
 Purchasable from: ["TalburyMarket"]
+Used for making: ["Lightning Fork", "Thundershock Stormguard", "Tempest Surgemail", "Eye of the Storm"]
 ---
 Id 107: Silver Mirror
 Desc: A mirror that is horrendously reflective. Gives Light resistance, but lowers your HIT.
@@ -1469,6 +1507,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Light", "15%"], ["ExParam: ", "HIT", "-15%"], ["State Resist: ", "Blind"]]
 Purchasable from: ["TalburyMarket", "DauvillierAntiqueShop"]
+Used for making: ["Hallowed Battlegear"]
 ---
 Id 108: Wet Wrap
 Desc: A soggy cloak that dampens the impact of dry material. Gives Earth resistance, but lowers MDF.
@@ -1484,6 +1523,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Earth", "15%"], ["State Resist: ", "Stun"]]
 Purchasable from: ["TalburyMarket"]
+Used for making: ["Aurora Cloak", "Tsunami Ward"]
 ---
 Id 109: Soul Orb
 Desc: \}An orb that creates an invisible barrier to protect your Soul. Increases Soul resistance and gives immunity to instant Death attacks, but lowers PR.
@@ -1499,6 +1539,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Soul", "15%"], ["ExParam: ", "TRG", "-5%"], ["State Rate: ", "Death", "0%"]]
 Purchasable from: ["PeregrineSecretShop"]
+Used for making: ["Contaminated Conduit", "Soulcleave Sabre", "Beacon of Valour", "Soul Eviscerator"]
 ---
 Id 110: Wind Warder
 Desc: A charm that seems to weaken even the strongest winds. Gives resistance to Wind, but decreases CRI.
@@ -1514,6 +1555,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Air", "15%"], ["State Resist: ", "Knocked Over"], ["ExParam: ", "CRI", "-10%"]]
 Purchasable from: ["TalburyMarket", "DauvillierShop"]
+Used for making: ["Nature's Behest", "Empyrean Winguard"]
 ---
 Id 111: Sun Candle
 Desc: A candle that sheds enough light to be mistaken for day time. Gives Dark resistance but decreases LUK.
@@ -1529,6 +1571,7 @@ Agility: 0
 Luck: -50
 Features and Traits: [["Element Rate: ", "Dark", "15%"], ["State Resist: ", "Fear"]]
 Purchasable from: ["TalburyMarket"]
+Used for making: ["Candescent Cudgel", "Ice Bane", "Magma Maul", "Solar Majesty's Regalia", "Raiment of the Sunborn"]
 ---
 Id 112: Definitely a Sponge
 Desc: A sponge that looks, smells, and tastes like cheese. Gives Water resistance, but halves PHA.
@@ -1560,6 +1603,7 @@ Luck: 0
 Features and Traits: [["Atk State: ", "Stun", "10%"]]
 Ingredients: [["Wood", 1]]
 Purchasable from: ["TalburyMarket", "Anvil'sMarketInterior"]
+Used for making: ["Fishhead Arrows", "Poison-tipped Arrows"]
 ---
 Id 114: Fishhead Arrows
 Desc: A barbed arrowhead used for fishing. Can Bleed targets.
@@ -1576,6 +1620,7 @@ Luck: 0
 Features and Traits: [["Atk State: ", "Bleeding", "5%"]]
 Ingredients: [["Wood", 1], ["Blunthead Arrows", 1]]
 Purchasable from: ["TalburyMarket", "PeregrineMarket/Shipyard", "Anvil'sMarketInterior", "DauvillierShop", "DauvillierBlacksmith"]
+Used for making: ["Crescent Arrows"]
 ---
 Id 115: Crescent Arrows
 Desc: Crescent-shaped arrows used to instantly decapitate birds. Higher chance to Bleed than fishheads.
@@ -1592,6 +1637,7 @@ Luck: 0
 Features and Traits: [["Atk State: ", "Bleeding", "10%"]]
 Ingredients: [["Wood", 1], ["Iron Ore", 1], ["Fishhead Arrows", 1]]
 Purchasable from: ["TalburyMarket", "Anvil'sMarketInterior", "DauvillierBlacksmith"]
+Used for making: ["Broadhead Arrows"]
 ---
 Id 116: Broadhead Arrows
 Desc: A very wide and sharp arrowhead used for big game hunting. Higher chance to Bleed than crescent ones.
@@ -1608,6 +1654,7 @@ Luck: 0
 Features and Traits: [["Atk State: ", "Bleeding", "15%"]]
 Ingredients: [["Wood", 2], ["Iron Ore", 2], ["Crescent Arrows", 1]]
 Purchasable from: ["IfradBlacksmith", "Anvil'sMarketInterior", "DauvillierBlacksmith"]
+Used for making: ["Serrated Broadhead Arrows"]
 ---
 Id 117: Serrated Broadhead Arrows
 Desc: Broadhead arrows with serrated edges. Higher chance to Bleed than general broadheads.
@@ -1624,6 +1671,7 @@ Luck: 0
 Features and Traits: [["Atk State: ", "Bleeding", "20%"]]
 Ingredients: [["Wood", 2], ["Silver Ore", 2], ["Broadhead Arrows", 2]]
 Purchasable from: ["Anvil'sMarketInterior"]
+Used for making: ["Hooked Arrows"]
 ---
 Id 118: Hooked Arrows
 Desc: Broadheads with bladed hooks that are incredibly deadly. Very high chance to Bleed targets.
@@ -1714,20 +1762,6 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "CNT", "5%"]]
 ---
-Id 124: Exploding Arrows
-Desc: An arrow that explodes on impact. Chance to Burn and increased HIT.
-Type: Bow Attachments
-Price: 930
-HP: 0
-MP: 0
-Attack: 12
-Defence: 0
-Magical Attack: 0
-Magical Defence: 0
-Agility: 0
-Luck: 0
-Features and Traits: [["Atk State: ", "Burn", "15%"], ["ExParam: ", "HIT", "10%"]]
----
 Id 125: Talbrian Arrows
 Desc: \}A hallmark of Talbrian history and expertise, this arrow is among the most precise and powerful to date. Slightly increases CRI.
 Type: Bow Attachments
@@ -1770,6 +1804,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk State: ", "Burn", "10%"], ["Atk State: ", "Blind", "30%"]]
+Purchasable from: ["Anvil'sMarketInterior"]
 ---
 Id 128: Swift Arrows
 Desc: \}Arrows that are unbelievably lightweight that allow for extremely fast shooting. Lands additional hits at the cost of slightly less damage.
@@ -1830,6 +1865,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Light"]]
 Purchasable from: ["IfradBlacksmith"]
+Used for making: ["Hallowed Battlegear"]
 ---
 Id 132: Hellfire Arrows
 Desc: Arrows imbued with the power of Fire, changing your attack element to it.
@@ -1890,6 +1926,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Dark"]]
 Dropped By: [["Bone Mage", "8%"]]
+Used for making: ["Soul Eviscerator"]
 ---
 Id 136: Earthquake Arrows
 Desc: Arrows imbued with the power of Earth, changing your attack element to it.
@@ -1905,6 +1942,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Earth"]]
 Purchasable from: ["Anvil'sMarketInterior"]
+Used for making: ["Stone Launcher"]
 ---
 Id 137: Woodhammer Arrows
 Desc: Arrows imbued with the power of Nature, changing your attack element to it.
@@ -1920,34 +1958,6 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Nature"]]
 Purchasable from: ["TalburyMarket"]
----
-Id 138: Vampiric Arrows
-Desc: Magical arrows that can return some of the damage dealt as healing for the user.
-Type: Bow Attachments
-Price: 2700
-HP: 0
-MP: 0
-Attack: 5
-Defence: 0
-Magical Attack: 0
-Magical Defence: 0
-Agility: 0
-Luck: 0
-Features and Traits: [["Attack Skill:", "Vampiric Shot"]]
----
-Id 139: Siphon Arrows
-Desc: Magical arrows that can return some of the damage dealt as MP recovery for the user.
-Type: Bow Attachments
-Price: 5000
-HP: 0
-MP: 0
-Attack: 5
-Defence: 0
-Magical Attack: 0
-Magical Defence: 0
-Agility: 0
-Luck: 0
-Features and Traits: [["Attack Skill:", "Siphoning Shot"]]
 ---
 Id 140: Archer's Armguard
 Desc: \}A specialised wrist strap that protects the archer from being slapped by the bow string, allowing for more accurate shots.
@@ -2038,6 +2048,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "-5%"]]
 Purchasable from: ["TalburyMarket"]
+Used for making: ["Midnight Shroud"]
 ---
 Id 146: Butter Knife Enhancer
 Desc: \}Paired with Butter. Makes you and your Butter Knife unstoppable, increasing your HIT, CRI, and allowing you to counter.
@@ -2190,7 +2201,7 @@ Features and Traits: [["ExParam: ", "HRG", "3%"]]
 Id 156: Twin-Leaf Amulet
 Desc: An amulet made of twisted twigs that ends with a pair of leaves. Protects you from Nature-elemental attacks.
 Type: General Armour
-Price: 25
+Price: 100
 HP: 0
 MP: 5
 Attack: 0
@@ -2199,7 +2210,7 @@ Magical Attack: 0
 Magical Defence: 10
 Agility: 0
 Luck: 0
-Features and Traits: [["Element Rate: ", "Nature", "40%"]]
+Features and Traits: [["Element Rate: ", "Nature", "80%"]]
 Purchasable from: ["Anvil'sMarketInterior"]
 ---
 Id 157: Talbrian Armour
@@ -2352,7 +2363,7 @@ Dropped By: [["Diabolous", "33%"]]
 ---
 Id 167: Frosted Scale Mail
 Desc: Glistening mail covered in a thin frost. Gives Ice resistance.
-Type: General Armour
+Type: Light Armour
 Price: 7500
 HP: 0
 MP: 0
@@ -2378,7 +2389,8 @@ Magical Defence: 17
 Agility: 30
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "6%"]]
-Ingredients: [["Wet Wrap", 1], ["Unmelting Ice", 1], ["Winter's Heart", 1]]
+Ingredients: [["Wet Wrap", 1], ["Fur", 2], ["Winter's Heart", 1], ["Powder Snow", 2]]
+Used for making: ["Shimmerveil Shroud"]
 ---
 Id 169: Icicle Armour
 Desc: Sharp armour that enemies may hurt themselves on upon contact.
@@ -2423,6 +2435,7 @@ Agility: 4
 Luck: 0
 Features and Traits: [["ExParam: ", "HRG", "5%"]]
 Ingredients: [["Hiking Boots", 1], ["Bei Root", 3], ["Juggernaut Leaf", 2]]
+Used for making: ["Blightsludge Husk"]
 ---
 Id 172: Oaken Vanguard
 Desc: A suit of carefully carved wood that, while uncomfortable, is remarkably effective.
@@ -2436,11 +2449,11 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Ingredients: [["Leather Mail", 1], ["Wood", 2], ["Dylorien", 1]]
+Ingredients: [["Leather Mail", 1], ["Wood", 4], ["Dylorien", 1]]
 Purchasable from: ["SlumberwoodSmith"]
 ---
 Id 173: Deciduous Mantle
-Desc: A warm cloak with a layer of tiny leaves, covering its surface. A near perfect camouflage, greatly reducing TGR.
+Desc: A warm cloak with a layer of tiny leaves and flowers, covering its surface. A near perfect camouflage, halving TGR.
 Type: Magic Armour
 Price: 8500
 HP: 0
@@ -2452,6 +2465,7 @@ Magical Defence: 26
 Agility: 0
 Luck: 0
 Features and Traits: [["SpParam: ", "TGR", "x0.5"]]
+Ingredients: [["Runed Robe", 1], ["Red Pearl Orchid", 1], ["Everbloom", 1], ["Yellow Fang", 1], ["Juggernaut Leaf", 2], ["Dylorien", 1]]
 ---
 Id 174: Verdant Leafshroud
 Desc: A cloak made of many large leaves, made in recognition of the Shadow of the Forest. Increases PHA.
@@ -2466,7 +2480,7 @@ Magical Defence: 23
 Agility: 0
 Luck: 0
 Features and Traits: [["SpParam: ", "PHA", "x1.5"]]
-Ingredients: [["Silk Cloak", 1], ["Four-Leaf Clover", 1], ["Juggernaut Leaf", 2], ["Dylorien", 1]]
+Ingredients: [["Hermit Robe", 1], ["Four-Leaf Clover", 2], ["Juggernaut Leaf", 3], ["Dylorien", 1]]
 ---
 Id 175: Phantom Shadowmail
 Desc: Despite appearing like heavy armour, this suit is actually extremely light. Increases CEV.
@@ -2487,7 +2501,7 @@ Dropped By: [["Bone Conjurer", "8%"]]
 Id 176: Midnight Shroud
 Desc: A cowl that can hide even the brightest of lights. Greatly increased EVA.
 Type: General Armour
-Price: 14000
+Price: 12000
 HP: 0
 MP: 0
 Attack: 0
@@ -2497,7 +2511,7 @@ Magical Defence: 26
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "15%"]]
-Ingredients: [["Elemental Cloak", 1], ["Invisibility Cloak", 1], ["Oil of Ill-Intent", 2], ["Abbysal Fluid", 1]]
+Ingredients: [["Turban", 1], ["Invisibility Cloak", 1], ["Oil of Ill-Intent", 2], ["Abbysal Fluid", 1]]
 Dropped By: [["Reaping Volwrath", "100%"]]
 ---
 Id 177: Chaos Doomplate
@@ -2506,15 +2520,16 @@ Type: Heavy Armour
 Price: 16800
 HP: 0
 MP: 0
-Attack: 15
+Attack: 20
 Defence: 54
-Magical Attack: 15
+Magical Attack: 20
 Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "-4%"], ["Atk Speed: ", -3]]
-Ingredients: [["Hypersteel Armour", 2], ["Force Wand", 1], ["Stygian Scythe", 1], ["Oil of Ill-Intent", 2], ["Abbysal Fluid", 1]]
+Ingredients: [["Hypersteel Armour", 2], ["Force Wand", 1], ["Stygian Scythe", 1], ["Oil of Ill-Intent", 2], ["Abbysal Fluid", 1], ["Ghostfruit", 1]]
 Dropped By: [["Skeletal King", "7%"]]
+Used for making: ["Void-Wreathed Carapace"]
 ---
 Id 178: Hallowed Battlegear
 Desc: Divine armour that protects you from Dark magic and ailments.
@@ -2529,7 +2544,8 @@ Magical Defence: 46
 Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Dark", "50%"], ["State Resist: ", "Silence"], ["State Resist: ", "Confusion"], ["State Resist: ", "Blind"], ["State Resist: ", "Fear"], ["State Resist: ", "Savage"], ["State Resist: ", "Hallucinating"], ["State Rate: ", "Death", "0%"], ["ExParam: ", "EVA", "-4%"], ["Atk Speed: ", -3]]
-Ingredients: [["Hypersteel Armour", 1], ["Lustred Sundial", 1], ["Silver Mirror", 1], ["Smitecaster Arrows", 1]]
+Ingredients: [["Hypersteel Armour", 1], ["Religious Idol", 1], ["Lustred Sundial", 1], ["Silver Mirror", 1], ["Smitecaster Arrows", 1]]
+Used for making: ["Prismatic Morphguard"]
 ---
 Id 179: Radiant Sentinel
 Desc: \}A beacon of light in the darkness, this helmet is worn by those destined for a path of good will and selflessness. Gain the Sentinel's Radiance skill.
@@ -2544,6 +2560,8 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Gain Skill: ", "Sentinel's Radiance"]]
+Ingredients: [["Hypersteel Helm", 1], ["Lustred Sundial", 1], ["Flare Feather", 2]]
+Used for making: ["Resplendant Seraph"]
 ---
 Id 180: Solar Majesty's Regalia
 Desc: A robe so regal that even the kings of old would revere you. Grants resistances to Light and Fire.
@@ -2559,6 +2577,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Fire", "50%"], ["Element Rate: ", "Light", "50%"], ["State Resist: ", "Blind"], ["State Resist: ", "Burn"]]
 Ingredients: [["Elemental Cloak", 1], ["Lustred Sundial", 1], ["Sun Candle", 2], ["Burning Ointment", 1]]
+Used for making: ["Void-Wreathed Cloak", "Raiment of the Sunborn"]
 ---
 Id 181: Thundershock Stormguard
 Desc: Mighty armour that absorbs incoming Storm attacks.
@@ -2632,6 +2651,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "3%"], ["State Resist: ", "Dark Oozed"], ["State Rate: ", "Poison", "50%"], ["State Rate: ", "Plagued", "75%"], ["ExParam: ", "HRG", "5%"]]
 Dropped By: [["Stygian Ichor", "6%"]]
+Used for making: ["Blightsludge Husk"]
 ---
 Id 186: Blightsludge Husk
 Desc: \}A heavy suit of armour inbued with a writhing mass of black pus. Retains the same healing properties, but with a higher base 10% HRG.
@@ -2664,9 +2684,9 @@ Features and Traits: [["SpParam: ", "TCR", "x1.15"]]
 Purchasable from: ["Anvil'sMarketInterior"]
 ---
 Id 188: Eye of the Storm
-Desc: A ring that heavily accentuates the magical power of its wearer. Slightly reduces MP costs.
+Desc: A ring that heavily accentuates the magical power of its wearer. Reduces MP costs by 20%.
 Type: Magic Armour
-Price: 7000
+Price: 8000
 HP: 0
 MP: 0
 Attack: 0
@@ -2675,8 +2695,9 @@ Magical Attack: 35
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["SpParam: ", "MCR", "x0.9"]]
-Ingredients: [["Lightning Rod", 3]]
+Features and Traits: [["SpParam: ", "MCR", "x0.8"]]
+Ingredients: [["Holundael's Ring", 1], ["Thundrite", 1], ["Lightning Rod", 2]]
+Used for making: ["Tempest Evoker's Robes"]
 ---
 Id 189: Smouldering Lavamail
 Desc: Armour fresh from the forge that will repel any sort of elemental attack.
@@ -2736,6 +2757,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Ice", "50%"], ["State Resist: ", "Freezing"]]
 Ingredients: [["Knight Helm", 1], ["Scorchlog", 1], ["Crystalised Flame", 1]]
+Used for making: ["Void-Breather's Cage"]
 ---
 Id 193: Magnetic Shield
 Desc: A shield that has a strong attraction to many pieces of weapons and armour, increasing multiple stats.
@@ -2856,6 +2878,7 @@ Luck: 0
 Features and Traits: [["Element Rate: ", "Earth", "25%"]]
 Ingredients: [["Hard Leather", 1], ["Iron Ore", 1], ["Wood", 1], ["Fallen Star", 1]]
 Purchasable from: ["SlumberwoodShop"]
+Used for making: ["Boulder Bludgeoner"]
 ---
 Id 201: Gaiashell Carapace
 Desc: A thick shell-like armour set that boosts your MHP and adds the Bunker Down skill.
@@ -2885,7 +2908,7 @@ Magical Defence: 0
 Agility: 50
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "10%"]]
-Ingredients: [["Hypersteel Plate", 1], ["Heavy Feather", 2], ["Winged Boots", 1]]
+Ingredients: [["Hypersteel Plate", 1], ["Heavy Feather", 2], ["Winged Boots", 1], ["Wind's Wing", 1]]
 ---
 Id 203: Tempest Evoker's Robes
 Desc: Robes worn by those capable to change the weather at their behest. Grants the Thunderstorm skill.
@@ -2958,6 +2981,7 @@ Magical Attack: 5
 Magical Defence: 8
 Agility: 0
 Luck: 0
+Features and Traits: [["Gain Skill: ", "Water"]]
 Ingredients: [["Hypersteel Cap", 1], ["Tears of Cedarus", 1], ["Shark Tooth", 2], ["Bubble Blower", 1]]
 ---
 Id 208: Ingredient-less Cookbook
@@ -2989,6 +3013,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Seal Skill Type: ", "Unique"]]
 Ingredients: [["Magi's Crown", 1], ["Omnium", 2], ["Exemplary ATK Paragon", 1]]
+Used for making: ["Voidgloom Reaper", "Voidfang Piercer", "Void's Eclipse", "Void Weaver's Loom", "Void-Wreathed Carapace", "Void-Wreathed Cloak", "Abyssal Voidguard", "Grasp of the Void", "Void-Breather's Cage", "Void Steppers"]
 ---
 Id 210: Strength Repressor
 Desc: \}A crown that represses the wearer's physical strength. Prevents the use of abilities, removes all ATK, significantly reduces MHP, but MAT is massively increased.
@@ -3021,7 +3046,7 @@ Features and Traits: [["Parameter: ", "MHP", "50%"]]
 Dropped By: [["Damned Volwrath", "100%"]]
 ---
 Id 212: Floral Crown
-Desc: A circlet made from Everbloom which wards off magical attacks.
+Desc: A circlet made from everbloom which wards off magical attacks.
 Type: Light Armour
 Price: 1000
 HP: 0
@@ -3067,16 +3092,16 @@ Purchasable from: ["Anvil'sMarketInterior"]
 Id 215: Fisherman's Waders
 Desc: An experienced pair of waders that has parried water for many a year.
 Type: General Armour
-Price: 400
+Price: 300
 HP: 0
 MP: 0
 Attack: 0
-Defence: 4
+Defence: 3
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["ExParam: ", "EVA", "0%"], ["Element Rate: ", "Water", "80%"], ["State Resist: ", "Wet"]]
+Features and Traits: [["ExParam: ", "EVA", "0%"], ["Element Rate: ", "Water", "80%"], ["State Rate: ", "Wet", "75%"]]
 ---
 Id 216: Sorcerer's Sandals
 Desc: Odd footwear which make you feel closer to the Natural Flow.
@@ -3111,7 +3136,7 @@ Purchasable from: ["Anvil'sMarketInterior"]
 Id 218: Blacksmith's Boots
 Desc: Thick leathers that protect you from the hottest of fires, popular among Marrarockan smiths. 
 Type: General Armour
-Price: 300
+Price: 450
 HP: 0
 MP: 0
 Attack: 0
@@ -3120,12 +3145,12 @@ Magical Attack: 0
 Magical Defence: 2
 Agility: 0
 Luck: 0
-Features and Traits: [["ExParam: ", "EVA", "0%"], ["Element Rate: ", "Fire", "80%"], ["State Resist: ", "Burn"]]
+Features and Traits: [["ExParam: ", "EVA", "0%"], ["Element Rate: ", "Fire", "80%"], ["State Rate: ", "Burn", "75%"]]
 Ingredients: [["Leather", 2], ["Wellies", 1]]
 Purchasable from: ["Anvil'sMarketInterior", "MarrarockShop"]
 ---
 Id 219: Ironbark Shield
-Desc: A shield made with Ironbark and Hypersteel, this barrier will last a lifetime. 
+Desc: A shield made with ironbark and hypersteel, this barrier will last a lifetime. 
 Type: Large Shield
 Price: 4500
 HP: 0
@@ -3141,7 +3166,7 @@ Ingredients: [["Hypersteel Shield", 1], ["Ironbark", 3]]
 Purchasable from: ["Anvil'sMarketInterior"]
 ---
 Id 220: Ironbark Shell
-Desc: A cuirass made from ironwood. It's heavy, it's uncomfortable, but it'll keep your body safe.
+Desc: A cuirass made from ironbark. It's heavy, it's uncomfortable, but it'll keep your body safe.
 Type: Heavy Armour
 Price: 5000
 HP: 0
@@ -3153,7 +3178,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "-3%"], ["Atk Speed: ", -3]]
-Ingredients: [["Ironbark", 5]]
+Ingredients: [["Iron Plate", 1], ["Ironbark", 4]]
 ---
 Id 221: Ferrous Hardhat
 Desc: An ironwood helmet made for Marrarockan miners that covers your head from debris.
@@ -3183,6 +3208,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["SpParam: ", "MCR", "x1.5"], ["SpParam: ", "TCR", "x1.25"]]
 Ingredients: [["Flow Conduit", 2], ["Hypersteel Gauntlets", 1]]
+Used for making: ["Grasp of the Void"]
 ---
 Id 223: Workman's Gloves
 Desc: Thick gloves given to labourers to prevent damage and strain to the wearer's hands.
@@ -3239,12 +3265,13 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Purchasable from: ["Blacksmith&Shop"]
+Purchasable from: ["Blacksmith&MiningShop"]
+Used for making: ["Flow Amplifier"]
 ---
 Id 227: Fluffy Mittens
 Desc: Insulated gloves that will keep your hands safe from the cold.
 Type: General Armour
-Price: 200
+Price: 300
 HP: 0
 MP: 0
 Attack: 0
@@ -3253,13 +3280,13 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["Element Rate: ", "Ice", "50%"], ["State Resist: ", "Freezing"]]
+Features and Traits: [["Element Rate: ", "Ice", "80%"], ["State Rate: ", "Freezing", "75%"]]
 Purchasable from: ["MarrarockShop"]
 ---
 Id 228: Blacksmith's Gloves
 Desc: Heavy leather gloves that can resist the fires of industry.
 Type: General Armour
-Price: 300
+Price: 350
 HP: 0
 MP: 0
 Attack: 0
@@ -3268,7 +3295,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["Element Rate: ", "Fire", "50%"], ["State Resist: ", "Burn"]]
+Features and Traits: [["Element Rate: ", "Fire", "80%"], ["State Rate: ", "Burn", "75%"]]
 Purchasable from: ["MarrarockShop"]
 ---
 Id 230: Ifradian Gauntlets
@@ -3343,6 +3370,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Ingredients: [["Rialite", 1], ["ATK Grit", 1]]
+Used for making: ["Exemplary ATK Paragon", "Masterpiece ATK Paragon"]
 ---
 Id 236: Exemplary ATK Paragon
 Desc: An improved gemstone made by more precisely refining Rialite with ATK Grit. +20 ATK.
@@ -3357,6 +3385,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Ingredients: [["Rialite", 1], ["ATK Grit", 2], ["ATK Paragon", 1]]
+Used for making: ["Magic Repressor", "Masterpiece ATK Paragon"]
 ---
 Id 237: Masterpiece ATK Paragon
 Desc: An perfect gemstone made by flawlessly cutting and polishing Rialite using ATK Grit. +50 ATK.
@@ -3386,6 +3415,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "CNT", "5%"]]
 Ingredients: [["Rialite", 1], ["CNT Grit", 1]]
+Used for making: ["Exemplary CNT Paragon", "Masterpiece CNT Paragon"]
 ---
 Id 239: Exemplary CNT Paragon
 Desc: An improved gemstone made by more precisely refining Rialite with CNT Grit. +10% counter chance.
@@ -3401,6 +3431,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "CNT", "10%"]]
 Ingredients: [["Rialite", 1], ["CNT Grit", 2], ["CNT Paragon", 1]]
+Used for making: ["Masterpiece CNT Paragon"]
 ---
 Id 240: Masterpiece CNT Paragon
 Desc: An perfect gemstone made by flawlessly cutting and polishing Rialite using CNT Grit. +25% counter chance.
@@ -3431,6 +3462,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "HIT", "5%"]]
 Ingredients: [["Rialite", 1], ["HIT Grit", 1]]
+Used for making: ["Exemplary HIT Paragon", "Masterpiece HIT Paragon"]
 ---
 Id 242: Exemplary HIT Paragon
 Desc: An improved gemstone made by more precisely refining Rialite with HIT Grit. +10% HIT.
@@ -3446,6 +3478,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "HIT", "10%"]]
 Ingredients: [["Rialite", 1], ["HIT Grit", 2], ["HIT Paragon", 1]]
+Used for making: ["Masterpiece HIT Paragon"]
 ---
 Id 243: Masterpiece HIT Paragon
 Desc: An perfect gemstone made by flawlessly cutting and polishing Rialite using HIT Grit. +25% HIT.
@@ -3476,6 +3509,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "CRI", "2%"]]
 Ingredients: [["Rialite", 1], ["CRI Grit", 1]]
+Used for making: ["Exemplary CRI Paragon", "Masterpiece CRI Paragon"]
 ---
 Id 245: Exemplary CRI Paragon
 Desc: An improved gemstone made by more precisely refining Rialite with CRI Grit. +4% CRI.
@@ -3491,6 +3525,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "CRI", "4%"]]
 Ingredients: [["Rialite", 1], ["CRI Grit", 2], ["CRI Paragon", 1]]
+Used for making: ["Masterpiece CRI Paragon"]
 ---
 Id 246: Masterpiece CRI Paragon
 Desc: An perfect gemstone made by flawlessly cutting and polishing Rialite using CRI Grit. +7% CRI.
@@ -3520,6 +3555,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Ingredients: [["Rialite", 1], ["MAT Grit", 1]]
+Used for making: ["Exemplary MAT Paragon", "Masterpiece MAT Paragon"]
 ---
 Id 248: Exemplary MAT Paragon
 Desc: An improved gemstone made by more precisely refining Rialite with MAT Grit. +20 MAT.
@@ -3534,6 +3570,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Ingredients: [["Rialite", 1], ["MAT Grit", 2], ["MAT Paragon", 1]]
+Used for making: ["Strength Repressor", "Masterpiece MAT Paragon"]
 ---
 Id 249: Masterpiece MAT Paragon
 Desc: An perfect gemstone made by flawlessly cutting and polishing Rialite using MAT Grit. +50 MAT.
@@ -3563,6 +3600,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["SpParam: ", "MCR", "x0.9"]]
 Ingredients: [["Rialite", 1], ["MCR Grit", 1]]
+Used for making: ["Exemplary MCR Paragon", "Masterpiece MCR Paragon"]
 ---
 Id 251: Exemplary MCR Paragon
 Desc: An improved gemstone made by more precisely refining Rialite with MCR Grit. -20% MP Cost.
@@ -3578,6 +3616,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["SpParam: ", "MCR", "x0.8"]]
 Ingredients: [["Rialite", 1], ["MCR Grit", 2], ["MCR Paragon", 1]]
+Used for making: ["Masterpiece MCR Paragon"]
 ---
 Id 252: Masterpiece MCR Paragon
 Desc: An perfect gemstone made by flawlessly cutting and polishing Rialite using MCR Grit. -35% MP Cost.
@@ -3607,6 +3646,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Ingredients: [["Rialite", 1], ["DEF Grit", 1]]
+Used for making: ["Exemplary DEF Paragon", "Masterpiece DEF Paragon"]
 ---
 Id 254: Exemplary DEF Paragon
 Desc: An improved gemstone made by more precisely refining Rialite with DEF Grit. +20 DEF.
@@ -3621,6 +3661,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Ingredients: [["Rialite", 1], ["DEF Grit", 2], ["DEF Paragon", 1]]
+Used for making: ["Masterpiece DEF Paragon"]
 ---
 Id 255: Masterpiece DEF Paragon
 Desc: An perfect gemstone made by flawlessly cutting and polishing Rialite using DEF Grit. +50 DEF.
@@ -3649,6 +3690,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Ingredients: [["Rialite", 1], ["MHP Grit", 1]]
+Used for making: ["Gnarled Smasher", "Exemplary MHP Paragon", "Masterpiece MHP Paragon"]
 ---
 Id 257: Exemplary MHP Paragon
 Desc: An improved gemstone made by more precisely refining Rialite with MHP Grit. +500 MHP.
@@ -3663,6 +3705,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Ingredients: [["Rialite", 1], ["MHP Grit", 2], ["MHP Paragon", 1]]
+Used for making: ["Blightsludge Husk", "Masterpiece MHP Paragon", "Legend's Safeguard"]
 ---
 Id 258: Masterpiece MHP Paragon
 Desc: An perfect gemstone made by flawlessly cutting and polishing Rialite using MHP Grit. +1200 MHP.
@@ -3691,6 +3734,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Ingredients: [["Rialite", 1], ["MMP Grit", 1]]
+Used for making: ["Exemplary MMP Paragon", "Masterpiece MMP Paragon"]
 ---
 Id 260: Exemplary MMP Paragon
 Desc: An improved gemstone made by more precisely refining Rialite with MMP Grit. +100 MMP.
@@ -3705,6 +3749,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Ingredients: [["Rialite", 1], ["MMP Grit", 2], ["MMP Paragon", 1]]
+Used for making: ["Masterpiece MMP Paragon"]
 ---
 Id 261: Masterpiece MMP Paragon
 Desc: An perfect gemstone made by flawlessly cutting and polishing Rialite using MMP Grit. +250 MMP.
@@ -3734,6 +3779,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "3%"]]
 Ingredients: [["Rialite", 1], ["EVA Grit", 1]]
+Used for making: ["Exemplary EVA Paragon", "Masterpiece EVA Paragon"]
 ---
 Id 263: Exemplary EVA Paragon
 Desc: An improved gemstone made by more precisely refining Rialite with EVA Grit. +5% EVA.
@@ -3749,6 +3795,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "5%"]]
 Ingredients: [["Rialite", 1], ["EVA Grit", 2], ["EVA Paragon", 1]]
+Used for making: ["Heartrender", "Masterpiece EVA Paragon"]
 ---
 Id 264: Masterpiece EVA Paragon
 Desc: An perfect gemstone made by flawlessly cutting and polishing Rialite using EVA Grit. +12% EVA.
@@ -3778,6 +3825,7 @@ Magical Defence: 10
 Agility: 0
 Luck: 0
 Ingredients: [["Rialite", 1], ["MDF Grit", 1]]
+Used for making: ["Exemplary MDF Paragon", "Masterpiece MDF Paragon"]
 ---
 Id 266: Exemplary MDF Paragon
 Desc: An improved gemstone made by more precisely refining Rialite with MDF Grit. +20 MDF.
@@ -3792,6 +3840,7 @@ Magical Defence: 20
 Agility: 0
 Luck: 0
 Ingredients: [["Rialite", 1], ["MDF Grit", 2], ["MDF Paragon", 1]]
+Used for making: ["Masterpiece MDF Paragon"]
 ---
 Id 267: Masterpiece MDF Paragon
 Desc: An perfect gemstone made by flawlessly cutting and polishing Rialite using MDF Grit. +50 MDF.
@@ -3821,6 +3870,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "MEV", "4%"]]
 Ingredients: [["Rialite", 1], ["MEV Grit", 1]]
+Used for making: ["Exemplary MEV Paragon", "Masterpiece MEV Paragon"]
 ---
 Id 269: Exemplary MEV Paragon
 Desc: An improved gemstone made by more precisely refining Rialite with MEV Grit. +8% MEV.
@@ -3836,6 +3886,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "MEV", "8%"]]
 Ingredients: [["Rialite", 1], ["MEV Grit", 2], ["MEV Paragon", 1]]
+Used for making: ["Masterpiece MEV Paragon"]
 ---
 Id 270: Masterpiece MEV Paragon
 Desc: An perfect gemstone made by flawlessly cutting and polishing Rialite using MEV Grit. +20% MEV.
@@ -3866,6 +3917,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Fire"]]
 Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Crystalised Flame", 1]]
+Used for making: ["Exemplary Hellfire Paragon O"]
 ---
 Id 272: Exemplary Hellfire Paragon O
 Desc: A gemstone made by improving upon the previous Paragon. +20 ATK and MAT, also adds Fire as an attack element.
@@ -3881,6 +3933,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Fire"], ["Atk State: ", "Burn", "10%"]]
 Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Crystalised Flame", 2], ["Hellfire Paragon O", 1]]
+Used for making: ["Raiment of the Sunborn"]
 ---
 Id 273: Hellfire Paragon D
 Desc: A Paragon made by refining Rialite into a particular element. +10 DEF and MDF, also adds Fire resistance.
@@ -3896,6 +3949,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Fire", "75%"]]
 Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Crystalised Flame", 1]]
+Used for making: ["Exemplary Hellfire Paragon D"]
 ---
 Id 274: Exemplary Hellfire Paragon D
 Desc: A gemstone made by improving upon the previous Paragon. +20 DEF and MDF, also adds Fire resistance.
@@ -3926,6 +3980,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Ice"]]
 Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Winter's Heart", 1]]
+Used for making: ["Scythe of Hoarfrost", "Exemplary Fangfrost Paragon O"]
 ---
 Id 276: Exemplary Fangfrost Paragon O
 Desc: A gemstone made by improving upon the previous Paragon. +20 ATK and MAT, also adds Ice as an attack element.
@@ -3956,6 +4011,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Ice", "75%"]]
 Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Winter's Heart", 1]]
+Used for making: ["Exemplary Fangfrost Paragon D"]
 ---
 Id 278: Exemplary Fangfrost Paragon D
 Desc: A gemstone made by improving upon the previous Paragon. +20 DEF and MDF, also adds Ice resistance.
@@ -3986,6 +4042,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Storm"]]
 Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Thundrite", 1]]
+Used for making: ["Exemplary Thunderfury Paragon O"]
 ---
 Id 280: Exemplary Thunderfury Paragon O
 Desc: A gemstone made by improving upon the previous Paragon. +20 ATK and MAT, also adds Storm as an attack element.
@@ -4016,6 +4073,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Storm", "75%"]]
 Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Thundrite", 1]]
+Used for making: ["Exemplary Thunderfury Paragon D"]
 ---
 Id 282: Exemplary Thunderfury Paragon D
 Desc: A gemstone made by improving upon the previous Paragon. +20 DEF and MDF, also adds Storm resistance.
@@ -4046,6 +4104,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Water"]]
 Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Tears of Cedarus", 1]]
+Used for making: ["Exemplary Tsunami Paragon O"]
 ---
 Id 284: Exemplary Tsunami Paragon O
 Desc: A gemstone made by improving upon the previous Paragon. +20 ATK and MAT, also adds Water as an attack element.
@@ -4076,6 +4135,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Water", "75%"]]
 Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Tears of Cedarus", 1]]
+Used for making: ["Tsunami Ward", "Exemplary Tsunami Paragon D"]
 ---
 Id 286: Exemplary Tsunami Paragon D
 Desc: A gemstone made by improving upon the previous Paragon. +20 DEF and MDF, also adds Water resistance.
@@ -4106,6 +4166,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Earth"]]
 Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Fallen Star", 1]]
+Used for making: ["Exemplary Earthquake Paragon O"]
 ---
 Id 288: Exemplary Earthquake Paragon O
 Desc: A gemstone made by improving upon the previous Paragon. +20 ATK and MAT, also adds Earth as an attack element.
@@ -4136,6 +4197,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Earth", "75%"]]
 Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Fallen Star", 1]]
+Used for making: ["Exemplary Earthquake Paragon D"]
 ---
 Id 290: Exemplary Earthquake Paragon D
 Desc: A gemstone made by improving upon the previous Paragon. +20 DEF and MDF, also adds Earth resistance.
@@ -4166,6 +4228,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Air"]]
 Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Wind's Wing", 1]]
+Used for making: ["Exemplary Airblade Paragon O"]
 ---
 Id 292: Exemplary Airblade Paragon O
 Desc: A gemstone made by improving upon the previous Paragon. +20 ATK and MAT, also adds Air as an attack element.
@@ -4196,6 +4259,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Air", "75%"]]
 Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Wind's Wing", 1]]
+Used for making: ["Exemplary Airblade Paragon D"]
 ---
 Id 294: Exemplary Airblade Paragon D
 Desc: A gemstone made by improving upon the previous Paragon. +20 DEF and MDF, also adds Air resistance.
@@ -4226,6 +4290,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Light"]]
 Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Lustred Sundial", 1]]
+Used for making: ["Exemplary Smitecaster Paragon O"]
 ---
 Id 296: Exemplary Smitecaster Paragon O
 Desc: A gemstone made by improving upon the previous Paragon. +20 ATK and MAT, also adds Light as an attack element.
@@ -4256,6 +4321,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Light", "75%"]]
 Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Lustred Sundial", 1]]
+Used for making: ["Exemplary Smitecaster Paragon D", "Voidsoul Paragon"]
 ---
 Id 298: Exemplary Smitecaster Paragon D
 Desc: A gemstone made by improving upon the previous Paragon. +20 DEF and MDF, also adds Light resistance.
@@ -4286,6 +4352,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Dark"]]
 Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Oil of Ill-Intent", 1]]
+Used for making: ["Soul Eviscerator", "Exemplary Darkstrike Paragon O", "Voidsoul Paragon"]
 ---
 Id 300: Exemplary Darkstrike Paragon O
 Desc: A gemstone made by improving upon the previous Paragon. +20 ATK and MAT, also adds Dark as an attack element.
@@ -4316,6 +4383,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Dark", "75%"]]
 Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Oil of Ill-Intent", 1]]
+Used for making: ["Exemplary Darkstrike Paragon D"]
 ---
 Id 302: Exemplary Darkstrike Paragon D
 Desc: A gemstone made by improving upon the previous Paragon. +20 DEF and MDF, also adds Dark resistance.
@@ -4346,6 +4414,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Nature"]]
 Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Dylorien", 1]]
+Used for making: ["Exemplary Woodhammer Paragon O"]
 ---
 Id 304: Exemplary Woodhammer Paragon O
 Desc: A gemstone made by improving upon the previous Paragon. +20 ATK and MAT, also adds Nature as an attack element.
@@ -4376,6 +4445,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Nature", "75%"]]
 Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Dylorien", 1]]
+Used for making: ["Exemplary Woodhammer Paragon D"]
 ---
 Id 306: Exemplary Woodhammer Paragon D
 Desc: A gemstone made by improving upon the previous Paragon. +20 DEF and MDF, also adds Nature resistance.
@@ -4390,7 +4460,7 @@ Magical Defence: 20
 Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Nature", "50%"], ["State Resist: ", "Poison"]]
-Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Tears of Cedarus", 2], ["Woodhammer Paragon D", 1]]
+Ingredients: [["Rialite", 1], ["DEF Grit", 1], ["MDF Grit", 1], ["Dylorien", 2], ["Woodhammer Paragon D", 1]]
 ---
 Id 308: Ancient Ascerothan Uniform
 Desc: \}A soldier's uniform dating back to Asceroth that is barely in any condition. With some time and effort, it could be restored to its former glory.
@@ -4405,6 +4475,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Purchasable from: ["DauvillierAntiqueShop"]
+Used for making: ["Ascerothan Uniform"]
 ---
 Id 309: Ascerothan Uniform
 Desc: \}A once great mark of Ascerothan grandeur, now restored into a new age. Gives some MEV. 
@@ -4569,6 +4640,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Purchasable from: ["DauvillierAntiqueShop"]
+Used for making: ["Ascerothan Gauntlets"]
 ---
 Id 320: Ascerothan Gauntlets
 Desc: Ascerothan gauntlets that will once again see the glory of battle. REC is increased by 50%.
@@ -4598,6 +4670,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Dropped By: [["Skeletal Lord", "7%"]]
+Used for making: ["King's Grace"]
 ---
 Id 322: King's Grace
 Desc: \}A lone golden gauntlet encrusted in gems that was once worn by ancient monarchs. Grants immunity to all debuffs (not states).
@@ -4627,6 +4700,7 @@ Magical Defence: 2
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Speed: ", -1], ["Gain Skill: ", "Shield Charge"]]
+Used for making: ["Legend's Safeguard"]
 ---
 Id 324: Legend's Safeguard
 Desc: A gilded shield renowned for being in an unnamed, yet remarkable warrior's possession. Increases MHP by 25%.
@@ -4642,6 +4716,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Parameter: ", "MHP", "125%"], ["ExParam: ", "EVA", "12%"], ["ExParam: ", "CEV", "7%"], ["Atk Speed: ", -2], ["Gain Skill: ", "Shield Charge"]]
 Ingredients: [["Forgotten Legend", 1], ["Exemplary MHP Paragon", 1], ["Hypersteel", 2], ["Omnium", 4], ["Artefact Shards", 6]]
+Used for making: ["Abyssal Voidguard"]
 ---
 Id 325: Void-Wreathed Carapace
 Desc: \}A suit of armour made of remnant Void energy. It's defensive capabilities rival armour of full raxorium. PR increases twice as fast.
@@ -4775,12 +4850,13 @@ Magical Defence: 40
 Agility: 40
 Luck: 40
 Ingredients: [["Coronet of the Long Forgotten", 1], ["Skull", 2], ["Copper Ore", 4], ["Ghostfruit", 1]]
+Used for making: ["Consciousness Manipulator"]
 ---
 Id 334: Feather of Renewal
 Desc: \}A feather from an ancient creature, said to have the power to prevent death. Once per battle, the first time you would be killed, you are set 500HP instead.
 Type: General Armour
-Price: 35000
-HP: 0
+Price: 18000
+HP: 50
 MP: 0
 Attack: 0
 Defence: 0
@@ -4790,6 +4866,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["State Rate: ", "Death", "0%"]]
 Dropped By: [["Angel", "6%"]]
+Used for making: ["Resplendant Seraph"]
 ---
 Id 339: Voidsoul Paragon
 Desc: A Paragon crafted outside of known recipes, violent with Void energy. Increases all core stats by 20%.
@@ -4923,6 +5000,7 @@ Magical Attack: 0
 Magical Defence: 1
 Agility: 0
 Luck: 0
+Used for making: ["Mind-Control Brace", "Diadem of the Past"]
 ---
 Id 348: Diadem of the Past
 Desc: \}A renewed monarch's headware, perfect for one's ever lasting memory. For every relic item equipped, you gain 10% physical damage resistance.
@@ -4951,6 +5029,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 25
 Purchasable from: ["TalburyMarket"]
+Used for making: ["Riskmaster's Coin"]
 ---
 Id 350: Sanguine Oath
 Desc: \}A deathly shield that endlessly lusts for a splash of fresh crimson blood. After taking or inflicting a total of 2,000 damage, you gain a random permanent buff.
@@ -5051,7 +5130,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Gain Skill: ", "Seraph's Resplendence"]]
-Ingredients: [["Radiant Sentinel", 1], ["Lustred Sundial", 1], ["Talisman of Light", 1], ["Hypersteel", 1], ["Flare Feather", 2]]
+Ingredients: [["Radiant Sentinel", 1], ["Lustred Sundial", 2], ["Talisman of Light", 1], ["Hypersteel", 1], ["Feather of Renewal", 2]]
 ---
 Id 357: Shimmerveil Shroud
 Desc: \}A sparkling cloak that glistens beautifully, even in the dark. Greatly increases EVA and some MEV.
@@ -5066,7 +5145,7 @@ Magical Defence: 48
 Agility: 70
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "16%"], ["ExParam: ", "MEV", "5%"]]
-Ingredients: [["Aurora Cloak", 1], ["Unmelting Ice", 2], ["Winter's Heart", 2], ["Spirit Essence", 4], ["Bottled Song", 1]]
+Ingredients: [["Aurora Cloak", 1], ["Fur", 2], ["Unmelting Ice", 2], ["Winter's Heart", 2], ["Spirit Essence", 4], ["Bottled Song", 1]]
 ---
 Id 358: Consciousness Manipulator
 Desc: \}A crown that sets its wearer into a deep trance to control and act with a mind of its own. Stat boost is much greater and you get an additional action.

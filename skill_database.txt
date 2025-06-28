@@ -1575,7 +1575,7 @@ Element: Water/Ice
 Variance: 15
 Critical: true
 Scope: One Enemy
-Effects and Traits: [["Add State: ", "Confusion", "15%"], ["Add State: ", "Wet", "1000%"], ["Add State: ", "Wet", "1000%"], ["Add State: ", "Wet", "1000%"], ["Add State: ", "Wet", "1000%"], ["Add State: ", "Wet", "1000%"], ["Add State: ", "Wet", "1000%"]]
+Effects and Traits: [["Add State: ", "Confusion", "15%"], ["Add State: ", "Wet", "1000%"]]
 ---
 Id 169: Infernal Rain
 Desc: Hails fire and brimstone down upon your foes. High chance to burn and gives you 5 PR for each.
@@ -1727,7 +1727,7 @@ Element: Air/Water
 Variance: 10
 Critical: true
 Scope: All Enemies
-Effects and Traits: [["Add State: ", "Knocked Over", "1000%"], ["Add State: ", "Knocked Over", "1000%"], ["Add State: ", "Knocked Over", "1000%"], ["Add State: ", "Knocked Over", "1000%"], ["Add State: ", "Knocked Over", "1000%"], ["Add State: ", "Knocked Over", "1000%"]]
+Effects and Traits: [["Add State: ", "Knocked Over", "1000%"]]
 ---
 Id 184: Smite
 Desc: Smite down a target with holy justice. Inflicts high damage, will Blind, and activates Holy Aura.
@@ -1856,7 +1856,7 @@ Element: Ice/Dark
 Variance: 30
 Critical: true
 Scope: One Enemy
-Effects and Traits: [["Add State: ", "Frostbite", "1000%"], ["Add State: ", "Frostbite", "1000%"], ["Add State: ", "Frostbite", "1000%"]]
+Effects and Traits: [["Add State: ", "Frostbite", "1000%"]]
 ---
 Id 198: Windswept Hypershot
 Desc: \}Unleash all of your power into a single shot of the ultimate wind. Will knock over, also heals you and gives you PR.
@@ -1868,7 +1868,7 @@ Element: Air/Dark
 Variance: 30
 Critical: true
 Scope: One Enemy
-Effects and Traits: [["Add State: ", "Knocked Over", "1000%"], ["Add State: ", "Knocked Over", "1000%"], ["Add State: ", "Knocked Over", "1000%"]]
+Effects and Traits: [["Add State: ", "Knocked Over", "1000%"]]
 ---
 Id 199: Armageddon Hyperslash
 Desc: \}Unleash all of your power into a single slash of the ultimate darkness. Will frighten, also heals you and gives you PR.
@@ -1880,7 +1880,7 @@ Element: Dark/Dark
 Variance: 30
 Critical: true
 Scope: One Enemy
-Effects and Traits: [["Add State: ", "Fear", "1000%"], ["Add State: ", "Fear", "1000%"], ["Add State: ", "Fear", "1000%"]]
+Effects and Traits: [["Add State: ", "Fear", "1000%"]]
 ---
 Id 200: Sacred Hyperspell
 Desc: \}Unleash all of your power into a single recovery of the ultimate strength. Fully restores the entire party.
@@ -2067,7 +2067,7 @@ Formula: 150 + (a.def * 4 - b.def * 2)
 Variance: 15
 Critical: true
 Scope: One Enemy
-Effects and Traits: [["Add State: ", "Stun", "1000%"], ["Add State: ", "Stun", "1000%"], ["Add State: ", "Stun", "1000%"], ["Add State: ", "Stun", "1000%"], ["Add State: ", "Stun", "1000%"], ["Add State: ", "Stun", "1000%"], ["Add State: ", "Stun", "1000%"], ["Add State: ", "Stun", "1000%"], ["Add State: ", "Stun", "1000%"]]
+Effects and Traits: [["Add State: ", "Stun", "1000%"]]
 ---
 Id 220: Valour's Beacon Attack
 Desc: Damages the enemy, ignoring their DEF. Chance to inspire an ally.
@@ -2499,7 +2499,7 @@ Formula: 2000 + (a.atk * 5)
 Variance: 15
 Critical: true
 Scope: One Enemy
-Effects and Traits: [["Add State: ", "Stun", "1000%"], ["Add State: ", "Stun", "1000%"], ["Add State: ", "Stun", "1000%"], ["Add Debuff: ", "DEF", "5 turns"], ["Add Debuff: ", "DEF", "5 turns"]]
+Effects and Traits: [["Add State: ", "Stun", "1000%"], ["Add Debuff: ", "DEF", "5 turns"], ["Add Debuff: ", "DEF", "5 turns"]]
 ---
 Id 278: Martyr's Heal
 Desc: Applies a state that will distribute the holder's health among allies if they are killed while holding it. Priority skill.
@@ -2805,7 +2805,7 @@ Element: Ice/Dark
 Variance: 15
 Critical: true
 Scope: One Enemy
-Effects and Traits: [["Add State: ", "Frostbite", "1000%"], ["Add State: ", "Frostbite", "1000%"], ["Add State: ", "Frostbite", "1000%"], ["Add State: ", "Frostbite", "1000%"], ["Add State: ", "Frostbite", "1000%"], ["Add State: ", "Frostbite", "1000%"], ["Add State: ", "Frostbite", "1000%"], ["Add State: ", "Frostbite", "1000%"], ["Add State: ", "Frostbite", "1000%"], ["Add State: ", "Frostbite", "1000%"], ["Add State: ", "Frostbite", "1000%"], ["Add State: ", "Frostbite", "1000%"]]
+Effects and Traits: [["Add State: ", "Frostbite", "1000%"]]
 ---
 Id 317: Weakening Field
 Desc: \}Grasp a target in an energy dense prison, disrupting the connection between soul and body. They cannot move in this time.
@@ -3089,7 +3089,7 @@ Element: Fire/Dark
 Variance: 15
 Critical: false
 Scope: One Enemy
-Effects and Traits: [["Add State: ", "Burn", "1000%"], ["Add State: ", "Burn", "1000%"], ["Add State: ", "Burn", "1000%"], ["Add State: ", "Burn", "1000%"], ["Add State: ", "Burn", "1000%"], ["Add State: ", "Burn", "1000%"], ["Add State: ", "Burn", "1000%"], ["Add State: ", "Burn", "1000%"], ["Add State: ", "Burn", "1000%"]]
+Effects and Traits: [["Add State: ", "Burn", "1000%"]]
 ---
 Id 349: Soulsnare Slash
 Desc: A relatively low damage attack. However, if it successfully kills, the enemy will be added to your Soul collection.
@@ -3244,7 +3244,7 @@ Element: Light/Fire
 Variance: 60
 Critical: false
 Scope: All Enemies
-Effects and Traits: [["Add State: ", "Blind", "1000%"], ["Add State: ", "Blind", "1000%"], ["Add State: ", "Blind", "1000%"], ["Add State: ", "Blind", "1000%"], ["Add State: ", "Blind", "1000%"], ["Add State: ", "Blind", "1000%"], ["Add State: ", "Blind", "1000%"]]
+Effects and Traits: [["Add State: ", "Blind", "1000%"]]
 ---
 Id 403: Hellbrand
 Desc: May fail. Inflicts moderate damage and, if successful, will Mark the target with a good chance to also Burn.
@@ -3256,7 +3256,7 @@ Element: Fire/Dark
 Variance: 20
 Critical: true
 Scope: One Enemy
-Effects and Traits: [["Add State: ", "Marked", "1000%"], ["Add State: ", "Marked", "1000%"], ["Add State: ", "Marked", "1000%"], ["Add State: ", "Marked", "1000%"], ["Add State: ", "Marked", "1000%"], ["Add State: ", "Burn", "20%"]]
+Effects and Traits: [["Add State: ", "Marked", "1000%"], ["Add State: ", "Burn", "20%"]]
 ---
 Id 404: Blazed Constriction
 Desc: Summon burning vines to erupt out of the ground and envelope a target with flaming thorns. Will also Burn.
@@ -3340,7 +3340,7 @@ Element: Ice/Nature
 Variance: 20
 Critical: true
 Scope: One Enemy
-Effects and Traits: [["Add State: ", "Poison", "1000%"], ["Add State: ", "Poison", "1000%"], ["Add State: ", "Poison", "1000%"], ["Add State: ", "Bleeding", "1000%"], ["Add State: ", "Bleeding", "1000%"], ["Add State: ", "Bleeding", "1000%"]]
+Effects and Traits: [["Add State: ", "Poison", "1000%"], ["Add State: ", "Bleeding", "1000%"]]
 ---
 Id 411: Conduction
 Desc: \}First douse your target with water to give them a Storm weakness, then zap them with electricity. Good chance to Paralyze.

@@ -146,7 +146,7 @@ Luck: 65
 Experience: 193
 Gold: 212
 Loot: [["Revel Weed", "14%"], ["Dylorien", "7%"]]
-Findable in: ["Lunecry Weald - North", "Lunecry Weald - West", "Lunecry Weald - East", "Lunecry/Recluse", "Lunecry Recluse", "Lunecry Recluse", "RecluseCaveEntrance", "Zysargia'sRecluse1"]
+Findable in: ["Lunecry Weald - North", "Lunecry Weald - West", "Lunecry Weald - East", "Lunecry/Recluse", "Lunecry Recluse", "RecluseCliff", "RecluseCaveEntrance", "Zysargia'sRecluse1"]
 ---
 Id 12: Skeleton
 Description: A reanimated skeleton full of wrath.
@@ -249,7 +249,7 @@ Luck: 90
 Experience: 495
 Gold: 529
 Loot: [["Srevena", "9%"], ["Dispel Herb", "8%"]]
-Findable in: ["AncientOutpost", "Lunecry/Recluse", "Lunecry Recluse", "Lunecry Recluse", "RecluseCaveEntrance", "Zysargia'sRecluse1", "Zysargia'sRecluse2", "Zysargia'sRecluse3"]
+Findable in: ["AncientOutpost", "Lunecry/Recluse", "Lunecry Recluse", "RecluseCliff", "RecluseCaveEntrance", "Zysargia'sRecluse1", "Zysargia'sRecluse2", "Zysargia'sRecluse3"]
 ---
 Id 27: Reaping Volwrath
 Description: A depraved and violent spectre born from a soul. It was allegedly sealed in the Dark Beaneath long ago. Was it defending something, or someone?
@@ -278,7 +278,7 @@ Luck: 110
 Experience: 722
 Gold: 799
 Loot: [["Srevena", "10%"], ["Dylorien", "7%"]]
-Findable in: ["Lunecry/Recluse", "Lunecry Recluse", "Lunecry Recluse", "RecluseCaveEntrance", "Zysargia'sRecluse1", "Zysargia'sRecluse2", "Zysargia'sRecluse3"]
+Findable in: ["Lunecry/Recluse", "Lunecry Recluse", "RecluseCliff", "RecluseCaveEntrance", "Zysargia'sRecluse1", "Zysargia'sRecluse2", "Zysargia'sRecluse3"]
 ---
 Id 31: Shadow Creature
 Description: A being created solely to destroy by Vezran.
@@ -1104,7 +1104,7 @@ Luck: 100
 Experience: 345
 Gold: 389
 Loot: [["Bei Root", "17%"], ["Stalwort", "13%"]]
-Findable in: ["Lunecry Recluse", "Lunecry Recluse", "RecluseCaveEntrance", "Zysargia'sRecluse1"]
+Findable in: ["Lunecry Recluse", "RecluseCliff", "RecluseCaveEntrance", "Zysargia'sRecluse1"]
 ---
 Id 93: Steward of the Mantle
 Description: \}A Nature and Earth spirit found exclusively beneath the Lunecry Recluse. They serve as a guardian of subterranean balance, believed to regulate the biosphere within deep tectonic chambers. Though incorporeal, it can exert significant physical force when provoked.

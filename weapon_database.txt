@@ -58,7 +58,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "HIT", "-8%"]]
-Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&Shop"]
+Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
 ---
 Id 5: Crimson Axe
 Desc: Crimson soaked battle axe.
@@ -138,21 +138,6 @@ Luck: 30
 Features and Traits: [["ExParam: ", "HIT", "100%"], ["ExParam: ", "HIT", "100%"], ["ExParam: ", "HIT", "100%"], ["ExParam: ", "HIT", "100%"], ["ExParam: ", "HIT", "100%"], ["Seal Equip: ", "Shield"], ["Atk Speed: ", 3], ["ExParam: ", "CRI", "10%"]]
 Purchasable from: ["TalburyMysticShop", "DauvillierBlacksmith"]
 ---
-Id 11: Friendly Staff
-Desc: A staff that gives it's user the power of friendship, allowing them to level up faster.
-Type: Staff
-Price: 8500
-HP: 0
-MP: 0
-Attack: 10
-Defence: 0
-Magical Attack: 24
-Magical Defence: 0
-Agility: 0
-Luck: 0
-Features and Traits: [["SpParam: ", "EXR", "x1.25"], ["ExParam: ", "MRG", "1%"]]
-Purchasable from: ["TalburyMysticShop"]
----
 Id 12: Hunter's Bow
 Desc: A type of shortbow specifically designed for hunting.
 Type: Bow
@@ -166,7 +151,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Seal Equip: ", "Shield"], ["ExParam: ", "CRI", "3%"], ["Atk Speed: ", 3]]
-Ingredients: [["Shortbow", 1], ["Wood", 1], ["Rope", 2]]
+Ingredients: [["Shortbow", 1], ["Wood", 1], ["Rope", 1]]
 Purchasable from: ["TalburyMarket", "Anvil'sMarketInterior"]
 ---
 Id 13: Spear
@@ -230,7 +215,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Attack Skill:", "Spear Attack"]]
 Dropped By: [["Stallion of War", "7%"]]
-Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&Shop"]
+Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
 ---
 Id 17: Holy Lance
 Desc: A spear blessed by the Supreme Templar.
@@ -323,7 +308,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Dropped By: [["Writhing Amalgamation", "8%"]]
-Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&Shop"]
+Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
 ---
 Id 23: Rune Blade
 Desc: Engraved with magical runes.
@@ -413,7 +398,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Attack Skill:", "Scythe Attack"]]
 Dropped By: [["Ivy", "25%"]]
-Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&Shop"]
+Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
 Used for making: ["Dread Scythe", "Scythe of Hoarfrost"]
 ---
 Id 30: Dread Scythe
@@ -428,8 +413,8 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["Atk Element: ", "Dark"], ["Atk State: ", "Fear", "10%"], ["Attack Skill:", "Scythe Attack"]]
-Ingredients: [["Hypersteel Scythe", 1], ["Stygian Scythe", 1], ["Lightless Lantern", 2]]
+Features and Traits: [["Atk Element: ", "Dark"], ["Atk State: ", "Fear", "15%"], ["Attack Skill:", "Scythe Attack"]]
+Ingredients: [["Hypersteel Scythe", 1], ["Stygian Scythe", 1], ["Lightless Lantern", 2], ["Oil of Ill-Intent", 2]]
 Used for making: ["Scourge of Maelsium", "Voidgloom Reaper"]
 ---
 Id 31: Shortbow
@@ -492,8 +477,7 @@ Magical Defence: 0
 Agility: 5
 Luck: 0
 Features and Traits: [["Seal Equip: ", "Shield"], ["ExParam: ", "CRI", "2%"], ["Atk Speed: ", 3]]
-Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&Shop"]
-Used for making: ["Soul Eviscerator"]
+Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
 ---
 Id 35: Ebony Bow
 Desc: Made from a rare type of wood that makes for a great material for bows.
@@ -509,6 +493,7 @@ Agility: 10
 Luck: 0
 Features and Traits: [["Seal Equip: ", "Shield"], ["ExParam: ", "CRI", "2%"], ["Atk Speed: ", 3]]
 Purchasable from: ["Bill'sBlacksmith"]
+Used for making: ["Soul Eviscerator"]
 ---
 Id 36: Artemis Bow
 Desc: A bow that bears the name of the Moon Goddess.
@@ -586,7 +571,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "6%"], ["Can Dual Wield"]]
-Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&Shop"]
+Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
 ---
 Id 41: Assassin's Dagger
 Desc: A small, curved blade that is particularly effective at slicing throats.
@@ -681,7 +666,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk State: ", "Stun", "6%"], ["Atk Element: ", "Unique"], ["Atk Speed: ", -5]]
 Dropped By: [["Skeletal Champion", "7%"]]
-Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&Shop"]
+Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
 Used for making: ["Magma Maul"]
 ---
 Id 47: Terrahammer
@@ -704,7 +689,7 @@ Used for making: ["Boulder Bludgeoner", "Hammer of Justice"]
 Id 48: Un-Maker
 Desc: Whatever gets struck by this ginormous hammer of wrought iron will not see the light of day again.
 Type: Hammer
-Price: 30000
+Price: 20000
 HP: 0
 MP: 0
 Attack: 90
@@ -778,7 +763,7 @@ Magical Defence: 5
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "MRG", "2%"]]
-Purchasable from: ["Blacksmith&Shop"]
+Purchasable from: ["Blacksmith&MiningShop"]
 ---
 Id 53: Spirit Staff
 Desc: A cane made from an old tree of mistletoe.
@@ -1599,7 +1584,7 @@ Magical Defence: 9
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Nature"], ["ExParam: ", "MRG", "3%"]]
-Ingredients: [["Magic Staff", 1], ["Wind Warder", 1], ["Juggernaut Leaf", 2], ["Dylorien", 1]]
+Ingredients: [["Magic Staff", 1], ["Wind Warder", 1], ["Stalwort", 3], ["Bei Root", 2], ["Everbloom", 2], ["Dylorien", 1]]
 Purchasable from: ["SlumberwoodSmith"]
 ---
 Id 107: Obsidian Inferno Sword
@@ -1614,7 +1599,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["Atk Element: ", "Fire"], ["Atk State: ", "Burn", "8%"]]
+Features and Traits: [["Atk Element: ", "Fire"], ["Atk State: ", "Burn", "10%"]]
 Ingredients: [["Searing Scimitar", 1], ["Obsidian Shard", 3], ["Crystalised Flame", 2]]
 ---
 Id 108: Stone Launcher
@@ -1680,6 +1665,7 @@ Agility: 0
 Luck: 0
 Ingredients: [["Wood Staff", 1], ["Iron Ore", 2], ["Ironbark", 2]]
 Purchasable from: ["Anvil'sMarketInterior"]
+Used for making: ["Gnarled Smasher"]
 ---
 Id 112: Beacon of Valour
 Desc: \}A spear that can inspire your allies to fight with all their vigour. Every use of Attack has a chance to grant Inspiration to a random ally.
@@ -1725,7 +1711,7 @@ Magical Defence: 25
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Light"], ["State Resist: ", "Curse of the Doomed"], ["State Resist: ", "Curse of the Debilitated"], ["State Resist: ", "Curse of the Feeble"], ["State Resist: ", "Curse of the Laggard"], ["State Resist: ", "Curse of the Soulless"], ["Gain Skill: ", "Absolution"], ["Attack Skill:", "Spear Attack"]]
-Ingredients: [["Vilebrand Fauchard", 1], ["Lustred Sundial", 3], ["Blessed Abjugation", 1], ["Hypersteel", 1], ["Holy Symbol", 1]]
+Ingredients: [["Vilebrand Fauchard", 1], ["Blessed Abjugation", 1], ["Lustred Sundial", 3], ["Holy Symbol", 1], ["Hypersteel", 1]]
 ---
 Id 115: Harbinger of Sin
 Desc: \}A polearm drenched in blight, said to carry the weight of every broken oath. It sears with unholy radiance, condemning the wielder. Just holding it makes you bear a curse.
@@ -1815,7 +1801,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk State: ", "Stun", "10%"], ["Atk Element: ", "Unique"], ["Atk Element: ", "Fire"], ["Atk Speed: ", -5]]
-Ingredients: [["Hypersteel Mace", 1], ["Crystalised Flame", 3], ["Sun Candle", 2]]
+Ingredients: [["Hypersteel Mace", 1], ["Crystalised Flame", 2], ["Sun Candle", 2]]
 ---
 Id 121: Jolly Scythe
 Desc: A super sharp farmer's scythe who's slice and dice abilities give the wielder great joy. 'Tis a jolly scythe.
@@ -1934,22 +1920,22 @@ Magical Defence: 0
 Agility: 15
 Luck: 0
 Features and Traits: [["Atk Element: ", "Soul"], ["Seal Equip: ", "Shield"], ["ExParam: ", "CRI", "3%"], ["Atk Speed: ", 3], ["Atk State: ", "Death", "10%"], ["Atk State: ", "Hopeless", "10%"]]
-Ingredients: [["Hypersteel Bow", 1], ["Darkstrike Arrows", 2], ["Darkstrike Paragon O", 1], ["Soul Orb", 2], ["Flow Conduit", 1]]
+Ingredients: [["Ebony Bow", 1], ["Darkstrike Arrows", 2], ["Darkstrike Paragon O", 1], ["Soul Orb", 2], ["Flow Conduit", 1]]
 ---
 Id 129: Hammer of Justice
 Desc: Strike your foes with exact predujice! This hammer gradually heals its user.
 Type: Hammer
-Price: 18500
+Price: 21500
 HP: 0
 MP: 0
-Attack: 93
+Attack: 97
 Defence: 0
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Light"], ["Atk State: ", "Stun", "14%"], ["Atk Element: ", "Unique"], ["Atk Speed: ", -5], ["ExParam: ", "HRG", "5%"]]
-Ingredients: [["Terrahammer", 1], ["Omnium", 2], ["Lustred Sundial", 2], ["Blessed Abjugation", 1]]
+Ingredients: [["Terrahammer", 1], ["Life Up", 1], ["Omnium", 2], ["Lustred Sundial", 2], ["Blessed Abjugation", 1]]
 Used for making: ["Radiance of Justicium"]
 ---
 Id 130: Siphon Bow
@@ -2116,7 +2102,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Unique"], ["ExParam: ", "HIT", "-3%"]]
-Ingredients: [["Tears of Cedarus", 1], ["Hypersteel", 1]]
+Purchasable from: ["Blacksmith&MiningShop"]
 ---
 Id 141: Ancient Ascerothan Sabre
 Desc: \}An extremely old sword from a distant age recovered with care. With some time and effort, it could be restored to its former glory.
@@ -2251,6 +2237,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Unique"], ["Atk Speed: ", -2], ["Attack Skill:", "Gnarled Smasher Attack"]]
+Ingredients: [["Ironbark Cudgel", 1], ["Bei Root", 3], ["Wood", 2], ["Dylorien", 1], ["MHP Paragon", 1]]
 Used for making: ["Might of Zysargia"]
 ---
 Id 150: Void's Eclipse
@@ -2311,7 +2298,7 @@ Magical Defence: 0
 Agility: 5
 Luck: 10
 Features and Traits: [["Seal Equip: ", "Shield"], ["ExParam: ", "CRI", "5%"], ["Atk Speed: ", 3], ["Attack Skill:", "Siphoning Shot"]]
-Ingredients: [["Siphon Bow", 1], ["Siphon Arrows", 1], ["Soul in a Jar", 1], ["Ironbark", 2], ["Spirit Essence", 3]]
+Ingredients: [["Siphon Bow", 1], ["Ancient Sage's Water", 1], ["Soul in a Jar", 1], ["Ironbark", 2], ["Spirit Essence", 3]]
 Used for making: ["Radiance of Justicium"]
 ---
 Id 154: Heartrender
@@ -2328,4 +2315,19 @@ Agility: 25
 Luck: 100
 Features and Traits: [["ExParam: ", "EVA", "15%"], ["Can Dual Wield"], ["ExParam: ", "CRI", "5%"]]
 Ingredients: [["Heartpiercer", 1], ["Obsidian Shard", 2], ["Omnium", 2], ["Exemplary EVA Paragon", 1]]
+---
+Id 155: Vampiric Bow
+Desc: A bow that enhances the arrows it fires to drain the target's HP (only applies to basic attacks).
+Type: Bow
+Price: 16000
+HP: 0
+MP: 0
+Attack: 74
+Defence: 0
+Magical Attack: 8
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Seal Equip: ", "Shield"], ["ExParam: ", "CRI", "4%"], ["Atk Speed: ", 3], ["Attack Skill:", "Vampiric Shot"]]
+Purchasable from: ["DauvillierBlacksmith"]
 ---

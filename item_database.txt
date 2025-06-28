@@ -101,6 +101,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Only from the Menu
 Effects and Traits: [["Increase Paramter: ", "MHP", 50]]
+Used for making: ["Hammer of Justice"]
 ---
 Id 10: Soul Up
 Desc: Increases MMP by 10.
@@ -176,7 +177,7 @@ Occasion: Always
 Effects and Traits: [["Recover HP: ", "5%", ""], ["Remove State: ", "Headache", "100%"]]
 Dropped By: [["Roots of Evil", "11%"], ["Throttleroot", "13%"]]
 Purchasable from: ["EmwoodTavern", "EmwoodShop", "TalburyMarket", "Anvil'sMarketInterior", "DauvillierShop", "Caravan park", "StremleyShop"]
-Used for making: ["Potion", "Enhanced Potion", "Ultimate Potion", "Slime Remedy"]
+Used for making: ["Potion", "Enhanced Potion", "Ultimate Potion", "Slime Remedy", "Nature's Behest"]
 ---
 Id 18: Apple Juice
 Desc: Some freshly squeezed apple juice from the famous orchards of Emwood. Recovers some HP.
@@ -209,7 +210,6 @@ Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "", "+25"]]
 Purchasable from: ["FortCharlie", "EmwoodShop", "PeregrInn", "TalburyMarket", "PeregrineMarket/Shipyard", "Anvil'sMarketInterior", "FortBarry", "StremleyInnPub", "StremleyShop", "SlumberwoodShop", "Pub/BreweryGF", "Pub/BreweryStage", "DauvillierOldGarrison"]
-Used for making: ["Bone Apple Tea"]
 ---
 Id 21: Bread
 Desc: A loaf of baked bread. Recovers some HP.
@@ -240,13 +240,13 @@ Effects and Traits: [["Recover HP: ", "2%", "+25"]]
 Purchasable from: ["Anvil'sMarketInterior", "Pub/BreweryGF", "Pub/BreweryStage"]
 ---
 Id 24: Bucket of Cram
-Desc: Mushy substance to put between your gums. Not dip though. Fully heals and gain 10 PR.
+Desc: Mushy substance to put between your gums. Not dip though. Gain 10 PR.
 Type: Normal
-Price: 3400G
+Price: 20G
 Consume: Yes
 Scope: One Ally
 Occasion: Always
-Effects and Traits: [["Recover HP: ", "100%", ""], ["Gain PR: ", "1000%"]]
+Effects and Traits: [["Gain PR: ", "1000%"]]
 ---
 Id 25: Spirit Essence
 Desc: Silvery powder left behind by a defeated spirit. Useful in Alchemy.
@@ -444,7 +444,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Skeleton", "13%"], ["Withered Skeleton", "13%"]]
-Used for making: ["Bone Apple Tea", "Skeleton's Noggin", "Mind-Control Brace"]
+Used for making: ["Skeleton's Noggin", "Mind-Control Brace"]
 ---
 Id 45: Bei Root
 Desc: The root of a Bei flower. Strong scent but is known to help in some herbal remedies. Useful in Alchemy.
@@ -455,7 +455,7 @@ Scope: None
 Occasion: Never
 Dropped By: [["Roots of Evil", "14%"], ["Throttleroot", "17%"]]
 Purchasable from: ["FortCharlie", "TalburyMarket", "PeregrineMarket/Shipyard", "Anvil'sMarketInterior", "Caravan park", "StremleyShop"]
-Used for making: ["Antidote", "Slime Remedy", "Apaslea", "Root Boots"]
+Used for making: ["Antidote", "Slime Remedy", "Apaslea", "Nature's Behest", "Gnarled Smasher", "Root Boots"]
 ---
 Id 46: Four-Leaf Clover
 Desc: Consuming can invigorate you to be luckier and to also gain EXP faster.
@@ -487,7 +487,17 @@ Consume: No
 Scope: None
 Occasion: Never
 Purchasable from: ["Anvil'sMarketInterior", "DauvillierShop", "Caravan park", "StremleyShop", "SlumberwoodShop"]
-Used for making: ["Potion", "Enhanced Potion", "Ultimate Potion"]
+Used for making: ["Potion", "Enhanced Potion", "Ultimate Potion", "Deciduous Mantle"]
+---
+Id 49: Everbloom
+Desc: A somewhat rare evergreen flower that grows particularly tall over winters.
+Type: Normal
+Price: 38G
+Consume: No
+Scope: None
+Occasion: Never
+Purchasable from: ["TalburyMarket", "FlowemShop", "FortBarry", "Caravan park"]
+Used for making: ["Nature's Behest", "Deciduous Mantle"]
 ---
 Id 50: Juggernaut Leaf
 Desc: A famous and relatively rare leaf that is incredibly difficult to damage. Useful in Alchemy.
@@ -497,7 +507,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Purchasable from: ["PeregrineMarket/Shipyard", "Anvil'sMarketInterior", "Caravan park", "SlumberwoodShop"]
-Used for making: ["Enhanced Potion", "Ultimate Potion", "Nature's Behest", "Root Boots", "Verdant Leafshroud"]
+Used for making: ["Enhanced Potion", "Ultimate Potion", "Root Boots", "Deciduous Mantle", "Verdant Leafshroud"]
 ---
 Id 51: Yellow Fang
 Desc: A plant who's thin flowers grows curving downwards, bearing similarity to fangs. Useful in Alchemy.
@@ -507,7 +517,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Purchasable from: ["FortCharlie", "TalburyMarket", "Anvil'sMarketInterior", "Caravan park", "StremleyInnPub", "StremleyShop", "SlumberwoodShop"]
-Used for making: ["Sage's Water", "Apaslea", "Snake's Vengeance"]
+Used for making: ["Sage's Water", "Apaslea", "Snake's Vengeance", "Deciduous Mantle"]
 ---
 Id 52: Blue-Blood Cherries
 Desc: Bizzare cherries that appear normal but actually have bright blue juice. Useful in Alchemy.
@@ -742,7 +752,7 @@ Occasion: Always
 Effects and Traits: [["Add State: ", "Hallucinating", "100%"]]
 Dropped By: [["Forest Custodian", "7%"], ["Stallion of Famine", "7%"]]
 Purchasable from: ["PeregrineSecretShop"]
-Used for making: ["Elixir", "Avaking Raxorium", "Ancient Sage's Water", "Soul Vigour Vial", "Prophet's Omen", "Spectre's Regret", "Mind-Control Brace", "Avaking's Benevolence", "Consciousness Manipulator"]
+Used for making: ["Elixir", "Avaking Raxorium", "Ancient Sage's Water", "Soul Vigour Vial", "Prophet's Omen", "Spectre's Regret", "Chaos Doomplate", "Mind-Control Brace", "Avaking's Benevolence", "Consciousness Manipulator"]
 ---
 Id 76: Ancient Sage's Water
 Desc: A vial of mystical water that restores all MP.
@@ -754,7 +764,7 @@ Occasion: Always
 Effects and Traits: [["Recover MP: ", "100%", ""]]
 Ingredients: [["Milk", 3], ["Blue-Blood Cherries", 3], ["Spirit Essence", 4], ["Revel Weed", 5], ["Dispel Herb", 2], ["Ghostfruit", 1]]
 Purchasable from: ["PeregrinePortAlley", "Anvil'sMarketInterior"]
-Used for making: ["Elixir", "Soul Vigour Vial"]
+Used for making: ["Elixir", "Soul Vigour Vial", "Soulspite Longbow"]
 ---
 Id 77: Leather
 Desc: A square of leather ready to be crafted into something new. Useful in Alchemy.
@@ -774,7 +784,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Purchasable from: ["FortCharlie", "TalburyMarket", "FlowemShop", "DauvillierShop", "FortBarry", "Caravan park"]
-Used for making: ["Hand Axe", "Hunter's Bow", "Spear", "Shortbow", "Wood Staff", "Buckler", "Blunthead Arrows", "Fishhead Arrows", "Crescent Arrows", "Broadhead Arrows", "Serrated Broadhead Arrows", "Hooked Arrows", "Ship Shield", "Oaken Vanguard", "Earthwarden's Mantle"]
+Used for making: ["Hand Axe", "Hunter's Bow", "Spear", "Shortbow", "Wood Staff", "Gnarled Smasher", "Buckler", "Blunthead Arrows", "Fishhead Arrows", "Crescent Arrows", "Broadhead Arrows", "Serrated Broadhead Arrows", "Hooked Arrows", "Ship Shield", "Oaken Vanguard", "Earthwarden's Mantle"]
 ---
 Id 79: Fur
 Desc: A handful of thick fur. Useful in Alchemy.
@@ -785,7 +795,7 @@ Scope: None
 Occasion: Never
 Dropped By: [["Rat", "5%"], ["Rabid Rat", "6%"]]
 Purchasable from: ["TalburyMarket", "Anvil'sMarketInterior"]
-Used for making: ["Elemental Cloak"]
+Used for making: ["Elemental Cloak", "Aurora Cloak", "Shimmerveil Shroud"]
 ---
 Id 80: Copper Ore
 Desc: An ore of the common copper. Useful in Alchemy.
@@ -974,7 +984,7 @@ Occasion: Always
 Effects and Traits: [["Recover MP: ", "10%", ""], ["Gain PR: ", "1000%"]]
 Dropped By: [["Garuda", "9%"]]
 Purchasable from: ["StremleyShop"]
-Used for making: ["Soul Vigour Vial", "Resplendant Seraph"]
+Used for making: ["Soul Vigour Vial", "Radiant Sentinel"]
 ---
 Id 100: Premium Birdfeed
 Desc: \}Exceptionally high quality birdfeed that magically seems to be liked by every bird that has it. Give it to your bird to make it fly better.
@@ -1094,16 +1104,6 @@ Ingredients: [["Bottled Song", 2], ["Ghostfruit", 2], ["Ancient Sage's Water", 3
 Dropped By: [["Stygian Ichor", "5%"]]
 Used for making: ["Energy of Avaking", "Scourge of Maelsium", "Fury of Tempora", "Wake of Elazireth", "Blaze of Infermius", "Might of Zysargia", "Radiance of Justicium", "Zysargia's Ward", "Tempora's Echo", "Maelsium's Reckoning", "Justicium's Blessing", "Infermius' Pyre", "Avaking's Benevolence", "Elazireth's Current"]
 ---
-Id 112: Bone Apple Tea
-Desc: A biz are drink that makes peeple miss pell there words. It duhz taste gud tho, so bone apple tea!
-Type: Normal
-Price: 60G
-Consume: Yes
-Scope: One Ally
-Occasion: Always
-Effects and Traits: [["Recover HP: ", "5%", "+500"]]
-Ingredients: [["Skull", 1], ["Apple", 1], ["Tea Leaves", 1], ["Fresh Water", 1]]
----
 Id 113: Tea Leaves
 Desc: Tea leaves from somewhere exotic. Best consumed in hot water while standing in a tea-pose.
 Type: Normal
@@ -1113,7 +1113,7 @@ Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "1%", ""]]
 Purchasable from: ["TalburyMarket", "FlowemShop"]
-Used for making: ["Bone Apple Tea", "Tea"]
+Used for making: ["Tea"]
 ---
 Id 114: Tea
 Desc: A blend of hot water and tea leaves, this popular drink can stave away sleep.
@@ -1135,7 +1135,7 @@ Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "", "+5"]]
 Purchasable from: ["EmwoodTavern", "PeregrInn", "TalburyOuterInn", "TalburyShop", "TalburyMarket", "TheDivingFalconF1", "PeregrineMarket/Shipyard", "FlowemShop", "IfradPub", "Anvil'sMarketInterior", "MarrarockShop", "MarrarockPub", "SlumberwoodShop", "Pub/BreweryGF", "Pub/BreweryStage", "DauvillierOldGarrison"]
-Used for making: ["Bone Apple Tea", "Tea", "Tsunami Ward"]
+Used for making: ["Tea", "Tsunami Ward"]
 ---
 Id 116: Blazing Beverage
 Desc: A fiery drink that can thaw anything out from being frozen. Warms someone up and stops them from freezing.
@@ -1275,7 +1275,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Blooming Hunger", "7%"], ["Botyranny", "7%"], ["Zysargia", "100%"], ["Manticore", "100%"]]
-Used for making: ["Zysargia Raxorium", "Flow Conduit", "Forest Catalyst", "Nature's Behest", "Oaken Vanguard", "Verdant Leafshroud", "Woodhammer Paragon O", "Exemplary Woodhammer Paragon O", "Woodhammer Paragon D", "Symbol Breaker Disc: Nature", "Zysargia's Ward"]
+Used for making: ["Zysargia Raxorium", "Flow Conduit", "Forest Catalyst", "Nature's Behest", "Gnarled Smasher", "Oaken Vanguard", "Deciduous Mantle", "Verdant Leafshroud", "Woodhammer Paragon O", "Exemplary Woodhammer Paragon O", "Woodhammer Paragon D", "Exemplary Woodhammer Paragon D", "Symbol Breaker Disc: Nature", "Zysargia's Ward"]
 ---
 Id 130: Winter's Heart
 Desc: A gemstone that mixed with ice crystals to form this gorgeous reminder of winter's beauty. Useful in alchemy.
@@ -1304,7 +1304,7 @@ Scope: None
 Occasion: Never
 Dropped By: [["Titan of Black Ice", "8%"]]
 Purchasable from: ["Anvil'sMarketInterior"]
-Used for making: ["Hypersteel", "Frosted Scale Mail"]
+Used for making: ["Hypersteel", "Frosted Scale Mail", "Aurora Cloak"]
 ---
 Id 133: Armlekas-is lia Draken Veren-is
 Desc: A beyond-ancient scroll that describes the seven Dragon Lords. If only you could read it...
@@ -1369,7 +1369,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Sahagin", "7%"], ["Torrential Behemoth", "100%"]]
-Used for making: ["Elazireth Raxorium", "Flow Conduit", "Blessed Abjugation", "Ocean Catalyst", "Pickaxe", "Tsunami Ward", "Oceanic Master's Aegis", "Torrential Vanguard", "Tsunami Paragon O", "Exemplary Tsunami Paragon O", "Tsunami Paragon D", "Exemplary Tsunami Paragon D", "Exemplary Woodhammer Paragon D", "Symbol Breaker Disc: Water", "Elazireth's Current"]
+Used for making: ["Elazireth Raxorium", "Flow Conduit", "Blessed Abjugation", "Ocean Catalyst", "Tsunami Ward", "Oceanic Master's Aegis", "Torrential Vanguard", "Tsunami Paragon O", "Exemplary Tsunami Paragon O", "Tsunami Paragon D", "Exemplary Tsunami Paragon D", "Symbol Breaker Disc: Water", "Elazireth's Current"]
 ---
 Id 140: Lustred Sundial
 Desc: A radiant timepiece said to trap stray beams of sunlight, shining brightest when all else fades. Useful in alchemy.
@@ -1379,7 +1379,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Benevolent Manticore", "100%"], ["Angel", "7%"]]
-Used for making: ["Justicium Raxorium", "Flow Conduit", "Blessed Abjugation", "Astral Catalyst", "Precursor of Virtue", "Hammer of Justice", "Hallowed Battlegear", "Solar Majesty's Regalia", "Smitecaster Paragon O", "Exemplary Smitecaster Paragon O", "Smitecaster Paragon D", "Exemplary Smitecaster Paragon D", "Symbol Breaker Disc: Light", "Justicium's Blessing", "Raiment of the Sunborn", "Resplendant Seraph"]
+Used for making: ["Justicium Raxorium", "Flow Conduit", "Blessed Abjugation", "Astral Catalyst", "Precursor of Virtue", "Hammer of Justice", "Hallowed Battlegear", "Radiant Sentinel", "Solar Majesty's Regalia", "Smitecaster Paragon O", "Exemplary Smitecaster Paragon O", "Smitecaster Paragon D", "Exemplary Smitecaster Paragon D", "Symbol Breaker Disc: Light", "Justicium's Blessing", "Raiment of the Sunborn", "Resplendant Seraph"]
 ---
 Id 141: Thundrite
 Desc: A mineral formed when lightning strikes solid stone in just the right way. Useful in alchemy.
@@ -1389,7 +1389,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Stormbringer Cerberus", "100%"], ["Tempest Titan", "7%"]]
-Used for making: ["Tempora Raxorium", "Flow Conduit", "Tempest Catalyst", "Thunder Rod", "Thundershock Stormguard", "Storm Summoner's Garb", "Tempest Surgemail", "Tempest Evoker's Robes", "Thunderfury Paragon O", "Exemplary Thunderfury Paragon O", "Thunderfury Paragon D", "Exemplary Thunderfury Paragon D", "Symbol Breaker Disc: Storm", "Tempora's Echo"]
+Used for making: ["Tempora Raxorium", "Flow Conduit", "Tempest Catalyst", "Thunder Rod", "Thundershock Stormguard", "Storm Summoner's Garb", "Tempest Surgemail", "Eye of the Storm", "Tempest Evoker's Robes", "Thunderfury Paragon O", "Exemplary Thunderfury Paragon O", "Thunderfury Paragon D", "Exemplary Thunderfury Paragon D", "Symbol Breaker Disc: Storm", "Tempora's Echo"]
 ---
 Id 142: Oil of Ill-Intent
 Desc: \}This mysterious fluid naturally found only on Devil's Eye Land that silently corrupts everything around it. Useful in alchemy.
@@ -1399,7 +1399,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Shadow Creature", "8%"], ["Shadow Wraith", "10%"], ["Maelstrom Cerberus", "100%"], ["Stallion of Plague", "7%"], ["Shadow Revenant", "13%"]]
-Used for making: ["Maelsium Raxorium", "Flow Conduit", "Night Catalyst", "Harbinger of Sin", "Phantom Shadowmail", "Midnight Shroud", "Chaos Doomplate", "Blightsludge Husk", "Darkstrike Paragon O", "Exemplary Darkstrike Paragon O", "Darkstrike Paragon D", "Exemplary Darkstrike Paragon D", "Symbol Breaker Disc: Dark", "Maelsium's Reckoning"]
+Used for making: ["Maelsium Raxorium", "Flow Conduit", "Night Catalyst", "Dread Scythe", "Harbinger of Sin", "Phantom Shadowmail", "Midnight Shroud", "Chaos Doomplate", "Blightsludge Husk", "Darkstrike Paragon O", "Exemplary Darkstrike Paragon O", "Darkstrike Paragon D", "Exemplary Darkstrike Paragon D", "Symbol Breaker Disc: Dark", "Maelsium's Reckoning"]
 ---
 Id 143: Wind's Wing
 Desc: A very strange feather that doesn't come from any known species of bird, yet is still found randomly. Useful in alchemy.
@@ -1409,7 +1409,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Hurricane Manticore", "100%"], ["Garuda", "7%"]]
-Used for making: ["Tempora Raxorium", "Flow Conduit", "Sky Catalyst", "Tempest Evoker's Robes", "Empyrean Winguard", "Airblade Paragon O", "Exemplary Airblade Paragon O", "Airblade Paragon D", "Exemplary Airblade Paragon D", "Symbol Breaker Disc: Air", "Tempora's Echo"]
+Used for making: ["Tempora Raxorium", "Flow Conduit", "Sky Catalyst", "Gale Force Battlegear", "Tempest Evoker's Robes", "Empyrean Winguard", "Airblade Paragon O", "Exemplary Airblade Paragon O", "Airblade Paragon D", "Exemplary Airblade Paragon D", "Symbol Breaker Disc: Air", "Tempora's Echo"]
 ---
 Id 144: Fallen Star
 Desc: A chunk of rock that fell from the sky at breakneck speed, its true origins are confusing scholars. Useful in alchemy.
@@ -1600,7 +1600,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Ingredients: [["Iron Ore", 5], ["Copper Ore", 2], ["Tin Ore", 1], ["Silver Ore", 1], ["Powder Snow", 3], ["Unmelting Ice", 1]]
-Used for making: ["Prophet's Omen", "Soulcleave Sabre", "Beacon of Valour", "Precursor of Virtue", "Harbinger of Sin", "Pickaxe", "Legend's Safeguard", "Diadem of the Past", "Prismatic Morphguard", "Resplendant Seraph", "Consciousness Manipulator"]
+Used for making: ["Prophet's Omen", "Soulcleave Sabre", "Beacon of Valour", "Precursor of Virtue", "Harbinger of Sin", "Legend's Safeguard", "Diadem of the Past", "Prismatic Morphguard", "Resplendant Seraph", "Consciousness Manipulator"]
 ---
 Id 166: Cold Steel Lager
 Desc: \}A very old Marrarockan recipe using cheap and readily available ingredients. Was once the only affordable drink for miners, but is now considered tradition.
@@ -1765,7 +1765,7 @@ Price: 6000G
 Consume: No
 Scope: None
 Occasion: Never
-Purchasable from: ["Blacksmith&Shop"]
+Purchasable from: ["Blacksmith&MiningShop"]
 ---
 Id 183: Hypersteel Pickaxe
 Desc: A pickaxe made of hypersteel that no rock can resist. Can be used 40 times.
@@ -1774,7 +1774,7 @@ Price: 15000G
 Consume: No
 Scope: None
 Occasion: Never
-Purchasable from: ["Blacksmith&Shop"]
+Purchasable from: ["Blacksmith&MiningShop"]
 ---
 Id 184: Guide To Restoration
 Desc: \}A book, apparently written by Mister Bones, that is covered in dirt and dust that explains the delicate process of restoring relics of the past to the modern age.
@@ -1783,7 +1783,7 @@ Price: 10000G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
-Purchasable from: ["Blacksmith&Shop"]
+Purchasable from: ["Blacksmith&MiningShop"]
 ---
 Id 185: Ammunition Disc
 Desc: A disc for the Symbol Breaker that is yet to be twisted into an element, and so is useless.
@@ -1836,7 +1836,7 @@ Price: 2500G
 Consume: No
 Scope: None
 Occasion: Never
-Purchasable from: ["Blacksmith&Shop"]
+Purchasable from: ["Blacksmith&MiningShop"]
 ---
 Id 191: Blasting Powder
 Desc: \}A highly explosive material that can instantly clear a portion of rock, including tough bedrock. Can be spent to bypass bedrock without spending PS.
@@ -1845,7 +1845,7 @@ Price: 1800G
 Consume: No
 Scope: None
 Occasion: Never
-Purchasable from: ["Blacksmith&Shop"]
+Purchasable from: ["Blacksmith&MiningShop"]
 ---
 Id 192: Geological Survey Data
 Desc: \}Marrarockan geologists are constantly hard at work to determine the best spots to mine. Increases the chance of finding ores, consumed when leaving.
@@ -1854,7 +1854,7 @@ Price: 2500G
 Consume: No
 Scope: None
 Occasion: Never
-Purchasable from: ["Blacksmith&Shop"]
+Purchasable from: ["Blacksmith&MiningShop"]
 ---
 Id 193: Harvest Basket
 Desc: \}A basket that increases the amount of items you can carry when scavenging. They're somewhat poor quality though, so may break after travelling.
@@ -1887,7 +1887,7 @@ Price: 3000G
 Consume: No
 Scope: None
 Occasion: Never
-Purchasable from: ["Blacksmith&Shop"]
+Purchasable from: ["Blacksmith&MiningShop"]
 ---
 Id 211: Distance Doug's Pride
 Desc: \}A golden medallion from the legendary miner, Distance Doug. A token of how impressed he is of your mining skills. It seems to increase the rarity of unearthed ores.
@@ -1936,7 +1936,7 @@ Price: 3500G
 Consume: No
 Scope: None
 Occasion: Never
-Purchasable from: ["Blacksmith&Shop"]
+Purchasable from: ["Blacksmith&MiningShop"]
 ---
 Id 217: Flame Catalyst
 Desc: A metallic ingot of an element-rich material that reacts with the Soul to produce new and powerful magic with Fire.
