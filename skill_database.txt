@@ -692,6 +692,24 @@ Critical: false
 Scope: All Enemies
 Effects and Traits: [["Add State: ", "Fear", "20%"]]
 ---
+Id 73: Arachnophobia
+Desc: Make an enemy fearful.
+Skill Class: Abilites
+Cost: 5PR
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Fear", "50%"]]
+---
+Id 74: Web Shot
+Desc: Fire a glob of sticky web at a target. Mostly ignores DEF.
+Skill Class: Abilites
+Cost: 10PR
+Skill Type: HP Damage
+Formula: a.atk * 3 - (b.def / 2)
+Variance: 15
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Webbed", "90%"]]
+---
 Id 75: Weigh Anchor
 Desc: Raise the anchor, get ready to sail! Raise party's AGI, EVA, and gradually generate PR.
 Skill Class: Abilites

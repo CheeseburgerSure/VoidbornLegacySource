@@ -1416,11 +1416,11 @@ Description: These bottom-feeders devour corpses that fall on them until there's
 HP: 7600
 MP: 200
 Attack: 280
-Defence: 142
-Magical Attack: 82
+Defence: 152
+Magical Attack: 92
 Magical Defence: 78
 Agility: 140
-Luck: 125
+Luck: 165
 Experience: 785
 Gold: 868
 Loot: [["Shark Tooth", "10%"], ["Coral Brief", "7%"]]

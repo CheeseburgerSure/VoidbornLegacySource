@@ -187,7 +187,7 @@ Magical Defence: 7
 Agility: 0
 Luck: 0
 Purchasable from: ["TalburyJewelers", "DauvillierAntiqueShop"]
-Used for making: ["Elemental Cloak", "Deciduous Mantle", "Tempest Evoker's Robes"]
+Used for making: ["Elemental Cloak", "Cloak of Roaming Winds", "Deciduous Mantle", "Tempest Evoker's Robes"]
 ---
 Id 14: Hermit Robe
 Desc: Robe worn by a wise old man.
@@ -202,7 +202,7 @@ Magical Defence: 14
 Agility: 0
 Luck: 0
 Purchasable from: ["TalburyJewelers", "DauvillierShop", "DauvillierAntiqueShop"]
-Used for making: ["Verdant Leafshroud"]
+Used for making: ["Whisperweave Vestment", "Verdant Leafshroud"]
 ---
 Id 15: Elemental Cloak
 Desc: The Natural Flow was influenced into the very fibres of this cloak.
@@ -358,6 +358,20 @@ Features and Traits: [["ExParam: ", "EVA", "4%"]]
 Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
 Used for making: ["Phantom Shadowmail", "Tempest Surgemail", "Gale Force Battlegear", "Oceanic Master's Aegis"]
 ---
+Id 25: Alchemist's Rose
+Desc: A one-of-a-kind brooch that doubles the rate at which enemies drop loot. Handy for those hunting for ingredients.
+Type: General Armour
+Price: 0
+HP: 20
+MP: 20
+Attack: 2
+Defence: 2
+Magical Attack: 2
+Magical Defence: 2
+Agility: 2
+Luck: 2
+Features and Traits: [["Party Ability: ", "Double Drop Item Chance"]]
+---
 Id 26: Leather Hap
 Desc: A hat made out of leather.
 Type: Light Armour
@@ -413,6 +427,21 @@ Agility: 0
 Luck: 0
 Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
 Used for making: ["Torrential Vanguard"]
+---
+Id 30: Whisperweave Vestment
+Desc: \}Delicately spun from enchanted spider silk, this near-weightless armour enhances movement and dulls incoming blows. Increased EVA and PDR.
+Type: Magic Armour
+Price: 13000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 29
+Magical Attack: 36
+Magical Defence: 49
+Agility: 35
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "7%"], ["State Resist: ", "Silence"], ["SpParam: ", "PDR", "x0.8"], ["State Resist: ", "Webbed"]]
+Ingredients: [["Hermit Robe", 1], ["Fabric", 2], ["Spider Silk", 4], ["Spirit Essence", 2], ["Bottled Song", 1]]
 ---
 Id 31: Iron Mail
 Desc: Armour made with iron chains.
@@ -476,6 +505,21 @@ Luck: 0
 Features and Traits: [["Atk Speed: ", -2]]
 Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
 Used for making: ["Chaos Doomplate", "Hallowed Battlegear", "Thundershock Stormguard", "Smouldering Lavamail", "Tectonic Platemail", "Gaiashell Carapace"]
+---
+Id 35: Cloak of Roaming Winds
+Desc: \}Woven from feathers that remember motion, it constantly breathes life into its wearer and resists the stillness of captivity. Prevents AGI being lowered.
+Type: Magic Armour
+Price: 10000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 31
+Magical Attack: 26
+Magical Defence: 40
+Agility: 60
+Luck: 0
+Features and Traits: [["Debuff Rate: ", "AGI", "0%"], ["State Resist: ", "Freezing"], ["State Resist: ", "Headache"], ["State Resist: ", "Webbed"], ["State Resist: ", "Pinned Down"], ["State Resist: ", "Buttered"], ["State Resist: ", "Frostbite"], ["State Resist: ", "Oozed"], ["State Resist: ", "Dark Oozed"]]
+Ingredients: [["Runed Robe", 1], ["Feather of Renewal", 1], ["Wind's Wing", 1], ["Heavy Feather", 2], ["Flare Feather", 3]]
 ---
 Id 36: Chain Coif
 Desc: A piece of armour made of iron chains that typically goes under helmets.
@@ -1109,7 +1153,7 @@ Agility: -100
 Luck: 0
 Dropped By: [["Grave Defiler", "8%"]]
 Purchasable from: ["TalburyMarket"]
-Used for making: ["Phantom Shadowmail", "Gale Force Battlegear"]
+Used for making: ["Windshear Crescent", "Cloak of Roaming Winds", "Phantom Shadowmail", "Gale Force Battlegear"]
 ---
 Id 82: Burning Ointment
 Desc: A cream to soothe burns that burns to the touch. Increases Fire Resistance a lot, but reduces MHP slightly.
@@ -1402,7 +1446,7 @@ Purchasable from: ["TalburyMarket", "DauvillierAntiqueShop"]
 Used for making: ["Void Mistward"]
 ---
 Id 101: Pocket Sand
-Desc: It's coarse, rough, irritating, and it gets everywhere. Increases EVA, but you get Blinded easier.
+Desc: It's coarse, rough, irritating, and it gets everywhere. Increases EVA, but you're very easy to Blind.
 Type: General Armour
 Price: 1950
 HP: 0
@@ -1413,7 +1457,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["State Rate: ", "Blind", "125%"], ["ExParam: ", "EVA", "25%"]]
+Features and Traits: [["State Rate: ", "Blind", "200%"], ["ExParam: ", "EVA", "20%"]]
 Purchasable from: ["TalburyMarket"]
 ---
 Id 102: Curved Stick
@@ -1422,20 +1466,20 @@ Type: General Armour
 Price: 5380
 HP: 0
 MP: 0
-Attack: 45
+Attack: 50
 Defence: 0
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["ExParam: ", "HIT", "-25%"]]
+Features and Traits: [["ExParam: ", "HIT", "-15%"]]
 Purchasable from: ["TalburyMarket"]
 ---
 Id 103: Salt Shaker
-Desc: Salt with an unknown origin that makes food so much better. Improves HP increases from items but lowers MHP.
+Desc: Salt with an unknown origin that makes food so much better. 50% greater PHA but lower MHP.
 Type: General Armour
 Price: 2130
-HP: -450
+HP: -400
 MP: 0
 Attack: 0
 Defence: 0
@@ -1456,9 +1500,9 @@ Attack: 0
 Defence: 0
 Magical Attack: 0
 Magical Defence: 0
-Agility: 2
+Agility: 4
 Luck: 0
-Features and Traits: [["ExParam: ", "EVA", "-25%"], ["Atk State: ", "Blind", "10%"]]
+Features and Traits: [["ExParam: ", "EVA", "-15%"], ["Atk State: ", "Blind", "10%"]]
 Purchasable from: ["TalburyMarket"]
 Used for making: ["Torrential Vanguard"]
 ---
@@ -1478,15 +1522,15 @@ Features and Traits: [["Element Rate: ", "Nature", "15%"], ["State Resist: ", "P
 Purchasable from: ["TalburyMarket", "DauvillierAntiqueShop"]
 ---
 Id 106: Lightning Rod
-Desc: A metal rod that absorbs and redirects electricity. Gives Storm resistance, but lowers MDF.
+Desc: A metal rod that absorbs and redirects electricity. Gives Storm resistance, but lowers MAT.
 Type: General Armour
 Price: 1800
 HP: 0
 MP: 0
 Attack: 0
 Defence: 0
-Magical Attack: 0
-Magical Defence: -25
+Magical Attack: -25
+Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Storm", "15%"], ["State Resist: ", "Paralysis"]]
@@ -1516,8 +1560,8 @@ Price: 1800
 HP: 0
 MP: 0
 Attack: 0
-Defence: 0
-Magical Attack: 0
+Defence: 17
+Magical Attack: 11
 Magical Defence: -25
 Agility: 0
 Luck: 0
@@ -1548,14 +1592,14 @@ Price: 1800
 HP: 0
 MP: 0
 Attack: 0
-Defence: 2
+Defence: 4
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Air", "15%"], ["State Resist: ", "Knocked Over"], ["ExParam: ", "CRI", "-10%"]]
 Purchasable from: ["TalburyMarket", "DauvillierShop"]
-Used for making: ["Nature's Behest", "Empyrean Winguard"]
+Used for making: ["Empyrean Winguard"]
 ---
 Id 111: Sun Candle
 Desc: A candle that sheds enough light to be mistaken for day time. Gives Dark resistance but decreases LUK.
@@ -1580,9 +1624,9 @@ Price: 1800
 HP: 0
 MP: 0
 Attack: 0
-Defence: 4
+Defence: 0
 Magical Attack: 0
-Magical Defence: 0
+Magical Defence: 4
 Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Water", "15%"], ["SpParam: ", "PHA", "x0.5"], ["State Resist: ", "Wet"]]
@@ -4725,7 +4769,7 @@ Price: 0
 HP: 0
 MP: 0
 Attack: 0
-Defence: 110
+Defence: 145
 Magical Attack: 0
 Magical Defence: 90
 Agility: 0
@@ -4742,7 +4786,7 @@ MP: 0
 Attack: 0
 Defence: 45
 Magical Attack: 30
-Magical Defence: 125
+Magical Defence: 145
 Agility: 0
 Luck: 0
 Features and Traits: [["SpParam: ", "TCR", "x2.0"]]
@@ -4866,7 +4910,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["State Rate: ", "Death", "0%"]]
 Dropped By: [["Angel", "6%"]]
-Used for making: ["Resplendant Seraph"]
+Used for making: ["Cloak of Roaming Winds", "Resplendant Seraph"]
 ---
 Id 339: Voidsoul Paragon
 Desc: A Paragon crafted outside of known recipes, violent with Void energy. Increases all core stats by 20%.
@@ -5139,9 +5183,9 @@ Price: 18500
 HP: 0
 MP: 0
 Attack: 0
-Defence: 26
-Magical Attack: 20
-Magical Defence: 48
+Defence: 56
+Magical Attack: 40
+Magical Defence: 78
 Agility: 70
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "16%"], ["ExParam: ", "MEV", "5%"]]

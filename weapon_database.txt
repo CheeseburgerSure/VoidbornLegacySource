@@ -1,5 +1,5 @@
 Id 1: Hand Axe
-Desc: Small axe used for harvesting wood. High power, but heavy and inaccurate.
+Desc: Small axe used for harvesting wood.  Axes are high power, but heavy and inaccurate.
 Type: Axe
 Price: 100
 HP: 0
@@ -107,6 +107,21 @@ Features and Traits: [["ExParam: ", "HIT", "7%"], ["ExParam: ", "EVA", "7%"], ["
 Dropped By: [["Warden of Skies", "7%"]]
 Purchasable from: ["SlumberwoodSmith"]
 Used for making: ["Prophet's Omen"]
+---
+Id 8: Windshear Crescent
+Desc: A scythe that whirls up a current of air the more it's used, cumulatively increasing your CRI until one lands.
+Type: Scythe
+Price: 12000
+HP: 0
+MP: 0
+Attack: 58
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 30
+Features and Traits: [["Atk Element: ", "Air"], ["ExParam: ", "HIT", "3%"], ["ExParam: ", "CRI", "3%"], ["Attack Skill:", "Scythe Attack"]]
+Ingredients: [["Hypersteel Halberd", 1], ["Heavy Feather", 2], ["Silver Ore", 2], ["Wind's Wing", 2]]
 ---
 Id 9: Boomerang Axe
 Desc: An axe that has the magical ability to return to it's owner when thrown.
@@ -216,6 +231,7 @@ Luck: 0
 Features and Traits: [["Attack Skill:", "Spear Attack"]]
 Dropped By: [["Stallion of War", "7%"]]
 Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
+Used for making: ["Windshear Crescent"]
 ---
 Id 17: Holy Lance
 Desc: A spear blessed by the Supreme Templar.
@@ -340,7 +356,7 @@ Luck: 0
 Dropped By: [["Ivy", "25%"]]
 ---
 Id 26: Sickle
-Desc: A small sickle used for clearing tall grass.
+Desc: A small sickle used for clearing tall grass. Scythes can hit multiple enemies at once.
 Type: Scythe
 Price: 100
 HP: 0
@@ -355,7 +371,7 @@ Features and Traits: [["Attack Skill:", "Scythe Attack"]]
 Purchasable from: ["PeregrineBlacksmiths"]
 ---
 Id 27: Field Scythe
-Desc: A general purpose scythe used for clearing all kinds of grass and crops. Scythes can hit multiple enemies at once.
+Desc: A general purpose scythe used for clearing all kinds of grass and crops.
 Type: Scythe
 Price: 500
 HP: 0
@@ -418,7 +434,7 @@ Ingredients: [["Hypersteel Scythe", 1], ["Stygian Scythe", 1], ["Lightless Lante
 Used for making: ["Scourge of Maelsium", "Voidgloom Reaper"]
 ---
 Id 31: Shortbow
-Desc: A shortbow made for light use, mostly for recreation.
+Desc: \}A shortbow made for light use, mostly for recreation. Bows restrict use of a shield for increase AtkSpeed and CRI.
 Type: Bow
 Price: 100
 HP: 0
@@ -446,7 +462,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["Seal Equip: ", "Shield"], ["Atk Speed: ", 3]]
+Features and Traits: [["Seal Equip: ", "Shield"], ["Atk Speed: ", 3], ["ExParam: ", "HIT", "-2%"]]
 Purchasable from: ["TalburyMarket", "IfradShop", "Anvil'sMarketInterior"]
 ---
 Id 33: Recurve Bow
@@ -605,7 +621,7 @@ Dropped By: [["Sage of the Bones", "7%"]]
 Purchasable from: ["Bill'sBlacksmith"]
 ---
 Id 43: Mace
-Desc: A circular club with metal spikes.
+Desc: A circular club with metal spikes. Hammers have hitgh power and can Stun, but slow you down during battle.
 Type: Hammer
 Price: 100
 HP: 0
@@ -616,13 +632,13 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["Atk Element: ", "Unique"], ["Atk Speed: ", -5], ["Atk State: ", "Stun", "3%"]]
+Features and Traits: [["Atk Element: ", "Unique"], ["Atk Speed: ", -3], ["Atk State: ", "Stun", "3%"]]
 Ingredients: [["Iron Ore", 2]]
 Purchasable from: ["PeregrineBlacksmiths"]
 Used for making: ["Skeleton's Noggin"]
 ---
 Id 44: Flail
-Desc: An iron ball dangling from a chain. Flails all have a chance to counterattack.
+Desc: An iron ball dangling from a chain. Flails all give a chance to counterattack but have reduced HIT.
 Type: Flail
 Price: 500
 HP: 0
@@ -648,7 +664,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["Atk Element: ", "Unique"], ["Atk Speed: ", -5], ["Atk State: ", "Stun", "4%"]]
+Features and Traits: [["Atk Element: ", "Unique"], ["Atk Speed: ", -3], ["Atk State: ", "Stun", "4%"]]
 Purchasable from: ["PeregrineBlacksmiths", "Anvil'sMarketInterior", "SlumberwoodSmith"]
 Used for making: ["Terrahammer", "Cold Shoulder"]
 ---
@@ -664,7 +680,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["Atk State: ", "Stun", "6%"], ["Atk Element: ", "Unique"], ["Atk Speed: ", -5]]
+Features and Traits: [["Atk State: ", "Stun", "6%"], ["Atk Element: ", "Unique"], ["Atk Speed: ", -3]]
 Dropped By: [["Skeletal Champion", "7%"]]
 Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
 Used for making: ["Magma Maul"]
@@ -681,7 +697,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["Atk Element: ", "Unique"], ["Atk Speed: ", -5], ["Atk State: ", "Stun", "8%"]]
+Features and Traits: [["Atk Element: ", "Unique"], ["Atk State: ", "Stun", "8%"], ["Atk Speed: ", -3]]
 Ingredients: [["War Hammer", 1], ["Iron Ore", 2], ["Tin Ore", 2], ["Fallen Star", 2]]
 Dropped By: [["Skeletal King", "7%"]]
 Used for making: ["Boulder Bludgeoner", "Hammer of Justice"]
@@ -698,12 +714,12 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["Atk Element: ", "Unique"], ["Atk Speed: ", -5], ["Atk State: ", "Stun", "10%"]]
+Features and Traits: [["Atk Element: ", "Unique"], ["Atk Speed: ", -4], ["Atk State: ", "Stun", "10%"]]
 Dropped By: [["Skeletal Lord", "6%"]]
 Purchasable from: ["Bill'sBlacksmith"]
 ---
 Id 49: Wood Staff
-Desc: Sturdy staff made of oak.
+Desc: Sturdy staff made of oak. Staffs give mostly MAT instead of ATK and give MRG.
 Type: Staff
 Price: 100
 HP: 0
@@ -766,7 +782,7 @@ Features and Traits: [["ExParam: ", "MRG", "2%"]]
 Purchasable from: ["Blacksmith&MiningShop"]
 ---
 Id 53: Spirit Staff
-Desc: A cane made from an old tree of mistletoe.
+Desc: A twisted cane made from an old tree of mistletoe.
 Type: Staff
 Price: 15000
 HP: 0
@@ -1584,7 +1600,7 @@ Magical Defence: 9
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Nature"], ["ExParam: ", "MRG", "3%"]]
-Ingredients: [["Magic Staff", 1], ["Wind Warder", 1], ["Stalwort", 3], ["Bei Root", 2], ["Everbloom", 2], ["Dylorien", 1]]
+Ingredients: [["Magic Staff", 1], ["Stalwort", 3], ["Bei Root", 2], ["Everbloom", 2], ["Dylorien", 1]]
 Purchasable from: ["SlumberwoodSmith"]
 ---
 Id 107: Obsidian Inferno Sword

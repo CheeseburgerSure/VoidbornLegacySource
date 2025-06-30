@@ -257,7 +257,7 @@ Scope: None
 Occasion: Never
 Dropped By: [["Wisp", "8%"], ["Weeping Wisp", "8%"], ["Guardian Spirit", "13%"], ["Volwrath", "100%"], ["Wailing Wisp", "8%"], ["Burning Spirit", "8%"], ["Forest Custodian", "13%"], ["Steward of the Mantle", "14%"]]
 Purchasable from: ["PeregrineSecretShop"]
-Used for making: ["Sage's Water", "Elixir", "Ancient Sage's Water", "Flame Catalyst", "Icicle Catalyst", "Tempest Catalyst", "Ocean Catalyst", "Mountain Catalyst", "Sky Catalyst", "Astral Catalyst", "Night Catalyst", "Forest Catalyst", "Spectre's Regret", "Soulspite Longbow", "Shimmerveil Shroud"]
+Used for making: ["Sage's Water", "Elixir", "Ancient Sage's Water", "Flame Catalyst", "Icicle Catalyst", "Tempest Catalyst", "Ocean Catalyst", "Mountain Catalyst", "Sky Catalyst", "Astral Catalyst", "Night Catalyst", "Forest Catalyst", "Spectre's Regret", "Soulspite Longbow", "Whisperweave Vestment", "Shimmerveil Shroud"]
 ---
 Id 26: Slimedrop
 Desc: Collected residue from a Slime. Useful in Alchemy.
@@ -290,7 +290,7 @@ Scope: None
 Occasion: Never
 Dropped By: [["Spider", "13%"], ["Thunder Spider", "11%"]]
 Purchasable from: ["TalburyMarket", "Anvil'sMarketInterior"]
-Used for making: ["Cotton"]
+Used for making: ["Cotton", "Whisperweave Vestment"]
 ---
 Id 30: Hornet Venom
 Desc: The venom of a giant Hornet. Useful in Alchemy.
@@ -697,7 +697,7 @@ Scope: None
 Occasion: Never
 Ingredients: [["Cotton", 2]]
 Purchasable from: ["TalburyMarket", "PeregrineSailorsStop"]
-Used for making: ["Bandages", "Hard Leather", "Bandana", "Silk Cloak", "Elemental Cloak", "Workman's Gloves", "Ascerothan Uniform"]
+Used for making: ["Bandages", "Hard Leather", "Bandana", "Silk Cloak", "Elemental Cloak", "Whisperweave Vestment", "Workman's Gloves", "Ascerothan Uniform"]
 ---
 Id 71: Cotton
 Desc: Cotton wool, often used in insulation and padding. Useful in Alchemy.
@@ -740,7 +740,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Amalgamation", "8%"], ["Mossy Bouldergeist", "7%"], ["Jagged Bouldergeist", "8%"], ["Rocklereige", "100%"]]
-Used for making: ["Hypersteel", "Prophet's Omen", "Candescent Cudgel", "Ascerothan Sabre", "Ascerothan Halberd", "Serrated Broadhead Arrows", "Hooked Arrows", "Ascerothan Gauntlets", "King's Grace", "Riskmaster's Coin"]
+Used for making: ["Hypersteel", "Windshear Crescent", "Prophet's Omen", "Candescent Cudgel", "Ascerothan Sabre", "Ascerothan Halberd", "Serrated Broadhead Arrows", "Hooked Arrows", "Ascerothan Gauntlets", "King's Grace", "Riskmaster's Coin"]
 ---
 Id 75: Ghostfruit
 Desc: A rare fruit that resembles black apples, ghostfruit seem to lack a true physical form. Useful in Alchemy.
@@ -984,7 +984,7 @@ Occasion: Always
 Effects and Traits: [["Recover MP: ", "10%", ""], ["Gain PR: ", "1000%"]]
 Dropped By: [["Garuda", "9%"]]
 Purchasable from: ["StremleyShop"]
-Used for making: ["Soul Vigour Vial", "Radiant Sentinel"]
+Used for making: ["Soul Vigour Vial", "Cloak of Roaming Winds", "Radiant Sentinel"]
 ---
 Id 100: Premium Birdfeed
 Desc: \}Exceptionally high quality birdfeed that magically seems to be liked by every bird that has it. Give it to your bird to make it fly better.
@@ -1091,7 +1091,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Purchasable from: ["PeregrineSecretShop"]
-Used for making: ["Soul Vigour Vial", "Blessed Abjugation", "Shimmerveil Shroud"]
+Used for making: ["Soul Vigour Vial", "Blessed Abjugation", "Whisperweave Vestment", "Shimmerveil Shroud"]
 ---
 Id 111: Soul Vigour Vial
 Desc: \}A mystical concoction of extremely rare ingredients that rapidly accelerates the Soul's growth. Instantly levels up a character once.
@@ -1409,7 +1409,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Hurricane Manticore", "100%"], ["Garuda", "7%"]]
-Used for making: ["Tempora Raxorium", "Flow Conduit", "Sky Catalyst", "Gale Force Battlegear", "Tempest Evoker's Robes", "Empyrean Winguard", "Airblade Paragon O", "Exemplary Airblade Paragon O", "Airblade Paragon D", "Exemplary Airblade Paragon D", "Symbol Breaker Disc: Air", "Tempora's Echo"]
+Used for making: ["Tempora Raxorium", "Flow Conduit", "Sky Catalyst", "Windshear Crescent", "Cloak of Roaming Winds", "Gale Force Battlegear", "Tempest Evoker's Robes", "Empyrean Winguard", "Airblade Paragon O", "Exemplary Airblade Paragon O", "Airblade Paragon D", "Exemplary Airblade Paragon D", "Symbol Breaker Disc: Air", "Tempora's Echo"]
 ---
 Id 144: Fallen Star
 Desc: A chunk of rock that fell from the sky at breakneck speed, its true origins are confusing scholars. Useful in alchemy.
