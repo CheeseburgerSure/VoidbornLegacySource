@@ -18,6 +18,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "", "+2500"]]
+Brewing effects: [Flavour, [["Heal: 20"], ["Potency: +1"]]]
 Ingredients: [["Red Pearl Orchid", 2], ["Stalwort", 4], ["Bat Wings", 3], ["Juggernaut Leaf", 2], ["Slime Remedy", 1]]
 Purchasable from: ["FortCharlie", "TalburyMysticShop", "IfradShop", "Anvil'sMarketInterior", "DauvillierShop", "Witch Hut", "StremleyShop", "SlumberwoodShop"]
 ---
@@ -53,6 +54,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover MP: ", "", "+200"]]
+Brewing effects: [Flavour, [["Restore: 15"], ["Potency: +1.5"]]]
 Ingredients: [["Milk", 2], ["Blue-Blood Cherries", 3], ["Spirit Essence", 2], ["Revel Weed", 3], ["Yellow Fang", 1]]
 Dropped By: [["Stallion of Plague", "8%"], ["Stallion of War", "8%"], ["Stallion of Famine", "8%"], ["Stallion of Death", "8%"]]
 Purchasable from: ["FortCharlie", "TalburyMysticShop", "Anvil'sMarketInterior", "DauvillierShop", "Witch Hut", "StremleyShop", "SlumberwoodShop"]
@@ -66,6 +68,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Remove State: ", "Poison", "100%"]]
+Brewing effects: [Flavour, [["Treat: Poison"], ["Treat: Plagued"], ["Potency: +2"]]]
 Ingredients: [["Bei Root", 2], ["Hornet Venom", 1]]
 Purchasable from: ["FortCharlie", "EmwoodShop", "TalburyMarket", "PeregrineMarket/Shipyard", "Anvil'sMarketInterior", "Caravan park", "SlumberwoodShop"]
 ---
@@ -77,6 +80,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Remove State: ", "Silence", "100%"], ["Remove State: ", "Confusion", "100%"], ["Remove State: ", "Paralysis", "100%"], ["Remove State: ", "Stun", "100%"]]
+Brewing effects: [Flavour, [["Treat: Silence"], ["Treat: Stun"], ["Potency: -0.5"]]]
 Dropped By: [["Ravenous Mawchid", "8%"], ["Dreadstinger Hornet Swarm", "8%"]]
 Purchasable from: ["FortCharlie", "TalburyMarket", "Anvil'sMarketInterior", "Witch Hut", "Caravan park"]
 Used for making: ["Ancient Sage's Water"]
@@ -175,6 +179,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "5%", ""], ["Remove State: ", "Headache", "100%"]]
+Brewing effects: [Flavour, [["Heal: 10"], ["Potency: +0"]]]
 Dropped By: [["Roots of Evil", "11%"], ["Throttleroot", "13%"]]
 Purchasable from: ["EmwoodTavern", "EmwoodShop", "TalburyMarket", "Anvil'sMarketInterior", "DauvillierShop", "Caravan park", "StremleyShop"]
 Used for making: ["Potion", "Enhanced Potion", "Ultimate Potion", "Slime Remedy", "Nature's Behest"]
@@ -187,6 +192,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "3%", "+100"]]
+Brewing effects: [Base, [["Potency: +0"]]]
 Purchasable from: ["EmwoodTavern", "TalburyOuterInn", "TalburyTavern", "TheDivingFalconF1", "PeregrineMarket/Shipyard", "StremleyInnPub", "StremleyShop", "DauvillierOldGarrison"]
 Used for making: ["Soul Vigour Vial"]
 ---
@@ -198,6 +204,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Only in Battle
 Effects and Traits: [["Add Buff: ", "DEF", "200 turns"], ["Recover HP: ", "5%", "+75"]]
+Brewing effects: [Flavour, [["Buff: DEF"], ["Buff: MDF"], ["Potency: -1"]]]
 Purchasable from: ["EmwoodTavern", "PeregrInn", "TalburyOuterInn", "TalburyTavern", "TalburyMarket", "TheDivingFalconF1", "IfradShop", "FortBarry", "Caravan park", "StremleyInnPub", "StremleyShop", "SlumberwoodShop", "Pub/BreweryGF"]
 Used for making: ["Magic Water", "Sage's Water", "Ancient Sage's Water"]
 ---
@@ -209,6 +216,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "", "+25"]]
+Brewing effects: [Flavour, [["Heal: 2"], ["Potency: +0.5"]]]
 Purchasable from: ["FortCharlie", "EmwoodShop", "PeregrInn", "TalburyMarket", "PeregrineMarket/Shipyard", "Anvil'sMarketInterior", "FortBarry", "StremleyInnPub", "StremleyShop", "SlumberwoodShop", "Pub/BreweryGF", "Pub/BreweryStage", "DauvillierOldGarrison"]
 ---
 Id 21: Bread
@@ -228,6 +236,7 @@ Price: 1500G
 Consume: Yes
 Scope: One Ally
 Occasion: Only in Battle
+Brewing effects: [Flavour, [["PR: 25"], ["Potency: +3.5"]]]
 ---
 Id 23: Slice of Bread
 Desc: A slice of baked bread. Recovers some HP.
@@ -255,6 +264,7 @@ Price: 50G
 Consume: No
 Scope: None
 Occasion: Never
+Brewing effects: [Potent, [["Potency: +1.5"]]]
 Dropped By: [["Wisp", "8%"], ["Weeping Wisp", "8%"], ["Guardian Spirit", "13%"], ["Volwrath", "100%"], ["Wailing Wisp", "8%"], ["Burning Spirit", "8%"], ["Forest Custodian", "13%"], ["Steward of the Mantle", "14%"]]
 Purchasable from: ["PeregrineSecretShop"]
 Used for making: ["Sage's Water", "Elixir", "Ancient Sage's Water", "Flame Catalyst", "Icicle Catalyst", "Tempest Catalyst", "Ocean Catalyst", "Mountain Catalyst", "Sky Catalyst", "Astral Catalyst", "Night Catalyst", "Forest Catalyst", "Spectre's Regret", "Soulspite Longbow", "Whisperweave Vestment", "Shimmerveil Shroud"]
@@ -266,6 +276,7 @@ Price: 16G
 Consume: No
 Scope: None
 Occasion: Never
+Brewing effects: [Flavour, [["PR: 10"], ["Potency: -1.5"]]]
 Dropped By: [["Blue Slime", "17%"], ["Green Slime", "20%"], ["Purple Slime", "17%"], ["Pink Slime", "20%"], ["Black Pus", "33%"], ["Sickening Ooze", "50%"]]
 Purchasable from: ["TalburyMarket", "Anvil'sMarketInterior"]
 Used for making: ["Slime Remedy"]
@@ -288,7 +299,7 @@ Price: 16G
 Consume: No
 Scope: None
 Occasion: Never
-Dropped By: [["Spider", "13%"], ["Thunder Spider", "11%"]]
+Dropped By: [["Spider", "13%"], ["White Widow", "33%"], ["Thunder Spider", "11%"]]
 Purchasable from: ["TalburyMarket", "Anvil'sMarketInterior"]
 Used for making: ["Cotton", "Whisperweave Vestment"]
 ---
@@ -300,6 +311,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Add State: ", "Poison", "100%"]]
+Brewing effects: [Potent, [["Potency: -1.5"]]]
 Dropped By: [["Hornet", "14%"], ["Mad Hornet", "14%"], ["Hornet Swarm", "25%"], ["Mad Hornet Swarm", "33%"], ["Dreadstinger Hornet Swarm", "100%"]]
 Purchasable from: ["TalburyMarket"]
 Used for making: ["Antidote", "Snake's Vengeance", "Hornet's Wrath", "Poison-tipped Arrows"]
@@ -411,6 +423,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Remove State: ", "Burn", "100%"], ["Recover HP: ", "5%", ""]]
+Brewing effects: [Flavour, [["Heal: 8"], ["Treat: Burn"], ["Potency: -0.5"]]]
 Ingredients: [["Slimedrop", 4], ["Bei Root", 1], ["Stalwort", 1]]
 Purchasable from: ["FortCharlie", "PeregrineMarket/Shipyard", "Woman'sHouse", "StremleyShop"]
 Used for making: ["Enhanced Potion", "Ultimate Potion"]
@@ -423,6 +436,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "3%", ""]]
+Brewing effects: [Base, [["Potency: +1.5"]]]
 Purchasable from: ["FortCharlie", "EmwoodTavern", "TalburyOuterInn", "PeregrineShop", "TalburyTavern", "TalburyShop", "TheDivingFalconF1", "PeregrineMarket/Shipyard", "FlowemShop", "Anvil'sMarketInterior", "MarrarockShop", "DauvillierShop", "FortBarry", "Caravan park", "StremleyInnPub", "StremleyShop", "Pub/BreweryGF", "Pub/BreweryStage", "DauvillierOldGarrison"]
 Used for making: ["Blazing Beverage"]
 ---
@@ -453,6 +467,7 @@ Price: 13G
 Consume: No
 Scope: None
 Occasion: Never
+Brewing effects: [Potent, [["Potency: +0.5"]]]
 Dropped By: [["Roots of Evil", "14%"], ["Throttleroot", "17%"]]
 Purchasable from: ["FortCharlie", "TalburyMarket", "PeregrineMarket/Shipyard", "Anvil'sMarketInterior", "Caravan park", "StremleyShop"]
 Used for making: ["Antidote", "Slime Remedy", "Apaslea", "Nature's Behest", "Gnarled Smasher", "Root Boots"]
@@ -465,6 +480,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Add State: ", "Lucky Charm", "100%"]]
+Brewing effects: [Flavour, [["Apply: Lucky Charm"], ["Potency: +0"]]]
 Purchasable from: ["TalburyMarket", "Anvil'sMarketInterior", "StremleyShop"]
 Used for making: ["Verdant Leafshroud"]
 ---
@@ -475,6 +491,7 @@ Price: 37G
 Consume: No
 Scope: None
 Occasion: Never
+Brewing effects: [Flavour, [["Treat: Fear"], ["Potency: +1.5"]]]
 Dropped By: [["Man-Eating Plant", "13%"], ["Blooming Hunger", "14%"]]
 Purchasable from: ["FortCharlie", "Anvil'sMarketInterior"]
 Used for making: ["Magic Water", "Sage's Water", "Ancient Sage's Water", "Apaslea", "Bat's Sight"]
@@ -486,6 +503,7 @@ Price: 45G
 Consume: No
 Scope: None
 Occasion: Never
+Brewing effects: [Flavour, [["Heal: 5"], ["Potency: +0.5"]]]
 Purchasable from: ["Anvil'sMarketInterior", "DauvillierShop", "Caravan park", "StremleyShop", "SlumberwoodShop"]
 Used for making: ["Potion", "Enhanced Potion", "Ultimate Potion", "Deciduous Mantle"]
 ---
@@ -496,6 +514,7 @@ Price: 38G
 Consume: No
 Scope: None
 Occasion: Never
+Brewing effects: [Potent, [["Potency: +1"]]]
 Purchasable from: ["TalburyMarket", "FlowemShop", "FortBarry", "Caravan park"]
 Used for making: ["Nature's Behest", "Deciduous Mantle"]
 ---
@@ -506,6 +525,7 @@ Price: 55G
 Consume: No
 Scope: None
 Occasion: Never
+Brewing effects: [Flavour, [["Buff: DEF"], ["Buff: DEF"], ["Potency: -1.5"]]]
 Purchasable from: ["PeregrineMarket/Shipyard", "Anvil'sMarketInterior", "Caravan park", "SlumberwoodShop"]
 Used for making: ["Enhanced Potion", "Ultimate Potion", "Root Boots", "Deciduous Mantle", "Verdant Leafshroud"]
 ---
@@ -516,6 +536,7 @@ Price: 26G
 Consume: No
 Scope: None
 Occasion: Never
+Brewing effects: [Flavour, [["PR: 5"], ["Potency: +0.5"]]]
 Purchasable from: ["FortCharlie", "TalburyMarket", "Anvil'sMarketInterior", "Caravan park", "StremleyInnPub", "StremleyShop", "SlumberwoodShop"]
 Used for making: ["Sage's Water", "Apaslea", "Snake's Vengeance", "Deciduous Mantle"]
 ---
@@ -526,6 +547,7 @@ Price: 68G
 Consume: No
 Scope: None
 Occasion: Never
+Brewing effects: [Flavour, [["Restore: 3"], ["Potency: +0.5"]]]
 Purchasable from: ["Anvil'sMarketInterior", "StremleyShop"]
 Used for making: ["Ultimate Potion", "Magic Water", "Sage's Water", "Ancient Sage's Water"]
 ---
@@ -537,6 +559,7 @@ Consume: Yes
 Scope: The User
 Occasion: Only in Battle
 Effects and Traits: [["Add State: ", "Provoke", "100%"]]
+Brewing effects: [Flavour, [["Apply: Provoke"], ["Potency: +2.5"]]]
 Purchasable from: ["TalburyMarket", "Anvil'sMarketInterior", "Caravan park", "SlumberwoodShop"]
 Used for making: ["Fish Oil Cream", "Apaslea"]
 ---
@@ -567,6 +590,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "2%", "+50"]]
+Brewing effects: [Potent, [["Potency: -1"]]]
 Purchasable from: ["PeregrineShop", "TalburyRiverside", "PeregrineSailorsStop", "TheDivingFalconF1", "PeregrineMarket/Shipyard", "DauvillierOldGarrison"]
 ---
 Id 57: Mountain Perch
@@ -670,6 +694,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "", "+5"]]
+Brewing effects: [Flavour, [["Heal: 1"], ["Potency: +0.5"]]]
 Purchasable from: ["TalburyMarket", "TheDivingFalconF1", "StremleyInnPub", "StremleyShop", "Pub/BreweryGF", "Pub/BreweryStage"]
 ---
 Id 68: Wing Pin
@@ -697,7 +722,7 @@ Scope: None
 Occasion: Never
 Ingredients: [["Cotton", 2]]
 Purchasable from: ["TalburyMarket", "PeregrineSailorsStop"]
-Used for making: ["Bandages", "Hard Leather", "Bandana", "Silk Cloak", "Elemental Cloak", "Whisperweave Vestment", "Workman's Gloves", "Ascerothan Uniform"]
+Used for making: ["Bandages", "Hard Leather", "Bandana", "Silk Cloak", "Elemental Cloak", "Workman's Gloves", "Ascerothan Uniform"]
 ---
 Id 71: Cotton
 Desc: Cotton wool, often used in insulation and padding. Useful in Alchemy.
@@ -750,6 +775,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Add State: ", "Hallucinating", "100%"]]
+Brewing effects: [Flavour, [["Treat: Hallucinating"], ["Treat: Hopeless"], ["Potency: +3"]]]
 Dropped By: [["Forest Custodian", "7%"], ["Stallion of Famine", "7%"]]
 Purchasable from: ["PeregrineSecretShop"]
 Used for making: ["Elixir", "Avaking Raxorium", "Ancient Sage's Water", "Soul Vigour Vial", "Prophet's Omen", "Spectre's Regret", "Chaos Doomplate", "Mind-Control Brace", "Avaking's Benevolence", "Consciousness Manipulator"]
@@ -919,6 +945,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "50%", ""], ["Gain PR: ", "1000%"]]
+Brewing effects: [Flavour, [["Heal: 50"], ["PR: 10"], ["Potency: +4.5"]]]
 Dropped By: [["Ravenous Mawchid", "9%"], ["Botyranny", "10%"]]
 ---
 Id 93: Snake Fang
@@ -972,6 +999,7 @@ Consume: Yes
 Scope: The User
 Occasion: Only from the Menu
 Effects and Traits: [["Add State: ", "Monster Repellant", "100%"]]
+Brewing effects: [Flavour, [["Apply: Monster Repellant"], ["Potency: -3"]]]
 Purchasable from: ["TalburyMarket", "FlowemShop", "MarrarockShop"]
 ---
 Id 99: Flare Feather
@@ -982,6 +1010,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover MP: ", "10%", ""], ["Gain PR: ", "1000%"]]
+Brewing effects: [Flavour, [["PR: 12"], ["Restore: 6"], ["Potency: -2.5"]]]
 Dropped By: [["Garuda", "9%"]]
 Purchasable from: ["StremleyShop"]
 Used for making: ["Soul Vigour Vial", "Cloak of Roaming Winds", "Radiant Sentinel"]
@@ -1019,6 +1048,7 @@ Price: 5G
 Consume: No
 Scope: None
 Occasion: Never
+Brewing effects: [Potent, [["Potency: -2"]]]
 Dropped By: [["Man-o'-Storms", "17%"]]
 Purchasable from: ["PeregrineShop", "PeregrineSailorsStop", "DauvillierShop"]
 Used for making: ["Trident", "Floodgate Shield"]
@@ -1041,6 +1071,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
+Brewing effects: [Base, [["Potency: +1"]]]
 ---
 Id 106: Sausage Roll
 Desc: Greg's specialty. Recovers some HP.
@@ -1090,6 +1121,7 @@ Price: 600G
 Consume: No
 Scope: None
 Occasion: Never
+Brewing effects: [Flavour, [["Treat: Savage"], ["Potency: -2"]]]
 Purchasable from: ["PeregrineSecretShop"]
 Used for making: ["Soul Vigour Vial", "Blessed Abjugation", "Whisperweave Vestment", "Shimmerveil Shroud"]
 ---
@@ -1100,6 +1132,7 @@ Price: 10000G
 Consume: Yes
 Scope: None
 Occasion: Only from the Menu
+Brewing effects: [Flavour, [["Level: 1"], ["Potency: -4"]]]
 Ingredients: [["Bottled Song", 2], ["Ghostfruit", 2], ["Ancient Sage's Water", 3], ["Flare Feather", 1], ["Apple Juice", 1]]
 Dropped By: [["Stygian Ichor", "5%"]]
 Used for making: ["Energy of Avaking", "Scourge of Maelsium", "Fury of Tempora", "Wake of Elazireth", "Blaze of Infermius", "Might of Zysargia", "Radiance of Justicium", "Zysargia's Ward", "Tempora's Echo", "Maelsium's Reckoning", "Justicium's Blessing", "Infermius' Pyre", "Avaking's Benevolence", "Elazireth's Current"]
@@ -1112,6 +1145,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "1%", ""]]
+Brewing effects: [Flavour, [["Treat: Sleep"], ["Apply: Sleepless"], ["Potency: +0.5"]]]
 Purchasable from: ["TalburyMarket", "FlowemShop"]
 Used for making: ["Tea"]
 ---
@@ -1123,6 +1157,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "5%", "+150"], ["Remove State: ", "Sleep", "100%"]]
+Brewing effects: [Base, [["Potency: +0.5"]]]
 Ingredients: [["Tea Leaves", 2], ["Fresh Water", 1]]
 Purchasable from: ["PeregrInn", "TheDivingFalconF1", "Pub/BreweryGF", "DauvillierOldGarrison"]
 ---
@@ -1134,6 +1169,7 @@ Consume: Yes
 Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Recover HP: ", "", "+5"]]
+Brewing effects: [Base, [["Potency: -2"]]]
 Purchasable from: ["EmwoodTavern", "PeregrInn", "TalburyOuterInn", "TalburyShop", "TalburyMarket", "TheDivingFalconF1", "PeregrineMarket/Shipyard", "FlowemShop", "IfradPub", "Anvil'sMarketInterior", "MarrarockShop", "MarrarockPub", "SlumberwoodShop", "Pub/BreweryGF", "Pub/BreweryStage", "DauvillierOldGarrison"]
 Used for making: ["Tea", "Tsunami Ward"]
 ---
@@ -1145,9 +1181,10 @@ Consume: Yes
 Scope: One Ally
 Occasion: Only in Battle
 Effects and Traits: [["Remove State: ", "Freezing", "100%"]]
+Brewing effects: [Flavour, [["Treat: Freezing"], ["Potency: +2.5"]]]
 Ingredients: [["Magic Water", 1], ["Mead", 1], ["Scorchlog", 1]]
 Purchasable from: ["TheDivingFalconF1", "Anvil'sMarketInterior", "Pub/BreweryGF", "Pub/BreweryStage"]
-Used for making: ["Smouldering Lavamail"]
+Used for making: ["Ardent Raptor", "Smouldering Lavamail"]
 ---
 Id 117: Scorchlog
 Desc: \}The rare scorchlog burns very easily, even when wet, and so is the preferable material to make firewood out of. Useful in Alchemy.
@@ -1265,7 +1302,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Burning Spirit", "7%"], ["Cerberus", "100%"]]
-Used for making: ["Infermius Raxorium", "Flow Conduit", "Flame Catalyst", "Ice Bane", "Obsidian Inferno Sword", "Magma Maul", "Smouldering Lavamail", "Igneous Bulwark", "Hellfire Paragon O", "Exemplary Hellfire Paragon O", "Hellfire Paragon D", "Exemplary Hellfire Paragon D", "Symbol Breaker Disc: Fire", "Infermius' Pyre", "Raiment of the Sunborn"]
+Used for making: ["Infermius Raxorium", "Flow Conduit", "Flame Catalyst", "Ice Bane", "Obsidian Inferno Sword", "Magma Maul", "Ardent Raptor", "Smouldering Lavamail", "Igneous Bulwark", "Hellfire Paragon O", "Exemplary Hellfire Paragon O", "Hellfire Paragon D", "Exemplary Hellfire Paragon D", "Symbol Breaker Disc: Fire", "Infermius' Pyre", "Raiment of the Sunborn"]
 ---
 Id 129: Dylorien
 Desc: A flower said to be so inconceivably rare that there is only 1 plant in Adremesis that blooms with it. Useful in alchemy.
@@ -1274,6 +1311,7 @@ Price: 500G
 Consume: No
 Scope: None
 Occasion: Never
+Brewing effects: [Flavour, [["Level: 0.5"], ["Potency: -3"]]]
 Dropped By: [["Blooming Hunger", "7%"], ["Botyranny", "7%"], ["Zysargia", "100%"], ["Manticore", "100%"]]
 Used for making: ["Zysargia Raxorium", "Flow Conduit", "Forest Catalyst", "Nature's Behest", "Gnarled Smasher", "Oaken Vanguard", "Deciduous Mantle", "Verdant Leafshroud", "Woodhammer Paragon O", "Exemplary Woodhammer Paragon O", "Woodhammer Paragon D", "Exemplary Woodhammer Paragon D", "Symbol Breaker Disc: Nature", "Zysargia's Ward"]
 ---
@@ -1302,6 +1340,7 @@ Price: 48G
 Consume: No
 Scope: None
 Occasion: Never
+Brewing effects: [Flavour, [["Treat: Burn"], ["Potency: -1.5"]]]
 Dropped By: [["Titan of Black Ice", "8%"]]
 Purchasable from: ["Anvil'sMarketInterior"]
 Used for making: ["Hypersteel", "Frosted Scale Mail", "Aurora Cloak"]
@@ -1368,6 +1407,7 @@ Price: 500G
 Consume: No
 Scope: None
 Occasion: Never
+Brewing effects: [Potent, [["Potency: +3.5"]]]
 Dropped By: [["Sahagin", "7%"], ["Torrential Behemoth", "100%"]]
 Used for making: ["Elazireth Raxorium", "Flow Conduit", "Blessed Abjugation", "Ocean Catalyst", "Tsunami Ward", "Oceanic Master's Aegis", "Torrential Vanguard", "Tsunami Paragon O", "Exemplary Tsunami Paragon O", "Tsunami Paragon D", "Exemplary Tsunami Paragon D", "Symbol Breaker Disc: Water", "Elazireth's Current"]
 ---
@@ -1398,6 +1438,7 @@ Price: 500G
 Consume: No
 Scope: None
 Occasion: Never
+Brewing effects: [Potent, [["Potency: -3.5"]]]
 Dropped By: [["Shadow Creature", "8%"], ["Shadow Wraith", "10%"], ["Maelstrom Cerberus", "100%"], ["Stallion of Plague", "7%"], ["Shadow Revenant", "13%"]]
 Used for making: ["Maelsium Raxorium", "Flow Conduit", "Night Catalyst", "Dread Scythe", "Harbinger of Sin", "Phantom Shadowmail", "Midnight Shroud", "Chaos Doomplate", "Blightsludge Husk", "Darkstrike Paragon O", "Exemplary Darkstrike Paragon O", "Darkstrike Paragon D", "Exemplary Darkstrike Paragon D", "Symbol Breaker Disc: Dark", "Maelsium's Reckoning"]
 ---
@@ -1428,6 +1469,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
+Brewing effects: [Flavour, [["PR: 50"], ["Apply: Void Scar"], ["Potency: +5"]]]
 Dropped By: [["Void Marshal", "25%"], ["Void Wraith", "25%"], ["Void Leviathan", "33%"], ["Void Eldritch Devourer", "100%"], ["Void Eldritch Devourer", "50%"], ["Void Weaver", "100%"], ["Void Weaver", "100%"]]
 Used for making: ["Contaminated Conduit", "Voidgloom Reaper", "Voidfang Piercer", "Void's Eclipse", "Void Weaver's Loom", "Void-Wreathed Carapace", "Void-Wreathed Cloak", "Abyssal Voidguard", "Grasp of the Void", "Void Mistward", "Void-Breather's Cage", "Void Steppers", "Voidsoul Paragon"]
 ---
@@ -1448,6 +1490,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
+Brewing effects: [Base, [["Potency: +2"]]]
 ---
 Id 148: Elemental Escapades
 Desc: A book written by the Ancient Sage Gabriel about alchemising with the elements.
@@ -1527,6 +1570,7 @@ Price: 320G
 Consume: No
 Scope: None
 Occasion: Never
+Brewing effects: [Flavour, [["Apply: Hallucinating"], ["Potency: -3.5"]]]
 Dropped By: [["Gazer", "8%"], ["Shadow Collossus", "100%"], ["Black Pus", "7%"], ["Sickening Ooze", "8%"], ["Stygian Ichor", "13%"]]
 Used for making: ["Harbinger of Sin", "Phantom Shadowmail", "Midnight Shroud", "Chaos Doomplate", "Blightsludge Husk"]
 ---

@@ -103,6 +103,20 @@ Gold: 69
 Loot: [["Snake Fang", "10%"]]
 Findable in: ["Northern Featherlands"]
 ---
+Id 8: White Widow
+Description: A luminous spider accustomed to the depths of Monastery Memoriam. They will gladly approach unwelcome guests with intent to feed, so beware their potent venom.
+HP: 8000
+MP: 300
+Attack: 146
+Defence: 110
+Magical Attack: 117
+Magical Defence: 98
+Agility: 180
+Luck: 130
+Experience: 826
+Gold: 918
+Loot: [["Spider Silk", "33%"], ["Hermit Robe", "13%"]]
+---
 Id 9: Weeping Wisp
 Description: With the tragic fall of Asceroth, thousands of people lost their homes - or even their lives. Most of their souls never truly found peace.
 HP: 2400
@@ -798,7 +812,7 @@ Agility: 300
 Luck: 115
 Experience: 5000
 Gold: 6000
-Loot: [["Edge of the Damned", "100%"], ["Gauntlet of the Accursed", "100%"]]
+Loot: [["Edge of the Damned", "50%"], ["Gauntlet of the Accursed", "50%"]]
 Findable in: ["DarkBeneath8a"]
 ---
 Id 71: Roots of Evil
@@ -1192,7 +1206,7 @@ Agility: 500
 Luck: 155
 Experience: 6500
 Gold: 5500
-Loot: [["Vilebrand Fauchard", "50%"], ["Sanguine Oath", "50%"]]
+Loot: [["Vilebrand Fauchard", "33%"], ["Sanguine Oath", "33%"]]
 Findable in: ["DarkBeneath9"]
 ---
 Id 109: Bouldergeist
@@ -1416,11 +1430,11 @@ Description: These bottom-feeders devour corpses that fall on them until there's
 HP: 7600
 MP: 200
 Attack: 280
-Defence: 152
-Magical Attack: 92
+Defence: 142
+Magical Attack: 82
 Magical Defence: 78
 Agility: 140
-Luck: 165
+Luck: 125
 Experience: 785
 Gold: 868
 Loot: [["Shark Tooth", "10%"], ["Coral Brief", "7%"]]

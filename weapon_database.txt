@@ -1,5 +1,5 @@
 Id 1: Hand Axe
-Desc: Small axe used for harvesting wood.  Axes are high power, but heavy and inaccurate.
+Desc: Small axe used for harvesting wood. Axes have high power, but heavy and inaccurate.
 Type: Axe
 Price: 100
 HP: 0
@@ -109,7 +109,7 @@ Purchasable from: ["SlumberwoodSmith"]
 Used for making: ["Prophet's Omen"]
 ---
 Id 8: Windshear Crescent
-Desc: A scythe that whirls up a current of air the more it's used, cumulatively increasing your CRI until one lands.
+Desc: A scythe that whirls up a current of air as it's used, cumulatively gaining CRI until one lands.
 Type: Scythe
 Price: 12000
 HP: 0
@@ -121,21 +121,21 @@ Magical Defence: 0
 Agility: 0
 Luck: 30
 Features and Traits: [["Atk Element: ", "Air"], ["ExParam: ", "HIT", "3%"], ["ExParam: ", "CRI", "3%"], ["Attack Skill:", "Scythe Attack"]]
-Ingredients: [["Hypersteel Halberd", 1], ["Heavy Feather", 2], ["Silver Ore", 2], ["Wind's Wing", 2]]
+Ingredients: [["Hypersteel Scythe", 1], ["Heavy Feather", 2], ["Wind's Wing", 1], ["Silver Ore", 2]]
 ---
 Id 9: Boomerang Axe
-Desc: An axe that has the magical ability to return to it's owner when thrown.
+Desc: An axe that has the magical ability to return to it's owner when thrown. Increased CRI.
 Type: Axe
-Price: 11500
+Price: 9500
 HP: 0
 MP: 0
-Attack: 82
+Attack: 87
 Defence: 0
 Magical Attack: 0
 Magical Defence: 0
 Agility: 5
-Luck: 5
-Features and Traits: [["ExParam: ", "CRI", "2%"]]
+Luck: 10
+Features and Traits: [["ExParam: ", "CRI", "2%"], ["ExParam: ", "HIT", "-8%"]]
 Purchasable from: ["TalburyMysticShop", "DauvillierBlacksmith"]
 ---
 Id 10: Heatseeking Bow
@@ -231,7 +231,6 @@ Luck: 0
 Features and Traits: [["Attack Skill:", "Spear Attack"]]
 Dropped By: [["Stallion of War", "7%"]]
 Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
-Used for making: ["Windshear Crescent"]
 ---
 Id 17: Holy Lance
 Desc: A spear blessed by the Supreme Templar.
@@ -264,7 +263,7 @@ Features and Traits: [["Attack Skill:", "Spear Attack"]]
 Purchasable from: ["Bill'sBlacksmith"]
 ---
 Id 19: Short Sword
-Desc: Light and easy-to-use short sword.
+Desc: Light and easy-to-use short sword. Swords are balanced with no inherent upside or downside.
 Type: Sword
 Price: 100
 HP: 0
@@ -356,7 +355,7 @@ Luck: 0
 Dropped By: [["Ivy", "25%"]]
 ---
 Id 26: Sickle
-Desc: A small sickle used for clearing tall grass. Scythes can hit multiple enemies at once.
+Desc: A small sickle used for clearing tall grass. Scythes can attack two enemies at once.
 Type: Scythe
 Price: 100
 HP: 0
@@ -368,10 +367,10 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Attack Skill:", "Scythe Attack"]]
-Purchasable from: ["PeregrineBlacksmiths"]
+Purchasable from: ["EmwoodShop", "TalburyShop", "PeregrineBlacksmiths"]
 ---
 Id 27: Field Scythe
-Desc: A general purpose scythe used for clearing all kinds of grass and crops.
+Desc: A general purpose scythe used for clearing all kinds of grass and crops. Scythes can hit multiple enemies at once.
 Type: Scythe
 Price: 500
 HP: 0
@@ -415,7 +414,7 @@ Luck: 0
 Features and Traits: [["Attack Skill:", "Scythe Attack"]]
 Dropped By: [["Ivy", "25%"]]
 Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
-Used for making: ["Dread Scythe", "Scythe of Hoarfrost"]
+Used for making: ["Windshear Crescent", "Dread Scythe", "Scythe of Hoarfrost"]
 ---
 Id 30: Dread Scythe
 Desc: A horrifying scythe utilised to intimidate the enemy before engaging them. Can inflict Fear.
@@ -434,7 +433,7 @@ Ingredients: [["Hypersteel Scythe", 1], ["Stygian Scythe", 1], ["Lightless Lante
 Used for making: ["Scourge of Maelsium", "Voidgloom Reaper"]
 ---
 Id 31: Shortbow
-Desc: \}A shortbow made for light use, mostly for recreation. Bows restrict use of a shield for increase AtkSpeed and CRI.
+Desc: A shortbow made for light use, mostly for recreation. Bows give you AtkSpeed and CRI at the cost of a shield.
 Type: Bow
 Price: 100
 HP: 0
@@ -462,7 +461,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["Seal Equip: ", "Shield"], ["Atk Speed: ", 3], ["ExParam: ", "HIT", "-2%"]]
+Features and Traits: [["Seal Equip: ", "Shield"], ["Atk Speed: ", 3]]
 Purchasable from: ["TalburyMarket", "IfradShop", "Anvil'sMarketInterior"]
 ---
 Id 33: Recurve Bow
@@ -509,7 +508,7 @@ Agility: 10
 Luck: 0
 Features and Traits: [["Seal Equip: ", "Shield"], ["ExParam: ", "CRI", "2%"], ["Atk Speed: ", 3]]
 Purchasable from: ["Bill'sBlacksmith"]
-Used for making: ["Soul Eviscerator"]
+Used for making: ["Soul Eviscerator", "Ardent Raptor"]
 ---
 Id 36: Artemis Bow
 Desc: A bow that bears the name of the Moon Goddess.
@@ -621,7 +620,7 @@ Dropped By: [["Sage of the Bones", "7%"]]
 Purchasable from: ["Bill'sBlacksmith"]
 ---
 Id 43: Mace
-Desc: A circular club with metal spikes. Hammers have hitgh power and can Stun, but slow you down during battle.
+Desc: A circular club with metal spikes. Hammers have high power and can Stun on every strike, but they slow you down.
 Type: Hammer
 Price: 100
 HP: 0
@@ -638,7 +637,7 @@ Purchasable from: ["PeregrineBlacksmiths"]
 Used for making: ["Skeleton's Noggin"]
 ---
 Id 44: Flail
-Desc: An iron ball dangling from a chain. Flails all give a chance to counterattack but have reduced HIT.
+Desc: An iron ball dangling from a chain. Flails all have a chance to counterattack but have reduced HIT.
 Type: Flail
 Price: 500
 HP: 0
@@ -649,7 +648,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["ExParam: ", "HIT", "-5%"], ["ExParam: ", "CNT", "4%"]]
+Features and Traits: [["ExParam: ", "HIT", "-3%"], ["ExParam: ", "CNT", "4%"]]
 Purchasable from: ["PeregrineBlacksmiths"]
 ---
 Id 45: War Hammer
@@ -697,7 +696,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["Atk Element: ", "Unique"], ["Atk State: ", "Stun", "8%"], ["Atk Speed: ", -3]]
+Features and Traits: [["Atk Element: ", "Unique"], ["Atk Speed: ", -3], ["Atk State: ", "Stun", "8%"]]
 Ingredients: [["War Hammer", 1], ["Iron Ore", 2], ["Tin Ore", 2], ["Fallen Star", 2]]
 Dropped By: [["Skeletal King", "7%"]]
 Used for making: ["Boulder Bludgeoner", "Hammer of Justice"]
@@ -719,7 +718,7 @@ Dropped By: [["Skeletal Lord", "6%"]]
 Purchasable from: ["Bill'sBlacksmith"]
 ---
 Id 49: Wood Staff
-Desc: Sturdy staff made of oak. Staffs give mostly MAT instead of ATK and give MRG.
+Desc: Sturdy staff made of oak. Staves give more MAT than ATK and some MRG.
 Type: Staff
 Price: 100
 HP: 0
@@ -782,7 +781,7 @@ Features and Traits: [["ExParam: ", "MRG", "2%"]]
 Purchasable from: ["Blacksmith&MiningShop"]
 ---
 Id 53: Spirit Staff
-Desc: A twisted cane made from an old tree of mistletoe.
+Desc: A cane made from an old tree of mistletoe.
 Type: Staff
 Price: 15000
 HP: 0
@@ -1029,7 +1028,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["SpParam: ", "PHA", "x2.0"], ["Atk Element: ", "Unique"], ["Atk Speed: ", -5], ["Atk State: ", "Stun", "3%"]]
+Features and Traits: [["SpParam: ", "PHA", "x2.0"], ["Atk Element: ", "Unique"], ["Atk Speed: ", -1], ["Atk State: ", "Stun", "7%"]]
 Purchasable from: ["TalburyMarket"]
 ---
 Id 70: The Candy Bane
@@ -1059,7 +1058,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["ExParam: ", "HIT", "-10%"], ["Atk Speed: ", -5], ["SpParam: ", "PHA", "x2.0"]]
+Features and Traits: [["ExParam: ", "HIT", "-10%"], ["SpParam: ", "PHA", "x2.0"]]
 Purchasable from: ["TalburyMarket"]
 ---
 Id 72: Honey Bow
@@ -1155,7 +1154,7 @@ Ingredients: [["Falcion", 1], ["Swordfish", 1], ["Conch Shell", 2], ["Shark Toot
 Purchasable from: ["DauvillierBlacksmith"]
 ---
 Id 78: Trident
-Desc: Tridents are the sea's true weapon. Can wash away foes with a swipe of it's prongs.
+Desc: Tridents are the sea's true weapon. Can wash away foes with a swipe of its prongs.
 Type: Spear
 Price: 1200
 HP: 0
@@ -1351,7 +1350,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Fire"], ["Atk State: ", "Burn", "5%"]]
 Purchasable from: ["PeregrinePortAlley"]
-Used for making: ["Obsidian Inferno Sword", "Eruption Robes"]
+Used for making: ["Obsidian Inferno Sword"]
 ---
 Id 91: Brisk Bow
 Desc: A bow that seems to fill its firer with fleet-footing, and its foes with falling face-first.
@@ -1405,7 +1404,7 @@ Type: Hammer
 Price: 5500
 HP: 0
 MP: 0
-Attack: 36
+Attack: 42
 Defence: 0
 Magical Attack: 0
 Magical Defence: 0
@@ -1489,7 +1488,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["Atk Element: ", "Unique"], ["Atk State: ", "Stun", "12%"], ["Atk Speed: ", -5]]
+Features and Traits: [["Atk Element: ", "Unique"], ["Atk State: ", "Stun", "12%"], ["Atk Speed: ", -4]]
 Ingredients: [["Iron Ore", 6], ["Rope", 2]]
 Purchasable from: ["PeregrineSailorsStop", "DauvillierBlacksmith"]
 ---
@@ -1506,24 +1505,8 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Dark"], ["State Rate: ", "Curse of the Doomed", "150%"], ["State Rate: ", "Curse of the Debilitated", "150%"], ["State Rate: ", "Curse of the Feeble", "150%"], ["State Rate: ", "Curse of the Laggard", "150%"], ["State Rate: ", "Curse of the Soulless", "150%"], ["Attack Skill:", "Vilebrand Fauchard Attack"]]
-Dropped By: [["Malignant Volwrath", "50%"]]
+Dropped By: [["Malignant Volwrath", "33%"]]
 Used for making: ["Scourge of Maelsium", "Precursor of Virtue", "Harbinger of Sin"]
----
-Id 101: Hammerburger
-Desc: Can I have a, uhhhh...cheeseburger?
-Cheeseburger? Sure! \}(Also increases PHA, by the way)
-Type: Hammer
-Price: 3800
-HP: 0
-MP: 0
-Attack: 23
-Defence: 0
-Magical Attack: 0
-Magical Defence: 0
-Agility: 0
-Luck: 0
-Features and Traits: [["Atk Element: ", "Unique"], ["Atk Speed: ", -5], ["Atk State: ", "Stun", "7%"], ["SpParam: ", "PHA", "x1.5"]]
-Purchasable from: ["Bill'sBlacksmith"]
 ---
 Id 102: Vezran's Sword
 Desc: A seldom used blade forged in a diabolous smithy. Sports an increased CRI.
@@ -1567,7 +1550,7 @@ Magical Attack: 12
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["Atk Element: ", "Ice"], ["Atk Element: ", "Unique"], ["Atk Speed: ", -5], ["Atk State: ", "Stun", "10%"], ["Atk State: ", "Freezing", "8%"]]
+Features and Traits: [["Atk Element: ", "Ice"], ["Atk Element: ", "Unique"], ["Atk Speed: ", -3], ["Atk State: ", "Stun", "10%"], ["Atk State: ", "Freezing", "8%"]]
 Ingredients: [["War Hammer", 1], ["Unmelting Ice", 1], ["Winter's Heart", 2]]
 Used for making: ["Wake of Elazireth"]
 ---
@@ -1577,7 +1560,7 @@ Type: Dagger
 Price: 6200
 HP: 0
 MP: 0
-Attack: 27
+Attack: 31
 Defence: 0
 Magical Attack: 0
 Magical Defence: 0
@@ -1689,7 +1672,7 @@ Type: Spear
 Price: 20000
 HP: 0
 MP: 0
-Attack: 85
+Attack: 95
 Defence: 0
 Magical Attack: 0
 Magical Defence: 0
@@ -1760,9 +1743,9 @@ Features and Traits: [["Atk Element: ", "Light"], ["ExParam: ", "MRG", "3%"]]
 Used for making: ["Fury of Tempora"]
 ---
 Id 117: Boulder Bludgeoner
-Desc: A hammer of impossible proportions that blow your foes into the next era.
+Desc: \}A hammer of impossible proportions that blow your foes into the next era. Extreme chance to Stun.
 Type: Hammer
-Price: 18000
+Price: 13000
 HP: 0
 MP: 0
 Attack: 80
@@ -1771,7 +1754,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["Atk Element: ", "Earth"], ["Atk Element: ", "Unique"], ["Atk State: ", "Stun", "13%"], ["Atk Speed: ", -5]]
+Features and Traits: [["Atk Element: ", "Earth"], ["Atk Element: ", "Unique"], ["Atk State: ", "Stun", "70%"], ["Atk Speed: ", -5]]
 Ingredients: [["Terrahammer", 1], ["Earthwarden's Mantle", 1], ["Fallen Star", 2], ["Iron Ore", 3]]
 Used for making: ["Might of Zysargia"]
 ---
@@ -1807,16 +1790,16 @@ Dropped By: [["Reaping Volwrath", "100%"], ["Bone Conjurer", "7%"]]
 Id 120: Magma Maul
 Desc: A mace made from encasing pure \fiactual\fr magma in a magic seal.
 Type: Hammer
-Price: 16000
+Price: 14000
 HP: 0
 MP: 0
-Attack: 64
+Attack: 84
 Defence: 0
 Magical Attack: 14
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["Atk State: ", "Stun", "10%"], ["Atk Element: ", "Unique"], ["Atk Element: ", "Fire"], ["Atk Speed: ", -5]]
+Features and Traits: [["Atk State: ", "Stun", "10%"], ["Atk Element: ", "Unique"], ["Atk Element: ", "Fire"], ["Atk Speed: ", -3]]
 Ingredients: [["Hypersteel Mace", 1], ["Crystalised Flame", 2], ["Sun Candle", 2]]
 ---
 Id 121: Jolly Scythe
@@ -1837,7 +1820,7 @@ Purchasable from: ["Bill'sBlacksmith", "SlumberwoodSmith"]
 Id 122: Sea-Splitting Axe
 Desc: A savage axe that can split not only your enemies, but also the very sea.
 Type: Axe
-Price: 5700
+Price: 6000
 HP: 0
 MP: 0
 Attack: 67
@@ -1852,16 +1835,16 @@ Purchasable from: ["DauvillierBlacksmith"]
 Id 123: Wise Man's Wallop
 Desc: A wallop so wise, it can take advantage of the best of situations for a cunning counterattack.
 Type: Hammer
-Price: 5500
+Price: 6000
 HP: 0
-MP: 1
-Attack: 36
+MP: 10
+Attack: 46
 Defence: 0
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["Atk State: ", "Stun", "10%"], ["Atk Speed: ", -5], ["ExParam: ", "CNT", "7%"]]
+Features and Traits: [["Atk State: ", "Stun", "9%"], ["Atk Speed: ", -2], ["ExParam: ", "CNT", "7%"]]
 Purchasable from: ["IfradShop", "DauvillierBlacksmith"]
 ---
 Id 124: Ifradian Sword
@@ -1921,7 +1904,7 @@ Magical Defence: 0
 Agility: 11
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "9%"], ["Can Dual Wield"], ["Atk State: ", "Curse of the Doomed", "5%"], ["Atk State: ", "Curse of the Debilitated", "5%"], ["Atk State: ", "Curse of the Feeble", "5%"], ["Atk State: ", "Curse of the Laggard", "5%"], ["Atk State: ", "Curse of the Soulless", "5%"]]
-Dropped By: [["Damned Volwrath", "100%"]]
+Dropped By: [["Damned Volwrath", "50%"]]
 ---
 Id 128: Soul Eviscerator
 Desc: \}This bow shreds the connection between body and soul, tearing at their mind as it does so. Can cause hopelessness or instantly kill.
@@ -1929,9 +1912,9 @@ Type: Bow
 Price: 26000
 HP: 0
 MP: 0
-Attack: 97
+Attack: 89
 Defence: 0
-Magical Attack: 21
+Magical Attack: 24
 Magical Defence: 0
 Agility: 15
 Luck: 0
@@ -1944,13 +1927,13 @@ Type: Hammer
 Price: 21500
 HP: 0
 MP: 0
-Attack: 97
+Attack: 112
 Defence: 0
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["Atk Element: ", "Light"], ["Atk State: ", "Stun", "14%"], ["Atk Element: ", "Unique"], ["Atk Speed: ", -5], ["ExParam: ", "HRG", "5%"]]
+Features and Traits: [["Atk Element: ", "Light"], ["Atk State: ", "Stun", "14%"], ["Atk Element: ", "Unique"], ["Atk Speed: ", -3], ["ExParam: ", "HRG", "5%"]]
 Ingredients: [["Terrahammer", 1], ["Life Up", 1], ["Omnium", 2], ["Lustred Sundial", 2], ["Blessed Abjugation", 1]]
 Used for making: ["Radiance of Justicium"]
 ---
@@ -2036,8 +2019,8 @@ Type: Hammer
 Price: 16000
 HP: 0
 MP: 50
-Attack: 0
-Defence: 78
+Attack: 87
+Defence: 0
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
@@ -2063,17 +2046,17 @@ Ingredients: [["Mace", 1], ["Skull", 5]]
 Id 137: Spectre's Regret
 Desc: A bardiche that is not entirely of this world. Can cause Fear.
 Type: Axe
-Price: 6000
+Price: 8000
 HP: 0
 MP: 0
-Attack: 49
+Attack: 69
 Defence: 0
-Magical Attack: 18
+Magical Attack: 23
 Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "HIT", "-3%"], ["Atk State: ", "Fear", "10%"]]
-Ingredients: [["Bardiche", 1], ["Spirit Essence", 3], ["Ghostfruit", 1]]
+Ingredients: [["Bardiche", 1], ["Spirit Essence", 3], ["Ghostfruit", 3]]
 Used for making: ["Energy of Avaking"]
 ---
 Id 138: Ironbark Blade
@@ -2238,6 +2221,7 @@ Magical Defence: 0
 Agility: 15
 Luck: 0
 Features and Traits: [["Atk Element: ", "Fire"], ["Atk State: ", "Burn", "15%"], ["Seal Equip: ", "Shield"], ["ExParam: ", "CRI", "3%"], ["Atk Speed: ", 3]]
+Ingredients: [["Ebony Bow", 1], ["Crystalised Flame", 2], ["Blazing Beverage", 3], ["Flare Arrows", 1], ["Hellfire Paragon O", 1]]
 Used for making: ["Blaze of Infermius", "Void's Eclipse"]
 ---
 Id 149: Gnarled Smasher

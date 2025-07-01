@@ -201,6 +201,7 @@ Magical Attack: 13
 Magical Defence: 14
 Agility: 0
 Luck: 0
+Dropped By: [["White Widow", "13%"]]
 Purchasable from: ["TalburyJewelers", "DauvillierShop", "DauvillierAntiqueShop"]
 Used for making: ["Whisperweave Vestment", "Verdant Leafshroud"]
 ---
@@ -217,7 +218,7 @@ Magical Defence: 52
 Agility: 0
 Luck: 0
 Ingredients: [["Runed Robe", 1], ["Magic Staff", 1], ["Flow Conduit", 1], ["Fabric", 2], ["Fur", 3]]
-Used for making: ["Solar Majesty's Regalia", "Storm Summoner's Garb", "Eruption Robes"]
+Used for making: ["Solar Majesty's Regalia", "Storm Summoner's Garb"]
 ---
 Id 16: Copper Brace
 Desc: Hair ornaments made of copper.
@@ -428,20 +429,18 @@ Luck: 0
 Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
 Used for making: ["Torrential Vanguard"]
 ---
-Id 30: Whisperweave Vestment
-Desc: \}Delicately spun from enchanted spider silk, this near-weightless armour enhances movement and dulls incoming blows. Increased EVA and PDR.
-Type: Magic Armour
-Price: 13000
+Id 30: Feather super hat
+Desc: 
+Type: Shield Attachments
+Price: 0
 HP: 0
 MP: 0
 Attack: 0
-Defence: 29
-Magical Attack: 36
-Magical Defence: 49
-Agility: 35
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
 Luck: 0
-Features and Traits: [["ExParam: ", "EVA", "7%"], ["State Resist: ", "Silence"], ["SpParam: ", "PDR", "x0.8"], ["State Resist: ", "Webbed"]]
-Ingredients: [["Hermit Robe", 1], ["Fabric", 2], ["Spider Silk", 4], ["Spirit Essence", 2], ["Bottled Song", 1]]
 ---
 Id 31: Iron Mail
 Desc: Armour made with iron chains.
@@ -506,20 +505,20 @@ Features and Traits: [["Atk Speed: ", -2]]
 Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
 Used for making: ["Chaos Doomplate", "Hallowed Battlegear", "Thundershock Stormguard", "Smouldering Lavamail", "Tectonic Platemail", "Gaiashell Carapace"]
 ---
-Id 35: Cloak of Roaming Winds
-Desc: \}Woven from feathers that remember motion, it constantly breathes life into its wearer and resists the stillness of captivity. Prevents AGI being lowered.
+Id 35: Whisperweave Vestment
+Desc: \}Delicately spun from enchanted spider silk, this near-weightless armour enhances movement and dulls incoming blows. Increases EVA and PDR.
 Type: Magic Armour
-Price: 10000
+Price: 11000
 HP: 0
 MP: 0
 Attack: 0
-Defence: 31
-Magical Attack: 26
-Magical Defence: 40
-Agility: 60
+Defence: 34
+Magical Attack: 30
+Magical Defence: 44
+Agility: 0
 Luck: 0
-Features and Traits: [["Debuff Rate: ", "AGI", "0%"], ["State Resist: ", "Freezing"], ["State Resist: ", "Headache"], ["State Resist: ", "Webbed"], ["State Resist: ", "Pinned Down"], ["State Resist: ", "Buttered"], ["State Resist: ", "Frostbite"], ["State Resist: ", "Oozed"], ["State Resist: ", "Dark Oozed"]]
-Ingredients: [["Runed Robe", 1], ["Feather of Renewal", 1], ["Wind's Wing", 1], ["Heavy Feather", 2], ["Flare Feather", 3]]
+Features and Traits: [["ExParam: ", "EVA", "7%"], ["State Resist: ", "Webbed"], ["SpParam: ", "PDR", "x0.8"]]
+Ingredients: [["Hermit Robe", 1], ["Spider Silk", 3], ["Spirit Essence", 2], ["Bottled Song", 1]]
 ---
 Id 36: Chain Coif
 Desc: A piece of armour made of iron chains that typically goes under helmets.
@@ -579,6 +578,23 @@ Agility: 0
 Luck: 0
 Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
 Used for making: ["Radiant Sentinel"]
+---
+Id 40: Cloak of Roaming Winds
+Desc: \}Woven from feathers that remember motion, it constantly breathes life into its wearer and resists the stillness of captivity.
+
+ Prevents AGI being reduced.
+Type: Magic Armour
+Price: 10000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 30
+Magical Attack: 25
+Magical Defence: 41
+Agility: 80
+Luck: 0
+Features and Traits: [["Debuff Rate: ", "AGI", "0%"], ["State Resist: ", "Freezing"], ["State Resist: ", "Headache"], ["State Resist: ", "Pinned Down"], ["State Resist: ", "Webbed"], ["State Resist: ", "Frostbite"], ["State Resist: ", "Oozed"], ["State Resist: ", "Dark Oozed"]]
+Ingredients: [["Runed Robe", 1], ["Heavy Feather", 2], ["Flare Feather", 2], ["Wind's Wing", 1], ["Feather of Renewal", 1]]
 ---
 Id 41: Buckler
 Desc: A small shield used to fend off attacks.
@@ -927,7 +943,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 8
 Luck: 0
-Features and Traits: [["ExParam: ", "EVA", "0%"], ["Element Rate: ", "Nature", "80%"], ["State Rate: ", "Sleep", "50%"]]
+Features and Traits: [["ExParam: ", "EVA", "0%"], ["Element Rate: ", "Nature", "80%"], ["State Rate: ", "Poison", "50%"]]
 Purchasable from: ["PeregrineShop", "TalburyCobbler", "PeregrinePortAlley", "Anvil'sMarketInterior"]
 Used for making: ["Root Boots"]
 ---
@@ -1849,6 +1865,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk State: ", "Burn", "10%"], ["Atk State: ", "Blind", "30%"]]
 Purchasable from: ["Anvil'sMarketInterior"]
+Used for making: ["Ardent Raptor"]
 ---
 Id 128: Swift Arrows
 Desc: \}Arrows that are unbelievably lightweight that allow for extremely fast shooting. Lands additional hits at the cost of slightly less damage.
@@ -2772,21 +2789,6 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Gain Skill: ", "Undead Immitator"]]
 ---
-Id 191: Eruption Robes
-Desc: Robes coated in a thin layer of soot and basalt dust. Gives Fire resistance.
-Type: Magic Armour
-Price: 9100
-HP: 0
-MP: 0
-Attack: 0
-Defence: 21
-Magical Attack: 14
-Magical Defence: 45
-Agility: 0
-Luck: 0
-Features and Traits: [["Element Rate: ", "Fire", "50%"]]
-Ingredients: [["Elemental Cloak", 1], ["Searing Scimitar", 1]]
----
 Id 192: Igneous Bulwark
 Desc: A helmet that'll keep your head warm. It also helps to repel Ice, but who cares about that when you have a warm head?
 Type: Light Armour
@@ -3087,7 +3089,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Parameter: ", "MHP", "50%"]]
-Dropped By: [["Damned Volwrath", "100%"]]
+Dropped By: [["Damned Volwrath", "50%"]]
 ---
 Id 212: Floral Crown
 Desc: A circlet made from everbloom which wards off magical attacks.
@@ -3961,7 +3963,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Fire"]]
 Ingredients: [["Rialite", 1], ["ATK Grit", 1], ["MAT Grit", 1], ["Crystalised Flame", 1]]
-Used for making: ["Exemplary Hellfire Paragon O"]
+Used for making: ["Ardent Raptor", "Exemplary Hellfire Paragon O"]
 ---
 Id 272: Exemplary Hellfire Paragon O
 Desc: A gemstone made by improving upon the previous Paragon. +20 ATK and MAT, also adds Fire as an attack element.
@@ -4769,7 +4771,7 @@ Price: 0
 HP: 0
 MP: 0
 Attack: 0
-Defence: 145
+Defence: 110
 Magical Attack: 0
 Magical Defence: 90
 Agility: 0
@@ -4786,7 +4788,7 @@ MP: 0
 Attack: 0
 Defence: 45
 Magical Attack: 30
-Magical Defence: 145
+Magical Defence: 125
 Agility: 0
 Luck: 0
 Features and Traits: [["SpParam: ", "TCR", "x2.0"]]
@@ -5088,7 +5090,7 @@ Magical Defence: 46
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "10%"], ["ExParam: ", "CEV", "6%"], ["Atk Speed: ", -2], ["Gain Skill: ", "Shield Charge"]]
-Dropped By: [["Malignant Volwrath", "50%"]]
+Dropped By: [["Malignant Volwrath", "33%"]]
 ---
 Id 351: Prismatic Morphguard
 Desc: \}A colourfully shining suit of armour. After receiving an elemental attack, you cumulatively gain 5% resistance to that element for the rest of combat. Caps at 50%.
@@ -5183,9 +5185,9 @@ Price: 18500
 HP: 0
 MP: 0
 Attack: 0
-Defence: 56
-Magical Attack: 40
-Magical Defence: 78
+Defence: 26
+Magical Attack: 20
+Magical Defence: 48
 Agility: 70
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "16%"], ["ExParam: ", "MEV", "5%"]]
