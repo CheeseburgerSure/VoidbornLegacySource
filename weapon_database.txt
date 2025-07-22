@@ -111,20 +111,20 @@ Used for making: ["Prophet's Omen"]
 Id 8: Windshear Crescent
 Desc: A scythe that whirls up a current of air as it's used, cumulatively gaining CRI until one lands.
 Type: Scythe
-Price: 12000
+Price: 14000
 HP: 0
 MP: 0
-Attack: 58
+Attack: 64
 Defence: 0
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
-Luck: 30
-Features and Traits: [["Atk Element: ", "Air"], ["ExParam: ", "HIT", "3%"], ["ExParam: ", "CRI", "3%"], ["Attack Skill:", "Scythe Attack"]]
-Ingredients: [["Hypersteel Scythe", 1], ["Heavy Feather", 2], ["Wind's Wing", 1], ["Silver Ore", 2]]
+Luck: 35
+Features and Traits: [["Atk Element: ", "Air"], ["ExParam: ", "CRI", "3%"], ["Attack Skill:", "Scythe Attack"]]
+Ingredients: [["Hypersteel Scythe", 1], ["Heavy Feather", 2], ["Wind's Wing", 2], ["Silver Ore", 2], ["Hypersteel", 1]]
 ---
 Id 9: Boomerang Axe
-Desc: An axe that has the magical ability to return to it's owner when thrown. Increased CRI.
+Desc: An axe that has the magical ability to return to its owner when thrown. Increased CRI.
 Type: Axe
 Price: 9500
 HP: 0
@@ -138,20 +138,34 @@ Luck: 10
 Features and Traits: [["ExParam: ", "CRI", "2%"], ["ExParam: ", "HIT", "-8%"]]
 Purchasable from: ["TalburyMysticShop", "DauvillierBlacksmith"]
 ---
-Id 10: Heatseeking Bow
-Desc: \}A bow that fires arrows that relentlessly seek out it's target. Cannot miss with a very high CRI, at the cost of less ATK.
-Type: Bow
-Price: 7500
+Id 10: Ashvine Coil
+Desc: \}A flail woven from toxin-hardened vines, said to grow only where the soil is scorched and tainted. Your attacks drain HP if the target is Poisoned.
+Type: Flail
+Price: 14000
 HP: 0
 MP: 0
-Attack: -10
+Attack: 65
 Defence: 0
 Magical Attack: 0
 Magical Defence: 0
-Agility: 5
-Luck: 30
-Features and Traits: [["ExParam: ", "HIT", "100%"], ["ExParam: ", "HIT", "100%"], ["ExParam: ", "HIT", "100%"], ["ExParam: ", "HIT", "100%"], ["ExParam: ", "HIT", "100%"], ["Seal Equip: ", "Shield"], ["Atk Speed: ", 3], ["ExParam: ", "CRI", "10%"]]
-Purchasable from: ["TalburyMysticShop", "DauvillierBlacksmith"]
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Nature"], ["ExParam: ", "CNT", "10%"], ["Atk State: ", "Poison", "15%"], ["ExParam: ", "HIT", "-7%"]]
+Purchasable from: ["DauvillierBlacksmith"]
+---
+Id 11: Thornstar
+Desc: \}A large thorny bulb sits at the end of an almost equally thorny wooden chain. Every attack may Thorn or Bleed the target.
+Type: Flail
+Price: 12000
+HP: 0
+MP: 0
+Attack: 60
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Nature"], ["ExParam: ", "CNT", "9%"], ["Atk State: ", "Thorned", "10%"], ["Atk State: ", "Bleeding", "10%"], ["ExParam: ", "HIT", "-7%"]]
 ---
 Id 12: Hunter's Bow
 Desc: A type of shortbow specifically designed for hunting.
@@ -245,6 +259,7 @@ Magical Defence: 5
 Agility: 0
 Luck: 0
 Features and Traits: [["Attack Skill:", "Spear Attack"]]
+Dropped By: [["Crestfallen Saint", "6%"]]
 Purchasable from: ["Bill'sBlacksmith"]
 ---
 Id 18: Gaebulg Spear
@@ -343,16 +358,30 @@ Purchasable from: ["TalburyMarket", "DauvillierBlacksmith"]
 Id 24: Tyrfing Sword
 Desc: A magic sword that brings triumph over evil.
 Type: Sword
-Price: 25000
+Price: 18000
 HP: 0
 MP: 0
-Attack: 85
+Attack: 90
 Defence: 0
 Magical Attack: 20
 Magical Defence: 0
 Agility: 0
 Luck: 0
 Dropped By: [["Ivy", "25%"]]
+---
+Id 25: Lunar Eclipse
+Desc: Forged with silver, this flail resembling the moon dimly shines even in darkness. CNT increases the lower your HP is.
+Type: Flail
+Price: 15000
+HP: 200
+MP: 0
+Attack: 78
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Light"], ["ExParam: ", "CNT", "10%"], ["ExParam: ", "HIT", "-7%"]]
 ---
 Id 26: Sickle
 Desc: A small sickle used for clearing tall grass. Scythes can attack two enemies at once.
@@ -414,7 +443,7 @@ Luck: 0
 Features and Traits: [["Attack Skill:", "Scythe Attack"]]
 Dropped By: [["Ivy", "25%"]]
 Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
-Used for making: ["Windshear Crescent", "Dread Scythe", "Scythe of Hoarfrost"]
+Used for making: ["Windshear Crescent", "Dread Scythe", "Soulcleave Reaper", "Scythe of Hoarfrost"]
 ---
 Id 30: Dread Scythe
 Desc: A horrifying scythe utilised to intimidate the enemy before engaging them. Can inflict Fear.
@@ -799,17 +828,17 @@ Used for making: ["Void Weaver's Loom"]
 Id 54: Prophet's Omen
 Desc: \}This sword can predict the Natural Flow itself, enabling once-impossible skills while wielding it. Greatly increases HIT, EVA, CNT, and CRI.
 Type: Sword
-Price: 15000
+Price: 20000
 HP: 0
 MP: 0
-Attack: 83
+Attack: 96
 Defence: 0
-Magical Attack: 0
+Magical Attack: 5
 Magical Defence: 0
 Agility: 0
 Luck: 25
-Features and Traits: [["ExParam: ", "HIT", "14%"], ["ExParam: ", "EVA", "10%"], ["ExParam: ", "CNT", "6%"], ["ExParam: ", "CRI", "4%"]]
-Ingredients: [["Foreteller's Sword", 1], ["Omnium", 1], ["Hypersteel", 2], ["Silver Ore", 2], ["Ghostfruit", 2]]
+Features and Traits: [["ExParam: ", "HIT", "14%"], ["ExParam: ", "EVA", "10%"], ["ExParam: ", "CNT", "7%"], ["ExParam: ", "CRI", "4%"]]
+Ingredients: [["Foreteller's Sword", 1], ["Omnium", 1], ["Hypersteel", 2], ["Ghostfruit", 2], ["Silver Ore", 3]]
 ---
 Id 55: Energy of Avaking
 Desc: The Energy of Avaking War Axe is the most powerful axe in existence.
@@ -1217,7 +1246,7 @@ Purchasable from: ["Anvil'sMarketInterior"]
 Id 82: Brimstone Flail
 Desc: A hardened chunk of solid volanic rock attached to a heavy steel chain. Still hot, too.
 Type: Flail
-Price: 15000
+Price: 11000
 HP: 0
 MP: 0
 Attack: 59
@@ -1271,7 +1300,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Gain Skill: ", "Soulreach Slash"]]
 Dropped By: [["Aberrational Amalgamation", "6%"]]
-Used for making: ["Soulcleave Sabre"]
+Used for making: ["Soulcleave Sabre", "Soulcleave Reaper"]
 ---
 Id 86: Pig-Iron Pike
 Desc: A cheap Marrarockan weapon that can go ham on your enemies.
@@ -1306,12 +1335,12 @@ Dropped By: [["Tempest Titan", "9%"]]
 Used for making: ["Lightning Fork", "Thundershock Stormguard", "Storm Summoner's Garb"]
 ---
 Id 88: Soulcleave Sabre
-Desc: \}An intensely energetic sword that can allegedly split a soul in twain. Charges Soulreach Slash twice as fast and increases your MCR.
+Desc: \}An intensely energetic sword that can allegedly split a soul in twain. Charges Soulreach Slash twice as fast and your MCR is raised.
 Type: Sword
 Price: 29000
 HP: 0
 MP: 80
-Attack: 67
+Attack: 71
 Defence: 0
 Magical Attack: 108
 Magical Defence: 0
@@ -1508,6 +1537,21 @@ Features and Traits: [["Atk Element: ", "Dark"], ["State Rate: ", "Curse of the 
 Dropped By: [["Malignant Volwrath", "33%"]]
 Used for making: ["Scourge of Maelsium", "Precursor of Virtue", "Harbinger of Sin"]
 ---
+Id 101: Soulcleave Reaper
+Desc: \}An intensely energetic scythe said to sever the ties that bind a soul to the flesh. Soulreach Slash now damages all enemies and your MCR is raised.
+Type: Scythe
+Price: 29000
+HP: 0
+MP: 80
+Attack: 64
+Defence: 0
+Magical Attack: 119
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Gain Skill: ", "Soulreach Slash"], ["SpParam: ", "MCR", "x1.2"], ["Attack Skill:", "Scythe Attack"]]
+Ingredients: [["Soulreach Sabre", 1], ["Hypersteel Scythe", 1], ["Soul Orb", 1], ["Omnium", 2], ["Ironbark", 3], ["Obsidian Shard", 3]]
+---
 Id 102: Vezran's Sword
 Desc: A seldom used blade forged in a diabolous smithy. Sports an increased CRI.
 Type: Sword
@@ -1620,7 +1664,7 @@ Purchasable from: ["Bill'sBlacksmith", "DauvillierBlacksmith"]
 Id 109: Scythe of Hoarfrost
 Desc: \}A scythe of unknown origins that has repeatedly appeared in ancient artwork, symbolising death. Increased HIT and a chance to Freeze.
 Type: Scythe
-Price: 10000
+Price: 12000
 HP: 0
 MP: 0
 Attack: 58
@@ -1629,7 +1673,7 @@ Magical Attack: 24
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["Atk Element: ", "Ice"], ["ExParam: ", "HIT", "5%"], ["Atk State: ", "Freezing", "5%"], ["Attack Skill:", "Scythe Attack"]]
+Features and Traits: [["Atk Element: ", "Ice"], ["ExParam: ", "HIT", "5%"], ["Atk State: ", "Freezing", "8%"], ["Attack Skill:", "Scythe Attack"]]
 Ingredients: [["Hypersteel Scythe", 1], ["Fangfrost Paragon O", 1], ["Unmelting Ice", 2], ["Winter's Heart", 2]]
 Dropped By: [["Stallion of Death", "7%"]]
 ---
@@ -1814,7 +1858,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 25
-Features and Traits: [["Attack Skill:", "Scythe Attack"]]
+Features and Traits: [["ExParam: ", "CRI", "2%"], ["Attack Skill:", "Scythe Attack"]]
 Purchasable from: ["Bill'sBlacksmith", "SlumberwoodSmith"]
 ---
 Id 122: Sea-Splitting Axe
@@ -2169,9 +2213,9 @@ Type: Scythe
 Price: 0
 HP: 0
 MP: 0
-Attack: 85
+Attack: 90
 Defence: 0
-Magical Attack: 85
+Magical Attack: 90
 Magical Defence: 0
 Agility: 0
 Luck: 0
@@ -2330,4 +2374,32 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Seal Equip: ", "Shield"], ["ExParam: ", "CRI", "4%"], ["Atk Speed: ", 3], ["Attack Skill:", "Vampiric Shot"]]
 Purchasable from: ["DauvillierBlacksmith"]
+---
+Id 156: Hollow Knell
+Desc: \}Said to be hollow as the ringer inside the bell of this flail makes no sound, well, to those that are safe. Gain HP and MP when an enemy dies, regardless of cause.
+Type: Flail
+Price: 13000
+HP: 150
+MP: 50
+Attack: 58
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Dark"], ["ExParam: ", "CNT", "8%"], ["Atk State: ", "Fear", "15%"], ["ExParam: ", "HIT", "-6%"]]
+---
+Id 157: Harvest Moon
+Desc: \}A scythe shaped like the crescent moon, surrounded with a swirl of glistening dust. Each turn the moon phases between giving EVA, MDF, and CRI.
+Type: Scythe
+Price: 18000
+HP: 0
+MP: 0
+Attack: 83
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Light"], ["Attack Skill:", "Scythe Attack"]]
 ---

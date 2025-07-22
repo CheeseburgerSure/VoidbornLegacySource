@@ -2628,6 +2628,16 @@ Variance: 25
 Critical: true
 Scope: One Enemy
 ---
+Id 290: Soulreach Slash
+Desc: Unleash the stored energy from the Soulcleave Reaper. Using it now will inflict \C[23]\V[125]\C[0] damage.
+Skill Class: Abilites
+Cost: 30PR
+Skill Type: HP Damage
+Formula: a.soulreach_charge
+Variance: 0
+Critical: false
+Scope: All Enemies
+---
 Id 291: Digestive Deathray
 Desc: 
 Skill Class: Magic

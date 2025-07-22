@@ -332,7 +332,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
-Dropped By: [["Rockleliege", "33%"], ["Atomic Bouldergeist", "4%"]]
+Dropped By: [["Harrison", "100%"], ["Rockleliege", "33%"], ["Atomic Bouldergeist", "4%"]]
 Used for making: ["Infermius Raxorium", "Elazireth Raxorium", "Zysargia Raxorium", "Tempora Raxorium", "Justicium Raxorium", "Maelsium Raxorium", "Avaking Raxorium", "Flame Catalyst", "Icicle Catalyst", "Tempest Catalyst", "Ocean Catalyst", "Mountain Catalyst", "Sky Catalyst", "Astral Catalyst", "Night Catalyst", "Forest Catalyst", "Voidgloom Reaper", "Voidfang Piercer", "Void's Eclipse", "Void Weaver's Loom", "Void-Wreathed Carapace", "Void-Wreathed Cloak", "Abyssal Voidguard", "Grasp of the Void", "Void Mistward", "Void-Breather's Cage", "Void Steppers", "Voidsoul Paragon", "Zysargia's Ward", "Tempora's Echo", "Maelsium's Reckoning", "Justicium's Blessing", "Infermius' Pyre", "Avaking's Benevolence", "Elazireth's Current", "Prismatic Morphguard"]
 ---
 Id 33: Infermius Raxorium
@@ -470,7 +470,7 @@ Occasion: Never
 Brewing effects: [Potent, [["Potency: +0.5"]]]
 Dropped By: [["Roots of Evil", "14%"], ["Throttleroot", "17%"]]
 Purchasable from: ["FortCharlie", "TalburyMarket", "PeregrineMarket/Shipyard", "Anvil'sMarketInterior", "Caravan park", "StremleyShop"]
-Used for making: ["Antidote", "Slime Remedy", "Apaslea", "Nature's Behest", "Gnarled Smasher", "Root Boots"]
+Used for making: ["Antidote", "Slime Remedy", "Apaslea", "Nature's Behest", "Gnarled Smasher", "Root Boots", "Lifevine Striders"]
 ---
 Id 46: Four-Leaf Clover
 Desc: Consuming can invigorate you to be luckier and to also gain EXP faster.
@@ -516,7 +516,7 @@ Scope: None
 Occasion: Never
 Brewing effects: [Potent, [["Potency: +1"]]]
 Purchasable from: ["TalburyMarket", "FlowemShop", "FortBarry", "Caravan park"]
-Used for making: ["Nature's Behest", "Deciduous Mantle"]
+Used for making: ["Nature's Behest", "Deciduous Mantle", "Lifevine Striders"]
 ---
 Id 50: Juggernaut Leaf
 Desc: A famous and relatively rare leaf that is incredibly difficult to damage. Useful in Alchemy.
@@ -527,7 +527,7 @@ Scope: None
 Occasion: Never
 Brewing effects: [Flavour, [["Buff: DEF"], ["Buff: DEF"], ["Potency: -1.5"]]]
 Purchasable from: ["PeregrineMarket/Shipyard", "Anvil'sMarketInterior", "Caravan park", "SlumberwoodShop"]
-Used for making: ["Enhanced Potion", "Ultimate Potion", "Root Boots", "Deciduous Mantle", "Verdant Leafshroud"]
+Used for making: ["Enhanced Potion", "Ultimate Potion", "Root Boots", "Deciduous Mantle", "Verdant Leafshroud", "Lifevine Striders"]
 ---
 Id 51: Yellow Fang
 Desc: A plant who's thin flowers grows curving downwards, bearing similarity to fangs. Useful in Alchemy.
@@ -754,7 +754,6 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Mossy Bouldergeist", "13%"], ["Bouldergeist", "13%"], ["Rocklereige", "100%"]]
-Purchasable from: ["Anvil'sMarketInterior"]
 Used for making: ["Hypersteel", "Hand Axe", "Spear", "Short Sword", "Knife", "Mace", "Terrahammer", "Anchor", "Ironbark Cudgel", "Boulder Bludgeoner", "Ascerothan Sabre", "Circlet", "Iron Plate", "Buckler", "Crescent Arrows", "Broadhead Arrows", "Tectonic Platemail", "Earthwarden's Mantle", "Gaiashell Carapace", "Ascerothan Gauntlets"]
 ---
 Id 74: Silver Ore
@@ -776,7 +775,7 @@ Scope: One Ally
 Occasion: Always
 Effects and Traits: [["Add State: ", "Hallucinating", "100%"]]
 Brewing effects: [Flavour, [["Treat: Hallucinating"], ["Treat: Hopeless"], ["Potency: +3"]]]
-Dropped By: [["Forest Custodian", "7%"], ["Stallion of Famine", "7%"]]
+Dropped By: [["Forest Custodian", "7%"], ["Stallion of Famine", "7%"], ["Steward of the Mantle", "10%"]]
 Purchasable from: ["PeregrineSecretShop"]
 Used for making: ["Elixir", "Avaking Raxorium", "Ancient Sage's Water", "Soul Vigour Vial", "Prophet's Omen", "Spectre's Regret", "Chaos Doomplate", "Mind-Control Brace", "Avaking's Benevolence", "Consciousness Manipulator"]
 ---
@@ -842,7 +841,6 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Warding Bouldergeist", "10%"]]
-Purchasable from: ["Anvil'sMarketInterior"]
 Used for making: ["Hypersteel", "Terrahammer", "Bronze Plate"]
 ---
 Id 82: Artefact Shards
@@ -1134,7 +1132,7 @@ Scope: None
 Occasion: Only from the Menu
 Brewing effects: [Flavour, [["Level: 1"], ["Potency: -4"]]]
 Ingredients: [["Bottled Song", 2], ["Ghostfruit", 2], ["Ancient Sage's Water", 3], ["Flare Feather", 1], ["Apple Juice", 1]]
-Dropped By: [["Stygian Ichor", "5%"]]
+Dropped By: [["Stygian Ichor", "5%"], ["William", "50%"], ["Harrison", "50%"]]
 Used for making: ["Energy of Avaking", "Scourge of Maelsium", "Fury of Tempora", "Wake of Elazireth", "Blaze of Infermius", "Might of Zysargia", "Radiance of Justicium", "Zysargia's Ward", "Tempora's Echo", "Maelsium's Reckoning", "Justicium's Blessing", "Infermius' Pyre", "Avaking's Benevolence", "Elazireth's Current"]
 ---
 Id 113: Tea Leaves
@@ -1313,7 +1311,7 @@ Scope: None
 Occasion: Never
 Brewing effects: [Flavour, [["Level: 0.5"], ["Potency: -3"]]]
 Dropped By: [["Blooming Hunger", "7%"], ["Botyranny", "7%"], ["Zysargia", "100%"], ["Manticore", "100%"]]
-Used for making: ["Zysargia Raxorium", "Flow Conduit", "Forest Catalyst", "Nature's Behest", "Gnarled Smasher", "Oaken Vanguard", "Deciduous Mantle", "Verdant Leafshroud", "Woodhammer Paragon O", "Exemplary Woodhammer Paragon O", "Woodhammer Paragon D", "Exemplary Woodhammer Paragon D", "Symbol Breaker Disc: Nature", "Zysargia's Ward"]
+Used for making: ["Zysargia Raxorium", "Flow Conduit", "Forest Catalyst", "Nature's Behest", "Gnarled Smasher", "Oaken Vanguard", "Deciduous Mantle", "Verdant Leafshroud", "Lifevine Striders", "Woodhammer Paragon O", "Exemplary Woodhammer Paragon O", "Woodhammer Paragon D", "Exemplary Woodhammer Paragon D", "Symbol Breaker Disc: Nature", "Zysargia's Ward"]
 ---
 Id 130: Winter's Heart
 Desc: A gemstone that mixed with ice crystals to form this gorgeous reminder of winter's beauty. Useful in alchemy.
@@ -1377,7 +1375,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Languished Skeleton", "8%"]]
-Used for making: ["Soulcleave Sabre", "Obsidian Inferno Sword", "Heartrender", "Smouldering Lavamail"]
+Used for making: ["Soulcleave Sabre", "Soulcleave Reaper", "Obsidian Inferno Sword", "Heartrender", "Smouldering Lavamail"]
 ---
 Id 137: Flow Conduit
 Desc: A rare item that focuses the elements of the Flow into whatever the user desires. Useful in alchemy.
@@ -1398,7 +1396,7 @@ Scope: None
 Occasion: Never
 Dropped By: [["Steward of the Mantle", "8%"]]
 Purchasable from: ["Anvil'sMarketInterior", "MarrarockShop"]
-Used for making: ["Soulcleave Sabre", "Ironbark Cudgel", "Ironbark Blade", "Forest Thomper", "Soulspite Longbow", "Ironbark Shield", "Ironbark Shell", "Ferrous Hardhat"]
+Used for making: ["Soulcleave Sabre", "Soulcleave Reaper", "Ironbark Cudgel", "Ironbark Blade", "Forest Thomper", "Soulspite Longbow", "Lifevine Striders", "Ironbark Shield", "Ironbark Shell", "Ferrous Hardhat"]
 ---
 Id 139: Tears of Cedarus
 Desc: A vial of water from a stream hidden deep in Slumberwood, once blessed by the Ancient Sage Cedarus. Useful in alchemy.
@@ -1481,7 +1479,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Contorted Amalgamation", "7%"], ["Rocklesiege", "25%"], ["Rockleliege", "100%"], ["Aberrational Amalgamation", "13%"], ["Atomic Bouldergeist", "10%"]]
-Used for making: ["Prophet's Omen", "Soulcleave Sabre", "Beacon of Valour", "Hammer of Justice", "Ascerothan Halberd", "Heartrender", "Magic Repressor", "Strength Repressor", "King's Grace", "Legend's Safeguard"]
+Used for making: ["Prophet's Omen", "Soulcleave Sabre", "Soulcleave Reaper", "Beacon of Valour", "Hammer of Justice", "Ascerothan Halberd", "Heartrender", "Magic Repressor", "Strength Repressor", "King's Grace", "Legend's Safeguard"]
 ---
 Id 147: Wine
 Desc: An alcoholic drink typically made using grape, but can be made using a wide variety of fruity ingredients. You can use this as a base without owning it.
@@ -1644,7 +1642,8 @@ Consume: No
 Scope: None
 Occasion: Never
 Ingredients: [["Iron Ore", 5], ["Copper Ore", 2], ["Tin Ore", 1], ["Silver Ore", 1], ["Powder Snow", 3], ["Unmelting Ice", 1]]
-Used for making: ["Prophet's Omen", "Soulcleave Sabre", "Beacon of Valour", "Precursor of Virtue", "Harbinger of Sin", "Legend's Safeguard", "Diadem of the Past", "Prismatic Morphguard", "Resplendant Seraph", "Consciousness Manipulator"]
+Dropped By: [["William", "100%"], ["William", "100%"]]
+Used for making: ["Windshear Crescent", "Prophet's Omen", "Soulcleave Sabre", "Beacon of Valour", "Precursor of Virtue", "Harbinger of Sin", "Legend's Safeguard", "Diadem of the Past", "Prismatic Morphguard", "Resplendant Seraph", "Consciousness Manipulator"]
 ---
 Id 166: Cold Steel Lager
 Desc: \}A very old Marrarockan recipe using cheap and readily available ingredients. Was once the only affordable drink for miners, but is now considered tradition.

@@ -105,7 +105,7 @@ Findable in: ["Northern Featherlands"]
 ---
 Id 8: White Widow
 Description: A luminous spider accustomed to the depths of Monastery Memoriam. They will gladly approach unwelcome guests with intent to feed, so beware their potent venom.
-HP: 8000
+HP: 7000
 MP: 300
 Attack: 146
 Defence: 110
@@ -113,8 +113,8 @@ Magical Attack: 117
 Magical Defence: 98
 Agility: 180
 Luck: 130
-Experience: 826
-Gold: 918
+Experience: 726
+Gold: 809
 Loot: [["Spider Silk", "33%"], ["Hermit Robe", "13%"]]
 ---
 Id 9: Weeping Wisp
@@ -249,6 +249,20 @@ Luck: 70
 Experience: 353
 Gold: 376
 Loot: [["Silver Ore", "8%"], ["Falcion", "10%"]]
+---
+Id 24: Crestfallen Saint
+Description: Scholars believe this tragic entity was a martyr whose death did not bring peace, but instead a cursed immortality twisted by doubt and grief.
+HP: 5500
+MP: 800
+Attack: 132
+Defence: 90
+Magical Attack: 197
+Magical Defence: 215
+Agility: 160
+Luck: 155
+Experience: 581
+Gold: 649
+Loot: [["Lightless Lantern", "8%"], ["Holy Lance", "6%"]]
 ---
 Id 26: Ravenous Mawchid
 Description: A carnivorous plant that grew to its immense size due to its vicinity to a Nature-elemental rich domain.
@@ -1132,7 +1146,7 @@ Agility: 75
 Luck: 95
 Experience: 519
 Gold: 580
-Loot: [["Spirit Essence", "14%"], ["Ironbark", "8%"]]
+Loot: [["Spirit Essence", "14%"], ["Ironbark", "8%"], ["Ghostfruit", "10%"]]
 Findable in: ["Zysargia'sRecluse2", "Zysargia'sRecluse3"]
 ---
 Id 104: Mossy Bouldergeist
@@ -1367,7 +1381,7 @@ Agility: 500
 Luck: 300
 Experience: 25000
 Gold: 50000
-Loot: []
+Loot: [["Hypersteel", "100%"], ["Hypersteel", "100%"], ["Soul Vigour Vial", "50%"]]
 ---
 Id 120: Harrison
 HP: 20000
@@ -1380,7 +1394,7 @@ Agility: 500
 Luck: 300
 Experience: 25000
 Gold: 50000
-Loot: []
+Loot: [["Raxorium Ore", "100%"], ["Soul Vigour Vial", "50%"]]
 ---
 Id 121: Rocklesiege
 Description: Another member of the great golem family, this species will barrage you with a constant stream of rocks and stones.
@@ -1576,7 +1590,7 @@ Findable in: ["????????"]
 Id 134: Atomic Bouldergeist
 Description: A Bouldergeist with mysterious rocks jutting out of it. Probably better off keeping your distance.
 HP: 11000
-MP: 250
+MP: 105
 Attack: 270
 Defence: 450
 Magical Attack: 320

@@ -580,9 +580,7 @@ Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
 Used for making: ["Radiant Sentinel"]
 ---
 Id 40: Cloak of Roaming Winds
-Desc: \}Woven from feathers that remember motion, it constantly breathes life into its wearer and resists the stillness of captivity.
-
- Prevents AGI being reduced.
+Desc: \}Woven from feathers that remember motion, it constantly breathes life into its wearer and resists the stillness of captivity. Prevents AGI being reduced.
 Type: Magic Armour
 Price: 10000
 HP: 0
@@ -1040,11 +1038,11 @@ Purchasable from: ["Anvil'sMarketInterior", "SlumberwoodSmith"]
 Id 73: Hypersteel Sabatons
 Desc: Big, heavy sabatons made of the incredible alloy.
 Type: Heavy Armour
-Price: 2000
+Price: 2100
 HP: 0
 MP: 0
 Attack: 0
-Defence: 13
+Defence: 15
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
@@ -1355,6 +1353,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 2
 Features and Traits: [["SpParam: ", "MCR", "x1.3"], ["SpParam: ", "TGR", "x0.45"]]
+Dropped By: [["Crestfallen Saint", "8%"]]
 Purchasable from: ["TalburyMarket"]
 Used for making: ["Dread Scythe"]
 ---
@@ -1599,7 +1598,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Element Rate: ", "Soul", "15%"], ["ExParam: ", "TRG", "-5%"], ["State Rate: ", "Death", "0%"]]
 Purchasable from: ["PeregrineSecretShop"]
-Used for making: ["Contaminated Conduit", "Soulcleave Sabre", "Beacon of Valour", "Soul Eviscerator"]
+Used for making: ["Contaminated Conduit", "Soulcleave Sabre", "Soulcleave Reaper", "Beacon of Valour", "Soul Eviscerator"]
 ---
 Id 110: Wind Warder
 Desc: A charm that seems to weaken even the strongest winds. Gives resistance to Wind, but decreases CRI.
@@ -2319,20 +2318,6 @@ Luck: 0
 Features and Traits: [["+Action Chance: ", "25%"], ["ExParam: ", "HIT", "5%"]]
 Purchasable from: ["FlowemBlacksmith", "Bill'sBlacksmith", "SlumberwoodSmith", "DauvillierBlacksmith"]
 ---
-Id 160: Springy Splitter
-Desc: \}\}Basically, right, the splitter is attached to the grip by a spring. So it wobbles around all over the place uncontrollably. It is completely useless now. BUT, it does give you more HIT chance.
-Type: Axe Attachments
-Price: 10000
-HP: 0
-MP: 0
-Attack: 20
-Defence: 0
-Magical Attack: 0
-Magical Defence: 0
-Agility: 0
-Luck: 0
-Features and Traits: [["ExParam: ", "HIT", "10%"], ["+Action Chance: ", "25%"]]
----
 Id 161: Rotary Spearhead
 Desc: \}The spearhead spins super fast, like a drill! It's completely impractical, but hilarious! Adds high Bleed chance.
 Type: Spear Attachments
@@ -2496,7 +2481,7 @@ Agility: 4
 Luck: 0
 Features and Traits: [["ExParam: ", "HRG", "5%"]]
 Ingredients: [["Hiking Boots", 1], ["Bei Root", 3], ["Juggernaut Leaf", 2]]
-Used for making: ["Blightsludge Husk"]
+Used for making: ["Blightsludge Husk", "Lifevine Striders"]
 ---
 Id 172: Oaken Vanguard
 Desc: A suit of carefully carved wood that, while uncomfortable, is remarkably effective.
@@ -2788,6 +2773,21 @@ Magical Defence: 68
 Agility: 0
 Luck: 0
 Features and Traits: [["Gain Skill: ", "Undead Immitator"]]
+---
+Id 191: Lifevine Striders
+Desc: The untamed growth of the deep wilds embraces these shoes, granting high HRG.
+Type: General Armour
+Price: 18000
+HP: 250
+MP: 0
+Attack: 0
+Defence: 16
+Magical Attack: 0
+Magical Defence: 0
+Agility: 10
+Luck: 0
+Features and Traits: [["ExParam: ", "HRG", "15%"]]
+Ingredients: [["Root Boots", 1], ["Bei Root", 6], ["Juggernaut Leaf", 3], ["Everbloom", 3], ["Ironbark", 2], ["Dylorien", 2]]
 ---
 Id 192: Igneous Bulwark
 Desc: A helmet that'll keep your head warm. It also helps to repel Ice, but who cares about that when you have a warm head?
@@ -5149,7 +5149,7 @@ Luck: 50
 Ingredients: [["Riskmaker's Coin", 1], ["Silver Ore", 2], ["Liquid Gold", 1], ["Luck Up", 2]]
 ---
 Id 355: Raiment of the Sunborn
-Desc: \}A resplendent raiment that channels the golden light of a glorious star, wrapping its wearer in an unyielding sense of self. Grants immunity to Light and Fire but a mild weakness to Dark and Water.
+Desc: \}A raiment that channels the golden light of a star, wrapping its wearer in an unyielding sense of glory. Grants immunity to Light and Fire but a mild weakness to Dark and Water.
 Type: Magic Armour
 Price: 32000
 HP: 0
