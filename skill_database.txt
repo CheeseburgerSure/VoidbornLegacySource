@@ -214,92 +214,6 @@ Critical: true
 Scope: One Enemy
 Effects and Traits: [["Add State: ", "Burn", "15%"], ["Add State: ", "Bleeding", "10%"]]
 ---
-Id 26: Heal
-Desc: Restores HP to one ally.
-Skill Class: Magic
-Cost: 5MP
-Skill Type: HP Recover
-Formula: 250 + a.mat
-Variance: 20
-Critical: false
-Scope: One Ally
----
-Id 27: Heal II
-Desc: Restores HP to one ally.
-Skill Class: Magic
-Cost: 15MP
-Skill Type: HP Recover
-Formula: 1000 + a.mat * 2
-Variance: 20
-Critical: false
-Scope: One Ally
----
-Id 28: Heal III
-Desc: Restores HP to one ally.
-Skill Class: Magic
-Cost: 30MP
-Skill Type: HP Recover
-Formula: 2000 + a.mat * 3
-Variance: 20
-Critical: false
-Scope: One Ally
----
-Id 29: Recovery
-Desc: Restores HP to all allies.
-Skill Class: Magic
-Cost: 12MP
-Skill Type: HP Recover
-Formula: 250 + a.mat
-Variance: 20
-Critical: false
-Scope: All Allies
----
-Id 30: Recovery II
-Desc: Restores HP to all allies.
-Skill Class: Magic
-Cost: 24MP
-Skill Type: HP Recover
-Formula: 1000 + a.mat * 2
-Variance: 20
-Critical: false
-Scope: All Allies
----
-Id 31: Cure
-Desc: Cures poison and paralsys.
-Skill Class: Magic
-Cost: 3MP
-Scope: One Ally
-Effects and Traits: [["Remove State: ", "Poison", "100%"], ["Remove State: ", "Paralysis", "100%"]]
----
-Id 32: Cure II
-Desc: Cures many status ailments.
-Skill Class: Magic
-Cost: 8MP
-Scope: One Ally
-Effects and Traits: [["Remove State: ", "Poison", "100%"], ["Remove State: ", "Blind", "100%"], ["Remove State: ", "Silence", "100%"], ["Remove State: ", "Confusion", "100%"], ["Remove State: ", "Sleep", "100%"], ["Remove State: ", "Paralysis", "100%"]]
----
-Id 33: Raise
-Desc: Revives a fallen ally.
-Skill Class: Magic
-Cost: 15MP
-Skill Type: HP Recover
-Formula: b.mhp / 10
-Variance: 20
-Critical: false
-Scope: One Ally (Dead)
-Effects and Traits: [["Remove State: ", "Death", "100%"]]
----
-Id 34: Raise II
-Desc: Revives a fallen ally with a lot of HP.
-Skill Class: Magic
-Cost: 35MP
-Skill Type: HP Recover
-Formula: b.mhp / 2
-Variance: 20
-Critical: false
-Scope: One Ally (Dead)
-Effects and Traits: [["Remove State: ", "Death", "100%"]]
----
 Id 35: Hazardous Glow
 Desc: Glow with radiation, damagaing foes MP.
 Skill Class: Abilites
@@ -775,11 +689,10 @@ Skill Class: Abilites
 Cost: 80PR
 Skill Type: HP Damage
 Formula: (a.mhp/10) + (a.atk*2) - (b.def*3)
-Element: 
-Unique
+Element: Unique
 Variance: 15
 Critical: false
-Scope: 
+Scope: Everybody
 Effects and Traits: [["Add State: ", "Dark Oozed", "50%"], ["Add State: ", "Acid Damage", "40%"], ["Add State: ", "Plagued", "10%"], ["User State: ", "Burst"]]
 ---
 Id 83: Tendril
@@ -788,8 +701,7 @@ Skill Class: Abilites
 Cost: 20PR
 Skill Type: HP Damage
 Formula: a.atk * 4 - b.def * 3 + 150
-Element: 
-Unique
+Element: Unique
 Variance: 20
 Critical: true
 Scope: One Enemy
@@ -851,8 +763,7 @@ Skill Class: Abilites
 Cost: 30PR
 Skill Type: HP Damage
 Formula: a.atk * 4 - b.def * 2 + 150
-Element: 
-Unique
+Element: Unique
 Variance: 20
 Critical: true
 Scope: One Enemy
@@ -1161,7 +1072,7 @@ Skill Type: HP Damage
 Formula: a.mat * 5 - b.mdf * 2
 Variance: 15
 Critical: true
-Scope: 
+Scope: Everybody
 Effects and Traits: [["Add State: ", "Burn", "50%"]]
 ---
 Id 126: Incision
@@ -2943,8 +2854,7 @@ Desc: Commands \V[93] to strike an enemy.
 Skill Class: Unique
 Skill Type: HP Damage
 Formula: (($game_variables[97] * $game_variables[95]) * 1.5) - b.def
-Element: 
-Unique
+Element: Unique
 Variance: 20
 Critical: false
 Scope: One Enemy
@@ -2961,8 +2871,7 @@ Skill Class: Unique
 Cost: 5PR
 Skill Type: HP Damage
 Formula: (($game_variables[97] * $game_variables[95])) - b.def
-Element: 
-Unique
+Element: Unique
 Variance: 20
 Critical: false
 Scope: All Enemies
@@ -2972,8 +2881,7 @@ Desc: \}\V[93] loves you and is showing affection. Recovers a small amount of HP
 Skill Class: Abilites
 Skill Type: HP Recover
 Formula: (50 + $game_variables[97]) * $game_variables[95]
-Element: 
-Unique
+Element: Unique
 Variance: 30
 Critical: false
 Scope: One Ally
@@ -2985,8 +2893,7 @@ Skill Class: Unique
 Cost: 5PR
 Skill Type: HP Damage
 Formula: (($game_variables[97] * $game_variables[95])) - b.def
-Element: 
-Unique
+Element: Unique
 Variance: 20
 Critical: false
 Scope: One Enemy
@@ -3171,7 +3078,7 @@ Skill Type: MP Recover
 Formula: 30 + (a.mat / 25)
 Variance: 15
 Critical: false
-Scope: 
+Scope: All but User
 ---
 Id 394: Shared Reserves
 Desc: Half your current MP and split it equally between your allies. Gain 15PR.
@@ -3181,7 +3088,7 @@ Skill Type: MP Recover
 Formula: a.mp = a.mp / 2; a.mp / 3
 Variance: 0
 Critical: false
-Scope: 
+Scope: All but User
 ---
 Id 395: Seabreeze
 Desc: Bring a salty breeze across your allies, recovering both HP and MP.
@@ -3207,8 +3114,7 @@ Skill Class: Magic
 Cost: 100MP
 Skill Type: HP Damage
 Formula: (a.mat * 5) - (b.mdf * 3) + a.mmp
-Element: 
-Unique
+Element: Unique
 Variance: 15
 Critical: false
 Scope: One Enemy
@@ -3361,7 +3267,7 @@ Effects and Traits: [["Add State: ", "Fear", "30%"], ["Add State: ", "Freezing",
 Id 410: Crystalised Toxin
 Desc: Stab a needle of venom, frozen solid and extremely sharp, into your foe. Will Bleed and Poison if successful.
 Skill Class: Abilites
-Cost: 25PR
+Cost: 30PR
 Skill Type: HP Damage
 Formula: (a.atk*4 - b.def*2) + 200
 Element: Ice/Nature

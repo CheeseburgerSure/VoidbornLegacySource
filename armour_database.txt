@@ -503,7 +503,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk Speed: ", -2]]
 Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
-Used for making: ["Chaos Doomplate", "Hallowed Battlegear", "Thundershock Stormguard", "Smouldering Lavamail", "Tectonic Platemail", "Gaiashell Carapace"]
+Used for making: ["Chaos Doomplate", "Hallowed Battlegear", "Thundershock Stormguard", "Smouldering Lavaplate", "Tectonic Platemail", "Gaiashell Carapace"]
 ---
 Id 35: Whisperweave Vestment
 Desc: \}Delicately spun from enchanted spider silk, this near-weightless armour enhances movement and dulls incoming blows. Increases EVA and PDR.
@@ -2745,7 +2745,7 @@ Features and Traits: [["SpParam: ", "MCR", "x0.8"]]
 Ingredients: [["Holundael's Ring", 1], ["Thundrite", 1], ["Lightning Rod", 2]]
 Used for making: ["Tempest Evoker's Robes"]
 ---
-Id 189: Smouldering Lavamail
+Id 189: Smouldering Lavaplate
 Desc: Armour fresh from the forge that will repel any sort of elemental attack.
 Type: Heavy Armour
 Price: 14000
@@ -5267,7 +5267,7 @@ Features and Traits: [["ExParam: ", "EVA", "3%"]]
 Purchasable from: ["PeregrineBlacksmiths", "FlowemBlacksmith"]
 ---
 Id 364: Rejuvenation Ring
-Desc: A ring that blurs the line between body and soul. While equipped, 10% of your HRG is also applied as MRG (Eg, 10% HRG = 1% MRG).
+Desc: \}A ring that blurs the line between body and soul. While equipped, 10% of your HRG is also applied as MRG (Eg, 10% HRG = 1% MRG).
 Type: General Armour
 Price: 9000
 HP: 100

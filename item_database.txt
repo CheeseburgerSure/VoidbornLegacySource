@@ -659,15 +659,6 @@ Consume: No
 Scope: None
 Occasion: Only from the Menu
 ---
-Id 64: Those That Want to Kill You
-Desc: A hefty book going into detail about various large monsters and strange beings.
-Type: Key
-Price: 166G
-Consume: No
-Scope: None
-Occasion: Only from the Menu
-Purchasable from: ["TalburyMarket"]
----
 Id 65: Light: How I was Blinded
 Desc: A book retelling the story of wizard who blinded himself when creating Light elemental magic.
 Type: Key
@@ -841,7 +832,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Warding Bouldergeist", "10%"]]
-Used for making: ["Hypersteel", "Terrahammer", "Bronze Plate"]
+Used for making: ["Song of Return", "Hypersteel", "Terrahammer", "Bronze Plate"]
 ---
 Id 82: Artefact Shards
 Desc: \}Shards of ancient artefacts. Sort after by someone somewhere.
@@ -915,15 +906,6 @@ Scope: None
 Occasion: Never
 Used for making: ["Wake of Elazireth"]
 ---
-Id 90: To be a Master Hunter
-Desc: A book containing details and recipes for becoming a great hunter.
-Type: Key
-Price: 255G
-Consume: No
-Scope: None
-Occasion: Only from the Menu
-Purchasable from: ["TalburyMarket"]
----
 Id 91: Fish Oil Cream
 Desc: A viscous cream with various health benefits. Helps to clear blindness.
 Type: Normal
@@ -945,6 +927,7 @@ Occasion: Always
 Effects and Traits: [["Recover HP: ", "50%", ""], ["Gain PR: ", "1000%"]]
 Brewing effects: [Flavour, [["Heal: 50"], ["PR: 10"], ["Potency: +4.5"]]]
 Dropped By: [["Ravenous Mawchid", "9%"], ["Botyranny", "10%"]]
+Used for making: ["Song of Return"]
 ---
 Id 93: Snake Fang
 Desc: The large fang of a snake. Useful in Alchemy.
@@ -1121,7 +1104,7 @@ Scope: None
 Occasion: Never
 Brewing effects: [Flavour, [["Treat: Savage"], ["Potency: -2"]]]
 Purchasable from: ["PeregrineSecretShop"]
-Used for making: ["Soul Vigour Vial", "Blessed Abjugation", "Whisperweave Vestment", "Shimmerveil Shroud"]
+Used for making: ["Soul Vigour Vial", "Song of Return", "Blessed Abjugation", "Whisperweave Vestment", "Shimmerveil Shroud"]
 ---
 Id 111: Soul Vigour Vial
 Desc: \}A mystical concoction of extremely rare ingredients that rapidly accelerates the Soul's growth. Instantly levels up a character once.
@@ -1134,6 +1117,15 @@ Brewing effects: [Flavour, [["Level: 1"], ["Potency: -4"]]]
 Ingredients: [["Bottled Song", 2], ["Ghostfruit", 2], ["Ancient Sage's Water", 3], ["Flare Feather", 1], ["Apple Juice", 1]]
 Dropped By: [["Stygian Ichor", "5%"], ["William", "50%"], ["Harrison", "50%"]]
 Used for making: ["Energy of Avaking", "Scourge of Maelsium", "Fury of Tempora", "Wake of Elazireth", "Blaze of Infermius", "Might of Zysargia", "Radiance of Justicium", "Zysargia's Ward", "Tempora's Echo", "Maelsium's Reckoning", "Justicium's Blessing", "Infermius' Pyre", "Avaking's Benevolence", "Elazireth's Current"]
+---
+Id 112: Song of Return
+Desc: A music box that plays a soothing song, said to invite mythical beasts back to their dens.
+Type: Normal
+Price: 600G
+Consume: No
+Scope: None
+Occasion: Never
+Ingredients: [["Bottled Song", 1], ["Srevena", 1], ["Tin Ore", 2]]
 ---
 Id 113: Tea Leaves
 Desc: Tea leaves from somewhere exotic. Best consumed in hot water while standing in a tea-pose.
@@ -1182,7 +1174,7 @@ Effects and Traits: [["Remove State: ", "Freezing", "100%"]]
 Brewing effects: [Flavour, [["Treat: Freezing"], ["Potency: +2.5"]]]
 Ingredients: [["Magic Water", 1], ["Mead", 1], ["Scorchlog", 1]]
 Purchasable from: ["TheDivingFalconF1", "Anvil'sMarketInterior", "Pub/BreweryGF", "Pub/BreweryStage"]
-Used for making: ["Ardent Raptor", "Smouldering Lavamail"]
+Used for making: ["Ardent Raptor", "Smouldering Lavaplate"]
 ---
 Id 117: Scorchlog
 Desc: \}The rare scorchlog burns very easily, even when wet, and so is the preferable material to make firewood out of. Useful in Alchemy.
@@ -1300,7 +1292,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Burning Spirit", "7%"], ["Cerberus", "100%"]]
-Used for making: ["Infermius Raxorium", "Flow Conduit", "Flame Catalyst", "Ice Bane", "Obsidian Inferno Sword", "Magma Maul", "Ardent Raptor", "Smouldering Lavamail", "Igneous Bulwark", "Hellfire Paragon O", "Exemplary Hellfire Paragon O", "Hellfire Paragon D", "Exemplary Hellfire Paragon D", "Symbol Breaker Disc: Fire", "Infermius' Pyre", "Raiment of the Sunborn"]
+Used for making: ["Infermius Raxorium", "Flow Conduit", "Flame Catalyst", "Ice Bane", "Obsidian Inferno Sword", "Magma Maul", "Ardent Raptor", "Smouldering Lavaplate", "Igneous Bulwark", "Hellfire Paragon O", "Exemplary Hellfire Paragon O", "Hellfire Paragon D", "Exemplary Hellfire Paragon D", "Symbol Breaker Disc: Fire", "Infermius' Pyre", "Raiment of the Sunborn"]
 ---
 Id 129: Dylorien
 Desc: A flower said to be so inconceivably rare that there is only 1 plant in Adremesis that blooms with it. Useful in alchemy.
@@ -1375,7 +1367,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Languished Skeleton", "8%"]]
-Used for making: ["Soulcleave Sabre", "Soulcleave Reaper", "Obsidian Inferno Sword", "Heartrender", "Smouldering Lavamail"]
+Used for making: ["Soulcleave Sabre", "Soulcleave Reaper", "Obsidian Inferno Sword", "Heartrender", "Smouldering Lavaplate"]
 ---
 Id 137: Flow Conduit
 Desc: A rare item that focuses the elements of the Flow into whatever the user desires. Useful in alchemy.

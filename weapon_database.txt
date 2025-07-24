@@ -1522,7 +1522,7 @@ Ingredients: [["Iron Ore", 6], ["Rope", 2]]
 Purchasable from: ["PeregrineSailorsStop", "DauvillierBlacksmith"]
 ---
 Id 100: Vilebrand Fauchard
-Desc: \}A woeful polearm infused with pure malevolent energy. It's basic attacks grow more potent with each Curse its wielder bears, turning misfortune into deadly strength.
+Desc: \}A woeful polearm infused with pure malevolent energy. Its basic attacks grow more potent with each Curse its wielder bears, turning misfortune into deadly strength.
 Type: Spear
 Price: 20000
 HP: 0
