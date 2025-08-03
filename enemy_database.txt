@@ -364,6 +364,7 @@ Gold: 16000
 Loot: [["Dylorien", "100%"], ["Fallen Star", "100%"], ["Tectonic Platemail", "100%"]]
 ---
 Id 35: Guardian Spirit
+Description: Loyal souls burdened with glorious purpose to protect what was dear to them in their past life.
 HP: 300
 MP: 100
 Attack: 28
@@ -555,7 +556,7 @@ Loot: [["Void Residue", "25%"]]
 Findable in: ["????????"]
 ---
 Id 50: Mad Hornet
-Description: A hornet that grew to its size by sheer will and determination.
+Description: A hornet that grew to its size by sheer will and determination. This kind of hornet is inexplicably angry for seemingly no reason.
 HP: 500
 MP: 0
 Attack: 41
