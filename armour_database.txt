@@ -268,13 +268,13 @@ Purchasable from: ["TalburyJewelers", "PeregrinePortAlley", "PeregrineBlacksmith
 Id 19: Hypersteel Circlet
 Desc: Tough circlet made of the incredible alloy.
 Type: Magic Armour
-Price: 6000
+Price: 5000
 HP: 0
 MP: 0
 Attack: 0
-Defence: 4
-Magical Attack: 7
-Magical Defence: 6
+Defence: 5
+Magical Attack: 9
+Magical Defence: 8
 Agility: 0
 Luck: 0
 Purchasable from: ["Anvil'sMarketInterior"]
@@ -360,7 +360,7 @@ Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
 Used for making: ["Phantom Shadowmail", "Tempest Surgemail", "Gale Force Battlegear", "Oceanic Master's Aegis"]
 ---
 Id 25: Alchemist's Rose
-Desc: A one-of-a-kind brooch that doubles the rate at which enemies drop loot. Handy for those hunting for ingredients.
+Desc: \}A one-of-a-kind brooch that causes enemies to give an additional copy of dropped loot. Handy for those hunting for ingredients.
 Type: General Armour
 Price: 0
 HP: 20
@@ -371,7 +371,6 @@ Magical Attack: 2
 Magical Defence: 2
 Agility: 2
 Luck: 2
-Features and Traits: [["Party Ability: ", "Double Drop Item Chance"]]
 ---
 Id 26: Leather Hap
 Desc: A hat made out of leather.
@@ -393,7 +392,7 @@ Price: 300
 HP: 0
 MP: 0
 Attack: 0
-Defence: 9
+Defence: 8
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
@@ -403,11 +402,11 @@ Purchasable from: ["PeregrineBlacksmiths"]
 Id 28: Sarett
 Desc: A hat made with steel.
 Type: Light Armour
-Price: 700
+Price: 500
 HP: 0
 MP: 0
 Attack: 0
-Defence: 11
+Defence: 10
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
@@ -429,18 +428,19 @@ Luck: 0
 Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
 Used for making: ["Torrential Vanguard"]
 ---
-Id 30: Feather super hat
-Desc: 
-Type: Shield Attachments
-Price: 0
+Id 30: Dueling Glove
+Desc: \}A thick leather glove worn on the off-hand used in traditional recreational duels. Prevents use of shields and bows, but increases HIT, CNT, and debuff resistance for ATK.
+Type: General Armour
+Price: 8000
 HP: 0
 MP: 0
 Attack: 0
-Defence: 0
+Defence: 3
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
-Luck: 0
+Luck: 5
+Features and Traits: [["Seal Equip: ", "Shield"], ["ExParam: ", "HIT", "10%"], ["ExParam: ", "CNT", "5%"], ["Debuff Rate: ", "ATK", "50%"]]
 ---
 Id 31: Iron Mail
 Desc: Armour made with iron chains.
@@ -540,7 +540,7 @@ Price: 700
 HP: 0
 MP: 0
 Attack: 0
-Defence: 11
+Defence: 12
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
@@ -580,7 +580,7 @@ Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
 Used for making: ["Radiant Sentinel"]
 ---
 Id 40: Cloak of Roaming Winds
-Desc: \}Woven from feathers that remember motion, it constantly breathes life into its wearer and resists the stillness of captivity. Prevents AGI being reduced.
+Desc: \}Woven from magical feathers, it constantly breathes life into its wearer and resists motionlessness. Prevents AGI being reduced.
 Type: Magic Armour
 Price: 10000
 HP: 0
@@ -591,11 +591,11 @@ Magical Attack: 25
 Magical Defence: 41
 Agility: 80
 Luck: 0
-Features and Traits: [["Debuff Rate: ", "AGI", "0%"], ["State Resist: ", "Freezing"], ["State Resist: ", "Headache"], ["State Resist: ", "Pinned Down"], ["State Resist: ", "Webbed"], ["State Resist: ", "Frostbite"], ["State Resist: ", "Oozed"], ["State Resist: ", "Dark Oozed"]]
+Features and Traits: [["Debuff Rate: ", "AGI", "0%"], ["State Resist: ", "Freezing"], ["State Resist: ", "Headache"], ["State Resist: ", "Pinned Down"], ["State Resist: ", "Webbed"], ["State Resist: ", "Frostbite"], ["State Resist: ", "Oozed"], ["State Resist: ", "Dark Oozed"], ["State Resist: ", "Parasitic Roots"]]
 Ingredients: [["Runed Robe", 1], ["Heavy Feather", 2], ["Flare Feather", 2], ["Wind's Wing", 1], ["Feather of Renewal", 1]]
 ---
 Id 41: Buckler
-Desc: A small shield used to fend off attacks.
+Desc: A small shield mounted on the wrist used to fend off light attacks.
 Type: Small Shield
 Price: 100
 HP: 0
@@ -611,7 +611,7 @@ Ingredients: [["Wood", 1], ["Iron Ore", 1]]
 Purchasable from: ["TalburyMarket", "PeregrineBlacksmiths"]
 ---
 Id 42: Round Shield
-Desc: A circular shield with a reinforced steel frame.
+Desc: A circular shield of wood with a simple steel frame.
 Type: Small Shield
 Price: 500
 HP: 0
@@ -654,6 +654,20 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "8%"]]
 Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
+---
+Id 45: Bandages of the Selfless
+Desc: \}These bloodied wraps instill the feeling that others are more important than you. Heal your allies 50% more, at the cost of losing most of your REC.
+Type: General Armour
+Price: 8500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 5
+Magical Defence: 1
+Agility: 0
+Luck: 0
+Features and Traits: [["SpParam: ", "REC", "x0.25"]]
 ---
 Id 46: Wood Shield
 Desc: A hefty shield made with hard wood.
@@ -709,7 +723,7 @@ Price: 7000
 HP: 0
 MP: 0
 Attack: 0
-Defence: 24
+Defence: 28
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
@@ -717,6 +731,19 @@ Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "8%"], ["ExParam: ", "CEV", "4%"], ["Atk Speed: ", -1], ["Gain Skill: ", "Shield Charge"]]
 Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
 Used for making: ["Ironbark Shield"]
+---
+Id 50: Templar First Aid Kit
+Desc: \}There is no time to waste on the battlefield and this kit will ensure you're always ready to help. Your healing skills for allies gain significant priority.
+Type: General Armour
+Price: 12000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 3
+Magical Defence: 0
+Agility: 10
+Luck: 0
 ---
 Id 51: War's Belt
 Desc: A metallic belt that magically engraves itself with the names of the wearer's kills.
@@ -746,23 +773,23 @@ Luck: 0
 Purchasable from: ["DauvillierBlacksmith"]
 ---
 Id 53: Winged Boots
-Desc: A spirit of the wind dwell in these boots. Increases EVA.
+Desc: Light and fluffy boots with small wings, providing fast and effortless movement. Increases EVA.
 Type: General Armour
-Price: 4000
+Price: 6000
 HP: 0
 MP: 0
 Attack: 0
-Defence: 4
+Defence: 6
 Magical Attack: 0
 Magical Defence: 0
 Agility: 20
 Luck: 0
-Features and Traits: [["ExParam: ", "EVA", "5%"]]
+Features and Traits: [["ExParam: ", "EVA", "8%"]]
 Purchasable from: ["PeregrineSecretShop"]
 Used for making: ["Tempest Surgemail", "Gale Force Battlegear", "Void Steppers"]
 ---
 Id 54: Earth's Embrace
-Desc: The a rocky charm that protects the wearer, increasing DEF and resisting many ailments.
+Desc: A rocky charm that protects the wearer, increasing DEF and resisting many ailments.
 Type: General Armour
 Price: 5000
 HP: 0
@@ -807,7 +834,7 @@ Purchasable from: ["DauvillierAntiqueShop"]
 Used for making: ["Precursor of Virtue", "Prismatic Morphguard"]
 ---
 Id 57: Holundael's Ring
-Desc: A ring with the hidden power of an ancient mighty wizard, reducing the MP cost of Spells and Abilities by 10%.
+Desc: A ring with some residual power of an ancient mighty wizard, reducing the MP cost of skills by 10%.
 Type: General Armour
 Price: 5000
 HP: 0
@@ -837,6 +864,19 @@ Luck: 0
 Features and Traits: [["ExParam: ", "HIT", "10%"], ["ExParam: ", "EVA", "10%"], ["ExParam: ", "TRG", "4%"]]
 Purchasable from: ["Anvil'sMarketInterior"]
 ---
+Id 59: Healer's Wraps
+Desc: \}Thick cloths wound around your wrists that soak up blood and grime while you're helping someone. Your single target healing skills may also remove Poison, Bleeding, or Burns.
+Type: General Armour
+Price: 5000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 3
+Magical Attack: 2
+Magical Defence: 3
+Agility: 0
+Luck: 0
+---
 Id 60: Talisman of Light
 Desc: The holy power of the Almighty has been imbued into this talisman, increasing all stats.
 Type: General Armour
@@ -854,7 +894,7 @@ Used for making: ["Resplendant Seraph"]
 ---
 Id 61: Loyal Helm
 Desc: A helm that always remembers who is friend or foe. Grants immunity to states that would confuse its wearer.
-Type: General Armour
+Type: Light Armour
 Price: 9000
 HP: 0
 MP: 0
@@ -869,7 +909,7 @@ Purchasable from: ["DauvillierBlacksmith"]
 ---
 Id 62: Shield of Brawn
 Desc: A shield that puts brawn over brains. Increases your MHP, but reduces your MMP.
-Type: Small Shield
+Type: Large Shield
 Price: 2600
 HP: 0
 MP: 0
@@ -1021,7 +1061,7 @@ Purchasable from: ["TalburyCobbler", "PeregrineMarket/Shipyard", "Anvil'sMarketI
 Used for making: ["Blacksmith's Boots"]
 ---
 Id 72: Iron Sabatons
-Desc: Large, heavy steel boots that protect your feet from those who wish to harm them.
+Desc: Large, heavy metal boots that protect your feet from those who wish to harm them.
 Type: Heavy Armour
 Price: 500
 HP: 0
@@ -1033,7 +1073,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "-1%"]]
-Purchasable from: ["Anvil'sMarketInterior", "SlumberwoodSmith"]
+Purchasable from: ["Bill'sBlacksmith", "Anvil'sMarketInterior", "SlumberwoodSmith"]
 ---
 Id 73: Hypersteel Sabatons
 Desc: Big, heavy sabatons made of the incredible alloy.
@@ -1358,20 +1398,18 @@ Purchasable from: ["TalburyMarket"]
 Used for making: ["Dread Scythe"]
 ---
 Id 94: A Really Cool Hat
-Desc: A really cool hat. Increases LUK immensly, but your resistance to ailments is greatly reduced.
+Desc: It is a REALLY cool hat. Increases LUK immensely but you become passively Hexed.
 Type: General Armour
-Price: 7500
+Price: 10000
 HP: 0
 MP: 0
 Attack: 0
-Defence: 0
+Defence: 4
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
-Luck: 200
-Features and Traits: [["State Rate: ", "Poison", "150%"], ["State Rate: ", "Blind", "150%"], ["State Rate: ", "Silence", "150%"], ["State Rate: ", "Confusion", "150%"], ["State Rate: ", "Sleep", "150%"], ["State Rate: ", "Paralysis", "150%"], ["State Rate: ", "Stun", "150%"], ["State Rate: ", "Freezing", "150%"], ["State Rate: ", "Knocked Over", "150%"], ["State Rate: ", "Headache", "150%"], ["State Rate: ", "Burn", "150%"], ["State Rate: ", "Fear", "150%"], ["State Rate: ", "Bleeding", "150%"], ["State Rate: ", "Pinned Down", "150%"], ["State Rate: ", "Hallucinating", "150%"], ["State Rate: ", "Curse of the Sinbearer", "150%"], ["State Rate: ", "Savage", "150%"], ["State Rate: ", "Hopeless", "150%"], ["State Rate: ", "Buttered", "150%"], ["State Rate: ", "Marked", "150%"], ["State Rate: ", "Thunderstorm", "150%"], ["State Rate: ", "Void Scar", "150%"], ["State Rate: ", "Acid Damage", "150%"], ["State Rate: ", "Wet", "150%"], ["State Rate: ", "Drowning", "150%"], ["State Rate: ", "Oozed", "150%"], ["State Rate: ", "Constricted", "150%"], ["State Rate: ", "Plagued", "150%"], ["State Rate: ", "Stats Eroded", "150%"], ["State Rate: ", "Hexed", "150%"], ["State Rate: ", "Weakening Field", "150%"], ["State Rate: ", "Oozed", "150%"]]
-Purchasable from: ["TalburyMarket", "PeregrinePortAlley"]
----
+Luck: 150
+-^-ERR-^-
 Id 95: Armour of the Hellclad
 Desc: \}The mythic suit of armour worn by members of the ancient warrior clan, the "Hellclad". Domosseus, their last commander, has been defeated. Doubles REC.
 Type: Heavy Armour
@@ -1587,7 +1625,7 @@ Used for making: ["Aurora Cloak", "Tsunami Ward"]
 Id 109: Soul Orb
 Desc: \}An orb that creates an invisible barrier to protect your Soul. Increases Soul resistance and gives immunity to instant Death attacks, but lowers PR.
 Type: General Armour
-Price: 6000
+Price: 9000
 HP: 0
 MP: 0
 Attack: 0
@@ -1660,9 +1698,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk State: ", "Stun", "10%"]]
-Ingredients: [["Wood", 1]]
 Purchasable from: ["TalburyMarket", "Anvil'sMarketInterior"]
-Used for making: ["Fishhead Arrows", "Poison-tipped Arrows"]
 ---
 Id 114: Fishhead Arrows
 Desc: A barbed arrowhead used for fishing. Can Bleed targets.
@@ -1677,9 +1713,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk State: ", "Bleeding", "5%"]]
-Ingredients: [["Wood", 1], ["Blunthead Arrows", 1]]
 Purchasable from: ["TalburyMarket", "PeregrineMarket/Shipyard", "Anvil'sMarketInterior", "DauvillierShop", "DauvillierBlacksmith"]
-Used for making: ["Crescent Arrows"]
 ---
 Id 115: Crescent Arrows
 Desc: Crescent-shaped arrows used to instantly decapitate birds. Higher chance to Bleed than fishheads.
@@ -1694,9 +1728,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk State: ", "Bleeding", "10%"]]
-Ingredients: [["Wood", 1], ["Iron Ore", 1], ["Fishhead Arrows", 1]]
 Purchasable from: ["TalburyMarket", "Anvil'sMarketInterior", "DauvillierBlacksmith"]
-Used for making: ["Broadhead Arrows"]
 ---
 Id 116: Broadhead Arrows
 Desc: A very wide and sharp arrowhead used for big game hunting. Higher chance to Bleed than crescent ones.
@@ -1711,9 +1743,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk State: ", "Bleeding", "15%"]]
-Ingredients: [["Wood", 2], ["Iron Ore", 2], ["Crescent Arrows", 1]]
 Purchasable from: ["IfradBlacksmith", "Anvil'sMarketInterior", "DauvillierBlacksmith"]
-Used for making: ["Serrated Broadhead Arrows"]
 ---
 Id 117: Serrated Broadhead Arrows
 Desc: Broadhead arrows with serrated edges. Higher chance to Bleed than general broadheads.
@@ -1728,9 +1758,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk State: ", "Bleeding", "20%"]]
-Ingredients: [["Wood", 2], ["Silver Ore", 2], ["Broadhead Arrows", 2]]
 Purchasable from: ["Anvil'sMarketInterior"]
-Used for making: ["Hooked Arrows"]
 ---
 Id 118: Hooked Arrows
 Desc: Broadheads with bladed hooks that are incredibly deadly. Very high chance to Bleed targets.
@@ -1745,7 +1773,6 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk State: ", "Bleeding", "25%"]]
-Ingredients: [["Wood", 3], ["Silver Ore", 5], ["Serrated Broadhead Arrows", 2]]
 ---
 Id 119: Poison-tipped Arrows
 Desc: Fieldhead arrows dipped in hornet venom. Can Poison targets.
@@ -1760,7 +1787,6 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk State: ", "Poison", "10%"]]
-Ingredients: [["Blunthead Arrows", 1], ["Hornet Venom", 2]]
 Purchasable from: ["TalburyMarket", "Anvil'sMarketInterior"]
 ---
 Id 120: Flaming Arrows
@@ -1808,7 +1834,7 @@ Features and Traits: [["Atk State: ", "Sleep", "25%"]]
 Purchasable from: ["IfradBlacksmith"]
 ---
 Id 123: Charm of Retribution
-Desc: A necklace that bolsters those that counter-attack often. Only when countering, your ATK is doubled.
+Desc: A necklace that bolsters those that counterattack often. Only when countering, your ATK is doubled.
 Type: General Armour
 Price: 6000
 HP: 0
@@ -1820,6 +1846,20 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "CNT", "5%"]]
+---
+Id 124: Trail of Faith
+Desc: \}These steel-plated boots have been sanctified by a revered cleric. Some believe that even the ground these step on are holy. The party gains Holy Aura at the start of combat.
+Type: Magic Armour
+Price: 12000
+HP: 0
+MP: 0
+Attack: 0
+Defence: 3
+Magical Attack: 0
+Magical Defence: 6
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "EVA", "0%"]]
 ---
 Id 125: Talbrian Arrows
 Desc: \}A hallmark of Talbrian history and expertise, this arrow is among the most precise and powerful to date. Slightly increases CRI.
@@ -1956,6 +1996,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Ice"]]
 Purchasable from: ["IfradBlacksmith", "Anvil'sMarketInterior"]
+Used for making: ["Scythe of Hoarfrost"]
 ---
 Id 134: Airblade Arrows
 Desc: Arrows imbued with the power of Wind, changing your attack element to it.
@@ -2018,6 +2059,35 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Nature"]]
 Purchasable from: ["TalburyMarket"]
+---
+Id 138: Feather of Forfeiture
+Desc: \}A feather from an ancient creature, said to have the power to will the dead back to life. Your revival spells are 15% more successful, but they are 15% less successful against you.
+Type: General Armour
+Price: 18000
+HP: 0
+MP: 50
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["State Rate: ", "Death", "125%"]]
+Dropped By: [["Crestfallen Saint", "6%"]]
+---
+Id 139: Jade Necklace
+Desc: A necklace made using a tiny offcut of rare jadeite.
+Type: General Armour
+Price: 3500
+HP: 0
+MP: 40
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 2
+Agility: 0
+Luck: 0
+Purchasable from: ["DauvillierShop"]
 ---
 Id 140: Archer's Armguard
 Desc: \}A specialised wrist strap that protects the archer from being slapped by the bow string, allowing for more accurate shots.
@@ -2318,6 +2388,20 @@ Luck: 0
 Features and Traits: [["+Action Chance: ", "25%"], ["ExParam: ", "HIT", "5%"]]
 Purchasable from: ["FlowemBlacksmith", "Bill'sBlacksmith", "SlumberwoodSmith", "DauvillierBlacksmith"]
 ---
+Id 160: Feather of Merit
+Desc: \}A Talbrian medal given to civilians that proved their bravery and valour in the face of adversity. Increases CRI and TCR slightly.
+Type: General Armour
+Price: 0
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 15
+Luck: 15
+Features and Traits: [["ExParam: ", "CRI", "2%"], ["SpParam: ", "TCR", "x1.1"]]
+---
 Id 161: Rotary Spearhead
 Desc: \}The spearhead spins super fast, like a drill! It's completely impractical, but hilarious! Adds high Bleed chance.
 Type: Spear Attachments
@@ -2380,7 +2464,7 @@ Features and Traits: [["ExParam: ", "EVA", "-2%"]]
 Id 165: Vezran's Cloak
 Desc: The cloak worn by none other than the Slayer of the Sages. Slightly reduces MP costs.
 Type: Magic Armour
-Price: 25000
+Price: 0
 HP: 0
 MP: 0
 Attack: 0
@@ -2390,12 +2474,11 @@ Magical Defence: 45
 Agility: 0
 Luck: 0
 Features and Traits: [["SpParam: ", "MCR", "x0.8"]]
-Dropped By: [["Vezran", "100%"]]
 ---
 Id 166: Supreme Templar's Armour
 Desc: The armour worn falsely by the Diabolous. The greatest armour the Templars can offer. 
 Type: Light Armour
-Price: 28000
+Price: 0
 HP: 0
 MP: 50
 Attack: 0
@@ -2405,7 +2488,6 @@ Magical Defence: 40
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "HRG", "10%"], ["ExParam: ", "EVA", "5%"]]
-Dropped By: [["Diabolous", "33%"]]
 ---
 Id 167: Frosted Scale Mail
 Desc: Glistening mail covered in a thin frost. Gives Ice resistance.
@@ -2485,7 +2567,7 @@ Used for making: ["Blightsludge Husk", "Lifevine Striders"]
 ---
 Id 172: Oaken Vanguard
 Desc: A suit of carefully carved wood that, while uncomfortable, is remarkably effective.
-Type: General Armour
+Type: Light Armour
 Price: 9000
 HP: 0
 MP: 0
@@ -2515,7 +2597,7 @@ Ingredients: [["Runed Robe", 1], ["Red Pearl Orchid", 1], ["Everbloom", 1], ["Ye
 ---
 Id 174: Verdant Leafshroud
 Desc: A cloak made of many large leaves, made in recognition of the Shadow of the Forest. Increases PHA.
-Type: Light Armour
+Type: Magic Armour
 Price: 11000
 HP: 0
 MP: 0
@@ -2806,18 +2888,18 @@ Ingredients: [["Knight Helm", 1], ["Scorchlog", 1], ["Crystalised Flame", 1]]
 Used for making: ["Void-Breather's Cage"]
 ---
 Id 193: Magnetic Shield
-Desc: A shield that has a strong attraction to many pieces of weapons and armour, increasing multiple stats.
+Desc: A shield that has a strong attraction to many pieces of weapons and armour, increasing EVA, CEV, and resistance DEF loss.
 Type: Large Shield
 Price: 7000
 HP: 0
 MP: 0
 Attack: 0
-Defence: 28
+Defence: 25
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["ExParam: ", "EVA", "8%"], ["ExParam: ", "CEV", "4%"], ["Debuff Rate: ", "ATK", "75%"], ["Debuff Rate: ", "DEF", "50%"], ["Gain Skill: ", "Shield Charge"]]
+Features and Traits: [["ExParam: ", "EVA", "8%"], ["ExParam: ", "CEV", "4%"], ["Debuff Rate: ", "DEF", "50%"], ["Gain Skill: ", "Shield Charge"]]
 ---
 Id 194: Liquood
 Desc: A wooden log that, weirdly, seems to be melting. Increases your PR charge rate but heavily reduces your target rate.
@@ -3017,7 +3099,7 @@ Ingredients: [["Hypersteel Plate", 1], ["Tears of Cedarus", 2], ["Conch Shell", 
 ---
 Id 207: Torrential Vanguard
 Desc: A helmet that grants it's wearer mild control over surrounding water.
-Type: General Armour
+Type: Light Armour
 Price: 12500
 HP: 0
 MP: 0
@@ -3078,7 +3160,7 @@ Ingredients: [["Magi's Crown", 1], ["Omnium", 2], ["Exemplary MAT Paragon", 1]]
 ---
 Id 211: Gauntlet of the Accursed
 Desc: \}This gauntlet binds itself to its wearer, greatly increasing their offensive power - at the small cost of half their life force...
-Type: General Armour
+Type: Light Armour
 Price: 20000
 HP: 0
 MP: 0
@@ -3198,11 +3280,11 @@ Purchasable from: ["Anvil'sMarketInterior", "MarrarockShop"]
 Id 219: Ironbark Shield
 Desc: A shield made with ironbark and hypersteel, this barrier will last a lifetime. 
 Type: Large Shield
-Price: 4500
+Price: 4000
 HP: 0
 MP: 0
 Attack: 0
-Defence: 28
+Defence: 22
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
@@ -3214,11 +3296,11 @@ Purchasable from: ["Anvil'sMarketInterior"]
 Id 220: Ironbark Shell
 Desc: A cuirass made from ironbark. It's heavy, it's uncomfortable, but it'll keep your body safe.
 Type: Heavy Armour
-Price: 5000
+Price: 4500
 HP: 0
 MP: 0
 Attack: 0
-Defence: 29
+Defence: 25
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
@@ -3228,12 +3310,12 @@ Ingredients: [["Iron Plate", 1], ["Ironbark", 4]]
 ---
 Id 221: Ferrous Hardhat
 Desc: An ironwood helmet made for Marrarockan miners that covers your head from debris.
-Type: General Armour
-Price: 3500
+Type: Light Armour
+Price: 3000
 HP: 0
 MP: 0
 Attack: 0
-Defence: 22
+Defence: 19
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
@@ -3242,7 +3324,7 @@ Ingredients: [["Ironbark", 2]]
 ---
 Id 222: Flow Amplifier
 Desc: \}Casting magic through this gauntlet charges the Flow that passes through it, causing stronger magic but also an intense strain on the wearer. Higher MCR and TCR.
-Type: General Armour
+Type: Magic Armour
 Price: 18000
 HP: 0
 MP: 0
@@ -3273,7 +3355,7 @@ Purchasable from: ["PeregrineShop", "MarrarockShop"]
 ---
 Id 224: Bronze Gauntlets
 Desc: Gauntlets made of bronze to protect your hands in combat.
-Type: General Armour
+Type: Light Armour
 Price: 500
 HP: 0
 MP: 0
@@ -3287,7 +3369,7 @@ Purchasable from: ["PeregrineShop", "DauvillierAntiqueShop"]
 ---
 Id 225: Iron Gauntlets
 Desc: Gauntlets made of iron to protect your hands in combat.
-Type: General Armour
+Type: Light Armour
 Price: 1100
 HP: 0
 MP: 0
@@ -3301,7 +3383,7 @@ Purchasable from: ["MarrarockShop", "SlumberwoodSmith"]
 ---
 Id 226: Hypersteel Gauntlets
 Desc: Gauntlets made of the incredible alloy.
-Type: General Armour
+Type: Heavy Armour
 Price: 2800
 HP: 0
 MP: 0
@@ -3346,7 +3428,7 @@ Purchasable from: ["MarrarockShop"]
 ---
 Id 230: Ifradian Gauntlets
 Desc: Armoured gauntlets worn by the soldiers of Ifrad.
-Type: General Armour
+Type: Heavy Armour
 Price: 1900
 HP: 0
 MP: 0
@@ -3375,7 +3457,7 @@ Purchasable from: ["IfradBlacksmith"]
 ---
 Id 232: Bronze Sabatons
 Desc: Boots of bronze that'll protect you from even the toughest of table legs.
-Type: Heavy Armour
+Type: Light Armour
 Price: 500
 HP: 0
 MP: 0
@@ -3542,7 +3624,7 @@ Features and Traits: [["ExParam: ", "HIT", "25%"]]
 Ingredients: [["Rialite", 2], ["HIT Grit", 2], ["HIT Paragon", 1], ["Exemplary HIT Paragon", 1]]
 ---
 Id 244: CRI Paragon
-Desc: A Paragon made by refining Rialite with CRI Grit. +3% CRI.
+Desc: A Paragon made by refining Rialite with CRI Grit. +2% CRI.
 Type: General Armour
 Price: 6000
 HP: 0
@@ -3601,6 +3683,7 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Ingredients: [["Rialite", 1], ["MAT Grit", 1]]
+Dropped By: [["Reaping Volwrath", "100%"]]
 Used for making: ["Exemplary MAT Paragon", "Masterpiece MAT Paragon"]
 ---
 Id 248: Exemplary MAT Paragon
@@ -4690,7 +4773,7 @@ Used for making: ["Ascerothan Gauntlets"]
 ---
 Id 320: Ascerothan Gauntlets
 Desc: Ascerothan gauntlets that will once again see the glory of battle. REC is increased by 50%.
-Type: General Armour
+Type: Light Armour
 Price: 10000
 HP: 0
 MP: 0
@@ -4720,7 +4803,7 @@ Used for making: ["King's Grace"]
 ---
 Id 322: King's Grace
 Desc: \}A lone golden gauntlet encrusted in gems that was once worn by ancient monarchs. Grants immunity to all debuffs (not states).
-Type: General Armour
+Type: Light Armour
 Price: 13000
 HP: 0
 MP: 0
@@ -4751,7 +4834,7 @@ Used for making: ["Legend's Safeguard"]
 Id 324: Legend's Safeguard
 Desc: A gilded shield renowned for being in an unnamed, yet remarkable warrior's possession. Increases MHP by 25%.
 Type: Large Shield
-Price: 17500
+Price: 19000
 HP: 0
 MP: 0
 Attack: 0
@@ -4771,7 +4854,7 @@ Price: 0
 HP: 0
 MP: 0
 Attack: 0
-Defence: 110
+Defence: 130
 Magical Attack: 0
 Magical Defence: 90
 Agility: 0
@@ -4786,9 +4869,9 @@ Price: 0
 HP: 0
 MP: 0
 Attack: 0
-Defence: 45
+Defence: 50
 Magical Attack: 30
-Magical Defence: 125
+Magical Defence: 140
 Agility: 0
 Luck: 0
 Features and Traits: [["SpParam: ", "TCR", "x2.0"]]
@@ -4811,7 +4894,7 @@ Ingredients: [["Legend's Safeguard", 1], ["Magic Repressor", 1], ["Raxorium Ore"
 ---
 Id 328: Grasp of the Void
 Desc: A gauntlet made of remnant Void energy. The fingers twitch and fidget on their own. Magic costs 20% as much to cast.
-Type: General Armour
+Type: Magic Armour
 Price: 0
 HP: 0
 MP: 0
@@ -4856,7 +4939,7 @@ Ingredients: [["Igneous Bulwark", 1], ["Magic Repressor", 1], ["Raxorium Ore", 2
 ---
 Id 331: Void Steppers
 Desc: Boots of remnant Void energy. They stand upon a wispy sheet of Void. Grants the Void Vanish skill.
-Type: General Armour
+Type: Magic Armour
 Price: 0
 HP: 0
 MP: 0
@@ -5078,18 +5161,18 @@ Purchasable from: ["TalburyMarket"]
 Used for making: ["Riskmaster's Coin"]
 ---
 Id 350: Sanguine Oath
-Desc: \}A deathly shield that endlessly lusts for a splash of fresh crimson blood. After taking or inflicting a total of 2,000 damage, you gain a random permanent buff.
+Desc: \}A deathly shield that endlessly lusts for a splash of fresh crimson blood. After taking or inflicting a total of 3,000 damage, you gain a random permanent buff.
 Type: Large Shield
-Price: 16000
+Price: 17500
 HP: 0
 MP: 0
 Attack: 0
-Defence: 34
+Defence: 37
 Magical Attack: 0
 Magical Defence: 46
 Agility: 0
 Luck: 0
-Features and Traits: [["ExParam: ", "EVA", "10%"], ["ExParam: ", "CEV", "6%"], ["Atk Speed: ", -2], ["Gain Skill: ", "Shield Charge"]]
+Features and Traits: [["ExParam: ", "EVA", "10%"], ["ExParam: ", "CEV", "4%"], ["Atk Speed: ", -2], ["Gain Skill: ", "Shield Charge"]]
 Dropped By: [["Malignant Volwrath", "33%"]]
 ---
 Id 351: Prismatic Morphguard
@@ -5124,7 +5207,7 @@ Id 353: Reverstone of Vitality
 Desc: A thick stone slab chiseled with ineffable ramblings. Though, it seems to be able to invert HP Regeneration.
 Type: General Armour
 Price: 9500
-HP: 200
+HP: 130
 MP: 0
 Attack: 0
 Defence: 0
@@ -5149,7 +5232,7 @@ Luck: 50
 Ingredients: [["Riskmaker's Coin", 1], ["Silver Ore", 2], ["Liquid Gold", 1], ["Luck Up", 2]]
 ---
 Id 355: Raiment of the Sunborn
-Desc: \}A raiment that channels the golden light of a star, wrapping its wearer in an unyielding sense of glory. Grants immunity to Light and Fire but a mild weakness to Dark and Water.
+Desc: \}A raiment that channels the golden light of a star, wrapping its wearer in glory. Grants immunity to Light and Fire but a mild weakness to Dark and Water.
 Type: Magic Armour
 Price: 32000
 HP: 0
@@ -5172,7 +5255,7 @@ MP: 0
 Attack: 0
 Defence: 41
 Magical Attack: 26
-Magical Defence: 0
+Magical Defence: 10
 Agility: 0
 Luck: 0
 Features and Traits: [["Gain Skill: ", "Seraph's Resplendence"]]
@@ -5267,7 +5350,7 @@ Features and Traits: [["ExParam: ", "EVA", "3%"]]
 Purchasable from: ["PeregrineBlacksmiths", "FlowemBlacksmith"]
 ---
 Id 364: Rejuvenation Ring
-Desc: \}A ring that blurs the line between body and soul. While equipped, 10% of your HRG is also applied as MRG (Eg, 10% HRG = 1% MRG).
+Desc: \}A ring that blurs the line between body and soul. While equipped, 10% of your HRG is also applied as MRG (Eg, 10% HRG = 1% MRG).
 Type: General Armour
 Price: 9000
 HP: 100
@@ -5309,4 +5392,17 @@ Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "EVA", "9%"], ["SpParam: ", "GRD", "x1.5"]]
 Purchasable from: ["DauvillierBlacksmith"]
+---
+Id 367: Reverstone of Endurance
+Desc: \}A thick stone slab chiseled with ineffable ramblings. It prevents you from taking or healing more than 1000 HP in any single instance.
+Type: General Armour
+Price: 9500
+HP: 0
+MP: 0
+Attack: 0
+Defence: 13
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
 ---

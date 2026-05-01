@@ -141,10 +141,10 @@ Purchasable from: ["TalburyMysticShop", "DauvillierBlacksmith"]
 Id 10: Ashvine Coil
 Desc: \}A flail woven from toxin-hardened vines, said to grow only where the soil is scorched and tainted. Your attacks drain HP if the target is Poisoned.
 Type: Flail
-Price: 14000
+Price: 16000
 HP: 0
 MP: 0
-Attack: 65
+Attack: 75
 Defence: 0
 Magical Attack: 0
 Magical Defence: 0
@@ -231,12 +231,12 @@ Features and Traits: [["Attack Skill:", "Spear Attack"]]
 Purchasable from: ["PeregrineBlacksmiths", "FlowemBlacksmith", "Anvil'sMarketInterior", "SlumberwoodSmith"]
 ---
 Id 16: Hypersteel Halberd
-Desc: Spear made of the incredible alloy.
+Desc: Halberd made of the incredible alloy.
 Type: Spear
-Price: 6500
+Price: 7500
 HP: 0
 MP: 0
-Attack: 47
+Attack: 57
 Defence: 0
 Magical Attack: 0
 Magical Defence: 0
@@ -259,7 +259,6 @@ Magical Defence: 5
 Agility: 0
 Luck: 0
 Features and Traits: [["Attack Skill:", "Spear Attack"]]
-Dropped By: [["Crestfallen Saint", "6%"]]
 Purchasable from: ["Bill'sBlacksmith"]
 ---
 Id 18: Gaebulg Spear
@@ -328,10 +327,10 @@ Used for making: ["Sealord's Bane"]
 Id 22: Hypersteel Sword
 Desc: Longsword made of the incredible alloy.
 Type: Sword
-Price: 6500
+Price: 7500
 HP: 0
 MP: 0
-Attack: 47
+Attack: 57
 Defence: 0
 Magical Attack: 0
 Magical Defence: 0
@@ -367,15 +366,14 @@ Magical Attack: 20
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Dropped By: [["Ivy", "25%"]]
 ---
 Id 25: Lunar Eclipse
 Desc: Forged with silver, this flail resembling the moon dimly shines even in darkness. CNT increases the lower your HP is.
 Type: Flail
-Price: 15000
+Price: 17500
 HP: 200
 MP: 0
-Attack: 78
+Attack: 82
 Defence: 0
 Magical Attack: 0
 Magical Defence: 0
@@ -431,17 +429,16 @@ Purchasable from: ["PeregrineBlacksmiths", "Anvil'sMarketInterior", "Slumberwood
 Id 29: Hypersteel Scythe
 Desc: Scythe made of the incredible alloy.
 Type: Scythe
-Price: 6500
+Price: 7500
 HP: 0
 MP: 0
-Attack: 40
+Attack: 50
 Defence: 0
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Attack Skill:", "Scythe Attack"]]
-Dropped By: [["Ivy", "25%"]]
 Purchasable from: ["Anvil'sMarketInterior", "Blacksmith&MiningShop"]
 Used for making: ["Windshear Crescent", "Dread Scythe", "Soulcleave Reaper", "Scythe of Hoarfrost"]
 ---
@@ -459,7 +456,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Dark"], ["Atk State: ", "Fear", "15%"], ["Attack Skill:", "Scythe Attack"]]
 Ingredients: [["Hypersteel Scythe", 1], ["Stygian Scythe", 1], ["Lightless Lantern", 2], ["Oil of Ill-Intent", 2]]
-Used for making: ["Scourge of Maelsium", "Voidgloom Reaper"]
+Used for making: ["Scourge of Maelsium"]
 ---
 Id 31: Shortbow
 Desc: A shortbow made for light use, mostly for recreation. Bows give you AtkSpeed and CRI at the cost of a shield.
@@ -511,10 +508,10 @@ Purchasable from: ["TalburyMarket", "Anvil'sMarketInterior", "SlumberwoodSmith"]
 Id 34: Hypersteel Bow
 Desc: A powerful bow partly made with the incredible alloy.
 Type: Bow
-Price: 6500
+Price: 7500
 HP: 0
 MP: 0
-Attack: 46
+Attack: 53
 Defence: 0
 Magical Attack: 0
 Magical Defence: 0
@@ -608,7 +605,7 @@ Type: Dagger
 Price: 6500
 HP: 0
 MP: 0
-Attack: 28
+Attack: 32
 Defence: 0
 Magical Attack: 0
 Magical Defence: 0
@@ -702,7 +699,7 @@ Type: Hammer
 Price: 6500
 HP: 0
 MP: 0
-Attack: 49
+Attack: 59
 Defence: 0
 Magical Attack: 0
 Magical Defence: 0
@@ -822,11 +819,11 @@ Magical Defence: 8
 Agility: 0
 Luck: 0
 Features and Traits: [["ExParam: ", "MRG", "2%"]]
-Dropped By: [["Bone Mage", "7%"]]
+Dropped By: [["Bone Conjurer", "7%"]]
 Used for making: ["Void Weaver's Loom"]
 ---
 Id 54: Prophet's Omen
-Desc: \}This sword can predict the Natural Flow itself, enabling once-impossible skills while wielding it. Greatly increases HIT, EVA, CNT, and CRI.
+Desc: \}This sword predicts the Natural Flow itself, enabling once-impossible skills when wielding it. Greatly increases HIT, EVA, CNT, CRI, and you cannot be countered.
 Type: Sword
 Price: 20000
 HP: 0
@@ -883,7 +880,7 @@ Magical Defence: 0
 Agility: 50
 Luck: 0
 Features and Traits: [["ExParam: ", "HIT", "100%"], ["ExParam: ", "CRI", "20%"], ["Atk Element: ", "Air"], ["Atk Element: ", "Storm"], ["ExParam: ", "MRG", "25%"]]
-Ingredients: [["Revenant's Pact", 1], ["Lightning Fork", 1], ["Tempora Raxorium", 3], ["Tempora Essence", 1], ["Flow Conduit", 1], ["Artefact Shards", 2], ["Soul Vigour Vial", 1]]
+Ingredients: [["Lord of Chaos' Sceptre", 1], ["Lightning Fork", 1], ["Tempora Raxorium", 3], ["Tempora Essence", 1], ["Flow Conduit", 1], ["Artefact Shards", 2], ["Soul Vigour Vial", 1]]
 ---
 Id 58: Wake of Elazireth
 Desc: The Wake of Elazireth Aqua Spear is the most powerful spear in existence.
@@ -930,8 +927,8 @@ Luck: 0
 Features and Traits: [["Atk Element: ", "Earth"], ["Atk Element: ", "Nature"], ["Atk Element: ", "Unique"], ["ExParam: ", "HIT", "100%"], ["ExParam: ", "CRI", "20%"], ["Seal Equip: ", "Shield"], ["Atk State: ", "Stun", "30%"]]
 Ingredients: [["Boulder Bludgeoner", 1], ["Gnarled Smasher", 1], ["Zysargia Raxorium", 3], ["Zysargia Essence", 1], ["Flow Conduit", 1], ["Artefact Shards", 2], ["Soul Vigour Vial", 1]]
 ---
-Id 61: Sword of Retribution
-Desc: A sword gifted to Xavier to assist in the vengeance of his father's killer.
+Id 61: Herald of Retribution
+Desc: An ancient sword that is still in great condition, known to have once been in Photrin's possesion.
 Type: Unique
 Price: 0
 HP: 0
@@ -959,7 +956,7 @@ Luck: 0
 Features and Traits: [["Atk Element: ", "Ice"], ["Atk State: ", "Freezing", "10%"], ["Gain Skill: ", "Glacial Hyperslash"], ["ExParam: ", "CNT", "10%"]]
 ---
 Id 63: Eagle Bow
-Desc: This mythical bow is the heirloom of the Sage of the Bow lineage.
+Desc: \}This mythical bow is the heirloom of the Sage of the Bow lineage. While its origin is unclear, scholars believe Falcor himself to have been its skilled sculptor.
 Type: Unique
 Price: 0
 HP: 0
@@ -970,10 +967,10 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 50
-Features and Traits: [["Atk Element: ", "Air"], ["ExParam: ", "HIT", "15%"], ["Atk State: ", "Knocked Over", "10%"], ["Gain Skill: ", "Windswept Hypershot"], ["ExParam: ", "CRI", "5%"]]
+Features and Traits: [["Atk Element: ", "Air"], ["ExParam: ", "HIT", "15%"], ["Atk State: ", "Knocked Over", "10%"], ["Gain Skill: ", "Windswept Hypershot"], ["ExParam: ", "CRI", "8%"]]
 ---
-Id 64: Cavadraken Sacred Staff
-Desc: A sanctified staff used only by Cavadraken's chosen. Droconos had earned that title.
+Id 64: Sacred Staff of the Beholden
+Desc: \}A sanctified staff used only by Cavadrak's mightiest: the Dominica Meam. Archeologists debate its origin, some sources say it dates to before Cavadrak was founded.
 Type: Unique
 Price: 0
 HP: 0
@@ -1000,6 +997,7 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Dark"], ["ExParam: ", "HIT", "5%"], ["ExParam: ", "MRG", "8%"]]
 Dropped By: [["Baleful Volwrath", "100%"]]
+Used for making: ["Fury of Tempora"]
 ---
 Id 66: Radiance of Justicium
 Desc: The Radiance of Justicium God Bow is the most powerful bow in existence.
@@ -1231,10 +1229,10 @@ Purchasable from: ["PeregrineBlacksmiths", "Anvil'sMarketInterior", "Slumberwood
 Id 81: Hypersteel Flail
 Desc: A flail made from the incredible alloy.
 Type: Flail
-Price: 6500
+Price: 7500
 HP: 0
 MP: 0
-Attack: 37
+Attack: 51
 Defence: 0
 Magical Attack: 0
 Magical Defence: 0
@@ -1551,11 +1549,12 @@ Agility: 0
 Luck: 0
 Features and Traits: [["Gain Skill: ", "Soulreach Slash"], ["SpParam: ", "MCR", "x1.2"], ["Attack Skill:", "Scythe Attack"]]
 Ingredients: [["Soulreach Sabre", 1], ["Hypersteel Scythe", 1], ["Soul Orb", 1], ["Omnium", 2], ["Ironbark", 3], ["Obsidian Shard", 3]]
+Used for making: ["Voidgloom Reaper"]
 ---
 Id 102: Vezran's Sword
 Desc: A seldom used blade forged in a diabolous smithy. Sports an increased CRI.
 Type: Sword
-Price: 12000
+Price: 0
 HP: 0
 MP: 0
 Attack: 54
@@ -1565,7 +1564,6 @@ Magical Defence: 0
 Agility: 0
 Luck: 15
 Features and Traits: [["ExParam: ", "CRI", "3%"]]
-Dropped By: [["Vezran", "100%"]]
 ---
 Id 103: Blade of the Diabolous
 Desc: The bane of an entire species, this sword ended an untold number of lives. High chance to Burn.
@@ -1580,7 +1578,6 @@ Magical Defence: 0
 Agility: 45
 Luck: 0
 Features and Traits: [["ExParam: ", "HIT", "10%"], ["Can Dual Wield"], ["Atk State: ", "Burn", "50%"]]
-Dropped By: [["Diabolous", "33%"]]
 ---
 Id 104: Cold Shoulder
 Desc: A bludgeon so cold that your enemies can feel it just by looking at you. Be sure to show them up close, too.
@@ -1662,9 +1659,9 @@ Ingredients: [["Shortbow", 1], ["Fallen Star", 1], ["Earthquake Arrows", 2]]
 Purchasable from: ["Bill'sBlacksmith", "DauvillierBlacksmith"]
 ---
 Id 109: Scythe of Hoarfrost
-Desc: \}A scythe of unknown origins that has repeatedly appeared in ancient artwork, symbolising death. Increased HIT and a chance to Freeze.
+Desc: \}A scythe of unknown origins that has repeatedly appeared in ancient artwork, symbolising death. Any time you apply Freezing it has a 25% chance to become Frostbite.
 Type: Scythe
-Price: 12000
+Price: 14000
 HP: 0
 MP: 0
 Attack: 58
@@ -1673,8 +1670,8 @@ Magical Attack: 24
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Features and Traits: [["Atk Element: ", "Ice"], ["ExParam: ", "HIT", "5%"], ["Atk State: ", "Freezing", "8%"], ["Attack Skill:", "Scythe Attack"]]
-Ingredients: [["Hypersteel Scythe", 1], ["Fangfrost Paragon O", 1], ["Unmelting Ice", 2], ["Winter's Heart", 2]]
+Features and Traits: [["Atk Element: ", "Ice"], ["Atk State: ", "Freezing", "12%"], ["Attack Skill:", "Scythe Attack"]]
+Ingredients: [["Hypersteel Scythe", 1], ["Fangfrost Paragon O", 1], ["Unmelting Ice", 2], ["Fangfrost Arrows", 1], ["Winter's Heart", 2]]
 Dropped By: [["Stallion of Death", "7%"]]
 ---
 Id 110: Lightning Fork
@@ -1695,17 +1692,18 @@ Purchasable from: ["Bill'sBlacksmith", "SlumberwoodSmith"]
 Used for making: ["Fury of Tempora"]
 ---
 Id 111: Ironbark Cudgel
-Desc: A quarterstaff made from a rare tree found on mountainsides.
+Desc: A quarterstaff made from a rare tree found on mountainsides. High Stun chance.
 Type: Hammer
-Price: 8400
+Price: 6800
 HP: 0
 MP: 0
-Attack: 53
+Attack: 57
 Defence: 0
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
+Features and Traits: [["Atk State: ", "Stun", "10%"], ["Atk Element: ", "Unique"], ["Atk Speed: ", -3]]
 Ingredients: [["Wood Staff", 1], ["Iron Ore", 2], ["Ironbark", 2]]
 Purchasable from: ["Anvil'sMarketInterior"]
 Used for making: ["Gnarled Smasher"]
@@ -1762,29 +1760,28 @@ Type: Spear
 Price: 30000
 HP: 0
 MP: 0
-Attack: 137
+Attack: 97
 Defence: 0
-Magical Attack: 25
+Magical Attack: 50
 Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Dark"], ["State Rate: ", "Curse of the Doomed", "200%"], ["State Rate: ", "Curse of the Debilitated", "200%"], ["State Rate: ", "Curse of the Feeble", "200%"], ["State Rate: ", "Curse of the Laggard", "200%"], ["State Rate: ", "Curse of the Soulless", "200%"], ["Attack Skill:", "Vilebrand Fauchard Attack"], ["Passive State:", "Curse of the Sinbearer"]]
 Ingredients: [["Vilebrand Fauchard", 1], ["Shadow of Cowardice", 1], ["Oil of Ill-Intent", 3], ["Abbysal Fluid", 2], ["Hypersteel", 1]]
 ---
-Id 116: Revenant's Pact
-Desc: A sanctified sceptre that will occasionally turn an undead foe into a confused ally for a short time.
+Id 116: Master Cleric's Staff
+Desc: \}A rod wrapped in a sculpted snake, used only by the most skilled clerics of old. When you heal an ally, you heal a portion of the same amount yourself. Also boots REC.
 Type: Staff
-Price: 16500
+Price: 18000
 HP: 0
-MP: 0
-Attack: 16
+MP: 30
+Attack: 10
 Defence: 0
-Magical Attack: 75
-Magical Defence: 11
-Agility: 0
+Magical Attack: 102
+Magical Defence: 0
+Agility: 15
 Luck: 0
-Features and Traits: [["Atk Element: ", "Light"], ["ExParam: ", "MRG", "3%"]]
-Used for making: ["Fury of Tempora"]
+Features and Traits: [["SpParam: ", "REC", "x1.2"]]
 ---
 Id 117: Boulder Bludgeoner
 Desc: \}A hammer of impossible proportions that blow your foes into the next era. Extreme chance to Stun.
@@ -1805,10 +1802,10 @@ Used for making: ["Might of Zysargia"]
 Id 118: Magestic Lance
 Desc: A lightweight spear that even the most inexperienced wielder can use with grace.
 Type: Spear
-Price: 17000
+Price: 14000
 HP: 0
 MP: 0
-Attack: 74
+Attack: 58
 Defence: 0
 Magical Attack: 0
 Magical Defence: 0
@@ -1817,7 +1814,7 @@ Luck: 25
 Features and Traits: [["Attack Skill:", "Spear Attack"]]
 ---
 Id 119: Necrotic Sceptre
-Desc: \}A curious sceptre that seems to wreak death wherever it goes.
+Desc: A curious sceptre that seems to wreak death wherever it goes. Using it physically has a small chance to instantly kill.
 Type: Staff
 Price: 10000
 HP: 0
@@ -1829,7 +1826,7 @@ Magical Defence: 12
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Dark"], ["ExParam: ", "MRG", "4%"], ["Atk State: ", "Death", "5%"]]
-Dropped By: [["Reaping Volwrath", "100%"], ["Bone Conjurer", "7%"]]
+Dropped By: [["Bone Mage", "7%"]]
 ---
 Id 120: Magma Maul
 Desc: A mace made from encasing pure \fiactual\fr magma in a magic seal.
@@ -1947,7 +1944,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 11
 Luck: 0
-Features and Traits: [["ExParam: ", "EVA", "9%"], ["Can Dual Wield"], ["Atk State: ", "Curse of the Doomed", "5%"], ["Atk State: ", "Curse of the Debilitated", "5%"], ["Atk State: ", "Curse of the Feeble", "5%"], ["Atk State: ", "Curse of the Laggard", "5%"], ["Atk State: ", "Curse of the Soulless", "5%"]]
+Features and Traits: [["Atk Element: ", "Dark"], ["ExParam: ", "EVA", "9%"], ["Can Dual Wield"], ["Atk State: ", "Curse of the Doomed", "5%"], ["Atk State: ", "Curse of the Debilitated", "5%"], ["Atk State: ", "Curse of the Feeble", "5%"], ["Atk State: ", "Curse of the Laggard", "5%"], ["Atk State: ", "Curse of the Soulless", "5%"]]
 Dropped By: [["Damned Volwrath", "50%"]]
 ---
 Id 128: Soul Eviscerator
@@ -2039,7 +2036,7 @@ Magical Attack: 0
 Magical Defence: 0
 Agility: 15
 Luck: 0
-Features and Traits: [["ExParam: ", "EVA", "10%"], ["Can Dual Wield"]]
+Features and Traits: [["ExParam: ", "EVA", "13%"], ["Can Dual Wield"]]
 Ingredients: [["Dagger", 1], ["Insect Stinger", 1], ["Hornet Venom", 1]]
 ---
 Id 134: Bat's Sight
@@ -2105,18 +2102,17 @@ Used for making: ["Energy of Avaking"]
 ---
 Id 138: Ironbark Blade
 Desc: A sword crafted of Ironwood that'll stab 'em well and good.
-Type: Staff
-Price: 7500
+Type: Sword
+Price: 6500
 HP: 0
 MP: 0
-Attack: 55
+Attack: 49
 Defence: 0
 Magical Attack: 0
 Magical Defence: 0
 Agility: 0
 Luck: 0
-Ingredients: [["Ironbark", 4]]
----
+-^-ERR-^-
 Id 139: Forest Thomper
 Desc: A big ol' club made from Ironbark. Hefty, but will knock some sense into anything.
 Type: Hammer
@@ -2213,14 +2209,14 @@ Type: Scythe
 Price: 0
 HP: 0
 MP: 0
-Attack: 90
+Attack: 115
 Defence: 0
-Magical Attack: 90
+Magical Attack: 115
 Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Soul"], ["Atk State: ", "Void Scar", "5%"], ["Attack Skill:", "Voidgloom Attack"]]
-Ingredients: [["Dread Scythe", 1], ["Magic Repressor", 1], ["Raxorium Ore", 2], ["Void Residue", 3], ["Contaminated Conduit", 1]]
+Ingredients: [["Soulcleave Reaper", 1], ["Magic Repressor", 1], ["Raxorium Ore", 2], ["Void Residue", 3], ["Contaminated Conduit", 1]]
 ---
 Id 146: Voidfang Piercer
 Desc: A trident, sparking with Void energy, that can easily pierce any material. Extremely likely to inflict a Void Scar.
@@ -2228,9 +2224,9 @@ Type: Spear
 Price: 0
 HP: 0
 MP: 0
-Attack: 105
+Attack: 125
 Defence: 0
-Magical Attack: 105
+Magical Attack: 125
 Magical Defence: 0
 Agility: 0
 Luck: 0
@@ -2255,7 +2251,7 @@ Purchasable from: ["Bill'sBlacksmith"]
 Id 148: Ardent Raptor
 Desc: A blazing bow, allegedly forged in the volcano, that engulfs your targets with searing flames.
 Type: Bow
-Price: 22000
+Price: 18000
 HP: 0
 MP: 0
 Attack: 79
@@ -2264,7 +2260,7 @@ Magical Attack: 15
 Magical Defence: 0
 Agility: 15
 Luck: 0
-Features and Traits: [["Atk Element: ", "Fire"], ["Atk State: ", "Burn", "15%"], ["Seal Equip: ", "Shield"], ["ExParam: ", "CRI", "3%"], ["Atk Speed: ", 3]]
+Features and Traits: [["Atk Element: ", "Fire"], ["Atk State: ", "Burn", "15%"], ["Seal Equip: ", "Shield"], ["ExParam: ", "CRI", "4%"], ["Atk Speed: ", 3]]
 Ingredients: [["Ebony Bow", 1], ["Crystalised Flame", 2], ["Blazing Beverage", 3], ["Flare Arrows", 1], ["Hellfire Paragon O", 1]]
 Used for making: ["Blaze of Infermius", "Void's Eclipse"]
 ---
@@ -2290,13 +2286,13 @@ Type: Bow
 Price: 0
 HP: 0
 MP: 0
-Attack: 90
+Attack: 110
 Defence: 0
-Magical Attack: 90
+Magical Attack: 110
 Magical Defence: 0
 Agility: 10
 Luck: 25
-Features and Traits: [["Atk Element: ", "Soul"], ["ExParam: ", "CRI", "6%"], ["Atk Speed: ", 3], ["Atk State: ", "Hexed", "1000%"], ["Atk State: ", "Hexed", "1000%"]]
+Features and Traits: [["Atk Element: ", "Soul"], ["ExParam: ", "CRI", "6%"], ["Atk Speed: ", 3], ["Atk State: ", "Hexed", "1000%"], ["Atk State: ", "Hexed", "1000%"], ["Atk State: ", "Hexed", "1000%"]]
 Ingredients: [["Ardent Raptor", 1], ["Magic Repressor", 1], ["Raxorium Ore", 2], ["Void Residue", 3], ["Contaminated Conduit", 1]]
 ---
 Id 151: Heartpiercer
@@ -2322,7 +2318,7 @@ HP: 0
 MP: 0
 Attack: 60
 Defence: 0
-Magical Attack: 130
+Magical Attack: 145
 Magical Defence: 0
 Agility: 0
 Luck: 0
@@ -2376,7 +2372,7 @@ Features and Traits: [["Seal Equip: ", "Shield"], ["ExParam: ", "CRI", "4%"], ["
 Purchasable from: ["DauvillierBlacksmith"]
 ---
 Id 156: Hollow Knell
-Desc: \}Said to be hollow as the ringer inside the bell of this flail makes no sound, well, to those that are safe. Gain HP and MP when an enemy dies, regardless of cause.
+Desc: \}Said to be hollow as the ringer inside the bell of this flail would seem to make no sound. Gain HP and MP when an enemy dies, regardless of cause.
 Type: Flail
 Price: 13000
 HP: 150
@@ -2402,4 +2398,144 @@ Magical Defence: 0
 Agility: 0
 Luck: 0
 Features and Traits: [["Atk Element: ", "Light"], ["Attack Skill:", "Scythe Attack"]]
+---
+Id 158: Siege Hook
+Desc: \}Named after a siege engine, this hefty axe punishes those trying to defend themselves. Attacks ignore enemy GRD and PDR, and you cannot be countered.
+Type: Axe
+Price: 17500
+HP: 0
+MP: 0
+Attack: 106
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "HIT", "-9%"], ["Atk Speed: ", -5]]
+---
+Id 159: Romerulus' Masterpiece
+Desc: \}A flail made using the first hypersteel composition, the last known reminder of the original alloy. Believed to be Romerulus' final work before retiring from metallurgy.
+Type: Flail
+Price: 0
+HP: 0
+MP: 0
+Attack: 140
+Defence: 0
+Magical Attack: 0
+Magical Defence: 50
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Ice"], ["ExParam: ", "CNT", "15%"], ["Atk State: ", "Freezing", "15%"], ["ExParam: ", "HIT", "-3%"]]
+---
+Id 160: Light of Excellion
+Desc: \}A snowy sceptre known to have once been used by Gabriel. The source of its name isn't certain, but is thought to have been given long before Excellion closed their borders.
+Type: Staff
+Price: 0
+HP: 0
+MP: 0
+Attack: 0
+Defence: 0
+Magical Attack: 140
+Magical Defence: 50
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Light"], ["SpParam: ", "MDR", "x0.8"], ["Atk State: ", "Blind", "10%"], ["ExParam: ", "MRG", "10%"]]
+---
+Id 161: Tool of the Masters
+Desc: \}A heavy hammer used in large scale blacksmithing techniques since lost to time. Techniques pioneered by Ironclad, who this hammer is believed to have been made by.
+Type: Hammer
+Price: 0
+HP: 500
+MP: 0
+Attack: 140
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Earth"], ["SpParam: ", "PDR", "x0.8"], ["Atk State: ", "Stun", "20%"]]
+---
+Id 162: Ifris' Left Blade
+Desc: Ifris was a pragmatic man that had no fancy names for his weapons of choice. Raises your EVA significantly.
+Type: Dagger
+Price: 0
+HP: 0
+MP: 0
+Attack: 70
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 25
+Luck: 0
+Features and Traits: [["Atk Element: ", "Fire"], ["ExParam: ", "EVA", "15%"], ["Can Dual Wield"]]
+---
+Id 163: Ifris' Right Blade
+Desc: \}Ifris was a pragmatic man that had no fancy names for this weapons of choice. When you evade, all enemies take a small burst of Fire damage.
+Type: Dagger
+Price: 0
+HP: 0
+MP: 0
+Attack: 70
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 25
+Luck: 0
+Features and Traits: [["Atk Element: ", "Fire"], ["Atk State: ", "Burn", "15%"], ["Can Dual Wield"]]
+---
+Id 164: Bladed Sceptre
+Desc: An arcane focus that isn't afraid of up-close encounters. Small chance to Bleed.
+Type: Staff
+Price: 15500
+HP: 0
+MP: 0
+Attack: 65
+Defence: 0
+Magical Attack: 70
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk State: ", "Bleeding", "5%"], ["ExParam: ", "MRG", "2%"]]
+---
+Id 165: Headhunter's Flail
+Desc: A grotesque creation, this obscene weapon instills a lust for blood in its user. Your attacks are more likely to crit if the target is Bleeding.
+Type: Flail
+Price: 18000
+HP: 0
+MP: 0
+Attack: 83
+Defence: 0
+Magical Attack: 0
+Magical Defence: 0
+Agility: 0
+Luck: 30
+Features and Traits: [["Atk Element: ", "Dark"], ["ExParam: ", "HIT", "-5%"], ["ExParam: ", "CNT", "5%"], ["Atk State: ", "Fear", "10%"], ["Atk State: ", "Bleeding", "10%"]]
+---
+Id 166: Spellbook of Wonder and Whimsy
+Desc: \}A book of magic that will flip to a random page when opened, compelling you to cast whatever it landed on. Who knows what you'll get! Replaces your basic attack.
+Type: Staff
+Price: 20000
+HP: 0
+MP: 25
+Attack: 1
+Defence: 0
+Magical Attack: 50
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["ExParam: ", "MRG", "3%"], ["Attack Skill:", "Wonder and Whimsy"]]
+---
+Id 167: Lifedrinker
+Desc: The magic coursing through this staff preys on the blood it draws. All of your spells drain HP.
+Type: Staff
+Price: 24000
+HP: 300
+MP: 0
+Attack: 54
+Defence: 0
+Magical Attack: 97
+Magical Defence: 0
+Agility: 0
+Luck: 0
+Features and Traits: [["Atk Element: ", "Nature"], ["ExParam: ", "MRG", "4%"]]
 ---

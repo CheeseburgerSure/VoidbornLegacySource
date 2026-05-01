@@ -277,7 +277,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Brewing effects: [Flavour, [["PR: 10"], ["Potency: -1.5"]]]
-Dropped By: [["Blue Slime", "17%"], ["Green Slime", "20%"], ["Purple Slime", "17%"], ["Pink Slime", "20%"], ["Black Pus", "33%"], ["Sickening Ooze", "50%"]]
+Dropped By: [["Blue Slime", "17%"], ["Green Slime", "20%"], ["Purple Slime", "17%"], ["Pink Slime", "20%"], ["Black Pus", "33%"], ["Sickening Ooze", "50%"], ["Orange Slime", "20%"], ["Orange Slime", "10%"]]
 Purchasable from: ["TalburyMarket", "Anvil'sMarketInterior"]
 Used for making: ["Slime Remedy"]
 ---
@@ -314,21 +314,22 @@ Effects and Traits: [["Add State: ", "Poison", "100%"]]
 Brewing effects: [Potent, [["Potency: -1.5"]]]
 Dropped By: [["Hornet", "14%"], ["Mad Hornet", "14%"], ["Hornet Swarm", "25%"], ["Mad Hornet Swarm", "33%"], ["Dreadstinger Hornet Swarm", "100%"]]
 Purchasable from: ["TalburyMarket"]
-Used for making: ["Antidote", "Snake's Vengeance", "Hornet's Wrath", "Poison-tipped Arrows"]
+Used for making: ["Antidote", "Snake's Vengeance", "Hornet's Wrath"]
 ---
 Id 31: Ancient Insignia
 Desc: The insignia of a kingdom from a by-gone age. There may be a collector willing to trade for them.
 Type: Key
-Price: 0G
+Price: 30000G
 Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Mimic", "2%"], ["Devillish Mimic", "3%"], ["Abhorent Mimic", "3%"]]
+Purchasable from: ["Anvil'sMarketInterior"]
 ---
 Id 32: Raxorium Ore
 Desc: An indescribably rare metal with wonderous traits. It's allegedly linked to some by-gone species.
 Type: Key
-Price: 0G
+Price: 8000G
 Consume: No
 Scope: None
 Occasion: Never
@@ -342,7 +343,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
-Ingredients: [["Raxorium Ore", 1], ["Crystalised Flame", 2]]
+Ingredients: [["Raxorium Ore", 1], ["Infermius Essence", 1], ["Crystalised Flame", 2]]
 Used for making: ["Blaze of Infermius", "Infermius' Pyre"]
 ---
 Id 34: Elazireth Raxorium
@@ -352,7 +353,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
-Ingredients: [["Raxorium Ore", 1], ["Tears of Cedarus", 1], ["Winter's Heart", 1]]
+Ingredients: [["Raxorium Ore", 1], ["Elazireth Essence", 1], ["Tears of Cedarus", 1], ["Winter's Heart", 1]]
 Used for making: ["Wake of Elazireth", "Elazireth's Current"]
 ---
 Id 35: Zysargia Raxorium
@@ -362,7 +363,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
-Ingredients: [["Raxorium Ore", 1], ["Dylorien", 1], ["Fallen Star", 1]]
+Ingredients: [["Raxorium Ore", 1], ["Zysargia Essence", 1], ["Dylorien", 1], ["Fallen Star", 1]]
 Used for making: ["Might of Zysargia", "Zysargia's Ward"]
 ---
 Id 36: Tempora Raxorium
@@ -372,7 +373,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
-Ingredients: [["Raxorium Ore", 1], ["Wind's Wing", 1], ["Thundrite", 1]]
+Ingredients: [["Raxorium Ore", 1], ["Tempora Essence", 1], ["Wind's Wing", 1], ["Thundrite", 1]]
 Used for making: ["Fury of Tempora", "Tempora's Echo"]
 ---
 Id 37: Justicium Raxorium
@@ -382,7 +383,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
-Ingredients: [["Raxorium Ore", 1], ["Lustred Sundial", 2]]
+Ingredients: [["Raxorium Ore", 1], ["Justicium Essence", 1], ["Lustred Sundial", 2]]
 Used for making: ["Radiance of Justicium", "Justicium's Blessing"]
 ---
 Id 38: Maelsium Raxorium
@@ -392,7 +393,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
-Ingredients: [["Raxorium Ore", 1], ["Oil of Ill-Intent", 2]]
+Ingredients: [["Raxorium Ore", 1], ["Maelsium Essence", 1], ["Oil of Ill-Intent", 2]]
 Used for making: ["Scourge of Maelsium", "Maelsium's Reckoning"]
 ---
 Id 39: Avaking Raxorium
@@ -402,7 +403,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
-Ingredients: [["Raxorium Ore", 1], ["Ghostfruit", 3]]
+Ingredients: [["Raxorium Ore", 1], ["Avaking Essence", 1], ["Ghostfruit", 3]]
 Used for making: ["Energy of Avaking", "Avaking's Benevolence"]
 ---
 Id 40: Talbrian Ale
@@ -745,7 +746,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Mossy Bouldergeist", "13%"], ["Bouldergeist", "13%"], ["Rocklereige", "100%"]]
-Used for making: ["Hypersteel", "Hand Axe", "Spear", "Short Sword", "Knife", "Mace", "Terrahammer", "Anchor", "Ironbark Cudgel", "Boulder Bludgeoner", "Ascerothan Sabre", "Circlet", "Iron Plate", "Buckler", "Crescent Arrows", "Broadhead Arrows", "Tectonic Platemail", "Earthwarden's Mantle", "Gaiashell Carapace", "Ascerothan Gauntlets"]
+Used for making: ["Hypersteel", "Hand Axe", "Spear", "Short Sword", "Knife", "Mace", "Terrahammer", "Anchor", "Ironbark Cudgel", "Boulder Bludgeoner", "Ascerothan Sabre", "Circlet", "Iron Plate", "Buckler", "Tectonic Platemail", "Earthwarden's Mantle", "Gaiashell Carapace", "Ascerothan Gauntlets"]
 ---
 Id 74: Silver Ore
 Desc: A rare ore of the shimmering silver. Useful in Alchemy.
@@ -755,7 +756,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Dropped By: [["Amalgamation", "8%"], ["Mossy Bouldergeist", "7%"], ["Jagged Bouldergeist", "8%"], ["Rocklereige", "100%"]]
-Used for making: ["Hypersteel", "Windshear Crescent", "Prophet's Omen", "Candescent Cudgel", "Ascerothan Sabre", "Ascerothan Halberd", "Serrated Broadhead Arrows", "Hooked Arrows", "Ascerothan Gauntlets", "King's Grace", "Riskmaster's Coin"]
+Used for making: ["Hypersteel", "Windshear Crescent", "Prophet's Omen", "Candescent Cudgel", "Ascerothan Sabre", "Ascerothan Halberd", "Ascerothan Gauntlets", "King's Grace", "Riskmaster's Coin"]
 ---
 Id 75: Ghostfruit
 Desc: A rare fruit that resembles black apples, ghostfruit seem to lack a true physical form. Useful in Alchemy.
@@ -800,7 +801,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Purchasable from: ["FortCharlie", "TalburyMarket", "FlowemShop", "DauvillierShop", "FortBarry", "Caravan park"]
-Used for making: ["Hand Axe", "Hunter's Bow", "Spear", "Shortbow", "Wood Staff", "Gnarled Smasher", "Buckler", "Blunthead Arrows", "Fishhead Arrows", "Crescent Arrows", "Broadhead Arrows", "Serrated Broadhead Arrows", "Hooked Arrows", "Ship Shield", "Oaken Vanguard", "Earthwarden's Mantle"]
+Used for making: ["Hand Axe", "Hunter's Bow", "Spear", "Shortbow", "Wood Staff", "Gnarled Smasher", "Buckler", "Ship Shield", "Oaken Vanguard", "Earthwarden's Mantle"]
 ---
 Id 79: Fur
 Desc: A handful of thick fur. Useful in Alchemy.
@@ -837,7 +838,7 @@ Used for making: ["Song of Return", "Hypersteel", "Terrahammer", "Bronze Plate"]
 Id 82: Artefact Shards
 Desc: \}Shards of ancient artefacts. Sort after by someone somewhere.
 Type: Key
-Price: 0G
+Price: 2500G
 Consume: No
 Scope: None
 Occasion: Never
@@ -850,7 +851,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
-Used for making: ["Energy of Avaking"]
+Used for making: ["Avaking Raxorium", "Energy of Avaking"]
 ---
 Id 84: Zysargia Essence
 Desc: Soul essence of the Dragon Lord of the Earth, Zysargia. Used to refine the Dragon Lord weapons.
@@ -859,7 +860,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
-Used for making: ["Might of Zysargia"]
+Used for making: ["Zysargia Raxorium", "Might of Zysargia"]
 ---
 Id 85: Justicium Essence
 Desc: Soul essence of the Dragon Lord of Light, Justicium. Used to refine the Dragon Lord weapons.
@@ -868,7 +869,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
-Used for making: ["Radiance of Justicium"]
+Used for making: ["Justicium Raxorium", "Radiance of Justicium"]
 ---
 Id 86: Maelsium Essence
 Desc: Soul essence of the Dragon Lord of Dark, Maelsium. Used to refine the Dragon Lord weapons.
@@ -877,7 +878,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
-Used for making: ["Scourge of Maelsium"]
+Used for making: ["Maelsium Raxorium", "Scourge of Maelsium"]
 ---
 Id 87: Infermius Essence
 Desc: Soul essence of the Dragon Lord of Flames, Infermius. Used to refine the Dragon Lord weapons.
@@ -886,7 +887,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
-Used for making: ["Blaze of Infermius"]
+Used for making: ["Infermius Raxorium", "Blaze of Infermius"]
 ---
 Id 88: Tempora Essence
 Desc: Soul essence of the Dragon Lord of the Skies, Tempora. Used to refine the Dragon Lord weapons.
@@ -895,7 +896,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
-Used for making: ["Fury of Tempora"]
+Used for making: ["Tempora Raxorium", "Fury of Tempora"]
 ---
 Id 89: Elazireth Essence
 Desc: Soul essence of the Dragon Lord of the Seas, Elazireth. Used to refine the Dragon Lord weapons.
@@ -904,7 +905,7 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
-Used for making: ["Wake of Elazireth"]
+Used for making: ["Elazireth Raxorium", "Wake of Elazireth"]
 ---
 Id 91: Fish Oil Cream
 Desc: A viscous cream with various health benefits. Helps to clear blindness.
@@ -1004,14 +1005,6 @@ Consume: No
 Scope: None
 Occasion: Never
 ---
-Id 101: Firewood
-Desc: \}Scorchlog burns very easily, even when wet, and so is the preferable material to make firewood out of. You can use it to make campfires and rest.
-Type: Normal
-Price: 150G
-Consume: Yes
-Scope: None
-Occasion: Only from the Menu
----
 Id 102: Conch Shell
 Desc: Some say that if you set the shell to your ear, you can hear the distant sound of the shipmaster yelling "Ahoy!"...
 Type: Normal
@@ -1044,15 +1037,6 @@ Occasion: Never
 Dropped By: [["Abyssal Coraljaws", "10%"]]
 Purchasable from: ["PeregrineSailorsStop", "DauvillierShop"]
 Used for making: ["Sealord's Bane", "Oceanic Master's Aegis", "Torrential Vanguard"]
----
-Id 105: Cider
-Desc: \}An alcoholic beverage produced by the fermentation of apple juice. You can use this as a base without owning it.
-Type: Normal
-Price: 0G
-Consume: No
-Scope: None
-Occasion: Never
-Brewing effects: [Base, [["Potency: +1"]]]
 ---
 Id 106: Sausage Roll
 Desc: Greg's specialty. Recovers some HP.
@@ -1121,7 +1105,7 @@ Used for making: ["Energy of Avaking", "Scourge of Maelsium", "Fury of Tempora",
 Id 112: Song of Return
 Desc: A music box that plays a soothing song, said to invite mythical beasts back to their dens.
 Type: Normal
-Price: 600G
+Price: 900G
 Consume: No
 Scope: None
 Occasion: Never
@@ -1216,7 +1200,7 @@ Occasion: Only from the Menu
 Purchasable from: ["PeregrineSailorsStop"]
 ---
 Id 121: Tamrindi
-Desc: A refreshing beverage from Cavadrak made from boiling a rare fruit. Restores a good amount of HP.
+Desc: A refreshing beverage from Cavadrak made from extracting the essence of a rare fruit. Restores a good amount of HP.
 Type: Normal
 Price: 85G
 Consume: Yes
@@ -1282,12 +1266,11 @@ Price: 0G
 Consume: No
 Scope: None
 Occasion: Never
-Dropped By: [["Vezran", "100%"]]
 ---
 Id 128: Crystalised Flame
 Desc: Fire left behind from an unwavering Soul that collected into a fine gemstone of immense heat. Useful in alchemy.
 Type: Normal
-Price: 500G
+Price: 1500G
 Consume: No
 Scope: None
 Occasion: Never
@@ -1297,18 +1280,18 @@ Used for making: ["Infermius Raxorium", "Flow Conduit", "Flame Catalyst", "Ice B
 Id 129: Dylorien
 Desc: A flower said to be so inconceivably rare that there is only 1 plant in Adremesis that blooms with it. Useful in alchemy.
 Type: Normal
-Price: 500G
+Price: 1500G
 Consume: No
 Scope: None
 Occasion: Never
 Brewing effects: [Flavour, [["Level: 0.5"], ["Potency: -3"]]]
-Dropped By: [["Blooming Hunger", "7%"], ["Botyranny", "7%"], ["Zysargia", "100%"], ["Manticore", "100%"]]
+Dropped By: [["Blooming Hunger", "7%"], ["Botyranny", "9%"], ["Zysargia", "100%"], ["Manticore", "100%"]]
 Used for making: ["Zysargia Raxorium", "Flow Conduit", "Forest Catalyst", "Nature's Behest", "Gnarled Smasher", "Oaken Vanguard", "Deciduous Mantle", "Verdant Leafshroud", "Lifevine Striders", "Woodhammer Paragon O", "Exemplary Woodhammer Paragon O", "Woodhammer Paragon D", "Exemplary Woodhammer Paragon D", "Symbol Breaker Disc: Nature", "Zysargia's Ward"]
 ---
 Id 130: Winter's Heart
 Desc: A gemstone that mixed with ice crystals to form this gorgeous reminder of winter's beauty. Useful in alchemy.
 Type: Normal
-Price: 500G
+Price: 1500G
 Consume: No
 Scope: None
 Occasion: Never
@@ -1318,7 +1301,7 @@ Used for making: ["Elazireth Raxorium", "Flow Conduit", "Icicle Catalyst", "Cold
 Id 131: Tome of Permafrost
 Desc: A book dusted in snow that tells of many armaments fit for a winter wonderland.
 Type: Key
-Price: 2000G
+Price: 0G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
@@ -1346,7 +1329,7 @@ Occasion: Never
 Id 134: Book for Botanists
 Desc: A weirdly sweet-smelling book containing details on the creation of nature-esque equipment.
 Type: Key
-Price: 2000G
+Price: 0G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
@@ -1354,7 +1337,7 @@ Occasion: Only from the Menu
 Id 135: Magma Manuscript
 Desc: A book containing secrets to the craftmenship of some particularly hot gear.
 Type: Key
-Price: 2000G
+Price: 0G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
@@ -1377,6 +1360,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Ingredients: [["Crystalised Flame", 1], ["Dylorien", 1], ["Winter's Heart", 1], ["Tears of Cedarus", 1], ["Lustred Sundial", 1], ["Thundrite", 1], ["Oil of Ill-Intent", 1], ["Wind's Wing", 1], ["Fallen Star", 1]]
+Dropped By: [["William", "100%"], ["Baleful Volwrath", "3%"]]
 Used for making: ["Contaminated Conduit", "Flame Catalyst", "Icicle Catalyst", "Tempest Catalyst", "Ocean Catalyst", "Mountain Catalyst", "Sky Catalyst", "Astral Catalyst", "Night Catalyst", "Forest Catalyst", "Energy of Avaking", "Scourge of Maelsium", "Fury of Tempora", "Wake of Elazireth", "Blaze of Infermius", "Might of Zysargia", "Radiance of Justicium", "Soul Eviscerator", "Elemental Cloak", "Flow Amplifier", "Zysargia's Ward", "Tempora's Echo", "Maelsium's Reckoning", "Justicium's Blessing", "Infermius' Pyre", "Avaking's Benevolence", "Elazireth's Current"]
 ---
 Id 138: Ironbark
@@ -1393,7 +1377,7 @@ Used for making: ["Soulcleave Sabre", "Soulcleave Reaper", "Ironbark Cudgel", "I
 Id 139: Tears of Cedarus
 Desc: A vial of water from a stream hidden deep in Slumberwood, once blessed by the Ancient Sage Cedarus. Useful in alchemy.
 Type: Normal
-Price: 500G
+Price: 1500G
 Consume: No
 Scope: None
 Occasion: Never
@@ -1404,7 +1388,7 @@ Used for making: ["Elazireth Raxorium", "Flow Conduit", "Blessed Abjugation", "O
 Id 140: Lustred Sundial
 Desc: A radiant timepiece said to trap stray beams of sunlight, shining brightest when all else fades. Useful in alchemy.
 Type: Normal
-Price: 500G
+Price: 1500G
 Consume: No
 Scope: None
 Occasion: Never
@@ -1414,7 +1398,7 @@ Used for making: ["Justicium Raxorium", "Flow Conduit", "Blessed Abjugation", "A
 Id 141: Thundrite
 Desc: A mineral formed when lightning strikes solid stone in just the right way. Useful in alchemy.
 Type: Normal
-Price: 500G
+Price: 1500G
 Consume: No
 Scope: None
 Occasion: Never
@@ -1424,7 +1408,7 @@ Used for making: ["Tempora Raxorium", "Flow Conduit", "Tempest Catalyst", "Thund
 Id 142: Oil of Ill-Intent
 Desc: \}This mysterious fluid naturally found only on Devil's Eye Land that silently corrupts everything around it. Useful in alchemy.
 Type: Normal
-Price: 500G
+Price: 1500G
 Consume: No
 Scope: None
 Occasion: Never
@@ -1435,7 +1419,7 @@ Used for making: ["Maelsium Raxorium", "Flow Conduit", "Night Catalyst", "Dread 
 Id 143: Wind's Wing
 Desc: A very strange feather that doesn't come from any known species of bird, yet is still found randomly. Useful in alchemy.
 Type: Normal
-Price: 500G
+Price: 1500G
 Consume: No
 Scope: None
 Occasion: Never
@@ -1445,7 +1429,7 @@ Used for making: ["Tempora Raxorium", "Flow Conduit", "Sky Catalyst", "Windshear
 Id 144: Fallen Star
 Desc: A chunk of rock that fell from the sky at breakneck speed, its true origins are confusing scholars. Useful in alchemy.
 Type: Normal
-Price: 500G
+Price: 1500G
 Consume: No
 Scope: None
 Occasion: Never
@@ -1460,7 +1444,7 @@ Consume: No
 Scope: None
 Occasion: Never
 Brewing effects: [Flavour, [["PR: 50"], ["Apply: Void Scar"], ["Potency: +5"]]]
-Dropped By: [["Void Marshal", "25%"], ["Void Wraith", "25%"], ["Void Leviathan", "33%"], ["Void Eldritch Devourer", "100%"], ["Void Eldritch Devourer", "50%"], ["Void Weaver", "100%"], ["Void Weaver", "100%"]]
+Dropped By: [["Void Marshal", "25%"], ["Void Wraith", "25%"], ["Void Leviathan", "33%"], ["Void Eldritch Devourer", "100%"], ["Void Eldritch Devourer", "50%"], ["William", "50%"], ["Harrison", "50%"], ["Void Weaver", "100%"], ["Void Weaver", "100%"]]
 Used for making: ["Contaminated Conduit", "Voidgloom Reaper", "Voidfang Piercer", "Void's Eclipse", "Void Weaver's Loom", "Void-Wreathed Carapace", "Void-Wreathed Cloak", "Abyssal Voidguard", "Grasp of the Void", "Void Mistward", "Void-Breather's Cage", "Void Steppers", "Voidsoul Paragon"]
 ---
 Id 146: Omnium
@@ -1472,15 +1456,6 @@ Scope: None
 Occasion: Never
 Dropped By: [["Contorted Amalgamation", "7%"], ["Rocklesiege", "25%"], ["Rockleliege", "100%"], ["Aberrational Amalgamation", "13%"], ["Atomic Bouldergeist", "10%"]]
 Used for making: ["Prophet's Omen", "Soulcleave Sabre", "Soulcleave Reaper", "Beacon of Valour", "Hammer of Justice", "Ascerothan Halberd", "Heartrender", "Magic Repressor", "Strength Repressor", "King's Grace", "Legend's Safeguard"]
----
-Id 147: Wine
-Desc: An alcoholic drink typically made using grape, but can be made using a wide variety of fruity ingredients. You can use this as a base without owning it.
-Type: Normal
-Price: 0G
-Consume: No
-Scope: None
-Occasion: Never
-Brewing effects: [Base, [["Potency: +2"]]]
 ---
 Id 148: Elemental Escapades
 Desc: A book written by the Ancient Sage Gabriel about alchemising with the elements.
@@ -1505,7 +1480,7 @@ Used for making: ["Voidgloom Reaper", "Voidfang Piercer", "Void's Eclipse", "Voi
 Id 150: Light Literature
 Desc: Notes detailing some alchemic recipes of the Light element.
 Type: Key
-Price: 2000G
+Price: 0G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
@@ -1513,7 +1488,7 @@ Occasion: Only from the Menu
 Id 151: Shocking Shenanigans
 Desc: Contains a list of recipes for the most striking of electrical equipment. How SHOCKING!
 Type: Key
-Price: 2000G
+Price: 0G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
@@ -1521,7 +1496,7 @@ Occasion: Only from the Menu
 Id 152: Tectonic Treatise
 Desc: A surprisingly heavy book that details many different earth-shattering alchemic recipes.
 Type: Key
-Price: 2000G
+Price: 0G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
@@ -1529,7 +1504,7 @@ Occasion: Only from the Menu
 Id 153: Aerodynamic Album
 Desc: A book that tells of recipes for even the quickest of adventurers.
 Type: Key
-Price: 2000G
+Price: 0G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
@@ -1561,13 +1536,13 @@ Consume: No
 Scope: None
 Occasion: Never
 Brewing effects: [Flavour, [["Apply: Hallucinating"], ["Potency: -3.5"]]]
-Dropped By: [["Gazer", "8%"], ["Shadow Collossus", "100%"], ["Black Pus", "7%"], ["Sickening Ooze", "8%"], ["Stygian Ichor", "13%"]]
+Dropped By: [["Gazer", "8%"], ["Black Pus", "7%"], ["Sickening Ooze", "8%"], ["Stygian Ichor", "13%"]]
 Used for making: ["Harbinger of Sin", "Phantom Shadowmail", "Midnight Shroud", "Chaos Doomplate", "Blightsludge Husk"]
 ---
 Id 157: Egregious Equipment
 Desc: A book with a malevolent air about it. What's in here may not be safe for mortal eyes but...perhaps it's worth it...
 Type: Key
-Price: 2000G
+Price: 0G
 Consume: No
 Scope: None
 Occasion: Only from the Menu
@@ -1634,7 +1609,6 @@ Consume: No
 Scope: None
 Occasion: Never
 Ingredients: [["Iron Ore", 5], ["Copper Ore", 2], ["Tin Ore", 1], ["Silver Ore", 1], ["Powder Snow", 3], ["Unmelting Ice", 1]]
-Dropped By: [["William", "100%"], ["William", "100%"]]
 Used for making: ["Windshear Crescent", "Prophet's Omen", "Soulcleave Sabre", "Beacon of Valour", "Precursor of Virtue", "Harbinger of Sin", "Legend's Safeguard", "Diadem of the Past", "Prismatic Morphguard", "Resplendant Seraph", "Consciousness Manipulator"]
 ---
 Id 166: Cold Steel Lager
@@ -1859,7 +1833,7 @@ Purchasable from: ["Bill'sBlacksmith"]
 Id 189: Hydrocraft Handbook
 Desc: Dive into this meticulously curated volume and learn to harness the power of the seas.
 Type: Key
-Price: 2000G
+Price: 0G
 Consume: No
 Scope: None
 Occasion: Only from the Menu

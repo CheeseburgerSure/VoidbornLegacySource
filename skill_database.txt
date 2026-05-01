@@ -214,6 +214,89 @@ Critical: true
 Scope: One Enemy
 Effects and Traits: [["Add State: ", "Burn", "15%"], ["Add State: ", "Bleeding", "10%"]]
 ---
+Id 26: Armour Leech
+Desc: An attack that lowers the target's DEF while bolstering your own. Damage is doubled if you have more DEF than the target.
+Skill Class: Abilites
+Cost: 15MP
+Skill Type: HP Damage
+Formula: ((a.atk * 2) + a.mat - b.def) * (a.def > b.def ? 2 : 1)
+Variance: 15
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add Debuff: ", "DEF", "4 turns"], ["User Buff: ", "DEF"]]
+---
+Id 27: Bastion Eternal
+Desc: Become the immovable object. For 6 turns, your MHP, DEF, and MDF cannot be lowered by any means.
+Skill Class: Abilites
+Cost: 30PR
+Scope: The User
+Effects and Traits: [["Add State: ", "Bastion Eternal", "100%"]]
+---
+Id 28: Ifrad est Victoria!
+Desc: \}Our station is our home, we shall guard it with our life! Recover 15% HP and MP, then for 10 turns, your PDR and MDR will increase when attacked.
+Skill Class: Abilites
+Cost: 50PR
+Scope: The User
+Effects and Traits: [["Add State: ", "Ifrad est Victoria!", "100%"], ["Recover HP: ", "15%", ""], ["Recover MP: ", "15%", ""]]
+---
+Id 29: Spawn Burden
+Desc: Infest a hapless ally with eggs, forcing them to bear your offspring upon their death.
+Skill Class: Abilites
+Cost: 30PR
+Skill Type: HP Damage
+Formula: b.incubate_source = a.enemy_id; 100
+Variance: 50
+Critical: false
+Scope: One Ally
+Effects and Traits: [["Add State: ", "Incubating...", "100%"]]
+---
+Id 30: Womb of the Swarm
+Desc: Infest all your allies with eggs and raise the brood!
+Skill Class: Abilites
+Cost: 65PR
+Skill Type: HP Damage
+Formula: b.incubate_source = a.enemy_id; 150
+Variance: 50
+Critical: false
+Scope: All but User
+Effects and Traits: [["Add State: ", "Incubating...", "90%"]]
+---
+Id 31: Haunt
+Desc: Invade the mind of a target individual, causing them to Hallucinate and panic. Also inflicts some MP damage.
+Skill Class: Abilites
+Cost: 60MP
+Skill Type: MP Damage
+Formula: 50 + (a.mat / 3)
+Element: Soul/Dark
+Variance: 10
+Critical: false
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Hallucinating", "100%"], ["Add State: ", "Fear", "15%"], ["Add State: ", "Hopeless", "10%"]]
+---
+Id 32: Possess
+Desc: \}With desperation for a new life, breach the soul of an ally, taking control. Greatly restore the target and grant various boons.
+Skill Class: Abilites
+Cost: 50PR
+Scope: One Ally
+Effects and Traits: [["Add State: ", "Possessed", "100%"]]
+---
+Id 33: Hot Slime
+Desc: Splash heated slime against a target. Good chance to Burn.
+Skill Class: Abilites
+Cost: 10PR
+Skill Type: HP Damage
+Formula: (a.atk * 2) + (a.mat * 2) - (b.mdf * 2)
+Element: Fire/Dark
+Variance: 5
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["Add State: ", "Burn", "15%"]]
+---
+Id 34: Wonder and Whimsy
+Desc: 
+Skill Class: None
+Scope: None
+---
 Id 35: Hazardous Glow
 Desc: Glow with radiation, damagaing foes MP.
 Skill Class: Abilites
@@ -312,13 +395,6 @@ Skill Class: Magic
 Cost: 7MP
 Scope: All Enemies
 Effects and Traits: [["Add Debuff: ", "MDF", "5 turns"]]
----
-Id 48: Slow Move
-Desc: Lower all enemies' AGI.
-Skill Class: Magic
-Cost: 6MP
-Scope: All Enemies
-Effects and Traits: [["Add Debuff: ", "AGI", "5 turns"]]
 ---
 Id 49: Life Drain
 Desc: Drains HP from one enemy.
@@ -1176,7 +1252,7 @@ Scope: One Ally
 Effects and Traits: [["Remove State: ", "Poison", "100%"], ["Remove State: ", "Headache", "100%"], ["Remove State: ", "Confusion", "100%"]]
 ---
 Id 136: Exploit Weakness
-Desc: Hit your opponent at a weakpoint that can open up a weakness. Likely to lower DEF.
+Desc: A light attack to your opponent in a place that can expose a weakness, lowering DEF.
 Skill Class: Abilites
 Cost: 5PR
 Skill Type: HP Damage
@@ -1269,7 +1345,7 @@ Skill Type: HP Damage
 Formula: (a.mat * 4 - b.mdf * 2) + 125
 Element: Light/Dark
 Variance: 25
-Critical: true
+Critical: false
 Scope: One Enemy
 ---
 Id 146: Snowball
@@ -1285,7 +1361,7 @@ Scope: One Enemy
 Effects and Traits: [["Add State: ", "Freezing", "20%"], ["User Buff: ", "MAT"]]
 ---
 Id 147: Dark Thrust
-Desc: Imbues your weapon with the power of darkness. Good chance to inflict fear.
+Desc: Imbues your weapon with the power of darkness. Good chance to inflict Fear.
 Skill Class: Abilites
 Cost: 30MP
 Skill Type: HP Damage
@@ -1346,7 +1422,7 @@ Scope: All Allies
 Effects and Traits: [["Add State: ", "Dark Shroud", "100%"], ["Recover HP: ", "15%", ""]]
 ---
 Id 153: Leadership
-Desc: \}Only a true leader can utilise their team to their full strength. Raises the ATK, DEF, HIT, and counter chance of all allies.
+Desc: \}Only a true leader can utilise their team to their full strength. Raises the ATK, DEF, HIT, and CNT of all allies.
 Skill Class: Abilites
 Cost: 30PR
 Scope: All Allies
@@ -1442,7 +1518,7 @@ Skill Type: HP Damage
 Formula: (a.mat * 4 - b.mdf * 2) + 100
 Element: Light/Dark
 Variance: 15
-Critical: true
+Critical: false
 Scope: All Enemies
 ---
 Id 163: Sub-Zero (Hostiles)
@@ -1481,7 +1557,7 @@ Desc: Clears all foes of any buffs (including States) and throws off their guard
 Skill Class: Magic
 Cost: 55MP
 Scope: All Enemies
-Effects and Traits: [["Remove Buff: ", "MHP"], ["Remove Buff: ", "MMP"], ["Remove Buff: ", "ATK"], ["Remove Buff: ", "DEF"], ["Remove Buff: ", "MAT"], ["Remove Buff: ", "MDF"], ["Remove Buff: ", "AGI"], ["Remove Buff: ", "LUK"], ["Remove State: ", "Magic Reflect", "100%"], ["Remove State: ", "Aura of Earth", "100%"], ["Remove State: ", "Parry Mode", "100%"], ["Remove State: ", "Aura of Storms", "100%"], ["Remove State: ", "Aura of Darkness", "100%"], ["Remove State: ", "Aura of Light", "100%"], ["Remove State: ", "Aura of Vapour", "100%"], ["Remove State: ", "Aura of Flames", "100%"], ["Remove State: ", "Aura of Souls", "100%"], ["Remove State: ", "Tailwind", "100%"], ["Remove State: ", "Winter", "100%"], ["Remove State: ", "Ice Wall", "100%"], ["Remove State: ", "Guard", "100%"], ["Remove State: ", "Bunkered Down", "100%"], ["Remove State: ", "Mystic Armour", "100%"], ["Remove State: ", "Dark Shroud", "100%"], ["Remove State: ", "Particle Shell", "100%"], ["Remove State: ", "Flameskin", "100%"], ["Remove State: ", "Magic Might", "100%"], ["Remove State: ", "TempImmortal", "100%"], ["Remove State: ", "Provoke", "100%"], ["Remove State: ", "Holy Aura", "100%"], ["Remove State: ", "Force of the Air", "100%"], ["Remove State: ", "Wrath of Darkness", "100%"], ["Remove State: ", "Inspired", "100%"], ["Remove State: ", "Particle Shell", "100%"], ["Remove State: ", "Hawk-Eyed", "100%"], ["Remove State: ", "Leadership", "100%"], ["Remove State: ", "Terraform", "100%"], ["Remove State: ", "Camouflaged", "100%"], ["Remove State: ", "Drought", "100%"], ["Remove State: ", "Drums of Ivory", "100%"], ["Remove State: ", "Coiled", "100%"], ["Remove State: ", "Arid Desolation", "100%"], ["Remove State: ", "Standing Stones", "100%"], ["Remove State: ", "Intangible", "100%"], ["Remove State: ", "Illusory Clones", "100%"], ["Remove State: ", "Weigh Anchor", "100%"], ["Remove State: ", "Land Ahoy!", "100%"], ["Remove State: ", "Heave Ho!", "100%"], ["Remove State: ", "Congealed", "100%"]]
+Effects and Traits: [["Remove Buff: ", "MHP"], ["Remove Buff: ", "MMP"], ["Remove Buff: ", "ATK"], ["Remove Buff: ", "DEF"], ["Remove Buff: ", "MAT"], ["Remove Buff: ", "MDF"], ["Remove Buff: ", "AGI"], ["Remove Buff: ", "LUK"], ["Remove State: ", "Magic Reflect", "100%"], ["Remove State: ", "Aura of Earth", "100%"], ["Remove State: ", "Parry Mode", "100%"], ["Remove State: ", "Aura of Storms", "100%"], ["Remove State: ", "Aura of Darkness", "100%"], ["Remove State: ", "Aura of Light", "100%"], ["Remove State: ", "Aura of Vapour", "100%"], ["Remove State: ", "Aura of Flames", "100%"], ["Remove State: ", "Aura of Souls", "100%"], ["Remove State: ", "Tailwind", "100%"], ["Remove State: ", "Winter", "100%"], ["Remove State: ", "Ice Wall", "100%"], ["Remove State: ", "Guard", "100%"], ["Remove State: ", "Bunkered Down", "100%"], ["Remove State: ", "Mystic Armour", "100%"], ["Remove State: ", "Dark Shroud", "100%"], ["Remove State: ", "Particle Shell", "100%"], ["Remove State: ", "Flameskin", "100%"], ["Remove State: ", "Magic Might", "100%"], ["Remove State: ", "Temp. Immortal", "100%"], ["Remove State: ", "Provoke", "100%"], ["Remove State: ", "Holy Aura", "100%"], ["Remove State: ", "Force of the Air", "100%"], ["Remove State: ", "Wrath of Darkness", "100%"], ["Remove State: ", "Inspired", "100%"], ["Remove State: ", "Particle Shell", "100%"], ["Remove State: ", "Hawk-Eyed", "100%"], ["Remove State: ", "Leadership", "100%"], ["Remove State: ", "Terraform", "100%"], ["Remove State: ", "Camouflaged", "100%"], ["Remove State: ", "Drought", "100%"], ["Remove State: ", "Drums of Ivory", "100%"], ["Remove State: ", "Coiled", "100%"], ["Remove State: ", "Arid Desolation", "100%"], ["Remove State: ", "Standing Stones", "100%"], ["Remove State: ", "Intangible", "100%"], ["Remove State: ", "Illusory Clones", "100%"], ["Remove State: ", "Weigh Anchor", "100%"], ["Remove State: ", "Land Ahoy!", "100%"], ["Remove State: ", "Heave Ho!", "100%"], ["Remove State: ", "Congealed", "100%"]]
 ---
 Id 167: Sacred Light
 Desc: Heal all allies significantly and cures Fear.
@@ -1568,7 +1644,7 @@ Desc: Gives temporary immortality to a single ally.
 Skill Class: Magic
 Cost: 150MP
 Scope: One Ally
-Effects and Traits: [["Add State: ", "TempImmortal", "100%"]]
+Effects and Traits: [["Add State: ", "Temp. Immortal", "100%"]]
 ---
 Id 176: Impale
 Desc: Violently stab your opponent, inflicting huge damage that ignores DEF. Extreme chance to bleed.
@@ -1702,12 +1778,12 @@ Skill Class: Abilites
 Scope: The User
 Effects and Traits: [["Remove State: ", "Bunkered Down", "100%"]]
 ---
-Id 190: Freezing Flame
-Desc: A combination attack of fire and ice. High damage and can Freeze or Burn.
+Id 190: Temperature Shock
+Desc: An attack that exploits a targets's afflictions. Good damage that doubles if the target is Freezing or Burned. Quadrupled if both.
 Skill Class: Magic
-Cost: 40MP
+Cost: 50MP
 Skill Type: HP Damage
-Formula: 300 + (a.mat * 4 - b.mdf)
+Formula: c = 300 + (a.mat * 4 - b.mdf); c*=2 if b.state?(26); c*=2 if b.state?(30); c
 Element: Fire/Ice
 Variance: 15
 Critical: true
@@ -2236,15 +2312,15 @@ Scope: One Enemy
 Effects and Traits: [["Add State: ", "Wet", "50%"]]
 ---
 Id 251: Absolution
-Desc: Free someone of their burdens. Removes Silence, Confusion, any curses, Hopelessness, Hexed, and Weakening Field.
+Desc: \}Free someone of their burdens. Removes Silence, Confusion, any curses, Hopelessness, Hexed, Hallucinations, and Weakening Field.
 Skill Class: Magic
-Cost: 50MP
+Cost: 75MP
 Skill Type: HP Recover
 Formula: 50 + a.mat
 Variance: 99
 Critical: false
 Scope: One Ally
-Effects and Traits: [["Remove State: ", "Silence", "100%"], ["Remove State: ", "Confusion", "100%"], ["Remove State: ", "Hopeless", "100%"], ["Remove State: ", "Curse of the Doomed", "100%"], ["Remove State: ", "Curse of the Debilitated", "100%"], ["Remove State: ", "Curse of the Feeble", "100%"], ["Remove State: ", "Curse of the Laggard", "100%"], ["Remove State: ", "Curse of the Soulless", "100%"], ["Remove State: ", "Hexed", "100%"], ["Remove State: ", "Weakening Field", "100%"]]
+Effects and Traits: [["Remove State: ", "Silence", "100%"], ["Remove State: ", "Confusion", "100%"], ["Remove State: ", "Hopeless", "100%"], ["Remove State: ", "Curse of the Doomed", "100%"], ["Remove State: ", "Curse of the Debilitated", "100%"], ["Remove State: ", "Curse of the Feeble", "100%"], ["Remove State: ", "Curse of the Laggard", "100%"], ["Remove State: ", "Curse of the Soulless", "100%"], ["Remove State: ", "Hexed", "100%"], ["Remove State: ", "Weakening Field", "100%"], ["Remove State: ", "Hallucinating", "100%"]]
 ---
 Id 252: Drums of Ivory
 Desc: The drums of Excellion shall sound once again. All allies gain many powerful buffs.
@@ -2254,7 +2330,7 @@ Scope: All Allies
 Effects and Traits: [["Add State: ", "Drums of Ivory", "100%"]]
 ---
 Id 253: Bones Heal Stronger
-Desc: Heal your fellow skeleton and grant them a permanent DEF buff.
+Desc: Heal your fellow skeleton and permanently increase their base DEF and MDF.
 Skill Class: Magic
 Cost: 20MP
 Skill Type: HP Recover
@@ -2262,7 +2338,6 @@ Formula: a.mat * 3
 Variance: 15
 Critical: false
 Scope: One Ally
-Effects and Traits: [["Add Buff: ", "DEF", "1000 turns"]]
 ---
 Id 254: Words Will Never Hurt Me
 Desc: Silences a target.
@@ -2359,10 +2434,6 @@ Id 267: Scavenge
 Desc: Eat the remains of a fallen comrade.
 Skill Class: Abilites
 Cost: 20PR
-Skill Type: HP Damage
-Formula: p a.hp; a.hp += b.mhp; p a.hp; b.mhp
-Variance: 0
-Critical: false
 Scope: One Ally (Dead)
 ---
 Id 268: Sandscreen
@@ -2618,6 +2689,17 @@ Variance: 20
 Critical: false
 Scope: All Enemies
 ---
+Id 301: Pirouette
+Desc: Gracefully strike an opponent with a knife while remaining hard to hit.
+Skill Class: Abilites
+Cost: 10PR
+Skill Type: HP Damage
+Formula: a.atk * 3 - b.def
+Variance: 15
+Critical: true
+Scope: One Enemy
+Effects and Traits: [["User State: ", "Pirouette"]]
+---
 Id 302: Bolster
 Desc: Steel up your allies and slightly increase DEF for 4 turns.
 Skill Class: Magic
@@ -2662,16 +2744,16 @@ Scope: The User
 Effects and Traits: [["Add State: ", "Intangible", "100%"]]
 ---
 Id 308: Bramble Lash
-Desc: Wielding a thick whip of a thorny vine, attack your target with a good chance to bleed.
+Desc: Wielding a thick whip of a thorny vine, attack your target with a good chance to Bleed.
 Skill Class: Abilites
-Cost: 25PR
+Cost: 20PR
 Skill Type: HP Damage
 Formula: 150 + (a.atk * 4 - b.def * 2)
 Element: Nature/Dark
 Variance: 10
 Critical: true
 Scope: One Enemy
-Effects and Traits: [["Add State: ", "Bleeding", "20%"]]
+Effects and Traits: [["Add State: ", "Bleeding", "25%"]]
 ---
 Id 309: Verdant Flourish
 Desc: Your powers bloom. Greatly heal yourself and buff ATK and DEF.
@@ -2822,8 +2904,8 @@ Desc: Transfer \fievery single\fr state from the user to a target enemy.
 Skill Class: Magic
 Cost: 100MP
 Skill Type: HP Damage
-Formula: a.states.each {|state| b.add_state(state.id)}; a.clear_states; 0
-Variance: 0
+Formula: a.states.each {|state| b.add_state(state.id)}; a.clear_states; 500
+Variance: 50
 Critical: false
 Scope: One Enemy
 ---
@@ -2877,8 +2959,8 @@ Critical: false
 Scope: All Enemies
 ---
 Id 333: Comfort
-Desc: \}\V[93] loves you and is showing affection. Recovers a small amount of HP and removes some niche states such as Swarmed or Constricted. Can also remove Fear, Savage, or Hopeless at a reduced rate.
-Skill Class: Abilites
+Desc: \}\V[93] loves you and is showing affection. Recovers some HP and removes some niche states such as Swarmed or Constricted. Can also remove Fear, Savage, or Hopeless at a reduced rate.
+Skill Class: Unique
 Skill Type: HP Recover
 Formula: (50 + $game_variables[97]) * $game_variables[95]
 Element: Unique
@@ -3036,7 +3118,7 @@ Variance: 75
 Critical: true
 Scope: One Enemy
 ---
-Id 388: Opportunist’s Instinct
+Id 388: Opportunist's Instinct
 Desc: \}For a short time, your team gains a buff upon a critical hit. Boost ATK and LUK when they inflict a crit or massively buff DEF and EVA if they receive one.
 Skill Class: Abilites
 Cost: 15PR
@@ -3051,11 +3133,11 @@ Scope: All Allies
 Effects and Traits: [["Add State: ", "Expert's Insight", "100%"]]
 ---
 Id 390: The Best Offence
-Desc: Slam into your target with your entire bodyweight. If your DEF is over 300, the damage is doubled.
+Desc: Slam into your target with your entire bodyweight. If your DEF is over 500, the damage is tripled.
 Skill Class: Abilites
-Cost: 30PR
+Cost: 40PR
 Skill Type: HP Damage
-Formula: c=(a.atk*3)+a.def-(b.def*3); c*=2 if a.def>=300; c
+Formula: c = (a.atk * 3) + a.def - (b.def * 3); c *= 3 if a.def >= 500; c
 Variance: 25
 Critical: true
 Scope: One Enemy
@@ -3075,8 +3157,8 @@ Desc: Restore some MP to all allies besides the user.
 Skill Class: Magic
 Cost: 30MP
 Skill Type: MP Recover
-Formula: 30 + (a.mat / 25)
-Variance: 15
+Formula: 30 + (a.mmp / 3)
+Variance: 0
 Critical: false
 Scope: All but User
 ---
@@ -3207,7 +3289,7 @@ Effects and Traits: [["Add State: ", "Thorned", "100%"], ["Add State: ", "Burn",
 Id 405: Sub-Zero Conduit
 Desc: \}Slash a target with icicles that form a conductive network, then run a current through them to zap their allies. Can Bleed or Freeze the first target, then Paralyze the rest.
 Skill Class: Magic
-Cost: 90MP
+Cost: 110MP
 Skill Type: HP Damage
 Formula: (a.mat * 3 - b.def - b.mdf) + 200
 Element: Ice/Storm
@@ -3334,6 +3416,17 @@ Critical: true
 Scope: One Enemy
 Effects and Traits: [["Add State: ", "Stun", "50%"], ["Add State: ", "Wet", "80%"]]
 ---
+Id 416: ((Ifris Evade Burst))
+Desc: 
+Skill Class: None
+Skill Type: HP Damage
+Formula: a.mat + 100
+Element: Fire/Dark
+Variance: 10
+Critical: false
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Burn", "10%"]]
+---
 Id 417: Water/Light
 Desc: 
 Skill Class: Abilites
@@ -3380,15 +3473,17 @@ Critical: false
 Scope: All Enemies
 Effects and Traits: [["Add State: ", "Blind", "40%"], ["Add State: ", "Knocked Over", "60%"], ["Add State: ", "Confusion", "55%"]]
 ---
-Id 421: Earth/Light
-Desc: 
-Skill Class: Abilites
+Id 421: Sacred Burial
+Desc: \}Deals good damage to all foes. If there are any dead members among them, prevents them being revived or otherwise interacted with. Very likely to also Silence.
+Skill Class: Magic
+Cost: 100MP
 Skill Type: HP Damage
-Formula: 0
+Formula: a.atk * 4 - b.mdf
 Element: Earth/Light
 Variance: 20
 Critical: false
-Scope: One Enemy
+Scope: All Enemies
+Effects and Traits: [["Add State: ", "Silence", "75%"]]
 ---
 Id 422: Desecrate
 Desc: \}Forcibly return a fallen ally to the living. 90% chance to revive, but does not heal much and they might acquire multiple ailments.
@@ -3400,17 +3495,19 @@ Element: Earth/Dark
 Variance: 25
 Critical: false
 Scope: One Ally (Dead)
-Effects and Traits: [["Add State: ", "Plagued", "8%"], ["Add State: ", "Blind", "10%"], ["Add State: ", "Fear", "12%"], ["Add State: ", "Freezing", "12%"], ["Add State: ", "Stun", "10%"], ["Add State: ", "Silence", "8%"]]
+Effects and Traits: [["Remove State: ", "Death", "100%"], ["Add State: ", "Plagued", "8%"], ["Add State: ", "Blind", "10%"], ["Add State: ", "Fear", "12%"], ["Add State: ", "Freezing", "12%"], ["Add State: ", "Stun", "10%"], ["Add State: ", "Silence", "8%"]]
 ---
-Id 423: Earth/Nature
-Desc: 
-Skill Class: Abilites
+Id 423: Parasitic Roots
+Desc: \}Prey on a target's nutritional value and attack with thick roots. If successful, restricts their movement and you leech 8% health from them each turn. Doubled against plants.
+Skill Class: Magic
+Cost: 65MP
 Skill Type: HP Damage
-Formula: 0
+Formula: b.parasite_source = a; (a.atk * 4) + a.mat - b.def * 2 - b.mdf
 Element: Earth/Nature
 Variance: 20
 Critical: false
 Scope: One Enemy
+Effects and Traits: [["Add State: ", "Parasitic Roots", "100%"]]
 ---
 Id 424: Firenado
 Desc: \}A vortex of air whirls flame high into the sky, creating a volatile column of fire, smoke, and ash. Damage, Burn chance, and cost increase on consecutive uses.
@@ -3441,7 +3538,7 @@ Desc: \}Completely overshadow your target, draining their HP and instilling Fear
 Skill Class: Magic
 Cost: 70MP
 Skill Type: HP Drain
-Formula: (a.mat * 3 - b.mdf)*[1 + ((a.hp - b.hp)/1000), 1].max
+Formula: (a.mat * 3 - b.mdf)* (1 + ((a.hp - b.hp)/1000))
 Element: Light/Dark
 Variance: 20
 Critical: false
@@ -3458,12 +3555,12 @@ Element: Light/Nature
 Variance: 5
 Critical: true
 Scope: One Ally
-Effects and Traits: [["Recover HP: ", "35%", ""], ["Remove State: ", "Death", "100%"]]
+Effects and Traits: [["Remove State: ", "Death", "100%"], ["Recover HP: ", "35%", ""]]
 ---
 Id 428: Necromorphosis
 Desc: May fail. Invoke a target to rot as they breathe, gradually deteriorating more and more each turn and unable to heal.
 Skill Class: Magic
-Cost: 140MP
+Cost: 180MP
 Skill Type: HP Damage
 Formula: (a.mat * 4 - b.mdf) + 250
 Element: Dark/Nature
@@ -3471,4 +3568,50 @@ Variance: 15
 Critical: false
 Scope: One Enemy
 Effects and Traits: [["Add State: ", "Necromorphosis", "100%"]]
+---
+Id 429: Bless our Blades
+Desc: \}Call upon the Almighty to grace your weapons so that you may claim victory in His name. Raises ATK, HIT, CRI, and gain Light as an Attack Element.
+Skill Class: Abilites
+Cost: 60MP
+Scope: All Allies
+Effects and Traits: [["Add State: ", "Bless our Blades", "100%"]]
+---
+Id 430: Steel our Wills
+Desc: \}Call upon the Almighty to bestow great courage and fortitude among your allies. Raises DEF, EVA, CEV, and immunity to Fear and Hopelessness.
+Skill Class: Abilites
+Cost: 60MP
+Scope: All Allies
+Effects and Traits: [["Add State: ", "Steel our Wills", "100%"]]
+---
+Id 431: Double-Time It!
+Desc: "Come on, pick those legs up, get in there!". Raises allies AGI and EVA, also chance for an additional action.
+Skill Class: Abilites
+Cost: 10PR
+Scope: All Allies
+Effects and Traits: [["Add State: ", "Double-Time It!", "100%"]]
+---
+Id 432: Read the Field
+Desc: \}Any leader can bark orders, but the best ones know to consider what they're opponent is doing. Applies buffs to allies dependant on current enemy mindsets.
+Skill Class: Abilites
+Cost: 15PR
+Scope: The User
+---
+Id 433: Load
+Desc: Place a new, random elemental ammunition disc into your Symbol Breaker.
+Skill Class: Abilites
+Skill Type: HP Damage
+Formula: s=[179,180,181,182,183,184,185,186,187]; a.add_state(s.sample); 0
+Variance: 0
+Critical: false
+Scope: The User
+Effects and Traits: [["Add Buff: ", "ATK", "2 turns"], ["Add Buff: ", "MAT", "1 turns"]]
+---
+Id 434: Fire!
+Desc: Fire the loaded elemental disc at a target!
+Skill Class: Abilites
+Skill Type: HP Damage
+Formula: ((a.atk * 4) + a.mat) - (b.mdf) + 150
+Variance: 15
+Critical: true
+Scope: One Enemy
 ---
