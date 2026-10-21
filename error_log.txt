@@ -1,11 +1,7 @@
-Fast Travel Menu:231:in `confirm_node': undefined method `gold=' for #<Game_Party:0x1300d4e0>, NoMethodError
-	from Window_Selectable:212:in `call'
-	from Window_Selectable:212:in `call_handler'
-	from Window_Command:136:in `call_ok_handler'
-	from Window_Selectable:322:in `process_ok'
-	from Window_Selectable:297:in `process_handling'
-	from Crafting:859:in `process_handling'
-	from Window_Selectable:276:in `update'
+Fast Travel Menu:112:in `last_subnode': undefined method `[]' for nil:NilClass, NoMethodError
+	from Fast Travel Menu:178:in `cursor_left'
+	from CoreEngine:816:in `process_cursor_move'
+	from Window_Selectable:275:in `update'
 	from Scene_Base:95:in `block in update_all_windows'
 	from Scene_Base:93:in `each'
 	from Scene_Base:93:in `update_all_windows'
@@ -13,5 +9,5 @@ Fast Travel Menu:231:in `confirm_node': undefined method `gold=' for #<Game_Part
 	from Scene_Base:41:in `update'
 	from Scene_Base:14:in `main'
 	from SceneManager:23:in `run'
-	from Mapshot:1016:in `run'
+	from Mapshot:1030:in `run'
 	from Main:10:in `block in <main>'
